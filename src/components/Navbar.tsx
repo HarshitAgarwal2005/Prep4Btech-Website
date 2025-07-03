@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Search, Menu, X, BookOpen, Sparkles } from 'lucide-react';
+import { Search, Menu, X, BookOpen, Sparkles, ArrowLeft } from 'lucide-react';
 
 interface NavbarProps {
   onSearch: (query: string) => void;
@@ -15,11 +15,11 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'Year', path: '/year' },
-    { name: 'RTU Syllabus', path: '/rtu-syllabus' },
     { name: 'Assignments', path: '/assignments' },
     { name: 'Books', path: '/books' },
     { name: 'Projects', path: '/projects' },
     { name: 'PYQ Papers', path: '/pyq-papers' },
+    { name: 'RTU Syllabus', path: '/rtu-syllabus' },
     { name: 'Contact', path: '/contact' }
   ];
 
@@ -32,27 +32,47 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
     }
   };
 
+  const handleBackClick = () => {
+    if (window.history.length > 1) {
+      navigate(-1);
+    } else {
+      navigate('/');
+    }
+  };
+
   return (
     <nav className="bg-white/90 dark:bg-gray-900/90 backdrop-blur-xl border-b border-gray-200/50 dark:border-gray-700/50 sticky top-0 z-40 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3 group">
-            <div className="relative">
-              <div className="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 p-2 rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300">
-                <BookOpen className="h-6 w-6 text-white" />
+          {/* Back Button + Logo */}
+          <div className="flex items-center space-x-3">
+            {/* Back Button */}
+            <button
+              onClick={handleBackClick}
+              className="p-2 rounded-xl text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-300 group"
+              title="Go back"
+            >
+              <ArrowLeft className="h-5 w-5 group-hover:scale-110 transition-transform" />
+            </button>
+
+            {/* Logo */}
+            <Link to="/" className="flex items-center space-x-3 group">
+              <div className="relative">
+                <div className="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 p-2 rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300">
+                  <BookOpen className="h-6 w-6 text-white" />
+                </div>
+                <div className="absolute -top-1 -right-1">
+                  <Sparkles className="h-4 w-4 text-yellow-400 animate-pulse" />
+                </div>
               </div>
-              <div className="absolute -top-1 -right-1">
-                <Sparkles className="h-4 w-4 text-yellow-400 animate-pulse" />
+              <div>
+                <span className="text-xl font-bold bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
+                  StudyHub
+                </span>
+                <div className="text-xs text-gray-500 dark:text-gray-400 -mt-1">by Harshit</div>
               </div>
-            </div>
-            <div>
-              <span className="text-xl font-bold bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                StudyHub
-              </span>
-              <div className="text-xs text-gray-500 dark:text-gray-400 -mt-1">by Harshit</div>
-            </div>
-          </Link>
+            </Link>
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-1">

@@ -3,15 +3,15 @@ import {
   FileText, 
   Calendar, 
   BookOpen, 
-  ChevronDown, 
-  ChevronRight, 
   Eye, 
   Upload, 
   Plus,
   CheckCircle,
-  AlertCircle,
   Users,
-  GraduationCap
+  GraduationCap,
+  ArrowLeft,
+  Search,
+  Filter
 } from 'lucide-react';
 import { useDeveloperAuth } from './Contact';
 
@@ -49,10 +49,10 @@ interface AcademicYear {
 }
 
 const Assignments: React.FC = () => {
-  const [selectedYear, setSelectedYear] = useState<string | null>(null);
-  const [selectedSemester, setSelectedSemester] = useState<string | null>(null);
-  const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
-  const [selectedAssignment, setSelectedAssignment] = useState<Assignment | null>(null);
+  const [selectedYear, setSelectedYear] = useState<number | null>(null);
+  const [selectedSemester, setSelectedSemester] = useState<Semester | null>(null);
+  const [selectedSubject, setSelectedSubject] = useState<Subject | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
   const [showUploadModal, setShowUploadModal] = useState(false);
   const [uploadingSubject, setUploadingSubject] = useState<string | null>(null);
 
@@ -429,8 +429,9 @@ const Assignments: React.FC = () => {
     }
   ];
 
+  const filteredYears = selectedYear ? academicYears.filter(y => y.year === selectedYear) : academicYears;
+
   const handleAssignmentView = (assignment: Assignment) => {
-    setSelectedAssignment(assignment);
     // In a real implementation, this would open the document in a viewer
     window.open(assignment.documentUrl, '_blank');
   };
@@ -438,6 +439,22 @@ const Assignments: React.FC = () => {
   const handleUploadAssignment = (subjectId: string) => {
     setUploadingSubject(subjectId);
     setShowUploadModal(true);
+  };
+
+  const handleSemesterClick = (semester: Semester) => {
+    setSelectedSemester(semester);
+  };
+
+  const handleSubjectClick = (subject: Subject) => {
+    setSelectedSubject(subject);
+  };
+
+  const goBack = () => {
+    if (selectedSubject) {
+      setSelectedSubject(null);
+    } else if (selectedSemester) {
+      setSelectedSemester(null);
+    }
   };
 
   const AssignmentUploadModal: React.FC = () => (
@@ -500,7 +517,8 @@ const Assignments: React.FC = () => {
 
       <div className="relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          {/* Header */}
+          <div className="text-center mb-12">
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-4">
               Assignments 📝
             </h1>
@@ -520,193 +538,279 @@ const Assignments: React.FC = () => {
             </div>
           )}
 
-          {/* Academic Years Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            {academicYears.map((year) => (
-              <div
-                key={year.id}
-                className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl border border-white/20 dark:border-gray-700/20 overflow-hidden"
-              >
-                {/* Year Header */}
-                <div className={`bg-gradient-to-r ${year.color} p-6 text-white`}>
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <h2 className="text-2xl font-bold">{year.title}</h2>
-                      <p className="text-white/90">{year.description}</p>
-                    </div>
-                    <GraduationCap className="h-8 w-8" />
-                  </div>
+          {/* Back Navigation */}
+          {(selectedSemester || selectedSubject) && (
+            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 mb-8 border border-white/20 dark:border-gray-700/20">
+              <div className="flex items-center justify-between">
+                <button
+                  onClick={goBack}
+                  className="flex items-center text-blue-600 hover:text-blue-700 transition-colors"
+                >
+                  <ArrowLeft className="h-5 w-5 mr-2" />
+                  Back
+                </button>
+                <div className="text-sm text-gray-600 dark:text-gray-300">
+                  {selectedSubject ? `${selectedSemester?.title} > ${selectedSubject.name}` : selectedSemester?.title}
                 </div>
+              </div>
+            </div>
+          )}
 
-                {/* Semesters */}
-                <div className="p-6">
-                  <div className="space-y-4">
-                    {year.semesters.map((semester) => (
-                      <div key={semester.id} className="border border-gray-200 dark:border-gray-600 rounded-xl overflow-hidden">
-                        {/* Semester Header */}
-                        <button
-                          onClick={() => setSelectedSemester(selectedSemester === semester.id ? null : semester.id)}
-                          className="w-full p-4 bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors flex items-center justify-between"
-                        >
-                          <div className="flex items-center">
-                            <Calendar className="h-5 w-5 text-blue-600 mr-3" />
-                            <span className="font-semibold text-gray-900 dark:text-white">{semester.title}</span>
-                          </div>
-                          {selectedSemester === semester.id ? (
-                            <ChevronDown className="h-5 w-5 text-gray-600 dark:text-gray-300" />
-                          ) : (
-                            <ChevronRight className="h-5 w-5 text-gray-600 dark:text-gray-300" />
-                          )}
-                        </button>
-
-                        {/* Subjects (Expandable) */}
-                        {selectedSemester === semester.id && (
-                          <div className="p-4 bg-white dark:bg-gray-800">
-                            <div className="grid grid-cols-1 gap-3">
-                              {semester.subjects.map((subject) => (
-                                <div
-                                  key={subject.id}
-                                  className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-4 border border-blue-100 dark:border-blue-800"
-                                >
-                                  <button
-                                    onClick={() => setSelectedSubject(selectedSubject === subject.id ? null : subject.id)}
-                                    className="w-full flex items-center justify-between"
-                                  >
-                                    <div className="flex items-center">
-                                      <BookOpen className="h-5 w-5 text-blue-600 mr-3" />
-                                      <div className="text-left">
-                                        <h4 className="font-semibold text-gray-900 dark:text-white">{subject.code}</h4>
-                                        <p className="text-sm text-gray-600 dark:text-gray-300">{subject.name}</p>
-                                        <p className="text-xs text-blue-600 dark:text-blue-400">
-                                          {subject.assignments.length} assignments
-                                        </p>
-                                      </div>
-                                    </div>
-                                    <div className="flex items-center space-x-2">
-                                      {isAuthenticated && (
-                                        <button
-                                          onClick={(e) => {
-                                            e.stopPropagation();
-                                            handleUploadAssignment(subject.id);
-                                          }}
-                                          className="p-2 bg-green-100 hover:bg-green-200 text-green-600 rounded-lg transition-colors"
-                                        >
-                                          <Plus className="h-4 w-4" />
-                                        </button>
-                                      )}
-                                      {selectedSubject === subject.id ? (
-                                        <ChevronDown className="h-5 w-5 text-blue-600" />
-                                      ) : (
-                                        <ChevronRight className="h-5 w-5 text-blue-600" />
-                                      )}
-                                    </div>
-                                  </button>
-
-                                  {/* Assignments List */}
-                                  {selectedSubject === subject.id && (
-                                    <div className="mt-4 space-y-3">
-                                      {subject.assignments.length > 0 ? (
-                                        subject.assignments.map((assignment) => (
-                                          <div
-                                            key={assignment.id}
-                                            className="bg-white dark:bg-gray-700 rounded-lg p-4 border border-gray-200 dark:border-gray-600 hover:shadow-md transition-shadow cursor-pointer"
-                                            onClick={() => handleAssignmentView(assignment)}
-                                          >
-                                            <div className="flex items-start space-x-4">
-                                              {/* Assignment Preview Placeholder */}
-                                              <div className="w-16 h-20 bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-600 dark:to-gray-700 rounded-lg flex items-center justify-center flex-shrink-0">
-                                                <FileText className="h-6 w-6 text-gray-500" />
-                                              </div>
-                                              
-                                              {/* Assignment Details */}
-                                              <div className="flex-1">
-                                                <h5 className="font-semibold text-gray-900 dark:text-white mb-1">
-                                                  {assignment.title}
-                                                </h5>
-                                                <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">
-                                                  {assignment.description}
-                                                </p>
-                                                <div className="flex items-center space-x-4 text-xs text-gray-500 dark:text-gray-400">
-                                                  <span>📅 {new Date(assignment.uploadDate).toLocaleDateString()}</span>
-                                                  {assignment.fileSize && <span>📄 {assignment.fileSize}</span>}
-                                                </div>
-                                              </div>
-
-                                              {/* View Button */}
-                                              <button className="p-2 bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-lg transition-colors">
-                                                <Eye className="h-4 w-4" />
-                                              </button>
-                                            </div>
-                                          </div>
-                                        ))
-                                      ) : (
-                                        <div className="text-center py-8">
-                                          <FileText className="h-12 w-12 text-gray-300 mx-auto mb-4" />
-                                          <p className="text-gray-500 dark:text-gray-400">No assignments available</p>
-                                          {isAuthenticated && (
-                                            <button
-                                              onClick={() => handleUploadAssignment(subject.id)}
-                                              className="mt-2 text-blue-600 hover:text-blue-700 text-sm"
-                                            >
-                                              Upload first assignment
-                                            </button>
-                                          )}
-                                        </div>
-                                      )}
-                                    </div>
-                                  )}
-                                </div>
-                              ))}
-                            </div>
-                          </div>
-                        )}
-                      </div>
+          {/* Filter Section */}
+          {!selectedSemester && (
+            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 mb-8 border border-white/20 dark:border-gray-700/20">
+              <div className="flex items-center mb-4">
+                <Filter className="h-6 w-6 text-gray-600 mr-2" />
+                <h2 className="text-lg font-semibold text-gray-900 dark:text-white">Filter Assignments</h2>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {/* Year Filter */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Filter by Year</label>
+                  <div className="flex flex-wrap gap-2">
+                    <button
+                      onClick={() => setSelectedYear(null)}
+                      className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+                        selectedYear === null
+                          ? 'bg-blue-600 text-white'
+                          : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                      }`}
+                    >
+                      All Years
+                    </button>
+                    {[1, 2, 3, 4].map(year => (
+                      <button
+                        key={year}
+                        onClick={() => setSelectedYear(year)}
+                        className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+                          selectedYear === year
+                            ? 'bg-blue-600 text-white'
+                            : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                        }`}
+                      >
+                        Year {year}
+                      </button>
                     ))}
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
 
-          {/* Statistics */}
-          <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 border border-white/20 dark:border-gray-700/20">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">Assignment Statistics</h2>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="bg-gradient-to-r from-blue-500 to-cyan-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                  <Calendar className="h-8 w-8 text-white" />
+                {/* Search */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Search Subjects</label>
+                  <div className="relative">
+                    <input
+                      type="text"
+                      placeholder="Search by subject name or code..."
+                      value={searchQuery}
+                      onChange={(e) => setSearchQuery(e.target.value)}
+                      className="w-full pl-10 pr-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+                    />
+                    <Search className="absolute left-3 top-2.5 h-4 w-4 text-gray-400" />
+                  </div>
                 </div>
-                <h3 className="text-3xl font-bold text-gray-900 dark:text-white">8</h3>
-                <p className="text-gray-600 dark:text-gray-300">Total Semesters</p>
-              </div>
-              <div className="text-center">
-                <div className="bg-gradient-to-r from-green-500 to-emerald-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                  <BookOpen className="h-8 w-8 text-white" />
-                </div>
-                <h3 className="text-3xl font-bold text-gray-900 dark:text-white">40</h3>
-                <p className="text-gray-600 dark:text-gray-300">Total Subjects</p>
-              </div>
-              <div className="text-center">
-                <div className="bg-gradient-to-r from-purple-500 to-pink-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                  <FileText className="h-8 w-8 text-white" />
-                </div>
-                <h3 className="text-3xl font-bold text-gray-900 dark:text-white">
-                  {academicYears.reduce((total, year) => 
-                    total + year.semesters.reduce((semTotal, sem) => 
-                      semTotal + sem.subjects.reduce((subTotal, sub) => 
-                        subTotal + sub.assignments.length, 0), 0), 0)}
-                </h3>
-                <p className="text-gray-600 dark:text-gray-300">Available Assignments</p>
-              </div>
-              <div className="text-center">
-                <div className="bg-gradient-to-r from-orange-500 to-red-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                  <Users className="h-8 w-8 text-white" />
-                </div>
-                <h3 className="text-3xl font-bold text-gray-900 dark:text-white">1000+</h3>
-                <p className="text-gray-600 dark:text-gray-300">Students Helped</p>
               </div>
             </div>
-          </div>
+          )}
+
+          {/* Main Content */}
+          {!selectedSemester ? (
+            /* Year and Semester Selection */
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {filteredYears.map((year) => (
+                <div
+                  key={year.id}
+                  className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl border border-white/20 dark:border-gray-700/20 overflow-hidden"
+                >
+                  {/* Year Header */}
+                  <div className={`bg-gradient-to-r ${year.color} p-6 text-white`}>
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <h2 className="text-2xl font-bold">{year.title}</h2>
+                        <p className="text-white/90">{year.description}</p>
+                      </div>
+                      <GraduationCap className="h-8 w-8" />
+                    </div>
+                  </div>
+
+                  {/* Semesters */}
+                  <div className="p-6">
+                    <div className="grid grid-cols-1 gap-4">
+                      {year.semesters.map((semester) => (
+                        <button
+                          key={semester.id}
+                          onClick={() => handleSemesterClick(semester)}
+                          className="p-4 bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 rounded-xl transition-colors text-left"
+                        >
+                          <div className="flex items-center justify-between">
+                            <div className="flex items-center">
+                              <Calendar className="h-5 w-5 text-blue-600 mr-3" />
+                              <div>
+                                <h3 className="font-semibold text-gray-900 dark:text-white">{semester.title}</h3>
+                                <p className="text-sm text-gray-600 dark:text-gray-300">
+                                  {semester.subjects.length} subjects
+                                </p>
+                              </div>
+                            </div>
+                            <div className="text-blue-600">→</div>
+                          </div>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : !selectedSubject ? (
+            /* Subject Selection */
+            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 border border-white/20 dark:border-gray-700/20">
+              <div className="text-center mb-8">
+                <BookOpen className="h-16 w-16 text-blue-600 mx-auto mb-4" />
+                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Select Subject</h2>
+                <p className="text-gray-600 dark:text-gray-300">{selectedSemester.title} - Choose a subject to view assignments</p>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {selectedSemester.subjects.map((subject) => (
+                  <button
+                    key={subject.id}
+                    onClick={() => handleSubjectClick(subject)}
+                    className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-6 hover:bg-blue-100 dark:hover:bg-blue-900/30 transition-colors text-center border border-blue-100 dark:border-blue-800 group"
+                  >
+                    <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                      <BookOpen className="h-8 w-8 text-white" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">{subject.code}</h3>
+                    <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">{subject.name}</p>
+                    <p className="text-xs text-blue-600 dark:text-blue-400">{subject.assignments.length} assignments</p>
+                  </button>
+                ))}
+              </div>
+            </div>
+          ) : (
+            /* Assignment List */
+            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 border border-white/20 dark:border-gray-700/20">
+              <div className="flex items-center justify-between mb-8">
+                <div>
+                  <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">{selectedSubject.name}</h2>
+                  <p className="text-gray-600 dark:text-gray-300">Subject Code: {selectedSubject.code}</p>
+                </div>
+                {isAuthenticated && (
+                  <button
+                    onClick={() => handleUploadAssignment(selectedSubject.id)}
+                    className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg transition-colors flex items-center"
+                  >
+                    <Plus className="h-4 w-4 mr-2" />
+                    Upload Assignment
+                  </button>
+                )}
+              </div>
+
+              {selectedSubject.assignments.length > 0 ? (
+                <div className="space-y-6">
+                  {selectedSubject.assignments.map((assignment) => (
+                    <div
+                      key={assignment.id}
+                      className="bg-gray-50 dark:bg-gray-700 rounded-xl p-6 hover:shadow-md transition-shadow cursor-pointer"
+                      onClick={() => handleAssignmentView(assignment)}
+                    >
+                      <div className="flex items-start space-x-6">
+                        {/* Assignment Preview */}
+                        <div className="w-24 h-32 bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-600 dark:to-gray-700 rounded-lg flex items-center justify-center flex-shrink-0 shadow-md">
+                          <FileText className="h-8 w-8 text-gray-500" />
+                        </div>
+                        
+                        {/* Assignment Details */}
+                        <div className="flex-1">
+                          <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                            {assignment.title}
+                          </h3>
+                          <p className="text-gray-600 dark:text-gray-300 mb-4">
+                            {assignment.description}
+                          </p>
+                          <div className="flex items-center space-x-6 text-sm text-gray-500 dark:text-gray-400">
+                            <span className="flex items-center">
+                              <Calendar className="h-4 w-4 mr-1" />
+                              {new Date(assignment.uploadDate).toLocaleDateString()}
+                            </span>
+                            {assignment.fileSize && (
+                              <span className="flex items-center">
+                                <FileText className="h-4 w-4 mr-1" />
+                                {assignment.fileSize}
+                              </span>
+                            )}
+                          </div>
+                        </div>
+
+                        {/* View Button */}
+                        <button className="p-3 bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-lg transition-colors">
+                          <Eye className="h-5 w-5" />
+                        </button>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="text-center py-12">
+                  <FileText className="h-16 w-16 text-gray-300 mx-auto mb-4" />
+                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">No Assignments Available</h3>
+                  <p className="text-gray-600 dark:text-gray-300 mb-6">
+                    No assignments have been uploaded for this subject yet.
+                  </p>
+                  {isAuthenticated && (
+                    <button
+                      onClick={() => handleUploadAssignment(selectedSubject.id)}
+                      className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-lg transition-colors"
+                    >
+                      Upload First Assignment
+                    </button>
+                  )}
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* Statistics */}
+          {!selectedSemester && (
+            <div className="mt-16 bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 border border-white/20 dark:border-gray-700/20">
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">Assignment Statistics</h2>
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div className="text-center">
+                  <div className="bg-gradient-to-r from-blue-500 to-cyan-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                    <Calendar className="h-8 w-8 text-white" />
+                  </div>
+                  <h3 className="text-3xl font-bold text-gray-900 dark:text-white">8</h3>
+                  <p className="text-gray-600 dark:text-gray-300">Total Semesters</p>
+                </div>
+                <div className="text-center">
+                  <div className="bg-gradient-to-r from-green-500 to-emerald-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                    <BookOpen className="h-8 w-8 text-white" />
+                  </div>
+                  <h3 className="text-3xl font-bold text-gray-900 dark:text-white">40</h3>
+                  <p className="text-gray-600 dark:text-gray-300">Total Subjects</p>
+                </div>
+                <div className="text-center">
+                  <div className="bg-gradient-to-r from-purple-500 to-pink-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                    <FileText className="h-8 w-8 text-white" />
+                  </div>
+                  <h3 className="text-3xl font-bold text-gray-900 dark:text-white">
+                    {academicYears.reduce((total, year) => 
+                      total + year.semesters.reduce((semTotal, sem) => 
+                        semTotal + sem.subjects.reduce((subTotal, sub) => 
+                          subTotal + sub.assignments.length, 0), 0), 0)}
+                  </h3>
+                  <p className="text-gray-600 dark:text-gray-300">Available Assignments</p>
+                </div>
+                <div className="text-center">
+                  <div className="bg-gradient-to-r from-orange-500 to-red-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
+                    <Users className="h-8 w-8 text-white" />
+                  </div>
+                  <h3 className="text-3xl font-bold text-gray-900 dark:text-white">1000+</h3>
+                  <p className="text-gray-600 dark:text-gray-300">Students Helped</p>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
