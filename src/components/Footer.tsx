@@ -12,13 +12,26 @@ import {
   Users,
   Award,
   Sparkles,
-  Eye
+  Eye,
+  Instagram
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
   const [visitCount, setVisitCount] = useState(1000);
+  const [email, setEmail] = useState('');
+  const [isSubscribed, setIsSubscribed] = useState(false);
+  const [motivationalQuote, setMotivationalQuote] = useState('');
+
+  const quotes = [
+    "Success is not final, failure is not fatal: it is the courage to continue that counts. - Winston Churchill",
+    "The only way to do great work is to love what you do. - Steve Jobs",
+    "Education is the most powerful weapon which you can use to change the world. - Nelson Mandela",
+    "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt",
+    "Learning never exhausts the mind. - Leonardo da Vinci",
+    "The expert in anything was once a beginner. - Helen Hayes"
+  ];
 
   useEffect(() => {
     // Get initial visit count
@@ -37,11 +50,27 @@ const Footer: React.FC = () => {
     };
   }, []);
 
+  const handleSubscribe = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (email.trim()) {
+      setIsSubscribed(true);
+      const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+      setMotivationalQuote(randomQuote);
+      setEmail('');
+      
+      // Reset after 5 seconds
+      setTimeout(() => {
+        setIsSubscribed(false);
+        setMotivationalQuote('');
+      }, 5000);
+    }
+  };
+
   const quickLinks = [
     { name: 'Home', path: '/' },
     { name: 'Year', path: '/year' },
     { name: 'RTU Syllabus', path: '/rtu-syllabus' },
-    { name: 'Assignments', path: '/assignments' },
+    { name: 'Content', path: '/assignments' },
     { name: 'Books', path: '/books' },
     { name: 'Projects', path: '/projects' },
     { name: 'PYQ Papers', path: '/pyq-papers' }
@@ -70,6 +99,13 @@ const Footer: React.FC = () => {
       url: 'https://share.google/NWpXFikOTEX4VF9ij', 
       color: 'hover:text-gray-800 dark:hover:text-gray-200',
       bg: 'hover:bg-gray-50 dark:hover:bg-gray-800/50'
+    },
+    { 
+      name: 'Instagram', 
+      icon: Instagram, 
+      url: 'https://www.instagram.com/invites/contact/?igsh=2tpj8tcsf5l5&utm_content=epyez14', 
+      color: 'hover:text-pink-600',
+      bg: 'hover:bg-pink-50 dark:hover:bg-pink-900/20'
     }
   ];
 
@@ -266,16 +302,32 @@ const Footer: React.FC = () => {
                   Get notified about new study materials, assignments, and project ideas. 
                   Join our community of successful B.Tech students!
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-                  <input
-                    type="email"
-                    placeholder="Enter your email address"
-                    className="flex-1 px-4 py-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl text-white placeholder-gray-300 focus:ring-2 focus:ring-violet-500 focus:border-transparent transition-all duration-300"
-                  />
-                  <button className="bg-gradient-to-r from-violet-600 to-purple-600 hover:from-violet-700 hover:to-purple-700 text-white px-6 py-3 rounded-xl font-medium transition-all duration-300 hover:scale-105 shadow-lg">
-                    Subscribe
-                  </button>
-                </div>
+                
+                {isSubscribed ? (
+                  <div className="bg-green-500/20 border border-green-400/30 rounded-xl p-6 max-w-2xl mx-auto">
+                    <div className="text-green-300 text-xl font-bold mb-4">✅ Subscribed!</div>
+                    <div className="text-green-100 text-sm italic leading-relaxed">
+                      "{motivationalQuote}"
+                    </div>
+                  </div>
+                ) : (
+                  <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
+                    <input
+                      type="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      placeholder="Enter your email address"
+                      required
+                      className="flex-1 px-4 py-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl text-white placeholder-gray-300 focus:ring-2 focus:ring-violet-500 focus:border-transparent transition-all duration-300"
+                    />
+                    <button 
+                      type="submit"
+                      className="bg-gradient-to-r from-violet-600 to-purple-600 hover:from-violet-700 hover:to-purple-700 text-white px-6 py-3 rounded-xl font-medium transition-all duration-300 hover:scale-105 shadow-lg"
+                    >
+                      Subscribe
+                    </button>
+                  </form>
+                )}
               </div>
             </div>
           </div>

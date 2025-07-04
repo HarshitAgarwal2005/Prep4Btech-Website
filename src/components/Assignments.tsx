@@ -11,7 +11,9 @@ import {
   GraduationCap,
   ArrowLeft,
   Search,
-  Filter
+  Filter,
+  Video,
+  FlaskConical
 } from 'lucide-react';
 import { useDeveloperAuth } from './Contact';
 
@@ -23,6 +25,7 @@ interface Assignment {
   documentUrl: string;
   uploadDate: string;
   fileSize?: string;
+  type: 'theory' | 'lab' | 'video';
 }
 
 interface Subject {
@@ -53,6 +56,7 @@ const Assignments: React.FC = () => {
   const [selectedSemester, setSelectedSemester] = useState<Semester | null>(null);
   const [selectedSubject, setSelectedSubject] = useState<Subject | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
+  const [selectedContentType, setSelectedContentType] = useState<string | null>(null);
   const [showUploadModal, setShowUploadModal] = useState(false);
   const [uploadingSubject, setUploadingSubject] = useState<string | null>(null);
 
@@ -83,15 +87,26 @@ const Assignments: React.FC = () => {
                   description: 'Practice problems on differential equations',
                   documentUrl: '/assignments/math1-tutorial1.pdf',
                   uploadDate: '2024-01-15',
-                  fileSize: '2.3 MB'
+                  fileSize: '2.3 MB',
+                  type: 'theory'
                 },
                 {
                   id: 'math1-a2',
-                  title: 'Linear Algebra Assignment',
+                  title: 'Linear Algebra Lab',
                   description: 'Matrix operations and vector spaces',
-                  documentUrl: '/assignments/math1-assignment2.pdf',
+                  documentUrl: '/assignments/math1-lab1.pdf',
                   uploadDate: '2024-01-20',
-                  fileSize: '1.8 MB'
+                  fileSize: '1.8 MB',
+                  type: 'lab'
+                },
+                {
+                  id: 'math1-a3',
+                  title: 'Calculus Video Lecture',
+                  description: 'Introduction to calculus concepts',
+                  documentUrl: '/assignments/math1-video1.mp4',
+                  uploadDate: '2024-01-25',
+                  fileSize: '45.2 MB',
+                  type: 'video'
                 }
               ]
             },
@@ -106,7 +121,8 @@ const Assignments: React.FC = () => {
                   description: 'Experimental analysis of motion',
                   documentUrl: '/assignments/physics1-lab1.pdf',
                   uploadDate: '2024-01-18',
-                  fileSize: '3.1 MB'
+                  fileSize: '3.1 MB',
+                  type: 'lab'
                 }
               ]
             },
@@ -121,7 +137,8 @@ const Assignments: React.FC = () => {
                   description: 'Report writing and documentation',
                   documentUrl: '/assignments/comm1-writing.pdf',
                   uploadDate: '2024-01-22',
-                  fileSize: '1.5 MB'
+                  fileSize: '1.5 MB',
+                  type: 'theory'
                 }
               ]
             },
@@ -436,7 +453,7 @@ const Assignments: React.FC = () => {
     window.open(assignment.documentUrl, '_blank');
   };
 
-  const handleUploadAssignment = (subjectId: string) => {
+  const handleUploadAssignment = (subjectId: string, contentType: string) => {
     setUploadingSubject(subjectId);
     setShowUploadModal(true);
   };
@@ -457,21 +474,63 @@ const Assignments: React.FC = () => {
     }
   };
 
+  const handleGlobalSearch = () => {
+    if (searchQuery.trim()) {
+      // Navigate to subjects page with search query
+      window.location.href = `/subjects?search=${encodeURIComponent(searchQuery.trim())}`;
+    }
+  };
+
+  const getContentTypeIcon = (type: string) => {
+    switch (type) {
+      case 'theory':
+        return FileText;
+      case 'lab':
+        return FlaskConical;
+      case 'video':
+        return Video;
+      default:
+        return FileText;
+    }
+  };
+
+  const getContentTypeColor = (type: string) => {
+    switch (type) {
+      case 'theory':
+        return 'from-blue-500 to-blue-600';
+      case 'lab':
+        return 'from-green-500 to-green-600';
+      case 'video':
+        return 'from-red-500 to-red-600';
+      default:
+        return 'from-gray-500 to-gray-600';
+    }
+  };
+
+  const filteredAssignments = selectedSubject?.assignments.filter(assignment => {
+    const typeMatch = selectedContentType ? assignment.type === selectedContentType : true;
+    const searchMatch = searchQuery 
+      ? assignment.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        assignment.description.toLowerCase().includes(searchQuery.toLowerCase())
+      : true;
+    return typeMatch && searchMatch;
+  }) || [];
+
   const AssignmentUploadModal: React.FC = () => (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
       <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md">
         <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6 rounded-t-2xl">
-          <h2 className="text-xl font-bold">Upload Assignment</h2>
-          <p className="text-blue-100 text-sm">Add new assignment to subject</p>
+          <h2 className="text-xl font-bold">Upload Content</h2>
+          <p className="text-blue-100 text-sm">Add new content to subject</p>
         </div>
         <div className="p-6">
           <div className="space-y-4">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Assignment Title</label>
+              <label className="block text-sm font-medium text-gray-700 mb-2">Content Title</label>
               <input
                 type="text"
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                placeholder="Enter assignment title"
+                placeholder="Enter content title"
               />
             </div>
             <div>
@@ -479,14 +538,22 @@ const Assignments: React.FC = () => {
               <textarea
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                 rows={3}
-                placeholder="Enter assignment description"
+                placeholder="Enter content description"
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Upload Document</label>
+              <label className="block text-sm font-medium text-gray-700 mb-2">Content Type</label>
+              <select className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                <option value="theory">Theory</option>
+                <option value="lab">Lab</option>
+                <option value="video">Video</option>
+              </select>
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-2">Upload File</label>
               <input
                 type="file"
-                accept=".pdf,.doc,.docx"
+                accept=".pdf,.doc,.docx,.mp4,.avi,.mov"
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
             </div>
@@ -520,10 +587,10 @@ const Assignments: React.FC = () => {
           {/* Header */}
           <div className="text-center mb-12">
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-              Assignments 📝
+              Content 📝
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Access assignments organized by year, semester, and subject. View documents directly in your browser.
+              Access content organized by year, semester, and subject. View documents directly in your browser.
             </p>
           </div>
 
@@ -534,7 +601,7 @@ const Assignments: React.FC = () => {
                 <CheckCircle className="h-6 w-6 text-green-600 mr-2" />
                 <h3 className="text-lg font-semibold text-green-800">Developer Mode Active ✅</h3>
               </div>
-              <p className="text-green-600 text-sm">You can upload assignments to any subject</p>
+              <p className="text-green-600 text-sm">You can upload content to any subject</p>
             </div>
           )}
 
@@ -556,12 +623,68 @@ const Assignments: React.FC = () => {
             </div>
           )}
 
+          {/* Content Type Filters */}
+          {!selectedSemester && (
+            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 mb-8 border border-white/20 dark:border-gray-700/20">
+              <div className="flex items-center mb-4">
+                <Filter className="h-6 w-6 text-gray-600 mr-2" />
+                <h2 className="text-lg font-semibold text-gray-900 dark:text-white">Content Type Filters</h2>
+              </div>
+              
+              <div className="flex flex-wrap gap-3 mb-6">
+                <button
+                  onClick={() => setSelectedContentType(null)}
+                  className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+                    selectedContentType === null
+                      ? 'bg-blue-600 text-white'
+                      : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                  }`}
+                >
+                  All Content
+                </button>
+                <button
+                  onClick={() => setSelectedContentType('theory')}
+                  className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center ${
+                    selectedContentType === 'theory'
+                      ? 'bg-blue-600 text-white'
+                      : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                  }`}
+                >
+                  <FileText className="h-4 w-4 mr-2" />
+                  Theory
+                </button>
+                <button
+                  onClick={() => setSelectedContentType('lab')}
+                  className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center ${
+                    selectedContentType === 'lab'
+                      ? 'bg-green-600 text-white'
+                      : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                  }`}
+                >
+                  <FlaskConical className="h-4 w-4 mr-2" />
+                  Lab
+                </button>
+                <button
+                  onClick={() => setSelectedContentType('video')}
+                  className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center ${
+                    selectedContentType === 'video'
+                      ? 'bg-red-600 text-white'
+                      : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                  }`}
+                >
+                  <Video className="h-4 w-4 mr-2" />
+                  Videos
+                </button>
+              </div>
+            </div>
+          )}
+
           {/* Filter Section */}
           {!selectedSemester && (
             <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 mb-8 border border-white/20 dark:border-gray-700/20">
               <div className="flex items-center mb-4">
                 <Filter className="h-6 w-6 text-gray-600 mr-2" />
-                <h2 className="text-lg font-semibold text-gray-900 dark:text-white">Filter Assignments</h2>
+                <h2 className="text-lg font-semibold text-gray-900 dark:text-white">Filter Content</h2>
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -598,15 +721,21 @@ const Assignments: React.FC = () => {
                 {/* Search */}
                 <div>
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Search Subjects</label>
-                  <div className="relative">
+                  <div className="relative flex">
                     <input
                       type="text"
                       placeholder="Search by subject name or code..."
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
-                      className="w-full pl-10 pr-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+                      className="flex-1 pl-10 pr-4 py-2 border border-gray-300 dark:border-gray-600 rounded-l-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
                     />
                     <Search className="absolute left-3 top-2.5 h-4 w-4 text-gray-400" />
+                    <button
+                      onClick={handleGlobalSearch}
+                      className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-r-lg transition-colors flex items-center"
+                    >
+                      <Search className="h-4 w-4" />
+                    </button>
                   </div>
                 </div>
               </div>
@@ -616,164 +745,261 @@ const Assignments: React.FC = () => {
           {/* Main Content */}
           {!selectedSemester ? (
             /* Year and Semester Selection */
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {filteredYears.map((year) => (
-                <div
-                  key={year.id}
-                  className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl border border-white/20 dark:border-gray-700/20 overflow-hidden"
-                >
-                  {/* Year Header */}
-                  <div className={`bg-gradient-to-r ${year.color} p-6 text-white`}>
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <h2 className="text-2xl font-bold">{year.title}</h2>
-                        <p className="text-white/90">{year.description}</p>
+            <div className="flex justify-center">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl w-full">
+                {filteredYears.map((year) => (
+                  <div
+                    key={year.id}
+                    className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl border border-white/20 dark:border-gray-700/20 overflow-hidden"
+                  >
+                    {/* Year Header */}
+                    <div className={`bg-gradient-to-r ${year.color} p-6 text-white`}>
+                      <div className="flex items-center justify-between">
+                        <div>
+                          <h2 className="text-2xl font-bold">{year.title}</h2>
+                          <p className="text-white/90">{year.description}</p>
+                        </div>
+                        <GraduationCap className="h-8 w-8" />
                       </div>
-                      <GraduationCap className="h-8 w-8" />
                     </div>
-                  </div>
 
-                  {/* Semesters */}
-                  <div className="p-6">
-                    <div className="grid grid-cols-1 gap-4">
-                      {year.semesters.map((semester) => (
-                        <button
-                          key={semester.id}
-                          onClick={() => handleSemesterClick(semester)}
-                          className="p-4 bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 rounded-xl transition-colors text-left"
-                        >
-                          <div className="flex items-center justify-between">
-                            <div className="flex items-center">
-                              <Calendar className="h-5 w-5 text-blue-600 mr-3" />
-                              <div>
-                                <h3 className="font-semibold text-gray-900 dark:text-white">{semester.title}</h3>
-                                <p className="text-sm text-gray-600 dark:text-gray-300">
-                                  {semester.subjects.length} subjects
-                                </p>
+                    {/* Semesters */}
+                    <div className="p-6">
+                      <div className="grid grid-cols-1 gap-4">
+                        {year.semesters.map((semester) => (
+                          <button
+                            key={semester.id}
+                            onClick={() => handleSemesterClick(semester)}
+                            className="p-4 bg-gray-50 dark:bg-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 rounded-xl transition-colors text-left"
+                          >
+                            <div className="flex items-center justify-between">
+                              <div className="flex items-center">
+                                <Calendar className="h-5 w-5 text-blue-600 mr-3" />
+                                <div>
+                                  <h3 className="font-semibold text-gray-900 dark:text-white">{semester.title}</h3>
+                                  <p className="text-sm text-gray-600 dark:text-gray-300">
+                                    {semester.subjects.length} subjects
+                                  </p>
+                                </div>
                               </div>
+                              <div className="text-blue-600">→</div>
                             </div>
-                            <div className="text-blue-600">→</div>
-                          </div>
-                        </button>
-                      ))}
+                          </button>
+                        ))}
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           ) : !selectedSubject ? (
             /* Subject Selection */
-            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 border border-white/20 dark:border-gray-700/20">
-              <div className="text-center mb-8">
-                <BookOpen className="h-16 w-16 text-blue-600 mx-auto mb-4" />
-                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Select Subject</h2>
-                <p className="text-gray-600 dark:text-gray-300">{selectedSemester.title} - Choose a subject to view assignments</p>
-              </div>
+            <div className="flex justify-center">
+              <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 border border-white/20 dark:border-gray-700/20 max-w-6xl w-full">
+                <div className="text-center mb-8">
+                  <BookOpen className="h-16 w-16 text-blue-600 mx-auto mb-4" />
+                  <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Select Subject</h2>
+                  <p className="text-gray-600 dark:text-gray-300">{selectedSemester.title} - Choose a subject to view content</p>
+                </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {selectedSemester.subjects.map((subject) => (
-                  <button
-                    key={subject.id}
-                    onClick={() => handleSubjectClick(subject)}
-                    className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-6 hover:bg-blue-100 dark:hover:bg-blue-900/30 transition-colors text-center border border-blue-100 dark:border-blue-800 group"
-                  >
-                    <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-                      <BookOpen className="h-8 w-8 text-white" />
-                    </div>
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">{subject.code}</h3>
-                    <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">{subject.name}</p>
-                    <p className="text-xs text-blue-600 dark:text-blue-400">{subject.assignments.length} assignments</p>
-                  </button>
-                ))}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {selectedSemester.subjects.map((subject) => (
+                    <button
+                      key={subject.id}
+                      onClick={() => handleSubjectClick(subject)}
+                      className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-6 hover:bg-blue-100 dark:hover:bg-blue-900/30 transition-colors text-center border border-blue-100 dark:border-blue-800 group"
+                    >
+                      <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                        <BookOpen className="h-8 w-8 text-white" />
+                      </div>
+                      <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">{subject.code}</h3>
+                      <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">{subject.name}</p>
+                      <p className="text-xs text-blue-600 dark:text-blue-400">{subject.assignments.length} content items</p>
+                    </button>
+                  ))}
+                </div>
               </div>
             </div>
           ) : (
             /* Assignment List */
-            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 border border-white/20 dark:border-gray-700/20">
-              <div className="flex items-center justify-between mb-8">
-                <div>
-                  <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">{selectedSubject.name}</h2>
-                  <p className="text-gray-600 dark:text-gray-300">Subject Code: {selectedSubject.code}</p>
-                </div>
-                {isAuthenticated && (
-                  <button
-                    onClick={() => handleUploadAssignment(selectedSubject.id)}
-                    className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg transition-colors flex items-center"
-                  >
-                    <Plus className="h-4 w-4 mr-2" />
-                    Upload Assignment
-                  </button>
-                )}
-              </div>
-
-              {selectedSubject.assignments.length > 0 ? (
-                <div className="space-y-6">
-                  {selectedSubject.assignments.map((assignment) => (
-                    <div
-                      key={assignment.id}
-                      className="bg-gray-50 dark:bg-gray-700 rounded-xl p-6 hover:shadow-md transition-shadow cursor-pointer"
-                      onClick={() => handleAssignmentView(assignment)}
-                    >
-                      <div className="flex items-start space-x-6">
-                        {/* Assignment Preview */}
-                        <div className="w-24 h-32 bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-600 dark:to-gray-700 rounded-lg flex items-center justify-center flex-shrink-0 shadow-md">
-                          <FileText className="h-8 w-8 text-gray-500" />
-                        </div>
-                        
-                        {/* Assignment Details */}
-                        <div className="flex-1">
-                          <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                            {assignment.title}
-                          </h3>
-                          <p className="text-gray-600 dark:text-gray-300 mb-4">
-                            {assignment.description}
-                          </p>
-                          <div className="flex items-center space-x-6 text-sm text-gray-500 dark:text-gray-400">
-                            <span className="flex items-center">
-                              <Calendar className="h-4 w-4 mr-1" />
-                              {new Date(assignment.uploadDate).toLocaleDateString()}
-                            </span>
-                            {assignment.fileSize && (
-                              <span className="flex items-center">
-                                <FileText className="h-4 w-4 mr-1" />
-                                {assignment.fileSize}
-                              </span>
-                            )}
-                          </div>
-                        </div>
-
-                        {/* View Button */}
-                        <button className="p-3 bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-lg transition-colors">
-                          <Eye className="h-5 w-5" />
-                        </button>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              ) : (
-                <div className="text-center py-12">
-                  <FileText className="h-16 w-16 text-gray-300 mx-auto mb-4" />
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">No Assignments Available</h3>
-                  <p className="text-gray-600 dark:text-gray-300 mb-6">
-                    No assignments have been uploaded for this subject yet.
-                  </p>
+            <div className="flex justify-center">
+              <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 border border-white/20 dark:border-gray-700/20 max-w-6xl w-full">
+                <div className="flex items-center justify-between mb-8">
+                  <div>
+                    <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">{selectedSubject.name}</h2>
+                    <p className="text-gray-600 dark:text-gray-300">Subject Code: {selectedSubject.code}</p>
+                  </div>
                   {isAuthenticated && (
-                    <button
-                      onClick={() => handleUploadAssignment(selectedSubject.id)}
-                      className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-lg transition-colors"
-                    >
-                      Upload First Assignment
-                    </button>
+                    <div className="flex space-x-2">
+                      <button
+                        onClick={() => handleUploadAssignment(selectedSubject.id, 'theory')}
+                        className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors flex items-center text-sm"
+                      >
+                        <Plus className="h-4 w-4 mr-2" />
+                        Theory
+                      </button>
+                      <button
+                        onClick={() => handleUploadAssignment(selectedSubject.id, 'lab')}
+                        className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg transition-colors flex items-center text-sm"
+                      >
+                        <Plus className="h-4 w-4 mr-2" />
+                        Lab
+                      </button>
+                      <button
+                        onClick={() => handleUploadAssignment(selectedSubject.id, 'video')}
+                        className="bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded-lg transition-colors flex items-center text-sm"
+                      >
+                        <Plus className="h-4 w-4 mr-2" />
+                        Video
+                      </button>
+                    </div>
                   )}
                 </div>
-              )}
+
+                {/* Content Type Filter for Subject View */}
+                <div className="mb-6">
+                  <div className="flex flex-wrap gap-3">
+                    <button
+                      onClick={() => setSelectedContentType(null)}
+                      className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+                        selectedContentType === null
+                          ? 'bg-blue-600 text-white'
+                          : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                      }`}
+                    >
+                      All Content
+                    </button>
+                    <button
+                      onClick={() => setSelectedContentType('theory')}
+                      className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center ${
+                        selectedContentType === 'theory'
+                          ? 'bg-blue-600 text-white'
+                          : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                      }`}
+                    >
+                      <FileText className="h-4 w-4 mr-2" />
+                      Theory
+                    </button>
+                    <button
+                      onClick={() => setSelectedContentType('lab')}
+                      className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center ${
+                        selectedContentType === 'lab'
+                          ? 'bg-green-600 text-white'
+                          : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                      }`}
+                    >
+                      <FlaskConical className="h-4 w-4 mr-2" />
+                      Lab
+                    </button>
+                    <button
+                      onClick={() => setSelectedContentType('video')}
+                      className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center ${
+                        selectedContentType === 'video'
+                          ? 'bg-red-600 text-white'
+                          : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                      }`}
+                    >
+                      <Video className="h-4 w-4 mr-2" />
+                      Videos
+                    </button>
+                  </div>
+                </div>
+
+                {filteredAssignments.length > 0 ? (
+                  <div className="space-y-6">
+                    {filteredAssignments.map((assignment) => {
+                      const ContentIcon = getContentTypeIcon(assignment.type);
+                      return (
+                        <div
+                          key={assignment.id}
+                          className="bg-gray-50 dark:bg-gray-700 rounded-xl p-6 hover:shadow-md transition-shadow cursor-pointer"
+                          onClick={() => handleAssignmentView(assignment)}
+                        >
+                          <div className="flex items-start space-x-6">
+                            {/* Assignment Preview */}
+                            <div className={`w-24 h-32 bg-gradient-to-br ${getContentTypeColor(assignment.type)} rounded-lg flex items-center justify-center flex-shrink-0 shadow-md`}>
+                              <ContentIcon className="h-8 w-8 text-white" />
+                            </div>
+                            
+                            {/* Assignment Details */}
+                            <div className="flex-1">
+                              <div className="flex items-center mb-2">
+                                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mr-3">
+                                  {assignment.title}
+                                </h3>
+                                <span className={`px-2 py-1 rounded-full text-xs font-medium ${
+                                  assignment.type === 'theory' ? 'bg-blue-100 text-blue-800' :
+                                  assignment.type === 'lab' ? 'bg-green-100 text-green-800' :
+                                  'bg-red-100 text-red-800'
+                                }`}>
+                                  {assignment.type.charAt(0).toUpperCase() + assignment.type.slice(1)}
+                                </span>
+                              </div>
+                              <p className="text-gray-600 dark:text-gray-300 mb-4">
+                                {assignment.description}
+                              </p>
+                              <div className="flex items-center space-x-6 text-sm text-gray-500 dark:text-gray-400">
+                                <span className="flex items-center">
+                                  <Calendar className="h-4 w-4 mr-1" />
+                                  {new Date(assignment.uploadDate).toLocaleDateString()}
+                                </span>
+                                {assignment.fileSize && (
+                                  <span className="flex items-center">
+                                    <FileText className="h-4 w-4 mr-1" />
+                                    {assignment.fileSize}
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+
+                            {/* View Button */}
+                            <button className="p-3 bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-lg transition-colors">
+                              <Eye className="h-5 w-5" />
+                            </button>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                ) : (
+                  <div className="text-center py-12">
+                    <FileText className="h-16 w-16 text-gray-300 mx-auto mb-4" />
+                    <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">No Content Available</h3>
+                    <p className="text-gray-600 dark:text-gray-300 mb-6">
+                      No content has been uploaded for this subject yet.
+                    </p>
+                    {isAuthenticated && (
+                      <div className="flex justify-center space-x-3">
+                        <button
+                          onClick={() => handleUploadAssignment(selectedSubject.id, 'theory')}
+                          className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-lg transition-colors"
+                        >
+                          Upload Theory
+                        </button>
+                        <button
+                          onClick={() => handleUploadAssignment(selectedSubject.id, 'lab')}
+                          className="bg-green-600 hover:bg-green-700 text-white py-2 px-6 rounded-lg transition-colors"
+                        >
+                          Upload Lab
+                        </button>
+                        <button
+                          onClick={() => handleUploadAssignment(selectedSubject.id, 'video')}
+                          className="bg-red-600 hover:bg-red-700 text-white py-2 px-6 rounded-lg transition-colors"
+                        >
+                          Upload Video
+                        </button>
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
             </div>
           )}
 
           {/* Statistics */}
           {!selectedSemester && (
             <div className="mt-16 bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 border border-white/20 dark:border-gray-700/20">
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">Assignment Statistics</h2>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">Content Statistics</h2>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div className="text-center">
                   <div className="bg-gradient-to-r from-blue-500 to-cyan-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
@@ -799,7 +1025,7 @@ const Assignments: React.FC = () => {
                         semTotal + sem.subjects.reduce((subTotal, sub) => 
                           subTotal + sub.assignments.length, 0), 0), 0)}
                   </h3>
-                  <p className="text-gray-600 dark:text-gray-300">Available Assignments</p>
+                  <p className="text-gray-600 dark:text-gray-300">Available Content</p>
                 </div>
                 <div className="text-center">
                   <div className="bg-gradient-to-r from-orange-500 to-red-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">

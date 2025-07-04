@@ -1,5 +1,5 @@
 import React, { useState, createContext, useContext } from 'react';
-import { Mail, Phone, MapPin, Send, Linkedin, Github, CheckCircle, AlertCircle, Lock, LogOut, User } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Linkedin, Github, CheckCircle, AlertCircle, Lock, LogOut, User, Instagram } from 'lucide-react';
 
 // Create Developer Auth Context
 const DeveloperAuthContext = createContext<{
@@ -133,13 +133,13 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 py-12">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 dark:from-gray-900 dark:via-blue-900/20 dark:to-slate-900 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            Get in Touch
+          <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+            Get in Touch 📞
           </h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             Have questions, suggestions, or need help? I'd love to hear from you!
           </p>
         </div>
@@ -147,19 +147,19 @@ const Contact: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div className="space-y-8">
-            <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h2>
+            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-8 border border-white/20 dark:border-gray-700/20">
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Contact Information</h2>
               
               <div className="space-y-6">
                 <div className="flex items-center">
-                  <div className="bg-blue-100 p-3 rounded-xl mr-4">
-                    <Mail className="h-6 w-6 text-blue-600" />
+                  <div className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-xl mr-4">
+                    <Mail className="h-6 w-6 text-blue-600 dark:text-blue-400" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900">Email</h3>
+                    <h3 className="font-semibold text-gray-900 dark:text-white">Email</h3>
                     <a 
                       href="mailto:harshitagarwal25807@gmail.com"
-                      className="text-gray-600 hover:text-blue-600 transition-colors"
+                      className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                     >
                       harshitagarwal25807@gmail.com
                     </a>
@@ -167,14 +167,14 @@ const Contact: React.FC = () => {
                 </div>
 
                 <div className="flex items-center">
-                  <div className="bg-green-100 p-3 rounded-xl mr-4">
-                    <Phone className="h-6 w-6 text-green-600" />
+                  <div className="bg-green-100 dark:bg-green-900/30 p-3 rounded-xl mr-4">
+                    <Phone className="h-6 w-6 text-green-600 dark:text-green-400" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900">Mobile</h3>
+                    <h3 className="font-semibold text-gray-900 dark:text-white">Mobile</h3>
                     <a 
                       href="tel:+917878528151"
-                      className="text-gray-600 hover:text-green-600 transition-colors"
+                      className="text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 transition-colors"
                     >
                       +91 7878528151
                     </a>
@@ -182,46 +182,55 @@ const Contact: React.FC = () => {
                 </div>
 
                 <div className="flex items-center">
-                  <div className="bg-purple-100 p-3 rounded-xl mr-4">
-                    <MapPin className="h-6 w-6 text-purple-600" />
+                  <div className="bg-purple-100 dark:bg-purple-900/30 p-3 rounded-xl mr-4">
+                    <MapPin className="h-6 w-6 text-purple-600 dark:text-purple-400" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900">College</h3>
-                    <p className="text-gray-600">JECRC Foundation, Jaipur</p>
+                    <h3 className="font-semibold text-gray-900 dark:text-white">College</h3>
+                    <p className="text-gray-600 dark:text-gray-300">JECRC Foundation, Jaipur</p>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* Social Links */}
-            <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Connect with Me</h2>
+            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-8 border border-white/20 dark:border-gray-700/20">
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Connect with Me</h2>
               
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <a
                   href="https://www.linkedin.com/in/harshitagarwal2005?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center p-4 bg-blue-50 hover:bg-blue-100 rounded-xl transition-colors group"
+                  className="flex items-center justify-center p-4 bg-blue-50 dark:bg-blue-900/20 hover:bg-blue-100 dark:hover:bg-blue-900/30 rounded-xl transition-colors group"
                 >
-                  <Linkedin className="h-6 w-6 text-blue-600 mr-3 group-hover:scale-110 transition-transform" />
-                  <span className="font-medium text-blue-800">LinkedIn</span>
+                  <Linkedin className="h-6 w-6 text-blue-600 dark:text-blue-400 mr-3 group-hover:scale-110 transition-transform" />
+                  <span className="font-medium text-blue-800 dark:text-blue-300">LinkedIn</span>
                 </a>
                 <a
                   href="https://share.google/NWpXFikOTEX4VF9ij"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center p-4 bg-gray-50 hover:bg-gray-100 rounded-xl transition-colors group"
+                  className="flex items-center justify-center p-4 bg-gray-50 dark:bg-gray-700/50 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-xl transition-colors group"
                 >
-                  <Github className="h-6 w-6 text-gray-700 mr-3 group-hover:scale-110 transition-transform" />
-                  <span className="font-medium text-gray-800">GitHub</span>
+                  <Github className="h-6 w-6 text-gray-700 dark:text-gray-300 mr-3 group-hover:scale-110 transition-transform" />
+                  <span className="font-medium text-gray-800 dark:text-gray-200">GitHub</span>
+                </a>
+                <a
+                  href="https://www.instagram.com/invites/contact/?igsh=2tpj8tcsf5l5&utm_content=epyez14"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center p-4 bg-pink-50 dark:bg-pink-900/20 hover:bg-pink-100 dark:hover:bg-pink-900/30 rounded-xl transition-colors group"
+                >
+                  <Instagram className="h-6 w-6 text-pink-600 dark:text-pink-400 mr-3 group-hover:scale-110 transition-transform" />
+                  <span className="font-medium text-pink-800 dark:text-pink-300">Instagram</span>
                 </a>
               </div>
             </div>
 
             {/* Quick Help */}
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-2xl shadow-lg p-8">
-              <h2 className="text-2xl font-bold mb-4">Need Quick Help?</h2>
+              <h2 className="text-2xl font-bold mb-4">Need Quick Help? 🚀</h2>
               <p className="mb-6 text-blue-100">
                 Don't forget about the "Ask a Doubt" feature available on every page! 
                 Click the floating button to get instant help with your questions.
@@ -236,30 +245,30 @@ const Contact: React.FC = () => {
 
           {/* Contact Form */}
           <div className="space-y-8">
-            <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Send Message</h2>
+            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-8 border border-white/20 dark:border-gray-700/20">
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Send Message</h2>
               
               {isSubmitted ? (
                 <div className="text-center py-12">
-                  <div className="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <CheckCircle className="h-10 w-10 text-green-600" />
+                  <div className="bg-green-100 dark:bg-green-900/30 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <CheckCircle className="h-10 w-10 text-green-600 dark:text-green-400" />
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Message Sent!</h3>
-                  <p className="text-gray-600">
+                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Message Sent! ✅</h3>
+                  <p className="text-gray-600 dark:text-gray-300">
                     Thank you for reaching out. I'll get back to you as soon as possible.
                   </p>
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">
                   {error && (
-                    <div className="bg-red-50 border border-red-200 rounded-lg p-4 flex items-center">
+                    <div className="bg-red-50 dark:bg-red-900/30 border border-red-200 dark:border-red-800 rounded-lg p-4 flex items-center">
                       <AlertCircle className="h-5 w-5 text-red-500 mr-2" />
-                      <span className="text-red-700 text-sm">{error}</span>
+                      <span className="text-red-700 dark:text-red-400 text-sm">{error}</span>
                     </div>
                   )}
 
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                       Your Name
                     </label>
                     <input
@@ -269,13 +278,13 @@ const Contact: React.FC = () => {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                      className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
                       placeholder="Enter your full name"
                     />
                   </div>
 
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                       Email Address
                     </label>
                     <input
@@ -285,13 +294,13 @@ const Contact: React.FC = () => {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                      className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
                       placeholder="Enter your email address"
                     />
                   </div>
 
                   <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                       Message
                     </label>
                     <textarea
@@ -301,7 +310,7 @@ const Contact: React.FC = () => {
                       onChange={handleChange}
                       required
                       rows={6}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors resize-none"
+                      className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors resize-none bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
                       placeholder="Write your message here..."
                     />
                   </div>
@@ -328,28 +337,28 @@ const Contact: React.FC = () => {
             </div>
 
             {/* Developer Login Section */}
-            <div className="bg-white rounded-2xl shadow-lg p-8 border-2 border-orange-200">
+            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-8 border-2 border-orange-200 dark:border-orange-800">
               <div className="flex items-center mb-6">
-                <div className="bg-orange-100 p-3 rounded-xl mr-4">
-                  <Lock className="h-6 w-6 text-orange-600" />
+                <div className="bg-orange-100 dark:bg-orange-900/30 p-3 rounded-xl mr-4">
+                  <Lock className="h-6 w-6 text-orange-600 dark:text-orange-400" />
                 </div>
                 <div>
-                  <h2 className="text-2xl font-bold text-gray-900">Developer Access</h2>
-                  <p className="text-gray-600 text-sm">Login to enable upload functionality</p>
+                  <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Developer Access</h2>
+                  <p className="text-gray-600 dark:text-gray-300 text-sm">Login to enable upload functionality</p>
                 </div>
               </div>
 
               {isAuthenticated ? (
                 <div className="text-center py-8">
-                  <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 relative">
-                    <CheckCircle className="h-8 w-8 text-green-600" />
+                  <div className="bg-green-100 dark:bg-green-900/30 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 relative">
+                    <CheckCircle className="h-8 w-8 text-green-600 dark:text-green-400" />
                     <div className="absolute -top-1 -right-1 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
                       <span className="text-white text-xs">✓</span>
                     </div>
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Developer Authenticated ✅</h3>
-                  <p className="text-gray-600 text-sm mb-6">
-                    Upload mode is now active. You can upload syllabus files and manage PYQ papers.
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Developer Authenticated ✅</h3>
+                  <p className="text-gray-600 dark:text-gray-300 text-sm mb-6">
+                    Upload mode is now active. You can upload syllabus files and manage content.
                   </p>
                   <button
                     onClick={handleDeveloperLogout}
@@ -362,14 +371,14 @@ const Contact: React.FC = () => {
               ) : (
                 <form onSubmit={handleDeveloperLogin} className="space-y-4">
                   {loginError && (
-                    <div className="bg-red-50 border border-red-200 rounded-lg p-4 flex items-center">
+                    <div className="bg-red-50 dark:bg-red-900/30 border border-red-200 dark:border-red-800 rounded-lg p-4 flex items-center">
                       <AlertCircle className="h-5 w-5 text-red-500 mr-2" />
-                      <span className="text-red-700 text-sm">{loginError}</span>
+                      <span className="text-red-700 dark:text-red-400 text-sm">{loginError}</span>
                     </div>
                   )}
 
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                       Developer Email
                     </label>
                     <input
@@ -377,13 +386,13 @@ const Contact: React.FC = () => {
                       value={developerEmail}
                       onChange={(e) => setDeveloperEmail(e.target.value)}
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors"
+                      className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
                       placeholder="Enter developer email"
                     />
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                       Password
                     </label>
                     <input
@@ -391,7 +400,7 @@ const Contact: React.FC = () => {
                       value={developerPassword}
                       onChange={(e) => setDeveloperPassword(e.target.value)}
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors"
+                      className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
                       placeholder="Enter password"
                     />
                   </div>
@@ -420,31 +429,31 @@ const Contact: React.FC = () => {
         </div>
 
         {/* FAQ Section */}
-        <div className="mt-16 bg-white rounded-2xl shadow-lg p-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">Frequently Asked Questions</h2>
+        <div className="mt-16 bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-8 border border-white/20 dark:border-gray-700/20">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">Frequently Asked Questions</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">How can I contribute to this platform?</h3>
-              <p className="text-gray-600">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">How can I contribute to this platform?</h3>
+              <p className="text-gray-600 dark:text-gray-300">
                 You can contribute by sharing your notes, projects, or suggesting improvements. 
                 Contact me with your ideas!
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Can I request specific subjects or topics?</h3>
-              <p className="text-gray-600">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Can I request specific subjects or topics?</h3>
+              <p className="text-gray-600 dark:text-gray-300">
                 Absolutely! Send me a message with your requests, and I'll do my best to add the content you need.
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Is this platform free to use?</h3>
-              <p className="text-gray-600">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Is this platform free to use?</h3>
+              <p className="text-gray-600 dark:text-gray-300">
                 Yes, this platform is completely free for all students. My goal is to make education accessible to everyone.
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">How often is the content updated?</h3>
-              <p className="text-gray-600">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">How often is the content updated?</h3>
+              <p className="text-gray-600 dark:text-gray-300">
                 I regularly update the content with new notes, assignments, and projects. Check back frequently for updates!
               </p>
             </div>

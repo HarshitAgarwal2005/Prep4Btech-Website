@@ -15,7 +15,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'Year', path: '/year' },
-    { name: 'Assignments', path: '/assignments' },
+    { name: 'Content', path: '/assignments' },
     { name: 'Books', path: '/books' },
     { name: 'Projects', path: '/projects' },
     { name: 'PYQ Papers', path: '/pyq-papers' },
@@ -74,24 +74,26 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
             </Link>
           </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-1">
-            {navItems.map((item) => (
-              <Link
-                key={item.name}
-                to={item.path}
-                className={`px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 relative overflow-hidden group ${
-                  location.pathname === item.path
-                    ? 'text-white bg-gradient-to-r from-violet-600 to-purple-600 shadow-lg'
-                    : 'text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gradient-to-r hover:from-violet-500 hover:to-purple-500'
-                }`}
-              >
-                <span className="relative z-10">{item.name}</span>
-                {location.pathname === item.path && (
-                  <div className="absolute inset-0 bg-gradient-to-r from-violet-600 to-purple-600 opacity-20 animate-pulse"></div>
-                )}
-              </Link>
-            ))}
+          {/* Desktop Navigation - Equal Spacing */}
+          <div className="hidden md:flex items-center justify-center flex-1 mx-8">
+            <div className="flex items-center space-x-6">
+              {navItems.map((item) => (
+                <Link
+                  key={item.name}
+                  to={item.path}
+                  className={`px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 relative overflow-hidden group whitespace-nowrap ${
+                    location.pathname === item.path
+                      ? 'text-white bg-gradient-to-r from-violet-600 to-purple-600 shadow-lg'
+                      : 'text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gradient-to-r hover:from-violet-500 hover:to-purple-500'
+                  }`}
+                >
+                  <span className="relative z-10">{item.name}</span>
+                  {location.pathname === item.path && (
+                    <div className="absolute inset-0 bg-gradient-to-r from-violet-600 to-purple-600 opacity-20 animate-pulse"></div>
+                  )}
+                </Link>
+              ))}
+            </div>
           </div>
 
           {/* Search Bar */}

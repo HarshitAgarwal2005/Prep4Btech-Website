@@ -194,7 +194,7 @@ const Year: React.FC = () => {
                         <p className="text-gray-600 dark:text-gray-300 text-sm ml-6 mb-4">
                           {semester.description}
                         </p>
-                        <div className="ml-6">
+                        <div className="ml-6 mb-4">
                           <h5 className="font-medium text-gray-800 dark:text-gray-200 mb-2">Subjects:</h5>
                           <div className="grid grid-cols-1 gap-2">
                             {semester.subjects.map((subject, index) => (
@@ -205,23 +205,24 @@ const Year: React.FC = () => {
                             ))}
                           </div>
                         </div>
+                        
+                        {/* Action Buttons */}
+                        <div className="ml-6 flex flex-col sm:flex-row gap-3">
+                          <Link
+                            to={`/subjects?year=${yearData.year}&semester=${semester.sem}`}
+                            className={`flex-1 bg-gradient-to-r ${yearData.color} text-white py-2 px-4 rounded-lg font-medium text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 text-sm`}
+                          >
+                            View Subjects
+                          </Link>
+                          <Link
+                            to={`/assignments?year=${yearData.year}&semester=${semester.sem}`}
+                            className="flex-1 bg-gray-100 dark:bg-gray-600 text-gray-700 dark:text-gray-300 py-2 px-4 rounded-lg font-medium text-center hover:bg-gray-200 dark:hover:bg-gray-500 transition-colors text-sm"
+                          >
+                            View Content
+                          </Link>
+                        </div>
                       </div>
                     ))}
-                  </div>
-
-                  <div className="mt-8 flex space-x-4">
-                    <Link
-                      to={`/subjects?year=${yearData.year}`}
-                      className={`flex-1 bg-gradient-to-r ${yearData.color} text-white py-3 px-6 rounded-xl font-semibold text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105`}
-                    >
-                      View Subjects
-                    </Link>
-                    <Link
-                      to={`/assignments?year=${yearData.year}`}
-                      className="flex-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 py-3 px-6 rounded-xl font-semibold text-center hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
-                    >
-                      Assignments
-                    </Link>
                   </div>
                 </div>
               </div>
@@ -244,7 +245,7 @@ const Year: React.FC = () => {
                   <Users className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-3xl font-bold text-gray-900 dark:text-white">150+</h3>
-                <p className="text-gray-600 dark:text-gray-300">Assignments</p>
+                <p className="text-gray-600 dark:text-gray-300">Content Items</p>
               </div>
               <div className="text-center">
                 <div className="bg-gradient-to-r from-purple-500 to-pink-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
