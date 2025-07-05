@@ -104,102 +104,106 @@ const Projects: React.FC = () => {
           </div>
         </div>
 
-        {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredProjects.map(project => {
-            const TypeIcon = getTypeIcon(project.type);
-            return (
-              <div key={project.id} className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
-                <div className="p-6">
-                  {/* Header */}
-                  <div className="flex items-start justify-between mb-4">
-                    <div className="flex items-center">
-                      <div className="bg-indigo-100 p-3 rounded-xl mr-3">
-                        <TypeIcon className="h-6 w-6 text-indigo-600" />
-                      </div>
-                      <div>
-                        <span className={`px-2 py-1 rounded-full text-xs font-medium ${getTypeColor(project.type)}`}>
-                          {project.type.charAt(0).toUpperCase() + project.type.slice(1)} Project
-                        </span>
-                      </div>
-                    </div>
-                    <div className="text-right">
-                      <div className="text-sm font-medium text-gray-900 flex items-center">
-                        <Clock className="h-4 w-4 mr-1" />
-                        Year {project.year}
-                      </div>
-                    </div>
-                  </div>
+        {/* Projects Grid - Centered Layout */}
+        <div className="flex justify-center">
+          <div className="w-full max-w-6xl">
+            {filteredProjects.length > 0 ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {filteredProjects.map(project => {
+                  const TypeIcon = getTypeIcon(project.type);
+                  return (
+                    <div key={project.id} className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
+                      <div className="p-6">
+                        {/* Header */}
+                        <div className="flex items-start justify-between mb-4">
+                          <div className="flex items-center">
+                            <div className="bg-indigo-100 p-3 rounded-xl mr-3">
+                              <TypeIcon className="h-6 w-6 text-indigo-600" />
+                            </div>
+                            <div>
+                              <span className={`px-2 py-1 rounded-full text-xs font-medium ${getTypeColor(project.type)}`}>
+                                {project.type.charAt(0).toUpperCase() + project.type.slice(1)} Project
+                              </span>
+                            </div>
+                          </div>
+                          <div className="text-right">
+                            <div className="text-sm font-medium text-gray-900 flex items-center">
+                              <Clock className="h-4 w-4 mr-1" />
+                              Year {project.year}
+                            </div>
+                          </div>
+                        </div>
 
-                  {/* Content */}
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-indigo-600 transition-colors">
-                    {project.title}
-                  </h3>
-                  <p className="text-gray-600 mb-4 line-clamp-3">
-                    {project.description}
-                  </p>
+                        {/* Content */}
+                        <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-indigo-600 transition-colors">
+                          {project.title}
+                        </h3>
+                        <p className="text-gray-600 mb-4 line-clamp-3">
+                          {project.description}
+                        </p>
 
-                  {/* Tech Stack */}
-                  <div className="mb-6">
-                    <h4 className="text-sm font-medium text-gray-700 mb-2">Tech Stack:</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {project.techStack.map(tech => (
-                        <span
-                          key={tech}
-                          className="px-2 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full hover:bg-gray-200 transition-colors"
-                        >
-                          {tech}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
+                        {/* Tech Stack */}
+                        <div className="mb-6">
+                          <h4 className="text-sm font-medium text-gray-700 mb-2">Tech Stack:</h4>
+                          <div className="flex flex-wrap gap-2">
+                            {project.techStack.map(tech => (
+                              <span
+                                key={tech}
+                                className="px-2 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full hover:bg-gray-200 transition-colors"
+                              >
+                                {tech}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
 
-                  {/* Actions */}
-                  <div className="space-y-2">
-                    <div className="flex space-x-2">
-                      {project.githubUrl && (
-                        <button className="flex-1 bg-gray-900 text-white py-2 px-4 rounded-lg hover:bg-gray-800 transition-colors flex items-center justify-center">
-                          <Github className="h-4 w-4 mr-2" />
-                          Code
-                        </button>
-                      )}
-                      {project.demoUrl && (
-                        <button className="flex-1 bg-indigo-600 text-white py-2 px-4 rounded-lg hover:bg-indigo-700 transition-colors flex items-center justify-center">
-                          <ExternalLink className="h-4 w-4 mr-2" />
-                          Demo
-                        </button>
-                      )}
+                        {/* Actions */}
+                        <div className="space-y-2">
+                          <div className="flex space-x-2">
+                            {project.githubUrl && (
+                              <button className="flex-1 bg-gray-900 text-white py-2 px-4 rounded-lg hover:bg-gray-800 transition-colors flex items-center justify-center">
+                                <Github className="h-4 w-4 mr-2" />
+                                Code
+                              </button>
+                            )}
+                            {project.demoUrl && (
+                              <button className="flex-1 bg-indigo-600 text-white py-2 px-4 rounded-lg hover:bg-indigo-700 transition-colors flex items-center justify-center">
+                                <ExternalLink className="h-4 w-4 mr-2" />
+                                Demo
+                              </button>
+                            )}
+                          </div>
+                          <div className="flex space-x-2">
+                            {project.reportUrl && (
+                              <button className="flex-1 bg-green-600 text-white py-2 px-3 rounded-lg hover:bg-green-700 transition-colors flex items-center justify-center text-sm">
+                                <FileText className="h-4 w-4 mr-1" />
+                                Report
+                              </button>
+                            )}
+                            {project.pptUrl && (
+                              <button className="flex-1 bg-orange-600 text-white py-2 px-3 rounded-lg hover:bg-orange-700 transition-colors flex items-center justify-center text-sm">
+                                <Download className="h-4 w-4 mr-1" />
+                                PPT
+                              </button>
+                            )}
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div className="flex space-x-2">
-                      {project.reportUrl && (
-                        <button className="flex-1 bg-green-600 text-white py-2 px-3 rounded-lg hover:bg-green-700 transition-colors flex items-center justify-center text-sm">
-                          <FileText className="h-4 w-4 mr-1" />
-                          Report
-                        </button>
-                      )}
-                      {project.pptUrl && (
-                        <button className="flex-1 bg-orange-600 text-white py-2 px-3 rounded-lg hover:bg-orange-700 transition-colors flex items-center justify-center text-sm">
-                          <Download className="h-4 w-4 mr-1" />
-                          PPT
-                        </button>
-                      )}
-                    </div>
-                  </div>
-                </div>
+                  );
+                })}
               </div>
-            );
-          })}
-        </div>
-
-        {filteredProjects.length === 0 && (
-          <div className="bg-white rounded-2xl shadow-lg p-12 text-center">
-            <Code className="h-16 w-16 text-gray-300 mx-auto mb-6" />
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">No Projects Found</h2>
-            <p className="text-gray-600">
-              Try adjusting your filters or check back later for new projects.
-            </p>
+            ) : (
+              <div className="bg-white rounded-2xl shadow-lg p-12 text-center">
+                <Code className="h-16 w-16 text-gray-300 mx-auto mb-6" />
+                <h2 className="text-2xl font-semibold text-gray-900 mb-4">No Projects Found</h2>
+                <p className="text-gray-600">
+                  Try adjusting your filters or check back later for new projects.
+                </p>
+              </div>
+            )}
           </div>
-        )}
+        </div>
 
         {/* Project Categories */}
         <div className="mt-16 bg-white rounded-2xl shadow-lg p-8">

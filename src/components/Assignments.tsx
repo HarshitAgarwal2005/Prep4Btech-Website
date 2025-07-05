@@ -744,7 +744,7 @@ const Assignments: React.FC = () => {
 
           {/* Main Content */}
           {!selectedSemester ? (
-            /* Year and Semester Selection */
+            /* Year and Semester Selection - Centered Layout */
             <div className="flex justify-center">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl w-full">
                 {filteredYears.map((year) => (
@@ -793,7 +793,7 @@ const Assignments: React.FC = () => {
               </div>
             </div>
           ) : !selectedSubject ? (
-            /* Subject Selection */
+            /* Subject Selection - Centered Layout */
             <div className="flex justify-center">
               <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 border border-white/20 dark:border-gray-700/20 max-w-6xl w-full">
                 <div className="text-center mb-8">
@@ -821,7 +821,7 @@ const Assignments: React.FC = () => {
               </div>
             </div>
           ) : (
-            /* Assignment List */
+            /* Assignment List - Centered Layout */
             <div className="flex justify-center">
               <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 border border-white/20 dark:border-gray-700/20 max-w-6xl w-full">
                 <div className="flex items-center justify-between mb-8">

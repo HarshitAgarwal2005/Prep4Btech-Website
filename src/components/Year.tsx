@@ -158,75 +158,78 @@ const Year: React.FC = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
-            {years.map((yearData) => (
-              <div
-                key={yearData.year}
-                className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden group hover:scale-105 border border-white/20 dark:border-gray-700/20"
-              >
-                <div className={`bg-gradient-to-r ${yearData.color} p-8 text-white relative overflow-hidden`}>
-                  <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
-                    <yearData.icon className="w-full h-full" />
-                  </div>
-                  <div className="relative z-10">
-                    <div className="flex items-center mb-4">
-                      <yearData.icon className="h-8 w-8 mr-3" />
-                      <h2 className="text-3xl font-bold">{yearData.title}</h2>
+          {/* Centered Layout for Year Cards */}
+          <div className="flex justify-center mb-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl w-full">
+              {years.map((yearData) => (
+                <div
+                  key={yearData.year}
+                  className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden group hover:scale-105 border border-white/20 dark:border-gray-700/20"
+                >
+                  <div className={`bg-gradient-to-r ${yearData.color} p-8 text-white relative overflow-hidden`}>
+                    <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
+                      <yearData.icon className="w-full h-full" />
                     </div>
-                    <p className="text-white/90 text-lg leading-relaxed">
-                      {yearData.description}
-                    </p>
+                    <div className="relative z-10">
+                      <div className="flex items-center mb-4">
+                        <yearData.icon className="h-8 w-8 mr-3" />
+                        <h2 className="text-3xl font-bold">{yearData.title}</h2>
+                      </div>
+                      <p className="text-white/90 text-lg leading-relaxed">
+                        {yearData.description}
+                      </p>
+                    </div>
                   </div>
-                </div>
 
-                <div className="p-8">
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">Semesters</h3>
-                  <div className="space-y-6">
-                    {yearData.semesters.map((semester) => (
-                      <div
-                        key={semester.sem}
-                        className="bg-gray-50 dark:bg-gray-700/50 rounded-xl p-6 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
-                      >
-                        <div className="flex items-center mb-3">
-                          <div className={`w-3 h-3 rounded-full bg-gradient-to-r ${yearData.color} mr-3`}></div>
-                          <h4 className="font-semibold text-gray-900 dark:text-white text-lg">{semester.title}</h4>
-                        </div>
-                        <p className="text-gray-600 dark:text-gray-300 text-sm ml-6 mb-4">
-                          {semester.description}
-                        </p>
-                        <div className="ml-6 mb-4">
-                          <h5 className="font-medium text-gray-800 dark:text-gray-200 mb-2">Subjects:</h5>
-                          <div className="grid grid-cols-1 gap-2">
-                            {semester.subjects.map((subject, index) => (
-                              <div key={index} className="flex items-center text-sm text-gray-700 dark:text-gray-300">
-                                <FileText className="h-4 w-4 mr-2 text-blue-500" />
-                                <span>{subject}</span>
-                              </div>
-                            ))}
+                  <div className="p-8">
+                    <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">Semesters</h3>
+                    <div className="space-y-6">
+                      {yearData.semesters.map((semester) => (
+                        <div
+                          key={semester.sem}
+                          className="bg-gray-50 dark:bg-gray-700/50 rounded-xl p-6 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+                        >
+                          <div className="flex items-center mb-3">
+                            <div className={`w-3 h-3 rounded-full bg-gradient-to-r ${yearData.color} mr-3`}></div>
+                            <h4 className="font-semibold text-gray-900 dark:text-white text-lg">{semester.title}</h4>
+                          </div>
+                          <p className="text-gray-600 dark:text-gray-300 text-sm ml-6 mb-4">
+                            {semester.description}
+                          </p>
+                          <div className="ml-6 mb-4">
+                            <h5 className="font-medium text-gray-800 dark:text-gray-200 mb-2">Subjects:</h5>
+                            <div className="grid grid-cols-1 gap-2">
+                              {semester.subjects.map((subject, index) => (
+                                <div key={index} className="flex items-center text-sm text-gray-700 dark:text-gray-300">
+                                  <FileText className="h-4 w-4 mr-2 text-blue-500" />
+                                  <span>{subject}</span>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                          
+                          {/* Action Buttons */}
+                          <div className="ml-6 flex flex-col sm:flex-row gap-3">
+                            <Link
+                              to={`/subjects?year=${yearData.year}&semester=${semester.sem}`}
+                              className={`flex-1 bg-gradient-to-r ${yearData.color} text-white py-2 px-4 rounded-lg font-medium text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 text-sm`}
+                            >
+                              View Subjects
+                            </Link>
+                            <Link
+                              to={`/assignments?year=${yearData.year}&semester=${semester.sem}`}
+                              className="flex-1 bg-gray-100 dark:bg-gray-600 text-gray-700 dark:text-gray-300 py-2 px-4 rounded-lg font-medium text-center hover:bg-gray-200 dark:hover:bg-gray-500 transition-colors text-sm"
+                            >
+                              View Content
+                            </Link>
                           </div>
                         </div>
-                        
-                        {/* Action Buttons */}
-                        <div className="ml-6 flex flex-col sm:flex-row gap-3">
-                          <Link
-                            to={`/subjects?year=${yearData.year}&semester=${semester.sem}`}
-                            className={`flex-1 bg-gradient-to-r ${yearData.color} text-white py-2 px-4 rounded-lg font-medium text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 text-sm`}
-                          >
-                            View Subjects
-                          </Link>
-                          <Link
-                            to={`/assignments?year=${yearData.year}&semester=${semester.sem}`}
-                            className="flex-1 bg-gray-100 dark:bg-gray-600 text-gray-700 dark:text-gray-300 py-2 px-4 rounded-lg font-medium text-center hover:bg-gray-200 dark:hover:bg-gray-500 transition-colors text-sm"
-                          >
-                            View Content
-                          </Link>
-                        </div>
-                      </div>
-                    ))}
+                      ))}
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
 
           {/* Quick Stats */}

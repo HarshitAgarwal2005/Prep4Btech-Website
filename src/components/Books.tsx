@@ -92,85 +92,85 @@ const Books: React.FC = () => {
 
         {/* Books Grid - Centered Results */}
         <div className="flex justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full">
-            {filteredBooks.map(book => (
-              <div key={book.id} className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group border border-white/20 dark:border-gray-700/20">
-                {/* Book Cover Placeholder */}
-                <div className="bg-gradient-to-br from-purple-500 to-pink-500 h-48 flex items-center justify-center relative overflow-hidden">
-                  <div className="absolute inset-0 bg-black/10"></div>
-                  <Book className="h-16 w-16 text-white/80 z-10" />
-                  <div className="absolute top-4 right-4 bg-white/20 backdrop-blur-sm rounded-full p-2">
-                    <Star className="h-4 w-4 text-white" />
-                  </div>
-                </div>
+          <div className="w-full max-w-6xl">
+            {filteredBooks.length > 0 ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {filteredBooks.map(book => (
+                  <div key={book.id} className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group border border-white/20 dark:border-gray-700/20">
+                    {/* Book Cover Placeholder */}
+                    <div className="bg-gradient-to-br from-purple-500 to-pink-500 h-48 flex items-center justify-center relative overflow-hidden">
+                      <div className="absolute inset-0 bg-black/10"></div>
+                      <Book className="h-16 w-16 text-white/80 z-10" />
+                      <div className="absolute top-4 right-4 bg-white/20 backdrop-blur-sm rounded-full p-2">
+                        <Star className="h-4 w-4 text-white" />
+                      </div>
+                    </div>
 
-                <div className="p-6">
-                  {/* Book Info */}
-                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
-                    {book.title}
-                  </h3>
-                  <p className="text-gray-600 dark:text-gray-300 mb-4">by {book.author}</p>
+                    <div className="p-6">
+                      {/* Book Info */}
+                      <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
+                        {book.title}
+                      </h3>
+                      <p className="text-gray-600 dark:text-gray-300 mb-4">by {book.author}</p>
 
-                  {/* Subjects */}
-                  <div className="mb-6">
-                    <h4 className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Related Subjects:</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {book.subjects.map(subject => (
-                        <span
-                          key={subject}
-                          className="px-2 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 text-xs font-medium rounded-full"
-                        >
-                          {subject}
-                        </span>
-                      ))}
+                      {/* Subjects */}
+                      <div className="mb-6">
+                        <h4 className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Related Subjects:</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {book.subjects.map(subject => (
+                            <span
+                              key={subject}
+                              className="px-2 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 text-xs font-medium rounded-full"
+                            >
+                              {subject}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+
+                      {/* ISBN */}
+                      {book.isbn && (
+                        <div className="mb-6">
+                          <p className="text-sm text-gray-600 dark:text-gray-300">
+                            <span className="font-medium">ISBN:</span> {book.isbn}
+                          </p>
+                        </div>
+                      )}
+
+                      {/* Actions */}
+                      <div className="flex space-x-2">
+                        {book.downloadUrl ? (
+                          <button className="flex-1 bg-purple-600 text-white py-2 px-4 rounded-lg hover:bg-purple-700 transition-colors flex items-center justify-center">
+                            <Download className="h-4 w-4 mr-2" />
+                            Download
+                          </button>
+                        ) : (
+                          <button className="flex-1 bg-gray-300 dark:bg-gray-600 text-gray-600 dark:text-gray-300 py-2 px-4 rounded-lg cursor-not-allowed">
+                            Not Available
+                          </button>
+                        )}
+                        {book.buyUrl && (
+                          <button className="flex-1 bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition-colors flex items-center justify-center">
+                            <ExternalLink className="h-4 w-4 mr-2" />
+                            Buy
+                          </button>
+                        )}
+                      </div>
                     </div>
                   </div>
-
-                  {/* ISBN */}
-                  {book.isbn && (
-                    <div className="mb-6">
-                      <p className="text-sm text-gray-600 dark:text-gray-300">
-                        <span className="font-medium">ISBN:</span> {book.isbn}
-                      </p>
-                    </div>
-                  )}
-
-                  {/* Actions */}
-                  <div className="flex space-x-2">
-                    {book.downloadUrl ? (
-                      <button className="flex-1 bg-purple-600 text-white py-2 px-4 rounded-lg hover:bg-purple-700 transition-colors flex items-center justify-center">
-                        <Download className="h-4 w-4 mr-2" />
-                        Download
-                      </button>
-                    ) : (
-                      <button className="flex-1 bg-gray-300 dark:bg-gray-600 text-gray-600 dark:text-gray-300 py-2 px-4 rounded-lg cursor-not-allowed">
-                        Not Available
-                      </button>
-                    )}
-                    {book.buyUrl && (
-                      <button className="flex-1 bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition-colors flex items-center justify-center">
-                        <ExternalLink className="h-4 w-4 mr-2" />
-                        Buy
-                      </button>
-                    )}
-                  </div>
-                </div>
+                ))}
               </div>
-            ))}
+            ) : (
+              <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-12 text-center border border-white/20 dark:border-gray-700/20">
+                <Book className="h-16 w-16 text-gray-300 mx-auto mb-6" />
+                <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">No Books Found</h2>
+                <p className="text-gray-600 dark:text-gray-300">
+                  Try adjusting your search or filter criteria.
+                </p>
+              </div>
+            )}
           </div>
         </div>
-
-        {filteredBooks.length === 0 && (
-          <div className="flex justify-center">
-            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-12 text-center max-w-2xl w-full border border-white/20 dark:border-gray-700/20">
-              <Book className="h-16 w-16 text-gray-300 mx-auto mb-6" />
-              <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">No Books Found</h2>
-              <p className="text-gray-600 dark:text-gray-300">
-                Try adjusting your search or filter criteria.
-              </p>
-            </div>
-          </div>
-        )}
 
         {/* Featured Books Section */}
         <div className="mt-16 bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-8 border border-white/20 dark:border-gray-700/20">
