@@ -623,62 +623,6 @@ const Assignments: React.FC = () => {
             </div>
           )}
 
-          {/* Content Type Filters */}
-          {!selectedSemester && (
-            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 mb-8 border border-white/20 dark:border-gray-700/20">
-              <div className="flex items-center mb-4">
-                <Filter className="h-6 w-6 text-gray-600 mr-2" />
-                <h2 className="text-lg font-semibold text-gray-900 dark:text-white">Content Type Filters</h2>
-              </div>
-              
-              <div className="flex flex-wrap gap-3 mb-6">
-                <button
-                  onClick={() => setSelectedContentType(null)}
-                  className={`px-4 py-2 rounded-lg font-medium transition-colors ${
-                    selectedContentType === null
-                      ? 'bg-blue-600 text-white'
-                      : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-                  }`}
-                >
-                  All Content
-                </button>
-                <button
-                  onClick={() => setSelectedContentType('theory')}
-                  className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center ${
-                    selectedContentType === 'theory'
-                      ? 'bg-blue-600 text-white'
-                      : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-                  }`}
-                >
-                  <FileText className="h-4 w-4 mr-2" />
-                  Theory
-                </button>
-                <button
-                  onClick={() => setSelectedContentType('lab')}
-                  className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center ${
-                    selectedContentType === 'lab'
-                      ? 'bg-green-600 text-white'
-                      : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-                  }`}
-                >
-                  <FlaskConical className="h-4 w-4 mr-2" />
-                  Lab
-                </button>
-                <button
-                  onClick={() => setSelectedContentType('video')}
-                  className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center ${
-                    selectedContentType === 'video'
-                      ? 'bg-red-600 text-white'
-                      : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
-                  }`}
-                >
-                  <Video className="h-4 w-4 mr-2" />
-                  Videos
-                </button>
-              </div>
-            </div>
-          )}
-
           {/* Filter Section */}
           {!selectedSemester && (
             <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 mb-8 border border-white/20 dark:border-gray-700/20">
