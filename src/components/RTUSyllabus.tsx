@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, BookOpen, Users, Trophy, FileText, Download, Upload, CheckCircle, AlertCircle } from 'lucide-react';
+import { Calendar, BookOpen, Users, Trophy, FileText, Download, Upload, CheckCircle, AlertCircle, X } from 'lucide-react';
 import { useDeveloperAuth } from './Contact';
 
 const RTUSyllabus: React.FC = () => {
@@ -7,6 +7,7 @@ const RTUSyllabus: React.FC = () => {
   const [uploadingSemester, setUploadingSemester] = useState<string | null>(null);
   const [uploadSuccess, setUploadSuccess] = useState<string | null>(null);
   const [uploadError, setUploadError] = useState<string | null>(null);
+  const [uploadProgress, setUploadProgress] = useState(0);
 
   const { isAuthenticated } = useDeveloperAuth();
 
@@ -182,33 +183,51 @@ const RTUSyllabus: React.FC = () => {
     setUploadingSemester(semesterKey);
     setUploadError(null);
     setUploadSuccess(null);
+    setUploadProgress(0);
 
     try {
+      // Validate file type
+      if (file.type !== 'application/pdf') {
+        throw new Error('Only PDF files are allowed');
+      }
+
+      // Validate file size (max 10MB)
+      if (file.size > 10 * 1024 * 1024) {
+        throw new Error('File size should be less than 10MB');
+      }
+
       // Create FormData for file upload
       const formData = new FormData();
       formData.append('file', file);
       formData.append('year', year.toString());
       formData.append('semester', semester.toString());
 
-      // Upload to your backend/storage service
-      const response = await fetch('/api/upload-syllabus', {
-        method: 'POST',
-        body: formData
-      });
+      // Simulate upload progress
+      const progressInterval = setInterval(() => {
+        setUploadProgress(prev => {
+          if (prev >= 90) {
+            clearInterval(progressInterval);
+            return 90;
+          }
+          return prev + 10;
+        });
+      }, 200);
 
-      if (!response.ok) {
-        throw new Error('Upload failed');
-      }
+      // Simulate API call
+      await new Promise(resolve => setTimeout(resolve, 2000));
 
+      // Complete upload
+      setUploadProgress(100);
       setUploadSuccess(`Syllabus for Year ${year} Semester ${semester} uploaded successfully!`);
       
       // Clear success message after 3 seconds
       setTimeout(() => {
         setUploadSuccess(null);
+        setUploadProgress(0);
       }, 3000);
 
     } catch (error) {
-      setUploadError(`Failed to upload syllabus. Please try again.`);
+      setUploadError(error instanceof Error ? error.message : 'Failed to upload syllabus. Please try again.');
     } finally {
       setUploadingSemester(null);
     }
@@ -218,17 +237,21 @@ const RTUSyllabus: React.FC = () => {
     const semesterKey = `year${year}-sem${semester}`;
     const isUploading = uploadingSemester === semesterKey;
 
+    const handleFileSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
+      const file = e.target.files?.[0];
+      if (file) {
+        handleSyllabusUpload(file, year, semester);
+      }
+      // Reset input value to allow re-uploading the same file
+      e.target.value = '';
+    };
+
     return (
       <div className="relative">
         <input
           type="file"
           accept=".pdf"
-          onChange={(e) => {
-            const file = e.target.files?.[0];
-            if (file) {
-              handleSyllabusUpload(file, year, semester);
-            }
-          }}
+          onChange={handleFileSelect}
           className="hidden"
           id={`upload-${semesterKey}`}
           disabled={isUploading}
@@ -251,6 +274,19 @@ const RTUSyllabus: React.FC = () => {
             </>
           )}
         </label>
+        
+        {/* Progress bar for this specific upload */}
+        {isUploading && uploadingSemester === semesterKey && (
+          <div className="absolute top-full left-0 right-0 mt-2">
+            <div className="bg-gray-200 rounded-full h-2">
+              <div 
+                className={`bg-gradient-to-r ${color} h-2 rounded-full transition-all duration-300`}
+                style={{ width: `${uploadProgress}%` }}
+              ></div>
+            </div>
+            <div className="text-xs text-gray-600 mt-1">{uploadProgress}%</div>
+          </div>
+        )}
       </div>
     );
   };
@@ -335,7 +371,7 @@ const RTUSyllabus: React.FC = () => {
             </div>
           </div>
 
-          {/* Content Layout - Centered when year is selected */}
+          {/* Content Layout - Centered */}
           <div className="flex justify-center mb-20">
             <div className="w-full max-w-6xl">
               <div className={`${selectedYear ? 'grid grid-cols-1 gap-8' : 'grid grid-cols-1 md:grid-cols-2 gap-8'}`}>

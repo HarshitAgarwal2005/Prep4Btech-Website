@@ -13,7 +13,9 @@ import {
   Search,
   Filter,
   Video,
-  FlaskConical
+  FlaskConical,
+  X,
+  AlertCircle
 } from 'lucide-react';
 import { useDeveloperAuth } from './Contact';
 
@@ -59,6 +61,19 @@ const Assignments: React.FC = () => {
   const [selectedContentType, setSelectedContentType] = useState<string | null>(null);
   const [showUploadModal, setShowUploadModal] = useState(false);
   const [uploadingSubject, setUploadingSubject] = useState<string | null>(null);
+  const [uploadingContentType, setUploadingContentType] = useState<string | null>(null);
+
+  // Upload form states
+  const [uploadForm, setUploadForm] = useState({
+    title: '',
+    description: '',
+    contentType: 'theory' as 'theory' | 'lab' | 'video',
+    file: null as File | null
+  });
+  const [uploadProgress, setUploadProgress] = useState(0);
+  const [isUploading, setIsUploading] = useState(false);
+  const [uploadSuccess, setUploadSuccess] = useState(false);
+  const [uploadError, setUploadError] = useState<string | null>(null);
 
   const { isAuthenticated } = useDeveloperAuth();
 
@@ -455,6 +470,13 @@ const Assignments: React.FC = () => {
 
   const handleUploadAssignment = (subjectId: string, contentType: string) => {
     setUploadingSubject(subjectId);
+    setUploadingContentType(contentType);
+    setUploadForm({
+      title: '',
+      description: '',
+      contentType: contentType as 'theory' | 'lab' | 'video',
+      file: null
+    });
     setShowUploadModal(true);
   };
 
@@ -516,59 +538,280 @@ const Assignments: React.FC = () => {
     return typeMatch && searchMatch;
   }) || [];
 
+  // File upload handlers
+  const handleFileSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      // Validate file size (max 50MB)
+      if (file.size > 50 * 1024 * 1024) {
+        setUploadError('File size should be less than 50MB');
+        return;
+      }
+
+      // Validate file type based on content type
+      const allowedTypes = {
+        theory: ['.pdf', '.doc', '.docx', '.txt'],
+        lab: ['.pdf', '.doc', '.docx', '.txt', '.zip', '.rar'],
+        video: ['.mp4', '.avi', '.mov', '.wmv', '.flv', '.webm']
+      };
+
+      const fileExtension = '.' + file.name.split('.').pop()?.toLowerCase();
+      const allowedExtensions = allowedTypes[uploadForm.contentType];
+
+      if (!allowedExtensions.includes(fileExtension)) {
+        setUploadError(`Invalid file type. Allowed types for ${uploadForm.contentType}: ${allowedExtensions.join(', ')}`);
+        return;
+      }
+
+      setUploadForm(prev => ({ ...prev, file }));
+      setUploadError(null);
+    }
+  };
+
+  const handleUploadSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    if (!uploadForm.file || !uploadForm.title.trim()) {
+      setUploadError('Please provide a title and select a file');
+      return;
+    }
+
+    setIsUploading(true);
+    setUploadProgress(0);
+    setUploadError(null);
+
+    try {
+      // Simulate file upload with progress
+      const formData = new FormData();
+      formData.append('file', uploadForm.file);
+      formData.append('title', uploadForm.title);
+      formData.append('description', uploadForm.description);
+      formData.append('contentType', uploadForm.contentType);
+      formData.append('subjectId', uploadingSubject || '');
+
+      // Simulate upload progress
+      const progressInterval = setInterval(() => {
+        setUploadProgress(prev => {
+          if (prev >= 90) {
+            clearInterval(progressInterval);
+            return 90;
+          }
+          return prev + 10;
+        });
+      }, 200);
+
+      // Simulate API call
+      await new Promise(resolve => setTimeout(resolve, 2000));
+
+      // Complete upload
+      setUploadProgress(100);
+      setUploadSuccess(true);
+
+      // Reset form after success
+      setTimeout(() => {
+        setShowUploadModal(false);
+        setUploadSuccess(false);
+        setUploadForm({
+          title: '',
+          description: '',
+          contentType: 'theory',
+          file: null
+        });
+        setUploadProgress(0);
+        setUploadingSubject(null);
+        setUploadingContentType(null);
+      }, 2000);
+
+    } catch (error) {
+      setUploadError('Upload failed. Please try again.');
+    } finally {
+      setIsUploading(false);
+    }
+  };
+
+  const closeUploadModal = () => {
+    setShowUploadModal(false);
+    setUploadForm({
+      title: '',
+      description: '',
+      contentType: 'theory',
+      file: null
+    });
+    setUploadProgress(0);
+    setUploadSuccess(false);
+    setUploadError(null);
+    setUploadingSubject(null);
+    setUploadingContentType(null);
+  };
+
+  // Upload Modal Component
   const AssignmentUploadModal: React.FC = () => (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md">
-        <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6 rounded-t-2xl">
-          <h2 className="text-xl font-bold">Upload Content</h2>
-          <p className="text-blue-100 text-sm">Add new content to subject</p>
-        </div>
-        <div className="p-6">
-          <div className="space-y-4">
+      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[90vh] overflow-hidden">
+        <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6">
+          <div className="flex items-center justify-between">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Content Title</label>
-              <input
-                type="text"
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                placeholder="Enter content title"
-              />
+              <h2 className="text-xl font-bold">Upload Content</h2>
+              <p className="text-blue-100 text-sm">
+                Add new {uploadingContentType} content to {selectedSubject?.name}
+              </p>
             </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Description</label>
-              <textarea
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                rows={3}
-                placeholder="Enter content description"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Content Type</label>
-              <select className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                <option value="theory">Theory</option>
-                <option value="lab">Lab</option>
-                <option value="video">Video</option>
-              </select>
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Upload File</label>
-              <input
-                type="file"
-                accept=".pdf,.doc,.docx,.mp4,.avi,.mov"
-                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              />
-            </div>
-          </div>
-          <div className="flex space-x-3 mt-6">
-            <button className="flex-1 bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
-              Upload
-            </button>
-            <button 
-              onClick={() => setShowUploadModal(false)}
-              className="flex-1 bg-gray-300 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-400 transition-colors"
+            <button
+              onClick={closeUploadModal}
+              className="p-2 hover:bg-white/20 rounded-lg transition-colors"
             >
-              Cancel
+              <X className="h-5 w-5" />
             </button>
           </div>
+        </div>
+
+        <div className="p-6 max-h-[calc(90vh-200px)] overflow-y-auto">
+          {uploadSuccess ? (
+            <div className="text-center py-12">
+              <div className="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                <CheckCircle className="h-10 w-10 text-green-600" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Upload Successful! ✅</h3>
+              <p className="text-gray-600">
+                Your content has been uploaded successfully and is now available to students.
+              </p>
+            </div>
+          ) : (
+            <form onSubmit={handleUploadSubmit} className="space-y-6">
+              {uploadError && (
+                <div className="bg-red-50 border border-red-200 rounded-lg p-4 flex items-center">
+                  <AlertCircle className="h-5 w-5 text-red-500 mr-2" />
+                  <span className="text-red-700 text-sm">{uploadError}</span>
+                </div>
+              )}
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Content Title *
+                </label>
+                <input
+                  type="text"
+                  value={uploadForm.title}
+                  onChange={(e) => setUploadForm(prev => ({ ...prev, title: e.target.value }))}
+                  required
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  placeholder="Enter content title"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Description
+                </label>
+                <textarea
+                  value={uploadForm.description}
+                  onChange={(e) => setUploadForm(prev => ({ ...prev, description: e.target.value }))}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  rows={3}
+                  placeholder="Enter content description"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Content Type
+                </label>
+                <select 
+                  value={uploadForm.contentType}
+                  onChange={(e) => setUploadForm(prev => ({ ...prev, contentType: e.target.value as 'theory' | 'lab' | 'video' }))}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                >
+                  <option value="theory">Theory</option>
+                  <option value="lab">Lab</option>
+                  <option value="video">Video</option>
+                </select>
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Upload File *
+                </label>
+                <div className="border-2 border-dashed border-gray-300 rounded-lg p-6">
+                  <input
+                    type="file"
+                    onChange={handleFileSelect}
+                    className="hidden"
+                    id="file-upload"
+                    accept={
+                      uploadForm.contentType === 'theory' ? '.pdf,.doc,.docx,.txt' :
+                      uploadForm.contentType === 'lab' ? '.pdf,.doc,.docx,.txt,.zip,.rar' :
+                      '.mp4,.avi,.mov,.wmv,.flv,.webm'
+                    }
+                  />
+                  <label
+                    htmlFor="file-upload"
+                    className="cursor-pointer flex flex-col items-center text-gray-600 hover:text-gray-800 transition-colors"
+                  >
+                    <Upload className="h-12 w-12 mb-4" />
+                    {uploadForm.file ? (
+                      <div className="text-center">
+                        <span className="text-green-600 font-medium">✓ {uploadForm.file.name}</span>
+                        <p className="text-sm text-gray-500 mt-1">
+                          Size: {(uploadForm.file.size / (1024 * 1024)).toFixed(2)} MB
+                        </p>
+                      </div>
+                    ) : (
+                      <div className="text-center">
+                        <span className="text-lg font-medium">Click to select file</span>
+                        <p className="text-sm text-gray-500 mt-1">
+                          {uploadForm.contentType === 'theory' && 'PDF, DOC, DOCX, TXT (Max 50MB)'}
+                          {uploadForm.contentType === 'lab' && 'PDF, DOC, DOCX, TXT, ZIP, RAR (Max 50MB)'}
+                          {uploadForm.contentType === 'video' && 'MP4, AVI, MOV, WMV, FLV, WEBM (Max 50MB)'}
+                        </p>
+                      </div>
+                    )}
+                  </label>
+                </div>
+              </div>
+
+              {isUploading && (
+                <div>
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-sm font-medium text-gray-700">Upload Progress</span>
+                    <span className="text-sm text-gray-500">{uploadProgress}%</span>
+                  </div>
+                  <div className="w-full bg-gray-200 rounded-full h-2">
+                    <div 
+                      className="bg-blue-600 h-2 rounded-full transition-all duration-300"
+                      style={{ width: `${uploadProgress}%` }}
+                    ></div>
+                  </div>
+                </div>
+              )}
+
+              <div className="flex space-x-3">
+                <button
+                  type="submit"
+                  disabled={isUploading || !uploadForm.file || !uploadForm.title.trim()}
+                  className="flex-1 bg-blue-600 text-white py-3 px-4 rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
+                >
+                  {isUploading ? (
+                    <>
+                      <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>
+                      Uploading...
+                    </>
+                  ) : (
+                    <>
+                      <Upload className="h-4 w-4 mr-2" />
+                      Upload Content
+                    </>
+                  )}
+                </button>
+                <button 
+                  type="button"
+                  onClick={closeUploadModal}
+                  className="flex-1 bg-gray-300 text-gray-700 py-3 px-4 rounded-lg hover:bg-gray-400 transition-colors"
+                >
+                  Cancel
+                </button>
+              </div>
+            </form>
+          )}
         </div>
       </div>
     </div>

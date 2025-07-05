@@ -37,6 +37,18 @@ const PYQPapers: React.FC = () => {
   const [isProcessing, setIsProcessing] = useState(false);
   const [managementMode, setManagementMode] = useState<'course' | 'branch' | 'subject' | 'paper' | null>(null);
 
+  // File upload states
+  const [showUploadModal, setShowUploadModal] = useState(false);
+  const [uploadForm, setUploadForm] = useState({
+    title: '',
+    year: new Date().getFullYear(),
+    file: null as File | null
+  });
+  const [uploadProgress, setUploadProgress] = useState(0);
+  const [isUploading, setIsUploading] = useState(false);
+  const [uploadSuccess, setUploadSuccess] = useState(false);
+  const [uploadError, setUploadError] = useState<string | null>(null);
+
   const { isAuthenticated } = useDeveloperAuth();
 
   const resetSelection = () => {
@@ -102,6 +114,96 @@ const PYQPapers: React.FC = () => {
     } catch (error) {
       alert(`Error downloading ${paper.title}. Please try again later.`);
     }
+  };
+
+  // File upload handlers
+  const handleFileSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      // Validate file type
+      if (file.type !== 'application/pdf') {
+        setUploadError('Only PDF files are allowed');
+        return;
+      }
+
+      // Validate file size (max 10MB)
+      if (file.size > 10 * 1024 * 1024) {
+        setUploadError('File size should be less than 10MB');
+        return;
+      }
+
+      setUploadForm(prev => ({ ...prev, file }));
+      setUploadError(null);
+    }
+  };
+
+  const handleUploadSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    if (!uploadForm.file || !uploadForm.title.trim()) {
+      setUploadError('Please provide a title and select a file');
+      return;
+    }
+
+    setIsUploading(true);
+    setUploadProgress(0);
+    setUploadError(null);
+
+    try {
+      // Simulate file upload with progress
+      const formData = new FormData();
+      formData.append('file', uploadForm.file);
+      formData.append('title', uploadForm.title);
+      formData.append('year', uploadForm.year.toString());
+      formData.append('subjectId', selectedSubject?.id || '');
+
+      // Simulate upload progress
+      const progressInterval = setInterval(() => {
+        setUploadProgress(prev => {
+          if (prev >= 90) {
+            clearInterval(progressInterval);
+            return 90;
+          }
+          return prev + 10;
+        });
+      }, 200);
+
+      // Simulate API call
+      await new Promise(resolve => setTimeout(resolve, 2000));
+
+      // Complete upload
+      setUploadProgress(100);
+      setUploadSuccess(true);
+
+      // Reset form after success
+      setTimeout(() => {
+        setShowUploadModal(false);
+        setUploadSuccess(false);
+        setUploadForm({
+          title: '',
+          year: new Date().getFullYear(),
+          file: null
+        });
+        setUploadProgress(0);
+      }, 2000);
+
+    } catch (error) {
+      setUploadError('Upload failed. Please try again.');
+    } finally {
+      setIsUploading(false);
+    }
+  };
+
+  const closeUploadModal = () => {
+    setShowUploadModal(false);
+    setUploadForm({
+      title: '',
+      year: new Date().getFullYear(),
+      file: null
+    });
+    setUploadProgress(0);
+    setUploadSuccess(false);
+    setUploadError(null);
   };
 
   // AI Management Functions
@@ -170,6 +272,160 @@ const PYQPapers: React.FC = () => {
     setAiInput('');
     setAiResponse('');
   };
+
+  // Upload Modal Component
+  const PaperUploadModal: React.FC = () => (
+    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[90vh] overflow-hidden">
+        <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6">
+          <div className="flex items-center justify-between">
+            <div>
+              <h2 className="text-xl font-bold">Upload PYQ Paper</h2>
+              <p className="text-blue-100 text-sm">
+                Add new paper to {selectedSubject?.name}
+              </p>
+            </div>
+            <button
+              onClick={closeUploadModal}
+              className="p-2 hover:bg-white/20 rounded-lg transition-colors"
+            >
+              <X className="h-5 w-5" />
+            </button>
+          </div>
+        </div>
+
+        <div className="p-6 max-h-[calc(90vh-200px)] overflow-y-auto">
+          {uploadSuccess ? (
+            <div className="text-center py-12">
+              <div className="bg-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                <CheckCircle className="h-10 w-10 text-green-600" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Upload Successful! ✅</h3>
+              <p className="text-gray-600">
+                Your PYQ paper has been uploaded successfully and is now available to students.
+              </p>
+            </div>
+          ) : (
+            <form onSubmit={handleUploadSubmit} className="space-y-6">
+              {uploadError && (
+                <div className="bg-red-50 border border-red-200 rounded-lg p-4 flex items-center">
+                  <AlertCircle className="h-5 w-5 text-red-500 mr-2" />
+                  <span className="text-red-700 text-sm">{uploadError}</span>
+                </div>
+              )}
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Paper Title *
+                </label>
+                <input
+                  type="text"
+                  value={uploadForm.title}
+                  onChange={(e) => setUploadForm(prev => ({ ...prev, title: e.target.value }))}
+                  required
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  placeholder="e.g., Final Exam 2024, Midterm 2023"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Year *
+                </label>
+                <input
+                  type="number"
+                  value={uploadForm.year}
+                  onChange={(e) => setUploadForm(prev => ({ ...prev, year: parseInt(e.target.value) }))}
+                  required
+                  min="2000"
+                  max={new Date().getFullYear() + 1}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Upload PDF File *
+                </label>
+                <div className="border-2 border-dashed border-gray-300 rounded-lg p-6">
+                  <input
+                    type="file"
+                    onChange={handleFileSelect}
+                    className="hidden"
+                    id="paper-upload"
+                    accept=".pdf"
+                  />
+                  <label
+                    htmlFor="paper-upload"
+                    className="cursor-pointer flex flex-col items-center text-gray-600 hover:text-gray-800 transition-colors"
+                  >
+                    <Upload className="h-12 w-12 mb-4" />
+                    {uploadForm.file ? (
+                      <div className="text-center">
+                        <span className="text-green-600 font-medium">✓ {uploadForm.file.name}</span>
+                        <p className="text-sm text-gray-500 mt-1">
+                          Size: {(uploadForm.file.size / (1024 * 1024)).toFixed(2)} MB
+                        </p>
+                      </div>
+                    ) : (
+                      <div className="text-center">
+                        <span className="text-lg font-medium">Click to select PDF file</span>
+                        <p className="text-sm text-gray-500 mt-1">
+                          PDF files only (Max 10MB)
+                        </p>
+                      </div>
+                    )}
+                  </label>
+                </div>
+              </div>
+
+              {isUploading && (
+                <div>
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-sm font-medium text-gray-700">Upload Progress</span>
+                    <span className="text-sm text-gray-500">{uploadProgress}%</span>
+                  </div>
+                  <div className="w-full bg-gray-200 rounded-full h-2">
+                    <div 
+                      className="bg-blue-600 h-2 rounded-full transition-all duration-300"
+                      style={{ width: `${uploadProgress}%` }}
+                    ></div>
+                  </div>
+                </div>
+              )}
+
+              <div className="flex space-x-3">
+                <button
+                  type="submit"
+                  disabled={isUploading || !uploadForm.file || !uploadForm.title.trim()}
+                  className="flex-1 bg-blue-600 text-white py-3 px-4 rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
+                >
+                  {isUploading ? (
+                    <>
+                      <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>
+                      Uploading...
+                    </>
+                  ) : (
+                    <>
+                      <Upload className="h-4 w-4 mr-2" />
+                      Upload Paper
+                    </>
+                  )}
+                </button>
+                <button 
+                  type="button"
+                  onClick={closeUploadModal}
+                  className="flex-1 bg-gray-300 text-gray-700 py-3 px-4 rounded-lg hover:bg-gray-400 transition-colors"
+                >
+                  Cancel
+                </button>
+              </div>
+            </form>
+          )}
+        </div>
+      </div>
+    </div>
+  );
 
   // AI Management Panel Component
   const AIManagementPanel: React.FC = () => (
@@ -470,6 +726,9 @@ const PYQPapers: React.FC = () => {
           {/* AI Management Panel */}
           {showAIPanel && <AIManagementPanel />}
 
+          {/* Upload Modal */}
+          {showUploadModal && <PaperUploadModal />}
+
           {/* Breadcrumb Navigation */}
           {(selectedCourse || selectedBranch || selectedSemester || selectedSubject) && (
             <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 mb-8 border border-white/20 dark:border-gray-700/20">
@@ -622,13 +881,24 @@ const PYQPapers: React.FC = () => {
           {/* Step 5: Show PYQ Papers */}
           {selectedSubject && (
             <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 border border-white/20 dark:border-gray-700/20">
-              <div className="text-center mb-8">
-                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-                  {selectedCourse?.name} - {selectedBranch?.name} - {selectedSubject.name} - Semester {selectedSemester} - PYQ Papers
-                </h2>
-                <p className="text-gray-600 dark:text-gray-300">
-                  Previous Year Question Papers (Latest to Oldest)
-                </p>
+              <div className="flex items-center justify-between mb-8">
+                <div>
+                  <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+                    {selectedSubject.name} - PYQ Papers
+                  </h2>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    Previous Year Question Papers (Latest to Oldest)
+                  </p>
+                </div>
+                {isAuthenticated && (
+                  <button
+                    onClick={() => setShowUploadModal(true)}
+                    className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-lg transition-colors flex items-center"
+                  >
+                    <Plus className="h-4 w-4 mr-2" />
+                    Upload Paper
+                  </button>
+                )}
               </div>
 
               {filteredPapers.length > 0 ? (
@@ -672,9 +942,17 @@ const PYQPapers: React.FC = () => {
                 <div className="text-center py-12">
                   <FileText className="h-16 w-16 text-gray-300 mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">No Papers Available</h3>
-                  <p className="text-gray-600 dark:text-gray-300">
+                  <p className="text-gray-600 dark:text-gray-300 mb-6">
                     No PYQ papers available for {selectedSubject.name} yet. Check back later!
                   </p>
+                  {isAuthenticated && (
+                    <button
+                      onClick={() => setShowUploadModal(true)}
+                      className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-lg transition-colors"
+                    >
+                      Upload First Paper
+                    </button>
+                  )}
                 </div>
               )}
             </div>
