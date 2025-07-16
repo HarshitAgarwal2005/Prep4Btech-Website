@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
     { name: 'Project Ideas', path: '/projects' },
     { name: 'Reference Books', path: '/books' },
     { name: 'Ask Doubts', path: '/' },
-    { name: 'Community', path: '/contact' }
+    { name: 'Support', path: '/' }
   ];
 
   const socialLinks = [
@@ -353,7 +353,7 @@ const Footer: React.FC = () => {
                 <Link to="/sitemap" className="text-gray-300 hover:text-white transition-colors">
                   Sitemap
                 </Link>
-                <Link to="/contact" className="text-gray-300 hover:text-white transition-colors">
+                <Link to="/" className="text-gray-300 hover:text-white transition-colors">
                   Support
                 </Link>
               </div>

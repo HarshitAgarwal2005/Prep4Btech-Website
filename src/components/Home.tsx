@@ -36,7 +36,7 @@ const Home: React.FC = () => {
       description: 'Connect with fellow students and share knowledge in a supportive environment.',
       gradient: 'from-orange-500 to-red-500',
       bgGradient: 'from-orange-50 to-red-50 dark:from-orange-900/20 dark:to-red-900/20',
-      link: '/contact'
+      link: '/'
     },
     {
       icon: Lightbulb,
@@ -52,7 +52,7 @@ const Home: React.FC = () => {
       description: 'Join a thriving community of learners helping each other succeed.',
       gradient: 'from-indigo-500 to-purple-500',
       bgGradient: 'from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20',
-      link: '/contact'
+      link: '/'
     }
   ];
 

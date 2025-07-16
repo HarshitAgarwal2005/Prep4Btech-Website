@@ -20,7 +20,6 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
     { name: 'Projects', path: '/projects' },
     { name: 'PYQ Papers', path: '/pyq-papers' },
     { name: 'RTU Syllabus', path: '/rtu-syllabus' },
-    { name: 'Contact', path: '/contact' }
   ];
 
   const handleSearch = (e: React.FormEvent) => {
