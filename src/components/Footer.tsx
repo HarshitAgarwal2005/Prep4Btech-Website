@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { 
   Mail, 
-  Phone, 
   MapPin, 
   Linkedin, 
   Github, 
@@ -96,7 +95,7 @@ const Footer: React.FC = () => {
     { 
       name: 'GitHub', 
       icon: Github, 
-      url: 'https://share.google/NWpXFikOTEX4VF9ij', 
+      url: 'https://github.com/HarshitAgarwal2005', 
       color: 'hover:text-gray-800 dark:hover:text-gray-200',
       bg: 'hover:bg-gray-50 dark:hover:bg-gray-800/50'
     },
@@ -121,7 +120,7 @@ const Footer: React.FC = () => {
       <div className="relative z-10">
         {/* Main Footer Content */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
             
             {/* Brand Section */}
             <div className="lg:col-span-1">
@@ -248,21 +247,6 @@ const Footer: React.FC = () => {
                 </div>
 
                 <div className="flex items-start space-x-3">
-                  <div className="bg-gradient-to-r from-green-500 to-emerald-500 p-2 rounded-lg mt-1">
-                    <Phone className="h-4 w-4 text-white" />
-                  </div>
-                  <div>
-                    <p className="text-white font-medium">Mobile</p>
-                    <a 
-                      href="tel:+917878528151" 
-                      className="text-gray-300 hover:text-green-400 transition-colors text-sm"
-                    >
-                      +91 7878528151
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex items-start space-x-3">
                   <div className="bg-gradient-to-r from-purple-500 to-pink-500 p-2 rounded-lg mt-1">
                     <MapPin className="h-4 w-4 text-white" />
                   </div>
@@ -295,12 +279,12 @@ const Footer: React.FC = () => {
         {/* Newsletter Section */}
         <div className="border-t border-white/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <div className="bg-gradient-to-r from-violet-600/20 via-purple-600/20 to-pink-600/20 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
+            <div className="bg-gradient-to-r from-violet-600/20 via-purple-600/20 to-pink-600/20 backdrop-blur-sm rounded-2xl p-6 lg:p-8 border border-white/10">
               <div className="text-center">
                 <h3 className="text-2xl font-bold text-white mb-4">Stay Updated! 📚</h3>
                 <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
                   Get notified about new study materials, assignments, and project ideas. 
-                  Join our community of successful B.Tech students!
+                  Join our community of successful B.Tech students! 🚀
                 </p>
                 
                 {isSubscribed ? (

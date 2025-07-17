@@ -1,5 +1,5 @@
 import React, { useState, createContext, useContext } from 'react';
-import { Mail, Phone, MapPin, Send, Linkedin, Github, CheckCircle, AlertCircle, Lock, LogOut, User, Instagram } from 'lucide-react';
+import { Mail, MapPin, Send, Linkedin, Github, CheckCircle, AlertCircle, Lock, LogOut, User, Instagram } from 'lucide-react';
 
 // Create Developer Auth Context
 const DeveloperAuthContext = createContext<{
@@ -133,33 +133,33 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 dark:from-gray-900 dark:via-blue-900/20 dark:to-slate-900 py-12">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 dark:from-gray-900 dark:via-blue-900/20 dark:to-slate-900 py-8 sm:py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+        <div className="text-center mb-8 sm:mb-12">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             Get in Touch 📞
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             Have questions, suggestions, or need help? I'd love to hear from you!
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
           {/* Contact Information */}
-          <div className="space-y-8">
-            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-8 border border-white/20 dark:border-gray-700/20">
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Contact Information</h2>
+          <div className="space-y-6 sm:space-y-8">
+            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 sm:p-8 border border-white/20 dark:border-gray-700/20">
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">Contact Information</h2>
               
               <div className="space-y-6">
                 <div className="flex items-center">
-                  <div className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-xl mr-4">
+                  <div className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-xl mr-4 flex-shrink-0">
                     <Mail className="h-6 w-6 text-blue-600 dark:text-blue-400" />
                   </div>
-                  <div>
+                  <div className="min-w-0 flex-1">
                     <h3 className="font-semibold text-gray-900 dark:text-white">Email</h3>
                     <a 
                       href="mailto:harshitagarwal25807@gmail.com"
-                      className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                      className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors break-all"
                     >
                       harshitagarwal25807@gmail.com
                     </a>
@@ -167,25 +167,10 @@ const Contact: React.FC = () => {
                 </div>
 
                 <div className="flex items-center">
-                  <div className="bg-green-100 dark:bg-green-900/30 p-3 rounded-xl mr-4">
-                    <Phone className="h-6 w-6 text-green-600 dark:text-green-400" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900 dark:text-white">Mobile</h3>
-                    <a 
-                      href="tel:+917878528151"
-                      className="text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 transition-colors"
-                    >
-                      +91 7878528151
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex items-center">
-                  <div className="bg-purple-100 dark:bg-purple-900/30 p-3 rounded-xl mr-4">
+                  <div className="bg-purple-100 dark:bg-purple-900/30 p-3 rounded-xl mr-4 flex-shrink-0">
                     <MapPin className="h-6 w-6 text-purple-600 dark:text-purple-400" />
                   </div>
-                  <div>
+                  <div className="min-w-0 flex-1">
                     <h3 className="font-semibold text-gray-900 dark:text-white">College</h3>
                     <p className="text-gray-600 dark:text-gray-300">JECRC Foundation, Jaipur</p>
                   </div>
@@ -194,8 +179,8 @@ const Contact: React.FC = () => {
             </div>
 
             {/* Social Links */}
-            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-8 border border-white/20 dark:border-gray-700/20">
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Connect with Me</h2>
+            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 sm:p-8 border border-white/20 dark:border-gray-700/20">
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">Connect with Me</h2>
               
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <a
@@ -208,7 +193,7 @@ const Contact: React.FC = () => {
                   <span className="font-medium text-blue-800 dark:text-blue-300">LinkedIn</span>
                 </a>
                 <a
-                  href="https://share.google/NWpXFikOTEX4VF9ij"
+                  href="https://github.com/HarshitAgarwal2005"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center p-4 bg-gray-50 dark:bg-gray-700/50 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-xl transition-colors group"
@@ -229,8 +214,8 @@ const Contact: React.FC = () => {
             </div>
 
             {/* Quick Help */}
-            <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-2xl shadow-lg p-8">
-              <h2 className="text-2xl font-bold mb-4">Need Quick Help? 🚀</h2>
+            <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-2xl shadow-lg p-6 sm:p-8">
+              <h2 className="text-xl sm:text-2xl font-bold mb-4">Need Quick Help? 🚀</h2>
               <p className="mb-6 text-blue-100">
                 Don't forget about the "Ask a Doubt" feature available on every page! 
                 Click the floating button to get instant help with your questions.
@@ -244,9 +229,9 @@ const Contact: React.FC = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="space-y-8">
-            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-8 border border-white/20 dark:border-gray-700/20">
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Send Message</h2>
+          <div className="space-y-6 sm:space-y-8">
+            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 sm:p-8 border border-white/20 dark:border-gray-700/20">
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">Send Message</h2>
               
               {isSubmitted ? (
                 <div className="text-center py-12">
@@ -262,7 +247,7 @@ const Contact: React.FC = () => {
                 <form onSubmit={handleSubmit} className="space-y-6">
                   {error && (
                     <div className="bg-red-50 dark:bg-red-900/30 border border-red-200 dark:border-red-800 rounded-lg p-4 flex items-center">
-                      <AlertCircle className="h-5 w-5 text-red-500 mr-2" />
+                      <AlertCircle className="h-5 w-5 text-red-500 mr-2 flex-shrink-0" />
                       <span className="text-red-700 dark:text-red-400 text-sm">{error}</span>
                     </div>
                   )}
@@ -337,13 +322,13 @@ const Contact: React.FC = () => {
             </div>
 
             {/* Developer Login Section */}
-            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-8 border-2 border-orange-200 dark:border-orange-800">
+            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 sm:p-8 border-2 border-orange-200 dark:border-orange-800">
               <div className="flex items-center mb-6">
-                <div className="bg-orange-100 dark:bg-orange-900/30 p-3 rounded-xl mr-4">
+                <div className="bg-orange-100 dark:bg-orange-900/30 p-3 rounded-xl mr-4 flex-shrink-0">
                   <Lock className="h-6 w-6 text-orange-600 dark:text-orange-400" />
                 </div>
-                <div>
-                  <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Developer Access</h2>
+                <div className="min-w-0 flex-1">
+                  <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white">Developer Access</h2>
                   <p className="text-gray-600 dark:text-gray-300 text-sm">Login to enable upload functionality</p>
                 </div>
               </div>
@@ -372,7 +357,7 @@ const Contact: React.FC = () => {
                 <form onSubmit={handleDeveloperLogin} className="space-y-4">
                   {loginError && (
                     <div className="bg-red-50 dark:bg-red-900/30 border border-red-200 dark:border-red-800 rounded-lg p-4 flex items-center">
-                      <AlertCircle className="h-5 w-5 text-red-500 mr-2" />
+                      <AlertCircle className="h-5 w-5 text-red-500 mr-2 flex-shrink-0" />
                       <span className="text-red-700 dark:text-red-400 text-sm">{loginError}</span>
                     </div>
                   )}
@@ -429,9 +414,9 @@ const Contact: React.FC = () => {
         </div>
 
         {/* FAQ Section */}
-        <div className="mt-16 bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-8 border border-white/20 dark:border-gray-700/20">
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">Frequently Asked Questions</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="mt-12 sm:mt-16 bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 sm:p-8 border border-white/20 dark:border-gray-700/20">
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">Frequently Asked Questions</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             <div>
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">How can I contribute to this platform?</h3>
               <p className="text-gray-600 dark:text-gray-300">
