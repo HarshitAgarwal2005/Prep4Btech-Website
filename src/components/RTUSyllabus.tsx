@@ -62,8 +62,7 @@ const RTUSyllabus: React.FC = () => {
             'Software Engineering',
             'Object Oriented Programming',
             'Digital Electronics',
-            'Managerial Economics And Financial Accounting',
-            'Foundation Course'
+            'Managerial Economics And Financial Accounting'
           ],
           syllabusUrl: 'https://drive.google.com/file/d/11h4ITOg-7DvIJm1XERbxw_rQjFhPn2qd/view?usp=sharing'
         },
@@ -72,11 +71,12 @@ const RTUSyllabus: React.FC = () => {
           title: 'Semester 4', 
           description: 'Database systems and computer networks',
           subjects: [
+            'Discete Mathematics Structure',
             'Database Management Systems',
-            'Computer Networks',
-            'Operating Systems',
-            'Software Engineering',
-            'Theory of Computation'
+            'Data Communication And Computer Networks',
+            'Tecnical Communication',
+            'Microprocessor And Interface',
+            'Theory Of Computation'
           ],
           syllabusUrl: 'https://drive.google.com/file/d/11czaYIx5BHJlj65SgiRtbh8cq6VURhWC/view?usp=sharing'
         }
