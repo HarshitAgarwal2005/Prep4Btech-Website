@@ -94,11 +94,14 @@ const RTUSyllabus: React.FC = () => {
           title: 'Semester 5', 
           description: 'Software engineering and web development',
           subjects: [
-            'Compiler Design',
-            'Computer Graphics',
-            'Web Technologies',
-            'Machine Learning',
-            'Artificial Intelligence'
+            'Information Theory and Coding',
+            'Complier Design',
+            'Operating System',
+            'Computer Graphics And Multimedia',
+            'Analysis of Algorithms',
+            'Wireless Communication',
+            'Human Computer Interaction',
+            'Bioinformatics'
           ],
           syllabusUrl: 'https://drive.google.com/file/d/11nxIts47YcupIjYxGO4ytf0sueAncOxg/view?usp=sharing'
         },
@@ -107,11 +110,15 @@ const RTUSyllabus: React.FC = () => {
           title: 'Semester 6', 
           description: 'Machine learning and advanced computing',
           subjects: [
-            'Mobile Computing',
+            'Digital Image Processing',
+            'Machine Learning',
+            'Information Security System',
+            'Computer Architecture and Organization',
+            'Artificial Intelligence',
             'Cloud Computing',
-            'Information Security',
-            'Data Mining',
-            'Project Work'
+            'Distributed System',
+            'Software Defined Network',
+            'Ecommerce & ERP'
           ],
           syllabusUrl: 'https://drive.google.com/file/d/11Q1zuW1O_kXs7ERINcRiFS7x0znCHE2M/view?usp=sharing'
         }
@@ -129,11 +136,8 @@ const RTUSyllabus: React.FC = () => {
           title: 'Semester 7', 
           description: 'Final year project and advanced topics',
           subjects: [
-            'Distributed Systems',
-            'Blockchain Technology',
             'Internet of Things',
-            'Major Project-1',
-            'Professional Elective-1'
+            'Open Elective-1'
           ],
           syllabusUrl: 'https://drive.google.com/file/d/11OHGZOuyfo8pCrChEzPzvY04EV7sefaF/view?usp=sharing'
         },
@@ -142,11 +146,8 @@ const RTUSyllabus: React.FC = () => {
           title: 'Semester 8', 
           description: 'Industry training and project completion',
           subjects: [
-            'Industry Training',
-            'Major Project-2',
-            'Professional Elective-2',
-            'Open Elective',
-            'Seminar'
+            'Big Data Analytics',
+            'Open Elective-2'
           ],
           syllabusUrl: '/syllabi/year4-sem8.pdf'
         }
