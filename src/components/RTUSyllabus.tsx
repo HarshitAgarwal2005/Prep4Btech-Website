@@ -57,13 +57,15 @@ const RTUSyllabus: React.FC = () => {
           title: 'Semester 3', 
           description: 'Data structures and algorithms fundamentals',
           subjects: [
-            'Data Structures',
-            'Computer Organization',
-            'Discrete Mathematics',
+            'Advance Engineering Mathematics',
+            'Data Structure And Algorithm',
+            'Software Engineering',
             'Object Oriented Programming',
-            'Digital Electronics'
+            'Digital Electronics',
+            'Managerial Economics And Financial Accounting',
+            'Foundation Course'
           ],
-          syllabusUrl: '/syllabi/year2-sem3.pdf'
+          syllabusUrl: 'https://drive.google.com/file/d/11h4ITOg-7DvIJm1XERbxw_rQjFhPn2qd/view?usp=sharing'
         },
         { 
           sem: 4, 
@@ -76,7 +78,7 @@ const RTUSyllabus: React.FC = () => {
             'Software Engineering',
             'Theory of Computation'
           ],
-          syllabusUrl: '/syllabi/year2-sem4.pdf'
+          syllabusUrl: 'https://drive.google.com/file/d/11czaYIx5BHJlj65SgiRtbh8cq6VURhWC/view?usp=sharing'
         }
       ],
       color: 'from-green-500 to-teal-500',
@@ -98,7 +100,7 @@ const RTUSyllabus: React.FC = () => {
             'Machine Learning',
             'Artificial Intelligence'
           ],
-          syllabusUrl: '/syllabi/year3-sem5.pdf'
+          syllabusUrl: 'https://drive.google.com/file/d/11nxIts47YcupIjYxGO4ytf0sueAncOxg/view?usp=sharing'
         },
         { 
           sem: 6, 
@@ -111,7 +113,7 @@ const RTUSyllabus: React.FC = () => {
             'Data Mining',
             'Project Work'
           ],
-          syllabusUrl: '/syllabi/year3-sem6.pdf'
+          syllabusUrl: 'https://drive.google.com/file/d/11Q1zuW1O_kXs7ERINcRiFS7x0znCHE2M/view?usp=sharing'
         }
       ],
       color: 'from-purple-500 to-pink-500',
@@ -133,7 +135,7 @@ const RTUSyllabus: React.FC = () => {
             'Major Project-1',
             'Professional Elective-1'
           ],
-          syllabusUrl: '/syllabi/year4-sem7.pdf'
+          syllabusUrl: 'https://drive.google.com/file/d/11OHGZOuyfo8pCrChEzPzvY04EV7sefaF/view?usp=sharing'
         },
         { 
           sem: 8, 
