@@ -28,7 +28,7 @@ const RTUSyllabus: React.FC = () => {
             'Basic Mechanical Engineering',
             'Basic Electrical Engineering'
           ],
-          syllabusUrl: '/syllabi/year1-sem1.pdf'
+          syllabusUrl: 'https://drive.google.com/file/d/11SFf2VM44Cvkh890-UCo0zkKpFhQtZOJ/view?usp=sharing'
         },
         { 
           sem: 2, 
@@ -41,7 +41,7 @@ const RTUSyllabus: React.FC = () => {
             'Programming for Problem Solving',
             'Basic Civil Engineering'
           ],
-          syllabusUrl: '/syllabi/year1-sem2.pdf'
+          syllabusUrl: 'https://drive.google.com/file/d/11QFKehks83wYocR3xZQCaiVTrGvLzZCQ/view?usp=sharing'
         }
       ],
       color: 'from-blue-500 to-cyan-500',
