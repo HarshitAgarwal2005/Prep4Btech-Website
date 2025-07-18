@@ -47,11 +47,12 @@ const Year: React.FC = () => {
           title: 'Semester 3', 
           description: 'Data structures and algorithms fundamentals',
           subjects: [
-            'Data Structures',
-            'Computer Organization',
-            'Discrete Mathematics',
+            'Advance Engineering Mathematics',
+            'Data Structure And Algorithm',
+            'Software Engineering',
             'Object Oriented Programming',
-            'Digital Electronics'
+            'Digital Electronics',
+            'Managerial Economics And Financial Accounting'
           ]
         },
         { 
@@ -59,11 +60,12 @@ const Year: React.FC = () => {
           title: 'Semester 4', 
           description: 'Database systems and computer networks',
           subjects: [
+            'Discete Mathematics Structure',
             'Database Management Systems',
-            'Computer Networks',
-            'Operating Systems',
-            'Software Engineering',
-            'Theory of Computation'
+            'Data Communication And Computer Networks',
+            'Tecnical Communication',
+            'Microprocessor And Interface',
+            'Theory Of Computation'
           ]
         }
       ],
@@ -80,11 +82,14 @@ const Year: React.FC = () => {
           title: 'Semester 5', 
           description: 'Software engineering and web development',
           subjects: [
-            'Compiler Design',
-            'Computer Graphics',
-            'Web Technologies',
-            'Machine Learning',
-            'Artificial Intelligence'
+            'Information Theory and Coding',
+            'Complier Design',
+            'Operating System',
+            'Computer Graphics And Multimedia',
+            'Analysis of Algorithms',
+            'Wireless Communication',
+            'Human Computer Interaction',
+            'Bioinformatics'
           ]
         },
         { 
@@ -92,11 +97,15 @@ const Year: React.FC = () => {
           title: 'Semester 6', 
           description: 'Machine learning and advanced computing',
           subjects: [
-            'Mobile Computing',
+            'Digital Image Processing',
+            'Machine Learning',
+            'Information Security System',
+            'Computer Architecture and Organization',
+            'Artificial Intelligence',
             'Cloud Computing',
-            'Information Security',
-            'Data Mining',
-            'Project Work'
+            'Distributed System',
+            'Software Defined Network',
+            'Ecommerce & ERP'
           ]
         }
       ],
@@ -113,11 +122,8 @@ const Year: React.FC = () => {
           title: 'Semester 7', 
           description: 'Final year project and advanced topics',
           subjects: [
-            'Distributed Systems',
-            'Blockchain Technology',
             'Internet of Things',
-            'Major Project-1',
-            'Professional Elective-1'
+            'Open Elective-1'
           ]
         },
         { 
@@ -125,11 +131,8 @@ const Year: React.FC = () => {
           title: 'Semester 8', 
           description: 'Industry training and project completion',
           subjects: [
-            'Industry Training',
-            'Major Project-2',
-            'Professional Elective-2',
-            'Open Elective',
-            'Seminar'
+            'Big Data Analytics',
+            'Open Elective-2'
           ]
         }
       ],
