@@ -139,7 +139,7 @@ const RTUSyllabus: React.FC = () => {
             'Internet of Things',
             'Open Elective-1'
           ],
-          syllabusUrl: 'https://drive.google.com/file/d/11OHGZOuyfo8pCrChEzPzvY04EV7sefaF/view?usp=sharing'
+          syllabusUrl: 'https://drive.google.com/file/d/1CGiSoPvOL7iMow-cVcijalqhBqksbLvi/view?usp=sharing'
         },
         { 
           sem: 8, 
@@ -149,7 +149,7 @@ const RTUSyllabus: React.FC = () => {
             'Big Data Analytics',
             'Open Elective-2'
           ],
-          syllabusUrl: '/syllabi/year4-sem8.pdf'
+          syllabusUrl: 'https://drive.google.com/file/d/1FTrE9nQ0GDHkp7t1u0feZAFujmpDkLFr/view?usp=sharing'
         }
       ],
       color: 'from-orange-500 to-red-500',
