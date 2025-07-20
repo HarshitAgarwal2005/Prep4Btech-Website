@@ -330,21 +330,39 @@ const Assignments: React.FC = () => {
               assignments: []
             },
             {
-              id: 'o1',
+              id: 'os1',
               name: 'Operating System',
-              code: 'CS403',
+              code: 'OS (5CS4-03)',
               assignments: []
             },
             {
-              id: 'ml1',
-              name: 'Machine Learning',
-              code: 'CS404',
+              id: 'cgm1',
+              name: 'Computer Graphics & Multimedia',
+              code: 'CGM (5CS4-04)',
               assignments: []
             },
             {
-              id: 'ai1',
-              name: 'Artificial Intelligence',
-              code: 'CS405',
+              id: 'aa1',
+              name: 'Analysis of Algorithms',
+              code: 'AA (5CS4-05)',
+              assignments: []
+            },
+            {
+              id: 'wc1',
+              name: 'Wireless Communication',
+              code: 'WC (5CS5-11)',
+              assignments: []
+            },
+             {
+              id: 'hci1',
+              name: 'Human Computer Interaction',
+              code: 'HCI (5CS5-12)',
+              assignments: []
+            }
+            {
+              id: 'bi1',
+              name: 'Bioinformatics',
+              code: 'BI (5CS5-13)',
               assignments: []
             }
           ]
