@@ -94,7 +94,7 @@ const Assignments: React.FC = () => {
             {
               id: 'math1',
               name: 'Engineering Mathematics-I',
-              code: 'MATH1FY2-01',
+              code: 'MATH (1FY2-01)',
               assignments: [
                 {
                   id: 'math1-a1',
