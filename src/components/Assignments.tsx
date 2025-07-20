@@ -128,7 +128,7 @@ const Assignments: React.FC = () => {
             {
               id: 'physics1',
               name: 'Engineering Physics',
-              code: 'PHY101',
+              code: 'PHY (1FY2-02)',
               assignments: [
                 {
                   id: 'phy1-a1',
@@ -144,7 +144,7 @@ const Assignments: React.FC = () => {
             {
               id: 'comm1',
               name: 'Communication Skills',
-              code: 'ENG101',
+              code: 'ENG (1FY1-04)',
               assignments: [
                 {
                   id: 'comm1-a1',
@@ -160,13 +160,13 @@ const Assignments: React.FC = () => {
             {
               id: 'mech1',
               name: 'Basic Mechanical Engineering',
-              code: 'MECH101',
+              code: 'MECH (1FY3-07)',
               assignments: []
             },
             {
               id: 'elec1',
               name: 'Basic Electrical Engineering',
-              code: 'ELEC101',
+              code: 'ELEC (1FY3-08)',
               assignments: []
             }
           ]
@@ -179,7 +179,7 @@ const Assignments: React.FC = () => {
             {
               id: 'math2',
               name: 'Engineering Mathematics-II',
-              code: 'MATH102',
+              code: 'MATH (2FY2-01)',
               assignments: []
             },
             {
