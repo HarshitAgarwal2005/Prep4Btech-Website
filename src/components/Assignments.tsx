@@ -185,25 +185,25 @@ const Assignments: React.FC = () => {
             {
               id: 'chem1',
               name: 'Engineering Chemistry',
-              code: 'CHEM101',
+              code: 'CHEM (2FY2-03)',
               assignments: []
             },
             {
               id: 'human1',
               name: 'Human Values',
-              code: 'HUM101',
+              code: 'HV (2FY1-05)',
               assignments: []
             },
             {
               id: 'prog1',
               name: 'Programming for Problem Solving',
-              code: 'CS101',
+              code: 'PPS (2FY3-06)',
               assignments: []
             },
             {
               id: 'civil1',
               name: 'Basic Civil Engineering',
-              code: 'CIVIL101',
+              code: 'CIVIL (2FY3-09)',
               assignments: []
             }
           ]
@@ -224,32 +224,32 @@ const Assignments: React.FC = () => {
           subjects: [
             {
               id: 'ds1',
-              name: 'Data Structures',
-              code: 'CS201',
+              name: 'Data Structure and Algorithm',
+              code: 'DSA (3CS4-05)',
               assignments: []
             },
             {
               id: 'co1',
-              name: 'Computer Organization',
-              code: 'CS202',
+              name: 'Software engineering',
+              code: 'SE (3CS4-07)',
               assignments: []
             },
             {
               id: 'discrete1',
               name: 'Discrete Mathematics',
-              code: 'MATH201',
+              code: 'MATH (3CS2-01)',
               assignments: []
             },
             {
               id: 'oop1',
               name: 'Object Oriented Programming',
-              code: 'CS203',
+              code: 'OOPs (3CS4-06)',
               assignments: []
             },
             {
               id: 'digital1',
               name: 'Digital Electronics',
-              code: 'ECE201',
+              code: 'DE (3CS3-04)',
               assignments: []
             }
           ]
