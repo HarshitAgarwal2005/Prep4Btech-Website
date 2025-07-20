@@ -268,31 +268,37 @@ const Assignments: React.FC = () => {
             {
               id: 'dbms1',
               name: 'Database Management Systems',
-              code: 'CS301',
+              code: 'DBMS (4CSR4-05:)',
               assignments: []
             },
             {
-              id: 'cn1',
-              name: 'Computer Networks',
-              code: 'CS302',
+              id: 'math2',
+              name: 'Discete Mathematics Structure',
+              code: 'MATH (4CSR2-01)',
               assignments: []
             },
             {
-              id: 'os1',
-              name: 'Operating Systems',
-              code: 'CS303',
+              id: 'dccn',
+              name: 'Data Communication And Computer Networks',
+              code: 'DCCN (4CSR4-07)',
               assignments: []
             },
             {
-              id: 'se1',
-              name: 'Software Engineering',
-              code: 'CS304',
+              id: 'te1',
+              name: 'Tecnical Communication',
+              code: 'TE (4CSR1-02)',
+              assignments: []
+            },
+            {
+              id: 'mai1',
+              name: 'Microprocessor & Interfaces',
+              code: 'MandI (4CSR3-04)',
               assignments: []
             },
             {
               id: 'toc1',
               name: 'Theory of Computation',
-              code: 'CS305',
+              code: 'TOC (4CSR4-06)',
               assignments: []
             }
           ]
