@@ -479,7 +479,7 @@ const RTUSyllabus: React.FC = () => {
                 <div className="bg-gradient-to-r from-purple-500 to-pink-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
                   <Trophy className="h-8 w-8 text-white" />
                 </div>
-                <h3 className="text-3xl font-bold text-gray-900 dark:text-white">180</h3>
+                <h3 className="text-3xl font-bold text-gray-900 dark:text-white">18</h3>
                 <p className="text-gray-600 dark:text-gray-300">Total Credits</p>
               </div>
               <div className="text-center">
