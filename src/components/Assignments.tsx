@@ -319,19 +319,19 @@ const Assignments: React.FC = () => {
           subjects: [
             {
               id: 'compiler1',
-              name: 'Compiler Design',
-              code: 'CS401',
+              name: 'Information Theory & Coding',
+              code: 'ITC (5CS3-01)',
               assignments: []
             },
             {
-              id: 'graphics1',
-              name: 'Computer Graphics',
-              code: 'CS402',
+              id: 'cd1',
+              name: 'Complier Design',
+              code: 'CD (5CS4-02)',
               assignments: []
             },
             {
-              id: 'web1',
-              name: 'Web Technologies',
+              id: 'o1',
+              name: 'Operating System',
               code: 'CS403',
               assignments: []
             },
