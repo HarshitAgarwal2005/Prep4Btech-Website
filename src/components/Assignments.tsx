@@ -251,6 +251,12 @@ const Assignments: React.FC = () => {
               name: 'Digital Electronics',
               code: 'DE (3CS3-04)',
               assignments: []
+            },
+             {
+              id: 'mefa1',
+              name: 'Managerial Eco. and Financial Accounting',
+              code: 'MEFA (3CS1-03)',
+              assignments: []
             }
           ]
         },
