@@ -358,7 +358,7 @@ const Assignments: React.FC = () => {
               name: 'Human Computer Interaction',
               code: 'HCI (5CS5-12)',
               assignments: []
-            }
+            },
             {
               id: 'bi1',
               name: 'Bioinformatics',
