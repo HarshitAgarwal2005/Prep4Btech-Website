@@ -160,13 +160,13 @@ const Assignments: React.FC = () => {
             {
               id: 'mech1',
               name: 'Basic Mechanical Engineering',
-              code: 'MECH (1FY3-07)',
+              code: 'BME (1FY3-07)',
               assignments: []
             },
             {
               id: 'elec1',
               name: 'Basic Electrical Engineering',
-              code: 'ELEC (1FY3-08)',
+              code: 'BEE (1FY3-08)',
               assignments: []
             }
           ]
@@ -203,7 +203,7 @@ const Assignments: React.FC = () => {
             {
               id: 'civil1',
               name: 'Basic Civil Engineering',
-              code: 'CIVIL (2FY3-09)',
+              code: 'BCE (2FY3-09)',
               assignments: []
             }
           ]
