@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { 
   FileText, 
   Calendar, 
@@ -15,9 +16,12 @@ import {
   Video,
   FlaskConical,
   X,
-  AlertCircle
+  AlertCircle,
+  ChevronRight
 } from 'lucide-react';
 import { useDeveloperAuth } from './Contact';
+import { contentBranches, contentSubjects } from '../data/contentData';
+import { ContentBranch } from '../types';
 
 interface Assignment {
   id: string;
@@ -54,8 +58,10 @@ interface AcademicYear {
 }
 
 const Assignments: React.FC = () => {
+  const [searchParams] = useSearchParams();
   const [selectedYear, setSelectedYear] = useState<number | null>(null);
   const [selectedSemester, setSelectedSemester] = useState<Semester | null>(null);
+  const [selectedBranch, setSelectedBranch] = useState<ContentBranch | null>(null);
   const [selectedSubject, setSelectedSubject] = useState<Subject | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedContentType, setSelectedContentType] = useState<string | null>(null);
@@ -77,6 +83,27 @@ const Assignments: React.FC = () => {
 
   const { isAuthenticated } = useDeveloperAuth();
 
+  // Initialize from URL parameters
+  React.useEffect(() => {
+    const year = searchParams.get('year');
+    const semester = searchParams.get('semester');
+    
+    if (year && semester) {
+      const yearNum = parseInt(year);
+      const semesterNum = parseInt(semester);
+      
+      // Find the academic year and semester
+      const academicYear = academicYears.find(y => y.year === yearNum);
+      if (academicYear) {
+        const semesterData = academicYear.semesters.find(s => s.number === semesterNum);
+        if (semesterData) {
+          setSelectedYear(yearNum);
+          setSelectedSemester(semesterData);
+        }
+      }
+    }
+  }, [searchParams]);
+
   // Academic structure data
   const academicYears: AcademicYear[] = [
     {
@@ -93,7 +120,7 @@ const Assignments: React.FC = () => {
           subjects: [
             {
               id: 'math1',
-              name: 'Engineering Mathematics-I',
+              name: 'Engineering Mathematics-1',
               code: 'MATH (1FY2-01)',
               assignments: [
                 {
@@ -178,7 +205,7 @@ const Assignments: React.FC = () => {
           subjects: [
             {
               id: 'math2',
-              name: 'Engineering Mathematics-II',
+              name: 'Engineering Mathematics-2',
               code: 'MATH (2FY2-01)',
               assignments: []
             },
@@ -222,42 +249,7 @@ const Assignments: React.FC = () => {
           number: 3,
           title: 'Semester 3',
           subjects: [
-            {
-              id: 'ds1',
-              name: 'Data Structure and Algorithm',
-              code: 'DSA (3CS4-05)',
-              assignments: []
-            },
-            {
-              id: 'co1',
-              name: 'Software engineering',
-              code: 'SE (3CS4-07)',
-              assignments: []
-            },
-            {
-              id: 'discrete1',
-              name: 'Discrete Mathematics',
-              code: 'MATH (3CS2-01)',
-              assignments: []
-            },
-            {
-              id: 'oop1',
-              name: 'Object Oriented Programming',
-              code: 'OOPs (3CS4-06)',
-              assignments: []
-            },
-            {
-              id: 'digital1',
-              name: 'Digital Electronics',
-              code: 'DE (3CS3-04)',
-              assignments: []
-            },
-             {
-              id: 'mefa1',
-              name: 'Managerial Eco. and Financial Accounting',
-              code: 'MEFA (3CS1-03)',
-              assignments: []
-            }
+            // Subjects will be loaded based on branch selection
           ]
         },
         {
@@ -265,42 +257,7 @@ const Assignments: React.FC = () => {
           number: 4,
           title: 'Semester 4',
           subjects: [
-            {
-              id: 'dbms1',
-              name: 'Database Management Systems',
-              code: 'DBMS (4CSR4-05:)',
-              assignments: []
-            },
-            {
-              id: 'math2',
-              name: 'Discete Mathematics Structure',
-              code: 'MATH (4CSR2-01)',
-              assignments: []
-            },
-            {
-              id: 'dccn',
-              name: 'Data Communication And Computer Networks',
-              code: 'DCCN (4CSR4-07)',
-              assignments: []
-            },
-            {
-              id: 'te1',
-              name: 'Tecnical Communication',
-              code: 'TE (4CSR1-02)',
-              assignments: []
-            },
-            {
-              id: 'mai1',
-              name: 'Microprocessor & Interfaces',
-              code: 'MandI (4CSR3-04)',
-              assignments: []
-            },
-            {
-              id: 'toc1',
-              name: 'Theory of Computation',
-              code: 'TOC (4CSR4-06)',
-              assignments: []
-            }
+            // Subjects will be loaded based on branch selection
           ]
         }
       ]
@@ -317,54 +274,7 @@ const Assignments: React.FC = () => {
           number: 5,
           title: 'Semester 5',
           subjects: [
-            {
-              id: 'compiler1',
-              name: 'Information Theory & Coding',
-              code: 'ITC (5CS3-01)',
-              assignments: []
-            },
-            {
-              id: 'cd1',
-              name: 'Complier Design',
-              code: 'CD (5CS4-02)',
-              assignments: []
-            },
-            {
-              id: 'os1',
-              name: 'Operating System',
-              code: 'OS (5CS4-03)',
-              assignments: []
-            },
-            {
-              id: 'cgm1',
-              name: 'Computer Graphics & Multimedia',
-              code: 'CGM (5CS4-04)',
-              assignments: []
-            },
-            {
-              id: 'aa1',
-              name: 'Analysis of Algorithms',
-              code: 'AA (5CS4-05)',
-              assignments: []
-            },
-            {
-              id: 'wc1',
-              name: 'Wireless Communication',
-              code: 'WC (5CS5-11)',
-              assignments: []
-            },
-             {
-              id: 'hci1',
-              name: 'Human Computer Interaction',
-              code: 'HCI (5CS5-12)',
-              assignments: []
-            },
-            {
-              id: 'bi1',
-              name: 'Bioinformatics',
-              code: 'BI (5CS5-13)',
-              assignments: []
-            }
+            // Subjects will be loaded based on branch selection
           ]
         },
         {
@@ -372,36 +282,7 @@ const Assignments: React.FC = () => {
           number: 6,
           title: 'Semester 6',
           subjects: [
-            {
-              id: 'mobile1',
-              name: 'Mobile Computing',
-              code: 'CS501',
-              assignments: []
-            },
-            {
-              id: 'cloud1',
-              name: 'Cloud Computing',
-              code: 'CS502',
-              assignments: []
-            },
-            {
-              id: 'security1',
-              name: 'Information Security',
-              code: 'CS503',
-              assignments: []
-            },
-            {
-              id: 'mining1',
-              name: 'Data Mining',
-              code: 'CS504',
-              assignments: []
-            },
-            {
-              id: 'project1',
-              name: 'Project Work',
-              code: 'CS505',
-              assignments: []
-            }
+            // Subjects will be loaded based on branch selection
           ]
         }
       ]
@@ -418,36 +299,7 @@ const Assignments: React.FC = () => {
           number: 7,
           title: 'Semester 7',
           subjects: [
-            {
-              id: 'distributed1',
-              name: 'Distributed Systems',
-              code: 'CS601',
-              assignments: []
-            },
-            {
-              id: 'blockchain1',
-              name: 'Blockchain Technology',
-              code: 'CS602',
-              assignments: []
-            },
-            {
-              id: 'iot1',
-              name: 'Internet of Things',
-              code: 'CS603',
-              assignments: []
-            },
-            {
-              id: 'major1',
-              name: 'Major Project-1',
-              code: 'CS604',
-              assignments: []
-            },
-            {
-              id: 'elective1',
-              name: 'Professional Elective-1',
-              code: 'CS605',
-              assignments: []
-            }
+            // Subjects will be loaded based on branch selection
           ]
         },
         {
@@ -455,36 +307,7 @@ const Assignments: React.FC = () => {
           number: 8,
           title: 'Semester 8',
           subjects: [
-            {
-              id: 'training1',
-              name: 'Industry Training',
-              code: 'CS701',
-              assignments: []
-            },
-            {
-              id: 'major2',
-              name: 'Major Project-2',
-              code: 'CS702',
-              assignments: []
-            },
-            {
-              id: 'elective2',
-              name: 'Professional Elective-2',
-              code: 'CS703',
-              assignments: []
-            },
-            {
-              id: 'open1',
-              name: 'Open Elective',
-              code: 'CS704',
-              assignments: []
-            },
-            {
-              id: 'seminar1',
-              name: 'Seminar',
-              code: 'CS705',
-              assignments: []
-            }
+            // Subjects will be loaded based on branch selection
           ]
         }
       ]
@@ -492,6 +315,28 @@ const Assignments: React.FC = () => {
   ];
 
   const filteredYears = selectedYear ? academicYears.filter(y => y.year === selectedYear) : academicYears;
+  
+  // Check if branch selection is needed for the current semester
+  const needsBranchSelection = (semester: number) => {
+    return semester >= 3 && semester <= 8;
+  };
+
+  // Get subjects for the selected semester and branch
+  const getSubjectsForSemester = (semester: number, branchId?: string) => {
+    if (semester <= 2) {
+      // For semesters 1-2, return subjects from academic years data
+      const year = semester === 1 ? 1 : 1;
+      const academicYear = academicYears.find(y => y.year === year);
+      const semesterData = academicYear?.semesters.find(s => s.number === semester);
+      return semesterData?.subjects || [];
+    } else {
+      // For semesters 3-8, return subjects from contentSubjects based on branch
+      return contentSubjects.filter(subject => 
+        subject.semester === semester && 
+        (branchId ? subject.branchId === branchId : true)
+      );
+    }
+  };
 
   const handleAssignmentView = (assignment: Assignment) => {
     // In a real implementation, this would open the document in a viewer
@@ -514,6 +359,10 @@ const Assignments: React.FC = () => {
     setSelectedSemester(semester);
   };
 
+  const handleBranchClick = (branch: ContentBranch) => {
+    setSelectedBranch(branch);
+  };
+
   const handleSubjectClick = (subject: Subject) => {
     setSelectedSubject(subject);
   };
@@ -521,6 +370,8 @@ const Assignments: React.FC = () => {
   const goBack = () => {
     if (selectedSubject) {
       setSelectedSubject(null);
+    } else if (selectedBranch) {
+      setSelectedBranch(null);
     } else if (selectedSemester) {
       setSelectedSemester(null);
     }
@@ -559,7 +410,7 @@ const Assignments: React.FC = () => {
     }
   };
 
-  const filteredAssignments = selectedSubject?.assignments.filter(assignment => {
+  const filteredAssignments = (selectedSubject?.assignments || []).filter(assignment => {
     const typeMatch = selectedContentType ? assignment.type === selectedContentType : true;
     const searchMatch = searchQuery 
       ? assignment.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -879,7 +730,7 @@ const Assignments: React.FC = () => {
           )}
 
           {/* Back Navigation */}
-          {(selectedSemester || selectedSubject) && (
+          {(selectedSemester || selectedBranch || selectedSubject) && (
             <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 mb-8 border border-white/20 dark:border-gray-700/20">
               <div className="flex items-center justify-between">
                 <button
@@ -890,7 +741,9 @@ const Assignments: React.FC = () => {
                   Back
                 </button>
                 <div className="text-sm text-gray-600 dark:text-gray-300">
-                  {selectedSubject ? `${selectedSemester?.title} > ${selectedSubject.name}` : selectedSemester?.title}
+                  {selectedSubject ? `${selectedSemester?.title} > ${selectedBranch?.name} > ${selectedSubject.name}` : 
+                   selectedBranch ? `${selectedSemester?.title} > ${selectedBranch.name}` :
+                   selectedSemester?.title}
                 </div>
               </div>
             </div>
@@ -995,7 +848,7 @@ const Assignments: React.FC = () => {
                                 <div>
                                   <h3 className="font-semibold text-gray-900 dark:text-white">{semester.title}</h3>
                                   <p className="text-sm text-gray-600 dark:text-gray-300">
-                                    {semester.subjects.length} subjects
+                                    {needsBranchSelection(semester.number) ? 'Select branch first' : `${semester.subjects.length} subjects`}
                                   </p>
                                 </div>
                               </div>
@@ -1009,6 +862,35 @@ const Assignments: React.FC = () => {
                 ))}
               </div>
             </div>
+          ) : needsBranchSelection(selectedSemester.number) && !selectedBranch ? (
+            /* Branch Selection for Semesters 3-8 */
+            <div className="flex justify-center">
+              <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 border border-white/20 dark:border-gray-700/20 max-w-6xl w-full">
+                <div className="text-center mb-8">
+                  <Users className="h-16 w-16 text-green-600 mx-auto mb-4" />
+                  <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Select Your Branch</h2>
+                  <p className="text-gray-600 dark:text-gray-300">{selectedSemester.title} - Choose your engineering branch</p>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {contentBranches.map((branch) => (
+                    <button
+                      key={branch.id}
+                      onClick={() => handleBranchClick(branch)}
+                      className={`bg-gradient-to-br from-gray-50 to-white dark:from-gray-700 dark:to-gray-600 rounded-2xl p-6 cursor-pointer hover:shadow-lg transition-all duration-300 hover:scale-105 border border-gray-200 dark:border-gray-600 group text-center`}
+                    >
+                      <div className={`bg-gradient-to-r ${branch.color} w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform`}>
+                        <Users className="h-8 w-8 text-white" />
+                      </div>
+                      <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{branch.code}</h3>
+                      <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">{branch.name}</p>
+                      <p className="text-xs text-gray-500 dark:text-gray-400">{branch.description}</p>
+                      <ChevronRight className={`h-5 w-5 mx-auto mt-4 group-hover:translate-x-1 transition-transform text-gray-400`} />
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
           ) : !selectedSubject ? (
             /* Subject Selection - Centered Layout */
             <div className="flex justify-center">
@@ -1016,11 +898,15 @@ const Assignments: React.FC = () => {
                 <div className="text-center mb-8">
                   <BookOpen className="h-16 w-16 text-blue-600 mx-auto mb-4" />
                   <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Select Subject</h2>
-                  <p className="text-gray-600 dark:text-gray-300">{selectedSemester.title} - Choose a subject to view content</p>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    {selectedSemester.title} 
+                    {selectedBranch && ` - ${selectedBranch.name}`} 
+                    - Choose a subject to view content
+                  </p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {selectedSemester.subjects.map((subject) => (
+                  {getSubjectsForSemester(selectedSemester.number, selectedBranch?.id).map((subject) => (
                     <button
                       key={subject.id}
                       onClick={() => handleSubjectClick(subject)}
@@ -1031,11 +917,11 @@ const Assignments: React.FC = () => {
                       </div>
                       <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">{subject.code}</h3>
                       <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">{subject.name}</p>
-                      <p className="text-xs text-blue-600 dark:text-blue-400">{subject.assignments.length} content items</p>
+                      <p className="text-xs text-blue-600 dark:text-blue-400">{subject.assignments?.length || 0} content items</p>
                     </button>
                   ))}
                 </div>
-              </div>
+                {getSubjectsForSemester(selectedSemester.number, selectedBranch?.id).length === 0 && (
             </div>
           ) : (
             /* Assignment List - Centered Layout */
@@ -1183,7 +1069,7 @@ const Assignments: React.FC = () => {
                     <FileText className="h-16 w-16 text-gray-300 mx-auto mb-4" />
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">No Content Available</h3>
                     <p className="text-gray-600 dark:text-gray-300 mb-6">
-                      No content has been uploaded for this subject yet.
+                      No subjects available for {selectedSemester.title} {selectedBranch ? `- ${selectedBranch.name}` : ''} yet.
                     </p>
                     {isAuthenticated && (
                       <div className="flex justify-center space-x-3">
