@@ -67,10 +67,9 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
               </div>
               <div>
                 <span className="text-xl font-bold bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                  Prep4Btech
+                  StudyHub
                 </span>
-                <div className="text-xs text-gray-500 dark:text-gray-400 -mt-1"> Team Name
-                </div>
+                <div className="text-xs text-gray-500 dark:text-gray-400 -mt-1">by Harshit</div>
               </div>
             </Link>
           </div>

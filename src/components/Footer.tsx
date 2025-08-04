@@ -135,9 +135,9 @@ const Footer: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold bg-gradient-to-r from-violet-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                    Prep4Btech
+                    StudyHub
                   </h3>
-                  <p className="text-sm text-gray-300">by Team</p>
+                  <p className="text-sm text-gray-300">by Harshit Agarwal</p>
                 </div>
               </div>
               
@@ -322,9 +322,9 @@ const Footer: React.FC = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <div className="flex items-center space-x-2 text-gray-300">
-                <span>© {currentYear} Prep4Btech. Made with</span>
+                <span>© {currentYear} StudyHub. Made with</span>
                 <Heart className="h-4 w-4 text-red-500 animate-pulse" />
-                <span>by Team</span>
+                <span>by Harshit Agarwal</span>
               </div>
               
               <div className="flex items-center space-x-6 text-sm">

@@ -80,7 +80,7 @@ const Home: React.FC = () => {
             <div className="flex justify-center mb-8">
               <div className="relative group">
                 <div className="w-32 h-32 bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 rounded-full flex items-center justify-center shadow-2xl group-hover:shadow-3xl transition-all duration-500 animate-pulse">
-                  <span className="text-white text-4xl font-bold">P4B</span>
+                  <span className="text-white text-4xl font-bold">HA</span>
                 </div>
                 <div className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full border-4 border-white dark:border-gray-900 animate-bounce"></div>
                 <div className="absolute -bottom-2 -left-2">
@@ -95,7 +95,7 @@ const Home: React.FC = () => {
             <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 dark:text-white mb-6">
               Welcome to{' '}
               <span className="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-pulse">
-                Prep4Btech
+                StudyHub
               </span>
             </h1>
             
