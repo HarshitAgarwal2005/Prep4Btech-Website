@@ -2,21 +2,12 @@ export interface Subject {
   id: string;
   name: string;
   code: string;
-  branchId?: string;
   year: number;
   semester: number;
   credits: number;
   chapters: Chapter[];
   books: Book[];
   assignments: Assignment[];
-}
-
-export interface ContentBranch {
-  id: string;
-  name: string;
-  code: string;
-  description: string;
-  color: string;
 }
 
 export interface Chapter {
