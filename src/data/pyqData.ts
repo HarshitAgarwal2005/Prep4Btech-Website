@@ -204,7 +204,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'Engineering Mathematics-1 - Complete Notes 2025',
     year: 2025,
     subjectId: 'cse-s1-math1',
-    downloadUrl: '<iframe src="https://drive.google.com/file/d/15yxzmBCTso2s9enawz7KNSdj-5EakqUf/preview?rm=minimal" width="640" height="480"></iframe>',
+    downloadUrl: '<iframe src="https://drive.google.com/file/d/15cdwtAOou8IXRvcwOiwIEkdZgSHJ-Xx4/preview?rm=minimal" width="640" height="480"></iframe>',
     uploadDate: '2025-01-15',
     fileSize: '2.5 MB'
   },
