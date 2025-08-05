@@ -108,9 +108,9 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 4
   },
   {
-    id: 'cse-s1-physics',
-    name: 'Engineering Physics',
-    code: 'PHY101',
+    id: 'cse-s1-chemistry',
+    name: 'Engineering Chemistry',
+    code: 'CHEM101',
     branchId: 'cse',
     semester: 1,
     credits: 4
@@ -122,6 +122,22 @@ export const pyqSubjects: PYQSubject[] = [
     branchId: 'cse',
     semester: 1,
     credits: 3
+  },
+  {
+    id: 'cse-s1-mech',
+    name: 'Basic Mechanical Engineering',
+    code: 'MECH101',
+    branchId: 'cse',
+    semester: 1,
+    credits: 4
+  },
+  {
+    id: 'cse-s1-civil',
+    name: 'Basic Civil Engineering',
+    code: 'CIVIL101',
+    branchId: 'cse',
+    semester: 1,
+    credits: 4
   },
   {
     id: 'cse-s2-math2',
@@ -182,70 +198,108 @@ export const pyqSubjects: PYQSubject[] = [
 ];
 
 export const pyqPapers: PYQPaper[] = [
-  // CSE Math-1 Papers
+  // Engineering Mathematics-1 Papers
   {
     id: 'paper-1',
-    title: 'Engineering Mathematics-1 - 2023',
-    year: 2023,
+    title: 'Engineering Mathematics-1 - Complete Notes 2025',
+    year: 2025,
     subjectId: 'cse-s1-math1',
-    downloadUrl: '/pyq/cse/sem1/math1-2023.pdf',
-    uploadDate: '2024-01-15',
+    downloadUrl: 'https://drive.google.com/file/d/15cdwtAOou8IXRvcwOiwIEkdZgSHJ-Xx4/view?usp=sharing',
+    uploadDate: '2025-01-15',
     fileSize: '2.5 MB'
   },
   {
     id: 'paper-2',
-    title: 'Engineering Mathematics-1 - 2022',
-    year: 2022,
+    title: 'Engineering Mathematics-1 - Practice Problems 2025',
+    year: 2025,
     subjectId: 'cse-s1-math1',
-    downloadUrl: '/pyq/cse/sem1/math1-2022.pdf',
-    uploadDate: '2023-01-15',
+    downloadUrl: 'https://drive.google.com/file/d/15cdwtAOou8IXRvcwOiwIEkdZgSHJ-Xx4/view?usp=sharing',
+    uploadDate: '2025-01-15',
     fileSize: '2.3 MB'
   },
   {
     id: 'paper-3',
-    title: 'Engineering Mathematics-1 - 2021',
-    year: 2021,
+    title: 'Engineering Mathematics-1 - Previous Year Questions 2024',
+    year: 2024,
     subjectId: 'cse-s1-math1',
-    downloadUrl: '/pyq/cse/sem1/math1-2021.pdf',
-    uploadDate: '2022-01-15',
+    downloadUrl: 'https://drive.google.com/file/d/15cdwtAOou8IXRvcwOiwIEkdZgSHJ-Xx4/view?usp=sharing',
+    uploadDate: '2024-12-15',
     fileSize: '2.1 MB'
   },
-  // CSE Physics Papers
+  // Engineering Chemistry Papers
   {
     id: 'paper-4',
-    title: 'Engineering Physics - 2023',
-    year: 2023,
-    subjectId: 'cse-s1-physics',
-    downloadUrl: '/pyq/cse/sem1/physics-2023.pdf',
-    uploadDate: '2024-01-15',
+    title: 'Engineering Chemistry - Complete Notes 2025',
+    year: 2025,
+    subjectId: 'cse-s1-chemistry',
+    downloadUrl: 'https://drive.google.com/file/d/15yxzmBCTso2s9enawz7KNSdj-5EakqUf/view?usp=sharing',
+    uploadDate: '2025-01-15',
     fileSize: '3.2 MB'
   },
   {
     id: 'paper-5',
-    title: 'Engineering Physics - 2022',
-    year: 2022,
-    subjectId: 'cse-s1-physics',
-    downloadUrl: '/pyq/cse/sem1/physics-2022.pdf',
-    uploadDate: '2023-01-15',
+    title: 'Engineering Chemistry - Lab Manual 2025',
+    year: 2025,
+    subjectId: 'cse-s1-chemistry',
+    downloadUrl: 'https://drive.google.com/file/d/15yxzmBCTso2s9enawz7KNSdj-5EakqUf/view?usp=sharing',
+    uploadDate: '2025-01-15',
     fileSize: '3.0 MB'
   },
-  // CSE Data Structures Papers
+  // Communication Skills Papers
   {
     id: 'paper-6',
-    title: 'Data Structures - 2023',
-    year: 2023,
-    subjectId: 'cse-s3-ds',
-    downloadUrl: '/pyq/cse/sem3/ds-2023.pdf',
-    uploadDate: '2024-01-15',
+    title: 'Communication Skills - Complete Notes 2025',
+    year: 2025,
+    subjectId: 'cse-s1-comm',
+    downloadUrl: 'https://drive.google.com/file/d/15d7p-NnMmZY8ukpH-xq2kxzI8HcEytqO/view?usp=sharing',
+    uploadDate: '2025-01-15',
     fileSize: '2.8 MB'
   },
   {
     id: 'paper-7',
-    title: 'Data Structures - 2022',
-    year: 2022,
-    subjectId: 'cse-s3-ds',
-    downloadUrl: '/pyq/cse/sem3/ds-2022.pdf',
-    uploadDate: '2023-01-15',
+    title: 'Communication Skills - Practice Exercises 2025',
+    year: 2025,
+    subjectId: 'cse-s1-comm',
+    downloadUrl: 'https://drive.google.com/file/d/15d7p-NnMmZY8ukpH-xq2kxzI8HcEytqO/view?usp=sharing',
+    uploadDate: '2025-01-15',
     fileSize: '2.6 MB'
+  },
+  // Basic Mechanical Engineering Papers
+  {
+    id: 'paper-8',
+    title: 'Basic Mechanical Engineering - Complete Notes 2025',
+    year: 2025,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/15dSFR2RZwxbUteFkcDwlrgi9nQqMX1EO/view?usp=drive_link',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-9',
+    title: 'Basic Mechanical Engineering - Lab Manual 2025',
+    year: 2025,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/15dSFR2RZwxbUteFkcDwlrgi9nQqMX1EO/view?usp=drive_link',
+    uploadDate: '2025-01-15',
+    fileSize: '3.8 MB'
+  },
+  // Basic Civil Engineering Papers
+  {
+    id: 'paper-10',
+    title: 'Basic Civil Engineering - Complete Notes 2025',
+    year: 2025,
+    subjectId: 'cse-s1-civil',
+    downloadUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '3.5 MB'
+  },
+  {
+    id: 'paper-11',
+    title: 'Basic Civil Engineering - Lab Manual 2025',
+    year: 2025,
+    subjectId: 'cse-s1-civil',
+    downloadUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.9 MB'
   }
 ];

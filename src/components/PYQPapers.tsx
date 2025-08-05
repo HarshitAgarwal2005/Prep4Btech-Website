@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { 
   FileText, 
-  Download, 
+  Download,
+  Eye, 
   Calendar, 
   BookOpen, 
   GraduationCap, 
@@ -96,23 +97,47 @@ const PYQPapers: React.FC = () => {
 
   const handlePaperDownload = async (paper: PYQPaper) => {
     try {
-      // Check if file exists
-      const response = await fetch(paper.downloadUrl || '', { method: 'HEAD' });
+      // Convert Google Drive share URL to embed URL for iframe viewing
+      let embedUrl = paper.downloadUrl || '';
       
-      if (response.ok && paper.downloadUrl) {
-        // File exists, trigger download
-        const link = document.createElement('a');
-        link.href = paper.downloadUrl;
-        link.download = `${paper.title}.pdf`;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-      } else {
-        // File doesn't exist
-        alert(`${paper.title} is not available yet. Please check back later or contact the administrator.`);
+      if (embedUrl.includes('drive.google.com/file/d/')) {
+        const fileId = embedUrl.match(/\/d\/([a-zA-Z0-9-_]+)/)?.[1];
+        if (fileId) {
+          embedUrl = `https://drive.google.com/file/d/${fileId}/preview`;
+        }
+      }
+      
+      // Open in a new window with iframe for view-only mode
+      const newWindow = window.open('', '_blank', 'width=1200,height=800,scrollbars=yes,resizable=yes');
+      if (newWindow) {
+        newWindow.document.write(`
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <title>${paper.title} - StudyHub PYQ</title>
+            <style>
+              body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+              .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px; text-align: center; }
+              .content { height: calc(100vh - 80px); }
+              iframe { width: 100%; height: 100%; border: none; }
+              .loading { display: flex; justify-content: center; align-items: center; height: 100%; }
+            </style>
+          </head>
+          <body>
+            <div class="header">
+              <h2>${paper.title}</h2>
+              <p>Year: ${paper.year} | Subject: ${selectedSubject?.name}</p>
+            </div>
+            <div class="content">
+              <iframe src="${embedUrl}" allowfullscreen></iframe>
+            </div>
+          </body>
+          </html>
+        `);
+        newWindow.document.close();
       }
     } catch (error) {
-      alert(`Error downloading ${paper.title}. Please try again later.`);
+      alert(`Error viewing ${paper.title}. Please try again later.`);
     }
   };
 
@@ -929,10 +954,10 @@ const PYQPapers: React.FC = () => {
                         </div>
                         <button
                           onClick={() => handlePaperDownload(paper)}
-                          className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white py-2 px-6 rounded-lg transition-all duration-300 flex items-center space-x-2 hover:scale-105"
+                          className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-2 px-6 rounded-lg transition-all duration-300 flex items-center space-x-2 hover:scale-105"
                         >
-                          <Download className="h-4 w-4" />
-                          <span>Download</span>
+                          <Eye className="h-4 w-4" />
+                          <span>View</span>
                         </button>
                       </div>
                     </div>

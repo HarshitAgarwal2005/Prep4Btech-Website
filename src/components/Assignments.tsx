@@ -98,27 +98,27 @@ const Assignments: React.FC = () => {
               assignments: [
                 {
                   id: 'math1-a1',
-                  title: 'Differential Equations Tutorial',
-                  description: 'Practice problems on differential equations',
-                  documentUrl: '/assignments/math1-tutorial1.pdf',
+                  title: 'Engineering Mathematics-I Complete Notes',
+                  description: 'Complete study material for Engineering Mathematics-I',
+                  documentUrl: 'https://drive.google.com/file/d/15cdwtAOou8IXRvcwOiwIEkdZgSHJ-Xx4/view?usp=sharing',
                   uploadDate: '2024-01-15',
                   fileSize: '2.3 MB',
                   type: 'theory'
                 },
                 {
                   id: 'math1-a2',
-                  title: 'Linear Algebra Lab',
-                  description: 'Matrix operations and vector spaces',
-                  documentUrl: '/assignments/math1-lab1.pdf',
+                  title: 'Engineering Mathematics-I Practice Problems',
+                  description: 'Solved examples and practice exercises',
+                  documentUrl: 'https://drive.google.com/file/d/15cdwtAOou8IXRvcwOiwIEkdZgSHJ-Xx4/view?usp=sharing',
                   uploadDate: '2024-01-20',
                   fileSize: '1.8 MB',
                   type: 'lab'
                 },
                 {
                   id: 'math1-a3',
-                  title: 'Calculus Video Lecture',
-                  description: 'Introduction to calculus concepts',
-                  documentUrl: '/assignments/math1-video1.mp4',
+                  title: 'Engineering Mathematics-I Video Lectures',
+                  description: 'Video explanations of key concepts',
+                  documentUrl: 'https://drive.google.com/file/d/15cdwtAOou8IXRvcwOiwIEkdZgSHJ-Xx4/view?usp=sharing',
                   uploadDate: '2024-01-25',
                   fileSize: '45.2 MB',
                   type: 'video'
@@ -126,17 +126,26 @@ const Assignments: React.FC = () => {
               ]
             },
             {
-              id: 'physics1',
-              name: 'Engineering Physics',
-              code: 'PHY (1FY2-02)',
+              id: 'chem1',
+              name: 'Engineering Chemistry',
+              code: 'CHEM (1E3103)',
               assignments: [
                 {
-                  id: 'phy1-a1',
-                  title: 'Mechanics Lab Report',
-                  description: 'Experimental analysis of motion',
-                  documentUrl: '/assignments/physics1-lab1.pdf',
+                  id: 'chem1-a1',
+                  title: 'Engineering Chemistry Complete Notes',
+                  description: 'Comprehensive study material for Engineering Chemistry',
+                  documentUrl: 'https://drive.google.com/file/d/15yxzmBCTso2s9enawz7KNSdj-5EakqUf/view?usp=sharing',
                   uploadDate: '2024-01-18',
                   fileSize: '3.1 MB',
+                  type: 'theory'
+                },
+                {
+                  id: 'chem1-a2',
+                  title: 'Engineering Chemistry Lab Manual',
+                  description: 'Laboratory experiments and procedures',
+                  documentUrl: 'https://drive.google.com/file/d/15yxzmBCTso2s9enawz7KNSdj-5EakqUf/view?usp=sharing',
+                  uploadDate: '2024-01-22',
+                  fileSize: '2.5 MB',
                   type: 'lab'
                 }
               ]
@@ -144,30 +153,77 @@ const Assignments: React.FC = () => {
             {
               id: 'comm1',
               name: 'Communication Skills',
-              code: 'ENG (1FY1-04)',
+              code: 'ENG (1E3104)',
               assignments: [
                 {
                   id: 'comm1-a1',
-                  title: 'Technical Writing Assignment',
-                  description: 'Report writing and documentation',
-                  documentUrl: '/assignments/comm1-writing.pdf',
+                  title: 'Communication Skills Complete Notes',
+                  description: 'Complete study material for Communication Skills',
+                  documentUrl: 'https://drive.google.com/file/d/15d7p-NnMmZY8ukpH-xq2kxzI8HcEytqO/view?usp=sharing',
                   uploadDate: '2024-01-22',
                   fileSize: '1.5 MB',
                   type: 'theory'
+                },
+                {
+                  id: 'comm1-a2',
+                  title: 'Communication Skills Practice Exercises',
+                  description: 'Writing exercises and speaking practice',
+                  documentUrl: 'https://drive.google.com/file/d/15d7p-NnMmZY8ukpH-xq2kxzI8HcEytqO/view?usp=sharing',
+                  uploadDate: '2024-01-25',
+                  fileSize: '1.2 MB',
+                  type: 'lab'
                 }
               ]
             },
             {
               id: 'mech1',
               name: 'Basic Mechanical Engineering',
-              code: 'BME (1FY3-07)',
-              assignments: []
+              code: 'BME (1E3107)',
+              assignments: [
+                {
+                  id: 'mech1-a1',
+                  title: 'Basic Mechanical Engineering Complete Notes',
+                  description: 'Comprehensive study material for Basic Mechanical Engineering',
+                  documentUrl: 'https://drive.google.com/file/d/15dSFR2RZwxbUteFkcDwlrgi9nQqMX1EO/view?usp=drive_link',
+                  uploadDate: '2024-01-20',
+                  fileSize: '4.2 MB',
+                  type: 'theory'
+                },
+                {
+                  id: 'mech1-a2',
+                  title: 'Basic Mechanical Engineering Lab Manual',
+                  description: 'Laboratory experiments and practical work',
+                  documentUrl: 'https://drive.google.com/file/d/15dSFR2RZwxbUteFkcDwlrgi9nQqMX1EO/view?usp=drive_link',
+                  uploadDate: '2024-01-23',
+                  fileSize: '3.8 MB',
+                  type: 'lab'
+                }
+              ]
             },
             {
-              id: 'elec1',
-              name: 'Basic Electrical Engineering',
-              code: 'BEE (1FY3-08)',
-              assignments: []
+              id: 'civil1',
+              name: 'Basic Civil Engineering',
+              code: 'BCE (1E3109)',
+              assignments: [
+                {
+                  id: 'civil1-a1',
+                  title: 'Basic Civil Engineering Complete Notes',
+                  description: 'Comprehensive study material for Basic Civil Engineering',
+                  documentUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
+                  uploadDate: '2024-01-21',
+                  fileSize: '3.5 MB',
+                  type: 'theory'
+                },
+                {
+                  id: 'civil1-a2',
+                  title: 'Basic Civil Engineering Lab Manual',
+                  description: 'Practical exercises and field work',
+                  documentUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
+                  uploadDate: '2024-01-24',
+                  fileSize: '2.9 MB',
+                  type: 'lab'
+                }
+              ]
             }
           ]
         },
@@ -494,8 +550,45 @@ const Assignments: React.FC = () => {
   const filteredYears = selectedYear ? academicYears.filter(y => y.year === selectedYear) : academicYears;
 
   const handleAssignmentView = (assignment: Assignment) => {
-    // In a real implementation, this would open the document in a viewer
-    window.open(assignment.documentUrl, '_blank');
+    // Convert Google Drive share URL to embed URL for iframe viewing
+    let embedUrl = assignment.documentUrl;
+    
+    if (embedUrl.includes('drive.google.com/file/d/')) {
+      const fileId = embedUrl.match(/\/d\/([a-zA-Z0-9-_]+)/)?.[1];
+      if (fileId) {
+        embedUrl = `https://drive.google.com/file/d/${fileId}/preview`;
+      }
+    }
+    
+    // Open in a new window with iframe for view-only mode
+    const newWindow = window.open('', '_blank', 'width=1200,height=800,scrollbars=yes,resizable=yes');
+    if (newWindow) {
+      newWindow.document.write(`
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>${assignment.title} - StudyHub</title>
+          <style>
+            body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+            .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px; text-align: center; }
+            .content { height: calc(100vh - 80px); }
+            iframe { width: 100%; height: 100%; border: none; }
+            .loading { display: flex; justify-content: center; align-items: center; height: 100%; }
+          </style>
+        </head>
+        <body>
+          <div class="header">
+            <h2>${assignment.title}</h2>
+            <p>${assignment.description}</p>
+          </div>
+          <div class="content">
+            <iframe src="${embedUrl}" allowfullscreen></iframe>
+          </div>
+        </body>
+        </html>
+      `);
+      newWindow.document.close();
+    }
   };
 
   const handleUploadAssignment = (subjectId: string, contentType: string) => {
@@ -1170,7 +1263,13 @@ const Assignments: React.FC = () => {
                             </div>
 
                             {/* View Button */}
-                            <button className="p-3 bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-lg transition-colors">
+                            <button 
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                handleAssignmentView(assignment);
+                              }}
+                              className="p-3 bg-blue-100 hover:bg-blue-200 text-blue-600 rounded-lg transition-colors"
+                            >
                               <Eye className="h-5 w-5" />
                             </button>
                           </div>
