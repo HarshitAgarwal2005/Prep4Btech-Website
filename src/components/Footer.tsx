@@ -18,7 +18,11 @@ import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
-  const [visitCount, setVisitCount] = useState(1000);
+  const [visitCount, setVisitCount] = useState(() => {
+    // Get visit count from localStorage or start from 1000
+    const stored = localStorage.getItem('globalVisitCount');
+    return stored ? parseInt(stored, 10) : 1000;
+  });
   const [email, setEmail] = useState('');
   const [isSubscribed, setIsSubscribed] = useState(false);
   const [motivationalQuote, setMotivationalQuote] = useState('');
@@ -33,19 +37,33 @@ const Footer: React.FC = () => {
   ];
 
   useEffect(() => {
-    // Get initial visit count
-    const currentCount = parseInt(localStorage.getItem('userVisitCount') || '1000', 10);
-    setVisitCount(currentCount);
+    // Increment global visit count on component mount
+    const incrementVisitCount = () => {
+      const currentCount = parseInt(localStorage.getItem('globalVisitCount') || '1000', 10);
+      const newCount = currentCount + 1;
+      localStorage.setItem('globalVisitCount', newCount.toString());
+      setVisitCount(newCount);
+      
+      // Also dispatch event for other components
+      window.dispatchEvent(new CustomEvent('globalVisitUpdate', { detail: newCount }));
+    };
 
-    // Listen for visit count updates
-    const handleVisitUpdate = (event: CustomEvent) => {
+    // Only increment if this is a new session
+    const sessionKey = 'visitCountedThisSession';
+    if (!sessionStorage.getItem(sessionKey)) {
+      incrementVisitCount();
+      sessionStorage.setItem(sessionKey, 'true');
+    }
+
+    // Listen for global visit count updates
+    const handleGlobalVisitUpdate = (event: CustomEvent) => {
       setVisitCount(event.detail);
     };
 
-    window.addEventListener('userVisitUpdate', handleVisitUpdate as EventListener);
+    window.addEventListener('globalVisitUpdate', handleGlobalVisitUpdate as EventListener);
 
     return () => {
-      window.removeEventListener('userVisitUpdate', handleVisitUpdate as EventListener);
+      window.removeEventListener('globalVisitUpdate', handleGlobalVisitUpdate as EventListener);
     };
   }, []);
 
@@ -76,7 +94,7 @@ const Footer: React.FC = () => {
   ];
 
   const resources = [
-    { name: 'Study Materials', path: '/subjects' },
+    { name: 'Study Materials', path: '/assignments' },
     { name: 'Previous Papers', path: '/pyq-papers' },
     { name: 'Project Ideas', path: '/projects' },
     { name: 'Reference Books', path: '/books' },

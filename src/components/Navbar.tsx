@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Search, Menu, X, BookOpen, Sparkles, ArrowLeft } from 'lucide-react';
+import { subjects } from '../data/mockData';
+import { pyqPapers, pyqSubjects } from '../data/pyqData';
 
 interface NavbarProps {
   onSearch: (query: string) => void;
@@ -9,6 +11,8 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const [searchResults, setSearchResults] = useState<any[]>([]);
+  const [showResults, setShowResults] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -23,12 +27,65 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
     { name: 'Contact', path: '/contact' }
   ];
 
+  const performGlobalSearch = (query: string) => {
+    if (!query.trim()) {
+      setSearchResults([]);
+      setShowResults(false);
+      return;
+    }
+
+    const results: any[] = [];
+    const searchTerm = query.toLowerCase();
+
+    // Search in subjects
+    subjects.forEach(subject => {
+      if (subject.name.toLowerCase().includes(searchTerm) || 
+          subject.code.toLowerCase().includes(searchTerm)) {
+        results.push({
+          type: 'subject',
+          title: subject.name,
+          subtitle: subject.code,
+          path: `/subjects?search=${encodeURIComponent(subject.name)}`
+        });
+      }
+    });
+
+    // Search in PYQ papers
+    pyqPapers.forEach(paper => {
+      if (paper.title.toLowerCase().includes(searchTerm)) {
+        const subject = pyqSubjects.find(s => s.id === paper.subjectId);
+        results.push({
+          type: 'paper',
+          title: paper.title,
+          subtitle: subject?.name || 'Unknown Subject',
+          path: '/pyq-papers'
+        });
+      }
+    });
+
+    // Search in pages
+    navItems.forEach(item => {
+      if (item.name.toLowerCase().includes(searchTerm)) {
+        results.push({
+          type: 'page',
+          title: item.name,
+          subtitle: 'Page',
+          path: item.path
+        });
+      }
+    });
+
+    setSearchResults(results.slice(0, 8)); // Limit to 8 results
+    setShowResults(true);
+  };
+
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (searchQuery.trim()) {
       onSearch(searchQuery);
-      // Navigate to subjects page with search query
-      navigate(`/subjects?search=${encodeURIComponent(searchQuery.trim())}`);
+      setShowResults(false);
+      // Navigate to assignments page with search query
+      navigate(`/assignments?search=${encodeURIComponent(searchQuery.trim())}`);
     }
   };
 
@@ -38,6 +95,17 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
     } else {
       navigate('/');
     }
+  };
+
+  const handleSearchInputChange = (value: string) => {
+    setSearchQuery(value);
+    performGlobalSearch(value);
+  };
+
+  const handleResultClick = (path: string) => {
+    navigate(path);
+    setShowResults(false);
+    setSearchQuery('');
   };
 
   return (
@@ -97,13 +165,14 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
           </div>
 
           {/* Search Bar */}
-          <div className="hidden md:flex items-center">
+          <div className="hidden md:flex items-center relative">
             <form onSubmit={handleSearch} className="relative group flex">
               <input
                 type="text"
                 placeholder="Search notes, subjects..."
                 value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
+                onChange={(e) => handleSearchInputChange(e.target.value)}
+                onFocus={() => searchQuery && setShowResults(true)}
                 className="w-64 pl-10 pr-4 py-2.5 bg-gray-50/80 dark:bg-gray-800/80 border border-gray-200 dark:border-gray-700 rounded-l-xl focus:ring-2 focus:ring-violet-500 focus:border-transparent transition-all duration-300 backdrop-blur-sm"
               />
               <Search className="absolute left-3 top-3 h-4 w-4 text-gray-400 group-focus-within:text-violet-500 transition-colors" />
@@ -115,7 +184,36 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
               </button>
               <div className="absolute inset-0 bg-gradient-to-r from-violet-500/10 to-purple-500/10 rounded-xl opacity-0 group-focus-within:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             </form>
+            
+            {/* Search Results Dropdown */}
+            {showResults && searchResults.length > 0 && (
+              <div className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-gray-800 rounded-xl shadow-2xl border border-gray-200 dark:border-gray-700 z-50 max-h-96 overflow-y-auto">
+                {searchResults.map((result, index) => (
+                  <button
+                    key={index}
+                    onClick={() => handleResultClick(result.path)}
+                    className="w-full text-left p-4 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors border-b border-gray-100 dark:border-gray-600 last:border-b-0"
+                  >
+                    <div className="flex items-center">
+                      <div className={`w-2 h-2 rounded-full mr-3 ${
+                        result.type === 'subject' ? 'bg-blue-500' :
+                        result.type === 'paper' ? 'bg-green-500' : 'bg-purple-500'
+                      }`}></div>
+                      <div>
+                        <div className="font-medium text-gray-900 dark:text-white">{result.title}</div>
+                        <div className="text-sm text-gray-500 dark:text-gray-400">{result.subtitle}</div>
+                      </div>
+                    </div>
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
+
+          {/* Click outside to close search results */}
+          {showResults && (
+            <div className="fixed inset-0 z-40" onClick={() => setShowResults(false)}></div>
+          )}
 
           {/* Mobile menu button */}
           <div className="md:hidden">
@@ -152,7 +250,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
                     type="text"
                     placeholder="Search..."
                     value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
+                    onChange={(e) => handleSearchInputChange(e.target.value)}
                     className="w-full pl-10 pr-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-l-xl focus:ring-2 focus:ring-violet-500 focus:border-transparent transition-all duration-300"
                   />
                   <Search className="absolute left-3 top-3.5 h-4 w-4 text-gray-400" />

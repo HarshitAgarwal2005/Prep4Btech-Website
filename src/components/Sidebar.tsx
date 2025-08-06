@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Settings, Sun, Moon, Palette, User, Bell, HelpCircle, X, Volume2, VolumeX, Zap, Eye } from 'lucide-react';
+import { Settings, Sun, Moon, Palette, User, Bell, HelpCircle, X, Volume2, VolumeX, Zap, History, ExternalLink } from 'lucide-react';
 import { useTheme } from './ThemeProvider';
 
 const Sidebar: React.FC = () => {
@@ -8,7 +8,15 @@ const Sidebar: React.FC = () => {
   const [soundEnabled, setSoundEnabled] = useState(false);
   const [notificationsEnabled, setNotificationsEnabled] = useState(true);
   const [projectNotificationsEnabled, setProjectNotificationsEnabled] = useState(true);
+  const [lastVisitedContent, setLastVisitedContent] = useState(() => {
+    return localStorage.getItem('lastVisitedContent') || '/';
+  });
   const { theme, toggleTheme } = useTheme();
+
+  const handleLastVisitedClick = () => {
+    window.location.href = lastVisitedContent;
+    setIsOpen(false);
+  };
 
   const handleAnimationToggle = () => {
     setAnimationsEnabled(!animationsEnabled);
@@ -92,7 +100,7 @@ const Sidebar: React.FC = () => {
       {/* Sidebar */}
       <div className={`fixed top-0 left-0 h-full w-80 sm:w-96 bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl border-r border-gray-200 dark:border-gray-700 shadow-2xl transform transition-transform duration-300 z-50 overflow-y-auto ${
         isOpen ? 'translate-x-0' : '-translate-x-full'
-      }`}>
+      } min-h-screen`}>
         {/* Header */}
         <div className="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 dark:from-violet-500 dark:via-purple-500 dark:to-pink-500 p-6 text-white">
           <div className="flex items-center justify-between">
@@ -247,26 +255,28 @@ const Sidebar: React.FC = () => {
             </div>
           </div>
 
-          {/* Statistics */}
+          {/* Last Visited Content */}
           <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-gray-800 dark:to-gray-700 rounded-2xl p-6 border border-purple-100 dark:border-gray-600">
             <div className="flex items-center mb-4">
               <div className="bg-gradient-to-r from-purple-500 to-pink-500 p-2 rounded-lg mr-3">
-                <Eye className="h-5 w-5 text-white" />
+                <History className="h-5 w-5 text-white" />
               </div>
               <div>
-                <h3 className="font-semibold text-gray-900 dark:text-white">Your Activity</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-300">Usage statistics</p>
+                <h3 className="font-semibold text-gray-900 dark:text-white">Quick Access</h3>
+                <p className="text-sm text-gray-600 dark:text-gray-300">Return to last visited content</p>
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-4 text-center">
-              <div className="bg-white/50 dark:bg-gray-600/50 rounded-lg p-3">
-                <div className="text-lg font-bold text-purple-600 dark:text-purple-400">12</div>
-                <div className="text-xs text-gray-600 dark:text-gray-300">Pages Visited</div>
-              </div>
-              <div className="bg-white/50 dark:bg-gray-600/50 rounded-lg p-3">
-                <div className="text-lg font-bold text-pink-600 dark:text-pink-400">5</div>
-                <div className="text-xs text-gray-600 dark:text-gray-300">Downloads</div>
-              </div>
+            <button
+              onClick={handleLastVisitedClick}
+              className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white py-3 px-4 rounded-lg transition-all duration-300 flex items-center justify-center font-medium"
+            >
+              <History className="h-4 w-4 mr-2" />
+              Go to Last Visited
+            </button>
+            <div className="mt-3 text-center">
+              <p className="text-xs text-gray-500 dark:text-gray-400">
+                Last visited: {lastVisitedContent === '/' ? 'Home' : lastVisitedContent.replace('/', '').replace('-', ' ')}
+              </p>
             </div>
           </div>
         </div>
