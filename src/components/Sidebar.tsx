@@ -1,118 +1,69 @@
-import React, { useState, useEffect, useCallback } from 'react';
-import { Settings, Sun, Moon, User, Bell, HelpCircle, X, Volume2, VolumeX, Zap, History } from 'lucide-react';
+import React, { useState } from 'react';
+import { Settings, Sun, Moon, Palette, User, Bell, HelpCircle, X, Volume2, VolumeX, Zap, History, ExternalLink } from 'lucide-react';
+import { useTheme } from './ThemeProvider';
 
-// Navigation history management hook
-const useNavigationHistory = () => {
-  const [history, setHistory] = useState([]);
-  const [currentPath, setCurrentPath] = useState('/');
-
-  const addToHistory = useCallback((path, title = '') => {
-    if (path === currentPath) return;
-    
-    setHistory(prev => {
-      const newHistory = prev.filter(item => item.path !== path);
-      newHistory.unshift({
-        path,
-        title: title || path.replace('/', '').replace('-', ' ') || 'Home',
-        timestamp: Date.now()
-      });
-      return newHistory.slice(0, 50); // Keep only last 50 entries
-    });
-    
-    setCurrentPath(path);
-  }, [currentPath]);
-
-  const getLastVisited = useCallback(() => {
-    return history.find(item => item.path !== currentPath) || null;
-  }, [history, currentPath]);
-
-  return { addToHistory, getLastVisited, currentPath };
-};
-
-// Theme context (simplified for Bolt.new compatibility)
-const useTheme = () => {
-  const [theme, setTheme] = useState('light');
-  
-  const toggleTheme = () => {
-    setTheme(prev => prev === 'light' ? 'dark' : 'light');
-  };
-  
-  useEffect(() => {
-    document.documentElement.classList.toggle('dark', theme === 'dark');
-  }, [theme]);
-  
-  return { theme, toggleTheme };
-};
-
-const Sidebar = () => {
+const Sidebar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [animationsEnabled, setAnimationsEnabled] = useState(true);
   const [soundEnabled, setSoundEnabled] = useState(false);
   const [notificationsEnabled, setNotificationsEnabled] = useState(true);
   const [projectNotificationsEnabled, setProjectNotificationsEnabled] = useState(true);
-  
+  const [lastVisitedContent, setLastVisitedContent] = useState(() => {
+    return localStorage.getItem('lastVisitedContent') || '/';
+  });
   const { theme, toggleTheme } = useTheme();
-  const { addToHistory, getLastVisited, currentPath } = useNavigationHistory();
-
-  // Simulate page navigation tracking
-  useEffect(() => {
-    // Track initial page
-    addToHistory(window.location.pathname || '/', document.title);
-    
-    // For demo purposes, simulate some navigation history
-    setTimeout(() => addToHistory('/dashboard', 'Dashboard'), 1000);
-    setTimeout(() => addToHistory('/projects', 'Projects'), 2000);
-    setTimeout(() => addToHistory('/assignments', 'Assignments'), 3000);
-  }, [addToHistory]);
 
   const handleLastVisitedClick = () => {
-    const lastVisited = getLastVisited();
-    if (lastVisited) {
-      // In a real app, use your router navigation
-      // For demo, we'll simulate navigation
-      addToHistory(lastVisited.path, lastVisited.title);
-      console.log('Navigating to:', lastVisited.path);
-      
-      // In real app: navigate(lastVisited.path) or window.location.href = lastVisited.path
-    }
+    window.location.href = lastVisitedContent;
     setIsOpen(false);
   };
 
   const handleAnimationToggle = () => {
     setAnimationsEnabled(!animationsEnabled);
-    document.documentElement.style.setProperty(
-      '--animation-duration', 
-      !animationsEnabled ? '0.3s' : '0s'
-    );
+    // Apply animation settings to document
+    if (!animationsEnabled) {
+      document.documentElement.style.setProperty('--animation-duration', '0.3s');
+    } else {
+      document.documentElement.style.setProperty('--animation-duration', '0s');
+    }
   };
 
   const handleSoundToggle = () => {
     setSoundEnabled(!soundEnabled);
+    // Play a test sound when enabled
     if (!soundEnabled) {
       // Create a simple beep sound
-      try {
-        const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-        const oscillator = audioContext.createOscillator();
-        const gainNode = audioContext.createGain();
-        
-        oscillator.connect(gainNode);
-        gainNode.connect(audioContext.destination);
-        
-        oscillator.frequency.value = 800;
-        oscillator.type = 'sine';
-        
-        gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
-        gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.1);
-        
-        oscillator.start(audioContext.currentTime);
-        oscillator.stop(audioContext.currentTime + 0.1);
-      } catch (error) {
-        console.log('Audio not supported');
-      }
+      const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
+      const oscillator = audioContext.createOscillator();
+      const gainNode = audioContext.createGain();
+      
+      oscillator.connect(gainNode);
+      gainNode.connect(audioContext.destination);
+      
+      oscillator.frequency.value = 800;
+      oscillator.type = 'sine';
+      
+      gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
+      gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.1);
+      
+      oscillator.start(audioContext.currentTime);
+      oscillator.stop(audioContext.currentTime + 0.1);
     }
   };
 
-  const ToggleSwitch = ({ enabled, onToggle, color }) => (
+  const handleNotificationToggle = () => {
+    setNotificationsEnabled(!notificationsEnabled);
+  };
+
+  const handleProjectNotificationToggle = () => {
+    setProjectNotificationsEnabled(!projectNotificationsEnabled);
+  };
+
+  const ToggleSwitch: React.FC<{ 
+    enabled: boolean; 
+    onToggle: () => void; 
+    color: string;
+  }> = ({ enabled, onToggle, color }) => (
     <button
       onClick={onToggle}
       className={`relative w-12 h-6 rounded-full transition-colors duration-300 ${
@@ -127,32 +78,8 @@ const Sidebar = () => {
     </button>
   );
 
-  const lastVisited = getLastVisited();
-
   return (
-    <div className="relative">
-      {/* Demo Navigation Buttons */}
-      <div className="fixed top-4 right-4 flex gap-2 z-30">
-        <button 
-          onClick={() => addToHistory('/home', 'Home')}
-          className="px-3 py-1 bg-blue-500 text-white rounded text-sm"
-        >
-          Home
-        </button>
-        <button 
-          onClick={() => addToHistory('/about', 'About')}
-          className="px-3 py-1 bg-green-500 text-white rounded text-sm"
-        >
-          About
-        </button>
-        <button 
-          onClick={() => addToHistory('/contact', 'Contact')}
-          className="px-3 py-1 bg-purple-500 text-white rounded text-sm"
-        >
-          Contact
-        </button>
-      </div>
-
+    <>
       {/* Sidebar Toggle Button */}
       <button
         onClick={() => setIsOpen(true)}
@@ -191,8 +118,8 @@ const Sidebar = () => {
           </div>
         </div>
 
-
-
+        {/* Content */}
+        <div className="p-6 space-y-6">
           {/* Theme & Appearance Combined */}
           <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-gray-800 dark:to-gray-700 rounded-2xl p-6 border border-blue-100 dark:border-gray-600">
             <div className="flex items-center mb-6">
@@ -280,7 +207,7 @@ const Sidebar = () => {
                 <span className="text-sm text-gray-700 dark:text-gray-300">New Assignments</span>
                 <ToggleSwitch 
                   enabled={notificationsEnabled} 
-                  onToggle={() => setNotificationsEnabled(!notificationsEnabled)}
+                  onToggle={handleNotificationToggle}
                   color="from-green-500 to-emerald-500"
                 />
               </div>
@@ -288,7 +215,7 @@ const Sidebar = () => {
                 <span className="text-sm text-gray-700 dark:text-gray-300">New Projects</span>
                 <ToggleSwitch 
                   enabled={projectNotificationsEnabled} 
-                  onToggle={() => setProjectNotificationsEnabled(!projectNotificationsEnabled)}
+                  onToggle={handleProjectNotificationToggle}
                   color="from-blue-500 to-cyan-500"
                 />
               </div>
@@ -308,32 +235,27 @@ const Sidebar = () => {
             </div>
             <div className="space-y-2">
               <button 
-                onClick={() => addToHistory('/help', 'User Guide')}
+                onClick={() => window.open('/help', '_blank')}
                 className="w-full text-left p-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-white/50 dark:hover:bg-gray-600/50 rounded-lg transition-colors"
               >
                 📚 User Guide
               </button>
               <button 
-                onClick={() => addToHistory('/contact', 'Contact Support')}
+                onClick={() => window.location.href = '/contact'}
                 className="w-full text-left p-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-white/50 dark:hover:bg-gray-600/50 rounded-lg transition-colors"
               >
                 💬 Contact Support
               </button>
               <button 
-                onClick={() => addToHistory('/bug-report', 'Report Bug')}
+                onClick={() => window.open('https://github.com/HarshitAgarwal2005/studyhub/issues', '_blank')}
                 className="w-full text-left p-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-white/50 dark:hover:bg-gray-600/50 rounded-lg transition-colors"
               >
                 🐛 Report Bug
               </button>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
 
-        {/* Content */}
-        <div className="p-6 space-y-6">
-          {/* Last Visited Content - Moved to top for prominence */}
+          {/* Last Visited Content */}
           <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-gray-800 dark:to-gray-700 rounded-2xl p-6 border border-purple-100 dark:border-gray-600">
             <div className="flex items-center mb-4">
               <div className="bg-gradient-to-r from-purple-500 to-pink-500 p-2 rounded-lg mr-3">
@@ -346,25 +268,20 @@ const Sidebar = () => {
             </div>
             <button
               onClick={handleLastVisitedClick}
-              disabled={!lastVisited}
-              className={`w-full py-3 px-4 rounded-lg transition-all duration-300 flex items-center justify-center font-medium ${
-                lastVisited
-                  ? 'bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white'
-                  : 'bg-gray-300 dark:bg-gray-600 text-gray-500 dark:text-gray-400 cursor-not-allowed'
-              }`}
+              className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white py-3 px-4 rounded-lg transition-all duration-300 flex items-center justify-center font-medium"
             >
               <History className="h-4 w-4 mr-2" />
-              {lastVisited ? `Go to ${lastVisited.title}` : 'No Previous Page'}
+              Go to Last Visited
             </button>
             <div className="mt-3 text-center">
               <p className="text-xs text-gray-500 dark:text-gray-400">
-                {lastVisited 
-                  ? `Last visited: ${lastVisited.title} (${lastVisited.path})`
-                  : 'Visit other pages to enable quick access'
-                }
+                Last visited: {lastVisitedContent === '/' ? 'Home' : lastVisitedContent.replace('/', '').replace('-', ' ')}
               </p>
             </div>
           </div>
+        </div>
+      </div>
+    </>
   );
 };
 
