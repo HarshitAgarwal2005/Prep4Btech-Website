@@ -527,27 +527,52 @@ export const pyqSubjects: PYQSubject[] = [
   {
     id: 'ee-s4-os',
     name: 'Technical Communication',
-    code: '4EE2-01',
+    code: '4EE1-02',
+    branchId: 'ee',
+    semester: 4,
+    credits: 2
+  },
+  {
+    id: 'ee-s4-os',
+    name: 'Electronic Measurement & Instrumentation',
+    code: '4EE3-04',
+    branchId: 'ee',
+    semester: 4,
+    credits: 2
+  },
+  {
+    id: 'ee-s4-os',
+    name: 'Electrical Machine-II',
+    code: '4EE4-05',
     branchId: 'ee',
     semester: 4,
     credits: 3
   },
   {
     id: 'ee-s4-os',
-    name: '',
-    code: '4EE2-01',
+    name: 'Power Electronics',
+    code: '4EE4-06',
     branchId: 'ee',
     semester: 4,
     credits: 3
   },
   {
     id: 'ee-s4-os',
-    name: '',
-    code: '4EE2-01',
+    name: 'Signal & Systems',
+    code: '4EE4-07',
     branchId: 'ee',
     semester: 4,
     credits: 3
   },
+  {
+    id: 'ee-s4-os',
+    name: 'Digital Electronics',
+    code: '4EE4-08',
+    branchId: 'ee',
+    semester: 4,
+    credits: 2
+  }
+  
   
 ];
 
