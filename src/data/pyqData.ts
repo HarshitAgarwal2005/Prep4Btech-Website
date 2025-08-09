@@ -456,8 +456,18 @@ export const pyqSubjects: PYQSubject[] = [
     branchId: 'cse',
     semester: 8,
     credits: 3
-  }
-  //End of cse subjects 
+  },
+  //End of cse subjects
+  // electronics engineering 
+  // 3rd semester subjects
+  {
+    id: 'ee-s4-os',
+    name: '',
+    code: '3EE2-01',
+    branchId: 'ee',
+    semester: 3,
+    credits: 3
+  },
   
 ];
 
