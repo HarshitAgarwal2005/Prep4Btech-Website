@@ -108,20 +108,50 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 4
   },
   {
-    id: 'cse-s1-chemistry',
-    name: 'Engineering Chemistry',
-    code: 'CHEM101',
+    id: 'cse-s1-math1',
+    name: 'Engineering Physics',
+    code: 'PHY',
     branchId: 'cse',
     semester: 1,
     credits: 4
   },
   {
-    id: 'cse-s1-comm',
+    id: 'cse-s1-math1',
     name: 'Communication Skills',
-    code: 'ENG101',
+    code: 'CSK',
     branchId: 'cse',
     semester: 1,
-    credits: 3
+    credits: 2
+  },{
+    id: 'cse-s1-math1',
+    name: 'Mechanical Engineering',
+    code: 'MECH',
+    branchId: 'cse',
+    semester: 1,
+    credits: 2
+  },{
+    id: 'cse-s1-math1',
+    name: 'Electrical Engineering ',
+    code: 'MATH101',
+    branchId: 'cse',
+    semester: 1,
+    credits: 2
+  },
+  {
+    id: 'cse-s1-chemistry',
+    name: 'Engineering Mathematics',
+    code: 'MATH',
+    branchId: 'cse',
+    semester: 2,
+    credits: 4
+  },
+  {
+    id: 'cse-s1-comm',
+    name: 'Engineering Chemistry',
+    code: 'CHEM',
+    branchId: 'cse',
+    semester: 2,
+    credits: 4
   },
   {
     id: 'cse-s1-mech',
@@ -132,28 +162,29 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 4
   },
   {
+    id: 'cse-s2-math2',
+    name: 'Human Values',
+    code: 'HV',
+    branchId: 'cse',
+    semester: 2,
+    credits: 2
+  },
+  {
     id: 'cse-s1-civil',
     name: 'Basic Civil Engineering',
-    code: 'CIVIL101',
-    branchId: 'cse',
-    semester: 1,
-    credits: 4
-  },
-  {
-    id: 'cse-s2-math2',
-    name: 'Engineering Mathematics-2',
-    code: 'MATH102',
+    code: 'CIVIL',
     branchId: 'cse',
     semester: 2,
-    credits: 4
+    credits: 2
   },
+  
   {
     id: 'cse-s2-chemistry',
-    name: 'Engineering Chemistry',
-    code: 'CHEM101',
+    name: 'Problem Solving For Programming',
+    code: 'PPS',
     branchId: 'cse',
     semester: 2,
-    credits: 4
+    credits: 2
   },
   {
     id: 'cse-s2-programming',
