@@ -461,11 +461,91 @@ export const pyqSubjects: PYQSubject[] = [
   // electronics engineering 
   // 3rd semester subjects
   {
-    id: 'ee-s4-os',
-    name: '',
+    id: 'ee-s3-os',
+    name: 'Advance Mathematics',
     code: '3EE2-01',
     branchId: 'ee',
     semester: 3,
+    credits: 3
+  },
+   {
+    id: 'ee-s4-os',
+    name: 'Managerial Economics & Financial Accounting',
+    code: '3EE2-03',
+    branchId: 'ee',
+    semester: 3,
+    credits: 2
+  },
+   {
+    id: 'ee-s4-os',
+    name: 'Power Generation Processes',
+    code: '3EE3-04',
+    branchId: 'ee',
+    semester: 3,
+    credits: 2
+  },
+   {
+    id: 'ee-s4-os',
+    name: 'Electrical Circuit Analysis ',
+    code: '3EE4-05',
+    branchId: 'ee',
+    semester: 3,
+    credits: 3
+  },
+   {
+    id: 'ee-s4-os',
+    name: 'Analog Electronics',
+    code: '3EE4-06',
+    branchId: 'ee',
+    semester: 3,
+    credits: 3
+  }, {
+    id: 'ee-s4-os',
+    name: 'Electrical Machine -I',
+    code: '3EE4-07',
+    branchId: 'ee',
+    semester: 3,
+    credits: 3
+  },
+   {
+    id: 'ee-s4-os',
+    name: 'Electromagnetic Fields',
+    code: '3EE4-08',
+    branchId: 'ee',
+    semester: 3,
+    credits: 2
+  },
+  // 4th semester subjects 
+   {
+    id: 'ee-s4-os',
+    name: '',
+    code: '4EE2-01',
+    branchId: 'ee',
+    semester: 4,
+    credits: 3
+  },
+  {
+    id: 'ee-s4-os',
+    name: '',
+    code: '4EE2-01',
+    branchId: 'ee',
+    semester: 4,
+    credits: 3
+  },
+  {
+    id: 'ee-s4-os',
+    name: '',
+    code: '4EE2-01',
+    branchId: 'ee',
+    semester: 4,
+    credits: 3
+  },
+  {
+    id: 'ee-s4-os',
+    name: '',
+    code: '4EE2-01',
+    branchId: 'ee',
+    semester: 4,
     credits: 3
   },
   
