@@ -688,12 +688,20 @@ export const pyqSubjects: PYQSubject[] = [
   },
    {
     id: 'ee-s6-os',
-    name: '',
-    code: '6EE4-08',
+    name: 'Digital Signal Processing',
+    code: '6EE5-12',
     branchId: 'ee',
     semester: 6,
     credits: 3
   },
+   {
+    id: 'ee-s6-os',
+    name: 'Electrical & Hybrid Vehicles',
+    code: '6EE5-13',
+    branchId: 'ee',
+    semester: 6,
+    credits: 3
+  }
 ];
 
 export const pyqPapers: PYQPaper[] = [
