@@ -303,19 +303,102 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },{
     id: 'cse-s4-os',
-    name: 'Theory Of Computation',
-    code: '4CS4-06',
+    name: 'Computer Graphics & Multimedia',
+    code: '5CS4-04',
     branchId: 'cse',
-    semester: 4,
+    semester: 5,
     credits: 3
-  },{
+  },
+  {
     id: 'cse-s4-os',
-    name: 'Theory Of Computation',
-    code: '4CS4-06',
+    name: 'Analysis Of Algorithm',
+    code: '5CS5-05',
     branchId: 'cse',
-    semester: 4,
+    semester: 5,
     credits: 3
-  }
+  },
+  {
+    id: 'cse-s4-os',
+    name: 'Wireless Communication',
+    code: '5CS5-11',
+    branchId: 'cse',
+    semester: 5,
+    credits: 2
+  },
+  {
+    id: 'cse-s4-os',
+    name: 'Human Compiler Interaction',
+    code: '5CS5-12',
+    branchId: 'cse',
+    semester: 5,
+    credits: 2
+  },
+  {
+    id: 'cse-s4-os',
+    name: 'Bioinformatics',
+    code: '5CS5-13',
+    branchId: 'cse',
+    semester: 5,
+    credits: 2
+  },
+  // 6th semester sunjects 
+   {
+    id: 'cse-s4-os',
+    name: 'Bioinformatics',
+    code: '6CS6-13',
+    branchId: 'cse',
+    semester: 6,
+    credits: 2
+  },
+   {
+    id: 'cse-s4-os',
+    name: 'Bioinformatics',
+    code: '6CS6-13',
+    branchId: 'cse',
+    semester: 6,
+    credits: 2
+  },
+   {
+    id: 'cse-s4-os',
+    name: 'Bioinformatics',
+    code: '6CS6-13',
+    branchId: 'cse',
+    semester: 6,
+    credits: 2
+  },
+   {
+    id: 'cse-s4-os',
+    name: 'Bioinformatics',
+    code: '6CS6-13',
+    branchId: 'cse',
+    semester: 6,
+    credits: 2
+  },
+   {
+    id: 'cse-s4-os',
+    name: 'Bioinformatics',
+    code: '6CS6-13',
+    branchId: 'cse',
+    semester: 6,
+    credits: 2
+  },
+   {
+    id: 'cse-s4-os',
+    name: 'Bioinformatics',
+    code: '6CS6-13',
+    branchId: 'cse',
+    semester: 6,
+    credits: 2
+  },
+   {
+    id: 'cse-s4-os',
+    name: 'Bioinformatics',
+    code: '6CS6-13',
+    branchId: 'cse',
+    semester: 6,
+    credits: 2
+  },
+  
 ];
 
 export const pyqPapers: PYQPaper[] = [
