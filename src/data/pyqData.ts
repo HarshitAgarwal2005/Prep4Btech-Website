@@ -344,11 +344,19 @@ export const pyqSubjects: PYQSubject[] = [
   // 6th semester sunjects 
    {
     id: 'cse-s4-os',
-    name: 'Bioinformatics',
-    code: '6CS6-13',
+    name: 'Digital Image Processing',
+    code: '6CS3--01',
     branchId: 'cse',
     semester: 6,
     credits: 2
+  },
+   {
+    id: 'cse-s4-os',
+    name: 'Machine Learning',
+    code: '6CS4-02',
+    branchId: 'cse',
+    semester: 6,
+    credits: 3
   },
    {
     id: 'cse-s4-os',
@@ -360,44 +368,61 @@ export const pyqSubjects: PYQSubject[] = [
   },
    {
     id: 'cse-s4-os',
-    name: 'Bioinformatics',
-    code: '6CS6-13',
+    name: 'Information Security System',
+    code: '6CS4-03',
     branchId: 'cse',
     semester: 6,
     credits: 2
   },
    {
     id: 'cse-s4-os',
-    name: 'Bioinformatics',
-    code: '6CS6-13',
+    name: 'Computer Architecture & Organization',
+    code: '6CS4-04',
+    branchId: 'cse',
+    semester: 6,
+    credits: 3
+  },
+   {
+    id: 'cse-s4-os',
+    name: 'Artificial Intelligence ',
+    code: '6CS4-05',
     branchId: 'cse',
     semester: 6,
     credits: 2
   },
    {
     id: 'cse-s4-os',
-    name: 'Bioinformatics',
-    code: '6CS6-13',
+    name: 'Cloud Computing',
+    code: '6CS4-06',
     branchId: 'cse',
     semester: 6,
-    credits: 2
+    credits: 3
   },
-   {
+  {
     id: 'cse-s4-os',
-    name: 'Bioinformatics',
-    code: '6CS6-13',
+    name: 'Cloud Computing',
+    code: '6CS4-06',
     branchId: 'cse',
     semester: 6,
-    credits: 2
+    credits: 3
   },
-   {
+  {
     id: 'cse-s4-os',
-    name: 'Bioinformatics',
-    code: '6CS6-13',
+    name: 'Cloud Computing',
+    code: '6CS4-06',
     branchId: 'cse',
     semester: 6,
-    credits: 2
+    credits: 3
   },
+  {
+    id: 'cse-s4-os',
+    name: 'Cloud Computing',
+    code: '6CS4-06',
+    branchId: 'cse',
+    semester: 6,
+    credits: 3
+  },
+  
   
 ];
 
