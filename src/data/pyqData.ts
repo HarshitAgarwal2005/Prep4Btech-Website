@@ -465,7 +465,6 @@ export const pyqSubjects: PYQSubject[] = [
     name: 'Engineering Mathematics-1',
     code: '1FY2-01',
     branchId: 'ee',
-    branchId: 'ece',
     semester: 1,
     credits: 4
   },
