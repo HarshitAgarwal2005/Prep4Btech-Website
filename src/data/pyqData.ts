@@ -711,6 +711,31 @@ export const pyqSubjects: PYQSubject[] = [
     semester: 7,
     credits: 3
   },
+   {
+    id: 'ee-s7-os',
+    name: 'Open Elective-I',
+    code: '7EE5-11-12-13',
+    branchId: 'ee',
+    semester: 7,
+    credits: 3
+  },
+  //8th semester subjects
+  {
+    id: 'ee-s8-os',
+    name: 'PEC ',
+    code: '8EE4-11-12-13',
+    branchId: 'ee',
+    semester: 8,
+    credits: 3
+  },
+   {
+    id: 'ee-s8-os',
+    name: 'Open Elective-I',
+    code: '8EE4-11-12-13',
+    branchId: 'ee',
+    semester: 8,
+    credits: 3
+  },
   
 ];
 
