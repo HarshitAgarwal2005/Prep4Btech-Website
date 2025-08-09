@@ -108,8 +108,6 @@ export const pyqSubjects: PYQSubject[] = [
     branchId: 'cse',
     branchId: 'ece',
     branchId: 'ee',
-    branchId: 'me',
-    branchId: 'ce',
     semester: 1,
     credits: 4
   },
