@@ -191,7 +191,7 @@ export const pyqSubjects: PYQSubject[] = [
     name: 'Programming for Problem Solving',
     code: 'CS101',
     branchId: 'cse',
-    semester: 2,
+    semester: 3,
     credits: 4
   },
   {
