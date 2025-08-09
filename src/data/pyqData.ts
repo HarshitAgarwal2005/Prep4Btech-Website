@@ -400,28 +400,30 @@ export const pyqSubjects: PYQSubject[] = [
   },
   {
     id: 'cse-s4-os',
-    name: 'Cloud Computing',
-    code: '6CS4-06',
+    name: 'Distributed System',
+    code: '6C54-11',
     branchId: 'cse',
     semester: 6,
-    credits: 3
+    credits: 2
   },
   {
     id: 'cse-s4-os',
-    name: 'Cloud Computing',
-    code: '6CS4-06',
+    name: 'Software Defined Network',
+    code: '6CS5-12',
     branchId: 'cse',
     semester: 6,
-    credits: 3
+    credits: 2
   },
   {
     id: 'cse-s4-os',
-    name: 'Cloud Computing',
-    code: '6CS4-06',
+    name: 'Ecommerce & ERP',
+    code: '6CS4-13',
     branchId: 'cse',
     semester: 6,
-    credits: 3
+    credits: 2
   },
+  //7th semester papers
+  
   
   
 ];
