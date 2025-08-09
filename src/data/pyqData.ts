@@ -118,7 +118,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 4
   },
   {
-    id: 'cse-s1-math1',
+    id: 'cse-s1-csk1',
     name: 'Communication Skills',
     code: '1FY1-04',
     branchId: 'cse',
