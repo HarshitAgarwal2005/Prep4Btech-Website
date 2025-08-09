@@ -607,7 +607,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   {
     id: 'ee-s5-os',
-    name: 'Electrical Machine Design,
+    name: 'Electrical Machine Design',
     code: '5EE4-05',
     branchId: 'ee',
     semester: 5,
