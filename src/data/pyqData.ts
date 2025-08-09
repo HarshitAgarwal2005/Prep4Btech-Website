@@ -705,7 +705,7 @@ export const pyqSubjects: PYQSubject[] = [
   // 7th semester subjects 
   {
     id: 'ee-s7-os',
-    name: 'Control System Facts ',
+    name: 'PEC',
     code: '7EE5-11-12-13',
     branchId: 'ee',
     semester: 7,
