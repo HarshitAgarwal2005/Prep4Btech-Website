@@ -108,35 +108,19 @@ const PYQPapers: React.FC = () => {
       }
       
       // Open in a new window with iframe for view-only mode
-      const isMobile = window.innerWidth <= 768;
-      const windowFeatures = isMobile 
-        ? 'width=' + window.screen.width + ',height=' + window.screen.height + ',scrollbars=yes,resizable=yes'
-        : 'width=1200,height=800,scrollbars=yes,resizable=yes';
-      
-      const newWindow = window.open('', '_blank', windowFeatures);
+      const newWindow = window.open('', '_blank', 'width=1200,height=800,scrollbars=yes,resizable=yes');
       if (newWindow) {
         newWindow.document.write(`
           <!DOCTYPE html>
           <html>
           <head>
             <title>${paper.title} - StudyHub PYQ</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <style>
               body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
-              .header { 
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
-                color: white; 
-                padding: ${isMobile ? '10px' : '15px'}; 
-                text-align: center; 
-                font-size: ${isMobile ? '14px' : '16px'};
-              }
-              .content { height: calc(100vh - ${isMobile ? '60px' : '80px'}); }
+              .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px; text-align: center; }
+              .content { height: calc(100vh - 80px); }
               iframe { width: 100%; height: 100%; border: none; }
               .loading { display: flex; justify-content: center; align-items: center; height: 100%; }
-              @media (max-width: 768px) {
-                .header h2 { font-size: 16px; margin: 5px 0; }
-                .header p { font-size: 12px; margin: 2px 0; }
-              }
             </style>
           </head>
           <body>
@@ -968,15 +952,13 @@ const PYQPapers: React.FC = () => {
                             </div>
                           </div>
                         </div>
-                        <div className="flex flex-col sm:flex-row gap-2">
-                          <button
-                            onClick={() => handlePaperDownload(paper)}
-                            className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-2 px-4 sm:px-6 rounded-lg transition-all duration-300 flex items-center justify-center space-x-2 hover:scale-105 text-sm sm:text-base"
-                          >
-                            <Eye className="h-4 w-4" />
-                            <span>View</span>
-                          </button>
-                        </div>
+                        <button
+                          onClick={() => handlePaperDownload(paper)}
+                          className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-2 px-6 rounded-lg transition-all duration-300 flex items-center space-x-2 hover:scale-105"
+                        >
+                          <Eye className="h-4 w-4" />
+                          <span>View</span>
+                        </button>
                       </div>
                     </div>
                   ))}

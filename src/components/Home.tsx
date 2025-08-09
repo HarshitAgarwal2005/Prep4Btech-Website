@@ -12,7 +12,7 @@ const Home: React.FC = () => {
       description: 'Well-organized notes for every subject, structured chapter by chapter for easy learning.',
       gradient: 'from-blue-500 to-cyan-500',
       bgGradient: 'from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20',
-      link: '/assignments'
+      link: '/subjects'
     },
     {
       icon: FileText,
@@ -52,7 +52,7 @@ const Home: React.FC = () => {
       description: 'Join a thriving community of learners helping each other succeed.',
       gradient: 'from-indigo-500 to-purple-500',
       bgGradient: 'from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20',
-      link: '/assignments'
+      link: '/contact'
     }
   ];
 

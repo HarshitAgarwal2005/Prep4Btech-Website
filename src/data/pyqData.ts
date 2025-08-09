@@ -209,15 +209,6 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
   {
-    id: 'paper-1-additional',
-    title: 'Engineering Mathematics-1 - Additional Resources 2025',
-    year: 2025,
-    subjectId: 'cse-s1-math1',
-    downloadUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
-    uploadDate: '2025-01-15',
-    fileSize: '3.5 MB'
-  },
-  {
     id: 'paper-2',
     title: 'Engineering Mathematics-1 - Practice Problems 2025',
     year: 2025,
@@ -246,15 +237,6 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '3.2 MB'
   },
   {
-    id: 'paper-4-additional',
-    title: 'Engineering Chemistry - Additional Resources 2025',
-    year: 2025,
-    subjectId: 'cse-s1-chemistry',
-    downloadUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
-    uploadDate: '2025-01-15',
-    fileSize: '3.5 MB'
-  },
-  {
     id: 'paper-5',
     title: 'Engineering Chemistry - Lab Manual 2025',
     year: 2025,
@@ -274,15 +256,6 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.8 MB'
   },
   {
-    id: 'paper-6-additional',
-    title: 'Communication Skills - Additional Resources 2025',
-    year: 2025,
-    subjectId: 'cse-s1-comm',
-    downloadUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
-    uploadDate: '2025-01-15',
-    fileSize: '3.5 MB'
-  },
-  {
     id: 'paper-7',
     title: 'Communication Skills - Practice Exercises 2025',
     year: 2025,
@@ -300,15 +273,6 @@ export const pyqPapers: PYQPaper[] = [
     downloadUrl: 'https://drive.google.com/file/d/15dSFR2RZwxbUteFkcDwlrgi9nQqMX1EO/view?usp=drive_link',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
-  },
-  {
-    id: 'paper-8-additional',
-    title: 'Basic Mechanical Engineering - Additional Resources 2025',
-    year: 2025,
-    subjectId: 'cse-s1-mech',
-    downloadUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
-    uploadDate: '2025-01-15',
-    fileSize: '3.5 MB'
   },
   {
     id: 'paper-9',

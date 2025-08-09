@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Year from './components/Year';
 import RTUSyllabus from './components/RTUSyllabus';
+import Subjects from './components/Subjects';
 import Assignments from './components/Assignments';
 import Books from './components/Books';
 import Projects from './components/Projects';
@@ -64,6 +65,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/year" element={<Year />} />
                 <Route path="/rtu-syllabus" element={<RTUSyllabus />} />
+                <Route path="/subjects" element={<Subjects />} />
                 <Route path="/assignments" element={<Assignments />} />
                 <Route path="/books" element={<Books />} />
                 <Route path="/projects" element={<Projects />} />
