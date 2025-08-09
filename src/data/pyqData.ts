@@ -44,6 +44,13 @@ export const branches: Branch[] = [
     description: 'Electronics and communication systems'
   },
   {
+    id: 'ee',
+    name: 'Electrical Engineering',
+    code: 'EE',
+    courseId: 'btech',
+    description: 'Electrical systems and power'
+  },
+  {
     id: 'me',
     name: 'Mechanical Engineering',
     code: 'ME',
@@ -57,13 +64,7 @@ export const branches: Branch[] = [
     courseId: 'btech',
     description: 'Infrastructure and construction'
   },
-  {
-    id: 'ee',
-    name: 'Electrical Engineering',
-    code: 'EE',
-    courseId: 'btech',
-    description: 'Electrical systems and power'
-  },
+  
   // BCA Branch
   {
     id: 'bca-general',
@@ -538,7 +539,7 @@ export const pyqSubjects: PYQSubject[] = [
     branchId: 'ece',
     semester: 2,
     credits: 2
-  },
+  }
 ];
 
 export const pyqPapers: PYQPaper[] = [
