@@ -277,6 +277,44 @@ export const pyqSubjects: PYQSubject[] = [
     branchId: 'cse',
     semester: 4,
     credits: 3
+  },
+  // 5th semester subjects
+  {
+    id: 'cse-s4-os',
+    name: 'Information Theory & Coding',
+    code: '5CS3-01',
+    branchId: 'cse',
+    semester: 5,
+    credits: 2
+  },
+  {
+    id: 'cse-s4-os',
+    name: 'Theory Of Computation',
+    code: '4CS4-06',
+    branchId: 'cse',
+    semester: 4,
+    credits: 3
+  },{
+    id: 'cse-s4-os',
+    name: 'Theory Of Computation',
+    code: '4CS4-06',
+    branchId: 'cse',
+    semester: 4,
+    credits: 3
+  },{
+    id: 'cse-s4-os',
+    name: 'Theory Of Computation',
+    code: '4CS4-06',
+    branchId: 'cse',
+    semester: 4,
+    credits: 3
+  },{
+    id: 'cse-s4-os',
+    name: 'Theory Of Computation',
+    code: '4CS4-06',
+    branchId: 'cse',
+    semester: 4,
+    credits: 3
   }
 ];
 
