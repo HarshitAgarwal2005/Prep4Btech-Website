@@ -14,11 +14,13 @@ const Year: React.FC = () => {
           title: 'Semester 1', 
           description: 'Basic engineering fundamentals',
           subjects: [
-            'Engineering Mathematics-1',
-            'Engineering Physics',
-            'Communication Skills',
-            'Basic Mechanical Engineering',
-            'Basic Electrical Engineering'
+            'Computer Science Engineering',
+            'Information Technology',
+            'Electrical Engineering',
+            'Mechanical Engineering',
+            'Civil Engineering',
+            'Petroleum Engineering',
+            'Biomedical Engineering'
           ]
         },
         { 
