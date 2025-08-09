@@ -28,11 +28,13 @@ const Year: React.FC = () => {
           title: 'Semester 2', 
           description: 'Advanced fundamentals and programming',
           subjects: [
-            'Engineering Mathematics-2',
-            'Engineering Chemistry',
-            'Human Values',
-            'Programming for Problem Solving',
-            'Basic Civil Engineering'
+           'Computer Science Engineering',
+            'Information Technology',
+            'Electrical Engineering',
+            'Mechanical Engineering',
+            'Civil Engineering',
+            'Petroleum Engineering',
+            'Biomedical Engineering'
           ]
         }
       ],
@@ -49,12 +51,13 @@ const Year: React.FC = () => {
           title: 'Semester 3', 
           description: 'Data structures and algorithms fundamentals',
           subjects: [
-            'Advance Engineering Mathematics',
-            'Data Structure And Algorithm',
-            'Software Engineering',
-            'Object Oriented Programming',
-            'Digital Electronics',
-            'Managerial Economics And Financial Accounting'
+            'Computer Science Engineering',
+            'Information Technology',
+            'Electrical Engineering',
+            'Mechanical Engineering',
+            'Civil Engineering',
+            'Petroleum Engineering',
+            'Biomedical Engineering'
           ]
         },
         { 
@@ -62,12 +65,13 @@ const Year: React.FC = () => {
           title: 'Semester 4', 
           description: 'Database systems and computer networks',
           subjects: [
-            'Discete Mathematics Structure',
-            'Database Management Systems',
-            'Data Communication And Computer Networks',
-            'Tecnical Communication',
-            'Microprocessor And Interface',
-            'Theory Of Computation'
+            'Computer Science Engineering',
+            'Information Technology',
+            'Electrical Engineering',
+            'Mechanical Engineering',
+            'Civil Engineering',
+            'Petroleum Engineering',
+            'Biomedical Engineering'
           ]
         }
       ],
@@ -84,14 +88,13 @@ const Year: React.FC = () => {
           title: 'Semester 5', 
           description: 'Software engineering and web development',
           subjects: [
-            'Information Theory and Coding',
-            'Complier Design',
-            'Operating System',
-            'Computer Graphics And Multimedia',
-            'Analysis of Algorithms',
-            'Wireless Communication',
-            'Human Computer Interaction',
-            'Bioinformatics'
+           'Computer Science Engineering',
+            'Information Technology',
+            'Electrical Engineering',
+            'Mechanical Engineering',
+            'Civil Engineering',
+            'Petroleum Engineering',
+            'Biomedical Engineering'
           ]
         },
         { 
@@ -99,15 +102,13 @@ const Year: React.FC = () => {
           title: 'Semester 6', 
           description: 'Machine learning and advanced computing',
           subjects: [
-            'Digital Image Processing',
-            'Machine Learning',
-            'Information Security System',
-            'Computer Architecture and Organization',
-            'Artificial Intelligence',
-            'Cloud Computing',
-            'Distributed System',
-            'Software Defined Network',
-            'Ecommerce & ERP'
+           'Computer Science Engineering',
+            'Information Technology',
+            'Electrical Engineering',
+            'Mechanical Engineering',
+            'Civil Engineering',
+            'Petroleum Engineering',
+            'Biomedical Engineering'
           ]
         }
       ],
@@ -124,8 +125,13 @@ const Year: React.FC = () => {
           title: 'Semester 7', 
           description: 'Final year project and advanced topics',
           subjects: [
-            'Internet of Things',
-            'Open Elective-1'
+            'Computer Science Engineering',
+            'Information Technology',
+            'Electrical Engineering',
+            'Mechanical Engineering',
+            'Civil Engineering',
+            'Petroleum Engineering',
+            'Biomedical Engineering'
           ]
         },
         { 
@@ -133,8 +139,13 @@ const Year: React.FC = () => {
           title: 'Semester 8', 
           description: 'Industry training and project completion',
           subjects: [
-            'Big Data Analytics',
-            'Open Elective-2'
+           'Computer Science Engineering',
+            'Information Technology',
+            'Electrical Engineering',
+            'Mechanical Engineering',
+            'Civil Engineering',
+            'Petroleum Engineering',
+            'Biomedical Engineering'
           ]
         }
       ],
