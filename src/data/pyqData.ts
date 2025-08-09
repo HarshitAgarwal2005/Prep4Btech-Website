@@ -423,8 +423,40 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   //7th semester papers
-  
-  
+  {
+    id: 'cse-s4-os',
+    name: 'Internet Of Things',
+    code: '7CS4-01',
+    branchId: 'cse',
+    semester: 7,
+    credits: 3
+  },
+  {
+    id: 'cse-s4-os',
+    name: 'Open Elective-I ',
+    code: '7CS4',
+    branchId: 'cse',
+    semester: 7,
+    credits: 3
+  },
+  // 8th semester subjects 
+  {
+    id: 'cse-s4-os',
+    name: 'Big Data Analytics',
+    code: '8CS4-01',
+    branchId: 'cse',
+    semester: 8,
+    credits: 3
+  },
+  {
+    id: 'cse-s4-os',
+    name: 'Open Elective-I',
+    code: '8CS4',
+    branchId: 'cse',
+    semester: 8,
+    credits: 3
+  }
+  //End of cse subjects 
   
 ];
 
