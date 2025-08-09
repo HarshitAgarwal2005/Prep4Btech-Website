@@ -289,17 +289,17 @@ export const pyqSubjects: PYQSubject[] = [
   },
   {
     id: 'cse-s4-os',
-    name: 'Theory Of Computation',
-    code: '4CS4-06',
+    name: 'Compiler Design',
+    code: '5CS4-02',
     branchId: 'cse',
-    semester: 4,
+    semester: 5,
     credits: 3
   },{
     id: 'cse-s4-os',
-    name: 'Theory Of Computation',
-    code: '4CS4-06',
+    name: 'Operating System',
+    code: '5CS4-03',
     branchId: 'cse',
-    semester: 4,
+    semester: 5,
     credits: 3
   },{
     id: 'cse-s4-os',
