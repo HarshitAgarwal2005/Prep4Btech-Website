@@ -469,7 +469,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
    {
-    id: 'ee-s4-os',
+    id: 'ee-s3-os',
     name: 'Managerial Economics & Financial Accounting',
     code: '3EE2-03',
     branchId: 'ee',
@@ -477,7 +477,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
    {
-    id: 'ee-s4-os',
+    id: 'ee-s3-os',
     name: 'Power Generation Processes',
     code: '3EE3-04',
     branchId: 'ee',
@@ -485,7 +485,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
    {
-    id: 'ee-s4-os',
+    id: 'ee-s3-os',
     name: 'Electrical Circuit Analysis ',
     code: '3EE4-05',
     branchId: 'ee',
@@ -493,14 +493,14 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
    {
-    id: 'ee-s4-os',
+    id: 'ee-s3-os',
     name: 'Analog Electronics',
     code: '3EE4-06',
     branchId: 'ee',
     semester: 3,
     credits: 3
   }, {
-    id: 'ee-s4-os',
+    id: 'ee-s3-os',
     name: 'Electrical Machine -I',
     code: '3EE4-07',
     branchId: 'ee',
@@ -508,7 +508,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
    {
-    id: 'ee-s4-os',
+    id: 'ee-s3-os',
     name: 'Electromagnetic Fields',
     code: '3EE4-08',
     branchId: 'ee',
