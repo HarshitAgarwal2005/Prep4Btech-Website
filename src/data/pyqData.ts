@@ -99,6 +99,7 @@ export const branches: Branch[] = [
 
 export const pyqSubjects: PYQSubject[] = [
   // CSE Subjects
+  // 1st semester subjects
   {
     id: 'cse-s1-math1',
     name: 'Engineering Mathematics-1',
@@ -137,6 +138,7 @@ export const pyqSubjects: PYQSubject[] = [
     semester: 1,
     credits: 2
   },
+  // 2nd semester subjects
   {
     id: 'cse-s1-chemistry',
     name: 'Engineering Mathematics',
@@ -178,38 +180,103 @@ export const pyqSubjects: PYQSubject[] = [
     semester: 2,
     credits: 2
   },
-  
+  // 3rd semester subjects
   {
     id: 'cse-s3-ds',
-    name: 'Data Structures',
-    code: 'CS201',
+    name: 'Advance Engineering Mathematics',
+    code: '3CS2-01',
     branchId: 'cse',
     semester: 3,
-    credits: 4
+    credits: 3
+  },
+  {
+    id: 'cse-s3-ds',
+    name: 'Data Structures And Algorithm',
+    code: '3CS4-05',
+    branchId: 'cse',
+    semester: 3,
+    credits: 3
+  },
+  {
+    id: 'cse-s3-ds',
+    name: 'Mnnagerial Economics And Financial Engineering',
+    code: '3CS1-03',
+    branchId: 'cse',
+    semester: 3,
+    credits: 2
+  },
+  {
+    id: 'cse-s3-ds',
+    name: 'Digital Electronics',
+    code: '3CS3-04',
+    branchId: 'cse',
+    semester: 3,
+    credits: 3
+  },
+  {
+    id: 'cse-s3-ds',
+    name: 'Object Oriented Programming',
+    code: '3CS4-06',
+    branchId: 'cse',
+    semester: 3,
+    credits: 3
   },
   {
     id: 'cse-s3-co',
-    name: 'Computer Organization',
-    code: 'CS202',
+    name: 'Software Engineering',
+    code: '3CS4-07',
     branchId: 'cse',
     semester: 3,
-    credits: 4
+    credits: 3
   },
+  // 4th semester subjects 
   {
     id: 'cse-s4-dbms',
-    name: 'Database Management Systems',
-    code: 'CS301',
+    name: 'Discrete Mathematics Structure',
+    code: '4CS2-01',
     branchId: 'cse',
     semester: 4,
-    credits: 4
+    credits: 3
   },
   {
     id: 'cse-s4-os',
-    name: 'Operating Systems',
-    code: 'CS302',
+    name: 'Technical communication',
+    code: '4CS1-02',
     branchId: 'cse',
     semester: 4,
-    credits: 4
+    credits: 2
+  },
+  {
+    id: 'cse-s4-os',
+    name: 'Microprocessor & Interfaces',
+    code: '4CS3-01',
+    branchId: 'cse',
+    semester: 4,
+    credits: 3
+  },
+  {
+    id: 'cse-s4-os',
+    name: 'Database Management System',
+    code: '4CS4-05',
+    branchId: 'cse',
+    semester: 4,
+    credits: 3
+  },
+  {
+    id: 'cse-s4-os',
+    name: 'Theory Of Computation',
+    code: '4CS4-06',
+    branchId: 'cse',
+    semester: 4,
+    credits: 3
+  },
+  {
+    id: 'cse-s4-os',
+    name: 'Data Communication & Computer Networks',
+    code: '4CS4-07',
+    branchId: 'cse',
+    semester: 4,
+    credits: 3
   }
 ];
 
