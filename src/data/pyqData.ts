@@ -571,9 +571,84 @@ export const pyqSubjects: PYQSubject[] = [
     branchId: 'ee',
     semester: 4,
     credits: 2
-  }
+  },
+  // 5th semester subjects 
+  {
+    id: 'ee-s5-os',
+    name: 'Electrical Materials',
+    code: '5EE3-01',
+    branchId: 'ee',
+    semester: 5,
+    credits: 2
+  },
+  {
+    id: 'ee-s5-os',
+    name: 'Power System-II',
+    code: '5EE4-02',
+    branchId: 'ee',
+    semester: 5,
+    credits: 3
+  },
+  {
+    id: 'ee-s5-os',
+    name: 'Control System',
+    code: '5EE4-03',
+    branchId: 'ee',
+    semester: 5,
+    credits: 3
+  },
+  {
+    id: 'ee-s5-os',
+    name: 'Microprocessor',
+    code: '5EE4-04',
+    branchId: 'ee',
+    semester: 5,
+    credits: 3
+  },
+  {
+    id: 'ee-s5-os',
+    name: 'Electrical Machine Design,
+    code: '5EE4-05',
+    branchId: 'ee',
+    semester: 5,
+    credits: 3
+  },
+{
+    id: 'ee-s5-os',
+    name: 'Restructured Power System',
+    code: '5EE5-11',
+    branchId: 'ee',
+    semester: 5,
+    credits: 2
+  },
+  {
+    id: 'ee-s5-os',
+    name: 'Electromagnetic Wave',
+    code: '5EE5-12',
+    branchId: 'ee',
+    semester: 5,
+    credits: 2
+  },
+  {
+    id: 'ee-s5-os',
+    name: 'Digital Control System',
+    code: '5EE5-13',
+    branchId: 'ee',
+    semester: 5,
+    credits: 2
+  },
+  // 6th semester subjects 
+    {
+    id: 'ee-s6-os',
+    name: '',
+    code: '6EE4-08',
+    branchId: 'ee',
+    semester: 6,
+    credits: 3
+  },
   
   
+    
 ];
 
 export const pyqPapers: PYQPaper[] = [
