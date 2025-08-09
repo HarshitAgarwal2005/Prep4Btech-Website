@@ -118,7 +118,8 @@ export const pyqSubjects: PYQSubject[] = [
     name: 'Engineering Physics',
     code: '1FY2-02',
     branchId: 'cse',
-    
+    branchId: 'ece',
+    branchId: 'ee',
     branchId: 'me',
     branchId: 'ce',
     semester: 1,
