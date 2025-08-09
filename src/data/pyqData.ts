@@ -617,7 +617,7 @@ export const pyqSubjects: PYQSubject[] = [
     id: 'cse-s2-chemistry',
     name: 'Problem Solving For Programming',
     code: '2FY3-06',
-    branchId: 'ee','cse',
+    branchId: 'ee,cse',
     semester: 2,
     credits: 2
   },
