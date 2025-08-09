@@ -518,15 +518,15 @@ export const pyqSubjects: PYQSubject[] = [
   // 4th semester subjects 
    {
     id: 'ee-s4-os',
-    name: '',
+    name: 'Biology',
     code: '4EE2-01',
     branchId: 'ee',
     semester: 4,
-    credits: 3
+    credits: 2
   },
   {
     id: 'ee-s4-os',
-    name: '',
+    name: 'Technical Communication',
     code: '4EE2-01',
     branchId: 'ee',
     semester: 4,
