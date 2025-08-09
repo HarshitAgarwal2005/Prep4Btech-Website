@@ -640,15 +640,60 @@ export const pyqSubjects: PYQSubject[] = [
   // 6th semester subjects 
     {
     id: 'ee-s6-os',
+    name: 'Computer Architecture',
+    code: '6EE3-01',
+    branchId: 'ee',
+    semester: 6,
+    credits: 2
+  },
+   {
+    id: 'ee-s6-os',
+    name: 'Power System-II',
+    code: '6EE4-02',
+    branchId: 'ee',
+    semester: 6,
+    credits: 3
+  },
+   {
+    id: 'ee-s6-os',
+    name: 'Power System Proctection',
+    code: '6EE4-03',
+    branchId: 'ee',
+    semester: 6,
+    credits: 3
+  },
+   {
+    id: 'ee-s6-os',
+    name: 'Electrical Energy Conservation & Auditing',
+    code: '6EE4-04',
+    branchId: 'ee',
+    semester: 6,
+    credits: 3
+  }, 
+ {
+    id: 'ee-s6-os',
+    name: 'Electrical Drives',
+    code: '6EE4-05',
+    branchId: 'ee',
+    semester: 6,
+    credits: 3
+  },
+   {
+    id: 'ee-s6-os',
+    name: 'Power System Planning',
+    code: '6EE4-08',
+    branchId: 'ee',
+    semester: 6,
+    credits: 3
+  },
+   {
+    id: 'ee-s6-os',
     name: '',
     code: '6EE4-08',
     branchId: 'ee',
     semester: 6,
     credits: 3
   },
-  
-  
-    
 ];
 
 export const pyqPapers: PYQPaper[] = [
