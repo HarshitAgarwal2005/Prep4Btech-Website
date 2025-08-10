@@ -950,16 +950,7 @@ export const pyqPapers: PYQPaper[] = [
     id: 'paper-1',
     title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-1E3101-2025',
     year: 2025,
-    subjectId: 'cse-s2-maths2',
-    downloadUrl: 'https://drive.google.com/file/d/1yb0yYCEju8BfhRW8AeNKbHU3wh-Uwgyk/view?usp=sharing',
-    uploadDate: '2025-06-11',
-    fileSize: '2.5 MB'
-  },
-   {
-    id: 'paper-1',
-    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-1E3101-2025',
-    year: 2025,
-    subjectId: 'cse-s2-maths2',
+    subjectId: 'cse-s2-math2',
     downloadUrl: 'https://drive.google.com/file/d/1yb0yYCEju8BfhRW8AeNKbHU3wh-Uwgyk/view?usp=sharing',
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
@@ -968,7 +959,7 @@ export const pyqPapers: PYQPaper[] = [
     id: 'paper-2',
     title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2025',
     year: 2025,
-    subjectId: 'cse-s1-math',
+    subjectId: 'cse-s2-math2',
     downloadUrl: 'https://drive.google.com/file/d/1XTlhFHPY-1T3IXCjgVhI7BPSd-KyOm7y/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.3 MB'
@@ -977,7 +968,7 @@ export const pyqPapers: PYQPaper[] = [
     id: 'paper-3',
     title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2024',
     year: 2024,
-    subjectId: 'cse-s1-math',
+    subjectId: 'cse-s2-math2',
     downloadUrl: 'https://drive.google.com/file/d/1Tk07o25AcoIyvhAVYqBMv_BCmHiPMqQu/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.3 MB'
@@ -986,7 +977,7 @@ export const pyqPapers: PYQPaper[] = [
     id: 'paper-4',
     title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2024',
     year: 2024,
-    subjectId: 'cse-s1-math',
+    subjectId: 'cse-s2-math2',
     downloadUrl: 'https://drive.google.com/file/d/1vVrm3d8IT-_OIsSILBsmSVY_dFT9q1Op/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.3 MB'
@@ -995,7 +986,7 @@ export const pyqPapers: PYQPaper[] = [
     id: 'paper-5',
     title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-1E3101-2023.pdf',
     year: 2023,
-    subjectId: 'cse-s1-math',
+    subjectId: 'cse-s2-math2',
     downloadUrl: 'https://drive.google.com/file/d/1CjuK0-YsSIY59eR1jRbnaTwRu0zIdET0/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.3 MB'
@@ -1004,7 +995,7 @@ export const pyqPapers: PYQPaper[] = [
     id: 'paper-6',
     title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2024',
     year: 2023,
-    subjectId: 'cse-s1-math',
+    subjectId: 'cse-s2-math2',
     downloadUrl: 'https://drive.google.com/file/d/1h1kgtpu3p6PwPZscirq2l6r4MSKIKqcv/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.3 MB'
@@ -1013,7 +1004,7 @@ export const pyqPapers: PYQPaper[] = [
     id: 'paper-7',
     title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-11N501-JUL-2022',
     year: 2022,
-    subjectId: 'cse-s1-math',
+    subjectId: 'cse-s2-math2',
     downloadUrl: 'https://drive.google.com/file/d/1STL12J1-MkOcB6F8GHWm9kGH3DtbInBU/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.3 MB'
@@ -1022,7 +1013,7 @@ export const pyqPapers: PYQPaper[] = [
     id: 'paper-8',
     title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-2022',
     year: 2022,
-    subjectId: 'cse-s1-math',
+    subjectId: 'cse-s2-math2',
     downloadUrl: 'https://drive.google.com/file/d/1JVnRS_AiM7l55GtHN7rWC2fhA5YkJT3I/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.3 MB'
@@ -1031,7 +1022,7 @@ export const pyqPapers: PYQPaper[] = [
     id: 'paper-9',
     title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E2401',
     year: 2021,
-    subjectId: 'cse-s1-math',
+    subjectId: 'cse-s2-math2',
     downloadUrl: 'https://drive.google.com/file/d/1R3mVvsHTNur1Sc5aPTuf3TK0ip6jgbCr/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.3 MB'
