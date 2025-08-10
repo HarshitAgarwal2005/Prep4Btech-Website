@@ -944,6 +944,17 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
+
+  // advance mathematics engineering 2
+   {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-1E3101-2025',
+    year: 2025,
+    subjectId: 'cse-s2-maths2',
+    downloadUrl: 'https://drive.google.com/file/d/1yb0yYCEju8BfhRW8AeNKbHU3wh-Uwgyk/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
   
  
   // Engineering Chemistry Papers
@@ -960,66 +971,70 @@ export const pyqPapers: PYQPaper[] = [
     id: 'paper-5',
     title: 'Engineering Chemistry - Lab Manual 2025',
     year: 2025,
-    subjectId: 'cse-s1-chemistry',
+    subjectId: 'cse-s2-chem',
     downloadUrl: 'https://drive.google.com/file/d/15yxzmBCTso2s9enawz7KNSdj-5EakqUf/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '3.0 MB'
   },
-  // Communication Skills Papers
+ // human values papers
   {
     id: 'paper-6',
     title: 'Communication Skills - Complete Notes 2025',
     year: 2025,
-    subjectId: 'cse-s1-comm',
+    subjectId: 'cse-s2-hv',
     downloadUrl: 'https://drive.google.com/file/d/15d7p-NnMmZY8ukpH-xq2kxzI8HcEytqO/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.8 MB'
   },
+   // basic civil engineering papers   
   {
     id: 'paper-7',
     title: 'Communication Skills - Practice Exercises 2025',
     year: 2025,
-    subjectId: 'cse-s1-comm',
+    subjectId: 'cse-s2-civil',
     downloadUrl: 'https://drive.google.com/file/d/15d7p-NnMmZY8ukpH-xq2kxzI8HcEytqO/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.6 MB'
   },
-  // Basic Mechanical Engineering Papers
+  // problem solving papers Papers
   {
     id: 'paper-8',
     title: 'Basic Mechanical Engineering - Complete Notes 2025',
     year: 2025,
-    subjectId: 'cse-s1-mech',
+    subjectId: 'cse-s2-pps',
     downloadUrl: 'https://drive.google.com/file/d/15dSFR2RZwxbUteFkcDwlrgi9nQqMX1EO/view?usp=drive_link',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
-  {
-    id: 'paper-9',
-    title: 'Basic Mechanical Engineering - Lab Manual 2025',
-    year: 2025,
-    subjectId: 'cse-s1-mech',
-    downloadUrl: 'https://drive.google.com/file/d/15dSFR2RZwxbUteFkcDwlrgi9nQqMX1EO/view?usp=drive_link',
-    uploadDate: '2025-01-15',
-    fileSize: '3.8 MB'
-  },
-  // Basic Civil Engineering Papers
-  {
-    id: 'paper-10',
-    title: 'Basic Civil Engineering - Complete Notes 2025',
-    year: 2025,
-    subjectId: 'cse-s1-civil',
-    downloadUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
-    uploadDate: '2025-01-15',
-    fileSize: '3.5 MB'
-  },
-  {
-    id: 'paper-11',
-    title: 'Basic Civil Engineering - Lab Manual 2025',
-    year: 2025,
-    subjectId: 'cse-s1-civil',
-    downloadUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
-    uploadDate: '2025-01-15',
-    fileSize: '2.9 MB'
-  }
+
+
+  // noting below this
+  // {
+  //   id: 'paper-9',
+  //   title: 'Basic Mechanical Engineering - Lab Manual 2025',
+  //   year: 2025,
+  //   subjectId: 'cse-s1-mech',
+  //   downloadUrl: 'https://drive.google.com/file/d/15dSFR2RZwxbUteFkcDwlrgi9nQqMX1EO/view?usp=drive_link',
+  //   uploadDate: '2025-01-15',
+  //   fileSize: '3.8 MB'
+  // },
+  // // Basic Civil Engineering Papers
+  // {
+  //   id: 'paper-10',
+  //   title: 'Basic Civil Engineering - Complete Notes 2025',
+  //   year: 2025,
+  //   subjectId: 'cse-s1-civil',
+  //   downloadUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
+  //   uploadDate: '2025-01-15',
+  //   fileSize: '3.5 MB'
+  // },
+  // {
+  //   id: 'paper-11',
+  //   title: 'Basic Civil Engineering - Lab Manual 2025',
+  //   year: 2025,
+  //   subjectId: 'cse-s1-civil',
+  //   downloadUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
+  //   uploadDate: '2025-01-15',
+  //   fileSize: '2.9 MB'
+  // }
 ];
