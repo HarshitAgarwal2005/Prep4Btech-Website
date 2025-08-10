@@ -110,7 +110,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 4
   },
   {
-    id: 'cse-s1-math1',
+    id: 'cse-s1-physics',
     name: 'Engineering Physics',
     code: '1FY2-02',
     branchId: 'cse',
@@ -118,21 +118,21 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 4
   },
   {
-    id: 'cse-s1-math1',
+    id: 'cse-s1-csk',
     name: 'Communication Skills',
     code: '1FY1-04',
     branchId: 'cse',
     semester: 1,
     credits: 2
   },{
-    id: 'cse-s1-math1',
+    id: 'cse-s1-mech',
     name: 'Mechanical Engineering',
     code: '2FY3-07',
     branchId: 'cse',
     semester: 1,
     credits: 2
   },{
-    id: 'cse-s1-math1',
+    id: 'cse-s1-electrical',
     name: 'Electrical Engineering ',
     code: '1FY3-08',
     branchId: 'cse',
