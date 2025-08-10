@@ -106,11 +106,11 @@ serve(async (req) => {
         template_id: 'your_template_id',
         user_id: 'your_user_id',
         template_params: {
-          to_email: 'harshitagarwal25807@gmail.com',
+          to_email: 'prep4btech@gmail.com',
           subject: emailSubject,
           message: emailBody,
-          from_name: userName || 'StudyHub Student',
-          reply_to: userEmail || 'noreply@studyhub.com'
+          from_name: userName || 'Prep4btech Student',
+          reply_to: userEmail || 'noreply@prep4btechb.com'
         }
       })
     })
