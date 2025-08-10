@@ -102,15 +102,15 @@ serve(async (req) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        service_id: 'service_ohe32lp', // You'll need to configure EmailJS
-        template_id: 'template_6xvepac',
+        service_id: 'your_service_id', // You'll need to configure EmailJS
+        template_id: 'your_template_id',
         user_id: 'your_user_id',
         template_params: {
-          to_email: 'prep4btech@gmail.com',
+          to_email: 'harshitagarwal25807@gmail.com',
           subject: emailSubject,
           message: emailBody,
-          from_name: userName || 'Prep4btech Student',
-          reply_to: userEmail || 'noreply@prep4btech.com'
+          from_name: userName || 'StudyHub Student',
+          reply_to: userEmail || 'noreply@studyhub.com'
         }
       })
     })
