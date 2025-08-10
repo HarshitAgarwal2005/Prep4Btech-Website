@@ -102,7 +102,7 @@ serve(async (req) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        service_id: 'your_service_id', // You'll need to configure EmailJS
+        service_id: 'service_ohe32lp', // You'll need to configure EmailJS
         template_id: 'your_template_id',
         user_id: 'your_user_id',
         template_params: {
