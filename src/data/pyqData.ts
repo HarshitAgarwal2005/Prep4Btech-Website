@@ -843,7 +843,7 @@ export const pyqPapers: PYQPaper[] = [
  
   // Engineering Chemistry Papers
   {
-    id: 'paper-1',
+    id: 'paper-4',
     title: 'Engineering Chemistry - Complete Notes 2025',
     year: 2025,
     subjectId: 'cse-s1-chemistry',
