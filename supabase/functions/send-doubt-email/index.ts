@@ -109,8 +109,8 @@ serve(async (req) => {
           to_email: 'prep4btech@gmail.com',
           subject: emailSubject,
           message: emailBody,
-          from_name: userName || 'StudyHub Student',
-          reply_to: userEmail || 'noreply@studyhub.com'
+          from_name: userName || 'Prep4Btexh Student',
+          reply_to: userEmail || 'noreply@prep4btech.com'
         }
       })
     })
