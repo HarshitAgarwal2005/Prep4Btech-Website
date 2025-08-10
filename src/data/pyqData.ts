@@ -110,7 +110,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 4
   },
   {
-    id: 'cse-s1-math1',
+    id: 'cse-s1-physics',
     name: 'Engineering Physics',
     code: '1FY2-02',
     branchId: 'cse',
@@ -118,21 +118,21 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 4
   },
   {
-    id: 'cse-s1-math1',
+    id: 'cse-s1-csk',
     name: 'Communication Skills',
     code: '1FY1-04',
     branchId: 'cse',
     semester: 1,
     credits: 2
   },{
-    id: 'cse-s1-math1',
+    id: 'cse-s1-mech',
     name: 'Mechanical Engineering',
     code: '2FY3-07',
     branchId: 'cse',
     semester: 1,
     credits: 2
   },{
-    id: 'cse-s1-math1',
+    id: 'cse-s1-electrical',
     name: 'Electrical Engineering ',
     code: '1FY3-08',
     branchId: 'cse',
@@ -141,7 +141,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   // 2nd semester subjects
   {
-    id: 'cse-s1-chemistry',
+    id: 'cse-s2-math2',
     name: 'Engineering Mathematics',
     code: '2FY2-01',
     branchId: 'cse',
@@ -149,7 +149,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 4
   },
   {
-    id: 'cse-s1-comm',
+    id: 'cse-s2-chem',
     name: 'Engineering Chemistry',
     code: '2FY2-03',
     branchId: 'cse',
@@ -157,7 +157,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 4
   },
   {
-    id: 'cse-s2-math2',
+    id: 'cse-s2-hv',
     name: 'Human Values',
     code: '1FY1-05',
     branchId: 'cse',
@@ -165,7 +165,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'cse-s1-civil',
+    id: 'cse-s2-civil',
     name: 'Basic Civil Engineering',
     code: '1FY3-09',
     branchId: 'cse',
@@ -174,7 +174,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   
   {
-    id: 'cse-s2-chemistry',
+    id: 'cse-s2-pps',
     name: 'Problem Solving For Programming',
     code: '2FY3-06',
     branchId: 'cse',
@@ -823,118 +823,792 @@ export const pyqPapers: PYQPaper[] = [
   // Engineering Mathematics-1 Papers
   {
     id: 'paper-1',
-    title: 'Engineering Mathematics-1 - Complete Notes 2025',
+    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-1E3101-2025',
     year: 2025,
-    subjectId: 'cse-s1-math1',
-    downloadUrl: '<iframe src="https://drive.google.com/file/d/15cdwtAOou8IXRvcwOiwIEkdZgSHJ-Xx4/preview?rm=minimal" width="640" height="480"></iframe>',
-    uploadDate: '2025-01-15',
+    subjectId: 'cse-s1-math',
+    downloadUrl: 'https://drive.google.com/file/d/1yb0yYCEju8BfhRW8AeNKbHU3wh-Uwgyk/view?usp=sharing',
+    uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
   {
     id: 'paper-2',
-    title: 'Engineering Mathematics-1 - Practice Problems 2025',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2025',
     year: 2025,
-    subjectId: 'cse-s1-math1',
-    downloadUrl: 'https://drive.google.com/file/d/15cdwtAOou8IXRvcwOiwIEkdZgSHJ-Xx4/view?usp=sharing',
+    subjectId: 'cse-s1-math',
+    downloadUrl: 'https://drive.google.com/file/d/1XTlhFHPY-1T3IXCjgVhI7BPSd-KyOm7y/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.3 MB'
   },
-  
   {
+    id: 'paper-3',
+    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2024',
+    year: 2024,
+    subjectId: 'cse-s1-math',
+    downloadUrl: 'https://drive.google.com/file/d/1Tk07o25AcoIyvhAVYqBMv_BCmHiPMqQu/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+   {
+    id: 'paper-4',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2024',
+    year: 2024,
+    subjectId: 'cse-s1-math',
+    downloadUrl: 'https://drive.google.com/file/d/1vVrm3d8IT-_OIsSILBsmSVY_dFT9q1Op/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+  {
+    id: 'paper-5',
+    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-1E3101-2023.pdf',
+    year: 2023,
+    subjectId: 'cse-s1-math',
+    downloadUrl: 'https://drive.google.com/file/d/1CjuK0-YsSIY59eR1jRbnaTwRu0zIdET0/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+   {
+    id: 'paper-6',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2024',
+    year: 2023,
+    subjectId: 'cse-s1-math',
+    downloadUrl: 'https://drive.google.com/file/d/1h1kgtpu3p6PwPZscirq2l6r4MSKIKqcv/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+  {
+    id: 'paper-7',
+    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-11N501-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s1-math',
+    downloadUrl: 'https://drive.google.com/file/d/1STL12J1-MkOcB6F8GHWm9kGH3DtbInBU/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-2022',
+    year: 2022,
+    subjectId: 'cse-s1-math',
+    downloadUrl: 'https://drive.google.com/file/d/1JVnRS_AiM7l55GtHN7rWC2fhA5YkJT3I/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+   {
+    id: 'paper-9',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E2401',
+    year: 2021,
+    subjectId: 'cse-s1-math',
+    downloadUrl: 'https://drive.google.com/file/d/1R3mVvsHTNur1Sc5aPTuf3TK0ip6jgbCr/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+
+  // engineering physics papers
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-1E3102-2025',
+    year: 2025,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1R_XL_BRGdPp_QgbyV-7OvrpGIcvBmn6Z/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-2E3203-JUN-2025',
+    year: 2025,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/13Yqc18kcuAtPdcXQ7RbpVvTyhWkCyWzr/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-2E3203-2024',
+    year: 2024,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1xd4c3_RrOrGLFEqvk03APUoAHCZpNGMe/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-2E3203-2024',
+    year: 2024,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/14cyMVVFcxYPlgDxeAxbarkypdVz23efO/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-11N502-MAY-2023',
+    year: 2023,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1k_6Orn6oMGkfdyN8kfDs7gyotu-cD-eO/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+     {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-2E3203-2023',
+    year: 2023,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1lRam7zKBvNuCY51TD3xhiaIS7X5A2RsV/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-11N502-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/15jvY1y--Z2ERyA6lha83_qJn_7snmrBV/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-1E3102-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1P4MP9TA3-Lp5xJ80J3J4hJrSqemxx52l/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-2E3203-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1cfD-Mq6nNmbSF6B7Hf0MRb7MRMDKN5Pq/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-1E2402',
+    year: 2022,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1aqY9AOO2s5rRhS7B6g562ls__2mEpRWT/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+
+  //
+
+  // communication skills papers 
+{
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-COMMUNICATION-SKILLS-1E3104-2025',
+    year: 2025,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/1j8DA5fRAQ0f1MobGzMm33_4yVCDTUAcV/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-COMMUNICATION-SKILLS-1E3104-2024',
+    year: 2024,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/1usJYlA2m8b4yLwlQIzzrg3gSBC8yBGS6/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-COMMUNICATION-SKILLS-2E3205-2024',
+    year: 2024,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/1ZhNvdwmIo1x9gvPYLY4VeiGG_hdLq_KN/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-COMMUNICATION-SKILLS-1E3104-2023',
+    year: 2023,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/15KW9g3FC_vPquxkWURXte6l-_1EdS6kT/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-COMMUNICATION-SKILL-21N504-2023',
+    year: 2023,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/1adjAQyrt-Z4WR_7Umr7DVE_Nd3ZUHxFO/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-COMMUNICATION-SKILLS-1E3104-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/1GzhQzXcNTmELoGKGsNzFZ1DRFvcBFPMG/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-COMMUNICATION-SKILLS-2E3205-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/1L0zncqvIDVDbq2TFTMEHhbiv8Jq16uPy/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  //
+  // mechanical engineering papers 
+    {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-2025',
+    year: 2025,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/1uf39-iJ8r8-iQCzFTFNHWizOMAccsXys/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-BASIC-MECHANICAL-ENGINEERING-2E3206-JUN-2025',
+    year: 2025,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/1v9PCUrIIGHVcA9F3fVqky4cixHYTl9q-/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-2024',
+    year: 2024,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/1ufsFzPd2ZwJK4Gie779uBUuyr10Uj9mV/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-BASIC-MECHANICAL-ENGINEERING-2E3206-2024',
     id: 'paper-3',
     title: 'Engineering Mathematics-1 - Previous Year Questions 2024',
     year: 2024,
-    subjectId: 'cse-s1-math1',
-    downloadUrl: 'https://drive.google.com/file/d/15cdwtAOou8IXRvcwOiwIEkdZgSHJ-Xx4/view?usp=sharing',
-    uploadDate: '2024-12-15',
-    fileSize: '2.1 MB'
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/10qBWT9Of4qSvsREZ4O0EcgtWNpq-CQ0n/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
   },
-  
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-2023',
+    year: 2023,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/1FbPl-n4BuQ0UirsqGXDBtYs2v_MuFV8S/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {id: 'paper-10',
+    title: 'BTECH-2-SEM-BASIC-MECHANICAL-ENGINEERING-2E3206-2023',
+    year: 2023,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/1ggSVWUKYPKGKN5331wJn2eC-v8kO6tIs/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-10',
+    title: 'BTECH-1-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/1ThE-jPG-3ok1faOvO9FMjagO3apKiYgk/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-10',
+    title: 'BTECH-2-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-2022',
+    year: 2022,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/18QhCFVmCY9kkV2rLbyGsqShorGIqGJXu/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+
+  //
+  //electrical engineering papers 
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-ELECTRICAL-1E3101-2024',
+    year: 2024,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/1Z79GWGpWAFbbzUUWQDi1upf9BbbA-gVN/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-BASIC-ELECTRICAL-ENGINEERING-2E3209-2024',
+    year: 2024,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/11JQ2hl_X2Xmxg-DSQvRfZBq-npa3alk6/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-BASIC-ELECTRICAL-ENGINEERING-1E3108-2023',
+    year: 2023,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/1L0b4X4d55cYwMa5MwDTcbg13wrk9HoX3/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+    {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-BASIC-ELECTRICAL-ENGINEERING-1E3108-2023',
+    year: 2023,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/1ubzxuOwmcxSv2yKFCOq_N8nHGHnQtleF/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-BASIC-ELECTRICAL-ENGINEERING-11N507-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/1McyP46w_HiiwyPwdX4Ze32G8_fJpfQFt/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-BASIC-ELECTRICAL-ENGINEERING-1E3108-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/1_RWBDgF9Xen9avggwivA35kZujepivcB/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-BASIC-ELECTRICAL-ENGINEERING-21N507-2022',
+    year: 2022,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/1oO4Ed6NvxoEjNBTThhiXgCEEueN278jG/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  //
+
+  // advance mathematics engineering 2
+   {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-1E3101-2025',
+    year: 2025,
+    subjectId: 'cse-s2-math2',
+    downloadUrl: 'https://drive.google.com/file/d/1yb0yYCEju8BfhRW8AeNKbHU3wh-Uwgyk/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
   {
     id: 'paper-2',
-    title: 'Engineering Mathematics-1 - Practice Problems 2025',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2025',
     year: 2025,
-    subjectId: 'cse-s1-math1',
-    downloadUrl: 'https://drive.google.com/file/d/15cdwtAOou8IXRvcwOiwIEkdZgSHJ-Xx4/view?usp=sharing',
+    subjectId: 'cse-s2-math2',
+    downloadUrl: 'https://drive.google.com/file/d/1XTlhFHPY-1T3IXCjgVhI7BPSd-KyOm7y/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.3 MB'
   },
-  
- 
+  {
+    id: 'paper-3',
+    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2024',
+    year: 2024,
+    subjectId: 'cse-s2-math2',
+    downloadUrl: 'https://drive.google.com/file/d/1Tk07o25AcoIyvhAVYqBMv_BCmHiPMqQu/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+   {
+    id: 'paper-4',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2024',
+    year: 2024,
+    subjectId: 'cse-s2-math2',
+    downloadUrl: 'https://drive.google.com/file/d/1vVrm3d8IT-_OIsSILBsmSVY_dFT9q1Op/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+  {
+    id: 'paper-5',
+    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-1E3101-2023.pdf',
+    year: 2023,
+    subjectId: 'cse-s2-math2',
+    downloadUrl: 'https://drive.google.com/file/d/1CjuK0-YsSIY59eR1jRbnaTwRu0zIdET0/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+   {
+    id: 'paper-6',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2024',
+    year: 2023,
+    subjectId: 'cse-s2-math2',
+    downloadUrl: 'https://drive.google.com/file/d/1h1kgtpu3p6PwPZscirq2l6r4MSKIKqcv/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+  {
+    id: 'paper-7',
+    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-11N501-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s2-math2',
+    downloadUrl: 'https://drive.google.com/file/d/1STL12J1-MkOcB6F8GHWm9kGH3DtbInBU/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-2022',
+    year: 2022,
+    subjectId: 'cse-s2-math2',
+    downloadUrl: 'https://drive.google.com/file/d/1JVnRS_AiM7l55GtHN7rWC2fhA5YkJT3I/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+   {
+    id: 'paper-9',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E2401',
+    year: 2021,
+    subjectId: 'cse-s2-math2',
+    downloadUrl: 'https://drive.google.com/file/d/1R3mVvsHTNur1Sc5aPTuf3TK0ip6jgbCr/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
   // Engineering Chemistry Papers
   {
     id: 'paper-4',
-    title: 'Engineering Chemistry - Complete Notes 2025',
+    title: 'BTECH-1-SEM-ENGINEERING-CHEMISTRY-1E3103-2025',
     year: 2025,
-    subjectId: 'cse-s1-chemistry',
-    downloadUrl: 'https://drive.google.com/file/d/15yxzmBCTso2s9enawz7KNSdj-5EakqUf/view?usp=sharing',
+    subjectId: 'cse-s2-chem',
+    downloadUrl: 'https://drive.google.com/file/d/1vFl99bdXr4gs0AowDwSGDnXXb6T_u0cK/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '3.2 MB'
   },
   {
     id: 'paper-5',
-    title: 'Engineering Chemistry - Lab Manual 2025',
-    year: 2025,
-    subjectId: 'cse-s1-chemistry',
-    downloadUrl: 'https://drive.google.com/file/d/15yxzmBCTso2s9enawz7KNSdj-5EakqUf/view?usp=sharing',
+    title: 'BTECH-1-SEM-ENGINEERING-CHEMISTRY-1E3103-2024',
+    year: 2024,
+    subjectId: 'cse-s2-chem',
+    downloadUrl: 'https://drive.google.com/file/d/1FpUrQ3QVXUaipd6DZsNdGSAmcJN_dZRB/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '3.0 MB'
+  },
+  {
+    id: 'paper-5',
+    title: 'BTECH-2-SEM-ENGINEERING-CHEMISTRY-2E3202-2024',
+    year: 2024,
+    subjectId: 'cse-s2-chem',
+    downloadUrl: 'https://drive.google.com/file/d/1WjQ3j8STQBjqVYbJeyOHZt5W3rf7C9HU/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '3.0 MB'
+  },
+  {
+    id: 'paper-5',
+    title: 'BTECH-1-SEM-ENGINEERING-CHEMISTRY-1E3103-2023',
+    year: 2023,
+    subjectId: 'cse-s2-chem',
+    downloadUrl: 'https://drive.google.com/file/d/1m2CbsxUnJnSzdnVKz44fsMlkw52XwM-y/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '3.0 MB'
+  },
+   {
+    id: 'paper-5',
+    title: 'BTECH-2-SEM-ENGINEERING-CHEMISTRY-2E3202-2023',
+    year: 2023,
+    subjectId: 'cse-s2-chem',
+    downloadUrl: 'https://drive.google.com/file/d/1X8crNePTXSDAjgE6b5_SGOupCvid4dv5/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '3.0 MB'
+  },
+     {
+    id: 'paper-5',
+    title: 'BTECH-1-SEM-ENGINEERING-CHEMISTRY-11N503-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s2-chem',
+    downloadUrl: 'https://drive.google.com/file/d/1tS0rpdU9UaYUjopMnH5BfvPRg1Ja6L__/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '3.0 MB'
+  },
+    {
+    id: 'paper-5',
+    title: 'BTECH-1-SEM-ENGINEERING-CHEMISTRY-1E3103-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s2-chem',
+    downloadUrl: 'https://drive.google.com/file/d/1EU4R7nmtKOpmWkxlk5gJiXMTcsY4C3BZ/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '3.0 MB'
+  },
+  //
+ // human values papers
+  {
+    id: 'paper-6',
+    title: 'BTECH-1-SEM-ENGINEERING-HUMAN VALUES-1E3103-2024',
+    year: 2024,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/1Yx_cEw_fa8qnPgaskrFvhfVY0cPYKW30/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.8 MB'
   },
   // Communication Skills Papers
   {
     id: 'paper-6',
-    title: 'Communication Skills - Complete Notes 2025',
-    year: 2025,
-    subjectId: 'cse-s1-comm',
-    downloadUrl: 'https://drive.google.com/file/d/15d7p-NnMmZY8ukpH-xq2kxzI8HcEytqO/view?usp=sharing',
+    title: 'BTECH-2-SEM-HUMAN-VALUES-2E3204-2024',
+    year: 2024,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/1TnYNg7lox5OX9rgrALxu81JOzezwME_5/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.8 MB'
   },
+   {
+    id: 'paper-6',
+    title: 'BTECH-1-SEM-HUMAN-VALUES-1E3105-2023',
+    year: 2023,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/1IO68dY3aEpxa4fFzuRpgogNuPPxqGxTY/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.8 MB'
+  },
+   {
+    id: 'paper-6',
+    title: 'BTECH-2-SEM-HUMAN-VALUES-2E3204-2023',
+    year: 2023,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/1kQfK3vfI-qSExh8vH7s-4NIIj5IP4YBB/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.8 MB'
+  },
+     {
+    id: 'paper-6',
+    title: 'BTECH-1-SEM-HUMAN-VALUES-1E3105-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/1dU3sycmGBqwkq7Nk9TYr0BW6RVG_Gy9o/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.8 MB'
+  },
+   {
+    id: 'paper-6',
+    title: 'BTECH-2-SEM-HUMAN-VALUES-1E3105-2022',
+    year: 2022,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/1Ds26W4QAChn3SLnoxneYfhOnia5heBJ4/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.8 MB'
+  },
+   {
+    id: 'paper-6',
+    title: 'BTECH-1-SEM-HUMAN-VALUES-1E2405',
+    year: 2022,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/16DZtiNjWb0iWXCFqswvH0KENqSKhYLCw/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.8 MB'
+  },
+  //
+   // basic civil engineering papers   
   {
     id: 'paper-7',
-    title: 'Communication Skills - Practice Exercises 2025',
+    title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2025',
     year: 2025,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/1AH5L2ZFkQGM18n4mgR4JK7SGIHrA-ZJw/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+    {
+    id: 'paper-7',
+    title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2024',
+    year: 2024,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/183SnH-8vEDrfiM_3WZqku82Y0jZh3oa-/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+  {
+    id: 'paper-7',
+    title: 'BTECH-2-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2024',
+    year: 2024,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/1Nzm9S8HvrxP8qfTirqOovKDK0ajektuj/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+   {
+    id: 'paper-7',
+    title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2023',
+    year: 2023,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/11-SfTD2_xDiKFin8LztrJpZ2hhgDuJSm/view?usp=sharing',
     subjectId: 'cse-s1-comm',
     downloadUrl: 'https://drive.google.com/file/d/15d7p-NnMmZY8ukpH-xq2kxzI8HcEytqO/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.6 MB'
   },
+  {
+    id: 'paper-7',
+    title: 'BTECH-2-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2023',
+    year: 2023,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/1Q8PHQ8v_nRX-y60oqWWJzvIb_eBleAio/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+     {
+    id: 'paper-7',
+    title: 'BTECH-1-SEM-INTRODUCTION-TO-BUILT-ENVIRONMENT-11N506',
+    year: 2022,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/1QAmaAXQuJqgDxAb-ezuzLD4MUoDCEzkK/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+     {
+    id: 'paper-7',
+    title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E3109-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/19tW_V7KHfCmuAGllC9KQ9kkVBofM5Jso/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+   {
+    id: 'paper-7',
+    title: 'BTECH-2-SEM-BASIC-CIVIL-ENGINEERING-2E3208-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/141472mJLnaB6uuB4csHbIqnvucl-YrjK/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+  {
+    id: 'paper-7',
+    title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E2409',
+    year: 2022,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/1fADL43xTA8WDLgBDQJSeoA7R9p54Wjp2/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+ //
+  // problem solving papers Papers
   // Basic Mechanical Engineering Papers
   {
     id: 'paper-8',
-    title: 'Basic Mechanical Engineering - Complete Notes 2025',
+    title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-2025',
     year: 2025,
-    subjectId: 'cse-s1-mech',
-    downloadUrl: 'https://drive.google.com/file/d/15dSFR2RZwxbUteFkcDwlrgi9nQqMX1EO/view?usp=drive_link',
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1WvMRzloiuzTopuC4bionn43ug5-4Mab2/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+     {
+    id: 'paper-8',
+    title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-2024',
+    year: 2024,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1ABSaPsCh9hqrM1WXvejFMlH9dJPDHvIz/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+    {
+    id: 'paper-8',
+    title: 'BTECH-2-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-2E3207-2024.pdf',
+    year: 2024,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/12WR9po1lwtWmqXEk7ecFrWi0XqwJkFHp/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
   {
-    id: 'paper-9',
-    title: 'Basic Mechanical Engineering - Lab Manual 2025',
-    year: 2025,
-    subjectId: 'cse-s1-mech',
-    downloadUrl: 'https://drive.google.com/file/d/15dSFR2RZwxbUteFkcDwlrgi9nQqMX1EO/view?usp=drive_link',
+    id: 'paper-8',
+    title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-2023',
+    year: 2023,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1u5GISUkaxGpFH3B7IncQhqFvQenHiL0Q/view?usp=sharing',
     uploadDate: '2025-01-15',
-    fileSize: '3.8 MB'
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-2-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-MAY-2023',
+    year: 2023,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1pA7fPxctRF0IAzfMvbqYej7xQ0KrHl0z/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+    {
+    id: 'paper-8',
+    title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1repHS_C0M7t62qBto2ysejRM2QpEC3Mv/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
   },
   // Basic Civil Engineering Papers
   {
-    id: 'paper-10',
-    title: 'Basic Civil Engineering - Complete Notes 2025',
-    year: 2025,
-    subjectId: 'cse-s1-civil',
-    downloadUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
+    id: 'paper-8',
+    title: 'BTECH-2-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-2E3207-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1d7n8w-XvPKsZkl4smYosY-niboWn3Why/view?usp=sharing',
     uploadDate: '2025-01-15',
-    fileSize: '3.5 MB'
+    fileSize: '4.2 MB'
   },
-  {
-    id: 'paper-11',
-    title: 'Basic Civil Engineering - Lab Manual 2025',
-    year: 2025,
-    subjectId: 'cse-s1-civil',
-    downloadUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
+   {
+    id: 'paper-8',
+    title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E2406',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1czqApvWIXDPHjGbHJ5zIOiVIHKTryPDx/view?usp=sharing',
     uploadDate: '2025-01-15',
-    fileSize: '2.9 MB'
+    fileSize: '4.2 MB'
   }
+  //
+
+
+  // noting below this
+  // {
+  //   id: 'paper-9',
+  //   title: 'Basic Mechanical Engineering - Lab Manual 2025',
+  //   year: 2025,
+  //   subjectId: 'cse-s1-mech',
+  //   downloadUrl: 'https://drive.google.com/file/d/15dSFR2RZwxbUteFkcDwlrgi9nQqMX1EO/view?usp=drive_link',
+  //   uploadDate: '2025-01-15',
+  //   fileSize: '3.8 MB'
+  // },
+  // // Basic Civil Engineering Papers
+  // {
+  //   id: 'paper-10',
+  //   title: 'Basic Civil Engineering - Complete Notes 2025',
+  //   year: 2025,
+  //   subjectId: 'cse-s1-civil',
+  //   downloadUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
+  //   uploadDate: '2025-01-15',
+  //   fileSize: '3.5 MB'
+  // },
+  // {
+  //   id: 'paper-11',
+  //   title: 'Basic Civil Engineering - Lab Manual 2025',
+  //   year: 2025,
+  //   subjectId: 'cse-s1-civil',
+  //   downloadUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
+  //   uploadDate: '2025-01-15',
+  //   fileSize: '2.9 MB'
+  // }
+   
+  
 ];
