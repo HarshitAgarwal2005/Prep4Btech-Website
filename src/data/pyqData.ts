@@ -841,10 +841,19 @@ export const pyqPapers: PYQPaper[] = [
   },
   {
     id: 'paper-3',
-    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2025',
-    year: 2025,
+    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2024',
+    year: 2024,
     subjectId: 'cse-s1-math',
-    downloadUrl: 'https://drive.google.com/file/d/1XTlhFHPY-1T3IXCjgVhI7BPSd-KyOm7y/view?usp=sharing',
+    downloadUrl: 'https://drive.google.com/file/d/1Tk07o25AcoIyvhAVYqBMv_BCmHiPMqQu/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+   {
+    id: 'paper-4',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2024',
+    year: 2024,
+    subjectId: 'cse-s1-math',
+    downloadUrl: 'https://drive.google.com/file/d/1vVrm3d8IT-_OIsSILBsmSVY_dFT9q1Op/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.3 MB'
   },
