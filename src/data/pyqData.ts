@@ -906,34 +906,56 @@ export const pyqPapers: PYQPaper[] = [
   // engineering physics papers
   {
     id: 'paper-1',
-    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-1E3101-2025',
+    title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-1E3102-2025',
     year: 2025,
     subjectId: 'cse-s1-physics',
-    downloadUrl: 'https://drive.google.com/file/d/1yb0yYCEju8BfhRW8AeNKbHU3wh-Uwgyk/view?usp=sharing',
+    downloadUrl: 'https://drive.google.com/file/d/1R_XL_BRGdPp_QgbyV-7OvrpGIcvBmn6Z/view?usp=sharing',
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
+  {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-2E3203-JUN-2025',
+    year: 2025,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/13Yqc18kcuAtPdcXQ7RbpVvTyhWkCyWzr/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  
+  //
 
   // communication skills papers 
 {
     id: 'paper-1',
-    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-1E3101-2025',
+    title: 'BTECH-1-SEM-COMMUNICATION-SKILLS-1E3104-2025',
     year: 2025,
     subjectId: 'cse-s1-csk',
-    downloadUrl: 'https://drive.google.com/file/d/1yb0yYCEju8BfhRW8AeNKbHU3wh-Uwgyk/view?usp=sharing',
+    downloadUrl: 'https://drive.google.com/file/d/1j8DA5fRAQ0f1MobGzMm33_4yVCDTUAcV/view?usp=sharing',
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
+  //
   // mechanical engineering papers 
-  {
+    {
     id: 'paper-1',
-    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-1E3101-2025',
+    title: 'BTECH-1-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-2025',
     year: 2025,
     subjectId: 'cse-s1-mech',
-    downloadUrl: 'https://drive.google.com/file/d/1yb0yYCEju8BfhRW8AeNKbHU3wh-Uwgyk/view?usp=sharing',
+    downloadUrl: 'https://drive.google.com/file/d/1uf39-iJ8r8-iQCzFTFNHWizOMAccsXys/view?usp=sharing',
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
+  {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-BASIC-MECHANICAL-ENGINEERING-2E3206-JUN-2025',
+    year: 2025,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/1v9PCUrIIGHVcA9F3fVqky4cixHYTl9q-/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  //
   //electrical engineering papers 
   {
     id: 'paper-1',
@@ -1032,13 +1054,14 @@ export const pyqPapers: PYQPaper[] = [
   // Engineering Chemistry Papers
   {
     id: 'paper-4',
-    title: 'Engineering Chemistry - Complete Notes 2025',
+    title: 'BTECH-1-SEM-ENGINEERING-CHEMISTRY-1E3103-2025',
     year: 2025,
     subjectId: 'cse-s2-chem',
-    downloadUrl: 'https://drive.google.com/file/d/15yxzmBCTso2s9enawz7KNSdj-5EakqUf/view?usp=sharing',
+    downloadUrl: 'https://drive.google.com/file/d/1vFl99bdXr4gs0AowDwSGDnXXb6T_u0cK/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '3.2 MB'
   },
+  //
   {
     id: 'paper-5',
     title: 'Engineering Chemistry - Lab Manual 2025',
@@ -1061,23 +1084,34 @@ export const pyqPapers: PYQPaper[] = [
    // basic civil engineering papers   
   {
     id: 'paper-7',
-    title: 'Communication Skills - Practice Exercises 2025',
+    title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2025',
     year: 2025,
     subjectId: 'cse-s2-civil',
-    downloadUrl: 'https://drive.google.com/file/d/15d7p-NnMmZY8ukpH-xq2kxzI8HcEytqO/view?usp=sharing',
+    downloadUrl: 'https://drive.google.com/file/d/1AH5L2ZFkQGM18n4mgR4JK7SGIHrA-ZJw/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.6 MB'
   },
+ //
   // problem solving papers Papers
   {
     id: 'paper-8',
-    title: 'Basic Mechanical Engineering - Complete Notes 2025',
+    title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-2025',
     year: 2025,
     subjectId: 'cse-s2-pps',
-    downloadUrl: 'https://drive.google.com/file/d/15dSFR2RZwxbUteFkcDwlrgi9nQqMX1EO/view?usp=drive_link',
+    downloadUrl: 'https://drive.google.com/file/d/1WvMRzloiuzTopuC4bionn43ug5-4Mab2/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
+     {
+    id: 'paper-8',
+    title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-2024',
+    year: 2024,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1ABSaPsCh9hqrM1WXvejFMlH9dJPDHvIz/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  //
 
 
   // noting below this
