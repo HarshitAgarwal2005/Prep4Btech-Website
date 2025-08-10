@@ -1,4 +1,4 @@
-# StudyHub - Academic Resource Platform
+# Prep4Btech - Academic Resource Platform
 
 A comprehensive academic resource platform for B.Tech students with notes, assignments, projects, and study materials.
 
