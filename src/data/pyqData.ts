@@ -902,6 +902,49 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-01-15',
     fileSize: '2.3 MB'
   },
+
+  // engineering physics papers
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-1E3101-2025',
+    year: 2025,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1yb0yYCEju8BfhRW8AeNKbHU3wh-Uwgyk/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+
+  // communication skills papers 
+{
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-1E3101-2025',
+    year: 2025,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/1yb0yYCEju8BfhRW8AeNKbHU3wh-Uwgyk/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  // mechanical engineering papers 
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-1E3101-2025',
+    year: 2025,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/1yb0yYCEju8BfhRW8AeNKbHU3wh-Uwgyk/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  //electrical engineering papers 
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-1E3101-2025',
+    year: 2025,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/1yb0yYCEju8BfhRW8AeNKbHU3wh-Uwgyk/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  
  
   // Engineering Chemistry Papers
   {
