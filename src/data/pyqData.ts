@@ -846,7 +846,7 @@ export const pyqPapers: PYQPaper[] = [
     id: 'paper-4',
     title: 'Engineering Chemistry - Complete Notes 2025',
     year: 2025,
-    subjectId: 'cse-s1-chem',
+    subjectId: 'cse-s2-chem',
     downloadUrl: 'https://drive.google.com/file/d/15yxzmBCTso2s9enawz7KNSdj-5EakqUf/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '3.2 MB'
