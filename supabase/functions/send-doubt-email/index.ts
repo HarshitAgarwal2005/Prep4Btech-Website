@@ -103,14 +103,14 @@ serve(async (req) => {
       },
       body: JSON.stringify({
         service_id: 'service_ohe32lp', // You'll need to configure EmailJS
-        template_id: 'your_template_id',
+        template_id: 'template_6xvepac',
         user_id: 'your_user_id',
         template_params: {
           to_email: 'prep4btech@gmail.com',
           subject: emailSubject,
           message: emailBody,
           from_name: userName || 'Prep4btech Student',
-          reply_to: userEmail || 'noreply@prep4btechb.com'
+          reply_to: userEmail || 'noreply@prep4btech.com'
         }
       })
     })
