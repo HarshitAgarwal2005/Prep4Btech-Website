@@ -922,6 +922,24 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-2E3203-2024',
+    year: 2024,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1xd4c3_RrOrGLFEqvk03APUoAHCZpNGMe/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-2E3203-2024',
+    year: 2024,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/14cyMVVFcxYPlgDxeAxbarkypdVz23efO/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
   
   //
 
@@ -932,6 +950,24 @@ export const pyqPapers: PYQPaper[] = [
     year: 2025,
     subjectId: 'cse-s1-csk',
     downloadUrl: 'https://drive.google.com/file/d/1j8DA5fRAQ0f1MobGzMm33_4yVCDTUAcV/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-COMMUNICATION-SKILLS-1E3104-2024',
+    year: 2024,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/1usJYlA2m8b4yLwlQIzzrg3gSBC8yBGS6/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-COMMUNICATION-SKILLS-2E3205-2024',
+    year: 2024,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/1ZhNvdwmIo1x9gvPYLY4VeiGG_hdLq_KN/view?usp=sharing',
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
@@ -955,17 +991,45 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
+   {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-2024',
+    year: 2024,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/1ufsFzPd2ZwJK4Gie779uBUuyr10Uj9mV/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-BASIC-MECHANICAL-ENGINEERING-2E3206-2024',
+    year: 2024,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/10qBWT9Of4qSvsREZ4O0EcgtWNpq-CQ0n/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
   //
   //electrical engineering papers 
   {
     id: 'paper-1',
-    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-1E3101-2025',
-    year: 2025,
+    title: 'BTECH-1-SEM-ENGINEERING-ELECTRICAL-1E3101-2024',
+    year: 2024,
     subjectId: 'cse-s1-electrical',
-    downloadUrl: 'https://drive.google.com/file/d/1yb0yYCEju8BfhRW8AeNKbHU3wh-Uwgyk/view?usp=sharing',
+    downloadUrl: 'https://drive.google.com/file/d/1Z79GWGpWAFbbzUUWQDi1upf9BbbA-gVN/view?usp=sharing',
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
+  {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-BASIC-ELECTRICAL-ENGINEERING-2E3209-2024',
+    year: 2024,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/11JQ2hl_X2Xmxg-DSQvRfZBq-npa3alk6/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  //
 
   // advance mathematics engineering 2
    {
@@ -1061,16 +1125,25 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-01-15',
     fileSize: '3.2 MB'
   },
-  //
   {
     id: 'paper-5',
-    title: 'Engineering Chemistry - Lab Manual 2025',
-    year: 2025,
+    title: 'BTECH-1-SEM-ENGINEERING-CHEMISTRY-1E3103-2024',
+    year: 2024,
     subjectId: 'cse-s2-chem',
-    downloadUrl: 'https://drive.google.com/file/d/15yxzmBCTso2s9enawz7KNSdj-5EakqUf/view?usp=sharing',
+    downloadUrl: 'https://drive.google.com/file/d/1FpUrQ3QVXUaipd6DZsNdGSAmcJN_dZRB/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '3.0 MB'
   },
+  {
+    id: 'paper-5',
+    title: 'BTECH-2-SEM-ENGINEERING-CHEMISTRY-2E3202-2024',
+    year: 2024,
+    subjectId: 'cse-s2-chem',
+    downloadUrl: 'https://drive.google.com/file/d/1WjQ3j8STQBjqVYbJeyOHZt5W3rf7C9HU/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '3.0 MB'
+  },
+  //
  // human values papers
   {
     id: 'paper-6',
@@ -1078,6 +1151,15 @@ export const pyqPapers: PYQPaper[] = [
     year: 2024,
     subjectId: 'cse-s2-hv',
     downloadUrl: 'https://drive.google.com/file/d/1Yx_cEw_fa8qnPgaskrFvhfVY0cPYKW30/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.8 MB'
+  },
+  {
+    id: 'paper-6',
+    title: 'BTECH-2-SEM-HUMAN-VALUES-2E3204-2024',
+    year: 2024,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/1TnYNg7lox5OX9rgrALxu81JOzezwME_5/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.8 MB'
   },
@@ -1089,6 +1171,24 @@ export const pyqPapers: PYQPaper[] = [
     year: 2025,
     subjectId: 'cse-s2-civil',
     downloadUrl: 'https://drive.google.com/file/d/1AH5L2ZFkQGM18n4mgR4JK7SGIHrA-ZJw/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+    {
+    id: 'paper-7',
+    title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2024',
+    year: 2024,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/183SnH-8vEDrfiM_3WZqku82Y0jZh3oa-/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+  {
+    id: 'paper-7',
+    title: 'BTECH-2-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2024',
+    year: 2024,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/1Nzm9S8HvrxP8qfTirqOovKDK0ajektuj/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.6 MB'
   },
@@ -1109,6 +1209,15 @@ export const pyqPapers: PYQPaper[] = [
     year: 2024,
     subjectId: 'cse-s2-pps',
     downloadUrl: 'https://drive.google.com/file/d/1ABSaPsCh9hqrM1WXvejFMlH9dJPDHvIz/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+    {
+    id: 'paper-8',
+    title: 'BTECH-2-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-2E3207-2024.pdf',
+    year: 2024,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/12WR9po1lwtWmqXEk7ecFrWi0XqwJkFHp/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
