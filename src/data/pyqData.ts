@@ -248,7 +248,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s4-mi',
     name: 'Microprocessor & Interfaces',
     code: '4CS3-01',
     branchId: 'cse',
@@ -256,7 +256,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s4-dbms',
     name: 'Database Management System',
     code: '4CS4-05',
     branchId: 'cse',
@@ -264,7 +264,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s4-toc',
     name: 'Theory Of Computation',
     code: '4CS4-06',
     branchId: 'cse',
@@ -272,7 +272,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s4-dccn',
     name: 'Data Communication & Computer Networks',
     code: '4CS4-07',
     branchId: 'cse',
@@ -281,7 +281,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   // 5th semester subjects
   {
-    id: 'cse-s4-os',
+    id: 'cse-s5-itc',
     name: 'Information Theory & Coding',
     code: '5CS3-01',
     branchId: 'cse',
@@ -289,21 +289,21 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s5-cd',
     name: 'Compiler Design',
     code: '5CS4-02',
     branchId: 'cse',
     semester: 5,
     credits: 3
   },{
-    id: 'cse-s4-os',
+    id: 'cse-s5-os',
     name: 'Operating System',
     code: '5CS4-03',
     branchId: 'cse',
     semester: 5,
     credits: 3
   },{
-    id: 'cse-s4-os',
+    id: 'cse-s5-cgm',
     name: 'Computer Graphics & Multimedia',
     code: '5CS4-04',
     branchId: 'cse',
@@ -311,7 +311,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s5-aoa',
     name: 'Analysis Of Algorithm',
     code: '5CS5-05',
     branchId: 'cse',
@@ -319,7 +319,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s5-wc',
     name: 'Wireless Communication',
     code: '5CS5-11',
     branchId: 'cse',
@@ -327,7 +327,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s5-hci',
     name: 'Human Compiler Interaction',
     code: '5CS5-12',
     branchId: 'cse',
@@ -335,7 +335,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s5-b',
     name: 'Bioinformatics',
     code: '5CS5-13',
     branchId: 'cse',
@@ -344,7 +344,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   // 6th semester sunjects 
    {
-    id: 'cse-s4-os',
+    id: 'cse-s6-dip',
     name: 'Digital Image Processing',
     code: '6CS3--01',
     branchId: 'cse',
@@ -352,7 +352,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
    {
-    id: 'cse-s4-os',
+    id: 'cse-s6-ml',
     name: 'Machine Learning',
     code: '6CS4-02',
     branchId: 'cse',
@@ -360,7 +360,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
    {
-    id: 'cse-s4-os',
+    id: 'cse-s6-bi',
     name: 'Bioinformatics',
     code: '6CS6-13',
     branchId: 'cse',
@@ -368,7 +368,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
    {
-    id: 'cse-s4-os',
+    id: 'cse-s6-iss',
     name: 'Information Security System',
     code: '6CS4-03',
     branchId: 'cse',
@@ -376,7 +376,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
    {
-    id: 'cse-s4-os',
+    id: 'cse-s6-cao',
     name: 'Computer Architecture & Organization',
     code: '6CS4-04',
     branchId: 'cse',
@@ -384,7 +384,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
    {
-    id: 'cse-s4-os',
+    id: 'cse-s6-ai',
     name: 'Artificial Intelligence ',
     code: '6CS4-05',
     branchId: 'cse',
@@ -392,7 +392,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
    {
-    id: 'cse-s4-os',
+    id: 'cse-s6-cc',
     name: 'Cloud Computing',
     code: '6CS4-06',
     branchId: 'cse',
@@ -400,7 +400,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s6-ds',
     name: 'Distributed System',
     code: '6C54-11',
     branchId: 'cse',
@@ -408,7 +408,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s6-sdn',
     name: 'Software Defined Network',
     code: '6CS5-12',
     branchId: 'cse',
@@ -416,7 +416,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s6-eerp',
     name: 'Ecommerce & ERP',
     code: '6CS4-13',
     branchId: 'cse',
@@ -425,7 +425,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   //7th semester papers
   {
-    id: 'cse-s4-os',
+    id: 'cse-s7-iot',
     name: 'Internet Of Things',
     code: '7CS4-01',
     branchId: 'cse',
@@ -433,7 +433,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s7-oe1',
     name: 'Open Elective-I ',
     code: '7CS4',
     branchId: 'cse',
@@ -442,7 +442,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   // 8th semester subjects 
   {
-    id: 'cse-s4-os',
+    id: 'cse-s8-bda',
     name: 'Big Data Analytics',
     code: '8CS4-01',
     branchId: 'cse',
@@ -450,8 +450,8 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-os',
-    name: 'Open Elective-I',
+    id: 'cse-s8-oe2',
+    name: 'Open Elective-II',
     code: '8CS4',
     branchId: 'cse',
     semester: 8,
@@ -840,30 +840,10 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.3 MB'
   },
   
-  {
-    id: 'paper-3',
-    title: 'Engineering Mathematics-1 - Previous Year Questions 2024',
-    year: 2024,
-    subjectId: 'cse-s1-math1',
-    downloadUrl: 'https://drive.google.com/file/d/15cdwtAOou8IXRvcwOiwIEkdZgSHJ-Xx4/view?usp=sharing',
-    uploadDate: '2024-12-15',
-    fileSize: '2.1 MB'
-  },
-  
-  {
-    id: 'paper-2',
-    title: 'Engineering Mathematics-1 - Practice Problems 2025',
-    year: 2025,
-    subjectId: 'cse-s1-math1',
-    downloadUrl: 'https://drive.google.com/file/d/15cdwtAOou8IXRvcwOiwIEkdZgSHJ-Xx4/view?usp=sharing',
-    uploadDate: '2025-01-15',
-    fileSize: '2.3 MB'
-  },
-  
  
   // Engineering Chemistry Papers
   {
-    id: 'paper-4',
+    id: 'paper-1',
     title: 'Engineering Chemistry - Complete Notes 2025',
     year: 2025,
     subjectId: 'cse-s1-chemistry',
