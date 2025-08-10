@@ -823,19 +823,28 @@ export const pyqPapers: PYQPaper[] = [
   // Engineering Mathematics-1 Papers
   {
     id: 'paper-1',
-    title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-2E3203-JUN-2025',
+    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-1E3101-2025',
     year: 2025,
-    subjectId: 'cse-s1-physics',
-    downloadUrl: 'https://drive.google.com/file/d/13Yqc18kcuAtPdcXQ7RbpVvTyhWkCyWzr/view?usp=sharing',
+    subjectId: 'cse-s1-math',
+    downloadUrl: 'https://drive.google.com/file/d/1yb0yYCEju8BfhRW8AeNKbHU3wh-Uwgyk/view?usp=sharing',
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
   {
     id: 'paper-2',
-    title: 'Engineering Mathematics-1 - Practice Problems 2025',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2025',
     year: 2025,
     subjectId: 'cse-s1-math1',
-    downloadUrl: 'https://drive.google.com/file/d/15cdwtAOou8IXRvcwOiwIEkdZgSHJ-Xx4/view?usp=sharing',
+    downloadUrl: 'https://drive.google.com/file/d/1XTlhFHPY-1T3IXCjgVhI7BPSd-KyOm7y/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+  {
+    id: 'paper-3',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2025',
+    year: 2025,
+    subjectId: 'cse-s1-math1',
+    downloadUrl: 'https://drive.google.com/file/d/1XTlhFHPY-1T3IXCjgVhI7BPSd-KyOm7y/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.3 MB'
   },
