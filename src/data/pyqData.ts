@@ -940,6 +940,15 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
+   {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-11N502-MAY-2023',
+    year: 2023,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1k_6Orn6oMGkfdyN8kfDs7gyotu-cD-eO/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
   
   //
 
@@ -968,6 +977,15 @@ export const pyqPapers: PYQPaper[] = [
     year: 2024,
     subjectId: 'cse-s1-csk',
     downloadUrl: 'https://drive.google.com/file/d/1ZhNvdwmIo1x9gvPYLY4VeiGG_hdLq_KN/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-COMMUNICATION-SKILLS-1E3104-2023',
+    year: 2023,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/15KW9g3FC_vPquxkWURXte6l-_1EdS6kT/view?usp=sharing',
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
@@ -1009,6 +1027,15 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-2023',
+    year: 2023,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/1FbPl-n4BuQ0UirsqGXDBtYs2v_MuFV8S/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
   //
   //electrical engineering papers 
   {
@@ -1026,6 +1053,15 @@ export const pyqPapers: PYQPaper[] = [
     year: 2024,
     subjectId: 'cse-s1-electrical',
     downloadUrl: 'https://drive.google.com/file/d/11JQ2hl_X2Xmxg-DSQvRfZBq-npa3alk6/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-BASIC-ELECTRICAL-ENGINEERING-1E3108-2023',
+    year: 2023,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/1L0b4X4d55cYwMa5MwDTcbg13wrk9HoX3/view?usp=sharing',
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
@@ -1207,6 +1243,15 @@ export const pyqPapers: PYQPaper[] = [
     year: 2024,
     subjectId: 'cse-s2-civil',
     downloadUrl: 'https://drive.google.com/file/d/1Nzm9S8HvrxP8qfTirqOovKDK0ajektuj/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+   {
+    id: 'paper-7',
+    title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2023',
+    year: 2023,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/11-SfTD2_xDiKFin8LztrJpZ2hhgDuJSm/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.6 MB'
   },
