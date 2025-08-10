@@ -1074,13 +1074,14 @@ export const pyqPapers: PYQPaper[] = [
  // human values papers
   {
     id: 'paper-6',
-    title: 'Communication Skills - Complete Notes 2025',
-    year: 2025,
+    title: 'BTECH-1-SEM-ENGINEERING-HUMAN VALUES-1E3103-2024',
+    year: 2024,
     subjectId: 'cse-s2-hv',
-    downloadUrl: 'https://drive.google.com/file/d/15d7p-NnMmZY8ukpH-xq2kxzI8HcEytqO/view?usp=sharing',
+    downloadUrl: 'https://drive.google.com/file/d/1Yx_cEw_fa8qnPgaskrFvhfVY0cPYKW30/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.8 MB'
   },
+  //
    // basic civil engineering papers   
   {
     id: 'paper-7',
