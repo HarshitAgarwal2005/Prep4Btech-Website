@@ -1143,6 +1143,15 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-01-15',
     fileSize: '3.0 MB'
   },
+  {
+    id: 'paper-5',
+    title: 'BTECH-1-SEM-ENGINEERING-CHEMISTRY-1E3103-2023',
+    year: 2023,
+    subjectId: 'cse-s2-chem',
+    downloadUrl: 'https://drive.google.com/file/d/1m2CbsxUnJnSzdnVKz44fsMlkw52XwM-y/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '3.0 MB'
+  },
   //
  // human values papers
   {
@@ -1160,6 +1169,15 @@ export const pyqPapers: PYQPaper[] = [
     year: 2024,
     subjectId: 'cse-s2-hv',
     downloadUrl: 'https://drive.google.com/file/d/1TnYNg7lox5OX9rgrALxu81JOzezwME_5/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.8 MB'
+  },
+   {
+    id: 'paper-6',
+    title: 'BTECH-1-SEM-HUMAN-VALUES-1E3105-2023',
+    year: 2023,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/1IO68dY3aEpxa4fFzuRpgogNuPPxqGxTY/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.8 MB'
   },
@@ -1218,6 +1236,15 @@ export const pyqPapers: PYQPaper[] = [
     year: 2024,
     subjectId: 'cse-s2-pps',
     downloadUrl: 'https://drive.google.com/file/d/12WR9po1lwtWmqXEk7ecFrWi0XqwJkFHp/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-2023',
+    year: 2023,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1u5GISUkaxGpFH3B7IncQhqFvQenHiL0Q/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
