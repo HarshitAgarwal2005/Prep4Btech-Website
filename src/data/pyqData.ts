@@ -825,7 +825,7 @@ export const pyqPapers: PYQPaper[] = [
     id: 'paper-1',
     title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-2E3203-JUN-2025',
     year: 2025,
-    subjectId: 'cse-s1-math1',
+    subjectId: 'cse-s1-physics',
     downloadUrl: 'https://drive.google.com/file/d/13Yqc18kcuAtPdcXQ7RbpVvTyhWkCyWzr/view?usp=sharing',
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
