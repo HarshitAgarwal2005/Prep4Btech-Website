@@ -158,7 +158,7 @@ const Contact: React.FC = () => {
                   <div className="min-w-0 flex-1">
                     <h3 className="font-semibold text-gray-900 dark:text-white">Email</h3>
                     <a 
-                      href="mailto:prep4btech@gmail.com"
+                      href="mailto:harshitagarwal25807@gmail.com"
                       className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors break-all"
                     >
                       prep4btech@gmail.com

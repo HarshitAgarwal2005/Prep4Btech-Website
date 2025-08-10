@@ -85,7 +85,7 @@ serve(async (req) => {
             
             <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #E2E8F0; text-align: center;">
               <p style="color: #64748B; font-size: 14px;">
-                This email was sent from Prep4Btech - Academic Resource Platform<br>
+                This email was sent from StudyHub - Academic Resource Platform<br>
                 <a href="https://studyhub-harshitagarwal.netlify.app" style="color: #4F46E5;">Visit StudyHub</a>
               </p>
             </div>
@@ -106,11 +106,11 @@ serve(async (req) => {
         template_id: 'your_template_id',
         user_id: 'your_user_id',
         template_params: {
-          to_email: 'prep4btech@gmail.com',
+          to_email: 'harshitagarwal25807@gmail.com',
           subject: emailSubject,
           message: emailBody,
-          from_name: userName || 'Prep4Btexh Student',
-          reply_to: userEmail || 'noreply@prep4btech.com'
+          from_name: userName || 'StudyHub Student',
+          reply_to: userEmail || 'noreply@studyhub.com'
         }
       })
     })
