@@ -958,6 +958,42 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
+   {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-11N502-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/15jvY1y--Z2ERyA6lha83_qJn_7snmrBV/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-1E3102-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1P4MP9TA3-Lp5xJ80J3J4hJrSqemxx52l/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-2E3203-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1cfD-Mq6nNmbSF6B7Hf0MRb7MRMDKN5Pq/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-1E2402',
+    year: 2022,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1aqY9AOO2s5rRhS7B6g562ls__2mEpRWT/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
   
   //
 
@@ -1000,10 +1036,28 @@ export const pyqPapers: PYQPaper[] = [
   },
    {
     id: 'paper-1',
-    title: 'BTECH-1-SEM-COMMUNICATION-SKILLS-1E3104-2023',
+    title: 'BTECH-2-SEM-COMMUNICATION-SKILL-21N504-2023',
     year: 2023,
     subjectId: 'cse-s1-csk',
-    downloadUrl: 'https://drive.google.com/file/d/15KW9g3FC_vPquxkWURXte6l-_1EdS6kT/view?usp=sharing',
+    downloadUrl: 'https://drive.google.com/file/d/1adjAQyrt-Z4WR_7Umr7DVE_Nd3ZUHxFO/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-COMMUNICATION-SKILLS-1E3104-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/1GzhQzXcNTmELoGKGsNzFZ1DRFvcBFPMG/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-COMMUNICATION-SKILLS-2E3205-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/1L0zncqvIDVDbq2TFTMEHhbiv8Jq16uPy/view?usp=sharing',
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
@@ -1054,6 +1108,33 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
+  {id: 'paper-10',
+    title: 'BTECH-2-SEM-BASIC-MECHANICAL-ENGINEERING-2E3206-2023',
+    year: 2023,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/1ggSVWUKYPKGKN5331wJn2eC-v8kO6tIs/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-10',
+    title: 'BTECH-1-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/1ThE-jPG-3ok1faOvO9FMjagO3apKiYgk/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-10',
+    title: 'BTECH-2-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-2022',
+    year: 2022,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/18QhCFVmCY9kkV2rLbyGsqShorGIqGJXu/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  
   //
   //electrical engineering papers 
   {
@@ -1080,6 +1161,42 @@ export const pyqPapers: PYQPaper[] = [
     year: 2023,
     subjectId: 'cse-s1-electrical',
     downloadUrl: 'https://drive.google.com/file/d/1L0b4X4d55cYwMa5MwDTcbg13wrk9HoX3/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+    {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-BASIC-ELECTRICAL-ENGINEERING-1E3108-2023',
+    year: 2023,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/1ubzxuOwmcxSv2yKFCOq_N8nHGHnQtleF/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-BASIC-ELECTRICAL-ENGINEERING-11N507-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/1McyP46w_HiiwyPwdX4Ze32G8_fJpfQFt/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-BASIC-ELECTRICAL-ENGINEERING-1E3108-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/1_RWBDgF9Xen9avggwivA35kZujepivcB/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-BASIC-ELECTRICAL-ENGINEERING-21N507-2022',
+    year: 2022,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/1oO4Ed6NvxoEjNBTThhiXgCEEueN278jG/view?usp=sharing',
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
@@ -1215,6 +1332,24 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-01-15',
     fileSize: '3.0 MB'
   },
+     {
+    id: 'paper-5',
+    title: 'BTECH-1-SEM-ENGINEERING-CHEMISTRY-11N503-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s2-chem',
+    downloadUrl: 'https://drive.google.com/file/d/1tS0rpdU9UaYUjopMnH5BfvPRg1Ja6L__/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '3.0 MB'
+  },
+    {
+    id: 'paper-5',
+    title: 'BTECH-1-SEM-ENGINEERING-CHEMISTRY-1E3103-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s2-chem',
+    downloadUrl: 'https://drive.google.com/file/d/1EU4R7nmtKOpmWkxlk5gJiXMTcsY4C3BZ/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '3.0 MB'
+  },
   //
  // human values papers
   {
@@ -1250,6 +1385,33 @@ export const pyqPapers: PYQPaper[] = [
     year: 2023,
     subjectId: 'cse-s2-hv',
     downloadUrl: 'https://drive.google.com/file/d/1kQfK3vfI-qSExh8vH7s-4NIIj5IP4YBB/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.8 MB'
+  },
+     {
+    id: 'paper-6',
+    title: 'BTECH-1-SEM-HUMAN-VALUES-1E3105-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/1dU3sycmGBqwkq7Nk9TYr0BW6RVG_Gy9o/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.8 MB'
+  },
+   {
+    id: 'paper-6',
+    title: 'BTECH-2-SEM-HUMAN-VALUES-1E3105-2022',
+    year: 2022,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/1Ds26W4QAChn3SLnoxneYfhOnia5heBJ4/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.8 MB'
+  },
+   {
+    id: 'paper-6',
+    title: 'BTECH-1-SEM-HUMAN-VALUES-1E2405',
+    year: 2022,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/16DZtiNjWb0iWXCFqswvH0KENqSKhYLCw/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.8 MB'
   },
@@ -1300,6 +1462,42 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-01-15',
     fileSize: '2.6 MB'
   },
+     {
+    id: 'paper-7',
+    title: 'BTECH-1-SEM-INTRODUCTION-TO-BUILT-ENVIRONMENT-11N506',
+    year: 2022,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/1QAmaAXQuJqgDxAb-ezuzLD4MUoDCEzkK/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+     {
+    id: 'paper-7',
+    title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E3109-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/19tW_V7KHfCmuAGllC9KQ9kkVBofM5Jso/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+   {
+    id: 'paper-7',
+    title: 'BTECH-2-SEM-BASIC-CIVIL-ENGINEERING-2E3208-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/141472mJLnaB6uuB4csHbIqnvucl-YrjK/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+  {
+    id: 'paper-7',
+    title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E2409',
+    year: 2022,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/1fADL43xTA8WDLgBDQJSeoA7R9p54Wjp2/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
  //
   // problem solving papers Papers
   {
@@ -1344,6 +1542,33 @@ export const pyqPapers: PYQPaper[] = [
     year: 2023,
     subjectId: 'cse-s2-pps',
     downloadUrl: 'https://drive.google.com/file/d/1pA7fPxctRF0IAzfMvbqYej7xQ0KrHl0z/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+    {
+    id: 'paper-8',
+    title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1repHS_C0M7t62qBto2ysejRM2QpEC3Mv/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-2-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-2E3207-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1d7n8w-XvPKsZkl4smYosY-niboWn3Why/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E2406',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1czqApvWIXDPHjGbHJ5zIOiVIHKTryPDx/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
