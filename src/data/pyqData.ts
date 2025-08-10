@@ -857,7 +857,51 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-01-15',
     fileSize: '2.3 MB'
   },
-  
+  {
+    id: 'paper-5',
+    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-1E3101-2023.pdf',
+    year: 2023,
+    subjectId: 'cse-s1-math',
+    downloadUrl: 'https://drive.google.com/file/d/1CjuK0-YsSIY59eR1jRbnaTwRu0zIdET0/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+   {
+    id: 'paper-6',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2024',
+    year: 2023,
+    subjectId: 'cse-s1-math',
+    downloadUrl: 'https://drive.google.com/file/d/1h1kgtpu3p6PwPZscirq2l6r4MSKIKqcv/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+  {
+    id: 'paper-7',
+    title: 'BTECH-1-SEM-ENGINEERING-MATHEMATICS-1-11N501-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s1-math',
+    downloadUrl: 'https://drive.google.com/file/d/1STL12J1-MkOcB6F8GHWm9kGH3DtbInBU/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-2022',
+    year: 2022,
+    subjectId: 'cse-s1-math',
+    downloadUrl: 'https://drive.google.com/file/d/1JVnRS_AiM7l55GtHN7rWC2fhA5YkJT3I/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+   {
+    id: 'paper-9',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E2401',
+    year: 2021,
+    subjectId: 'cse-s1-math',
+    downloadUrl: 'https://drive.google.com/file/d/1R3mVvsHTNur1Sc5aPTuf3TK0ip6jgbCr/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
  
   // Engineering Chemistry Papers
   {
