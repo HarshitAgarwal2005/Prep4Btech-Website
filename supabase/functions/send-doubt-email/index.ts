@@ -85,7 +85,7 @@ serve(async (req) => {
             
             <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #E2E8F0; text-align: center;">
               <p style="color: #64748B; font-size: 14px;">
-                This email was sent from StudyHub - Academic Resource Platform<br>
+                This email was sent from Prep4Btech - Academic Resource Platform<br>
                 <a href="https://studyhub-harshitagarwal.netlify.app" style="color: #4F46E5;">Visit StudyHub</a>
               </p>
             </div>
