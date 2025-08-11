@@ -1787,37 +1787,6 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '4.2 MB'
   }
   //
-
-
-  // noting below this
-  // {
-  //   id: 'paper-9',
-  //   title: 'Basic Mechanical Engineering - Lab Manual 2025',
-  //   year: 2025,
-  //   subjectId: 'cse-s1-mech',
-  //   downloadUrl: 'https://drive.google.com/file/d/15dSFR2RZwxbUteFkcDwlrgi9nQqMX1EO/view?usp=drive_link',
-  //   uploadDate: '2025-01-15',
-  //   fileSize: '3.8 MB'
-  // },
-  // // Basic Civil Engineering Papers
-  // {
-  //   id: 'paper-10',
-  //   title: 'Basic Civil Engineering - Complete Notes 2025',
-  //   year: 2025,
-  //   subjectId: 'cse-s1-civil',
-  //   downloadUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
-  //   uploadDate: '2025-01-15',
-  //   fileSize: '3.5 MB'
-  // },
-  // {
-  //   id: 'paper-11',
-  //   title: 'Basic Civil Engineering - Lab Manual 2025',
-  //   year: 2025,
-  //   subjectId: 'cse-s1-civil',
-  //   downloadUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
-  //   uploadDate: '2025-01-15',
-  //   fileSize: '2.9 MB'
-  // }
    
   
 ];
