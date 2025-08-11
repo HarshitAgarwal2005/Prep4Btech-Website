@@ -539,7 +539,7 @@ export const pyqSubjects: PYQSubject[] = [
     semester: 2,
     credits: 2
   },
-  electronics engineering 
+  //electronics engineering 
   // 1st semester subjects
   {
     id: 'cse-s1-math',
