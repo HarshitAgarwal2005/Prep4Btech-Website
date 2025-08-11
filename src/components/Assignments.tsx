@@ -185,12 +185,12 @@ const Assignments: React.FC = () => {
                   type: 'theory'
                 },
                 {
-                  id: 'chem1-a2',
+                  id: 'phy1-a2',
                   title: 'Engineering Physics Lab Manual',
                   description: 'Laboratory experiments and procedures',
-                  documentUrl: 'https://drive.google.com/file/d/15yxzmBCTso2s9enawz7KNSdj-5EakqUf/view?usp=sharing',
+                  documentUrl: 'https://drive.google.com/file/d/1ce-kR7tVIKB5fpaqPIm547mxEW2m-YCZ/view?usp=sharing',
                   uploadDate: '2024-01-22',
-                  fileSize: '2.5 MB',
+                  fileSize: '40 MB',
                   type: 'lab'
                 }
               ]
