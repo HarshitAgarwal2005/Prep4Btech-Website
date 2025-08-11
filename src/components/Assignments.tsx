@@ -178,7 +178,7 @@ const Assignments: React.FC = () => {
                 {
                   id: 'phy1-a1',
                   title: 'Engineering Physics Unit 6 Notes',
-                  description: 'Comprehensive study material for Engineering Physics Unit 6',
+                  description: 'Unit 6: Introduction to Electromagnetism',
                   documentUrl: 'https://drive.google.com/file/d/1DbdLYuzoLUbjMR_AKoEQ6ZsYOdAbn0AT/view?usp=sharing',
                   uploadDate: '2024-01-18',
                   fileSize: '4.5 MB',
