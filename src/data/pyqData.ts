@@ -183,7 +183,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   // 3rd semester subjects
   {
-    id: 'cse-s3-ds',
+    id: 'cse-s3-aem',
     name: 'Advance Engineering Mathematics',
     code: '3CS2-01',
     branchId: 'cse',
@@ -191,7 +191,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s3-ds',
+    id: 'cse-s3-dsa',
     name: 'Data Structures And Algorithm',
     code: '3CS4-05',
     branchId: 'cse',
@@ -199,7 +199,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s3-ds',
+    id: 'cse-s3-mefa',
     name: 'Mnnagerial Economics And Financial Engineering',
     code: '3CS1-03',
     branchId: 'cse',
@@ -207,7 +207,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'cse-s3-ds',
+    id: 'cse-s3-de',
     name: 'Digital Electronics',
     code: '3CS3-04',
     branchId: 'cse',
@@ -215,7 +215,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s3-ds',
+    id: 'cse-s3-oops',
     name: 'Object Oriented Programming',
     code: '3CS4-06',
     branchId: 'cse',
@@ -223,7 +223,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s3-co',
+    id: 'cse-s3-se',
     name: 'Software Engineering',
     code: '3CS4-07',
     branchId: 'cse',
@@ -240,7 +240,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s4-tc',
     name: 'Technical communication',
     code: '4CS1-02',
     branchId: 'cse',
@@ -248,7 +248,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s4-mi',
     name: 'Microprocessor & Interfaces',
     code: '4CS3-01',
     branchId: 'cse',
@@ -256,7 +256,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s4-dbms',
     name: 'Database Management System',
     code: '4CS4-05',
     branchId: 'cse',
@@ -264,7 +264,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s4-toc',
     name: 'Theory Of Computation',
     code: '4CS4-06',
     branchId: 'cse',
@@ -272,7 +272,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s4-dccn',
     name: 'Data Communication & Computer Networks',
     code: '4CS4-07',
     branchId: 'cse',
