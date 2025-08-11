@@ -140,6 +140,41 @@ const Assignments: React.FC = () => {
                   type: 'theory'
                 },
                 {
+                  id: 'phy1-a1',
+                  title: 'Engineering Physics Unit 2 Notes',
+                  description: 'Comprehensive study material for Engineering Physics Unit 2',
+                  documentUrl: 'https://drive.google.com/file/d/13zjpU57j5qPC9puTU12QY0rJQA7BYMs-/view?usp=sharing',
+                  uploadDate: '2024-01-18',
+                  fileSize: '24 MB',
+                  type: 'theory'
+                },
+                {
+                  id: 'phy1-a1',
+                  title: 'Engineering Physics Unit 3 Notes',
+                  description: 'Comprehensive study material for Engineering Physics Unit 3',
+                  documentUrl: 'https://drive.google.com/file/d/13zjpU57j5qPC9puTU12QY0rJQA7BYMs-/view?usp=sharing',
+                  uploadDate: '2024-01-18',
+                  fileSize: '24 MB',
+                  type: 'theory'
+                },{
+                  id: 'phy1-a1',
+                  title: 'Engineering Physics Unit 4 Notes',
+                  description: 'Comprehensive study material for Engineering Physics Unit 4',
+                  documentUrl: 'https://drive.google.com/file/d/13zjpU57j5qPC9puTU12QY0rJQA7BYMs-/view?usp=sharing',
+                  uploadDate: '2024-01-18',
+                  fileSize: '24 MB',
+                  type: 'theory'
+                },
+                {
+                  id: 'phy1-a1',
+                  title: 'Engineering Physics Unit 5 Notes',
+                  description: 'Comprehensive study material for Engineering Physics Unit 5',
+                  documentUrl: 'https://drive.google.com/file/d/13zjpU57j5qPC9puTU12QY0rJQA7BYMs-/view?usp=sharing',
+                  uploadDate: '2024-01-18',
+                  fileSize: '24 MB',
+                  type: 'theory'
+                },
+                {
                   id: 'chem1-a2',
                   title: 'Engineering Physics Lab Manual',
                   description: 'Laboratory experiments and procedures',
