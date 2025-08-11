@@ -500,7 +500,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   // 2nd semester subjects
   {
-    id: 'cse-s1-math',
+    id: 'cse-s2-math',
     name: 'Engineering Mathematics',
     code: '2FY2-01',
     branchId: 'cse',
