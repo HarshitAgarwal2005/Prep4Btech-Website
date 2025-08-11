@@ -906,7 +906,7 @@ export const pyqSubjects: PYQSubject[] = [
     id: 'cse-s1-math',
     name: 'Engineering Mathematics-1',
     code: '1FY2-01',
-    branchId: 'ee',
+    branchId: 'me',
     semester: 1,
     credits: 4
   },
@@ -914,7 +914,7 @@ export const pyqSubjects: PYQSubject[] = [
     id: 'cse-s1-physics',
     name: 'Engineering Physics',
     code: '1FY2-02',
-    branchId: 'ee',
+    branchId: 'me',
     semester: 1,
     credits: 4
   },
@@ -922,21 +922,21 @@ export const pyqSubjects: PYQSubject[] = [
     id: 'cse-s1-csk',
     name: 'Communication Skills',
     code: '1FY1-04',
-    branchId: 'ee',
+    branchId: 'me',
     semester: 1,
     credits: 2
   },{
     id: 'cse-s1-mech',
     name: 'Mechanical Engineering',
     code: '2FY3-07',
-    branchId: 'ee',
+    branchId: 'me',
     semester: 1,
     credits: 2
   },{
     id: 'cse-s1-electrical',
     name: 'Electrical Engineering ',
     code: '1FY3-08',
-    branchId: 'ee',
+    branchId: 'me',
     semester: 1,
     credits: 2
   },
@@ -945,7 +945,7 @@ export const pyqSubjects: PYQSubject[] = [
     id: 'cse-s2-math',
     name: 'Engineering Mathematics',
     code: '2FY2-01',
-    branchId: 'ee',
+    branchId: 'me',
     semester: 2,
     credits: 4
   },
@@ -953,7 +953,7 @@ export const pyqSubjects: PYQSubject[] = [
     id: 'cse-s2-chem',
     name: 'Engineering Chemistry',
     code: '2FY2-03',
-    branchId: 'ee',
+    branchId: 'me',
     semester: 2,
     credits: 4
   },
@@ -961,7 +961,7 @@ export const pyqSubjects: PYQSubject[] = [
     id: 'cse-s2-hv',
     name: 'Human Values',
     code: '1FY1-05',
-    branchId: 'ee',
+    branchId: 'me',
     semester: 2,
     credits: 2
   },
@@ -969,7 +969,7 @@ export const pyqSubjects: PYQSubject[] = [
     id: 'cse-s2-civil',
     name: 'Basic Civil Engineering',
     code: '1FY3-09',
-    branchId: 'ee',
+    branchId: 'me',
     semester: 2,
     credits: 2
   },
@@ -978,7 +978,89 @@ export const pyqSubjects: PYQSubject[] = [
     id: 'cse-s2-pps',
     name: 'Problem Solving For Programming',
     code: '2FY3-06',
-    branchId: 'ee',
+    branchId: 'me',
+    semester: 2,
+    credits: 2
+  },
+
+    // civil engineering subjects 
+    {
+    id: 'cse-s1-math',
+    name: 'Engineering Mathematics-1',
+    code: '1FY2-01',
+    branchId: 'ce',
+    semester: 1,
+    credits: 4
+  },
+  {
+    id: 'cse-s1-physics',
+    name: 'Engineering Physics',
+    code: '1FY2-02',
+    branchId: 'ce',
+    semester: 1,
+    credits: 4
+  },
+  {
+    id: 'cse-s1-csk',
+    name: 'Communication Skills',
+    code: '1FY1-04',
+    branchId: 'ce',
+    semester: 1,
+    credits: 2
+  },{
+    id: 'cse-s1-mech',
+    name: 'Mechanical Engineering',
+    code: '2FY3-07',
+    branchId: 'ce',
+    semester: 1,
+    credits: 2
+  },{
+    id: 'cse-s1-electrical',
+    name: 'Electrical Engineering ',
+    code: '1FY3-08',
+    branchId: 'ce',
+    semester: 1,
+    credits: 2
+  },
+  // 2nd semester subjects
+  {
+    id: 'cse-s2-math',
+    name: 'Engineering Mathematics',
+    code: '2FY2-01',
+    branchId: 'ce',
+    semester: 2,
+    credits: 4
+  },
+  {
+    id: 'cse-s2-chem',
+    name: 'Engineering Chemistry',
+    code: '2FY2-03',
+    branchId: 'ce',
+    semester: 2,
+    credits: 4
+  },
+  {
+    id: 'cse-s2-hv',
+    name: 'Human Values',
+    code: '1FY1-05',
+    branchId: 'ce',
+    semester: 2,
+    credits: 2
+  },
+  {
+    id: 'cse-s2-civil',
+    name: 'Basic Civil Engineering',
+    code: '1FY3-09',
+    branchId: 'ce',
+    semester: 2,
+    credits: 2
+  },
+  
+  {
+    id: 'cse-s2-pps',
+    name: 'Problem Solving For Programming',
+    code: '2FY3-06',
+    branchId: 'ce',
     semester: 2,
     credits: 2
   },
