@@ -176,6 +176,15 @@ const Assignments: React.FC = () => {
                   type: 'theory'
                 },
                 {
+                  id: 'phy1-a1',
+                  title: 'Engineering Physics Unit 6 Notes',
+                  description: 'Comprehensive study material for Engineering Physics Unit 6',
+                  documentUrl: 'https://drive.google.com/file/d/1DbdLYuzoLUbjMR_AKoEQ6ZsYOdAbn0AT/view?usp=sharing',
+                  uploadDate: '2024-01-18',
+                  fileSize: '4.5 MB',
+                  type: 'theory'
+                },
+                {
                   id: 'chem1-a2',
                   title: 'Engineering Physics Lab Manual',
                   description: 'Laboratory experiments and procedures',
