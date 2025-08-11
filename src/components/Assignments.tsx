@@ -170,7 +170,7 @@ const Assignments: React.FC = () => {
                   id: 'phy1-a1',
                   title: 'Engineering Physics Unit 5 Notes',
                   description: 'Comprehensive study material for Engineering Physics Unit 5',
-                  documentUrl: 'https://drive.google.com/file/d/13zjpU57j5qPC9puTU12QY0rJQA7BYMs-/view?usp=sharing',
+                  documentUrl: 'https://drive.google.com/file/d/1nqkIv2fPTLzode2bTNND-djot2f0gaIS/view?usp=sharing',
                   uploadDate: '2024-01-18',
                   fileSize: '24 MB',
                   type: 'theory'
