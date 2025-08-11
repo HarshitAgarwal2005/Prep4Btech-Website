@@ -131,12 +131,12 @@ const Assignments: React.FC = () => {
               code: 'PHY (1FY2-02)',
               assignments: [
                 {
-                  id: 'chem1-a1',
+                  id: 'phy1-a1',
                   title: 'Engineering Physics Unit 1 Notes',
                   description: 'Comprehensive study material for Engineering Physics Unit 1',
                   documentUrl: 'https://drive.google.com/file/d/13zjpU57j5qPC9puTU12QY0rJQA7BYMs-/view?usp=sharing',
                   uploadDate: '2024-01-18',
-                  fileSize: '3.1 MB',
+                  fileSize: '24 MB',
                   type: 'theory'
                 },
                 {
