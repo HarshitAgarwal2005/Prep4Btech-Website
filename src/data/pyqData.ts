@@ -1159,7 +1159,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
   {
-    id: 'paper-1',
+    id: 'paper-2',
     title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-2E3203-JUN-2025',
     year: 2025,
     subjectId: 'cse-s1-physics',
@@ -1168,7 +1168,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
   {
-    id: 'paper-1',
+    id: 'paper-3',
     title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-2E3203-2024',
     year: 2024,
     subjectId: 'cse-s1-physics',
@@ -1177,7 +1177,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
   {
-    id: 'paper-1',
+    id: 'paper-4',
     title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-2E3203-2024',
     year: 2024,
     subjectId: 'cse-s1-physics',
@@ -1186,7 +1186,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
    {
-    id: 'paper-1',
+    id: 'paper-5',
     title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-11N502-MAY-2023',
     year: 2023,
     subjectId: 'cse-s1-physics',
@@ -1195,7 +1195,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
      {
-    id: 'paper-1',
+    id: 'paper-6',
     title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-2E3203-2023',
     year: 2023,
     subjectId: 'cse-s1-physics',
@@ -1204,7 +1204,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
    {
-    id: 'paper-1',
+    id: 'paper-7',
     title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-11N502-JUL-2022',
     year: 2022,
     subjectId: 'cse-s1-physics',
@@ -1213,7 +1213,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
    {
-    id: 'paper-1',
+    id: 'paper-8',
     title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-1E3102-MAY-2022',
     year: 2022,
     subjectId: 'cse-s1-physics',
@@ -1222,7 +1222,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
    {
-    id: 'paper-1',
+    id: 'paper-9',
     title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-2E3203-JUL-2022',
     year: 2022,
     subjectId: 'cse-s1-physics',
@@ -1231,7 +1231,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
   {
-    id: 'paper-1',
+    id: 'paper-10',
     title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-1E2402',
     year: 2022,
     subjectId: 'cse-s1-physics',
@@ -1253,7 +1253,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
   {
-    id: 'paper-1',
+    id: 'paper-2',
     title: 'BTECH-1-SEM-COMMUNICATION-SKILLS-1E3104-2024',
     year: 2024,
     subjectId: 'cse-s1-csk',
