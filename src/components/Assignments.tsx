@@ -143,7 +143,7 @@ const Assignments: React.FC = () => {
                   id: 'phy1-a1',
                   title: 'Engineering Physics Unit 2 Notes',
                   description: 'Unit 2: Quantum Mechanics',
-                  documentUrl: 'https://drive.google.com/file/d/1fm5dJNGThyHOzIJcGP0edD7B1yYu865D/view?usp=sharing',
+                  documentUrl: 'https://drive.google.com/file/d/1UjMPjD1c4g8BnhPjyuefzZn1jYLe9cnv/view?usp=sharing',
                   uploadDate: '2024-01-18',
                   fileSize: '9.5 MB',
                   type: 'theory'
