@@ -143,7 +143,7 @@ const Assignments: React.FC = () => {
                   id: 'phy1-a1',
                   title: 'Engineering Physics Unit 2 Notes',
                   description: 'Comprehensive study material for Engineering Physics Unit 2',
-                  documentUrl: 'https://drive.google.com/file/d/13zjpU57j5qPC9puTU12QY0rJQA7BYMs-/view?usp=sharing',
+                  documentUrl: 'https://drive.google.com/file/d/1fm5dJNGThyHOzIJcGP0edD7B1yYu865D/view?usp=sharing',
                   uploadDate: '2024-01-18',
                   fileSize: '24 MB',
                   type: 'theory'
@@ -156,11 +156,12 @@ const Assignments: React.FC = () => {
                   uploadDate: '2024-01-18',
                   fileSize: '3.8 MB',
                   type: 'theory'
-                },{
+                },
+                {
                   id: 'phy1-a1',
                   title: 'Engineering Physics Unit 4 Notes',
                   description: 'Comprehensive study material for Engineering Physics Unit 4',
-                  documentUrl: 'https://drive.google.com/file/d/13zjpU57j5qPC9puTU12QY0rJQA7BYMs-/view?usp=sharing',
+                  documentUrl: '',
                   uploadDate: '2024-01-18',
                   fileSize: '24 MB',
                   type: 'theory'
