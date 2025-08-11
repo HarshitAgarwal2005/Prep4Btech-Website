@@ -83,7 +83,7 @@ export interface PYQSubject {
   id: string;
   name: string;
   code: string;
-  branchId: string[];
+  branchId[]: string;
   semester: number;
   credits: number;
 }
