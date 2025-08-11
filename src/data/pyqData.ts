@@ -1262,7 +1262,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
    {
-    id: 'paper-1',
+    id: 'paper-3',
     title: 'BTECH-2-SEM-COMMUNICATION-SKILLS-2E3205-2024',
     year: 2024,
     subjectId: 'cse-s1-csk',
@@ -1271,7 +1271,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
    {
-    id: 'paper-1',
+    id: 'paper-4',
     title: 'BTECH-1-SEM-COMMUNICATION-SKILLS-1E3104-2023',
     year: 2023,
     subjectId: 'cse-s1-csk',
@@ -1280,7 +1280,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
    {
-    id: 'paper-1',
+    id: 'paper-5',
     title: 'BTECH-2-SEM-COMMUNICATION-SKILL-21N504-2023',
     year: 2023,
     subjectId: 'cse-s1-csk',
@@ -1289,7 +1289,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
    {
-    id: 'paper-1',
+    id: 'paper-6',
     title: 'BTECH-1-SEM-COMMUNICATION-SKILLS-1E3104-MAY-2022',
     year: 2022,
     subjectId: 'cse-s1-csk',
@@ -1298,7 +1298,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
    {
-    id: 'paper-1',
+    id: 'paper-7',
     title: 'BTECH-2-SEM-COMMUNICATION-SKILLS-2E3205-JUL-2022',
     year: 2022,
     subjectId: 'cse-s1-csk',
@@ -1318,7 +1318,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
   {
-    id: 'paper-1',
+    id: 'paper-2',
     title: 'BTECH-2-SEM-BASIC-MECHANICAL-ENGINEERING-2E3206-JUN-2025',
     year: 2025,
     subjectId: 'cse-s1-mech',
@@ -1327,7 +1327,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
    {
-    id: 'paper-1',
+    id: 'paper-3',
     title: 'BTECH-1-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-2024',
     year: 2024,
     subjectId: 'cse-s1-mech',
@@ -1336,7 +1336,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
   {
-    id: 'paper-1',
+    id: 'paper-4',
     title: 'BTECH-2-SEM-BASIC-MECHANICAL-ENGINEERING-2E3206-2024',
     id: 'paper-3',
     title: 'Engineering Mathematics-1 - Previous Year Questions 2024',
@@ -1347,7 +1347,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
   {
-    id: 'paper-1',
+    id: 'paper-5',
     title: 'BTECH-1-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-2023',
     year: 2023,
     subjectId: 'cse-s1-mech',
@@ -1355,7 +1355,7 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-06-11',
     fileSize: '2.5 MB'
   },
-  {id: 'paper-10',
+  {id: 'paper-6',
     title: 'BTECH-2-SEM-BASIC-MECHANICAL-ENGINEERING-2E3206-2023',
     year: 2023,
     subjectId: 'cse-s1-mech',
@@ -1364,7 +1364,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
   {
-    id: 'paper-10',
+    id: 'paper-7',
     title: 'BTECH-1-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-MAY-2022',
     year: 2022,
     subjectId: 'cse-s1-mech',
@@ -1373,7 +1373,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
   {
-    id: 'paper-10',
+    id: 'paper-8',
     title: 'BTECH-2-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-2022',
     year: 2022,
     subjectId: 'cse-s1-mech',
@@ -1394,7 +1394,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
   {
-    id: 'paper-1',
+    id: 'paper-2',
     title: 'BTECH-2-SEM-BASIC-ELECTRICAL-ENGINEERING-2E3209-2024',
     year: 2024,
     subjectId: 'cse-s1-electrical',
@@ -1403,7 +1403,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
   {
-    id: 'paper-1',
+    id: 'paper-3',
     title: 'BTECH-1-SEM-BASIC-ELECTRICAL-ENGINEERING-1E3108-2023',
     year: 2023,
     subjectId: 'cse-s1-electrical',
@@ -1412,7 +1412,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
     {
-    id: 'paper-1',
+    id: 'paper-4',
     title: 'BTECH-2-SEM-BASIC-ELECTRICAL-ENGINEERING-1E3108-2023',
     year: 2023,
     subjectId: 'cse-s1-electrical',
@@ -1421,7 +1421,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
    {
-    id: 'paper-1',
+    id: 'paper-5',
     title: 'BTECH-1-SEM-BASIC-ELECTRICAL-ENGINEERING-11N507-JUL-2022',
     year: 2022,
     subjectId: 'cse-s1-electrical',
@@ -1430,7 +1430,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
    {
-    id: 'paper-1',
+    id: 'paper-6',
     title: 'BTECH-1-SEM-BASIC-ELECTRICAL-ENGINEERING-1E3108-MAY-2022',
     year: 2022,
     subjectId: 'cse-s1-electrical',
@@ -1439,7 +1439,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.5 MB'
   },
   {
-    id: 'paper-1',
+    id: 'paper-7',
     title: 'BTECH-2-SEM-BASIC-ELECTRICAL-ENGINEERING-21N507-2022',
     year: 2022,
     subjectId: 'cse-s1-electrical',
@@ -1450,7 +1450,7 @@ export const pyqPapers: PYQPaper[] = [
   //
   // advanced mathematics papers -II
   {
-    id: 'paper-2',
+    id: 'paper-1',
     title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2025',
     year: 2025,
     subjectId: 'cse-s2-math',
@@ -1459,7 +1459,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.3 MB'
   },
    {
-    id: 'paper-4',
+    id: 'paper-2',
     title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2024',
     year: 2024,
     subjectId: 'cse-s2-math',
@@ -1468,7 +1468,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.3 MB'
   },
    {
-    id: 'paper-6',
+    id: 'paper-3',
     title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2024',
     year: 2023,
     subjectId: 'cse-s2-math',
@@ -1477,7 +1477,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.3 MB'
   },
    {
-    id: 'paper-8',
+    id: 'paper-4',
     title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-2022',
     year: 2022,
     subjectId: 'cse-s2-math',
@@ -1486,7 +1486,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.3 MB'
   },
    {
-    id: 'paper-9',
+    id: 'paper-5',
     title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E2401',
     year: 2021,
     subjectId: 'cse-s2-math',
@@ -1497,7 +1497,7 @@ export const pyqPapers: PYQPaper[] = [
   //
   // chemistry engineering papers
   {
-    id: 'paper-4',
+    id: 'paper-1',
     title: 'BTECH-1-SEM-ENGINEERING-CHEMISTRY-1E3103-2025',
     year: 2025,
     subjectId: 'cse-s2-chem',
@@ -1506,7 +1506,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '3.2 MB'
   },
   {
-    id: 'paper-5',
+    id: 'paper-2',
     title: 'BTECH-1-SEM-ENGINEERING-CHEMISTRY-1E3103-2024',
     year: 2024,
     subjectId: 'cse-s2-chem',
@@ -1515,7 +1515,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '3.0 MB'
   },
   {
-    id: 'paper-5',
+    id: 'paper-3',
     title: 'BTECH-2-SEM-ENGINEERING-CHEMISTRY-2E3202-2024',
     year: 2024,
     subjectId: 'cse-s2-chem',
@@ -1533,7 +1533,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '3.0 MB'
   },
    {
-    id: 'paper-5',
+    id: 'paper-4',
     title: 'BTECH-2-SEM-ENGINEERING-CHEMISTRY-2E3202-2023',
     year: 2023,
     subjectId: 'cse-s2-chem',
@@ -1551,7 +1551,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '3.0 MB'
   },
     {
-    id: 'paper-5',
+    id: 'paper-6',
     title: 'BTECH-1-SEM-ENGINEERING-CHEMISTRY-1E3103-MAY-2022',
     year: 2022,
     subjectId: 'cse-s2-chem',
@@ -1562,7 +1562,7 @@ export const pyqPapers: PYQPaper[] = [
   //
  // human values papers
   {
-    id: 'paper-6',
+    id: 'paper-1',
     title: 'BTECH-1-SEM-ENGINEERING-HUMAN VALUES-1E3103-2024',
     year: 2024,
     subjectId: 'cse-s2-hv',
@@ -1572,7 +1572,7 @@ export const pyqPapers: PYQPaper[] = [
   },
   // Communication Skills Papers
   {
-    id: 'paper-6',
+    id: 'paper-1',
     title: 'BTECH-2-SEM-HUMAN-VALUES-2E3204-2024',
     year: 2024,
     subjectId: 'cse-s2-hv',
@@ -1581,7 +1581,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.8 MB'
   },
    {
-    id: 'paper-6',
+    id: 'paper-2',
     title: 'BTECH-1-SEM-HUMAN-VALUES-1E3105-2023',
     year: 2023,
     subjectId: 'cse-s2-hv',
@@ -1590,7 +1590,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.8 MB'
   },
    {
-    id: 'paper-6',
+    id: 'paper-3',
     title: 'BTECH-2-SEM-HUMAN-VALUES-2E3204-2023',
     year: 2023,
     subjectId: 'cse-s2-hv',
@@ -1599,7 +1599,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.8 MB'
   },
      {
-    id: 'paper-6',
+    id: 'paper-4',
     title: 'BTECH-1-SEM-HUMAN-VALUES-1E3105-MAY-2022',
     year: 2022,
     subjectId: 'cse-s2-hv',
@@ -1608,7 +1608,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.8 MB'
   },
    {
-    id: 'paper-6',
+    id: 'paper-5',
     title: 'BTECH-2-SEM-HUMAN-VALUES-1E3105-2022',
     year: 2022,
     subjectId: 'cse-s2-hv',
@@ -1628,7 +1628,7 @@ export const pyqPapers: PYQPaper[] = [
   //
    // basic civil engineering papers   
   {
-    id: 'paper-7',
+    id: 'paper-1',
     title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2025',
     year: 2025,
     subjectId: 'cse-s2-civil',
@@ -1637,7 +1637,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.6 MB'
   },
     {
-    id: 'paper-7',
+    id: 'paper-2',
     title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2024',
     year: 2024,
     subjectId: 'cse-s2-civil',
@@ -1646,7 +1646,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.6 MB'
   },
   {
-    id: 'paper-7',
+    id: 'paper-3',
     title: 'BTECH-2-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2024',
     year: 2024,
     subjectId: 'cse-s2-civil',
@@ -1655,18 +1655,16 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.6 MB'
   },
    {
-    id: 'paper-7',
+    id: 'paper-4',
     title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2023',
     year: 2023,
     subjectId: 'cse-s2-civil',
     downloadUrl: 'https://drive.google.com/file/d/11-SfTD2_xDiKFin8LztrJpZ2hhgDuJSm/view?usp=sharing',
-    subjectId: 'cse-s1-comm',
-    downloadUrl: 'https://drive.google.com/file/d/15d7p-NnMmZY8ukpH-xq2kxzI8HcEytqO/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '2.6 MB'
   },
   {
-    id: 'paper-7',
+    id: 'paper-5',
     title: 'BTECH-2-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2023',
     year: 2023,
     subjectId: 'cse-s2-civil',
@@ -1675,7 +1673,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.6 MB'
   },
      {
-    id: 'paper-7',
+    id: 'paper-6',
     title: 'BTECH-1-SEM-INTRODUCTION-TO-BUILT-ENVIRONMENT-11N506',
     year: 2022,
     subjectId: 'cse-s2-civil',
@@ -1693,7 +1691,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.6 MB'
   },
    {
-    id: 'paper-7',
+    id: 'paper-8',
     title: 'BTECH-2-SEM-BASIC-CIVIL-ENGINEERING-2E3208-JUL-2022',
     year: 2022,
     subjectId: 'cse-s2-civil',
@@ -1702,7 +1700,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '2.6 MB'
   },
   {
-    id: 'paper-7',
+    id: 'paper-9',
     title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E2409',
     year: 2022,
     subjectId: 'cse-s2-civil',
@@ -1712,9 +1710,9 @@ export const pyqPapers: PYQPaper[] = [
   },
  //
   // problem solving papers Papers
-  // Basic Mechanical Engineering Papers
+  
   {
-    id: 'paper-8',
+    id: 'paper-1',
     title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-2025',
     year: 2025,
     subjectId: 'cse-s2-pps',
@@ -1723,7 +1721,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '4.2 MB'
   },
      {
-    id: 'paper-8',
+    id: 'paper-2',
     title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-2024',
     year: 2024,
     subjectId: 'cse-s2-pps',
@@ -1732,7 +1730,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '4.2 MB'
   },
     {
-    id: 'paper-8',
+    id: 'paper-3',
     title: 'BTECH-2-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-2E3207-2024.pdf',
     year: 2024,
     subjectId: 'cse-s2-pps',
@@ -1741,7 +1739,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '4.2 MB'
   },
   {
-    id: 'paper-8',
+    id: 'paper-4',
     title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-2023',
     year: 2023,
     subjectId: 'cse-s2-pps',
@@ -1750,7 +1748,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '4.2 MB'
   },
    {
-    id: 'paper-8',
+    id: 'paper-5',
     title: 'BTECH-2-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-MAY-2023',
     year: 2023,
     subjectId: 'cse-s2-pps',
@@ -1759,7 +1757,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '4.2 MB'
   },
     {
-    id: 'paper-8',
+    id: 'paper-6',
     title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-MAY-2022',
     year: 2022,
     subjectId: 'cse-s2-pps',
@@ -1767,9 +1765,8 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
-  // Basic Civil Engineering Papers
   {
-    id: 'paper-8',
+    id: 'paper-7',
     title: 'BTECH-2-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-2E3207-JUL-2022',
     year: 2022,
     subjectId: 'cse-s2-pps',
