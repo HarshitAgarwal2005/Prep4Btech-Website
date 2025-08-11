@@ -151,7 +151,7 @@ const Assignments: React.FC = () => {
                 {
                   id: 'phy1-a1',
                   title: 'Engineering Physics Unit 3 Notes',
-                  description: 'Comprehensive study material for Engineering Physics Unit 3',
+                  description: 'Unit 3: Coherence and Optical fibre',
                   documentUrl: 'https://drive.google.com/file/d/1uxk8aZpSWzJ9f-WfivGXU1dTibfcyb4a/view?usp=sharing',
                   uploadDate: '2024-01-18',
                   fileSize: '3.8 MB',
