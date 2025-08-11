@@ -154,7 +154,7 @@ const Assignments: React.FC = () => {
                   description: 'Comprehensive study material for Engineering Physics Unit 3',
                   documentUrl: 'https://drive.google.com/file/d/1uxk8aZpSWzJ9f-WfivGXU1dTibfcyb4a/view?usp=sharing',
                   uploadDate: '2024-01-18',
-                  fileSize: '24 MB',
+                  fileSize: '3.8 MB',
                   type: 'theory'
                 },{
                   id: 'phy1-a1',
