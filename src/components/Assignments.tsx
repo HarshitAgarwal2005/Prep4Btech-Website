@@ -132,8 +132,8 @@ const Assignments: React.FC = () => {
               assignments: [
                 {
                   id: 'chem1-a1',
-                  title: 'Engineering Chemistry Complete Notes',
-                  description: 'Comprehensive study material for Engineering Chemistry',
+                  title: 'Engineering Physics Unit 1 Notes',
+                  description: 'Comprehensive study material for Engineering Physics Unit 1',
                   documentUrl: 'https://drive.google.com/file/d/15yxzmBCTso2s9enawz7KNSdj-5EakqUf/view?usp=sharing',
                   uploadDate: '2024-01-18',
                   fileSize: '3.1 MB',
