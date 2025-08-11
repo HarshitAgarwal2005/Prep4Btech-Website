@@ -145,7 +145,7 @@ const Assignments: React.FC = () => {
                   description: 'Comprehensive study material for Engineering Physics Unit 2',
                   documentUrl: 'https://drive.google.com/file/d/1fm5dJNGThyHOzIJcGP0edD7B1yYu865D/view?usp=sharing',
                   uploadDate: '2024-01-18',
-                  fileSize: '24 MB',
+                  fileSize: '9.5 MB',
                   type: 'theory'
                 },
                 {
@@ -163,7 +163,7 @@ const Assignments: React.FC = () => {
                   description: 'Comprehensive study material for Engineering Physics Unit 4',
                   documentUrl: 'https://drive.google.com/file/d/1fm5dJNGThyHOzIJcGP0edD7B1yYu865D/view?usp=sharing',
                   uploadDate: '2024-01-18',
-                  fileSize: '24 MB',
+                  fileSize: '8.6 MB',
                   type: 'theory'
                 },
                 {
@@ -172,7 +172,7 @@ const Assignments: React.FC = () => {
                   description: 'Comprehensive study material for Engineering Physics Unit 5',
                   documentUrl: 'https://drive.google.com/file/d/1nqkIv2fPTLzode2bTNND-djot2f0gaIS/view?usp=sharing',
                   uploadDate: '2024-01-18',
-                  fileSize: '24 MB',
+                  fileSize: '8.2 MB',
                   type: 'theory'
                 },
                 {
