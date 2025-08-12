@@ -1981,7 +1981,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-CS-IT-5-SEM-HUMAN-COMPUTER-INTERACTION-5E1757-2024',
     year: 2024,
     subjectId: 'indian conustitution',
-' https://drive.google.com/file/d/1Qzk28atjjfEMKFp73BWlQp8xbw4r3m44/view?usp=sharing',
+'https://drive.google.com/file/d/1Qzk28atjjfEMKFp73BWlQp8xbw4r3m44/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
