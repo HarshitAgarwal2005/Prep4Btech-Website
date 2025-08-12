@@ -1783,8 +1783,232 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
-  //
-
+  // 3rd semester papers 
+   {
+    id: 'paper-8',
+    title: 'BTECH-3-SEM-ADVANCE-ENGINEERING-MATHEMATICS-1-3E1206-FEB-2023',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1hKzah64acKuKcfj-rcMVd_929bbvQeE2/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-3-SEM-ADVANCE-ENGINEERING-MATHEMATICS-1-3E1206-FEB-2024',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1xMRd_4TCaLXWIOSpBxk_mjaxT5nkLRO7/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-3-SEM-ADVANCE-ENGINEERING-MATHEMATICS-1-3E1206-MAY-2022',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1gKvYVf-HbE0LcCwQ8fRBedyqQojM2Ttj/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-3-SEM-MANAGERIAL-ECONOMICS-AND-FINANCIAL-ACCOUNTING-3E1200-FEB-2023',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1A6XIu6Df0Ddy8f5opbyAmhB9w8m1vMRF/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+    {
+    id: 'paper-8',
+    title: 'BTECH-3-SEM-MANAGERIAL-ECONOMICS-AND-FINANCIAL-ACCOUNTING-3E1200-FEB-2024',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1CF7ieHpCAM1iLUgmfjFijfDN-0MRUj4S/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-3-SEM-MANAGERIAL-ECONOMICS-AND-FINANCIAL-ACCOUNTING-3E1200-MAY-2022',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1212qi8gkURww20h8yAnQ2hu-EDVQfAgK/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-3-SEM-TECHNICAL-COMMUNICATION-3E1250-FEB-2023',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1rxPPtqw2lxlcp4CrLu4mJ5rhhJ9X1v-u/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-3-SEM-TECHNICAL-COMMUNICATION-3E1250-FEB-2024',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1arDWIKKwreSEVvuXfzcr-uv_PPPln7s7/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-3-SEM-TECHNICAL-COMMUNICATION-3E1250-MAY-2022',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1UbvcaLPXq0GANZM72LcKQkayeFFR8sVu/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-AID-CAI-CS-IT-3-SEM-ADVANCED-ENGINEERING-MATHEMATICS-3E1201-MAY-2022',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1vpxcVKBJC9kdranpLGbkJjg98u6acOsX/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-AID-CAI-CS-IT-3-SEM-DATA-STRUCTURES-AND-ALGORITHMS-3E1202-MAY-2022',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1_LIorNaLv51NMh1J9llYuwr35iyjJAB9/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-AID-CAI-CS-IT-3-SEM-DIGITAL-ELECTRONICS-3E1203-MAY-2022',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1l12sn14G33xaCNTokIt0glaU8w814oJQ/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-3-SEM-MICROPROCESSOR-AND-MICROCONTROLLER-CSL204-2023',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1IvXoz2pRqAn9x1ZIZVEfD5opWJJZfxrx/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-ADVANCED-ENGINEERING-MATHEMATICS-3E1201-FEB-2024',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1wEJfMxcoWV-T8jGCoVDS7T5td4d0QPkw/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-ADVANCED-ENGINEERING-MATHEMATICS-3E1201-JAN-2025',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/19q8U9kT9MR6XEGjWmvvB4IegAzRRaovk/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+    {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-DATA-STRUCTURE-AND-ALGORITHMS-DEC-2023',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1-eJTT_Zzxy4Aky0tKTvTak7pWiCYYGEV/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-DATA-STRUCTURES-AND-ALGORITHMS-3E1202-FEB-2023',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1587QwHrB_CyJ8iS8IX2t6HCLznfWVP85/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+ {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-DATA-STRUCTURES-AND-ALGORITHMS-3E1202-FEB-2024',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1hdxcuaFDLzvw0J7s8JnG4qXtLlv6gYSK/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-DIGITAL-ELECTRONICS-3E1203-FEB-2023',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/10M7DlubI13RHcTZxjGD8oIrxHU4K6sot/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-DIGITAL-ELECTRONICS-3E1203-FEB-2024',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1WAaY0Mbae0D3BmYD1DCyw7EaXWnGTdvr/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+{
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-DIGITAL-ELECTRONICS-3E1203-JAN-2025',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1kTQK2lE6kuM-Fau7660wWpwUFtacwlZW/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+{
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-DIGITAL-ELECTRONICS-31N0402-2024',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1UGqmkiBuTNHokts2zAr1LknrrHKWuUZ_/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-DISCRETE-MATHEMATICAL-STRUCTURES-DEC-2023',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/11rmNcAzpIVZAiczeEX8pS23Pegz7TXEd/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-OBJECT-ORIENTED-PROGRAMMING-3E1204-JAN-2025',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1M62-Hczb_c7CbvlSXNrcwXm77Up7LlLe/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-EE-EC-EIC-CS-IT-3-SEM-GENERAL-STUDIES-HUL201-2024',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1l_IaO8KKE7VNR8Vsmj8UM5rf_OJz9b1u/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
 
   // 5th semester papers
     {
