@@ -2465,7 +2465,97 @@ downloadUrl:'https://drive.google.com/file/d/18T3XqZhNveLmsmB1JbluynENu5vuVkQK/v
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
-  
+  // 7th semester papers 
+   {
+    id: 'paper-1',
+    title: 'BTECH-AI-EC-EI-7-SEM-DIGITAL-SIGNAL-PROCESSING-7E7072-MAR-2021',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1Tc_dRV8ghPMS-cf2A1uHe_0GB7np9rMC/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-7-SEM-CLOUD-COMPUTING-7E7031-MAR-2021',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1HPCjCddlujbjkUe-15nBYjoay9oeGIpK/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-7-SEM-INTERNET-OF-THINGS-7E1721-JAN-2022',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/11li5UtJH7wEut1rkoZZH_Kc2HXJaWYkO/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-7-SEM-INTERNET-OF-THINGS-7E1721-JAN-2023',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/124xWFmn5Lr4RDeryMwxJEKSao5OTE0F-/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-7-SEM-INTERNET-OF-THINGS-7E1721-MAR-2021',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1DaysIBSRyUVLzfHc_uqPCMe57yUZA5qr/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-7-SEM-QUALITY-MANAGEMENT-7E1722-JAN-2023',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/122a700u0iRo3FIlS9_16tNngUYhoA_LJ/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-7-SEM-INFORMATION-SYSTEM-SECURITY-7E7032-MAR-2021',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1KY-55Rjfp-0yJ9IuUlrOO9ZRXUCuTYta/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-IT-7-SEM-ADVANCE-DATA-BASE-MANAGEMENT-SYSTEMS-7E7056-MAR-2022',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1SoCYNcqRGvvlnfqMDcueqSAkqLvywtMB/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-IT-7-SEM-BIG-DATA-ANALYTICS-7E1724-MAR-2021',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1_2HeZLHtHwq-J8Bf9k0d0SyyGBI2TlLm/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-IT-7-SEM-INTERNET-PROGRAMMING-7E7052-MAR-2021',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1B444tCVhn1A3uprmWhRzzIbzDRrO5MYU/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
   
   
 
