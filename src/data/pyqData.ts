@@ -2141,7 +2141,107 @@ downloadUrl:'https://drive.google.com/file/d/1qy3J7PQgzNZKpyxhx6a9nYFq4ZGIBtXN/v
   
   //6th semester papers
 
-
+ {
+    id: 'paper-1',
+    title: 'BTECH-AID-CAI-6-SEM-NATURAL-LANGUAGE-PROCESSING-6E7108-2025',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1IsClO4LEczmMsVF8rUyRCO861lGAok1d/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CAI-CS-IT-AID-6-SEM-CLOUD-COMPUTING-6E7106-JUL-2023',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1iz599wPwyoYii40SRsyXKjpJmj5ojtKQ/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CAI-CS-IT-AID-6-SEM-INFORMATION-SECURITY-SYSTEMS-6E7103-JUL-2023',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1pHANYGFiqCveI8LLVwXNWw_9CcSJnxvG/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+{
+    id: 'paper-1',
+    title: 'BTECH-CAI-CS-IT-AID-6-SEM-PRINCIPLES-OF-ARTIFICIAL-INTELLIGENCE-6E7105-JUL-2023',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/19uKvFTvDp8DpJWnIMl4RQ3tXn1AcQU5F/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CAI-CS-IT-AID-CAI-6-SEM-MACHINE-LEARNING-6E7102-JUL-2023',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1CI8AAgCa0lQFq5SD80EK32VWDeYe_VUy/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-6-SEM-CLOUD-COMPUTING-6E1560-JUN-2022',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1NL7Pum7ac-tJzpT24hvo4mVAYrXQTvvR/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-6-SEM-BLOCK-CHAIN-AND-CYBER-SECURITY-6E7193-2025',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1dT7j5vAuwErsLB2n33A40235o41kZ1e7/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-6-SEM-CYBER-FORENSIC-6E7194-MAY-2025',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1D20l_omlTUsgLXwqJhoc5uSMrlcLNFvk/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-ARTIFICIAL-INTELLIGENCE-610405-AUG-2023',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1ufC-466Z1Sd7yU1gHLC2GDjSWQcf1drJ/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-CLOUD-COMPUTING-6E7106-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1afZv3jBDzk5MZbZYNF5CPE6JWHJuU-u-/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-COMPUTER-ARCHITECTURE-AND-ORGANIZATION-6E7104-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1bT_ew6B20Y8oNUu1vF97GWJPPbtKybMj/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  
+  
 
   
 ];
