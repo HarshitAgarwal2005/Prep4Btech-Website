@@ -1,5 +1,4 @@
-import { Branch, PYQSubject, PYQPaper } from '../types';
-
+import {course, Branch, PYQSubject, PYQPaper } from '../types';
 // export const courses: Course[] = [
 //   {
 //     id: 'btech',
