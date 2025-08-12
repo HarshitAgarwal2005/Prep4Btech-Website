@@ -2556,7 +2556,52 @@ downloadUrl:'https://drive.google.com/file/d/1B444tCVhn1A3uprmWhRzzIbzDRrO5MYU/v
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
-  
+  // 8th semester papers 
+   {
+    id: 'paper-1',
+    title: 'BTECH-8-SEM-DISASTER-MANAGEMENT-8E1860-JUN-2023',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1jJ96jgP23J6H4YlFXzp8015Tigu3MD4I/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-8-SEM-BIG-DATA-ANALYTICS-8E1809-JUN-2022',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/14HVoqMlufnGh0yVGRYQnenqeXqWw_T9_/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-8-SEM-BIG-DATA-ANALYTICS-8E1809-JUN-2023',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/18w-q5V0WwkKZy01tl6uQUS-3lm9ONdGg/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-8-SEM-MOBILE-COMPUTING-8E8161-JUN-2022',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1Mat0QQdMnMG-vCmECa8h27-c37WBc9rX/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-IT-8-SEM-INTERNET-OF-THINGS-8E1810-JUN-2023',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1zZETHIQr9CBMpidFrUhkf-_J4mOqqVW6/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
   
 
   
