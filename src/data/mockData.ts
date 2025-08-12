@@ -1,4 +1,4 @@
-import { Subject, Assignment, Book, Project } from '../types';
+import {  Book, Project } from '../types';
 
 export const subjects: Subject[] = [
   {
