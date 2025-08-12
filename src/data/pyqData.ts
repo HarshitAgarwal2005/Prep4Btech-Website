@@ -1981,7 +1981,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-CS-IT-5-SEM-HUMAN-COMPUTER-INTERACTION-5E1757-2024',
     year: 2024,
     subjectId: 'indian conustitution',
-'https://drive.google.com/file/d/1Qzk28atjjfEMKFp73BWlQp8xbw4r3m44/view?usp=sharing',
+downloadUrl:'https://drive.google.com/file/d/1Qzk28atjjfEMKFp73BWlQp8xbw4r3m44/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
@@ -1990,7 +1990,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-CS-IT-5-SEM-HUMAN-COMPUTER-INTERACTION-5E1757-FEB-2024',
     year: 2024,
     subjectId: 'indian conustitution',
-'https://drive.google.com/file/d/1Q3y1XCIvlELpFfMVEiyw1TcrHOOpYNjE/view?usp=sharing',
+downloadUrl:'https://drive.google.com/file/d/1Q3y1XCIvlELpFfMVEiyw1TcrHOOpYNjE/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
@@ -1999,7 +1999,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-CS-IT-5-SEM-INFORMATION-THEORY-AND-CODING-5E1751-2024',
     year: 2024,
     subjectId: 'indian conustitution',
-'https://drive.google.com/file/d/1a0k2hgYeZRjjthwMPos9d_QNpbNtfv99/view?usp=sharing',
+downloadUrl:'https://drive.google.com/file/d/1a0k2hgYeZRjjthwMPos9d_QNpbNtfv99/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
@@ -2008,7 +2008,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-CS-IT-5-SEM-INFORMATION-THEORY-AND-CODING-5E1751-FEB-2024',
     year: 2024,
     subjectId: 'indian conustitution',
-'https://drive.google.com/file/d/1L54IdBmRkeEvfVKjjk0dx9WKU4mz5Yoz/view?usp=sharing',
+downloadUrl:'https://drive.google.com/file/d/1L54IdBmRkeEvfVKjjk0dx9WKU4mz5Yoz/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
@@ -2017,7 +2017,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-CS-IT-5-SEM-OPERATING-SYSTEM-5E1353-JAN-2022',
     year: 2024,
     subjectId: 'indian conustitution',
-'https://drive.google.com/file/d/1R8Z_aqAF-3djWj_sKiKkHOzGV3R4mjRt/view?usp=sharing',
+ downloadUrl:'https://drive.google.com/file/d/1R8Z_aqAF-3djWj_sKiKkHOzGV3R4mjRt/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
@@ -2026,7 +2026,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-CS-IT-5-SEM-OPERATING-SYSTEM-5E1353-MAR-2021',
     year: 2024,
     subjectId: 'indian conustitution',
-'https://drive.google.com/file/d/1jC84JsLPiqxtGzqvsXRa6Otb5CjI8XiB/view?usp=sharing',
+downloadUrl:'https://drive.google.com/file/d/1jC84JsLPiqxtGzqvsXRa6Otb5CjI8XiB/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
@@ -2035,7 +2035,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-CS-IT-5-SEM-OPERATING-SYSTEM-5E1753-2024',
     year: 2024,
     subjectId: 'indian conustitution',
-'https://drive.google.com/file/d/1jfCnJM9OH-xJ6fTmDNa0P_UCnmgQVYrt/view?usp=sharing',
+ downloadUrl:'https://drive.google.com/file/d/1jfCnJM9OH-xJ6fTmDNa0P_UCnmgQVYrt/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
@@ -2044,7 +2044,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-CS-IT-5-SEM-OPERATING-SYSTEM-5E1753-FEB-2024',
     year: 2024,
     subjectId: 'indian conustitution',
-'https://drive.google.com/file/d/1EQbVLnMmGaRyGvJpiqDFCi7cKnXr1GAB/view?usp=sharing',
+downloadUrl:'https://drive.google.com/file/d/1EQbVLnMmGaRyGvJpiqDFCi7cKnXr1GAB/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
@@ -2053,7 +2053,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-CS-IT-5-SEM-WIRELESS-COMMUNICATION-5E1756-FEB-2024',
     year: 2024,
     subjectId: 'indian conustitution',
-'https://drive.google.com/file/d/13yzcoN6FLtDX1Zl2UV59zULjXrYtJ1Qv/view?usp=sharing',
+downloadUrl:'https://drive.google.com/file/d/13yzcoN6FLtDX1Zl2UV59zULjXrYtJ1Qv/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
@@ -2062,7 +2062,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-CS-IT-AID-5-SEM-OPERATING-SYSTEM-5E1753-2024',
     year: 2024,
     subjectId: 'indian conustitution',
-'https://drive.google.com/file/d/1D4R8YDWfoNrpCnvLyG3hjMalkzmyw2aB/view?usp=sharing',
+downloadUrl:'https://drive.google.com/file/d/1D4R8YDWfoNrpCnvLyG3hjMalkzmyw2aB/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
@@ -2071,7 +2071,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-CS-IT-AID-CAI-5-SEM-ANALYSIS-OF-ALGORITHM-5E1755-FEB-2023',
     year: 2024,
     subjectId: 'indian conustitution',
-'https://drive.google.com/file/d/1uBqwKQjXpwzkKHPpC3eiisywB4902Cxy/view?usp=sharing',
+downloadUrl:'https://drive.google.com/file/d/1uBqwKQjXpwzkKHPpC3eiisywB4902Cxy/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
@@ -2080,7 +2080,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-CS-IT-AID-CAI-5-SEM-COMPILER-DESIGN-5E1752-FEB-2023',
     year: 2024,
     subjectId: 'indian conustitution',
-'https://drive.google.com/file/d/1k-4sO9MJ69we-1logNeaseplUl0KOn5p/view?usp=sharing',
+ downloadUrl:'https://drive.google.com/file/d/1k-4sO9MJ69we-1logNeaseplUl0KOn5p/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
@@ -2089,7 +2089,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-CS-IT-AID-CAI-5-SEM-COMPUTER-GRAPHICS-AND-MULTIMEDIA-5E1754-FEB-2023',
     year: 2024,
     subjectId: 'indian conustitution',
-'https://drive.google.com/file/d/1xU4CYAU4Gfg85PjKQU2D96dfXLsWxtE9/view?usp=sharing',
+downloadUrl:'https://drive.google.com/file/d/1xU4CYAU4Gfg85PjKQU2D96dfXLsWxtE9/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
@@ -2107,7 +2107,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-IT-5-SEM-MICROPROCESSOR-AND-INTERFACES-5E1788-2024',
     year: 2024,
     subjectId: 'indian conustitution',
-'https://drive.google.com/file/d/1H4_i-u6_ZdEORuW07GeMM-SEY061F3QN/view?usp=sharing',
+ downloadUrl:'https://drive.google.com/file/d/1H4_i-u6_ZdEORuW07GeMM-SEY061F3QN/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
@@ -2116,7 +2116,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-IT-5-SEM-MICROPROCESSOR-AND-INTERFACES-5E1788-FEB-2023',
     year: 2024,
     subjectId: 'indian conustitution',
-'https://drive.google.com/file/d/100GMV-nN5FSxDm5rVGDwjykgez2uyBxx/view?usp=sharing',
+ downloadUrl:'https://drive.google.com/file/d/100GMV-nN5FSxDm5rVGDwjykgez2uyBxx/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
@@ -2125,7 +2125,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-IT-5-SEM-MICROPROCESSOR-AND-INTERFACES-5E1788-FEB-2024',
     year: 2024,
     subjectId: 'indian conustitution',
-'https://drive.google.com/file/d/1GkR2tXB9PlqUO_uMYyXVPyGsimR4pFY7/view?usp=sharing',
+downloadUrl:'https://drive.google.com/file/d/1GkR2tXB9PlqUO_uMYyXVPyGsimR4pFY7/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
@@ -2134,7 +2134,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-IT-5-SEM-SOFTWARE-TESTING-AND-PROJECT-MANAGEMENT-5E1789-FEB-2023',
     year: 2024,
     subjectId: 'indian conustitution',
-'https://drive.google.com/file/d/1qy3J7PQgzNZKpyxhx6a9nYFq4ZGIBtXN/view?usp=sharing',
+downloadUrl:'https://drive.google.com/file/d/1qy3J7PQgzNZKpyxhx6a9nYFq4ZGIBtXN/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
