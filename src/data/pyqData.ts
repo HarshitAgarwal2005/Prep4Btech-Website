@@ -2240,6 +2240,232 @@ downloadUrl:'https://drive.google.com/file/d/1bT_ew6B20Y8oNUu1vF97GWJPPbtKybMj/v
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-DIGITAL-IMAGE-PROCESSING-6E7101-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1C11HdX1SDM4EA2ZiQzuiNUcD6cfIGKYn/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-DISTRIBUTED-SYSTEM-6E7136-MAY-2025',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1-zvtakAzd64z83rc7HePgSZQImlAn8h8/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-E-COMMERCE-AND-ERP-6E7138-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/17RAYnOSBH4d4qXLoMd7MjivEvPPs1M73/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-INFORMATION-SECURITY-SYSTEM-610403-AUG-2023',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/11UqHAEZqGh2ZrtMc1raHMLGEYQwR31cj/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-INFORMATION-SECURITY-SYSTEMS-6E7103-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1tTfvbYhJaIu6iCSkGr949ND7B91Qgdcs/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-INFORMATION-SECURITY-SYSTEMS-61N0403-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/16Z_cJmM77dPQ9k5JTO_2bphxEfOf70Cs/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-MACHINE-LEARNING-6E7102-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/11FopiTM40lFfR8tHGJGTtZ2CbkyrPgwy/view?usp=drive_link',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-MACHINE-LEARNING-610402-AUG-2023',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1-eD1FmjoQ6jgT3U7Vu3HfM04iW42c65S/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-PRINCIPLES-OF-ARTIFICIAL-INTELLIGENCE-6E7105-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1LgXFbpRe_Iu689rwOUHH1-o14EkurQIQ/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-6-SEM-ARTIFICIAL-INTELLIGENCE-AND-DATA-SCIENCE-CLOUD COMPUTING-6E7106-MAY-2025',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1-bAiOLm5iairvp0Jy5AqmooWz1Qwk7am/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-6-SEM-COMPUTER-ARCHITECTURE-AND-ORGANIZATION-6E7104-MAY-2025',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1IWd48s-2XBwvbXTp8fwgWHfM0ry2VSiD/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+     {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-6-SEM-DIGITAL-IMAGE-PROCESSING-6E7101-MAY-2025',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1S4VV6zWVzw25rETUvISprLOxzBFZAt7k/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-6-SEM-INFORMATION-SECURITY-SYSTEMS-6E7103-MAY-2025',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1-X9EjmHHQ-nlZ6YDIdkSr7iOix5emjmL/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-6-SEM-MACHINE-LEARNING-6E7102-MAY-2025',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1xvZpK6ZKiQ1GG9Z9d7L76g1fVx3lu7jx/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+    {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-6-SEM-PRINCIPLES-OF-ARTIFICIAL-INTELLIGENCE-6E7105-MAY-2025',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/146twuWcncBBOeTUSd35fPX0z5YOEeGa-/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-CAI-6-SEM-DIGITAL-IMAGE-PROCESSING-6E7101-JUN-2023',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1LhO_SMb9p2cQwl31NzXyKXKzu8peQxpF/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AIML-CSDS-6-SEM-COMPUTER-ARCHITECTURE-AND-ORGANIZATION-610404-AUG-2023',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1ZbDXbcsXctDuseQKTzfP72AsevUhayU9/view?usp=drive_link',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-ALL-6-SEM-DIGITAL-IMAGE-PROCESSING-610401-AUG-2023',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1DpP7JDo5PVx653XSPSNCPphE2D9MhhIs/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-IT-6-SEM-ARTIFICIAL-INTELLIGENCE-6E1555-JUN-2022',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1ehLTI0S9_25Kn1nrzI0wuHIOmfGpGOZ6/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-IT-6-SEM-COMPUTER-ARCHITECTURE-AND-ORGANIZATION-6E1554-JUN-2022',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1NlRvquG8IBJUNCCSHsokRCiWJGBJ72Ox/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-IT-6-SEM-COMPUTER-ARCHITECTURE-AND-ORGANIZATION-6E1554-JUN-2022(1)',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1VsK9gSXtlD0N-CJ1rT5WwQloMWWJFiAA/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-IT-6-SEM-COMPUTER-ARCHITECTURE-AND-ORGANIZATION-6E1554-JUN-2022(2)',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1EAxkZUyJffxbIfALVnnmeluLeBunqltU/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+    {
+    id: 'paper-1',
+    title: 'BTECH-IT-6-SEM-DIGITAL-IMAGE-PROCESSING-6E1551-JUN-2022',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/14U9EeSDDshJvloM2Z_g1xYk_YYnUonS0/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+     {
+    id: 'paper-1',
+    title: 'BTECH-IT-6-SEM-DISTRIBUTED-SYSTEM-6E1650-2022',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1UNQgrjhIyq-5pEu5Sv9psMz9MwYwEGC0/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-IT-6-SEM-MACHINE-LEARNING-6E1552-JUN-2022',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/18T3XqZhNveLmsmB1JbluynENu5vuVkQK/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  
   
   
 
