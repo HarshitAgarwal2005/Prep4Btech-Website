@@ -2010,6 +2010,54 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '4.2 MB'
   },
 
+  // 4th semester papers 
+ {
+    id: 'paper-8',
+    title: 'BTECH-4-SEM-MANAGERIAL-ECONOMICS-AND-FINANCIAL-ACCOUNTING-4E1302-2025',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1JYBk6R2-XSqx0-GCNKqkM23SJcaCCcfZ/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-4-SEM-TECHNICAL-COMMUNICATION-4E1303-2025',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1UnZAPz-cltj65Oz8XFPOFJVg8cV6t6N4/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-4-SEM-DISCRETE-MATHEMATICS-STRUCTURE-4E1301-2025',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/18uTCgqjeNKE9TYSC_fXu69_O4sQbl1d0/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-4-SEM-MICROPROCESSOR-AND-INTERFACES-4E1304-2025',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1uklz9fvkRwchENuDWaL1_s41uVvLqFpB/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-4-SEM-THEORY-OF-COMPUTATION-4E1306-2025',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1ewwmdElqJqhRPVFbpen986LBg6ZSto35/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  
+
   // 5th semester papers
     {
     id: 'paper-1',
