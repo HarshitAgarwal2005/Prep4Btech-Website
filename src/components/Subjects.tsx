@@ -22,11 +22,12 @@ const Subjects: React.FC = () => {
 
   const filteredSubjects = subjects.filter(subject => {
     const yearMatch = selectedYear ? subject.year === selectedYear : true;
+    const branchMatch = selectedSubject ? true : true; // Keep all subjects visible in list
     const searchMatch = searchQuery 
       ? subject.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         subject.code.toLowerCase().includes(searchQuery.toLowerCase())
       : true;
-    return yearMatch && searchMatch;
+    return yearMatch && branchMatch && searchMatch;
   });
 
   const currentSubject = selectedSubject 

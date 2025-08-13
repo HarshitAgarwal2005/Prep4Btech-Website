@@ -228,9 +228,10 @@ const Year: React.FC = () => {
                           <div className="ml-6">
                             <Link
                               to={`/assignments?year=${yearData.year}&semester=${semester.sem}`}
-                              className={`inline-flex items-center justify-center w-full sm:w-auto bg-gradient-to-r ${yearData.color} text-white py-2 px-6 rounded-lg font-medium text-center hover:shadow-lg transition-all duration-300 transform hover:scale-105 text-sm`}
+                              className={`inline-flex items-center justify-center w-full sm:w-auto bg-gradient-to-r ${yearData.color} text-white py-3 px-8 rounded-xl font-semibold text-center hover:shadow-xl transition-all duration-500 transform hover:scale-110 text-sm shadow-lg hover:shadow-2xl`}
                             >
-                              View Content
+                              <BookOpen className="h-4 w-4 mr-2" />
+                              Explore Content
                             </Link>
                           </div>
                         </div>

@@ -33,11 +33,31 @@ const Footer: React.FC = () => {
   ];
 
   useEffect(() => {
-    // Get initial visit count
-    const currentCount = parseInt(localStorage.getItem('userVisitCount') || '1000', 10);
+    // Get initial visit count from localStorage or start from 1000
+    const getVisitCount = () => {
+      const stored = localStorage.getItem('globalVisitCount');
+      return stored ? parseInt(stored, 10) : 1000;
+    };
+    
+    // Check if this is a new visit (not just a page reload)
+    const lastVisitTime = localStorage.getItem('lastVisitTime');
+    const currentTime = Date.now();
+    const timeDifference = currentTime - (lastVisitTime ? parseInt(lastVisitTime, 10) : 0);
+    
+    // Consider it a new visit if more than 30 minutes have passed or it's the first visit
+    const isNewVisit = !lastVisitTime || timeDifference > 30 * 60 * 1000; // 30 minutes
+    
+    let currentCount = getVisitCount();
+    
+    if (isNewVisit) {
+      currentCount += 1;
+      localStorage.setItem('globalVisitCount', currentCount.toString());
+      localStorage.setItem('lastVisitTime', currentTime.toString());
+    }
+    
     setVisitCount(currentCount);
 
-    // Listen for visit count updates
+    // Listen for visit count updates (for real-time updates if needed)
     const handleVisitUpdate = (event: CustomEvent) => {
       setVisitCount(event.detail);
     };
@@ -153,7 +173,7 @@ const Footer: React.FC = () => {
                     <Eye className="h-5 w-5 text-green-400 mr-2" />
                     <span className="text-2xl font-bold text-white">{visitCount.toLocaleString()}</span>
                   </div>
-                  <p className="text-xs text-gray-400">Site Visits</p>
+                  <p className="text-xs text-gray-400">Global Visits</p>
                 </div>
                 <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10">
                   <div className="flex items-center mb-2">

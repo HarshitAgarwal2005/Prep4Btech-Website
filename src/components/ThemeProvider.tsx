@@ -25,9 +25,9 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
   const [theme, setTheme] = useState<Theme>(() => {
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('theme');
-      return (saved as Theme) || 'light';
+      return (saved as Theme) || 'dark';
     }
-    return 'light';
+    return 'dark';
   });
 
   useEffect(() => {

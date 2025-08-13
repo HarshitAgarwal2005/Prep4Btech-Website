@@ -6,6 +6,59 @@ interface NavbarProps {
   onSearch: (query: string) => void;
 }
 
+// Global search function to find content across the website
+const performGlobalSearch = (query: string, navigate: (path: string) => void) => {
+  const searchTerm = query.toLowerCase().trim();
+  
+  // Define search mappings for different sections
+  const searchMappings = [
+    // Home page keywords
+    { keywords: ['home', 'welcome', 'prep4btech', 'about platform'], path: '/' },
+    
+    // Year page keywords
+    { keywords: ['year', 'academic year', 'semester', 'sem'], path: '/year' },
+    
+    // Content/Assignments page keywords
+    { keywords: ['content', 'assignments', 'lab', 'theory', 'homework', 'tasks'], path: '/assignments' },
+    
+    // Books page keywords
+    { keywords: ['books', 'textbooks', 'reference', 'pdf', 'download'], path: '/books' },
+    
+    // Projects page keywords
+    { keywords: ['projects', 'mini project', 'major project', 'github', 'demo'], path: '/projects' },
+    
+    // PYQ Papers keywords
+    { keywords: ['pyq', 'previous year', 'question papers', 'exam papers', 'past papers'], path: '/pyq-papers' },
+    
+    // RTU Syllabus keywords
+    { keywords: ['rtu', 'syllabus', 'curriculum', 'course structure'], path: '/rtu-syllabus' },
+    
+    // Contact page keywords
+    { keywords: ['contact', 'help', 'support', 'developer', 'harshit'], path: '/contact' },
+    
+    // Subject-specific searches
+    { keywords: ['programming', 'coding', 'c++', 'java', 'python'], path: '/subjects?search=programming' },
+    { keywords: ['data structures', 'algorithms', 'dsa'], path: '/subjects?search=data structures' },
+    { keywords: ['database', 'sql', 'dbms'], path: '/subjects?search=database' },
+    { keywords: ['machine learning', 'ml', 'ai', 'artificial intelligence'], path: '/subjects?search=machine learning' },
+    { keywords: ['web development', 'html', 'css', 'javascript', 'react'], path: '/subjects?search=web development' },
+    { keywords: ['mathematics', 'math', 'calculus', 'algebra'], path: '/subjects?search=mathematics' },
+    { keywords: ['physics', 'mechanics', 'thermodynamics'], path: '/subjects?search=physics' },
+    { keywords: ['chemistry', 'organic', 'inorganic'], path: '/subjects?search=chemistry' },
+  ];
+  
+  // Find matching section
+  for (const mapping of searchMappings) {
+    if (mapping.keywords.some(keyword => searchTerm.includes(keyword))) {
+      navigate(mapping.path);
+      return;
+    }
+  }
+  
+  // If no specific match found, search in subjects
+  navigate(`/subjects?search=${encodeURIComponent(searchTerm)}`);
+};
+
 const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
@@ -20,15 +73,16 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
     { name: 'Projects', path: '/projects' },
     { name: 'PYQ Papers', path: '/pyq-papers' },
     { name: 'RTU Syllabus', path: '/rtu-syllabus' },
-    { name: 'Contact', path: '/contact' }
+    { name: 'Contact', path: '/contact' },
+    { name: 'About', path: '/about' }
   ];
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (searchQuery.trim()) {
       onSearch(searchQuery);
-      // Navigate to subjects page with search query
-      navigate(`/subjects?search=${encodeURIComponent(searchQuery.trim())}`);
+      // Perform global search
+      performGlobalSearch(searchQuery.trim(), navigate);
     }
   };
 

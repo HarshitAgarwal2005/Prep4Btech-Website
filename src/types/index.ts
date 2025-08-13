@@ -4,6 +4,7 @@ export interface Subject {
   code: string;
   year: number;
   semester: number;
+  branch: string;
   credits: number;
   chapters: Chapter[];
   books: Book[];
@@ -24,6 +25,7 @@ export interface Assignment {
   description: string;
   subject: string;
   year: number;
+  branch: string;
   dueDate: string;
   downloadUrl?: string;
   solutionUrl?: string;

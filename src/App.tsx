@@ -14,6 +14,7 @@ import Books from './components/Books';
 import Projects from './components/Projects';
 import PYQPapers from './components/PYQPapers';
 import Contact from './components/Contact';
+import About from './components/About';
 import AskDoubt from './components/AskDoubt';
 
 // Component to handle scroll to top on route change
@@ -70,6 +71,7 @@ function App() {
                 <Route path="/books" element={<Books />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/pyq-papers" element={<PYQPapers />} />
+                <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
               </Routes>
             </main>
