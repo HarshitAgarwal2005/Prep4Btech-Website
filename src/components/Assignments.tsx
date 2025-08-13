@@ -245,6 +245,8 @@ const Assignments: React.FC = () => {
                 }
               ]
             },
+
+            // electrical engineering 
             {
               id: 'electrical',
               name: 'Basic Electrical Engineering',
