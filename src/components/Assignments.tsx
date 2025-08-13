@@ -263,7 +263,7 @@ const Assignments: React.FC = () => {
                 },
                 {
                   id: 'electrical1-a1',
-                  title: 'Basic Civil Engineering Lab Manual',
+                  title: 'Basic electrical Engineering Lab Manual',
                   description: 'Practical exercises and field work',
                   documentUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
                   uploadDate: '2024-01-24',
