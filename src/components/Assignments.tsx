@@ -132,7 +132,7 @@ const Assignments: React.FC = () => {
               assignments: [
                 {
                   id: 'phy1-a1',
-                  title: 'Engineering Physics Unit 1 Notes',
+                  title: ' Unit 1 Notes',
                   description: 'Unit 1: Wave Optics',
                   documentUrl: 'https://drive.google.com/file/d/13zjpU57j5qPC9puTU12QY0rJQA7BYMs-/view?usp=sharing',
                   uploadDate: '2024-01-18',
@@ -141,7 +141,7 @@ const Assignments: React.FC = () => {
                 },
                 {
                   id: 'phy1-a2',
-                  title: 'Engineering Physics Unit 2 Notes',
+                  title: ' Unit 2 Notes',
                   description: 'Unit 2: Quantum Mechanics',
                   documentUrl: 'https://drive.google.com/file/d/1UjMPjD1c4g8BnhPjyuefzZn1jYLe9cnv/view?usp=sharing',
                   uploadDate: '2024-01-18',
@@ -150,7 +150,7 @@ const Assignments: React.FC = () => {
                 },
                 {
                   id: 'phy1-a3',
-                  title: 'Engineering Physics Unit 3 Notes',
+                  title: ' Unit 3 Notes',
                   description: 'Unit 3: Coherence and Optical fibre',
                   documentUrl: 'https://drive.google.com/file/d/1uxk8aZpSWzJ9f-WfivGXU1dTibfcyb4a/view?usp=sharing',
                   uploadDate: '2024-01-18',
@@ -159,7 +159,7 @@ const Assignments: React.FC = () => {
                 },
                 {
                   id: 'phy1-a4',
-                  title: 'Engineering Physics Unit 4 Notes',
+                  title: 'Unit 4 Notes',
                   description: 'Unit 4: Laser',
                   documentUrl: 'https://drive.google.com/file/d/1fm5dJNGThyHOzIJcGP0edD7B1yYu865D/view?usp=sharing',
                   uploadDate: '2024-01-18',
@@ -168,7 +168,7 @@ const Assignments: React.FC = () => {
                 },
                 {
                   id: 'phy1-a5',
-                  title: 'Engineering Physics Unit 5 Notes',
+                  title: ' Unit 5 Notes',
                   description: 'Unit 5: Material Science',
                   documentUrl: 'https://drive.google.com/file/d/1nqkIv2fPTLzode2bTNND-djot2f0gaIS/view?usp=sharing',
                   uploadDate: '2024-01-18',
@@ -177,7 +177,7 @@ const Assignments: React.FC = () => {
                 },
                 {
                   id: 'phy1-a6',
-                  title: 'Engineering Physics Unit 6 Notes',
+                  title: ' Unit 6 Notes',
                   description: 'Unit 6: Introduction to Electromagnetism',
                   documentUrl: 'https://drive.google.com/file/d/1DbdLYuzoLUbjMR_AKoEQ6ZsYOdAbn0AT/view?usp=sharing',
                   uploadDate: '2024-01-18',
