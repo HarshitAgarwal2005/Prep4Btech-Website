@@ -131,7 +131,7 @@ const Assignments: React.FC = () => {
               code: 'PHY (1FY2-02)',
               assignments: [
                 {
-                  id: 'phy1',
+                  id: 'phy1-a1',
                   title: 'Engineering Physics Unit 1 Notes',
                   description: 'Unit 1: Wave Optics',
                   documentUrl: 'https://drive.google.com/file/d/13zjpU57j5qPC9puTU12QY0rJQA7BYMs-/view?usp=sharing',
