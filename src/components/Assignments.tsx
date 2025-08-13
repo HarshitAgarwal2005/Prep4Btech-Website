@@ -36,12 +36,14 @@ interface Subject {
   code: string;
   assignments: Assignment[];
 }
+//
 interface branch {
   id: string;
   name: string;
   code: string;
   branch: branch[];
 }
+//
 
 interface Semester {
   id: string;
@@ -62,6 +64,9 @@ interface AcademicYear {
 const Assignments: React.FC = () => {
   const [selectedYear, setSelectedYear] = useState<number | null>(null);
   const [selectedSemester, setSelectedSemester] = useState<Semester | null>(null);
+  // branch add
+  const [selectedBranch, setSelectedBranch] = useState<Branch | null>(null);
+  //
   const [selectedSubject, setSelectedSubject] = useState<Subject | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedContentType, setSelectedContentType] = useState<string | null>(null);
