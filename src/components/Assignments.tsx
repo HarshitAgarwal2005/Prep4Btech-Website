@@ -131,7 +131,7 @@ const Assignments: React.FC = () => {
               code: 'PHY (1FY2-02)',
               assignments: [
                 {
-                  id: 'phy1-a1',
+                  id: 'phy1',
                   title: 'Engineering Physics Unit 1 Notes',
                   description: 'Unit 1: Wave Optics',
                   documentUrl: 'https://drive.google.com/file/d/13zjpU57j5qPC9puTU12QY0rJQA7BYMs-/view?usp=sharing',
@@ -246,12 +246,12 @@ const Assignments: React.FC = () => {
               ]
             },
             {
-              id: 'civil1',
-              name: 'Basic Civil Engineering',
-              code: 'BCE (1E3109)',
+              id: 'electrical',
+              name: 'Basic Electrical Engineering',
+              code: 'BEE (1E3109)',
               assignments: [
                 {
-                  id: 'civil1-a1',
+                  id: 'electrical-a1',
                   title: 'Basic Civil Engineering Complete Notes',
                   description: 'Comprehensive study material for Basic Civil Engineering',
                   documentUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
