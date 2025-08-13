@@ -248,12 +248,12 @@ const Assignments: React.FC = () => {
 
             // electrical engineering 
             {
-              id: 'electrical',
+              id: 'electrical1',
               name: 'Basic Electrical Engineering',
               code: 'BEE (1E3109)',
               assignments: [
                 {
-                  id: 'electrical-a1',
+                  id: 'electrical1-a1',
                   title: 'Basic Electrical Engineering Complete Notes',
                   description: 'Comprehensive study material for Basic Electrical Engineering',
                   documentUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
@@ -262,7 +262,7 @@ const Assignments: React.FC = () => {
                   type: 'theory'
                 },
                 {
-                  id: 'electrical-a1',
+                  id: 'electrical1-a1',
                   title: 'Basic Civil Engineering Lab Manual',
                   description: 'Practical exercises and field work',
                   documentUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
