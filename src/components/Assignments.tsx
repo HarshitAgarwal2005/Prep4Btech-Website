@@ -36,6 +36,12 @@ interface Subject {
   code: string;
   assignments: Assignment[];
 }
+interface branch {
+  id: string;
+  name: string;
+  code: string;
+  branch: branch[];
+}
 
 interface Semester {
   id: string;
