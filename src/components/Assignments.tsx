@@ -140,7 +140,7 @@ const Assignments: React.FC = () => {
                   type: 'theory'
                 },
                 {
-                  id: 'phy1-a1',
+                  id: 'phy1-a2',
                   title: 'Engineering Physics Unit 2 Notes',
                   description: 'Unit 2: Quantum Mechanics',
                   documentUrl: 'https://drive.google.com/file/d/1UjMPjD1c4g8BnhPjyuefzZn1jYLe9cnv/view?usp=sharing',
@@ -149,7 +149,7 @@ const Assignments: React.FC = () => {
                   type: 'theory'
                 },
                 {
-                  id: 'phy1-a1',
+                  id: 'phy1-a3',
                   title: 'Engineering Physics Unit 3 Notes',
                   description: 'Unit 3: Coherence and Optical fibre',
                   documentUrl: 'https://drive.google.com/file/d/1uxk8aZpSWzJ9f-WfivGXU1dTibfcyb4a/view?usp=sharing',
@@ -158,7 +158,7 @@ const Assignments: React.FC = () => {
                   type: 'theory'
                 },
                 {
-                  id: 'phy1-a1',
+                  id: 'phy1-a4',
                   title: 'Engineering Physics Unit 4 Notes',
                   description: 'Unit 4: Laser',
                   documentUrl: 'https://drive.google.com/file/d/1fm5dJNGThyHOzIJcGP0edD7B1yYu865D/view?usp=sharing',
@@ -167,7 +167,7 @@ const Assignments: React.FC = () => {
                   type: 'theory'
                 },
                 {
-                  id: 'phy1-a1',
+                  id: 'phy1-a5',
                   title: 'Engineering Physics Unit 5 Notes',
                   description: 'Unit 5: Material Science',
                   documentUrl: 'https://drive.google.com/file/d/1nqkIv2fPTLzode2bTNND-djot2f0gaIS/view?usp=sharing',
@@ -176,7 +176,7 @@ const Assignments: React.FC = () => {
                   type: 'theory'
                 },
                 {
-                  id: 'phy1-a1',
+                  id: 'phy1-a6',
                   title: 'Engineering Physics Unit 6 Notes',
                   description: 'Unit 6: Introduction to Electromagnetism',
                   documentUrl: 'https://drive.google.com/file/d/1DbdLYuzoLUbjMR_AKoEQ6ZsYOdAbn0AT/view?usp=sharing',
@@ -185,7 +185,7 @@ const Assignments: React.FC = () => {
                   type: 'theory'
                 },
                 {
-                  id: 'phy1-a2',
+                  id: 'phy1-a7',
                   title: 'Engineering Physics Lab Manual',
                   description: 'Laboratory experiments and procedures',
                   documentUrl: 'https://drive.google.com/file/d/1ce-kR7tVIKB5fpaqPIm547mxEW2m-YCZ/view?usp=sharing',
