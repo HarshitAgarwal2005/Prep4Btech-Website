@@ -27,7 +27,7 @@ interface Assignment {
   documentUrl: string;
   uploadDate: string;
   fileSize?: string;
-  type: 'theory' | 'lab' | 'video';
+  type: 'theory' | 'lab' | 'video' | 'Book Notes';
 }
 
 interface Subject {
