@@ -30,7 +30,7 @@ html {
 }
 
 /* Responsive text sizing */
-@media (max-width: 640px) {
+@media (max-width: 940px) {
   .text-responsive {
     font-size: 0.875rem;
   }
