@@ -252,15 +252,15 @@ const Assignments: React.FC = () => {
               assignments: [
                 {
                   id: 'electrical-a1',
-                  title: 'Basic Civil Engineering Complete Notes',
-                  description: 'Comprehensive study material for Basic Civil Engineering',
+                  title: 'Basic Electrical Engineering Complete Notes',
+                  description: 'Comprehensive study material for Basic Electrical Engineering',
                   documentUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
                   uploadDate: '2024-01-21',
                   fileSize: '3.5 MB',
                   type: 'theory'
                 },
                 {
-                  id: 'civil1-a2',
+                  id: 'electrical-a1',
                   title: 'Basic Civil Engineering Lab Manual',
                   description: 'Practical exercises and field work',
                   documentUrl: 'https://drive.google.com/file/d/15h7coVpacUVgNcs3bB2P6OJmeHda95yY/view?usp=sharing',
