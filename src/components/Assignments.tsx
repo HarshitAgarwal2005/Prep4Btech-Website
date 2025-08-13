@@ -106,7 +106,7 @@ const Assignments: React.FC = () => {
                   type: 'theory'
                 },
                 {
-                  id: 'math1-a2',
+                  id: 'math1-a1',
                   title: 'Engineering Mathematics-I Practice Problems',
                   description: 'Solved examples and practice exercises',
                   documentUrl: 'https://drive.google.com/file/d/15cdwtAOou8IXRvcwOiwIEkdZgSHJ-Xx4/view?usp=sharing',
