@@ -298,10 +298,38 @@ const Assignments: React.FC = () => {
               assignments: []
             },
             {
-              id: 'prog1',
+              id: 'pps1',
               name: 'Programming for Problem Solving',
               code: 'PPS (2FY3-06)',
-              assignments: []
+              assignments: [
+                {
+                  id: 'pps1-a1',
+                  title: ' Unit 1 Notes ',
+                  description: 'Comprehensive study material for Programming for Problem Solving',
+                  documentUrl: 'https://drive.google.com/file/d/1YoRZUASS5FJ0mz_Gy9mStHxzCoj0jK5k/view?usp=sharing',
+                  uploadDate: '2024-01-21',
+                  fileSize: '3.5 MB',
+                  type: 'theory'
+                },
+                {
+                  id: 'pps1-a2',
+                  title: ' Unit 2 Notes ',
+                  description: 'Comprehensive study material for Programming for Problem Solving',
+                  documentUrl: 'https://drive.google.com/file/d/1RMps2gEDp7hQqLa29eOYG5ptCSHhVjw1/view?usp=sharing',
+                  uploadDate: '2024-01-21',
+                  fileSize: '3.5 MB',
+                  type: 'theory'
+                },
+                {
+                  id: 'pps1-a3',
+                  title: ' Unit 3 Notes ',
+                  description: 'Comprehensive study material for Programming for Problem Solving',
+                  documentUrl: 'https://drive.google.com/file/d/1r-WRNlpzU4nHGuoitHJSbJ_pvV_zVCRI/view?usp=sharing',
+                  uploadDate: '2024-01-21',
+                  fileSize: '3.5 MB',
+                  type: 'theory'
+                },
+              ]
             },
             {
               id: 'civil1',
