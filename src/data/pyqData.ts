@@ -2324,7 +2324,7 @@ downloadUrl:'https://drive.google.com/file/d/1EQbVLnMmGaRyGvJpiqDFCi7cKnXr1GAB/v
     id: 'paper-1',
     title: 'BTECH-CS-IT-5-SEM-WIRELESS-COMMUNICATION-5E1756-FEB-2024',
     year: 2024,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s5-wc',
 downloadUrl:'https://drive.google.com/file/d/13yzcoN6FLtDX1Zl2UV59zULjXrYtJ1Qv/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2333,7 +2333,7 @@ downloadUrl:'https://drive.google.com/file/d/13yzcoN6FLtDX1Zl2UV59zULjXrYtJ1Qv/v
     id: 'paper-1',
     title: 'BTECH-CS-IT-AID-5-SEM-OPERATING-SYSTEM-5E1753-2024',
     year: 2024,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s5-os',
 downloadUrl:'https://drive.google.com/file/d/1D4R8YDWfoNrpCnvLyG3hjMalkzmyw2aB/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2342,7 +2342,7 @@ downloadUrl:'https://drive.google.com/file/d/1D4R8YDWfoNrpCnvLyG3hjMalkzmyw2aB/v
     id: 'paper-1',
     title: 'BTECH-CS-IT-AID-CAI-5-SEM-ANALYSIS-OF-ALGORITHM-5E1755-FEB-2023',
     year: 2023,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s5-aa',
 downloadUrl:'https://drive.google.com/file/d/1uBqwKQjXpwzkKHPpC3eiisywB4902Cxy/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2351,7 +2351,7 @@ downloadUrl:'https://drive.google.com/file/d/1uBqwKQjXpwzkKHPpC3eiisywB4902Cxy/v
     id: 'paper-1',
     title: 'BTECH-CS-IT-AID-CAI-5-SEM-COMPILER-DESIGN-5E1752-FEB-2023',
     year: 2023,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s5-cd',
  downloadUrl:'https://drive.google.com/file/d/1k-4sO9MJ69we-1logNeaseplUl0KOn5p/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
