@@ -331,6 +331,9 @@ export const contentSubjects: ContentSubject[] = [
     year: 3,
     semester: 6,
     branch: 'CSE',
+     description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
     {
    id: 'cao-s6',
     name: 'Computer Architecture & Organization',
