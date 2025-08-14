@@ -801,7 +801,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   // 6th semester subjects 
     {
-    id: 'ee-s6-os',
+    id: 'ee-s6-ca',
     name: 'Computer Architecture',
     code: '6EE3-01',
     branchId: 'ee',
@@ -809,7 +809,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
    {
-    id: 'ee-s6-os',
+    id: 'ee-s6-ps2',
     name: 'Power System-II',
     code: '6EE4-02',
     branchId: 'ee',
@@ -817,7 +817,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
    {
-    id: 'ee-s6-os',
+    id: 'ee-s6-psp',
     name: 'Power System Proctection',
     code: '6EE4-03',
     branchId: 'ee',
@@ -825,7 +825,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
    {
-    id: 'ee-s6-os',
+    id: 'ee-s6-eeca',
     name: 'Electrical Energy Conservation & Auditing',
     code: '6EE4-04',
     branchId: 'ee',
@@ -833,7 +833,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   }, 
  {
-    id: 'ee-s6-os',
+    id: 'ee-s6-ed',
     name: 'Electrical Drives',
     code: '6EE4-05',
     branchId: 'ee',
@@ -841,7 +841,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
    {
-    id: 'ee-s6-os',
+    id: 'ee-s6-posp',
     name: 'Power System Planning',
     code: '6EE4-08',
     branchId: 'ee',
@@ -849,7 +849,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
    {
-    id: 'ee-s6-os',
+    id: 'ee-s6-dsp',
     name: 'Digital Signal Processing',
     code: '6EE5-12',
     branchId: 'ee',
@@ -857,7 +857,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
    {
-    id: 'ee-s6-os',
+    id: 'ee-s6-ehv',
     name: 'Electrical & Hybrid Vehicles',
     code: '6EE5-13',
     branchId: 'ee',
@@ -866,7 +866,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   // 7th semester subjects 
   {
-    id: 'ee-s7-os',
+    id: 'ee-s7-pec',
     name: 'PEC',
     code: '7EE5-11-12-13',
     branchId: 'ee',
@@ -874,7 +874,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
    {
-    id: 'ee-s7-os',
+    id: 'ee-s7-eeoe1',
     name: 'Open Elective-I',
     code: '7EE5-11-12-13',
     branchId: 'ee',
@@ -883,7 +883,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   //8th semester subjects
   {
-    id: 'ee-s8-os',
+    id: 'ee-s8-pec',
     name: 'PEC ',
     code: '8EE4-11-12-13',
     branchId: 'ee',
@@ -891,7 +891,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
    {
-    id: 'ee-s8-os',
+    id: 'ee-s8-eeoe2',
     name: 'Open Elective-I',
     code: '8EE4-11-12-13',
     branchId: 'ee',
