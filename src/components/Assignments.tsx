@@ -263,6 +263,7 @@ const Assignments: React.FC = () => {
                     <ChevronRight className="h-6 w-6" />
                   </div>
                   <p className="text-blue-100 mb-6">Foundation courses and basic engineering concepts</p>
+                  <span><p> Computer Science And Engineering</p>  </span><span><p> Computer Science And Engineering</p>  </span><span><p> Computer Science And Engineering</p>  </span><span><p> Computer Science And Engineering</p>  </span>
                   
                   <div className="grid grid-cols-2 gap-3">
                     <button
