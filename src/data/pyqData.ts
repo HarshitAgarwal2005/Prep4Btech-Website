@@ -1148,7 +1148,1733 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-01-15',
     fileSize: '2.3 MB'
   },
+// engineering physics papers
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-1E3102-2025',
+    year: 2025,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1R_XL_BRGdPp_QgbyV-7OvrpGIcvBmn6Z/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-2',
+    title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-2E3203-JUN-2025',
+    year: 2025,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/13Yqc18kcuAtPdcXQ7RbpVvTyhWkCyWzr/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-3',
+    title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-2E3203-2024',
+    year: 2024,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1xd4c3_RrOrGLFEqvk03APUoAHCZpNGMe/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-4',
+    title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-2E3203-2024',
+    year: 2024,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/14cyMVVFcxYPlgDxeAxbarkypdVz23efO/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-5',
+    title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-11N502-MAY-2023',
+    year: 2023,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1k_6Orn6oMGkfdyN8kfDs7gyotu-cD-eO/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+     {
+    id: 'paper-6',
+    title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-2E3203-2023',
+    year: 2023,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1lRam7zKBvNuCY51TD3xhiaIS7X5A2RsV/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-7',
+    title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-11N502-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/15jvY1y--Z2ERyA6lha83_qJn_7snmrBV/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-1-SEM-ENGINEERING-PHYSICS-1E3102-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1P4MP9TA3-Lp5xJ80J3J4hJrSqemxx52l/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-9',
+    title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-2E3203-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1cfD-Mq6nNmbSF6B7Hf0MRb7MRMDKN5Pq/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-10',
+    title: 'BTECH-2-SEM-ENGINEERING-PHYSICS-1E2402',
+    year: 2022,
+    subjectId: 'cse-s1-physics',
+    downloadUrl: 'https://drive.google.com/file/d/1aqY9AOO2s5rRhS7B6g562ls__2mEpRWT/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
 
+  //
+
+  // communication skills papers 
+{
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-COMMUNICATION-SKILLS-1E3104-2025',
+    year: 2025,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/1j8DA5fRAQ0f1MobGzMm33_4yVCDTUAcV/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-2',
+    title: 'BTECH-1-SEM-COMMUNICATION-SKILLS-1E3104-2024',
+    year: 2024,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/1usJYlA2m8b4yLwlQIzzrg3gSBC8yBGS6/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-3',
+    title: 'BTECH-2-SEM-COMMUNICATION-SKILLS-2E3205-2024',
+    year: 2024,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/1ZhNvdwmIo1x9gvPYLY4VeiGG_hdLq_KN/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-4',
+    title: 'BTECH-1-SEM-COMMUNICATION-SKILLS-1E3104-2023',
+    year: 2023,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/15KW9g3FC_vPquxkWURXte6l-_1EdS6kT/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-5',
+    title: 'BTECH-2-SEM-COMMUNICATION-SKILL-21N504-2023',
+    year: 2023,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/1adjAQyrt-Z4WR_7Umr7DVE_Nd3ZUHxFO/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-6',
+    title: 'BTECH-1-SEM-COMMUNICATION-SKILLS-1E3104-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/1GzhQzXcNTmELoGKGsNzFZ1DRFvcBFPMG/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-7',
+    title: 'BTECH-2-SEM-COMMUNICATION-SKILLS-2E3205-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s1-csk',
+    downloadUrl: 'https://drive.google.com/file/d/1L0zncqvIDVDbq2TFTMEHhbiv8Jq16uPy/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  //
+  // mechanical engineering papers 
+    {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-2025',
+    year: 2025,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/1uf39-iJ8r8-iQCzFTFNHWizOMAccsXys/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-2',
+    title: 'BTECH-2-SEM-BASIC-MECHANICAL-ENGINEERING-2E3206-JUN-2025',
+    year: 2025,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/1v9PCUrIIGHVcA9F3fVqky4cixHYTl9q-/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-3',
+    title: 'BTECH-1-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-2024',
+    year: 2024,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/1ufsFzPd2ZwJK4Gie779uBUuyr10Uj9mV/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-4',
+    title: 'BTECH-2-SEM-BASIC-MECHANICAL-ENGINEERING-2E3206-2024',
+    id: 'paper-3',
+    title: 'Engineering Mathematics-1 - Previous Year Questions 2024',
+    year: 2024,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/10qBWT9Of4qSvsREZ4O0EcgtWNpq-CQ0n/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-5',
+    title: 'BTECH-1-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-2023',
+    year: 2023,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/1FbPl-n4BuQ0UirsqGXDBtYs2v_MuFV8S/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {id: 'paper-6',
+    title: 'BTECH-2-SEM-BASIC-MECHANICAL-ENGINEERING-2E3206-2023',
+    year: 2023,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/1ggSVWUKYPKGKN5331wJn2eC-v8kO6tIs/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-7',
+    title: 'BTECH-1-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/1ThE-jPG-3ok1faOvO9FMjagO3apKiYgk/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-2-SEM-BASIC-MECHANICAL-ENGINEERING-1E3107-2022',
+    year: 2022,
+    subjectId: 'cse-s1-mech',
+    downloadUrl: 'https://drive.google.com/file/d/18QhCFVmCY9kkV2rLbyGsqShorGIqGJXu/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+
+  //
+  //electrical engineering papers 
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-ELECTRICAL-1E3101-2024',
+    year: 2024,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/1Z79GWGpWAFbbzUUWQDi1upf9BbbA-gVN/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-2',
+    title: 'BTECH-2-SEM-BASIC-ELECTRICAL-ENGINEERING-2E3209-2024',
+    year: 2024,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/11JQ2hl_X2Xmxg-DSQvRfZBq-npa3alk6/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-3',
+    title: 'BTECH-1-SEM-BASIC-ELECTRICAL-ENGINEERING-1E3108-2023',
+    year: 2023,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/1L0b4X4d55cYwMa5MwDTcbg13wrk9HoX3/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+    {
+    id: 'paper-4',
+    title: 'BTECH-2-SEM-BASIC-ELECTRICAL-ENGINEERING-1E3108-2023',
+    year: 2023,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/1ubzxuOwmcxSv2yKFCOq_N8nHGHnQtleF/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-5',
+    title: 'BTECH-1-SEM-BASIC-ELECTRICAL-ENGINEERING-11N507-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/1McyP46w_HiiwyPwdX4Ze32G8_fJpfQFt/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+   {
+    id: 'paper-6',
+    title: 'BTECH-1-SEM-BASIC-ELECTRICAL-ENGINEERING-1E3108-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/1_RWBDgF9Xen9avggwivA35kZujepivcB/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  {
+    id: 'paper-7',
+    title: 'BTECH-2-SEM-BASIC-ELECTRICAL-ENGINEERING-21N507-2022',
+    year: 2022,
+    subjectId: 'cse-s1-electrical',
+    downloadUrl: 'https://drive.google.com/file/d/1oO4Ed6NvxoEjNBTThhiXgCEEueN278jG/view?usp=sharing',
+    uploadDate: '2025-06-11',
+    fileSize: '2.5 MB'
+  },
+  //
+  // advanced mathematics papers -II
+  {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2025',
+    year: 2025,
+    subjectId: 'cse-s2-math',
+    downloadUrl: 'https://drive.google.com/file/d/1XTlhFHPY-1T3IXCjgVhI7BPSd-KyOm7y/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+   {
+    id: 'paper-2',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2024',
+    year: 2024,
+    subjectId: 'cse-s2-math',
+    downloadUrl: 'https://drive.google.com/file/d/1vVrm3d8IT-_OIsSILBsmSVY_dFT9q1Op/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+   {
+    id: 'paper-3',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-JUN-2024',
+    year: 2023,
+    subjectId: 'cse-s2-math',
+    downloadUrl: 'https://drive.google.com/file/d/1h1kgtpu3p6PwPZscirq2l6r4MSKIKqcv/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+   {
+    id: 'paper-4',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E3201-2022',
+    year: 2022,
+    subjectId: 'cse-s2-math',
+    downloadUrl: 'https://drive.google.com/file/d/1JVnRS_AiM7l55GtHN7rWC2fhA5YkJT3I/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+   {
+    id: 'paper-5',
+    title: 'BTECH-2-SEM-ENGINEERING-MATHEMATICS-2-2E2401',
+    year: 2021,
+    subjectId: 'cse-s2-math',
+    downloadUrl: 'https://drive.google.com/file/d/1R3mVvsHTNur1Sc5aPTuf3TK0ip6jgbCr/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.3 MB'
+  },
+  //
+  // chemistry engineering papers
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-CHEMISTRY-1E3103-2025',
+    year: 2025,
+    subjectId: 'cse-s2-chem',
+    downloadUrl: 'https://drive.google.com/file/d/1vFl99bdXr4gs0AowDwSGDnXXb6T_u0cK/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '3.2 MB'
+  },
+  {
+    id: 'paper-2',
+    title: 'BTECH-1-SEM-ENGINEERING-CHEMISTRY-1E3103-2024',
+    year: 2024,
+    subjectId: 'cse-s2-chem',
+    downloadUrl: 'https://drive.google.com/file/d/1FpUrQ3QVXUaipd6DZsNdGSAmcJN_dZRB/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '3.0 MB'
+  },
+  {
+    id: 'paper-3',
+    title: 'BTECH-2-SEM-ENGINEERING-CHEMISTRY-2E3202-2024',
+    year: 2024,
+    subjectId: 'cse-s2-chem',
+    downloadUrl: 'https://drive.google.com/file/d/1WjQ3j8STQBjqVYbJeyOHZt5W3rf7C9HU/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '3.0 MB'
+  },
+  {
+    id: 'paper-5',
+    title: 'BTECH-1-SEM-ENGINEERING-CHEMISTRY-1E3103-2023',
+    year: 2023,
+    subjectId: 'cse-s2-chem',
+    downloadUrl: 'https://drive.google.com/file/d/1m2CbsxUnJnSzdnVKz44fsMlkw52XwM-y/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '3.0 MB'
+  },
+   {
+    id: 'paper-4',
+    title: 'BTECH-2-SEM-ENGINEERING-CHEMISTRY-2E3202-2023',
+    year: 2023,
+    subjectId: 'cse-s2-chem',
+    downloadUrl: 'https://drive.google.com/file/d/1X8crNePTXSDAjgE6b5_SGOupCvid4dv5/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '3.0 MB'
+  },
+     {
+    id: 'paper-5',
+    title: 'BTECH-1-SEM-ENGINEERING-CHEMISTRY-11N503-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s2-chem',
+    downloadUrl: 'https://drive.google.com/file/d/1tS0rpdU9UaYUjopMnH5BfvPRg1Ja6L__/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '3.0 MB'
+  },
+    {
+    id: 'paper-6',
+    title: 'BTECH-1-SEM-ENGINEERING-CHEMISTRY-1E3103-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s2-chem',
+    downloadUrl: 'https://drive.google.com/file/d/1EU4R7nmtKOpmWkxlk5gJiXMTcsY4C3BZ/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '3.0 MB'
+  },
+  //
+ // human values papers
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-ENGINEERING-HUMAN VALUES-1E3103-2024',
+    year: 2024,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/1Yx_cEw_fa8qnPgaskrFvhfVY0cPYKW30/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.8 MB'
+  },
+  // Communication Skills Papers
+  {
+    id: 'paper-1',
+    title: 'BTECH-2-SEM-HUMAN-VALUES-2E3204-2024',
+    year: 2024,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/1TnYNg7lox5OX9rgrALxu81JOzezwME_5/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.8 MB'
+  },
+   {
+    id: 'paper-2',
+    title: 'BTECH-1-SEM-HUMAN-VALUES-1E3105-2023',
+    year: 2023,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/1IO68dY3aEpxa4fFzuRpgogNuPPxqGxTY/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.8 MB'
+  },
+   {
+    id: 'paper-3',
+    title: 'BTECH-2-SEM-HUMAN-VALUES-2E3204-2023',
+    year: 2023,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/1kQfK3vfI-qSExh8vH7s-4NIIj5IP4YBB/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.8 MB'
+  },
+     {
+    id: 'paper-4',
+    title: 'BTECH-1-SEM-HUMAN-VALUES-1E3105-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/1dU3sycmGBqwkq7Nk9TYr0BW6RVG_Gy9o/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.8 MB'
+  },
+   {
+    id: 'paper-5',
+    title: 'BTECH-2-SEM-HUMAN-VALUES-1E3105-2022',
+    year: 2022,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/1Ds26W4QAChn3SLnoxneYfhOnia5heBJ4/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.8 MB'
+  },
+   {
+    id: 'paper-6',
+    title: 'BTECH-1-SEM-HUMAN-VALUES-1E2405',
+    year: 2022,
+    subjectId: 'cse-s2-hv',
+    downloadUrl: 'https://drive.google.com/file/d/16DZtiNjWb0iWXCFqswvH0KENqSKhYLCw/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.8 MB'
+  },
+  //
+   // basic civil engineering papers   
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2025',
+    year: 2025,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/1AH5L2ZFkQGM18n4mgR4JK7SGIHrA-ZJw/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+    {
+    id: 'paper-2',
+    title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2024',
+    year: 2024,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/183SnH-8vEDrfiM_3WZqku82Y0jZh3oa-/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+  {
+    id: 'paper-3',
+    title: 'BTECH-2-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2024',
+    year: 2024,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/1Nzm9S8HvrxP8qfTirqOovKDK0ajektuj/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+   {
+    id: 'paper-4',
+    title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2023',
+    year: 2023,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/11-SfTD2_xDiKFin8LztrJpZ2hhgDuJSm/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+  {
+    id: 'paper-5',
+    title: 'BTECH-2-SEM-BASIC-CIVIL-ENGINEERING-1E3109-2023',
+    year: 2023,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/1Q8PHQ8v_nRX-y60oqWWJzvIb_eBleAio/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+     {
+    id: 'paper-6',
+    title: 'BTECH-1-SEM-INTRODUCTION-TO-BUILT-ENVIRONMENT-11N506',
+    year: 2022,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/1QAmaAXQuJqgDxAb-ezuzLD4MUoDCEzkK/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+     {
+    id: 'paper-7',
+    title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E3109-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/19tW_V7KHfCmuAGllC9KQ9kkVBofM5Jso/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-2-SEM-BASIC-CIVIL-ENGINEERING-2E3208-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/141472mJLnaB6uuB4csHbIqnvucl-YrjK/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+  {
+    id: 'paper-9',
+    title: 'BTECH-1-SEM-BASIC-CIVIL-ENGINEERING-1E2409',
+    year: 2022,
+    subjectId: 'cse-s2-civil',
+    downloadUrl: 'https://drive.google.com/file/d/1fADL43xTA8WDLgBDQJSeoA7R9p54Wjp2/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '2.6 MB'
+  },
+ //
+  // problem solving papers Papers
+  
+  {
+    id: 'paper-1',
+    title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-2025',
+    year: 2025,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1WvMRzloiuzTopuC4bionn43ug5-4Mab2/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+     {
+    id: 'paper-2',
+    title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-2024',
+    year: 2024,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1ABSaPsCh9hqrM1WXvejFMlH9dJPDHvIz/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+    {
+    id: 'paper-3',
+    title: 'BTECH-2-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-2E3207-2024.pdf',
+    year: 2024,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/12WR9po1lwtWmqXEk7ecFrWi0XqwJkFHp/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-4',
+    title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-2023',
+    year: 2023,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1u5GISUkaxGpFH3B7IncQhqFvQenHiL0Q/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-5',
+    title: 'BTECH-2-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-MAY-2023',
+    year: 2023,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1pA7fPxctRF0IAzfMvbqYej7xQ0KrHl0z/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+    {
+    id: 'paper-6',
+    title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E3106-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1repHS_C0M7t62qBto2ysejRM2QpEC3Mv/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-7',
+    title: 'BTECH-2-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-2E3207-JUL-2022',
+    year: 2022,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1d7n8w-XvPKsZkl4smYosY-niboWn3Why/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-1-SEM-PROGRAMMING-FOR-PROBLEM-SOLVING-1E2406',
+    year: 2021,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1czqApvWIXDPHjGbHJ5zIOiVIHKTryPDx/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  // 3rd semester papers 
+   {
+    id: 'paper-8',
+    title: 'BTECH-3-SEM-ADVANCE-ENGINEERING-MATHEMATICS-1-3E1206-FEB-2023',
+    year: 2023,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1hKzah64acKuKcfj-rcMVd_929bbvQeE2/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-3-SEM-ADVANCE-ENGINEERING-MATHEMATICS-1-3E1206-FEB-2024',
+    year: 2024,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1xMRd_4TCaLXWIOSpBxk_mjaxT5nkLRO7/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-3-SEM-ADVANCE-ENGINEERING-MATHEMATICS-1-3E1206-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1gKvYVf-HbE0LcCwQ8fRBedyqQojM2Ttj/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-3-SEM-MANAGERIAL-ECONOMICS-AND-FINANCIAL-ACCOUNTING-3E1200-FEB-2023',
+    year: 2023,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1A6XIu6Df0Ddy8f5opbyAmhB9w8m1vMRF/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+    {
+    id: 'paper-8',
+    title: 'BTECH-3-SEM-MANAGERIAL-ECONOMICS-AND-FINANCIAL-ACCOUNTING-3E1200-FEB-2024',
+    year: 2024,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1CF7ieHpCAM1iLUgmfjFijfDN-0MRUj4S/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-3-SEM-MANAGERIAL-ECONOMICS-AND-FINANCIAL-ACCOUNTING-3E1200-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1212qi8gkURww20h8yAnQ2hu-EDVQfAgK/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-3-SEM-TECHNICAL-COMMUNICATION-3E1250-FEB-2023',
+    year: 2023,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1rxPPtqw2lxlcp4CrLu4mJ5rhhJ9X1v-u/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-3-SEM-TECHNICAL-COMMUNICATION-3E1250-FEB-2024',
+    year: 2024,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1arDWIKKwreSEVvuXfzcr-uv_PPPln7s7/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-3-SEM-TECHNICAL-COMMUNICATION-3E1250-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1UbvcaLPXq0GANZM72LcKQkayeFFR8sVu/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-AID-CAI-CS-IT-3-SEM-ADVANCED-ENGINEERING-MATHEMATICS-3E1201-2022',
+    year: 2022,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1vpxcVKBJC9kdranpLGbkJjg98u6acOsX/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-AID-CAI-CS-IT-3-SEM-DATA-STRUCTURES-AND-ALGORITHMS-3E1202-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1_LIorNaLv51NMh1J9llYuwr35iyjJAB9/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-AID-CAI-CS-IT-3-SEM-DIGITAL-ELECTRONICS-3E1203-MAY-2022',
+    year: 2022,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1l12sn14G33xaCNTokIt0glaU8w814oJQ/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-3-SEM-MICROPROCESSOR-AND-MICROCONTROLLER-CSL204-2023',
+    year: 2023,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1IvXoz2pRqAn9x1ZIZVEfD5opWJJZfxrx/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-ADVANCED-ENGINEERING-MATHEMATICS-3E1201-FEB-2024',
+    year: 2024,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1wEJfMxcoWV-T8jGCoVDS7T5td4d0QPkw/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-ADVANCED-ENGINEERING-MATHEMATICS-3E1201-JAN-2025',
+    year: 2025,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/19q8U9kT9MR6XEGjWmvvB4IegAzRRaovk/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+    {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-DATA-STRUCTURE-AND-ALGORITHMS-DEC-2023',
+    year: 2023,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1-eJTT_Zzxy4Aky0tKTvTak7pWiCYYGEV/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-DATA-STRUCTURES-AND-ALGORITHMS-3E1202-FEB-2023',
+    year: 2023,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1587QwHrB_CyJ8iS8IX2t6HCLznfWVP85/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+ {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-DATA-STRUCTURES-AND-ALGORITHMS-3E1202-FEB-2024',
+    year: 2024,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1hdxcuaFDLzvw0J7s8JnG4qXtLlv6gYSK/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-DIGITAL-ELECTRONICS-3E1203-FEB-2023',
+    year: 2023,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/10M7DlubI13RHcTZxjGD8oIrxHU4K6sot/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-DIGITAL-ELECTRONICS-3E1203-FEB-2024',
+    year: 2024,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1WAaY0Mbae0D3BmYD1DCyw7EaXWnGTdvr/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+{
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-DIGITAL-ELECTRONICS-3E1203-JAN-2025',
+    year: 2025,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1kTQK2lE6kuM-Fau7660wWpwUFtacwlZW/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+{
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-DIGITAL-ELECTRONICS-31N0402-2024',
+    year: 2024,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1UGqmkiBuTNHokts2zAr1LknrrHKWuUZ_/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-DISCRETE-MATHEMATICAL-STRUCTURES-DEC-2023',
+    year: 2023,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/11rmNcAzpIVZAiczeEX8pS23Pegz7TXEd/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-OBJECT-ORIENTED-PROGRAMMING-3E1204-JAN-2025',
+    year: 2025,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1M62-Hczb_c7CbvlSXNrcwXm77Up7LlLe/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-8',
+    title: 'BTECH-EE-EC-EIC-CS-IT-3-SEM-GENERAL-STUDIES-HUL201-2024',
+    year: 2024,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1l_IaO8KKE7VNR8Vsmj8UM5rf_OJz9b1u/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+
+  // 4th semester papers 
+ {
+    id: 'paper-8',
+    title: 'BTECH-4-SEM-MANAGERIAL-ECONOMICS-AND-FINANCIAL-ACCOUNTING-4E1302-2025',
+    year: 2025,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1JYBk6R2-XSqx0-GCNKqkM23SJcaCCcfZ/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-4-SEM-TECHNICAL-COMMUNICATION-4E1303-2025',
+    year: 2025,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1UnZAPz-cltj65Oz8XFPOFJVg8cV6t6N4/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-4-SEM-DISCRETE-MATHEMATICS-STRUCTURE-4E1301-2025',
+    year: 2025,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/18uTCgqjeNKE9TYSC_fXu69_O4sQbl1d0/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-4-SEM-MICROPROCESSOR-AND-INTERFACES-4E1304-2025',
+    year: 2025,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1uklz9fvkRwchENuDWaL1_s41uVvLqFpB/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-4-SEM-THEORY-OF-COMPUTATION-4E1306-2025',
+    year: 2025,
+    subjectId: 'cse-s2-pps',
+    downloadUrl: 'https://drive.google.com/file/d/1ewwmdElqJqhRPVFbpen986LBg6ZSto35/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  
+
+  // 5th semester papers
+    {
+    id: 'paper-1',
+    title: 'BTECH-5-SEM-INDIAN-CONSTITUTION-HUL203-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1Rd6lbfH6DEGT_1LZ9_bVE6VJWor9EqOD/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+ {
+    id: 'paper-1',
+    title: 'BTECH-AID-CAI-CDS-5-SEM-DATA-MINING-CONCEPTS-AND-TECHNIQUES-5E1821-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1g_jbLDndLrklvJ7DFL6RmrtvFNmIpq67/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-5-SEM-HUMAN-COMPUTER-INTERACTION-5E1357-JAN-2022',
+    year: 2022,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1miOJdBzIuKx29ZmLNfE3iCOs73X7-52q/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-5-SEM-INFORMATION-THEORY-AND-CODING-5E1351-MAR-2021',
+    year: 2021,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/13G9fe3mFKnxd7TDQV8Vfxp9SoUSC-R8d/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-5-SEM-INFORMATION-THEORY-AND-CODING-5E1351-MAR-2022',
+    year: 2022,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1P52Rs8O1S0UBpFGAB48QWKf0C-xK04KY/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-5-SEM-INFORMATION-THEORY-AND-CODING-5E1351-MAR-2022',
+    year: 2022,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1kiqDLbMKnV0PLV4OPrJDz76j8jvKZ-z5/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-5-SEM-OPERATING-SYSTEMS-5CSDC13-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1gIAA3V1TEugT2Nlxmvv9sxr54zr-0wVl/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+{
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-ANALYSIS-OF-ALGORITHM-5E1755-FEB-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1jcoJB3wYWGv5LRtfSg0c1jqVCgikVGrI/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-ANALYSIS-OF-ALGORITHMS-5E1355-MAR-2021',
+    year: 2021,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1mFqSmn1xtQUWnIopF9eDn6WledWoOqKD/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-ANALYSIS-OF-ALGORITHMS-5E1355-MAR-2022',
+    year: 2022,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1n03PnxYXNgCugO05_VHcqDtsgXBe78Ia/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-COMPILER-DESIGN-5E1352-JAN-2022',
+    year: 2022,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/11bf_7eCnBwqnvwSUq_QFKFxmBWeNrs-k/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+{
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-COMPILER-DESIGN-5E1352-MAR-2021',
+    year: 2021,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1tTW2YVCIDxvrjUEly4N6qTEfv7dh2Psf/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-COMPILER-DESIGN-5E1752-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1X18VotxHWA7GsLgA8NJEg00kygvIQPvA/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-COMPUTER-GRAPHICS-AND-MULTIMEDIA-5E1354-JAN-2022',
+    year: 2022,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1LoXUfrorTqsoi7AMNsxDgI2lyNacuMCD/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-COMPUTER-GRAPHICS-AND-MULTIMEDIA-5E1354-MAR-2021',
+    year: 2021,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1Dyo9Fiq2N1etsOGRIdJRCoyAHBO06lhe/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-COMPUTER-GRAPHICS-AND-MULTIMEDIA-5E1754-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1gKvjCTtlZt808sSQIUy7TURCzEJ_2M8O/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-COMPUTER-GRAPHICS-AND-MULTIMEDIA-5E1754-FEB-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1areT1uoH_9_ZvdJIeJyeThcz3cKGwplM/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-CYBER-SECURITY-MANAGEMENT-DEC-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1I822F6yuEho1Phi1UuUKJy92HouLWBw7/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-DATA-MINING-CONCEPTS-AND-TECHNIQUES-5E1821-FEB-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1_mNxlbZv2AVvnSsGHalUcIow0htjFgPe/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+{
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-DESIGN-AND-ANALYSIS-OF-ALGORITHMS-NOV-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1dqjus38sCrTZUeQtD77bKkThh5hxDYsw/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-FUNDAMENTALS-OF-BLOCK-CHAIN-5E1826-FEB-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+    downloadUrl: 'https://drive.google.com/file/d/1CNN0Es9CFlz9kCG0NHP11ueX40cFqE5J/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-HUMAN-COMPUTER-INTERACTION-5E1757-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1Qzk28atjjfEMKFp73BWlQp8xbw4r3m44/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+{
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-HUMAN-COMPUTER-INTERACTION-5E1757-FEB-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1Q3y1XCIvlELpFfMVEiyw1TcrHOOpYNjE/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-INFORMATION-THEORY-AND-CODING-5E1751-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1a0k2hgYeZRjjthwMPos9d_QNpbNtfv99/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+ {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-INFORMATION-THEORY-AND-CODING-5E1751-FEB-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1L54IdBmRkeEvfVKjjk0dx9WKU4mz5Yoz/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-OPERATING-SYSTEM-5E1353-JAN-2022',
+    year: 2022,
+    subjectId: 'indian conustitution',
+ downloadUrl:'https://drive.google.com/file/d/1R8Z_aqAF-3djWj_sKiKkHOzGV3R4mjRt/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-OPERATING-SYSTEM-5E1353-MAR-2021',
+    year: 2021,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1jC84JsLPiqxtGzqvsXRa6Otb5CjI8XiB/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-OPERATING-SYSTEM-5E1753-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+ downloadUrl:'https://drive.google.com/file/d/1jfCnJM9OH-xJ6fTmDNa0P_UCnmgQVYrt/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-OPERATING-SYSTEM-5E1753-FEB-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1EQbVLnMmGaRyGvJpiqDFCi7cKnXr1GAB/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-WIRELESS-COMMUNICATION-5E1756-FEB-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/13yzcoN6FLtDX1Zl2UV59zULjXrYtJ1Qv/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-5-SEM-OPERATING-SYSTEM-5E1753-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1D4R8YDWfoNrpCnvLyG3hjMalkzmyw2aB/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-CAI-5-SEM-ANALYSIS-OF-ALGORITHM-5E1755-FEB-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1uBqwKQjXpwzkKHPpC3eiisywB4902Cxy/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-CAI-5-SEM-COMPILER-DESIGN-5E1752-FEB-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+ downloadUrl:'https://drive.google.com/file/d/1k-4sO9MJ69we-1logNeaseplUl0KOn5p/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-CAI-5-SEM-COMPUTER-GRAPHICS-AND-MULTIMEDIA-5E1754-FEB-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1xU4CYAU4Gfg85PjKQU2D96dfXLsWxtE9/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-CAI-5-SEM-OPERATING-SYSTEM-5E1753-FEB-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+ downloadUrl:'https://drive.google.com/file/d/1z0BuMLHv9h-xNGDk4_X7a2oC64CZauw1/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-IT-5-SEM-MICROPROCESSOR-AND-INTERFACES-5E1788-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+ downloadUrl:'https://drive.google.com/file/d/1H4_i-u6_ZdEORuW07GeMM-SEY061F3QN/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-IT-5-SEM-MICROPROCESSOR-AND-INTERFACES-5E1788-FEB-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+ downloadUrl:'https://drive.google.com/file/d/100GMV-nN5FSxDm5rVGDwjykgez2uyBxx/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-IT-5-SEM-MICROPROCESSOR-AND-INTERFACES-5E1788-FEB-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1GkR2tXB9PlqUO_uMYyXVPyGsimR4pFY7/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-IT-5-SEM-SOFTWARE-TESTING-AND-PROJECT-MANAGEMENT-5E1789-FEB-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1qy3J7PQgzNZKpyxhx6a9nYFq4ZGIBtXN/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  
+  //6th semester papers
+
+ {
+    id: 'paper-1',
+    title: 'BTECH-AID-CAI-6-SEM-NATURAL-LANGUAGE-PROCESSING-6E7108-2025',
+    year: 2025,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1IsClO4LEczmMsVF8rUyRCO861lGAok1d/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CAI-CS-IT-AID-6-SEM-CLOUD-COMPUTING-6E7106-JUL-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1iz599wPwyoYii40SRsyXKjpJmj5ojtKQ/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CAI-CS-IT-AID-6-SEM-INFORMATION-SECURITY-SYSTEMS-6E7103-JUL-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1pHANYGFiqCveI8LLVwXNWw_9CcSJnxvG/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+{
+    id: 'paper-1',
+    title: 'BTECH-CAI-CS-IT-AID-6-SEM-PRINCIPLES-OF-ARTIFICIAL-INTELLIGENCE-6E7105-JUL-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/19uKvFTvDp8DpJWnIMl4RQ3tXn1AcQU5F/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CAI-CS-IT-AID-CAI-6-SEM-MACHINE-LEARNING-6E7102-JUL-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1CI8AAgCa0lQFq5SD80EK32VWDeYe_VUy/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-6-SEM-CLOUD-COMPUTING-6E1560-JUN-2022',
+    year: 2022,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1NL7Pum7ac-tJzpT24hvo4mVAYrXQTvvR/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-6-SEM-BLOCK-CHAIN-AND-CYBER-SECURITY-6E7193-2025',
+    year: 2025,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1dT7j5vAuwErsLB2n33A40235o41kZ1e7/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-6-SEM-CYBER-FORENSIC-6E7194-MAY-2025',
+    year: 2025,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1D20l_omlTUsgLXwqJhoc5uSMrlcLNFvk/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-ARTIFICIAL-INTELLIGENCE-610405-AUG-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1ufC-466Z1Sd7yU1gHLC2GDjSWQcf1drJ/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-CLOUD-COMPUTING-6E7106-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1afZv3jBDzk5MZbZYNF5CPE6JWHJuU-u-/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-COMPUTER-ARCHITECTURE-AND-ORGANIZATION-6E7104-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1bT_ew6B20Y8oNUu1vF97GWJPPbtKybMj/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-DIGITAL-IMAGE-PROCESSING-6E7101-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1C11HdX1SDM4EA2ZiQzuiNUcD6cfIGKYn/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-DISTRIBUTED-SYSTEM-6E7136-MAY-2025',
+    year: 2025,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1-zvtakAzd64z83rc7HePgSZQImlAn8h8/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-E-COMMERCE-AND-ERP-6E7138-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/17RAYnOSBH4d4qXLoMd7MjivEvPPs1M73/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-INFORMATION-SECURITY-SYSTEM-610403-AUG-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/11UqHAEZqGh2ZrtMc1raHMLGEYQwR31cj/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-INFORMATION-SECURITY-SYSTEMS-6E7103-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1tTfvbYhJaIu6iCSkGr949ND7B91Qgdcs/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-INFORMATION-SECURITY-SYSTEMS-61N0403-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/16Z_cJmM77dPQ9k5JTO_2bphxEfOf70Cs/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-MACHINE-LEARNING-6E7102-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/11FopiTM40lFfR8tHGJGTtZ2CbkyrPgwy/view?usp=drive_link',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-MACHINE-LEARNING-610402-AUG-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1-eD1FmjoQ6jgT3U7Vu3HfM04iW42c65S/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-6-SEM-PRINCIPLES-OF-ARTIFICIAL-INTELLIGENCE-6E7105-2024',
+    year: 2024,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1LgXFbpRe_Iu689rwOUHH1-o14EkurQIQ/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-6-SEM-ARTIFICIAL-INTELLIGENCE-AND-DATA-SCIENCE-CLOUD COMPUTING-6E7106-MAY-2025',
+    year: 2025,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1-bAiOLm5iairvp0Jy5AqmooWz1Qwk7am/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-6-SEM-COMPUTER-ARCHITECTURE-AND-ORGANIZATION-6E7104-MAY-2025',
+    year: 2025,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1IWd48s-2XBwvbXTp8fwgWHfM0ry2VSiD/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+     {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-6-SEM-DIGITAL-IMAGE-PROCESSING-6E7101-MAY-2025',
+    year: 2025,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1S4VV6zWVzw25rETUvISprLOxzBFZAt7k/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-6-SEM-INFORMATION-SECURITY-SYSTEMS-6E7103-MAY-2025',
+    year: 2025,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1-X9EjmHHQ-nlZ6YDIdkSr7iOix5emjmL/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-6-SEM-MACHINE-LEARNING-6E7102-MAY-2025',
+    year: 2025,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1xvZpK6ZKiQ1GG9Z9d7L76g1fVx3lu7jx/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+    {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-6-SEM-PRINCIPLES-OF-ARTIFICIAL-INTELLIGENCE-6E7105-MAY-2025',
+    year: 2025,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/146twuWcncBBOeTUSd35fPX0z5YOEeGa-/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AID-CAI-6-SEM-DIGITAL-IMAGE-PROCESSING-6E7101-JUN-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1LhO_SMb9p2cQwl31NzXyKXKzu8peQxpF/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-AIML-CSDS-6-SEM-COMPUTER-ARCHITECTURE-AND-ORGANIZATION-610404-AUG-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1ZbDXbcsXctDuseQKTzfP72AsevUhayU9/view?usp=drive_link',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-ALL-6-SEM-DIGITAL-IMAGE-PROCESSING-610401-AUG-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1DpP7JDo5PVx653XSPSNCPphE2D9MhhIs/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-IT-6-SEM-ARTIFICIAL-INTELLIGENCE-6E1555-JUN-2022',
+    year: 2022,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1ehLTI0S9_25Kn1nrzI0wuHIOmfGpGOZ6/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-IT-6-SEM-COMPUTER-ARCHITECTURE-AND-ORGANIZATION-6E1554-JUN-2022',
+    year: 2022,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1NlRvquG8IBJUNCCSHsokRCiWJGBJ72Ox/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-IT-6-SEM-COMPUTER-ARCHITECTURE-AND-ORGANIZATION-6E1554-JUN-2022',
+    year: 2022,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1VsK9gSXtlD0N-CJ1rT5WwQloMWWJFiAA/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-IT-6-SEM-COMPUTER-ARCHITECTURE-AND-ORGANIZATION-6E1554-JUN-2022(2)',
+    year: 2022,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1EAxkZUyJffxbIfALVnnmeluLeBunqltU/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+    {
+    id: 'paper-1',
+    title: 'BTECH-IT-6-SEM-DIGITAL-IMAGE-PROCESSING-6E1551-JUN-2022',
+    year: 2022,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/14U9EeSDDshJvloM2Z_g1xYk_YYnUonS0/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+     {
+    id: 'paper-1',
+    title: 'BTECH-IT-6-SEM-DISTRIBUTED-SYSTEM-6E1650-2022',
+    year: 2022,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1UNQgrjhIyq-5pEu5Sv9psMz9MwYwEGC0/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-IT-6-SEM-MACHINE-LEARNING-6E1552-JUN-2022',
+    year: 2022,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/18T3XqZhNveLmsmB1JbluynENu5vuVkQK/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  // 7th semester papers 
+   {
+    id: 'paper-1',
+    title: 'BTECH-AI-EC-EI-7-SEM-DIGITAL-SIGNAL-PROCESSING-7E7072-MAR-2021',
+    year: 2021,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1Tc_dRV8ghPMS-cf2A1uHe_0GB7np9rMC/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-7-SEM-CLOUD-COMPUTING-7E7031-MAR-2021',
+    year: 2021,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1HPCjCddlujbjkUe-15nBYjoay9oeGIpK/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-7-SEM-INTERNET-OF-THINGS-7E1721-JAN-2022',
+    year: 2022,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/11li5UtJH7wEut1rkoZZH_Kc2HXJaWYkO/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-7-SEM-INTERNET-OF-THINGS-7E1721-JAN-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/124xWFmn5Lr4RDeryMwxJEKSao5OTE0F-/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-7-SEM-INTERNET-OF-THINGS-7E1721-MAR-2021',
+    year: 2021,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1DaysIBSRyUVLzfHc_uqPCMe57yUZA5qr/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-7-SEM-QUALITY-MANAGEMENT-7E1722-JAN-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/122a700u0iRo3FIlS9_16tNngUYhoA_LJ/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-7-SEM-INFORMATION-SYSTEM-SECURITY-7E7032-MAR-2021',
+    year: 2021,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1KY-55Rjfp-0yJ9IuUlrOO9ZRXUCuTYta/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-IT-7-SEM-ADVANCE-DATA-BASE-MANAGEMENT-SYSTEMS-7E7056-MAR-2022',
+    year: 2022,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1SoCYNcqRGvvlnfqMDcueqSAkqLvywtMB/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-IT-7-SEM-BIG-DATA-ANALYTICS-7E1724-MAR-2021',
+    year: 2021,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1_2HeZLHtHwq-J8Bf9k0d0SyyGBI2TlLm/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+   {
+    id: 'paper-1',
+    title: 'BTECH-IT-7-SEM-INTERNET-PROGRAMMING-7E7052-MAR-2021',
+    year: 2021,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1B444tCVhn1A3uprmWhRzzIbzDRrO5MYU/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  // 8th semester papers 
+   {
+    id: 'paper-1',
+    title: 'BTECH-8-SEM-DISASTER-MANAGEMENT-8E1860-JUN-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1jJ96jgP23J6H4YlFXzp8015Tigu3MD4I/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-8-SEM-BIG-DATA-ANALYTICS-8E1809-JUN-2022',
+    year: 2022,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/14HVoqMlufnGh0yVGRYQnenqeXqWw_T9_/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-8-SEM-BIG-DATA-ANALYTICS-8E1809-JUN-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/18w-q5V0WwkKZy01tl6uQUS-3lm9ONdGg/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-8-SEM-MOBILE-COMPUTING-8E8161-JUN-2022',
+    year: 2022,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1Mat0QQdMnMG-vCmECa8h27-c37WBc9rX/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-IT-8-SEM-INTERNET-OF-THINGS-8E1810-JUN-2023',
+    year: 2023,
+    subjectId: 'indian conustitution',
+downloadUrl:'https://drive.google.com/file/d/1zZETHIQr9CBMpidFrUhkf-_J4mOqqVW6/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  
   
 
   
