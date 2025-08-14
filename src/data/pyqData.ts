@@ -281,7 +281,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   // 5th semester subjects
   {
-    id: 'cse-s4-itc',
+    id: 'cse-s5-itc',
     name: 'Information Theory & Coding',
     code: '5CS3-01',
     branchId: 'cse',
@@ -289,21 +289,21 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'cse-s4-cd',
+    id: 'cse-s5-cd',
     name: 'Compiler Design',
     code: '5CS4-02',
     branchId: 'cse',
     semester: 5,
     credits: 3
   },{
-    id: 'cse-s4-os',
+    id: 'cse-s5-os',
     name: 'Operating System',
     code: '5CS4-03',
     branchId: 'cse',
     semester: 5,
     credits: 3
   },{
-    id: 'cse-s4-cgm',
+    id: 'cse-s5-cgm',
     name: 'Computer Graphics & Multimedia',
     code: '5CS4-04',
     branchId: 'cse',
@@ -311,7 +311,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-aa',
+    id: 'cse-s5-aa',
     name: 'Analysis Of Algorithm',
     code: '5CS5-05',
     branchId: 'cse',
@@ -319,7 +319,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-wc',
+    id: 'cse-s5-wc',
     name: 'Wireless Communication',
     code: '5CS5-11',
     branchId: 'cse',
@@ -327,7 +327,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s5-hci',
     name: 'Human Compiler Interaction',
     code: '5CS5-12',
     branchId: 'cse',
@@ -335,7 +335,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s5-bio',
     name: 'Bioinformatics',
     code: '5CS5-13',
     branchId: 'cse',
@@ -344,7 +344,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   // 6th semester sunjects 
    {
-    id: 'cse-s4-os',
+    id: 'cse-s6-dip',
     name: 'Digital Image Processing',
     code: '6CS3--01',
     branchId: 'cse',
@@ -352,7 +352,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
    {
-    id: 'cse-s4-os',
+    id: 'cse-s6-ml',
     name: 'Machine Learning',
     code: '6CS4-02',
     branchId: 'cse',
@@ -360,7 +360,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
    {
-    id: 'cse-s4-os',
+    id: 'cse-s6-bio',
     name: 'Bioinformatics',
     code: '6CS6-13',
     branchId: 'cse',
@@ -368,7 +368,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
    {
-    id: 'cse-s4-os',
+    id: 'cse-s6-iss',
     name: 'Information Security System',
     code: '6CS4-03',
     branchId: 'cse',
@@ -376,7 +376,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
    {
-    id: 'cse-s4-os',
+    id: 'cse-s6-aco',
     name: 'Computer Architecture & Organization',
     code: '6CS4-04',
     branchId: 'cse',
@@ -384,7 +384,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
    {
-    id: 'cse-s4-os',
+    id: 'cse-s6-ai',
     name: 'Artificial Intelligence ',
     code: '6CS4-05',
     branchId: 'cse',
@@ -392,7 +392,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
    {
-    id: 'cse-s4-os',
+    id: 'cse-s6-cc',
     name: 'Cloud Computing',
     code: '6CS4-06',
     branchId: 'cse',
