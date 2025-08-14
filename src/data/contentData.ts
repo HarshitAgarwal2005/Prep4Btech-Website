@@ -777,7 +777,7 @@ export const contentSubjects: ContentSubject[] = [
     branch: 'MECHANICAL',
     description: 'Material properties and stress analysis',
     icon: '🔧'
-  }
+  },
        // CIVIL SUBJECT MECH 
   // FIRST YEAR CIVIL SEM 1
    {
