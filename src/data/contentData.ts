@@ -476,7 +476,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '⚡'
   },
 
-  // First Year ECE  - Semester 2
+  //  ECE  - Semester 2
   {
     id: 'math2-s2',
     name: 'Engineering Mathematics-II',
@@ -527,7 +527,7 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Civil engineering fundamentals',
     icon: '🏗️'
   },
-  // 3YEAR ECE SEM 3
+  //  ECE SEM 3
   {
     id: 'signals-s3-ece',
     name: 'Signals and Systems',
@@ -602,7 +602,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '⚡'
   },
 
-  // First Year EE  - Semester 2
+  //  EE  - Semester 2
   {
     id: 'math2-s2',
     name: 'Engineering Mathematics-II',
@@ -653,6 +653,345 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Civil engineering fundamentals',
     icon: '🏗️'
   },
+   // EE - Semester 3
+  {
+     id: 'ae-s3',
+    name: 'Advance Mathematics',
+    code: '3EE2-01',
+    year: 2,
+    semester: 3,
+    branch: 'EE',
+    description: 'Data organization and algorithmic problem solving',
+    icon: '🔗'
+  },
+  {
+   id: 'mefa-s3',
+    name: 'Managerial Economics & Financial Accounting',
+    code: '3EE2-03',
+    year: 2,
+    semester: 3,
+    branch: 'EE',
+    description: 'Object-oriented programming concepts',
+    icon: '🎯'
+  },
+  {
+   id: 'pgp-s3',
+    name: 'Power Generation Processes',
+    code: '3EE3-04',
+    year: 2,
+    semester: 3,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  {
+   id: 'eca-s3',
+    name: 'Electrical Circuit Analysis ',
+    code: '3EE4-05',
+    year: 2,
+    semester: 3,
+    branch: 'EE',
+    description: 'Data organization and algorithmic problem solving',
+    icon: '🔗'
+  },
+  {
+   id: 'ae-s3',
+    name: 'Analog Electronics',
+    code: '3EE4-06',
+    code: '3CS1-03',
+    year: 2,
+    semester: 3,
+    branch: 'EE',
+    description: 'Object-oriented programming concepts',
+    icon: '🎯'
+  },
+  {
+   id: 'em1-s3',
+    name: 'Electrical Machine -I',
+    code: '3EE4-07',
+    year: 2,
+    semester: 3,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+   {
+    id: 'ef-s3',
+    name: 'Electromagnetic Fields',
+    code: '3EE4-08',
+    year: 2,
+    semester: 3,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+// EE - Semester 4
+  {
+   id: 'b-s4',
+    name: 'Biology',
+    code: '4EE2-01',
+    year: 2,
+    semester: 4,
+    branch: 'EE',
+    description: 'Data organization and algorithmic problem solving',
+    icon: '🔗'
+  },
+  {
+    id: 'tc-s4',
+    name: 'Technical communication',
+    code: '4EE1-02',
+    year: 2,
+    semester: 4,
+    branch: 'EE',
+    description: 'Object-oriented programming concepts',
+    icon: '🎯'
+  },
+  id: 'emi-s4',
+    name: 'Electronic Measurement & Instrumentation',
+    code: '4EE3-04',
+    year: 2,
+    semester: 4,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  {
+   id: 'pe-s4',
+    name: 'Power Electronics',
+    code: '4EE4-06',
+    year: 2,
+    semester: 4,
+    branch: 'EE',
+    description: 'Data organization and algorithmic problem solving',
+    icon: '🔗'
+  },
+  {
+  id: 'em2-s4',
+    name: 'Electrical Machine-II',
+    code: '4EE4-05',
+    year: 2,
+    semester: 4,
+    branch: 'EE',
+    description: 'Object-oriented programming concepts',
+    icon: '🎯'
+  },
+  {
+    id: 'ss-s4',
+    name: 'Signal & Systems',
+    code: '4EE4-07',
+    year: 2,
+    semester: 4,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+    {
+   id: 'de-s4',
+    name: 'Digital Electronics',
+    code: '4EE4-08',
+    year: 2,
+    semester: 4,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  // 3rd year semester 5
+   {
+     id: 'em-s5',
+    name: 'Electrical Materials',
+    code: '5EE3-01',
+    year: 3,
+    semester: 5,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  }, {
+   id: 'ps2-s5',
+    name: 'Power System-II',
+    code: '5EE4-02',
+    year: 3,
+    semester: 5,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  }, {
+   id: 'cs-s5',
+    name: 'Control System',
+    code: '5EE4-03',
+    year: 3,
+    semester: 5,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  }, {
+  id: 'micro-s5',
+    name: 'Microprocessor',
+    code: '5EE4-04',
+    year: 3,
+    semester: 5,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  }, {
+   id: 'emd-s5',
+    name: 'Electrical Machine Design',
+    code: '5EE4-05',
+    year: 3,
+    semester: 5,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  }, {
+    id: 'rps-s5',
+    name: 'Restructured Power System',
+    code: '5EE5-11',
+    year: 3,
+    semester: 5,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  }, {
+     id: 'ew-s5',
+    name: 'Electromagnetic Wave',
+    code: '5EE5-12',
+    year: 3,
+    semester: 5,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  {
+   id: 'dcs-s5',
+    name: 'Digital Control System',
+    code: '5EE5-13',
+    year: 3,
+    semester: 5,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+// third year semester 6
+  {
+    id: 'ca-s6',
+    name: 'Computer Architecture',
+    code: '6EE3-01',
+    year: 3,
+    semester: 6,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  {
+   id: 'ps2-s6',
+    name: 'Power System-II',
+    code: '6EE4-02',
+    year: 3,
+    semester: 6,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+    {
+  id: 'psp-s6',
+    name: 'Power System Proctection',
+    code: '6EE4-03',
+    year: 3,
+    semester: 6,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  {
+   id: 'eeca-s6',
+    name: 'Electrical Energy Conservation & Auditing',
+    code: '6EE4-04',
+    year: 3,
+    semester: 6,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  {
+   id: 'ed-s6',
+    name: 'Electrical Drives',
+    code: '6EE4-05',
+    year: 3,
+    semester: 6,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  {
+    id: 'posp-s6',
+    name: 'Power System Planning',
+    code: '6EE4-08',
+    year: 3,
+    semester: 6,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  {
+   id: 'dsp-s6',
+    name: 'Digital Signal Processing',
+    code: '6EE5-12',
+    year: 3,
+    semester: 6,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  {
+    id: 'ehv-s6',
+    name: 'Electrical & Hybrid Vehicles',
+    code: '6EE5-13',
+    year: 3,
+    semester: 6,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  // forth year semester 7
+    {
+    id: 'ee-s7-os',
+    name: 'PEC',
+    code: '7EE5-11-12-13',
+    year: 4,
+    semester: 7,
+    branch: 'EE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },  {
+   id: 'ee-s7-os',
+    name: 'Open Elective-I',
+    code: '7EE5-11-12-13',
+    year: 4,
+    semester: 7,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },  
+//EE SEM 8
+{
+   id: 'ee-s8-os',
+    name: 'PEC ',
+    code: '8EE4-11-12-13',
+    year: 4,
+    semester: 8,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },  {
+    id: 'ee-s8-os',
+    name: 'Open Elective-I',
+    code: '8EE4-11-12-13',
+    year: 4,
+    semester: 8,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+    
   // MECHANICAL SUBJECT MECH 
   // FIRST YEAR MECH SEM 1
    {
