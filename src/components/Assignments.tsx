@@ -263,7 +263,7 @@ const Assignments: React.FC = () => {
                     <ChevronRight className="h-6 w-6" />
                   </div>
                   <p className="text-blue-100 mb-6">Foundation courses and basic engineering concepts</p>
-                   <p className="text-blue-100 mb-6"> <br>Computer Science Engineering </br> <br>Electronics and Communication Engineering </br><br> Electrical Engineering  </br> </p>
+                  
                   <div className="grid grid-cols-2 gap-3">
                     <button
                       onClick={() => { setSelectedYear(1); setSelectedSemester(1); }}
