@@ -424,6 +424,110 @@ export const contentSubjects: ContentSubject[] = [
   },
     
   // ECE Subjects
+  // First Year ECE - Semester 1
+  {
+    id: 'math1-s1',
+    name: 'Engineering Mathematics-I',
+    code: '1FY2-01',
+    year: 1,
+    semester: 1,
+    branch: 'ECE',
+    description: 'Fundamental mathematical concepts for engineering',
+    icon: '📐'
+  },
+  {
+    id: 'physics-s1',
+    name: 'Engineering Physics',
+    code: '1FY2-02',
+    year: 1,
+    semester: 1,
+    branch: 'ECE',
+    description: 'Basic physics principles and applications',
+    icon: '⚛️'
+  },
+  {
+    id: 'comm-s1',
+    name: 'Communication Skills',
+    code: '1FY1-04',
+    year: 1,
+    semester: 1,
+    branch: 'ECE',
+    description: 'English communication and technical writing',
+    icon: '💬'
+  },
+  {
+    id: 'mech-s1',
+    name: 'Basic Mechanical Engineering',
+     code: '2FY3-07',
+    year: 1,
+    semester: 1,
+    branch: 'ECE',
+    description: 'Introduction to mechanical engineering concepts',
+    icon: '⚙️'
+  },
+  {
+    id: 'elec-s1',
+    name: 'Basic Electrical Engineering',
+     code: '1FY3-08',
+    year: 1,
+    semester: 1,
+    branch: 'ECE',
+    description: 'Electrical circuits and basic electronics',
+    icon: '⚡'
+  },
+
+  // First Year ECE  - Semester 2
+  {
+    id: 'math2-s2',
+    name: 'Engineering Mathematics-II',
+    code: '2FY2-01',
+    year: 1,
+    semester: 2,
+    branch: 'ECE',
+    description: 'Advanced mathematical concepts and applications',
+    icon: '📊'
+  },
+  {
+    id: 'chem-s2',
+    name: 'Engineering Chemistry',
+   code: '2FY2-03',
+    year: 1,
+    semester: 2,
+    branch: 'ECE',
+    description: 'Chemical principles for engineering applications',
+    icon: '🧪'
+  },
+  {
+    id: 'hv-s2',
+    name: 'Human Values',
+    code: '1FY1-05',
+    year: 1,
+    semester: 2,
+    branch: 'ECE',
+    description: 'Ethics, values and professional development',
+    icon: '🤝'
+  },
+  {
+    id: 'pps-s2',
+    name: 'Programming for Problem Solving',
+    code: '2FY3-06',
+    year: 1,
+    semester: 2,
+    branch: 'ECE',
+    description: 'Introduction to programming concepts',
+    icon: '💻'
+  },
+  {
+    id: 'civil-s2',
+    name: 'Basic Civil Engineering',
+    code: '1FY3-09',
+    year: 1,
+    semester: 2,
+    branch: 'ECE',
+    description: 'Civil engineering fundamentals',
+    icon: '🏗️'
+  },
+  // 3YEAR ECE SEM 3
   {
     id: 'signals-s3-ece',
     name: 'Signals and Systems',
