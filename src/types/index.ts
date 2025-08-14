@@ -65,6 +65,31 @@ export interface Doubt {
   createdAt: string;
 }
 
+// Content Management Types
+export interface ContentItem {
+  id: string;
+  title: string;
+  description: string;
+  type: 'theory' | 'lab' | 'books' | 'videos' | 'assignments' | 'mtt';
+  subjectId: string;
+  fileSize?: string;
+  duration?: string;
+  uploadDate: string;
+  viewUrl?: string;
+  thumbnailUrl?: string;
+}
+
+export interface ContentSubject {
+  id: string;
+  name: string;
+  code: string;
+  year: number;
+  semester: number;
+  branch: string;
+  description: string;
+  icon: string;
+}
+
 // New PYQ Types
 export interface Course {
   id: string;
