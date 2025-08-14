@@ -679,7 +679,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   // 4th semester subjects 
    {
-    id: 'ee-s4-os',
+    id: 'ee-s4-b',
     name: 'Biology',
     code: '4EE2-01',
     branchId: 'ee',
@@ -687,7 +687,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'ee-s4-os',
+    id: 'ee-s4-tc',
     name: 'Technical Communication',
     code: '4EE1-02',
     branchId: 'ee',
@@ -695,7 +695,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'ee-s4-os',
+    id: 'ee-s4-emi',
     name: 'Electronic Measurement & Instrumentation',
     code: '4EE3-04',
     branchId: 'ee',
@@ -703,7 +703,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'ee-s4-os',
+    id: 'ee-s4-em2',
     name: 'Electrical Machine-II',
     code: '4EE4-05',
     branchId: 'ee',
@@ -711,7 +711,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'ee-s4-os',
+    id: 'ee-s4-pe',
     name: 'Power Electronics',
     code: '4EE4-06',
     branchId: 'ee',
@@ -719,7 +719,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'ee-s4-os',
+    id: 'ee-s4-ss',
     name: 'Signal & Systems',
     code: '4EE4-07',
     branchId: 'ee',
@@ -727,7 +727,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'ee-s4-os',
+    id: 'ee-s4-de',
     name: 'Digital Electronics',
     code: '4EE4-08',
     branchId: 'ee',
@@ -736,7 +736,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   // 5th semester subjects 
   {
-    id: 'ee-s5-os',
+    id: 'ee-s5-em',
     name: 'Electrical Materials',
     code: '5EE3-01',
     branchId: 'ee',
@@ -744,7 +744,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'ee-s5-os',
+    id: 'ee-s5-ps2',
     name: 'Power System-II',
     code: '5EE4-02',
     branchId: 'ee',
@@ -752,7 +752,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'ee-s5-os',
+    id: 'ee-s5-cs',
     name: 'Control System',
     code: '5EE4-03',
     branchId: 'ee',
@@ -760,7 +760,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'ee-s5-os',
+    id: 'ee-s5-micro',
     name: 'Microprocessor',
     code: '5EE4-04',
     branchId: 'ee',
