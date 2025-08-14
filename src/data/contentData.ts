@@ -15,7 +15,7 @@ export const contentSubjects: ContentSubject[] = [
   {
     id: 'physics-s1',
     name: 'Engineering Physics',
-    code: 'PHY101',
+    code: '1FY2-02',
     year: 1,
     semester: 1,
     branch: 'CSE',
@@ -25,7 +25,7 @@ export const contentSubjects: ContentSubject[] = [
   {
     id: 'comm-s1',
     name: 'Communication Skills',
-    code: 'ENG101',
+    code: '1FY1-04',
     year: 1,
     semester: 1,
     branch: 'CSE',
