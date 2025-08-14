@@ -35,7 +35,7 @@ export const contentSubjects: ContentSubject[] = [
   {
     id: 'mech-s1',
     name: 'Basic Mechanical Engineering',
-    code: 'MECH101',
+     code: '2FY3-07',
     year: 1,
     semester: 1,
     branch: 'CSE',
@@ -45,7 +45,7 @@ export const contentSubjects: ContentSubject[] = [
   {
     id: 'elec-s1',
     name: 'Basic Electrical Engineering',
-    code: 'EE101',
+     code: '1FY3-08',
     year: 1,
     semester: 1,
     branch: 'CSE',
@@ -57,7 +57,7 @@ export const contentSubjects: ContentSubject[] = [
   {
     id: 'math2-s2',
     name: 'Engineering Mathematics-II',
-    code: 'MATH102',
+    code: '2FY2-01',
     year: 1,
     semester: 2,
     branch: 'CSE',
@@ -67,7 +67,7 @@ export const contentSubjects: ContentSubject[] = [
   {
     id: 'chem-s2',
     name: 'Engineering Chemistry',
-    code: 'CHEM101',
+   code: '2FY2-03',
     year: 1,
     semester: 2,
     branch: 'CSE',
@@ -77,7 +77,7 @@ export const contentSubjects: ContentSubject[] = [
   {
     id: 'hv-s2',
     name: 'Human Values',
-    code: 'HV101',
+    code: '1FY1-05',
     year: 1,
     semester: 2,
     branch: 'CSE',
@@ -87,7 +87,7 @@ export const contentSubjects: ContentSubject[] = [
   {
     id: 'pps-s2',
     name: 'Programming for Problem Solving',
-    code: 'CS101',
+    code: '2FY3-06',
     year: 1,
     semester: 2,
     branch: 'CSE',
@@ -97,7 +97,7 @@ export const contentSubjects: ContentSubject[] = [
   {
     id: 'civil-s2',
     name: 'Basic Civil Engineering',
-    code: 'CE101',
+    code: '1FY3-09',
     year: 1,
     semester: 2,
     branch: 'CSE',
