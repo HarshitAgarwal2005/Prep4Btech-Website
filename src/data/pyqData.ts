@@ -2270,7 +2270,7 @@ downloadUrl:'https://drive.google.com/file/d/1Q3y1XCIvlELpFfMVEiyw1TcrHOOpYNjE/v
     id: 'paper-1',
     title: 'BTECH-CS-IT-5-SEM-INFORMATION-THEORY-AND-CODING-5E1751-2024',
     year: 2024,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s5-itc',
 downloadUrl:'https://drive.google.com/file/d/1a0k2hgYeZRjjthwMPos9d_QNpbNtfv99/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2279,7 +2279,7 @@ downloadUrl:'https://drive.google.com/file/d/1a0k2hgYeZRjjthwMPos9d_QNpbNtfv99/v
     id: 'paper-1',
     title: 'BTECH-CS-IT-5-SEM-INFORMATION-THEORY-AND-CODING-5E1751-FEB-2024',
     year: 2024,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s5-itc',
 downloadUrl:'https://drive.google.com/file/d/1L54IdBmRkeEvfVKjjk0dx9WKU4mz5Yoz/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2288,7 +2288,7 @@ downloadUrl:'https://drive.google.com/file/d/1L54IdBmRkeEvfVKjjk0dx9WKU4mz5Yoz/v
     id: 'paper-1',
     title: 'BTECH-CS-IT-5-SEM-OPERATING-SYSTEM-5E1353-JAN-2022',
     year: 2022,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s5-os',
  downloadUrl:'https://drive.google.com/file/d/1R8Z_aqAF-3djWj_sKiKkHOzGV3R4mjRt/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2297,7 +2297,7 @@ downloadUrl:'https://drive.google.com/file/d/1L54IdBmRkeEvfVKjjk0dx9WKU4mz5Yoz/v
     id: 'paper-1',
     title: 'BTECH-CS-IT-5-SEM-OPERATING-SYSTEM-5E1353-MAR-2021',
     year: 2021,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s5-os',
 downloadUrl:'https://drive.google.com/file/d/1jC84JsLPiqxtGzqvsXRa6Otb5CjI8XiB/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2306,7 +2306,7 @@ downloadUrl:'https://drive.google.com/file/d/1jC84JsLPiqxtGzqvsXRa6Otb5CjI8XiB/v
     id: 'paper-1',
     title: 'BTECH-CS-IT-5-SEM-OPERATING-SYSTEM-5E1753-2024',
     year: 2024,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s5-os',
  downloadUrl:'https://drive.google.com/file/d/1jfCnJM9OH-xJ6fTmDNa0P_UCnmgQVYrt/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2315,7 +2315,7 @@ downloadUrl:'https://drive.google.com/file/d/1jC84JsLPiqxtGzqvsXRa6Otb5CjI8XiB/v
     id: 'paper-1',
     title: 'BTECH-CS-IT-5-SEM-OPERATING-SYSTEM-5E1753-FEB-2024',
     year: 2024,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s5-os',
 downloadUrl:'https://drive.google.com/file/d/1EQbVLnMmGaRyGvJpiqDFCi7cKnXr1GAB/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
