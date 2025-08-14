@@ -400,7 +400,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s6-ds',
     name: 'Distributed System',
     code: '6C54-11',
     branchId: 'cse',
@@ -408,7 +408,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s6-sdn',
     name: 'Software Defined Network',
     code: '6CS5-12',
     branchId: 'cse',
@@ -416,7 +416,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s6-eerp',
     name: 'Ecommerce & ERP',
     code: '6CS4-13',
     branchId: 'cse',
@@ -425,7 +425,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   //7th semester papers
   {
-    id: 'cse-s4-os',
+    id: 'cse-s7-iot',
     name: 'Internet Of Things',
     code: '7CS4-01',
     branchId: 'cse',
@@ -433,7 +433,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s7-oe1',
     name: 'Open Elective-I ',
     code: '7CS4',
     branchId: 'cse',
@@ -442,7 +442,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   // 8th semester subjects 
   {
-    id: 'cse-s4-os',
+    id: 'cse-s8-bda',
     name: 'Big Data Analytics',
     code: '8CS4-01',
     branchId: 'cse',
@@ -450,7 +450,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s8-oe2',
     name: 'Open Elective-I',
     code: '8CS4',
     branchId: 'cse',
@@ -623,7 +623,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   // 3rd semester subjects
   {
-    id: 'ee-s3-os',
+    id: 'ee-s3-ae',
     name: 'Advance Mathematics',
     code: '3EE2-01',
     branchId: 'ee',
@@ -631,7 +631,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
    {
-    id: 'ee-s3-os',
+    id: 'ee-s3-mefa',
     name: 'Managerial Economics & Financial Accounting',
     code: '3EE2-03',
     branchId: 'ee',
@@ -639,7 +639,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
    {
-    id: 'ee-s3-os',
+    id: 'ee-s3-pgp',
     name: 'Power Generation Processes',
     code: '3EE3-04',
     branchId: 'ee',
@@ -647,7 +647,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
    {
-    id: 'ee-s3-os',
+    id: 'ee-s3-eca',
     name: 'Electrical Circuit Analysis ',
     code: '3EE4-05',
     branchId: 'ee',
@@ -655,14 +655,14 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
    {
-    id: 'ee-s3-os',
+    id: 'ee-s3-ae',
     name: 'Analog Electronics',
     code: '3EE4-06',
     branchId: 'ee',
     semester: 3,
     credits: 3
   }, {
-    id: 'ee-s3-os',
+    id: 'ee-s3-em1',
     name: 'Electrical Machine -I',
     code: '3EE4-07',
     branchId: 'ee',
@@ -670,7 +670,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
    {
-    id: 'ee-s3-os',
+    id: 'ee-s3-ef',
     name: 'Electromagnetic Fields',
     code: '3EE4-08',
     branchId: 'ee',
