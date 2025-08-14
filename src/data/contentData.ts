@@ -112,7 +112,7 @@ export const contentSubjects: ContentSubject[] = [
     code: 'CS201',
     year: 2,
     semester: 3,
-    branch: 'ECE',
+    branch: 'CSE',
     description: 'Data organization and algorithmic problem solving',
     icon: '🔗'
   },
