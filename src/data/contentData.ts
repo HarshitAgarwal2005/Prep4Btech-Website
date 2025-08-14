@@ -771,7 +771,7 @@ export const branches = [
   {
     id: 'mechanical',
     name: 'Mechanical Engineering',
-    code: 'MECHANICAL',
+    code: 'MECH',
     description: 'Mechanical systems and manufacturing',
     icon: '⚙️',
     color: 'from-red-500 to-pink-500'
