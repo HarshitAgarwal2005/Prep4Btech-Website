@@ -138,8 +138,39 @@ export const contentSubjects: ContentSubject[] = [
   },
   {
     id: 'dsa-s3',
-    name: 'Data Structures & Algorithms',
-    code: 'CS201',
+     name: 'Data Structures And Algorithm',
+    code: '3CS4-05',
+    year: 2,
+    semester: 3,
+    branch: 'CSE',
+    description: 'Data organization and algorithmic problem solving',
+    icon: '🔗'
+  },
+  {
+    id: 'mefa-s3',
+    name: 'Managerial Economics And Financial Engineering',
+    code: '3CS1-03',
+    year: 2,
+    semester: 3,
+    branch: 'CSE',
+    description: 'Object-oriented programming concepts',
+    icon: '🎯'
+  },
+  {
+    id: 'se-s3',
+    name: 'Software Engineering',
+    code: '3CS4-07',
+    year: 2,
+    semester: 3,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+// Second Year - Semester 3
+  {
+     id: 'aem-s3',
+    name: 'Advance Engineering Mathematics',
+    code: '3CS2-01',
     year: 2,
     semester: 3,
     branch: 'CSE',
@@ -149,7 +180,7 @@ export const contentSubjects: ContentSubject[] = [
   {
     id: 'oop-s3',
     name: 'Object Oriented Programming',
-    code: 'CS202',
+    code: '3CS4-06',
     year: 2,
     semester: 3,
     branch: 'CSE',
@@ -158,8 +189,38 @@ export const contentSubjects: ContentSubject[] = [
   },
   {
     id: 'de-s3',
-    name: 'Digital Electronics',
-    code: 'EC201',
+   name: 'Digital Electronics',
+    code: '3CS3-04',
+    year: 2,
+    semester: 3,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  {
+    id: 'dsa-s3',
+     name: 'Data Structures And Algorithm',
+    code: '3CS4-05',
+    year: 2,
+    semester: 3,
+    branch: 'CSE',
+    description: 'Data organization and algorithmic problem solving',
+    icon: '🔗'
+  },
+  {
+    id: 'mefa-s3',
+    name: 'Managerial Economics And Financial Engineering',
+    code: '3CS1-03',
+    year: 2,
+    semester: 3,
+    branch: 'CSE',
+    description: 'Object-oriented programming concepts',
+    icon: '🎯'
+  },
+  {
+    id: 'se-s3',
+    name: 'Software Engineering',
+    code: '3CS4-07',
     year: 2,
     semester: 3,
     branch: 'CSE',
