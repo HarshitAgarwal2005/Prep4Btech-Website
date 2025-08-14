@@ -2543,7 +2543,7 @@ downloadUrl:'https://drive.google.com/file/d/17RAYnOSBH4d4qXLoMd7MjivEvPPs1M73/v
     id: 'paper-1',
     title: 'BTECH-CS-IT-6-SEM-INFORMATION-SECURITY-SYSTEM-610403-AUG-2023',
     year: 2023,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s6-iss',
 downloadUrl:'https://drive.google.com/file/d/11UqHAEZqGh2ZrtMc1raHMLGEYQwR31cj/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
