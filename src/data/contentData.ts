@@ -967,7 +967,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '7EE5-11-12-13',
     year: 4,
     semester: 7,
-    branch: 'CSE',
+    branch: 'EE',
     description: 'Digital circuits and logic design',
     icon: '🔌'
   },  
@@ -978,7 +978,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '8EE4-11-12-13',
     year: 4,
     semester: 8,
-    branch: 'CSE',
+    branch: 'EE',
     description: 'Digital circuits and logic design',
     icon: '🔌'
   },  {
@@ -987,7 +987,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '8EE4-11-12-13',
     year: 4,
     semester: 8,
-    branch: 'CSE',
+    branch: 'EE',
     description: 'Digital circuits and logic design',
     icon: '🔌'
   },
