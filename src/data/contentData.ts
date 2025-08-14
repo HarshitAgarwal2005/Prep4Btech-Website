@@ -107,6 +107,36 @@ export const contentSubjects: ContentSubject[] = [
 
   // Second Year - Semester 3
   {
+     id: 'aem-s3',
+    name: 'Advance Engineering Mathematics',
+    code: '3CS2-01',
+    year: 2,
+    semester: 3,
+    branch: 'CSE',
+    description: 'Data organization and algorithmic problem solving',
+    icon: '🔗'
+  },
+  {
+    id: 'oop-s3',
+    name: 'Object Oriented Programming',
+    code: '3CS4-06',
+    year: 2,
+    semester: 3,
+    branch: 'CSE',
+    description: 'Object-oriented programming concepts',
+    icon: '🎯'
+  },
+  {
+    id: 'de-s3',
+   name: 'Digital Electronics',
+    code: '3CS3-04',
+    year: 2,
+    semester: 3,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  {
     id: 'dsa-s3',
     name: 'Data Structures & Algorithms',
     code: 'CS201',
