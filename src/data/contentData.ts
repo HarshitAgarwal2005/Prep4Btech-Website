@@ -788,7 +788,7 @@ export const contentSubjects: ContentSubject[] = [
     semester: 1,
     branch: 'MECH',
     description: 'Fundamental mathematical concepts for engineering',
-    ic
+    icon: '⚛️'
   {
     id: 'physics-s1',
     name: 'Engineering Physics',
