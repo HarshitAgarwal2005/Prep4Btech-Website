@@ -878,7 +878,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '1FY3-09',
     year: 1,
     semester: 2,
-    branch: 'CIVIL'',
+    branch: 'CIVIL',
     description: 'Civil engineering fundamentals',
     icon: '🏗️'
   }
