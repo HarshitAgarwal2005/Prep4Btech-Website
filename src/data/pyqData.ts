@@ -768,7 +768,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'ee-s5-os',
+    id: 'ee-s5-emd',
     name: 'Electrical Machine Design',
     code: '5EE4-05',
     branchId: 'ee',
@@ -776,7 +776,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
 {
-    id: 'ee-s5-os',
+    id: 'ee-s5-rps',
     name: 'Restructured Power System',
     code: '5EE5-11',
     branchId: 'ee',
@@ -784,7 +784,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'ee-s5-os',
+    id: 'ee-s5-ew',
     name: 'Electromagnetic Wave',
     code: '5EE5-12',
     branchId: 'ee',
@@ -792,7 +792,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'ee-s5-os',
+    id: 'ee-s5-dcs',
     name: 'Digital Control System',
     code: '5EE5-13',
     branchId: 'ee',
