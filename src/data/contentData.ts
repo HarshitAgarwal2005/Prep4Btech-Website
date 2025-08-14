@@ -5,10 +5,10 @@ export const contentSubjects: ContentSubject[] = [
   {
     id: 'math1-s1',
     name: 'Engineering Mathematics-I',
-    code: 'MATH101',
+    code: '1FY2-01',
     year: 1,
     semester: 1,
-    branch: 'ECE',
+    branch: 'CSE',
     description: 'Fundamental mathematical concepts for engineering',
     icon: '📐'
   },
