@@ -232,7 +232,7 @@ const Assignments: React.FC = () => {
               <div className="flex items-center justify-between mb-8">
                 <div className="flex items-center">
                   <Filter className="h-6 w-6 text-blue-400 mr-3" />
-                  <h2 className="text-2xl font-bold">Filter Content</h2>
+                  <h2 className="text-2xl font-bold"> Content</h2>
                 </div>
                 <div className="text-sm text-gray-400">Select by Year</div>
               </div>
