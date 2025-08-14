@@ -953,7 +953,7 @@ export const contentSubjects: ContentSubject[] = [
   },
   // forth year semester 7
     {
-    id: 'ee-s7-os',
+    id: 'pec-s7',
     name: 'PEC',
     code: '7EE5-11-12-13',
     year: 4,
@@ -962,7 +962,7 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Digital circuits and logic design',
     icon: '🔌'
   },  {
-   id: 'ee-s7-os',
+   id: 'eeoe1-s7',
     name: 'Open Elective-I',
     code: '7EE5-11-12-13',
     year: 4,
@@ -973,8 +973,8 @@ export const contentSubjects: ContentSubject[] = [
   },  
 //EE SEM 8
 {
-   id: 'ee-s8-os',
-    name: 'PEC ',
+   id: 'pec-s8',
+    name: 'PEC-II',
     code: '8EE4-11-12-13',
     year: 4,
     semester: 8,
@@ -982,8 +982,8 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Digital circuits and logic design',
     icon: '🔌'
   },  {
-    id: 'ee-s8-os',
-    name: 'Open Elective-I',
+    id: 'eeoe2-s8',
+    name: 'Open Elective-II',
     code: '8EE4-11-12-13',
     year: 4,
     semester: 8,
