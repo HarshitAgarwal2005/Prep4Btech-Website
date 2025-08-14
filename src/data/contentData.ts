@@ -786,7 +786,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '1FY2-01',
     year: 1,
     semester: 1,
-    branch: 'MECH',
+    branch: 'CIVIL',
     description: 'Fundamental mathematical concepts for engineering',
     icon: '⚛️'
    },
@@ -796,9 +796,9 @@ export const contentSubjects: ContentSubject[] = [
     code: '1FY2-02',
     year: 1,
     semester: 1,
-    branch: 'MECH',
+    branch: 'CIVIL',
     description: 'Basic physics principles and applications',
-    icon: '⚛️'
+    icon: '🔧'
   },
   {
     id: 'comm-s1',
@@ -806,7 +806,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '1FY1-04',
     year: 1,
     semester: 1,
-    branch: 'MECH',
+    branch: 'CIVIL',
     description: 'English communication and technical writing',
     icon: '💬'
   },
@@ -816,7 +816,7 @@ export const contentSubjects: ContentSubject[] = [
      code: '2FY3-07',
     year: 1,
     semester: 1,
-    branch: 'MECH',
+    branch: 'CIVIL',
     description: 'Introduction to mechanical engineering concepts',
     icon: '⚙️'
   },
@@ -826,7 +826,7 @@ export const contentSubjects: ContentSubject[] = [
      code: '1FY3-08',
     year: 1,
     semester: 1,
-    branch: 'MECH',
+    branch: 'CIVIL',
     description: 'Electrical circuits and basic electronics',
     icon: '⚡'
   },
@@ -838,7 +838,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '2FY2-01',
     year: 1,
     semester: 2,
-    branch: 'MECH',
+    branch: 'CIVIL',
     description: 'Advanced mathematical concepts and applications',
     icon: '📊'
   },
@@ -848,7 +848,7 @@ export const contentSubjects: ContentSubject[] = [
    code: '2FY2-03',
     year: 1,
     semester: 2,
-    branch: 'MECH',
+    branch: 'CIVIL',
     description: 'Chemical principles for engineering applications',
     icon: '🧪'
   },
@@ -858,7 +858,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '1FY1-05',
     year: 1,
     semester: 2,
-    branch: 'MECH',
+    branch: 'CIVIL',
     description: 'Ethics, values and professional development',
     icon: '🤝'
   },
@@ -868,7 +868,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '2FY3-06',
     year: 1,
     semester: 2,
-    branch: 'MECH',
+    branch: 'CIVIL',
     description: 'Introduction to programming concepts',
     icon: '💻'
   },
@@ -878,7 +878,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '1FY3-09',
     year: 1,
     semester: 2,
-    branch: 'MECH',
+    branch: 'CIVIL'',
     description: 'Civil engineering fundamentals',
     icon: '🏗️'
   }
