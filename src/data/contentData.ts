@@ -745,7 +745,7 @@ export const contentSubjects: ContentSubject[] = [
     branch: 'EE',
     description: 'Object-oriented programming concepts',
     icon: '🎯'
-  },
+  },{
   id: 'emi-s4',
     name: 'Electronic Measurement & Instrumentation',
     code: '4EE3-04',
