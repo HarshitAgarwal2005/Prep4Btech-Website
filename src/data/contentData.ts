@@ -324,16 +324,6 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Digital circuits and logic design',
     icon: '🔌'
   },
-  {
-    id: 'bio-s6',
-    name: 'Bioinformatics',
-    code: '6CS6-13',
-    year: 3,
-    semester: 6,
-    branch: 'CSE',
-     description: 'Digital circuits and logic design',
-    icon: '🔌'
-  },
     {
    id: 'cao-s6',
     name: 'Computer Architecture & Organization',
@@ -360,6 +350,74 @@ export const contentSubjects: ContentSubject[] = [
     code: '6CS4-06',
     year: 3,
     semester: 6,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  {
+    id: 'ds-s6',
+    name: 'Distributed System',
+    code: '6C54-11',
+    year: 3,
+    semester: 6,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  {
+    id: 'sdn-s6',
+    name: 'Software Defined Network',
+    code: '6CS5-12',
+    year: 3,
+    semester: 6,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  {
+    id: 'eerp-s6',
+    name: 'Ecommerce & ERP',
+    code: '6CS4-13',
+    year: 3,
+    semester: 6,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  // forth year semester 7
+    {
+     id: 'iot-s7',
+    name: 'Internet Of Things',
+    code: '7CS4-01',
+    year: 4,
+    semester: 7,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },  {
+    id: 'oe1-s7',
+    name: 'Open Elective-I ',
+    code: '7CS4',
+    year: 4,
+    semester: 7,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },  {
+   id: 'bda-s8',
+    name: 'Big Data Analytics',
+    code: '8CS4-01',
+    year: 4,
+    semester: 8,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },  {
+    id: 'oe2-s8',
+    name: 'Open Elective-I',
+    code: '8CS4',
+    year: 4,
+    semester: 8,
     branch: 'CSE',
     description: 'Digital circuits and logic design',
     icon: '🔌'
