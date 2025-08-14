@@ -8,7 +8,7 @@ export const contentSubjects: ContentSubject[] = [
     code: 'MATH101',
     year: 1,
     semester: 1,
-    branch: 'CSE',
+    branch: 'ECE',
     description: 'Fundamental mathematical concepts for engineering',
     icon: '📐'
   },
