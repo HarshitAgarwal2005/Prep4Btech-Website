@@ -166,63 +166,139 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Digital circuits and logic design',
     icon: '🔌'
   },
-// Second Year - Semester 3
+// Second Year - Semester 4
   {
-     id: 'aem-s3',
-    name: 'Advance Engineering Mathematics',
-    code: '3CS2-01',
+    id: 'dms-s4',
+    name: 'Discrete Mathematics Structure',
+    code: '4CS2-01',
     year: 2,
-    semester: 3,
+    semester: 4,
     branch: 'CSE',
     description: 'Data organization and algorithmic problem solving',
     icon: '🔗'
   },
   {
-    id: 'oop-s3',
-    name: 'Object Oriented Programming',
-    code: '3CS4-06',
+    id: 'tc-s4',
+    name: 'Technical communication',
+    code: '4CS1-02',
     year: 2,
-    semester: 3,
+    semester: 4,
     branch: 'CSE',
     description: 'Object-oriented programming concepts',
     icon: '🎯'
   },
   {
-    id: 'de-s3',
-   name: 'Digital Electronics',
-    code: '3CS3-04',
+   id: 'mi-s4',
+    name: 'Microprocessor & Interfaces',
+    code: '4CS3-01',
     year: 2,
-    semester: 3,
+    semester: 4,
     branch: 'CSE',
     description: 'Digital circuits and logic design',
     icon: '🔌'
   },
   {
-    id: 'dsa-s3',
-     name: 'Data Structures And Algorithm',
-    code: '3CS4-05',
+    id: 'dbms-s4',
+    name: 'Database Management System',
+    code: '4CS4-05',
     year: 2,
-    semester: 3,
+    semester: 4,
     branch: 'CSE',
     description: 'Data organization and algorithmic problem solving',
     icon: '🔗'
   },
   {
-    id: 'mefa-s3',
-    name: 'Managerial Economics And Financial Engineering',
-    code: '3CS1-03',
+   id: 'toc-s4',
+    name: 'Theory Of Computation',
+    code: '4CS4-06',
     year: 2,
-    semester: 3,
+    semester: 4,
     branch: 'CSE',
     description: 'Object-oriented programming concepts',
     icon: '🎯'
   },
   {
-    id: 'se-s3',
-    name: 'Software Engineering',
-    code: '3CS4-07',
+    id: 'dccn-s4',
+    name: 'Data Communication & Computer Networks',
+    code: '4CS4-07',
     year: 2,
-    semester: 3,
+    semester: 4,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  // 3rd year semester 5
+   {
+     id: 'itc-s5',
+    name: 'Information Theory & Coding',
+    code: '5CS3-01',
+    year: 2,
+    semester: 5,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  }, {
+    id: 'cd-s5',
+    name: 'Compiler Design',
+    code: '5CS4-02',
+    year: 2,
+    semester: 5,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  }, {
+    id: 'os-s5',
+    name: 'Operating System',
+    code: '5CS4-03',
+    year: 2,
+    semester: 5,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  }, {
+   id: 'cgm-s5',
+    name: 'Computer Graphics & Multimedia',
+    code: '5CS4-04',
+    year: 2,
+    semester: 5,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  }, {
+   id: 'aa-s5',
+    name: 'Analysis Of Algorithm',
+    code: '5CS5-05',
+    year: 2,
+    semester: 5,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  }, {
+   
+    id: 'wc-s5',
+    name: 'Wireless Communication',
+    code: '5CS5-11',
+    year: 2,
+    semester: 5,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  }, {
+     id: 'hci-s5',
+    name: 'Human Compiler Interaction',
+    code: '5CS5-12',
+    year: 2,
+    semester: 5,
+    branch: 'CSE',
+    description: 'Digital circuits and logic design',
+    icon: '🔌'
+  },
+  {
+    id: 'bio-s5',
+    name: 'Bioinformatics',
+    code: '5CS5-13',
+    year: 2,
+    semester: 5,
     branch: 'CSE',
     description: 'Digital circuits and logic design',
     icon: '🔌'
