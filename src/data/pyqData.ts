@@ -281,7 +281,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   // 5th semester subjects
   {
-    id: 'cse-s4-os',
+    id: 'cse-s4-itc',
     name: 'Information Theory & Coding',
     code: '5CS3-01',
     branchId: 'cse',
@@ -289,7 +289,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 2
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s4-cd',
     name: 'Compiler Design',
     code: '5CS4-02',
     branchId: 'cse',
@@ -303,7 +303,7 @@ export const pyqSubjects: PYQSubject[] = [
     semester: 5,
     credits: 3
   },{
-    id: 'cse-s4-os',
+    id: 'cse-s4-cgm',
     name: 'Computer Graphics & Multimedia',
     code: '5CS4-04',
     branchId: 'cse',
@@ -311,7 +311,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s4-aa',
     name: 'Analysis Of Algorithm',
     code: '5CS5-05',
     branchId: 'cse',
@@ -319,7 +319,7 @@ export const pyqSubjects: PYQSubject[] = [
     credits: 3
   },
   {
-    id: 'cse-s4-os',
+    id: 'cse-s4-wc',
     name: 'Wireless Communication',
     code: '5CS5-11',
     branchId: 'cse',
