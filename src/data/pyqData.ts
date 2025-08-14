@@ -232,7 +232,7 @@ export const pyqSubjects: PYQSubject[] = [
   },
   // 4th semester subjects 
   {
-    id: 'cse-s4-dbms',
+    id: 'cse-s4-dms',
     name: 'Discrete Mathematics Structure',
     code: '4CS2-01',
     branchId: 'cse',
