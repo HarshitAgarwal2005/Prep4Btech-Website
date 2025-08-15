@@ -1444,6 +1444,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://drive.google.com/file/d/1r-WRNlpzU4nHGuoitHJSbJ_pvV_zVCRI/view?usp=drive_link'
   },
+   {
+    id: 'pps-s2',
+    title: 'Web Development Notes',
+    description: 'Web Development',
+    type: 'theory',
+    subjectId: 'pps-s2',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1CjkxwyIolse6MuFZMMHbYyuEaO9CV5rx/view?usp=sharing'
+  },
      {
     id: 'pps-book-1',
     title: 'E Balagurusamy - Programming in ANSI C-McGraw Hill Education book',
