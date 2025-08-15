@@ -1073,7 +1073,7 @@ export const pyqPapers: PYQPaper[] = [
     year: 2025,
     subjectId: 'cse-s1-math',
     downloadUrl: 'https://drive.google.com/file/d/1yb0yYCEju8BfhRW8AeNKbHU3wh-Uwgyk/view?usp=sharing',
-    uploadDate: '2025-06-11',
+    uploadDate: '2025-06-1',
     fileSize: '2.5 MB'
   },
   {
