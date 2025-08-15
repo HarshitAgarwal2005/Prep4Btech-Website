@@ -2464,15 +2464,15 @@ downloadUrl:'https://drive.google.com/file/d/1pHANYGFiqCveI8LLVwXNWw_9CcSJnxvG/v
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
-// {
-//     id: 'paper-1',
-//     title: 'BTECH-CAI-CS-IT-AID-6-SEM-PRINCIPLES-OF-ARTIFICIAL-INTELLIGENCE-6E7105-JUL-2023',
-//     year: 2023,
-//     subjectId: 'indian conustitution',
-// downloadUrl:'https://drive.google.com/file/d/19uKvFTvDp8DpJWnIMl4RQ3tXn1AcQU5F/view?usp=sharing',
-//     uploadDate: '2025-01-15',
-//     fileSize: '4.2 MB'
-//   },
+{
+    id: 'paper-1',
+    title: 'BTECH-CAI-CS-IT-AID-6-SEM-PRINCIPLES-OF-ARTIFICIAL-INTELLIGENCE-6E7105-JUL-2023',
+    year: 2023,
+    subjectId: 'cse-s6-extra',
+downloadUrl:'https://drive.google.com/file/d/19uKvFTvDp8DpJWnIMl4RQ3tXn1AcQU5F/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
   {
     id: 'paper-1',
     title: 'BTECH-CAI-CS-IT-AID-CAI-6-SEM-MACHINE-LEARNING-6E7102-JUL-2023',
@@ -2495,7 +2495,7 @@ downloadUrl:'https://drive.google.com/file/d/1NL7Pum7ac-tJzpT24hvo4mVAYrXQTvvR/v
 //     id: 'paper-1',
 //     title: 'BTECH-CS-6-SEM-BLOCK-CHAIN-AND-CYBER-SECURITY-6E7193-2025',
 //     year: 2025,
-//     subjectId: 'indian conustitution',
+//     subjectId: 'cse-s6-extra',
 // downloadUrl:'https://drive.google.com/file/d/1dT7j5vAuwErsLB2n33A40235o41kZ1e7/view?usp=sharing',
 //     uploadDate: '2025-01-15',
 //     fileSize: '4.2 MB'
@@ -2504,7 +2504,7 @@ downloadUrl:'https://drive.google.com/file/d/1NL7Pum7ac-tJzpT24hvo4mVAYrXQTvvR/v
 //     id: 'paper-1',
 //     title: 'BTECH-CS-6-SEM-CYBER-FORENSIC-6E7194-MAY-2025',
 //     year: 2025,
-//     subjectId: 'indian conustitution',
+//     subjectId: 'cse-s6-extra',
 // downloadUrl:'https://drive.google.com/file/d/1D20l_omlTUsgLXwqJhoc5uSMrlcLNFvk/view?usp=sharing',
 //     uploadDate: '2025-01-15',
 //     fileSize: '4.2 MB'
