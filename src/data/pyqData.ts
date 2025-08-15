@@ -2687,7 +2687,7 @@ downloadUrl:'https://drive.google.com/file/d/1ehLTI0S9_25Kn1nrzI0wuHIOmfGpGOZ6/v
     id: 'paper-1',
     title: 'BTECH-IT-6-SEM-COMPUTER-ARCHITECTURE-AND-ORGANIZATION-6E1554-JUN-2022',
     year: 2022,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s6-cao',
 downloadUrl:'https://drive.google.com/file/d/1NlRvquG8IBJUNCCSHsokRCiWJGBJ72Ox/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2696,7 +2696,7 @@ downloadUrl:'https://drive.google.com/file/d/1NlRvquG8IBJUNCCSHsokRCiWJGBJ72Ox/v
     id: 'paper-1',
     title: 'BTECH-IT-6-SEM-COMPUTER-ARCHITECTURE-AND-ORGANIZATION-6E1554-JUN-2022',
     year: 2022,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s6-cao',
 downloadUrl:'https://drive.google.com/file/d/1VsK9gSXtlD0N-CJ1rT5WwQloMWWJFiAA/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2705,7 +2705,7 @@ downloadUrl:'https://drive.google.com/file/d/1VsK9gSXtlD0N-CJ1rT5WwQloMWWJFiAA/v
     id: 'paper-1',
     title: 'BTECH-IT-6-SEM-COMPUTER-ARCHITECTURE-AND-ORGANIZATION-6E1554-JUN-2022(2)',
     year: 2022,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s6-cao',
 downloadUrl:'https://drive.google.com/file/d/1EAxkZUyJffxbIfALVnnmeluLeBunqltU/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2714,7 +2714,7 @@ downloadUrl:'https://drive.google.com/file/d/1EAxkZUyJffxbIfALVnnmeluLeBunqltU/v
     id: 'paper-1',
     title: 'BTECH-IT-6-SEM-DIGITAL-IMAGE-PROCESSING-6E1551-JUN-2022',
     year: 2022,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s6-dip',
 downloadUrl:'https://drive.google.com/file/d/14U9EeSDDshJvloM2Z_g1xYk_YYnUonS0/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2723,7 +2723,7 @@ downloadUrl:'https://drive.google.com/file/d/14U9EeSDDshJvloM2Z_g1xYk_YYnUonS0/v
     id: 'paper-1',
     title: 'BTECH-IT-6-SEM-DISTRIBUTED-SYSTEM-6E1650-2022',
     year: 2022,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s6-ds',
 downloadUrl:'https://drive.google.com/file/d/1UNQgrjhIyq-5pEu5Sv9psMz9MwYwEGC0/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2732,7 +2732,7 @@ downloadUrl:'https://drive.google.com/file/d/1UNQgrjhIyq-5pEu5Sv9psMz9MwYwEGC0/v
     id: 'paper-1',
     title: 'BTECH-IT-6-SEM-MACHINE-LEARNING-6E1552-JUN-2022',
     year: 2022,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s6-ml',
 downloadUrl:'https://drive.google.com/file/d/18T3XqZhNveLmsmB1JbluynENu5vuVkQK/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2742,16 +2742,16 @@ downloadUrl:'https://drive.google.com/file/d/18T3XqZhNveLmsmB1JbluynENu5vuVkQK/v
     id: 'paper-1',
     title: 'BTECH-AI-EC-EI-7-SEM-DIGITAL-SIGNAL-PROCESSING-7E7072-MAR-2021',
     year: 2021,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s7-dsp',
 downloadUrl:'https://drive.google.com/file/d/1Tc_dRV8ghPMS-cf2A1uHe_0GB7np9rMC/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
   {
     id: 'paper-1',
-    title: 'BTECH-CS-7-SEM-CLOUD-COMPUTING-7E7031-MAR-2021',
+    title: 'BTECH-CS-6-SEM-CLOUD-COMPUTING-7E7031-MAR-2021',
     year: 2021,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s6-cc',
 downloadUrl:'https://drive.google.com/file/d/1HPCjCddlujbjkUe-15nBYjoay9oeGIpK/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2760,7 +2760,7 @@ downloadUrl:'https://drive.google.com/file/d/1HPCjCddlujbjkUe-15nBYjoay9oeGIpK/v
     id: 'paper-1',
     title: 'BTECH-CS-7-SEM-INTERNET-OF-THINGS-7E1721-JAN-2022',
     year: 2022,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s7-iot',
 downloadUrl:'https://drive.google.com/file/d/11li5UtJH7wEut1rkoZZH_Kc2HXJaWYkO/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2769,7 +2769,7 @@ downloadUrl:'https://drive.google.com/file/d/11li5UtJH7wEut1rkoZZH_Kc2HXJaWYkO/v
     id: 'paper-1',
     title: 'BTECH-CS-7-SEM-INTERNET-OF-THINGS-7E1721-JAN-2023',
     year: 2023,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s7-iot',
 downloadUrl:'https://drive.google.com/file/d/124xWFmn5Lr4RDeryMwxJEKSao5OTE0F-/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2778,7 +2778,7 @@ downloadUrl:'https://drive.google.com/file/d/124xWFmn5Lr4RDeryMwxJEKSao5OTE0F-/v
     id: 'paper-1',
     title: 'BTECH-CS-7-SEM-INTERNET-OF-THINGS-7E1721-MAR-2021',
     year: 2021,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s7-iot',
 downloadUrl:'https://drive.google.com/file/d/1DaysIBSRyUVLzfHc_uqPCMe57yUZA5qr/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2787,16 +2787,16 @@ downloadUrl:'https://drive.google.com/file/d/1DaysIBSRyUVLzfHc_uqPCMe57yUZA5qr/v
     id: 'paper-1',
     title: 'BTECH-CS-7-SEM-QUALITY-MANAGEMENT-7E1722-JAN-2023',
     year: 2023,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s7-oe1',
 downloadUrl:'https://drive.google.com/file/d/122a700u0iRo3FIlS9_16tNngUYhoA_LJ/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
    {
     id: 'paper-1',
-    title: 'BTECH-CS-IT-7-SEM-INFORMATION-SYSTEM-SECURITY-7E7032-MAR-2021',
+    title: 'BTECH-CS-IT-6-SEM-INFORMATION-SYSTEM-SECURITY-7E7032-MAR-2021',
     year: 2021,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s6-iss',
 downloadUrl:'https://drive.google.com/file/d/1KY-55Rjfp-0yJ9IuUlrOO9ZRXUCuTYta/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
