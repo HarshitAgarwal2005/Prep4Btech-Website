@@ -230,6 +230,14 @@ export const pyqSubjects: PYQSubject[] = [
     semester: 3,
     credits: 3
   },
+  {
+    id: 'cse-s3-icgs',
+    name: 'Indian Constitution & general studies',
+    code: '3CS3',
+    branchId: 'cse',
+    semester: 3,
+    credits: 3
+  },
   // 4th semester subjects 
   {
     id: 'cse-s4-dms',
@@ -342,6 +350,14 @@ export const pyqSubjects: PYQSubject[] = [
     semester: 5,
     credits: 2
   },
+   {
+    id: 'cse-s5-extra',
+    name: 'Other Papers',
+    code: '5CS5',
+    branchId: 'cse',
+    semester: 5,
+    credits: 2
+  },
   // 6th semester sunjects 
    {
     id: 'cse-s6-dip',
@@ -419,6 +435,14 @@ export const pyqSubjects: PYQSubject[] = [
     id: 'cse-s6-eerp',
     name: 'Ecommerce & ERP',
     code: '6CS4-13',
+    branchId: 'cse',
+    semester: 6,
+    credits: 2
+  },
+   {
+    id: 'cse-s6-extra',
+    name: 'Other Papers',
+    code: '5CS5',
     branchId: 'cse',
     semester: 6,
     credits: 2
@@ -2059,24 +2083,24 @@ export const pyqPapers: PYQPaper[] = [
   
 
   // 5th semester papers
-  //   {
-  //   id: 'paper-1',
-  //   title: 'BTECH-5-SEM-INDIAN-CONSTITUTION-HUL203-2023',
-  //   year: 2023,
-  //   subjectId: 'indian conustitution',
-  //   downloadUrl: 'https://drive.google.com/file/d/1Rd6lbfH6DEGT_1LZ9_bVE6VJWor9EqOD/view?usp=sharing',
-  //   uploadDate: '2025-01-15',
-  //   fileSize: '4.2 MB'
-  // },
- // {
- //    id: 'paper-1',
- //    title: 'BTECH-AID-CAI-CDS-5-SEM-DATA-MINING-CONCEPTS-AND-TECHNIQUES-5E1821-2024',
- //    year: 2024,
- //    subjectId: 'indian conustitution',
- //    downloadUrl: 'https://drive.google.com/file/d/1g_jbLDndLrklvJ7DFL6RmrtvFNmIpq67/view?usp=sharing',
- //    uploadDate: '2025-01-15',
- //    fileSize: '4.2 MB'
- //  },
+    {
+    id: 'paper-1',
+    title: 'BTECH-5-SEM-INDIAN-CONSTITUTION-HUL203-2023',
+    year: 2023,
+    subjectId:  'cse-s5-extra',
+    downloadUrl: 'https://drive.google.com/file/d/1Rd6lbfH6DEGT_1LZ9_bVE6VJWor9EqOD/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+ {
+    id: 'paper-1',
+    title: 'BTECH-AID-CAI-CDS-5-SEM-DATA-MINING-CONCEPTS-AND-TECHNIQUES-5E1821-2024',
+    year: 2024,
+    subjectId: 'cse-s5-extra',
+    downloadUrl: 'https://drive.google.com/file/d/1g_jbLDndLrklvJ7DFL6RmrtvFNmIpq67/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
   {
     id: 'paper-1',
     title: 'BTECH-CS-5-SEM-HUMAN-COMPUTER-INTERACTION-5E1357-JAN-2022',
@@ -2212,42 +2236,42 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
-  // {
-  //   id: 'paper-1',
-  //   title: 'BTECH-CS-IT-5-SEM-CYBER-SECURITY-MANAGEMENT-DEC-2023',
-  //   year: 2023,
-  //   subjectId: 'indian conustitution',
-  //   downloadUrl: 'https://drive.google.com/file/d/1I822F6yuEho1Phi1UuUKJy92HouLWBw7/view?usp=sharing',
-  //   uploadDate: '2025-01-15',
-  //   fileSize: '4.2 MB'
-  // },
-  // {
-  //   id: 'paper-1',
-  //   title: 'BTECH-CS-IT-5-SEM-DATA-MINING-CONCEPTS-AND-TECHNIQUES-5E1821-FEB-2024',
-  //   year: 2024,
-  //   subjectId: 'indian conustitution',
-  //   downloadUrl: 'https://drive.google.com/file/d/1_mNxlbZv2AVvnSsGHalUcIow0htjFgPe/view?usp=sharing',
-  //   uploadDate: '2025-01-15',
-  //   fileSize: '4.2 MB'
-  // },
-// {
-//     id: 'paper-1',
-//     title: 'BTECH-CS-IT-5-SEM-DESIGN-AND-ANALYSIS-OF-ALGORITHMS-NOV-2023',
-//     year: 2023,
-//     subjectId: 'indian conustitution',
-//     downloadUrl: 'https://drive.google.com/file/d/1dqjus38sCrTZUeQtD77bKkThh5hxDYsw/view?usp=sharing',
-//     uploadDate: '2025-01-15',
-//     fileSize: '4.2 MB'
-//   },
-  // {
-  //   id: 'paper-1',
-  //   title: 'BTECH-CS-IT-5-SEM-FUNDAMENTALS-OF-BLOCK-CHAIN-5E1826-FEB-2024',
-  //   year: 2024,
-  //   subjectId: 'indian conustitution',
-  //   downloadUrl: 'https://drive.google.com/file/d/1CNN0Es9CFlz9kCG0NHP11ueX40cFqE5J/view?usp=sharing',
-  //   uploadDate: '2025-01-15',
-  //   fileSize: '4.2 MB'
-  // },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-CYBER-SECURITY-MANAGEMENT-DEC-2023',
+    year: 2023,
+    subjectId: 'cse-s5-extra',
+    downloadUrl: 'https://drive.google.com/file/d/1I822F6yuEho1Phi1UuUKJy92HouLWBw7/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-DATA-MINING-CONCEPTS-AND-TECHNIQUES-5E1821-FEB-2024',
+    year: 2024,
+    subjectId: 'cse-s5-extra',
+    downloadUrl: 'https://drive.google.com/file/d/1_mNxlbZv2AVvnSsGHalUcIow0htjFgPe/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+{
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-DESIGN-AND-ANALYSIS-OF-ALGORITHMS-NOV-2023',
+    year: 2023,
+    subjectId: 'cse-s5-extra',
+    downloadUrl: 'https://drive.google.com/file/d/1dqjus38sCrTZUeQtD77bKkThh5hxDYsw/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-IT-5-SEM-FUNDAMENTALS-OF-BLOCK-CHAIN-5E1826-FEB-2024',
+    year: 2024,
+    subjectId: 'cse-s5-extra',
+    downloadUrl: 'https://drive.google.com/file/d/1CNN0Es9CFlz9kCG0NHP11ueX40cFqE5J/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
   {
     id: 'paper-1',
     title: 'BTECH-CS-IT-5-SEM-HUMAN-COMPUTER-INTERACTION-5E1757-2024',
