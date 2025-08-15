@@ -24,11 +24,11 @@ const About: React.FC = () => {
     { name: 'React.js', level: 90, color: 'from-blue-500 to-cyan-500' },
     { name: 'TypeScript', level: 85, color: 'from-blue-600 to-indigo-600' },
     { name: 'Node.js', level: 80, color: 'from-green-500 to-emerald-500' },
-    { name: 'Python', level: 85, color: 'from-yellow-500 to-orange-500' },
-    { name: 'Java', level: 75, color: 'from-red-500 to-pink-500' },
-    { name: 'Database Design', level: 80, color: 'from-purple-500 to-violet-500' },
-    { name: 'UI/UX Design', level: 70, color: 'from-pink-500 to-rose-500' },
-    { name: 'Machine Learning', level: 65, color: 'from-indigo-500 to-purple-500' }
+    { name: 'Python', level: 96, color: 'from-yellow-500 to-orange-500' },
+    { name: 'Java', level: 86, color: 'from-red-500 to-pink-500' },
+    { name: 'Database Design', level: 94, color: 'from-purple-500 to-violet-500' },
+    { name: 'UI/UX Design', level: 84, color: 'from-pink-500 to-rose-500' },
+    { name: 'Machine Learning', level: 76, color: 'from-indigo-500 to-purple-500' }
   ];
 
   const certifications = [
