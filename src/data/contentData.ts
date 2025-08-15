@@ -1444,6 +1444,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://drive.google.com/file/d/1r-WRNlpzU4nHGuoitHJSbJ_pvV_zVCRI/view?usp=drive_link'
   },
+     {
+    id: 'pps-book-1',
+    title: 'E Balagurusamy - Programming in ANSI C-McGraw Hill Education book',
+    description: 'Reference textbook ',
+    type: 'books',
+    subjectId: 'pps-s2',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1y0A4EH4QSqUzrhulsxrzQ2tfib46YHNp/view?usp=drive_link'
+  },
 
   // Data Structures & Algorithms Content
   {
