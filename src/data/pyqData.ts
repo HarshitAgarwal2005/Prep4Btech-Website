@@ -2024,15 +2024,15 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
-  //  {
-  //   id: 'paper-8',
-  //   title: 'BTECH-EE-EC-EIC-CS-IT-3-SEM-GENERAL-STUDIES-HUL201-2024',
-  //   year: 2024,
-  //   subjectId: 'cse-s2-pps',
-  //   downloadUrl: 'https://drive.google.com/file/d/1l_IaO8KKE7VNR8Vsmj8UM5rf_OJz9b1u/view?usp=sharing',
-  //   uploadDate: '2025-01-15',
-  //   fileSize: '4.2 MB'
-  // },
+   {
+    id: 'paper-8',
+    title: 'BTECH-EE-EC-EIC-CS-IT-3-SEM-GENERAL-STUDIES-HUL201-2024',
+    year: 2024,
+    subjectId: 'cse-s3-icgs',
+    downloadUrl: 'https://drive.google.com/file/d/1l_IaO8KKE7VNR8Vsmj8UM5rf_OJz9b1u/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
 
   // 4th semester papers 
  {
@@ -2491,24 +2491,24 @@ downloadUrl:'https://drive.google.com/file/d/1NL7Pum7ac-tJzpT24hvo4mVAYrXQTvvR/v
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
-//   {
-//     id: 'paper-1',
-//     title: 'BTECH-CS-6-SEM-BLOCK-CHAIN-AND-CYBER-SECURITY-6E7193-2025',
-//     year: 2025,
-//     subjectId: 'cse-s6-extra',
-// downloadUrl:'https://drive.google.com/file/d/1dT7j5vAuwErsLB2n33A40235o41kZ1e7/view?usp=sharing',
-//     uploadDate: '2025-01-15',
-//     fileSize: '4.2 MB'
-//   },
-//   {
-//     id: 'paper-1',
-//     title: 'BTECH-CS-6-SEM-CYBER-FORENSIC-6E7194-MAY-2025',
-//     year: 2025,
-//     subjectId: 'cse-s6-extra',
-// downloadUrl:'https://drive.google.com/file/d/1D20l_omlTUsgLXwqJhoc5uSMrlcLNFvk/view?usp=sharing',
-//     uploadDate: '2025-01-15',
-//     fileSize: '4.2 MB'
-//   },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-6-SEM-BLOCK-CHAIN-AND-CYBER-SECURITY-6E7193-2025',
+    year: 2025,
+    subjectId: 'cse-s6-extra',
+downloadUrl:'https://drive.google.com/file/d/1dT7j5vAuwErsLB2n33A40235o41kZ1e7/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-1',
+    title: 'BTECH-CS-6-SEM-CYBER-FORENSIC-6E7194-MAY-2025',
+    year: 2025,
+    subjectId: 'cse-s6-extra',
+downloadUrl:'https://drive.google.com/file/d/1D20l_omlTUsgLXwqJhoc5uSMrlcLNFvk/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
   {
     id: 'paper-1',
     title: 'BTECH-CS-IT-6-SEM-ARTIFICIAL-INTELLIGENCE-610405-AUG-2023',
