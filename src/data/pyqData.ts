@@ -2425,27 +2425,27 @@ downloadUrl:'https://drive.google.com/file/d/1GkR2tXB9PlqUO_uMYyXVPyGsimR4pFY7/v
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
-//    {
-//     id: 'paper-1',
-//     title: 'BTECH-IT-5-SEM-SOFTWARE-TESTING-AND-PROJECT-MANAGEMENT-5E1789-FEB-2023',
-//     year: 2023,
-//     subjectId: 'indian conustitution',
-// downloadUrl:'https://drive.google.com/file/d/1qy3J7PQgzNZKpyxhx6a9nYFq4ZGIBtXN/view?usp=sharing',
-//     uploadDate: '2025-01-15',
-//     fileSize: '4.2 MB'
-//   },
+   {
+    id: 'paper-1',
+    title: 'BTECH-IT-5-SEM-SOFTWARE-TESTING-AND-PROJECT-MANAGEMENT-5E1789-FEB-2023',
+    year: 2023,
+    subjectId: 'cse-s6-extra',
+downloadUrl:'https://drive.google.com/file/d/1qy3J7PQgzNZKpyxhx6a9nYFq4ZGIBtXN/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
   
-  //6th semester papers
+  6th semester papers
 
-//  {
-//     id: 'paper-1',
-//     title: 'BTECH-AID-CAI-6-SEM-NATURAL-LANGUAGE-PROCESSING-6E7108-2025',
-//     year: 2025,
-//     subjectId: 'indian conustitution',
-// downloadUrl:'https://drive.google.com/file/d/1IsClO4LEczmMsVF8rUyRCO861lGAok1d/view?usp=sharing',
-//     uploadDate: '2025-01-15',
-//     fileSize: '4.2 MB'
-//   },
+ {
+    id: 'paper-1',
+    title: 'BTECH-AID-CAI-6-SEM-NATURAL-LANGUAGE-PROCESSING-6E7108-2025',
+    year: 2025,
+    subjectId: 'cse-s6-extra',
+downloadUrl:'https://drive.google.com/file/d/1IsClO4LEczmMsVF8rUyRCO861lGAok1d/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
   {
     id: 'paper-1',
     title: 'BTECH-CAI-CS-IT-AID-6-SEM-CLOUD-COMPUTING-6E7106-JUL-2023',
