@@ -2033,6 +2033,15 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
+  {
+    id: 'paper-1',
+    title: 'BTECH-3-SEM-INDIAN-CONSTITUTION-HUL203-2023',
+    year: 2023,
+    subjectId:  'cse-s3-icgs',
+    downloadUrl: 'https://drive.google.com/file/d/1Rd6lbfH6DEGT_1LZ9_bVE6VJWor9EqOD/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
 
   // 4th semester papers 
  {
@@ -2083,15 +2092,7 @@ export const pyqPapers: PYQPaper[] = [
   
 
   // 5th semester papers
-    {
-    id: 'paper-1',
-    title: 'BTECH-5-SEM-INDIAN-CONSTITUTION-HUL203-2023',
-    year: 2023,
-    subjectId:  'cse-s5-extra',
-    downloadUrl: 'https://drive.google.com/file/d/1Rd6lbfH6DEGT_1LZ9_bVE6VJWor9EqOD/view?usp=sharing',
-    uploadDate: '2025-01-15',
-    fileSize: '4.2 MB'
-  },
+    
  {
     id: 'paper-1',
     title: 'BTECH-AID-CAI-CDS-5-SEM-DATA-MINING-CONCEPTS-AND-TECHNIQUES-5E1821-2024',
