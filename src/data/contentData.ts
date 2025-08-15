@@ -1381,16 +1381,16 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1km_lTssd-EBO0ENmBEa_p9keAoicVjuc/view?usp=sharing'
   },
   
-  {
-    id: 'physics-video-1',
-    title: 'Engineering Physics Video Lectures',
-    description: 'Conceptual explanations with demonstrations',
-    type: 'videos',
-    subjectId: 'physics-s1',
-    duration: '60 minutes',
-    uploadDate: '2024-01-28',
-    viewUrl: 'https://example.com/physics-videos'
-  },
+  // {
+  //   id: 'physics-video-1',
+  //   title: 'Engineering Physics Video Lectures',
+  //   description: 'Conceptual explanations with demonstrations',
+  //   type: 'videos',
+  //   subjectId: 'physics-s1',
+  //   duration: '60 minutes',
+  //   uploadDate: '2024-01-28',
+  //   viewUrl: 'https://example.com/physics-videos'
+  // },
 
   // Communication Skills Content
   {
@@ -1412,6 +1412,37 @@ export const contentItems: ContentItem[] = [
     fileSize: '0.9 MB',
     uploadDate: '2024-02-03',
     viewUrl: 'https://example.com/comm-assignment'
+  },
+  // programming problem solving sem 2
+   {
+    id: 'pps-s2',
+    title: 'Unit -I Fundamentals of Computer',
+    description: 'Grammar, writing skills, and presentation techniques',
+    type: 'theory',
+    subjectId: 'pps-s2',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1YoRZUASS5FJ0mz_Gy9mStHxzCoj0jK5k/view?usp=drive_link'
+  },
+   {
+    id: 'pps-s2',
+    title: 'unit 2 PPS Number System',
+    description: 'Number System Concepts',
+    type: 'theory',
+    subjectId: 'pps-s2',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1RMps2gEDp7hQqLa29eOYG5ptCSHhVjw1/view?usp=drive_link'
+  },
+   {
+    id: 'pps-s2',
+    title: 'Unit -III C Programming Notes',
+    description: ' C Programming Notes',
+    type: 'theory',
+    subjectId: 'pps-s2',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1r-WRNlpzU4nHGuoitHJSbJ_pvV_zVCRI/view?usp=drive_link'
   },
 
   // Data Structures & Algorithms Content
