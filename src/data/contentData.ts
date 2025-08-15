@@ -1362,13 +1362,13 @@ export const contentItems: ContentItem[] = [
   
   {
     id: 'physics-lab-1',
-    title: 'Engineering Physics Lab Experiments',
+    title: 'Engineering Physics Lab All Experiments',
     description: 'Practical experiments and observations',
     type: 'lab',
     subjectId: 'physics-s1',
     fileSize: '2.7 MB',
     uploadDate: '2024-01-22',
-    viewUrl: 'https://example.com/physics-lab'
+    viewUrl: 'https://drive.google.com/file/d/1ce-kR7tVIKB5fpaqPIm547mxEW2m-YCZ/view?usp=drive_link'
   },
    {
     id: 'math1-book-1',
