@@ -1370,6 +1370,17 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-22',
     viewUrl: 'https://example.com/physics-lab'
   },
+   {
+    id: 'math1-book-1',
+    title: 'Laser Chapter Book Notes',
+    description: 'Reference textbook for Laser',
+    type: 'books',
+    subjectId: 'physics-s1',
+    fileSize: '15.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1km_lTssd-EBO0ENmBEa_p9keAoicVjuc/view?usp=sharing'
+  },
+  
   {
     id: 'physics-video-1',
     title: 'Engineering Physics Video Lectures',
