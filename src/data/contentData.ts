@@ -1308,6 +1308,58 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-18',
     viewUrl: 'https://drive.google.com/file/d/13zjpU57j5qPC9puTU12QY0rJQA7BYMs-/view?usp=drive_link'
   },
+   {
+    id: 'physics-theory-1',
+    title: 'Quantum Mechanics Notes',
+    description: 'Theory covering Quantum Mechanics',
+    type: 'theory',
+    subjectId: 'physics-s1',
+    fileSize: '3.1 MB',
+    uploadDate: '2024-01-18',
+    viewUrl: 'https://drive.google.com/file/d/1UjMPjD1c4g8BnhPjyuefzZn1jYLe9cnv/view?usp=drive_link'
+  },
+   {
+    id: 'physics-theory-1',
+    title: 'Coherence and Optical Fibre Notes',
+    description: 'Theory covering Coherence and Optical Fibre',
+    type: 'theory',
+    subjectId: 'physics-s1',
+    fileSize: '3.1 MB',
+    uploadDate: '2024-01-18',
+    viewUrl: 'https://drive.google.com/file/d/1uxk8aZpSWzJ9f-WfivGXU1dTibfcyb4a/view?usp=drive_link'
+  },
+   {
+    id: 'physics-theory-1',
+    title: 'Laser Notes',
+    description: 'Theory covering laser ',
+    type: 'theory',
+    subjectId: 'physics-s1',
+    fileSize: '3.1 MB',
+    uploadDate: '2024-01-18',
+    viewUrl: 'https://drive.google.com/file/d/1fm5dJNGThyHOzIJcGP0edD7B1yYu865D/view?usp=drive_link'
+  },
+   {
+    id: 'physics-theory-1',
+    title: 'Material Science Notes',
+    description: 'Theory covering Material Science ',
+    type: 'theory',
+    subjectId: 'physics-s1',
+    fileSize: '3.1 MB',
+    uploadDate: '2024-01-18',
+    viewUrl: 'https://drive.google.com/file/d/1nqkIv2fPTLzode2bTNND-djot2f0gaIS/view?usp=drive_link'
+  },
+   {
+    id: 'physics-theory-1',
+    title: 'Electromagnetism Notes',
+    description: 'Theory covering Electromagnetism ',
+    type: 'theory',
+    subjectId: 'physics-s1',
+    fileSize: '3.1 MB',
+    uploadDate: '2024-01-18',
+    viewUrl: 'https://drive.google.com/file/d/1DbdLYuzoLUbjMR_AKoEQ6ZsYOdAbn0AT/view?usp=drive_link'
+  },
+  
+  
   {
     id: 'physics-lab-1',
     title: 'Engineering Physics Lab Experiments',
