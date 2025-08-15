@@ -2552,7 +2552,7 @@ downloadUrl:'https://drive.google.com/file/d/11UqHAEZqGh2ZrtMc1raHMLGEYQwR31cj/v
     id: 'paper-1',
     title: 'BTECH-CS-IT-6-SEM-INFORMATION-SECURITY-SYSTEMS-6E7103-2024',
     year: 2024,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s6-iss',
 downloadUrl:'https://drive.google.com/file/d/1tTfvbYhJaIu6iCSkGr949ND7B91Qgdcs/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2561,7 +2561,7 @@ downloadUrl:'https://drive.google.com/file/d/1tTfvbYhJaIu6iCSkGr949ND7B91Qgdcs/v
     id: 'paper-1',
     title: 'BTECH-CS-IT-6-SEM-INFORMATION-SECURITY-SYSTEMS-61N0403-2024',
     year: 2024,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s6-iss',
 downloadUrl:'https://drive.google.com/file/d/16Z_cJmM77dPQ9k5JTO_2bphxEfOf70Cs/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2570,7 +2570,7 @@ downloadUrl:'https://drive.google.com/file/d/16Z_cJmM77dPQ9k5JTO_2bphxEfOf70Cs/v
     id: 'paper-1',
     title: 'BTECH-CS-IT-6-SEM-MACHINE-LEARNING-6E7102-2024',
     year: 2024,
-    subjectId: 'indian conustitution',
+    subjectId: 'cse-s6-ml',
 downloadUrl:'https://drive.google.com/file/d/11FopiTM40lFfR8tHGJGTtZ2CbkyrPgwy/view?usp=drive_link',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
