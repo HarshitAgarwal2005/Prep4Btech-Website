@@ -1371,7 +1371,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1ce-kR7tVIKB5fpaqPIm547mxEW2m-YCZ/view?usp=drive_link'
   },
    {
-    id: 'math1-book-1',
+    id: 'physics-book-1',
     title: 'Laser Chapter Book Notes',
     description: 'Reference textbook for Laser',
     type: 'books',
