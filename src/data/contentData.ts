@@ -1306,7 +1306,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'physics-s1',
     fileSize: '3.1 MB',
     uploadDate: '2024-01-18',
-    viewUrl: 'https://drive.google.com/file/d/13zjpU57j5qPC9puTU12QY0rJQA7BYMs-/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/13zjpU57j5qPC9puTU12QY0rJQA7BYMs-/view?usp=sharing'
   },
    {
     id: 'physics-theory-1',
