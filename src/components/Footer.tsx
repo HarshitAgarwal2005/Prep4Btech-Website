@@ -77,12 +77,12 @@ const Footer: React.FC = () => {
     // ✅ First, check if the email is not empty
     if (email.trim()) {
         // ✅ THEN, attempt to send the email
-        emailjs.send(
-            "service_email",    // Your Service ID
-            "template_m60p9tg",   // Your Template ID
-            { subscriber_email: email },
-            "ykUUgVhuU-DLIy3IX"     // Your Public Key
-        )
+        // emailjs.send(
+        //     "service_email",    // Your Service ID
+        //     "template_m60p9tg",   // Your Template ID
+        //     { subscriber_email: email },
+        //     "ykUUgVhuU-DLIy3IX"     // Your Public Key
+        // ) 
         .then((response) => {
             console.log('SUCCESS!', response.status, response.text);
             // On success, update the UI
