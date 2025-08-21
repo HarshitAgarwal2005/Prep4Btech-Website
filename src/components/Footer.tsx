@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
   // const [motivationalQuote, setMotivationalQuote] = useState('');
   const [email, setEmail] = useState("");
   const [isSubscribed, setIsSubscribed] = useState(false);
-  const [motivationalQuote, setMotivationalQuote] = useState("Thanks for joining us! 🚀");
+  const [motivationalQuote, setMotivationalQuote] = useState("");
 
   const quotes = [
     "Success is not final, failure is not fatal: it is the courage to continue that counts. - Winston Churchill",
