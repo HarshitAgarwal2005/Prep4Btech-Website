@@ -348,7 +348,7 @@ const Footer: React.FC = () => {
           </div>
         </div> */} 
 
-          return (
+         
     <div className="border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="bg-gradient-to-r from-violet-600/20 via-purple-600/20 to-pink-600/20 backdrop-blur-sm rounded-2xl p-6 lg:p-8 border border-white/10">
@@ -391,7 +391,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
     </div>
-  );
+  
 
 
 
