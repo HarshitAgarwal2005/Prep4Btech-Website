@@ -71,27 +71,38 @@ const Footer: React.FC = () => {
     };
   }, []);
 
-  const handleSubscribe = (e: React.FormEvent) => {
+ const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
+
+    // ✅ First, check if the email is not empty
     if (email.trim()) {
+        // ✅ THEN, attempt to send the email
         emailjs.send(
-        "service_email",    // 🔹 Service ID from EmailJS
-        "template_m60p9tg",   // 🔹 Template ID from EmailJS
-        { subscriber_email: email }, // data you pass to template
-        "ykUUgVhuU-DLIy3IX"     // 🔹 Public Key from EmailJS
-      ) 
-      setIsSubscribed(true);
-      const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-      setMotivationalQuote(randomQuote);
-      setEmail('');
+            "service_email",    // Your Service ID
+            "template_m60p9tg",   // Your Template ID
+            { subscriber_email: email },
+            "ykUUgVhuU-DLIy3IX"     // Your Public Key
+        )
+        .then((response) => {
+            console.log('SUCCESS!', response.status, response.text);
+            // On success, update the UI
+            setIsSubscribed(true);
+            const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+            setMotivationalQuote(randomQuote);
+            setEmail('');
       
-      // Reset after 5 seconds
-      setTimeout(() => {
-        setIsSubscribed(false);
-        setMotivationalQuote('');
-      }, 5000);
+            // Reset after 5 seconds
+            setTimeout(() => {
+                setIsSubscribed(false);
+                setMotivationalQuote('');
+            }, 5000);
+
+        }, (error) => {
+            console.log('FAILED...', error);
+            // You could add UI feedback for the user here, e.g., alert("Failed to subscribe. Please try again.")
+        });
     }
-  };
+};
 
   const quickLinks = [
     { name: 'Home', path: '/' },
