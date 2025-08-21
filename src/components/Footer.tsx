@@ -96,10 +96,10 @@ import { Link } from 'react-router-dom';
 
     emailjs
       .send(
-        "your_service_id",    // 🔹 Service ID from EmailJS
-        "your_template_id",   // 🔹 Template ID from EmailJS
+        "your_service_id",    //  Service ID from EmailJS
+        "your_template_id",   //  Template ID from EmailJS
         { subscriber_email: email }, // data you pass to template
-        "your_public_key"     // 🔹 Public Key from EmailJS
+        "your_public_key"     //  Public Key from EmailJS
       )
       .then(
         (res) => {
