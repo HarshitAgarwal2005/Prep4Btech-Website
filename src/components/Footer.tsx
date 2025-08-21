@@ -72,9 +72,9 @@ const Footer: React.FC = () => {
       window.removeEventListener('userVisitUpdate', handleVisitUpdate as EventListener);
     };
   }, []);
+  
 
-  const handleSubscribe = (e) => {
-    e.preventDefault();
+  const handleSubscribe = (e : React.FormEvent) => {e.preventDefault();
 
     emailjs
       .send(
