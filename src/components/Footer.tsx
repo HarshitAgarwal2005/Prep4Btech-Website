@@ -84,18 +84,18 @@ const Footer: React.FC = () => {
         { subscriber_email: email }, // data you pass to template
         "your_public_key"     // 🔹 Public Key from EmailJS
       )
-if (email.trim()) {
+// if (email.trim()) {
       setIsSubscribed(true);
       const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
       setMotivationalQuote(randomQuote);
       setEmail('');
-      
+    
       // Reset after 5 seconds
       setTimeout(() => {
         setIsSubscribed(false);
         setMotivationalQuote('');
       }, 5000);
-    }
+    // }
   };
 
 
