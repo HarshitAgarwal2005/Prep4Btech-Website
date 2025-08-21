@@ -30,28 +30,6 @@ import { Link } from 'react-router-dom';
   const [isSubscribed, setIsSubscribed] = useState(false);
   const [motivationalQuote, setMotivationalQuote] = useState("Thanks for joining us! 🚀");
 
-  const handleSubscribe = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .send(
-        "your_service_id",    // 🔹 Service ID from EmailJS
-        "your_template_id",   // 🔹 Template ID from EmailJS
-        { subscriber_email: email }, // data you pass to template
-        "your_public_key"     // 🔹 Public Key from EmailJS
-      )
-      .then(
-        (res) => {
-          console.log("SUCCESS!", res.status, res.text);
-          setIsSubscribed(true);
-        },
-        (err) => {
-          console.error("FAILED...", err);
-          alert("Something went wrong. Try again!");
-        }
-      );
-  };
-
   const quotes = [
     "Success is not final, failure is not fatal: it is the courage to continue that counts. - Winston Churchill",
     "The only way to do great work is to love what you do. - Steve Jobs",
@@ -98,20 +76,41 @@ import { Link } from 'react-router-dom';
     };
   }, []);
 
-  const handleSubscribe = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (email.trim()) {
-      setIsSubscribed(true);
-      const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-      setMotivationalQuote(randomQuote);
-      setEmail('');
+  // const handleSubscribe = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   if (email.trim()) {
+  //     setIsSubscribed(true);
+  //     const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  //     setMotivationalQuote(randomQuote);
+  //     setEmail('');
       
-      // Reset after 5 seconds
-      setTimeout(() => {
-        setIsSubscribed(false);
-        setMotivationalQuote('');
-      }, 5000);
-    }
+  //     // Reset after 5 seconds
+  //     setTimeout(() => {
+  //       setIsSubscribed(false);
+  //       setMotivationalQuote('');
+  //     }, 5000);
+  //   }
+  // };
+    const handleSubscribe = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .send(
+        "your_service_id",    // 🔹 Service ID from EmailJS
+        "your_template_id",   // 🔹 Template ID from EmailJS
+        { subscriber_email: email }, // data you pass to template
+        "your_public_key"     // 🔹 Public Key from EmailJS
+      )
+      .then(
+        (res) => {
+          console.log("SUCCESS!", res.status, res.text);
+          setIsSubscribed(true);
+        },
+        (err) => {
+          console.error("FAILED...", err);
+          alert("Something went wrong. Try again!");
+        }
+      );
   };
 
   const quickLinks = [
