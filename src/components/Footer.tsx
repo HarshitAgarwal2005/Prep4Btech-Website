@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
         "service_email",    // 🔹 Service ID from EmailJS
         "template_m60p9tg",   // 🔹 Template ID from EmailJS
         { subscriber_email: email }, // data you pass to template
-        "your_public_key"     // 🔹 Public Key from EmailJS
+        "ykUUgVhuU-DLIy3IX"     // 🔹 Public Key from EmailJS
       )
 if (email.trim()) {
       setIsSubscribed(true);
