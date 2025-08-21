@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-// import emailjs from "emailjs-com";
 import { 
-  Mail,
+  Mail, 
   MapPin, 
   Linkedin, 
   Github, 
@@ -20,12 +19,9 @@ import { Link } from 'react-router-dom';
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
   const [visitCount, setVisitCount] = useState(1000);
-  // const [email, setEmail] = useState('');
-  // const [isSubscribed, setIsSubscribed] = useState(false);
-  // const [motivationalQuote, setMotivationalQuote] = useState('');
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState('');
   const [isSubscribed, setIsSubscribed] = useState(false);
-  const [motivationalQuote, setMotivationalQuote] = useState("");
+  const [motivationalQuote, setMotivationalQuote] = useState('');
 
   const quotes = [
     "Success is not final, failure is not fatal: it is the courage to continue that counts. - Winston Churchill",
@@ -73,23 +69,14 @@ const Footer: React.FC = () => {
     };
   }, []);
 
-  
-
-  const handleSubscribe = (e : React.FormEvent) => {
+  const handleSubscribe = (e: React.FormEvent) => {
     e.preventDefault();
-
-    emailjs.send(
-        "service_email",    // 🔹 Service ID from EmailJS
-        "template_m60p9tg",   // 🔹 Template ID from EmailJS
-        { subscriber_email: email }, // data you pass to template
-        "ykUUgVhuU-DLIy3IX"     // 🔹 Public Key from EmailJS
-      )
-if (email.trim()) {
+    if (email.trim()) {
       setIsSubscribed(true);
       const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
       setMotivationalQuote(randomQuote);
       setEmail('');
-    
+      
       // Reset after 5 seconds
       setTimeout(() => {
         setIsSubscribed(false);
@@ -97,8 +84,6 @@ if (email.trim()) {
       }, 5000);
     }
   };
-
-
 
   const quickLinks = [
     { name: 'Home', path: '/' },
@@ -111,7 +96,7 @@ if (email.trim()) {
   ];
 
   const resources = [
-    { name: 'Study Materials', path: '/assignments' },
+    { name: 'Study Materials', path: '/subjects' },
     { name: 'Previous Papers', path: '/pyq-papers' },
     { name: 'Project Ideas', path: '/projects' },
     { name: 'Reference Books', path: '/books' },
@@ -311,8 +296,7 @@ if (email.trim()) {
           </div>
         </div>
 
-         {/* Newsletter Section */}
-        
+        {/* Newsletter Section */}
         <div className="border-t border-white/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div className="bg-gradient-to-r from-violet-600/20 via-purple-600/20 to-pink-600/20 backdrop-blur-sm rounded-2xl p-6 lg:p-8 border border-white/10">
@@ -351,10 +335,7 @@ if (email.trim()) {
               </div>
             </div>
           </div>
-        </div> 
-
-         
-   
+        </div>
 
         {/* Bottom Footer */}
         <div className="border-t border-white/10">
