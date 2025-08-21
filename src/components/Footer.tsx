@@ -380,10 +380,10 @@ const Footer: React.FC = () => {
   );
 };
 
-import { useState } from "react";
-import emailjs from "emailjs-com";
+// import { useState } from "react";
+// import emailjs from "emailjs-com";
 
-export default function Newsletter() {
+export default function Newsletter()  {
   const [email, setEmail] = useState("");
   const [isSubscribed, setIsSubscribed] = useState(false);
   const [motivationalQuote, setMotivationalQuote] = useState("Thanks for joining us! 🚀");
