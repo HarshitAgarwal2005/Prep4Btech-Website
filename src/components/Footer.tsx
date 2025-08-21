@@ -124,7 +124,7 @@ import { Link } from 'react-router-dom';
   ];
 
   const resources = [
-    { name: 'Study Materials', path: '/subjects' },
+    { name: 'Study Materials', path: '/content' },
     { name: 'Previous Papers', path: '/pyq-papers' },
     { name: 'Project Ideas', path: '/projects' },
     { name: 'Reference Books', path: '/books' },
