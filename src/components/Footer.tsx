@@ -72,34 +72,10 @@ const Footer: React.FC = () => {
       window.removeEventListener('userVisitUpdate', handleVisitUpdate as EventListener);
     };
   }, []);
+
+
+
   
-
-  const handleSubscribe = (e : React.FormEvent) => {
-    e.preventDefault();
-
-    emailjs
-      .send(
-        "service_email",    // 🔹 Service ID from EmailJS
-        "your_template_id",   // 🔹 Template ID from EmailJS
-        { subscriber_email: email }, // data you pass to template
-        "your_public_key"     // 🔹 Public Key from EmailJS
-      )
-if (email.trim()) {
-      setIsSubscribed(true);
-      const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-      setMotivationalQuote(randomQuote);
-      setEmail('');
-    
-      // Reset after 5 seconds
-      setTimeout(() => {
-        setIsSubscribed(false);
-        setMotivationalQuote('');
-      }, 5000);
-    }
-  };
-
-
-
   const quickLinks = [
     { name: 'Home', path: '/' },
     { name: 'Year', path: '/year' },
@@ -311,6 +287,29 @@ if (email.trim()) {
           </div>
         </div>
 
+     const handleSubscribe = (e : React.FormEvent) => {
+    e.preventDefault();
+
+    emailjs
+      .send(
+        "service_email",    // 🔹 Service ID from EmailJS
+        "template_m60p9tg",   // 🔹 Template ID from EmailJS
+        { subscriber_email: email }, // data you pass to template
+        "your_public_key"     // 🔹 Public Key from EmailJS
+      )
+if (email.trim()) {
+      setIsSubscribed(true);
+      const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+      setMotivationalQuote(randomQuote);
+      setEmail('');
+    
+      // Reset after 5 seconds
+      setTimeout(() => {
+        setIsSubscribed(false);
+        setMotivationalQuote('');
+      }, 5000);
+    }
+  };
          {/* Newsletter Section */}
         
         <div className="border-t border-white/10">
