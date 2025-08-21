@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import emailjs from "emailjs-com";
 import { 
   Mail, 
   MapPin, 
@@ -20,9 +19,9 @@ import { Link } from 'react-router-dom';
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
   const [visitCount, setVisitCount] = useState(1000);
-  // const [email, setEmail] = useState('');
-  // const [isSubscribed, setIsSubscribed] = useState(false);
-  // const [motivationalQuote, setMotivationalQuote] = useState('');
+  const [email, setEmail] = useState('');
+  const [isSubscribed, setIsSubscribed] = useState(false);
+  const [motivationalQuote, setMotivationalQuote] = useState('');
 
   const quotes = [
     "Success is not final, failure is not fatal: it is the courage to continue that counts. - Winston Churchill",
@@ -33,58 +32,58 @@ const Footer: React.FC = () => {
     "The expert in anything was once a beginner. - Helen Hayes"
   ];
 
-  // useEffect(() => {
-  //   // // Get initial visit count from localStorage or start from 1000
-  //   // const getVisitCount = () => {
-  //   //   const stored = localStorage.getItem('globalVisitCount');
-  //   //   return stored ? parseInt(stored, 10) : 1000;
-  //   };
+  useEffect(() => {
+    // Get initial visit count from localStorage or start from 1000
+    const getVisitCount = () => {
+      const stored = localStorage.getItem('globalVisitCount');
+      return stored ? parseInt(stored, 10) : 1000;
+    };
     
     // Check if this is a new visit (not just a page reload)
-  //   const lastVisitTime = localStorage.getItem('lastVisitTime');
-  //   const currentTime = Date.now();
-  //   const timeDifference = currentTime - (lastVisitTime ? parseInt(lastVisitTime, 10) : 0);
+    const lastVisitTime = localStorage.getItem('lastVisitTime');
+    const currentTime = Date.now();
+    const timeDifference = currentTime - (lastVisitTime ? parseInt(lastVisitTime, 10) : 0);
     
-  //   // // Consider it a new visit if more than 30 minutes have passed or it's the first visit
-  //   // const isNewVisit = !lastVisitTime || timeDifference > 30 * 60 * 1000; // 30 minutes
+    // Consider it a new visit if more than 30 minutes have passed or it's the first visit
+    const isNewVisit = !lastVisitTime || timeDifference > 30 * 60 * 1000; // 30 minutes
     
-  //   let currentCount = getVisitCount();
+    let currentCount = getVisitCount();
     
-  //   if (isNewVisit) {
-  //     currentCount += 1;
-  //     localStorage.setItem('globalVisitCount', currentCount.toString());
-  //     localStorage.setItem('lastVisitTime', currentTime.toString());
-  //   }
+    if (isNewVisit) {
+      currentCount += 1;
+      localStorage.setItem('globalVisitCount', currentCount.toString());
+      localStorage.setItem('lastVisitTime', currentTime.toString());
+    }
     
-  //   setVisitCount(currentCount);
+    setVisitCount(currentCount);
 
-  //   // Listen for visit count updates (for real-time updates if needed)
-  //   const handleVisitUpdate = (event: CustomEvent) => {
-  //     setVisitCount(event.detail);
-  //   };
+    // Listen for visit count updates (for real-time updates if needed)
+    const handleVisitUpdate = (event: CustomEvent) => {
+      setVisitCount(event.detail);
+    };
 
-  //   window.addEventListener('userVisitUpdate', handleVisitUpdate as EventListener);
+    window.addEventListener('userVisitUpdate', handleVisitUpdate as EventListener);
 
-  //   return () => {
-  //     window.removeEventListener('userVisitUpdate', handleVisitUpdate as EventListener);
-  //   };
-  // }, []);
+    return () => {
+      window.removeEventListener('userVisitUpdate', handleVisitUpdate as EventListener);
+    };
+  }, []);
 
-  // const handleSubscribe = (e: React.FormEvent) => {
-  //   e.preventDefault();
-  //   if (email.trim()) {
-  //     setIsSubscribed(true);
-  //     const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-  //     setMotivationalQuote(randomQuote);
-  //     setEmail('');
+  const handleSubscribe = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (email.trim()) {
+      setIsSubscribed(true);
+      const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+      setMotivationalQuote(randomQuote);
+      setEmail('');
       
-  //     // Reset after 5 seconds
-  //     setTimeout(() => {
-  //       setIsSubscribed(false);
-  //       setMotivationalQuote('');
-  //     }, 5000);
-  //   }
-  // };
+      // Reset after 5 seconds
+      setTimeout(() => {
+        setIsSubscribed(false);
+        setMotivationalQuote('');
+      }, 5000);
+    }
+  };
 
   const quickLinks = [
     { name: 'Home', path: '/' },
@@ -97,7 +96,7 @@ const Footer: React.FC = () => {
   ];
 
   const resources = [
-    { name: 'Study Materials', path: '/assignments' },
+    { name: 'Study Materials', path: '/subjects' },
     { name: 'Previous Papers', path: '/pyq-papers' },
     { name: 'Project Ideas', path: '/projects' },
     { name: 'Reference Books', path: '/books' },
@@ -298,7 +297,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Newsletter Section */}
-        {/* <div className="border-t border-white/10">
+        <div className="border-t border-white/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div className="bg-gradient-to-r from-violet-600/20 via-purple-600/20 to-pink-600/20 backdrop-blur-sm rounded-2xl p-6 lg:p-8 border border-white/10">
               <div className="text-center">
@@ -337,7 +336,7 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </div>
- */}
+
         {/* Bottom Footer */}
         <div className="border-t border-white/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -380,79 +379,4 @@ const Footer: React.FC = () => {
   );
 };
 
-// import { useState } from "react";
-// import emailjs from "emailjs-com";
-
-export default function Newsletter()  {
-  const [email, setEmail] = useState("");
-  const [isSubscribed, setIsSubscribed] = useState(false);
-  const [motivationalQuote, setMotivationalQuote] = useState("Thanks for joining us! 🚀");
-
-  const handleSubscribe = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .send(
-        "your_service_id",    // 🔹 Service ID from EmailJS
-        "your_template_id",   // 🔹 Template ID from EmailJS
-        { subscriber_email: email }, // data you pass to template
-        "your_public_key"     // 🔹 Public Key from EmailJS
-      )
-      .then(
-        (res) => {
-          console.log("SUCCESS!", res.status, res.text);
-          setIsSubscribed(true);
-        },
-        (err) => {
-          console.error("FAILED...", err);
-          alert("Something went wrong. Try again!");
-        }
-      );
-  };
-
-  return (
-    <div className="border-t border-white/10">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="bg-gradient-to-r from-violet-600/20 via-purple-600/20 to-pink-600/20 backdrop-blur-sm rounded-2xl p-6 lg:p-8 border border-white/10">
-          <div className="text-center">
-            <h3 className="text-2xl font-bold text-white mb-4">Stay Updated! 📚</h3>
-            <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              Get notified about new study materials, assignments, and project ideas. 
-              Join our community of successful B.Tech students! 🚀
-            </p>
-
-            {isSubscribed ? (
-              <div className="bg-green-500/20 border border-green-400/30 rounded-xl p-6 max-w-2xl mx-auto">
-                <div className="text-green-300 text-xl font-bold mb-4">✅ Subscribed!</div>
-                <div className="text-green-100 text-sm italic leading-relaxed">
-                  "{motivationalQuote}"
-                </div>
-              </div>
-            ) : (
-              <form
-                onSubmit={handleSubscribe}
-                className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto"
-              >
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Enter your email address"
-                  required
-                  className="flex-1 px-4 py-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl text-white placeholder-gray-300 focus:ring-2 focus:ring-violet-500 focus:border-transparent transition-all duration-300"
-                />
-                <button
-                  type="submit"
-                  className="bg-gradient-to-r from-violet-600 to-purple-600 hover:from-violet-700 hover:to-purple-700 text-white px-6 py-3 rounded-xl font-medium transition-all duration-300 hover:scale-105 shadow-lg"
-                >
-                  Subscribe
-                </button>
-              </form>
-            )}
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
 export default Footer;
