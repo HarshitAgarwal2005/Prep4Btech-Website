@@ -128,7 +128,7 @@ import { Link } from 'react-router-dom';
     { name: 'Previous Papers', path: '/pyq-papers' },
     { name: 'Project Ideas', path: '/projects' },
     { name: 'Reference Books', path: '/books' },
-    { name: 'Ask Doubts', path: '/' },
+    { name: 'Ask Doubts', path: '/doubts' },
     { name: 'Community', path: '/contact' }
   ];
 
