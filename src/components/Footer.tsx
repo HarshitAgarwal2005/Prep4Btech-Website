@@ -107,7 +107,7 @@ const Footer: React.FC = () => {
   ];
 
   const resources = [
-    { name: 'Study Materials', path: '/subjects' },
+    { name: 'Study Materials', path: '/assignments' },
     { name: 'Previous Papers', path: '/pyq-papers' },
     { name: 'Project Ideas', path: '/projects' },
     { name: 'Reference Books', path: '/books' },
