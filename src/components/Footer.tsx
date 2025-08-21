@@ -77,8 +77,7 @@ const Footer: React.FC = () => {
   const handleSubscribe = (e : React.FormEvent) => {
     e.preventDefault();
 
-    emailjs
-      .send(
+    emailjs.send(
         "service_email",    // 🔹 Service ID from EmailJS
         "template_m60p9tg",   // 🔹 Template ID from EmailJS
         { subscriber_email: email }, // data you pass to template
