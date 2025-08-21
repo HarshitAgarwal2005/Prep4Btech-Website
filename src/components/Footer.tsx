@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import emailjs from "emailjs-com";
 import { 
   Mail, 
   MapPin, 
@@ -22,6 +23,32 @@ const Footer: React.FC = () => {
   const [email, setEmail] = useState('');
   const [isSubscribed, setIsSubscribed] = useState(false);
   const [motivationalQuote, setMotivationalQuote] = useState('');
+  export default function Newsletter() {
+  const [email, setEmail] = useState("");
+  const [isSubscribed, setIsSubscribed] = useState(false);
+  const [motivationalQuote, setMotivationalQuote] = useState("Thanks for joining us! 🚀");
+
+  const handleSubscribe = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .send(
+        "your_service_id",    // 🔹 Service ID from EmailJS
+        "your_template_id",   // 🔹 Template ID from EmailJS
+        { subscriber_email: email }, // data you pass to template
+        "your_public_key"     // 🔹 Public Key from EmailJS
+      )
+      .then(
+        (res) => {
+          console.log("SUCCESS!", res.status, res.text);
+          setIsSubscribed(true);
+        },
+        (err) => {
+          console.error("FAILED...", err);
+          alert("Something went wrong. Try again!");
+        }
+      );
+  };
 
   const quotes = [
     "Success is not final, failure is not fatal: it is the courage to continue that counts. - Winston Churchill",
