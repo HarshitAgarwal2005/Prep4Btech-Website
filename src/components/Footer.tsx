@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import emailjs ; 
+import emailjs from "@emailjs/browser";
 import {
   Mail, 
   MapPin, 
