@@ -76,11 +76,11 @@ const Footer: React.FC = () => {
     e.preventDefault();
     if (email.trim()) {
        emailjs.send(
-     //    "service_email",    // 🔹 Service ID from EmailJS
-     //    "template_m60p9tg",   // 🔹 Template ID from EmailJS
-     //    { subscriber_email: email }, // data you pass to template
-     //    "ykUUgVhuU-DLIy3IX"     // 🔹 Public Key from EmailJS
-     //  ) 
+        "service_email",    // 🔹 Service ID from EmailJS
+        "template_m60p9tg",   // 🔹 Template ID from EmailJS
+        { subscriber_email: email }, // data you pass to template
+        "ykUUgVhuU-DLIy3IX"     // 🔹 Public Key from EmailJS
+      ) 
       setIsSubscribed(true);
       const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
       setMotivationalQuote(randomQuote);
