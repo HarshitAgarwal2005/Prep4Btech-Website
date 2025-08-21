@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 import {
   Mail, 
-  MapPin, 
+  MapPin,
   Linkedin, 
   Github, 
   BookOpen,
