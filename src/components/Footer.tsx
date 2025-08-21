@@ -290,8 +290,7 @@ const Footer: React.FC = () => {
         </div>
 
 
-        const handleSubscribe = (e : React.FormEvent) => {
-    e.preventDefault();
+        const handleSubscribe = (e : React.FormEvent) => {e.preventDefault();
 
     emailjs
       .send(
