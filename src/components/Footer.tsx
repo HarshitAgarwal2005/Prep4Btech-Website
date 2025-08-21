@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 // import emailjs from "emailjs-com";
 import { 
-  Mail, 
+  Mail,
   MapPin, 
   Linkedin, 
   Github, 
@@ -84,7 +84,7 @@ const Footer: React.FC = () => {
         { subscriber_email: email }, // data you pass to template
         "your_public_key"     // 🔹 Public Key from EmailJS
       )
-// if (email.trim()) {
+if (email.trim()) {
       setIsSubscribed(true);
       const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
       setMotivationalQuote(randomQuote);
@@ -95,7 +95,7 @@ const Footer: React.FC = () => {
         setIsSubscribed(false);
         setMotivationalQuote('');
       }, 5000);
-    // }
+    }
   };
 
 
