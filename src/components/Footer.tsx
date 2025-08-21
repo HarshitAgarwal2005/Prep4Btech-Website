@@ -72,10 +72,12 @@ const Footer: React.FC = () => {
       window.removeEventListener('userVisitUpdate', handleVisitUpdate as EventListener);
     };
   }, []);
-
-
+  
 
   
+
+
+
   const quickLinks = [
     { name: 'Home', path: '/' },
     { name: 'Year', path: '/year' },
@@ -287,7 +289,8 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-     const handleSubscribe = (e : React.FormEvent) => {
+
+        const handleSubscribe = (e : React.FormEvent) => {
     e.preventDefault();
 
     emailjs
