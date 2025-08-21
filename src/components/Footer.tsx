@@ -78,7 +78,7 @@ const Footer: React.FC = () => {
 
     emailjs
       .send(
-        "your_service_id",    // 🔹 Service ID from EmailJS
+        "service_email",    // 🔹 Service ID from EmailJS
         "your_template_id",   // 🔹 Template ID from EmailJS
         { subscriber_email: email }, // data you pass to template
         "your_public_key"     // 🔹 Public Key from EmailJS
