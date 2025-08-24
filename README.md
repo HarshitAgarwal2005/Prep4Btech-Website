@@ -18,7 +18,7 @@ The platform includes an efficient doubt submission system that:
 
 1. **Collects student information**: Name, email, subject, and detailed question
 2. **Supports image uploads**: Students can attach screenshots or diagrams
-3. **Sends email notifications**: All doubts are automatically emailed to harshitagarwal25907@gmail.com
+3. **Sends email notifications**: All doubts are automatically emailed to prep4btech@gmail.com
 4. **Provides instant feedback**: Students receive confirmation of successful submission
 
 ### Email Features
