@@ -158,7 +158,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
                 placeholder="Search notes, subjects..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-40 pl-10 pr-4 py-2.5 bg-gray-50/80 dark:bg-gray-800/80 border border-gray-200 dark:border-gray-700 rounded-l-xl focus:ring-2 focus:ring-violet-500 focus:border-transparent transition-all duration-300 backdrop-blur-sm"
+                className="w-60 pl-10 pr-4 py-2.5 bg-gray-50/80 dark:bg-gray-800/80 border border-gray-200 dark:border-gray-700 rounded-l-xl focus:ring-2 focus:ring-violet-500 focus:border-transparent transition-all duration-300 backdrop-blur-sm"
               />
               <Search className="absolute left-3 top-3 h-4 w-4 text-gray-400 group-focus-within:text-violet-500 transition-colors" />
               <button
