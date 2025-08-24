@@ -11,7 +11,7 @@ const Books: React.FC = () => {
   const filteredBooks = books.filter(book => {
     const matchesSearch = book.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
                          book.author.toLowerCase().includes(searchQuery.toLowerCase());
-    const matchesSubject = selectedSubject ? book.subjects.includes(selectedSubject) : true;
+    const matchesSubject = selectedSubject ? book.assignments.includes(selectedSubject) : true; // subject to assignment 
     return matchesSearch && matchesSubject;
   });
 
