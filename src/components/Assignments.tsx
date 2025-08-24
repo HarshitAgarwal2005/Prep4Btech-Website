@@ -44,7 +44,7 @@ const Assignments: React.FC = () => {
   }, [searchParams]);
 
   const resetSelection = () => {
-    setSelectedYear(null);
+    // setSelectedYear(null); 
     setSelectedSemester(null);
     setSelectedBranch(null);
     setSelectedSubject(null);
