@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-// import emailjs from "@emailjs/browser";
+import emailjs from "emailjs-com";
 import { 
-  Mail, 
-  MapPin,
+  Mail,
+  MapPin, 
   Linkedin, 
   Github, 
   BookOpen,
@@ -20,10 +20,12 @@ import { Link } from 'react-router-dom';
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
   const [visitCount, setVisitCount] = useState(1000);
-  const [email, setEmail] = useState('');
+  // const [email, setEmail] = useState('');
+  // const [isSubscribed, setIsSubscribed] = useState(false);
+  // const [motivationalQuote, setMotivationalQuote] = useState('');
+  const [email, setEmail] = useState("");
   const [isSubscribed, setIsSubscribed] = useState(false);
-  const [motivationalQuote, setMotivationalQuote] = useState('');
-
+  const [motivationalQuote, setMotivationalQuote] = useState("");
 
   const quotes = [
     "Success is not final, failure is not fatal: it is the courage to continue that counts. - Winston Churchill",
@@ -71,38 +73,32 @@ const Footer: React.FC = () => {
     };
   }, []);
 
- const handleSubscribe = (e: React.FormEvent) => {
+  
+
+  const handleSubscribe = (e : React.FormEvent) => {
     e.preventDefault();
 
-    // ✅ First, check if the email is not empty
-    if (email.trim()) {
-        // ✅ THEN, attempt to send the email
-        // emailjs.send(
-        //     "service_email",    // Your Service ID
-        //     "template_m60p9tg",   // Your Template ID
-        //     { subscriber_email: email },
-        //     "ykUUgVhuU-DLIy3IX"     // Your Public Key
-        // ) 
-        .then((response) => {
-            console.log('SUCCESS!', response.status, response.text);
-            // On success, update the UI
-            setIsSubscribed(true);
-            const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-            setMotivationalQuote(randomQuote);
-            setEmail('');
-      
-            // Reset after 5 seconds
-            setTimeout(() => {
-                setIsSubscribed(false);
-                setMotivationalQuote('');
-            }, 5000);
-
-        }, (error) => {
-            console.log('FAILED...', error);
-            // You could add UI feedback for the user here, e.g., alert("Failed to subscribe. Please try again.")
-        });
+    emailjs.send(
+        "service_email",    // 🔹 Service ID from EmailJS
+        "template_m60p9tg",   // 🔹 Template ID from EmailJS
+        { subscriber_email: email }, // data you pass to template
+        "ykUUgVhuU-DLIy3IX"     // 🔹 Public Key from EmailJS
+      )
+if (email.trim()) {
+      setIsSubscribed(true);
+      const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+      setMotivationalQuote(randomQuote);
+      setEmail('');
+    
+      // Reset after 5 seconds
+      setTimeout(() => {
+        setIsSubscribed(false);
+        setMotivationalQuote('');
+      }, 5000);
     }
-};
+  };
+
+
 
   const quickLinks = [
     { name: 'Home', path: '/' },
@@ -315,7 +311,8 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Newsletter Section */}
+         {/* Newsletter Section */}
+        
         <div className="border-t border-white/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div className="bg-gradient-to-r from-violet-600/20 via-purple-600/20 to-pink-600/20 backdrop-blur-sm rounded-2xl p-6 lg:p-8 border border-white/10">
@@ -354,7 +351,10 @@ const Footer: React.FC = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> 
+
+         
+   
 
         {/* Bottom Footer */}
         <div className="border-t border-white/10">
