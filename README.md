@@ -70,7 +70,7 @@ The system is designed to work with various email services. You can configure:
 1. **Browse Content**: Navigate through years, subjects, and chapters
 2. **Ask Doubts**: Click the floating doubt button on any page
 3. **Submit Questions**: Fill out the form with your question and optional contact info
-4. **Get Responses**: Receive email responses directly from Harshit
+4. **Get Responses**: Receive email responses directly from Team
 
 ### For Administrators
 
