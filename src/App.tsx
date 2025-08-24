@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Year from './components/Year';
 import RTUSyllabus from './components/RTUSyllabus';
-import Subjects from './components/Subjects';
+// import Subjects from './components/Subjects';
 import Assignments from './components/Assignments';
 import Books from './components/Books';
 import Projects from './components/Projects';
@@ -20,7 +20,7 @@ import AskDoubt from './components/AskDoubt';
 // Component to handle scroll to top on route change
 const ScrollToTop: React.FC = () => {
   const { pathname } = useLocation();
-
+  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
