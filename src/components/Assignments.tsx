@@ -121,7 +121,7 @@ const Assignments: React.FC = () => {
         <!DOCTYPE html>
         <html>
         <head>
-          <title>${content.title} - StudyHub Content</title>
+          <title>${content.title} - Prep4Btech Content</title>
           <style>
             body { 
               margin: 0; 
