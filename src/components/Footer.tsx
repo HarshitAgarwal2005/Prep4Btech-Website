@@ -397,5 +397,4 @@ if (email.trim()) {
     </footer>
   );
 };
-
 export default Footer;
