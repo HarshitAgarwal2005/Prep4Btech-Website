@@ -18,7 +18,7 @@ const Books: React.FC = () => {
   const handleGlobalSearch = () => {
     if (searchQuery.trim()) {
       // Navigate to subjects page with search query
-      window.location.href = `/subjects?search=${encodeURIComponent(searchQuery.trim())}`;
+      window.location.href = `/assignments?search=${encodeURIComponent(searchQuery.trim())}`;
     }
   };
 
