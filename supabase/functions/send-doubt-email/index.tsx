@@ -104,7 +104,7 @@ serve(async (req) => {
       body: JSON.stringify({
         service_id: 'service_ohe32lp', // You'll need to configure EmailJS
         template_id: 'template_6xvepac',
-        user_id: 'your_user_id',
+        user_id: 'V3Z5rp8_sZmh52g1M',
         template_params: {
           to_email: 'prep4btech@gmail.com',
           subject: emailSubject,
