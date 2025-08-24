@@ -33,7 +33,7 @@ const Assignments: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
-    const year = searchParams.get('year');
+    // const year = searchParams.get('year'); 
     const semester = searchParams.get('semester');
     if (year) {
       setSelectedYear(parseInt(year));
