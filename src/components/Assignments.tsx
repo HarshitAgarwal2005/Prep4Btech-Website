@@ -44,7 +44,7 @@ const Assignments: React.FC = () => {
   }, [searchParams]);
 
   const resetSelection = () => {
-    // setSelectedYear(null); 
+    // setSelectedYear(null); //
     setSelectedSemester(null);
     setSelectedBranch(null);
     setSelectedSubject(null);
@@ -67,7 +67,7 @@ const Assignments: React.FC = () => {
 
   const getBreadcrumb = () => {
     const items = [];
-    if (selectedYear) items.push(`Year ${selectedYear}`);
+    // if (selectedYear) items.push(`Year ${selectedYear}`); //
     if (selectedSemester) items.push(`Sem ${selectedSemester}`);
     if (selectedBranch) {
       const branch = branches.find(b => b.code === selectedBranch);
