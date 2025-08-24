@@ -66,7 +66,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/year" element={<Year />} />
                 <Route path="/rtu-syllabus" element={<RTUSyllabus />} />
-                <Route path="/subjects" element={<Subjects />} />
+                {/* <Route path="/subjects" element={<Subjects />} /> */}
                 <Route path="/assignments" element={<Assignments />} />
                 <Route path="/books" element={<Books />} />
                 <Route path="/projects" element={<Projects />} />
@@ -83,5 +83,4 @@ function App() {
     </ThemeProvider>
   );
 }
-
 export default App;
