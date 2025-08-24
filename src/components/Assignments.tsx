@@ -25,7 +25,7 @@ import { ContentSubject, ContentItem } from '../types';
 const Assignments: React.FC = () => {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
-  // const [selectedYear, setSelectedYear] = useState<number | null>(null);
+  const [selectedYear, setSelectedYear] = useState<number | null>(null); 
   const [selectedSemester, setSelectedSemester] = useState<number | null>(null);
   const [selectedBranch, setSelectedBranch] = useState<string | null>(null);
   const [selectedSubject, setSelectedSubject] = useState<ContentSubject | null>(null);
