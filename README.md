@@ -43,7 +43,7 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 ### 2. Supabase Edge Function Setup
 
 The doubt submission system uses a Supabase Edge Function located at:
-`supabase/functions/send-doubt-email/index.ts`
+`supabase/functions/send-doubt-email/index.tsx`
 
 To deploy this function:
 
