@@ -56,7 +56,7 @@ const performGlobalSearch = (query: string, navigate: (path: string) => void) =>
   }
   
   // If no specific match found, search in subjects
-  navigate(`/subjects?search=${encodeURIComponent(searchTerm)}`);
+  navigate(`/assignments?search=${encodeURIComponent(searchTerm)}`);
 };
 
 const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
