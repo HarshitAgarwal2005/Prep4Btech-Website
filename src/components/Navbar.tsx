@@ -37,14 +37,14 @@ const performGlobalSearch = (query: string, navigate: (path: string) => void) =>
     { keywords: ['contact', 'help', 'support', 'developer', 'harshit'], path: '/contact' },
     
     // Subject-specific searches
-    { keywords: ['programming', 'coding', 'c++', 'java', 'python'], path: '/subjects?search=programming' },
-    { keywords: ['data structures', 'algorithms', 'dsa'], path: '/subjects?search=data structures' },
-    { keywords: ['database', 'sql', 'dbms'], path: '/subjects?search=database' },
-    { keywords: ['machine learning', 'ml', 'ai', 'artificial intelligence'], path: '/subjects?search=machine learning' },
-    { keywords: ['web development', 'html', 'css', 'javascript', 'react'], path: '/subjects?search=web development' },
-    { keywords: ['mathematics', 'math', 'calculus', 'algebra'], path: '/subjects?search=mathematics' },
-    { keywords: ['physics', 'mechanics', 'thermodynamics'], path: '/subjects?search=physics' },
-    { keywords: ['chemistry', 'organic', 'inorganic'], path: '/subjects?search=chemistry' },
+    { keywords: ['programming', 'coding', 'c++', 'java', 'python'], path: '/assignments?search=programming' },
+    { keywords: ['data structures', 'algorithms', 'dsa'], path: '/assignments?search=data structures' },
+    { keywords: ['database', 'sql', 'dbms'], path: '/assignments?search=database' },
+    { keywords: ['machine learning', 'ml', 'ai', 'artificial intelligence'], path: '/assignments?search=machine learning' },
+    { keywords: ['web development', 'html', 'css', 'javascript', 'react'], path: '/assignments?search=web development' },
+    { keywords: ['mathematics', 'math', 'calculus', 'algebra'], path: '/assignments?search=mathematics' },
+    { keywords: ['physics', 'mechanics', 'thermodynamics'], path: '/assignments?search=physics' },
+    { keywords: ['chemistry', 'organic', 'inorganic'], path: '/assignments?search=chemistry' },
   ];
   
   // Find matching section
