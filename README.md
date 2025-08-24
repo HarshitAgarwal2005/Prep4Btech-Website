@@ -114,7 +114,7 @@ npm run build
 ## Deployment
 
 The application is deployed on Netlify and can be accessed at:
-https://studyhub-harshitagarwal.netlify.app
+https://prep4btech.netlify.app
 
 ## Contact
 
