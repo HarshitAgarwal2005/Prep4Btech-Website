@@ -12,7 +12,7 @@ const Home: React.FC = () => {
       description: 'Well-organized notes for every subject, structured chapter by chapter for easy learning.',
       gradient: 'from-blue-500 to-cyan-500',
       bgGradient: 'from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20',
-      link: '/subjects'
+      link: '/assignments'
     },
     {
       icon: FileText,
