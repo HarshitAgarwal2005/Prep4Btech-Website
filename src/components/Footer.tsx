@@ -21,9 +21,9 @@ import { Link } from 'react-router-dom';
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
   const [visitCount, setVisitCount] = useState(1000);
-  // const [email, setEmail] = useState('');
-  // const [isSubscribed, setIsSubscribed] = useState(false);
-  // const [motivationalQuote, setMotivationalQuote] = useState('');
+  const [email, setEmail] = useState('');
+  const [isSubscribed, setIsSubscribed] = useState(true);
+  const [motivationalQuote, setMotivationalQuote] = useState('');
   const [email, setEmail] = useState("");
   const [isSubscribed, setIsSubscribed] = useState(false);
   const [motivationalQuote, setMotivationalQuote] = useState("");
