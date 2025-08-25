@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-// import emailjs from "emailjs.com"; 
+// import emailjs from "emailjs.com";
+npm install emailjs-com
 import { 
   Mail,
   MapPin, 
