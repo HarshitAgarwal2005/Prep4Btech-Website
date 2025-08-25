@@ -61,6 +61,7 @@ useEffect(() => {
 
     incrementAndFetchCount();
   }, []);
+  
   const handleSubscribe = (e : React.FormEvent) => {
     e.preventDefault();
 
