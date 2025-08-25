@@ -106,8 +106,8 @@ const Footer: React.FC = () => {
   return (
     <footer className="relative bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 dark:from-gray-900 dark:via-purple-900/50 dark:to-gray-900 text-white overflow-hidden">
       {/* ... (all your other footer content) ... */}
-  const quickLinks = [
-    { name: 'Home', path: '/' },
+      const quickLinks = [
+    { name: 'Home', path: 'src/components/Home.tsx' },
     { name: 'Year', path: '/year' },
     { name: 'RTU Syllabus', path: '/rtu-syllabus' },
     { name: 'Content', path: '/assignments' },
