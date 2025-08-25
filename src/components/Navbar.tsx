@@ -100,14 +100,14 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
         <div className="flex justify-between items-center h-16">
           {/* Back Button + Logo */}
           <div className="flex items-center space-x-3">
-            {/* Back Button */}
-            <button
+            {/* Back Button */} 
+            {/* <button
               onClick={handleBackClick}
               className="p-2 rounded-xl text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-300 group"
               title="Go back"
             >
               <ArrowLeft className="h-5 w-5 group-hover:scale-110 transition-transform" />
-            </button>
+            </button> */}
 
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-3 group">
