@@ -149,9 +149,9 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
               ))}
             </div>
           </div>
- 
-          {/* {/* Search Bar */}
-          <div className="hidden md:flex items-center">
+  
+          {/* Search Bar */}
+          {/* <div className="hidden md:flex items-center">
             <form onSubmit={handleSearch} className="relative group flex">
               <input
                 type="text"
