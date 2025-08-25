@@ -124,7 +124,6 @@ const Footer: React.FC = () => {
     { name: 'Ask Doubts', path: '/' },
     { name: 'Community', path: '/contact' }
   ];
-
   const socialLinks = [
     { 
       name: 'LinkedIn', 
@@ -148,7 +147,6 @@ const Footer: React.FC = () => {
       bg: 'hover:bg-pink-50 dark:hover:bg-pink-900/20'
     }
   ];
-
   return (
     <footer className="relative bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 dark:from-gray-900 dark:via-purple-900/50 dark:to-gray-900 text-white overflow-hidden">
       {/* Animated Background Elements */}
