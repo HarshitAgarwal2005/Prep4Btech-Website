@@ -159,7 +159,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-55 pl-10 pr-4 py-2.5 bg-gray-50/80 dark:bg-gray-800/80 border border-gray-200 dark:border-gray-700 rounded-l-xl focus:ring-2 focus:ring-violet-500 focus:border-transparent transition-all duration-300 backdrop-blur-sm"
-              /> */}
+              />
               <Search className="absolute left-3 top-3 h-4 w-4 text-gray-400 group-focus-within:text-violet-500 transition-colors" />
               <button
                 type="submit"
@@ -169,7 +169,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
               </button>
               <div className="absolute inset-0 bg-gradient-to-r from-violet-500/10 to-purple-500/10 rounded-xl opacity-0 group-focus-within:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             </form>
-          </div>
+          </div> */}
 
           {/* Mobile menu button */}
           <div className="md:hidden">
