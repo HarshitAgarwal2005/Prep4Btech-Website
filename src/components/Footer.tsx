@@ -2,19 +2,7 @@ import React, { useState, useEffect } from 'react';
 import emailjs from "emailjs-com";
 
 import { 
-  Mail,
-  MapPin, 
-  Linkedin, 
-  Github, 
-  BookOpen,
-  Heart,
-  ExternalLink,
-  Calendar,
-  Users,
-  Award,
-  Sparkles,
-  Eye,
-  Instagram
+  Mail,MapPin, Linkedin, Github, BookOpen, Heart,ExternalLink,Calendar,Users,Award,Sparkles,Eye,Instagram
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
