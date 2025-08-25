@@ -106,7 +106,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="relative bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 dark:from-gray-900 dark:via-purple-900/50 dark:to-gray-900 text-white overflow-hidden">
       {/* ... (all your other footer content) ... */}
-      const quickLinks = [
+        {const quickLinks = [
     { name: 'Home', path: 'src/components/Home.tsx' },
     { name: 'Year', path: '/year' },
     { name: 'RTU Syllabus', path: '/rtu-syllabus' },
@@ -114,7 +114,7 @@ const Footer: React.FC = () => {
     { name: 'Books', path: '/books' },
     { name: 'Projects', path: '/projects' },
     { name: 'PYQ Papers', path: '/pyq-papers' }
-  ];
+  ];}
 
   const resources = [
     { name: 'Study Materials', path: '/assignments' },
