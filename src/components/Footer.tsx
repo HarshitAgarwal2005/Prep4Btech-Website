@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
 
 useEffect(() => {
     // Reference to our 'visits' document in the 'stats' collection
-    const docRef = doc(db, 'stats', 'visits');
+    const docRef = doc(default, 'stats', 'visits');
 
     const incrementAndFetchCount = async () => {
       try {
