@@ -60,7 +60,7 @@ const AskDoubt: React.FC = () => {
           image: imageData
         })
       });
-
+ 
       const result = await response.json();
 
       if (!response.ok) {
