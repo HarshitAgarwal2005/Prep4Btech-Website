@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import emailjs from "emailjs-com"; 
+/
 import { 
   Mail, MapPin, Linkedin, Github, BookOpen, Heart, 
   ExternalLink, Calendar, Award, Sparkles, Eye, Instagram 
