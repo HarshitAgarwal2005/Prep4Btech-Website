@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
   const [isSubscribed, setIsSubscribed] = useState(false);
   const [motivationalQuote, setMotivationalQuote] = useState("");
   const [isLoading, setIsLoading] = useState(false); // Optional: for loading state on button
-  const [error, setError] = useState(''); // Optional: for showing errors to the user
+  const [error, setError] = useState(""); // Optional: for showing errors to the user
 
   const quotes = [
     "Success is not final, failure is not fatal: it is the courage to continue that counts. - Winston Churchill",
