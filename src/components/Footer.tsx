@@ -27,41 +27,39 @@ const Footer: React.FC = () => {
     "The expert in anything was once a beginner. - Helen Hayes"
   ];
 
-  useEffect(() => {
-    // Get initial visit count from localStorage or start from 1000
-    const getVisitCount = () => {
-      const stored = localStorage.getItem('globalVisitCount');
-      return stored ? parseInt(stored, 10) : 1000;
-    };
-    
-    // Check if this is a new visit (not just a page reload)
-    const lastVisitTime = localStorage.getItem('lastVisitTime');
-    const currentTime = Date.now();
-    const timeDifference = currentTime - (lastVisitTime ? parseInt(lastVisitTime, 10) : 0);
-    
-    // Consider it a new visit if more than 30 minutes have passed or it's the first visit
-    const isNewVisit = !lastVisitTime || timeDifference > 30 * 60 * 1000; // 30 minutes
-    
-    let currentCount = getVisitCount();
-    
-    if (isNewVisit) {
-      currentCount += 1;
-      localStorage.setItem('globalVisitCount', currentCount.toString());
-      localStorage.setItem('lastVisitTime', currentTime.toString());
-    }
-    
-    setVisitCount(currentCount);
+useEffect(() => {
+    // Reference to our 'visits' document in the 'stats' collection
+    const docRef = doc(db, 'stats', 'visits');
 
-    // Listen for visit count updates (for real-time updates if needed)
-    const handleVisitUpdate = (event: CustomEvent) => {
-      setVisitCount(event.detail);
+    const incrementAndFetchCount = async () => {
+      try {
+        // Check sessionStorage to see if we've already counted this session
+        const hasVisited = sessionStorage.getItem('hasVisited');
+
+        if (!hasVisited) {
+          // If not visited in this session, increment the count in the database
+          await updateDoc(docRef, {
+            count: increment(1)
+          });
+          // Mark this session as visited
+          sessionStorage.setItem('hasVisited', 'true');
+        }
+
+        // Fetch the latest count from the database to display
+        const docSnap = await getDoc(docRef);
+        if (docSnap.exists()) {
+          setVisitCount(docSnap.data().count);
+        } else {
+          console.error("Could not find visit count document!");
+          setVisitCount(1000); // Fallback
+        }
+      } catch (error) {
+        console.error("Error updating or fetching visit count:", error);
+        setVisitCount(1000); // Fallback on error
+      }
     };
 
-    window.addEventListener('userVisitUpdate', handleVisitUpdate as EventListener);
-
-    return () => {
-      window.removeEventListener('userVisitUpdate', handleVisitUpdate as EventListener);
-    };
+    incrementAndFetchCount();
   }, []);
 
   
