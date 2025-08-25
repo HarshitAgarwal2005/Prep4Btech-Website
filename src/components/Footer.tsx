@@ -324,7 +324,7 @@ if (email.trim()) {
                   Join our community of successful B.Tech students! 🚀
                 </p>
                 
-                {isSubscribed ? (
+                {isSubscribed? (
                   <div className="bg-green-500/20 border border-green-400/30 rounded-xl p-6 max-w-2xl mx-auto">
                     <div className="text-green-300 text-xl font-bold mb-4">✅ Subscribed!</div>
                     <div className="text-green-100 text-sm italic leading-relaxed">
