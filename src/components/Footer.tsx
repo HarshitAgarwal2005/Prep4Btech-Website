@@ -5,6 +5,7 @@ import {
   Mail,MapPin, Linkedin, Github, BookOpen, Heart,ExternalLink,Calendar,Users,Award,Sparkles,Eye,Instagram
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { doc, getDoc, updateDoc, increment } from 'firebase/firestore';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
