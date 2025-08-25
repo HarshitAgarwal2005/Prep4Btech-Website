@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
   // const [isSubscribed, setIsSubscribed] = useState(false);
   // const [motivationalQuote, setMotivationalQuote] = useState('');
   const [email, setEmail] = useState("");
-  const [isSubscribed, setIsSubscribed] = useState(false);
+  const [isSubscribed, setIsSubscribed] = useState(true);
   const [motivationalQuote, setMotivationalQuote] = useState("");
 
   const quotes = [
