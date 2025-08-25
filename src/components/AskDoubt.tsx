@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { MessageCircle, X, Send, Upload, CheckCircle, AlertCircle } from 'lucide-react';
 
 const AskDoubt: React.FC = () => {
+  // ... (all other state and constants remain the same)
   const [isOpen, setIsOpen] = useState(false);
   const [doubt, setDoubt] = useState('');
   const [subject, setSubject] = useState('');
@@ -13,23 +14,13 @@ const AskDoubt: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
 
   const subjects = [
-    'Programming Fundamentals',
-    'Data Structures',
-    'Algorithms',
-    'Database Systems',
-    'Computer Networks',
-    'Operating Systems',
-    'Software Engineering',
-    'Web Development',
-    'Machine Learning',
-    'Engineering Mathematics',
-    'Engineering Physics',
-    'Engineering Chemistry',
-    'Communication Skills',
-    'Human Values',
-    'Other'
+    'Programming Fundamentals', 'Data Structures', 'Algorithms', 'Database Systems',
+    'Computer Networks', 'Operating Systems', 'Software Engineering', 'Web Development',
+    'Machine Learning', 'Engineering Mathematics', 'Engineering Physics',
+    'Engineering Chemistry', 'Communication Skills', 'Human Values', 'Other'
   ];
 
+  // MODIFIED FUNCTION
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -60,25 +51,25 @@ const AskDoubt: React.FC = () => {
           image: imageData
         })
       });
- 
-      const result = await response.json();
-
+      
+      // ✅ SOLUTION: Check response status BEFORE trying to parse JSON
       if (!response.ok) {
-        throw new Error(result.error || 'Failed to submit doubt');
+        // If the server sent an error, it might be in JSON format.
+        // We'll try to parse it, but add a fallback.
+        const errorResult = await response.json().catch(() => ({
+          error: 'Failed to submit doubt. The server returned an error.'
+        }));
+        throw new Error(errorResult.error || 'Failed to submit doubt');
       }
 
+      // If response.ok is true, we assume success without needing a response body.
       setIsSubmitted(true);
       
       // Reset form after successful submission
       setTimeout(() => {
         setIsSubmitted(false);
         setIsOpen(false);
-        setDoubt('');
-        setSubject('');
-        setUserEmail('');
-        setUserName('');
-        setImage(null);
-        setError(null);
+        resetForm(); // Use the reset function
       }, 3000);
 
     } catch (err) {
@@ -91,7 +82,6 @@ const AskDoubt: React.FC = () => {
   const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
       const file = e.target.files[0];
-      // Check file size (max 5MB)
       if (file.size > 5 * 1024 * 1024) {
         setError('Image size should be less than 5MB');
         return;
@@ -112,6 +102,7 @@ const AskDoubt: React.FC = () => {
   };
 
   return (
+    // ... (JSX remains the same)
     <>
       {/* Floating Button */}
       <button
