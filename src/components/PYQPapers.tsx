@@ -915,7 +915,7 @@ const PYQPapers: React.FC = () => {
                       key={paper.id}
                       className="bg-gradient-to-r from-gray-50 to-blue-50 dark:from-gray-700 dark:to-gray-600 rounded-xl p-6 hover:shadow-lg transition-all duration-300 border border-gray-200 dark:border-gray-600"
                     >
-                      <div className="flex items-center justify-between">
+                      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                         <div className="flex items-center space-x-4">
                           <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-3 rounded-xl">
                             <FileText className="h-6 w-6 text-white" />
@@ -1004,5 +1004,4 @@ const PYQPapers: React.FC = () => {
     </div>
   );
 };
-
 export default PYQPapers;
