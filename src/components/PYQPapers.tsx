@@ -931,7 +931,7 @@ const PYQPapers: React.FC = () => {
                               {paper.fileSize && (
                                 <span>Size: {paper.fileSize}</span>
                               )}
-                              <span>Uploaded: {new Date(paper.uploadDate).toLocaleDateString()}</span>
+                              <span>Uploaded:{new Date(paper.uploadDate).toLocaleDateString()}</span>
                             </div>
                           </div>
                         </div>
