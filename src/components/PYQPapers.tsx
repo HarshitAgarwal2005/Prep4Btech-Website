@@ -1,25 +1,8 @@
 import React, { useState } from 'react';
 import { 
-  FileText, 
-  Download,
-  Eye, 
-  Calendar, 
-  BookOpen, 
-  GraduationCap, 
-  Users, 
-  ChevronRight,
-  ArrowLeft,
-  Upload,
-  Plus,
-  Trash2,
-  Edit,
-  CheckCircle,
-  AlertCircle,
-  MessageSquare,
-  Send,
-  Bot,
-  X
-} from 'lucide-react';
+  FileText,Download,Eye, Calendar, BookOpen,GraduationCap,Users,ChevronRight,ArrowLeft,Upload,Plus,Trash2,Edit,CheckCircle,AlertCircle,MessageSquare,Send,Bot,X
+} 
+from 'lucide-react';
 import { courses, branches, pyqSubjects, pyqPapers } from '../data/pyqData';
 import { Course, Branch, PYQSubject, PYQPaper } from '../types';
 import { useDeveloperAuth } from './Contact';
@@ -114,7 +97,7 @@ const PYQPapers: React.FC = () => {
           <!DOCTYPE html>
           <html>
           <head>
-            <title>${paper.title} - StudyHub PYQ</title>
+            <title>${paper.title} - Prep4Btech PYQ</title>
             <style>
               body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
               .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px; text-align: center; }
