@@ -36,16 +36,15 @@ const Assignments: React.FC = () => {
     setSearchQuery('');
   };
 
-  const goBack = () => {
+const goBack = () => {
     if (selectedSubject) {
       setSelectedSubject(null);
       setSelectedContentType(null);
     } else if (selectedBranch) {
       setSelectedBranch(null);
-    } else if (selectedSemester) {
-      setSelectedSemester(null);
-    } else if (selectedYear) {
+    } else if (selectedYear || selectedSemester) {
       setSelectedYear(null);
+      setSelectedSemester(null);
     }
   };
 
