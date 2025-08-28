@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { 
-  FileText,Download,Eye, Calendar, BookOpen,GraduationCap,Users,ChevronRight,ArrowLeft,Upload,Plus,Trash2,Edit,CheckCircle,AlertCircle,MessageSquare,Send,Bot,X
+import {FileText,Download,Eye,Calendar,BookOpen,GraduationCap,Users,ChevronRight,ArrowLeft,Upload, Plus,Trash2,Edit,CheckCircle,AlertCircle,MessageSquare,Send,Bot,X
 } 
 from 'lucide-react';
 import { courses, branches, pyqSubjects, pyqPapers } from '../data/pyqData';
@@ -97,7 +96,7 @@ const PYQPapers: React.FC = () => {
           <!DOCTYPE html>
           <html>
           <head>
-            <title>${paper.title} - Prep4Btech PYQ</title>
+            <title>${paper.title} - StudyHub PYQ</title>
             <style>
               body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
               .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px; text-align: center; }
@@ -916,7 +915,7 @@ const PYQPapers: React.FC = () => {
                       key={paper.id}
                       className="bg-gradient-to-r from-gray-50 to-blue-50 dark:from-gray-700 dark:to-gray-600 rounded-xl p-6 hover:shadow-lg transition-all duration-300 border border-gray-200 dark:border-gray-600"
                     >
-                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                      <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-4">
                           <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-3 rounded-xl">
                             <FileText className="h-6 w-6 text-white" />
@@ -931,14 +930,14 @@ const PYQPapers: React.FC = () => {
                               {paper.fileSize && (
                                 <span>Size: {paper.fileSize}</span>
                               )}
-                              <span>Uploaded:{new Date(paper.uploadDate).toLocaleDateString()}</span>
+                              <span>Uploaded: {new Date(paper.uploadDate).toLocaleDateString()}</span>
                             </div>
                           </div>
                         </div>
                         <button
-  onClick={() => handlePaperDownload(paper)}
-  className="w-full sm:w-auto bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-3 px-6 rounded-lg transition-all duration-300 flex items-center justify-center space-x-2 hover:scale-105 flex-shrink-0"
->
+                          onClick={() => handlePaperDownload(paper)}
+                          className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-2 px-6 rounded-lg transition-all duration-300 flex items-center space-x-2 hover:scale-105"
+                        >
                           <Eye className="h-4 w-4" />
                           <span>View</span>
                         </button>
