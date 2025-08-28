@@ -935,9 +935,9 @@ const PYQPapers: React.FC = () => {
                           </div>
                         </div>
                         <button
-                          onClick={() => handlePaperDownload(paper)}
-                          className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-2 px-6 rounded-lg transition-all duration-300 flex items-center space-x-2 hover:scale-105"
-                        >
+  onClick={() => handlePaperDownload(paper)}
+  className="w-full sm:w-auto bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-3 px-6 rounded-lg transition-all duration-300 flex items-center justify-center space-x-2 hover:scale-105 flex-shrink-0"
+>
                           <Eye className="h-4 w-4" />
                           <span>View</span>
                         </button>
