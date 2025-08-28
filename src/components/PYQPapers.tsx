@@ -940,7 +940,7 @@ const PYQPapers: React.FC = () => {
                           className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-2 px-6 rounded-lg transition-all duration-300 flex items-center space-x-2 hover:scale-105"
                         >
                           <Eye className="h-4 w-4" />
-                          <span>View</span>
+                          <span></span>
                         </button>
                       </div>
                     </div>
