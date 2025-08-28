@@ -526,7 +526,7 @@ const Assignments: React.FC = () => {
                         key={content.id}
                         className="bg-slate-700/50 rounded-xl p-6 hover:bg-slate-700 transition-all duration-300 border border-slate-600 hover:border-slate-500"
                       >
-                        <div className="flex items-center justify-between">
+                        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                           <div className="flex items-center space-x-4">
                             <div className={`${colorClass} p-3 rounded-xl`}>
                               <Icon className="h-6 w-6 text-white" />
