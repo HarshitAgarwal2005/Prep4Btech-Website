@@ -161,7 +161,7 @@ const goBack = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white text-slate-900 dark:bg-slate-900 dark:text-white py-8 relative overflow-hidden">
+    <div className="min-h-screen bg-slate-900 text-white py-8 relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
