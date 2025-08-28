@@ -562,9 +562,9 @@ const Assignments: React.FC = () => {
                             </div>
                           </div>
                           <button
-                            onClick={() => handleContentView(content)}
-                            className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-lg transition-all duration-300 flex items-center space-x-2 hover:scale-105 shadow-lg"
-                          >
+  onClick={() => handleContentView(content)}
+  className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg transition-all duration-300 flex items-center justify-center space-x-2 hover:scale-105 shadow-lg flex-shrink-0"
+>
                             <Eye className="h-4 w-4" />
                             <span>View</span>
                           </button>
