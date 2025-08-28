@@ -1,24 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
-import { 
-  FileText, 
-  Calendar, 
-  Clock, 
-  Search, 
-  Users, 
-  BookOpen, 
-  Trophy, 
-  ArrowLeft, 
-  ChevronRight,
-  Play,
-  Book,
-  FlaskConical,
-  Video,
-  ClipboardList,
-  GraduationCap, 
-  Eye,
-  Filter
-} from 'lucide-react';
+import { FileText, Calendar, Clock, Search, Users,BookOpen, Trophy, ArrowLeft,ChevronRight,Play,Book,FlaskConical, Video,ClipboardList,GraduationCap,Eye, Filter
+}
+from 'lucide-react';
 import { contentSubjects, contentItems, branches } from '../data/contentData';
 import { ContentSubject, ContentItem } from '../types';
 
