@@ -112,6 +112,9 @@ const Home: React.FC = () => {
                 <p className="flex items-center"><span className="font-semibold text-violet-600 dark:text-violet-400">👨‍💻 Name:</span> <span className="ml-2">Harshit Agarwal</span></p>
                 <p className="flex items-center"><span className="font-semibold text-purple-600 dark:text-purple-400">🎓 Branch:</span> <span className="ml-2">Computer Science and Engineering (CSE)</span></p>
                 <p className="flex items-center"><span className="font-semibold text-pink-600 dark:text-pink-400">🏫 College:</span> <span className="ml-2">JECRC Foundation</span></p>
+                <p className="flex items-center"><span className="font-semibold text-violet-600 dark:text-violet-400">👨‍💻 Name:</span> <span className="ml-2">Harshit Agarwal</span></p>
+                <p className="flex items-center"><span className="font-semibold text-purple-600 dark:text-purple-400">🎓 Branch:</span> <span className="ml-2">Computer Science and Engineering (CSE)</span></p>
+                <p className="flex items-center"><span className="font-semibold text-pink-600 dark:text-pink-400">🏫 College:</span> <span className="ml-2">JECRC Foundation</span></p>
                 <p className="text-gray-600 dark:text-gray-300 mt-6 p-4 bg-gradient-to-r from-violet-50 to-purple-50 dark:from-violet-900/20 dark:to-purple-900/20 rounded-2xl border border-violet-200 dark:border-violet-700/30">
                   <span className="text-2xl mr-2">💡</span>
                   "Passionate about helping fellow B.Tech students succeed by providing easy access to 
