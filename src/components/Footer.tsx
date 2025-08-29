@@ -28,35 +28,37 @@ const Footer: React.FC = () => {
   ];
 
 useEffect(() => {
-  // Reference to our 'visits' document in the 'stats' collection
-  const docRef = doc(db, 'stats', 'visits');
-
-  const incrementAndFetchCount = async () => {
-    try {
-      // --- This is the key change ---
-      // We now increment the count on EVERY page load without checking session storage.
-      await updateDoc(docRef, {
-        count: increment(1)
-      });
-
-      // Fetch the latest count from the database to display
-      const docSnap = await getDoc(docRef);
-      if (docSnap.exists()) {
-        setVisitCount(docSnap.data().count);
-      } else {
-        console.error("Could not find visit count document!");
-        setVisitCount(1000); // Fallback
-      }
-    } catch (error) {
-      console.error("Error updating or fetching visit count:", error);
-      setVisitCount(1000); // Fallback on error
-    }
-  };
-
-  incrementAndFetchCount();
-},
+    // Reference to our 'visits' document in the 'stats' collection
+    const docRef = doc(db, 'stats', 'visits');
+    const incrementAndFetchCount = async () => {
+      try {
+        // Check sessionStorage to see if we've already counted this session
+        const hasVisited = sessionStorage.getItem('hasVisited');
+        if (!hasVisited) {
+          // If not visited in this session, increment the count in the database
+          await updateDoc(docRef, {
+            count: increment(1)
+          });
+          // Mark this session as visited
+          sessionStorage.setItem('hasVisited', 'true');
+        }
+        // Fetch the latest count from the database to display
+        const docSnap = await getDoc(docRef);
+        if (docSnap.exists()) {
+          setVisitCount(docSnap.data().count);
+        } else {
+          console.error("Could not find visit count document!");
+          setVisitCount(1000); // Fallback
+        }
+      } catch (error) {
+        console.error("Error updating or fetching visit count:", error);
+        setVisitCount(1000); // Fallback on error
+      }
+    };
+    incrementAndFetchCount();
+  }, []);
   
-const handleSubscribe = (e : React.FormEvent) => {
+  const handleSubscribe = (e : React.FormEvent) => {
     e.preventDefault();
 
     emailjs.send(
