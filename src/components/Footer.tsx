@@ -56,7 +56,7 @@ useEffect(() => {
   incrementAndFetchCount();
 },
   
-  const handleSubscribe = (e : React.FormEvent) => {
+const handleSubscribe = (e : React.FormEvent) => {
     e.preventDefault();
 
     emailjs.send(
