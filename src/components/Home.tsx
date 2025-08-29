@@ -109,7 +109,7 @@ const Home: React.FC = () => {
                 About the Developer
               </h2>
               <div className="text-left space-y-3">
-                <p className="flex items-center"><span className="font-semibold text-violet-600 dark:text-violet-400">👨‍💻 Name:</span> <span className="ml-2">Harshit Agarwal</span></p>
+                <p className="flex items-center"><span className="font-semibold text-violet-600 dark:text-violet-400">👨‍💻 Name:</span> <span className="ml-2">Harshit Agarwal & Hariom Shivnani</span></p>
                 <p className="flex items-center"><span className="font-semibold text-purple-600 dark:text-purple-400">🎓 Branch:</span> <span className="ml-2">Computer Science and Engineering (CSE)</span></p>
                 <p className="flex items-center"><span className="font-semibold text-pink-600 dark:text-pink-400">🏫 College:</span> <span className="ml-2">JECRC Foundation</span></p>
                 <p className="flex items-center"><span className="font-semibold text-violet-600 dark:text-violet-400">👨‍💻 Name:</span> <span className="ml-2">Harshit Agarwal</span></p>
