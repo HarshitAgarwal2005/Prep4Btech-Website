@@ -182,7 +182,7 @@ if (email.trim()) {
                 </div>
               </div>
 
-              {/* Social Links */}
+              {/* Social Links
               <div className="flex space-x-3">
                 {socialLinks.map((social) => (
                   <a
@@ -198,8 +198,8 @@ if (email.trim()) {
                 ))}
               </div>
 <br/>
-               {/* Social Links */}
-              <div className="flex space-x-3">
+              
+               <div className="flex space-x-3">
                 {socialLinks.map((social) => (
                   <a
                     key={social.name}
@@ -214,7 +214,7 @@ if (email.trim()) {
                 ))}
               </div>
             </div>
-            
+             */}
            
 
             {/* Quick Links */}
