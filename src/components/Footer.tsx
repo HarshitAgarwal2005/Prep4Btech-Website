@@ -240,7 +240,7 @@ if (email.trim()) {
             </div>
 
             {/* Resources */}
-            <div style={{ paddingLeft: "30px" }>
+            <div style={{ paddingLeft: "30px" }}>
               <h4 className="text-lg font-semibold mb-6 text-white flex items-center">
                 <div className="w-2 h-2 bg-gradient-to-r from-green-400 to-emerald-400 rounded-full mr-3"></div>
                 Resources
