@@ -261,7 +261,7 @@ if (email.trim()) {
             </div>
 
             {/* Contact Info */}
-            <div style={{ paddingLeft: "0px" }}>
+            <div style={{ paddingLeft: "30px" }}>
               <h4 className="text-lg font-semibold mb-6 text-white flex items-center">
                 <div className="w-2 h-2 bg-gradient-to-r from-pink-400 to-rose-400 rounded-full mr-3"></div>
                 Contact Info
