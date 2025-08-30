@@ -185,6 +185,10 @@ const About: React.FC = () => {
                 
                 <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Harshit Agarwal</h2>
                 <p className="text-lg text-violet-600 dark:text-violet-400 mb-4">Full Stack Developer & Student</p>
+              </div>
+            </div>
+            
+                
 
                 {/* Quick Stats */}
                 <div className="grid grid-cols-2 gap-4">
