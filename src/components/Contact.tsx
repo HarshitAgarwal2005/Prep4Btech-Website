@@ -211,7 +211,8 @@ const Contact: React.FC = () => {
                   <span className="font-medium text-pink-800 dark:text-pink-300">Instagram</span>
                 </a>
               </div>
-
+<br/>
+              
 
               
                <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">Connect with Us</h2>
