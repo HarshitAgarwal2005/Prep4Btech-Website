@@ -198,6 +198,22 @@ if (email.trim()) {
                 ))}
               </div>
             </div>
+             {/* Social Links */}
+              <div className="flex space-x-3">
+                {socialLinks.map((social) => (
+                  <a
+                    key={social.name}
+                    href={social.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`p-3 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 ${social.color} ${social.bg} transition-all duration-300 hover:scale-110 hover:shadow-lg group`}
+                    aria-label={social.name}
+                  >
+                    <social.icon className="h-5 w-5" />
+                  </a>
+                ))}
+              </div>
+            </div>
 
             {/* Quick Links */}
             <div>
