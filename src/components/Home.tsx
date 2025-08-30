@@ -120,6 +120,7 @@ const Home: React.FC = () => {
                 </p>
               </div>
             </div> */}
+            <br/>
             <div className="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 text-white rounded-3xl pt-8 max-w-4xl mx-auto mb-4 shadow-2xl relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-r from-violet-600/80 via-purple-600/80 to-pink-600/80 backdrop-blur-sm"></div>
               <div className="relative z-10 px-6 pb-8">
