@@ -141,7 +141,7 @@ if (email.trim()) {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
             
             {/* Brand Section */}
-            <div className="lg:col-span-1">
+            <div className="lg:col-span-1" style={{ paddingLeft: "100px" }}>
               <div className="flex items-center space-x-3 mb-6">
                 <div className="relative">
                   <div className="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 p-3 rounded-xl shadow-lg">
