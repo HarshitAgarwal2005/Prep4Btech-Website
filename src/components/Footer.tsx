@@ -141,7 +141,7 @@ if (email.trim()) {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
             
             {/* Brand Section */}
-            <div className="lg:col-span-1" style={{ paddingLeft: "30px" }}>
+            <div className="lg:col-span-1" style={{ paddingLeft: "20px" }}>
               <div className="flex items-center space-x-3 mb-6">
                 <div className="relative">
                   <div className="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 p-3 rounded-xl shadow-lg">
@@ -219,7 +219,7 @@ if (email.trim()) {
            
 
             {/* Quick Links */}
-            <div  style={{ paddingLeft: "30px" }}>
+            <div  style={{ paddingLeft: "20px" }}>
               <h4 className="text-lg font-semibold mb-6 text-white flex items-center">
                 <div className="w-2 h-2 bg-gradient-to-r from-violet-400 to-purple-400 rounded-full mr-3"></div>
                 Quick Links
@@ -240,7 +240,7 @@ if (email.trim()) {
             </div>
 
             {/* Resources */}
-            <div style={{ paddingLeft: "30px" }}>
+            <div style={{ paddingLeft: "20px" }}>
               <h4 className="text-lg font-semibold mb-6 text-white flex items-center">
                 <div className="w-2 h-2 bg-gradient-to-r from-green-400 to-emerald-400 rounded-full mr-3"></div>
                 Resources
@@ -261,7 +261,7 @@ if (email.trim()) {
             </div>
 
             {/* Contact Info */}
-            <div style={{ paddingLeft: "30px" }}>
+            <div style={{ paddingLeft: "20px" }}>
               <h4 className="text-lg font-semibold mb-6 text-white flex items-center">
                 <div className="w-2 h-2 bg-gradient-to-r from-pink-400 to-rose-400 rounded-full mr-3"></div>
                 Contact Info
