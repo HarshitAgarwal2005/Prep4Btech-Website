@@ -124,7 +124,7 @@ const Home: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-violet-600/80 via-purple-600/80 to-pink-600/80 backdrop-blur-sm"></div>
               <div className="relative z-10">
                 <h2 className="text-3xl font-bold mb-4 flex items-center justify-center">
-                  <Star className="h-8 w-8 mr-3 text-yellow-300 animate-spin" />
+                  <Star className="h-8 w-8 mr-3 text-yellow-300 animate-spin p-5" />
                   Our Mission
                 </h2>
                 <p className="text-lg leading-relaxed text-violet-100">
@@ -136,6 +136,7 @@ const Home: React.FC = () => {
                    "Also Passionate about helping fellow B.Tech students succeed by providing easy access to 
                   well-organized academic resources, chapter-wise notes, assignments, previous year papers, 
                   and innovative project ideas.
+                  
                 </p>
               </div>
             </div>
