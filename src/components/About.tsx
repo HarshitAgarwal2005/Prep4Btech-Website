@@ -167,12 +167,6 @@ const About: React.FC = () => {
                   ))}
                 </div>
 
-               
-          
-               
-                
-                
-
                 {/* Quick Stats */}
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 rounded-xl p-4">
