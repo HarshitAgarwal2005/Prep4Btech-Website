@@ -169,21 +169,7 @@ const About: React.FC = () => {
 
                 {/*hariom  Main Profile Section */}
                           {/* Main Profile Section */}
-          {/* Social Links */}
-                <div className="flex justify-center space-x-4 mb-6">
-                  {socialLinks.map((social) => (
-                    <a
-                      key={social.name}
-                      href={social.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={`p-3 bg-white/50 dark:bg-gray-700/50 backdrop-blur-sm rounded-xl border border-white/20 dark:border-gray-600/20 ${social.color} transition-all duration-300 hover:scale-110 hover:shadow-lg group`}
-                      title={`${social.name} - ${social.followers} followers`}
-                    >
-                      <social.icon className="h-6 w-6" />
-                    </a>
-                  ))}
-                </div>
+          {/* <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 sm:p-12 mb-12 border border-white/20 dark:border-gray-700/20"> */}
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
               {/* Profile Image and Basic Info */}
               <div className="lg:col-span-1 text-center">
@@ -217,6 +203,7 @@ const About: React.FC = () => {
               </div>
             </div>
           </div>
+              
                 
                 
 
