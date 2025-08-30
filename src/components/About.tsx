@@ -184,6 +184,22 @@ const About: React.FC = () => {
                 
                 <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Hariom Shivnani</h2>
                 <p className="text-lg text-violet-600 dark:text-violet-400 mb-4">Full Stack Developer & Student</p>
+
+                 {/* Social Links */}
+                <div className="flex justify-center space-x-4 mb-6">
+                  {socialLinks.map((social) => (
+                    <a
+                      key={social.name}
+                      href={social.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`p-3 bg-white/50 dark:bg-gray-700/50 backdrop-blur-sm rounded-xl border border-white/20 dark:border-gray-600/20 ${social.color} transition-all duration-300 hover:scale-110 hover:shadow-lg group`}
+                      title={`${social.name} - ${social.followers} followers`}
+                    >
+                      <social.icon className="h-6 w-6" />
+                    </a>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
