@@ -187,7 +187,8 @@ const About: React.FC = () => {
                 <p className="text-lg text-violet-600 dark:text-violet-400 mb-4">Full Stack Developer & Student</p>
               </div>
             </div>
-            
+          </div>
+                
                 
 
                 {/* Quick Stats */}
