@@ -215,7 +215,7 @@ const Home: React.FC = () => {
 
             <div className="space-y-8">
               {[
-                { num: '4', title: 'Books', desc: 'Find recommended textbooks and reference materials for each subject <br/>', color: 'from-orange-500 to-red-500', emoji: '📚' },
+                { num: '4', title: 'Books', desc: 'Find recommended textbooks and reference materials for each subject ', color: 'from-orange-500 to-red-500', emoji: '📚' },
                 { num: '5', title: 'Projects', desc: 'Explore mini and major project ideas with complete documentation', color: 'from-pink-500 to-rose-500', emoji: '🚀' },
                 { num: '6', title: 'Ask Doubts', desc: 'Get instant help with the floating doubt button on every page', color: 'from-indigo-500 to-purple-500', emoji: '❓' }
               ].map((item, index) => (
