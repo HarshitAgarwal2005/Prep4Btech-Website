@@ -197,8 +197,8 @@ if (email.trim()) {
                   </a>
                 ))}
               </div>
-            </div>
-             {/* Social Links */}
+
+               {/* Social Links */}
               <div className="flex space-x-3">
                 {socialLinks.map((social) => (
                   <a
@@ -213,6 +213,8 @@ if (email.trim()) {
                   </a>
                 ))}
               </div>
+            </div>
+            
            
 
             {/* Quick Links */}
