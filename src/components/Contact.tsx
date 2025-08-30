@@ -239,7 +239,7 @@ const Contact: React.FC = () => {
                   <span className="font-medium text-gray-800 dark:text-gray-200">GitHub</span>
                 </a>
                 <a
-                  href="https://www.instagram.com/invites/contact/?igsh=2tpj8tcsf5l5&utm_content=epyez14"
+                  href="https://www.instagram.com/hariomshivnani?igsh=b2NlOWQ3ZW16amVz"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center p-4 bg-pink-50 dark:bg-pink-900/20 hover:bg-pink-100 dark:hover:bg-pink-900/30 rounded-xl transition-colors group"
