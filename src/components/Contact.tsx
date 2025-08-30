@@ -180,7 +180,39 @@ const Contact: React.FC = () => {
 
             {/* Social Links */}
             <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 sm:p-8 border border-white/20 dark:border-gray-700/20">
-              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">Connect with Me</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">Connect with Us</h2>
+              
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <a
+                  href="https://www.linkedin.com/in/harshitagarwal2005?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center p-4 bg-blue-50 dark:bg-blue-900/20 hover:bg-blue-100 dark:hover:bg-blue-900/30 rounded-xl transition-colors group"
+                >
+                  <Linkedin className="h-6 w-6 text-blue-600 dark:text-blue-400 mr-3 group-hover:scale-110 transition-transform" />
+                  <span className="font-medium text-blue-800 dark:text-blue-300">LinkedIn</span>
+                </a>
+                <a
+                  href="https://github.com/HarshitAgarwal2005"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center p-4 bg-gray-50 dark:bg-gray-700/50 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-xl transition-colors group"
+                >
+                  <Github className="h-6 w-6 text-gray-700 dark:text-gray-300 mr-3 group-hover:scale-110 transition-transform" />
+                  <span className="font-medium text-gray-800 dark:text-gray-200">GitHub</span>
+                </a>
+                <a
+                  href="https://www.instagram.com/invites/contact/?igsh=2tpj8tcsf5l5&utm_content=epyez14"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center p-4 bg-pink-50 dark:bg-pink-900/20 hover:bg-pink-100 dark:hover:bg-pink-900/30 rounded-xl transition-colors group"
+                >
+                  <Instagram className="h-6 w-6 text-pink-600 dark:text-pink-400 mr-3 group-hover:scale-110 transition-transform" />
+                  <span className="font-medium text-pink-800 dark:text-pink-300">Instagram</span>
+                </a>
+              </div>
+
+               <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">Connect with Us</h2>
               
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <a
@@ -214,40 +246,10 @@ const Contact: React.FC = () => {
             </div> 
 
              {/* Social Links */}
-            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 sm:p-8 border border-white/20 dark:border-gray-700/20">
-              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">Connect with Us</h2>
-              
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <a
-                  href="https://www.linkedin.com/in/harshitagarwal2005?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center p-4 bg-blue-50 dark:bg-blue-900/20 hover:bg-blue-100 dark:hover:bg-blue-900/30 rounded-xl transition-colors group"
-                >
-                  <Linkedin className="h-6 w-6 text-blue-600 dark:text-blue-400 mr-3 group-hover:scale-110 transition-transform" />
-                  <span className="font-medium text-blue-800 dark:text-blue-300">LinkedIn</span>
-                </a>
-                <a
-                  href="https://github.com/HarshitAgarwal2005"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center p-4 bg-gray-50 dark:bg-gray-700/50 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-xl transition-colors group"
-                >
-                  <Github className="h-6 w-6 text-gray-700 dark:text-gray-300 mr-3 group-hover:scale-110 transition-transform" />
-                  <span className="font-medium text-gray-800 dark:text-gray-200">GitHub</span>
-                </a>
-                <a
-                  href="https://www.instagram.com/invites/contact/?igsh=2tpj8tcsf5l5&utm_content=epyez14"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center p-4 bg-pink-50 dark:bg-pink-900/20 hover:bg-pink-100 dark:hover:bg-pink-900/30 rounded-xl transition-colors group"
-                >
-                  <Instagram className="h-6 w-6 text-pink-600 dark:text-pink-400 mr-3 group-hover:scale-110 transition-transform" />
-                  <span className="font-medium text-pink-800 dark:text-pink-300">Instagram</span>
-                </a>
-              </div>
+            {/* <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 sm:p-8 border border-white/20 dark:border-gray-700/20">
+             
             </div>
-
+ */}
             {/* Quick Help */}
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-2xl shadow-lg p-6 sm:p-8">
               <h2 className="text-xl sm:text-2xl font-bold mb-4">Need Quick Help? 🚀</h2>
