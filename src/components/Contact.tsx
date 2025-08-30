@@ -212,6 +212,8 @@ const Contact: React.FC = () => {
                 </a>
               </div>
 
+
+              
                <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">Connect with Us</h2>
               
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
