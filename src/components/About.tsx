@@ -167,6 +167,40 @@ const About: React.FC = () => {
                   ))}
                 </div>
 
+                // hariom profile 
+                 <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 sm:p-12 mb-12 border border-white/20 dark:border-gray-700/20">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+              {/* Profile Image and Basic Info */}
+              <div className="lg:col-span-1 text-center">
+                <div className="relative inline-block mb-6">
+                  <div className="w-48 h-48 bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 rounded-full flex items-center justify-center shadow-2xl mx-auto">
+                    <User className="h-24 w-24 text-white" />
+                  </div>
+                  <div className="absolute -bottom-2 -right-2 bg-green-500 w-12 h-12 rounded-full border-4 border-white dark:border-gray-800 flex items-center justify-center">
+                    <Zap className="h-6 w-6 text-white" />
+                  </div>
+                </div>
+                
+                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Hariom Shivnani</h2>
+                <p className="text-lg text-violet-600 dark:text-violet-400 mb-4">Full Stack Developer & Student</p>
+                
+                {/* Social Links */}
+                <div className="flex justify-center space-x-4 mb-6">
+                  {socialLinks.map((social) => (
+                    <a
+                      key={social.name}
+                      href={social.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`p-3 bg-white/50 dark:bg-gray-700/50 backdrop-blur-sm rounded-xl border border-white/20 dark:border-gray-600/20 ${social.color} transition-all duration-300 hover:scale-110 hover:shadow-lg group`}
+                      title={`${social.name} - ${social.followers} followers`}
+                    >
+                      <social.icon className="h-6 w-6" />
+                    </a>
+                  ))}
+                </div>
+
+
                 {/* Quick Stats */}
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 rounded-xl p-4">
