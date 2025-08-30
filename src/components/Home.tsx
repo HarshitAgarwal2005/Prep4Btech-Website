@@ -125,7 +125,7 @@ const Home: React.FC = () => {
               <div className="relative z-10 px-6 pb-8">
                 <h2 className="text-3xl font-bold mb-4 flex items-center justify-center">
                   <Star className="h-8 w-8 mr-3 text-yellow-300 animate-spin" />
-                  Our Mission
+                  Our Mission 
                 </h2>
                 <p className="text-lg leading-relaxed text-violet-100 mt-10">
                   To create a centralized platform where B.Tech students can easily access high-quality 
