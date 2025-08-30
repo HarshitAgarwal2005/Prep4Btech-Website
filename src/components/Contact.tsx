@@ -230,7 +230,7 @@ const Contact: React.FC = () => {
                   <span className="font-medium text-blue-800 dark:text-blue-300">LinkedIn</span>
                 </a>
                 <a
-                  href="https://github.com/HarshitAgarwal2005"
+                  href="https://github.com/hariom1610"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center p-4 bg-gray-50 dark:bg-gray-700/50 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-xl transition-colors group"
