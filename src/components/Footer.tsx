@@ -181,7 +181,8 @@ if (email.trim()) {
                   <p className="text-xs text-gray-400">Resources</p>
                 </div>
               </div>
-
+            </div>
+            
               {/* Social Links
               <div className="flex space-x-3">
                 {socialLinks.map((social) => (
