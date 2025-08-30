@@ -219,7 +219,7 @@ if (email.trim()) {
            
 
             {/* Quick Links */}
-            <div  style={{ paddingLeft: "50px" }}>
+            <div  style={{ paddingLeft: "100px" }}>
               <h4 className="text-lg font-semibold mb-6 text-white flex items-center">
                 <div className="w-2 h-2 bg-gradient-to-r from-violet-400 to-purple-400 rounded-full mr-3"></div>
                 Quick Links
