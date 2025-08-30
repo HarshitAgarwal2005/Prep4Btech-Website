@@ -131,6 +131,10 @@ const Home: React.FC = () => {
                   To create a centralized platform where B.Tech students can easily access high-quality 
                   academic resources, collaborate with peers, and excel in their studies. We believe in 
                   making education accessible, organized, and engaging for everyone. 🚀
+<br/>
+                   "Passionate about helping fellow B.Tech students succeed by providing easy access to 
+                  well-organized academic resources, chapter-wise notes, assignments, previous year papers, 
+                  and innovative project ideas.
                 </p>
               </div>
             </div>
