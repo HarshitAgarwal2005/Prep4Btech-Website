@@ -77,7 +77,7 @@ const Home: React.FC = () => {
       <div className="relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
           <div className="text-center">
-            <div className="flex justify-center mb-8">
+            <div className="flex justify-center mb-4">
               <div className="relative group">
                 <div className="w-32 h-32 bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 rounded-full flex items-center justify-center shadow-2xl group-hover:shadow-3xl transition-all duration-500 animate-pulse">
                   <span className="text-white text-4xl font-bold">P4B</span>
