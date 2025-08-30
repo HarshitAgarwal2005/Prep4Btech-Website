@@ -169,7 +169,7 @@ const About: React.FC = () => {
 
                 {/*hariom  Main Profile Section */} 
                           {/* Main Profile Section */}
-          <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 sm:p-12 mb-12 border border-white/20 dark:border-gray-700/20">
+         
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
               {/* Profile Image and Basic Info */}
               <div className="lg:col-span-1 text-center">
