@@ -215,7 +215,7 @@ const Contact: React.FC = () => {
 
              {/* Social Links */}
             <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 sm:p-8 border border-white/20 dark:border-gray-700/20">
-              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">Connect with Me</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">Connect with Us</h2>
               
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <a
