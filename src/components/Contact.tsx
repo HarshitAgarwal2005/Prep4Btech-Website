@@ -217,7 +217,7 @@ const Contact: React.FC = () => {
               
 {/* Social Links  of hariom shivnani*/}
               
-               <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">Hariom Shivnani</h2>
+               <h5 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">Hariom Shivnani</h5>
               
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <a
