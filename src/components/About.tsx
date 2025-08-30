@@ -185,7 +185,7 @@ const About: React.FC = () => {
                 <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Hariom Shivnani</h2>
                 <p className="text-lg text-violet-600 dark:text-violet-400 mb-4">Full Stack Developer & Student</p>
 
-                 {/* Social Links */}
+                  {/* Social Links */}
                 <div className="flex justify-center space-x-4 mb-6">
                   {socialLinks.map((social) => (
                     <a
@@ -200,11 +200,12 @@ const About: React.FC = () => {
                     </a>
                   ))}
                 </div>
+
                 
                 </div>
-              {/* </div>
+              </div>
             </div>
-          </div> */}
+          </div>
                
                 
                 
