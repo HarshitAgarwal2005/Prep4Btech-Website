@@ -127,7 +127,7 @@ const Home: React.FC = () => {
                   <Star className="h-8 w-8 mr-3 text-yellow-300 animate-spin" />
                   Our Mission
                 </h2>
-                <p className="text-lg leading-relaxed text-violet-100">
+                <p className="text-lg leading-relaxed text-violet-100 pt-19">
                   To create a centralized platform where B.Tech students can easily access high-quality 
                   academic resources, collaborate with peers, and excel in their studies. We believe in 
                   making education accessible, organized, and engaging for everyone. 🚀
