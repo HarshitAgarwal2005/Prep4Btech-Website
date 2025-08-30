@@ -102,8 +102,8 @@ const Home: React.FC = () => {
             <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-4 max-w-3xl mx-auto">
               Your comprehensive academic resource platform ✨
             </p>
-            
-            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl p-8 max-w-4xl mx-auto mb-12 shadow-2xl border border-white/20 dark:border-gray-700/20">
+             
+            {/* <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl p-8 max-w-4xl mx-auto mb-12 shadow-2xl border border-white/20 dark:border-gray-700/20">
               <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-6 flex items-center justify-center">
                 <Zap className="h-6 w-6 mr-2 text-yellow-500" />
                 About the Developer
@@ -118,7 +118,7 @@ const Home: React.FC = () => {
                   well-organized academic resources, chapter-wise notes, assignments, previous year papers, 
                   and innovative project ideas."
                 </p>
-              </div>
+              </div> */}
             </div>
 
             <div className="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 text-white rounded-3xl p-8 max-w-4xl mx-auto mb-16 shadow-2xl relative overflow-hidden">
