@@ -213,7 +213,7 @@ if (email.trim()) {
                   </a>
                 ))}
               </div>
-            </div>
+           
 
             {/* Quick Links */}
             <div>
