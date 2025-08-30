@@ -75,7 +75,7 @@ const Home: React.FC = () => {
 
       {/* Hero Section */}
       <div className="relative">
-        <div className=" sm:px-6 lg:px-8 py-16 sm:py-18">
+        <div className="max-w-7xl mx-auto ">
           <div className="text-center">
             <div className="flex justify-center mb-8 ">
               <div className="relative group">
