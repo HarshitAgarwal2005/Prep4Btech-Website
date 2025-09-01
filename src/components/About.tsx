@@ -231,11 +231,11 @@ const About: React.FC = () => {
                     that empower every B.Tech student to excel in their studies. I believe in the power of technology 
                     to bridge educational gaps and create opportunities for collaborative learning."
                   </p>
-                </div>
+                </div>          </div>
+ */}
               </div>
             </div>
-          </div>
- */}
+
 
  {/* hariom  bio section */}
  <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 sm:p-12 mb-12 border border-white/20 dark:border-gray-700/20">
