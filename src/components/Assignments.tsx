@@ -154,6 +154,7 @@ const goBack = () => {
             <h1>${content.title}</h1>
             <p>${content.description}</p>
             <p><strong>Type:</strong> ${content.type.toUpperCase()} | <strong>Subject:</strong> ${selectedSubject?.name}</p>
+            </div>
         <div class="content">
               <iframe src="${embedUrl}" allowfullscreen></iframe>
             </div>
