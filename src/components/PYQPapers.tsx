@@ -87,7 +87,7 @@ const PYQPapers: React.FC = () => {
         if (fileId) {
           embedUrl = `https://drive.google.com/file/d/${fileId}/preview`;
         }
-      }
+      } 
       
       // Open in a new window with iframe for view-only mode
       const newWindow = window.open('', '_blank', 'width=1200,height=800,scrollbars=yes,resizable=yes');
