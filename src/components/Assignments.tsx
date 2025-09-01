@@ -102,7 +102,7 @@ const goBack = () => {
   
       // Convert Google Drive share URL to embed URL for iframe viewing
       let embedUrl = content.viewUrl || '';
-      
+       
       if (embedUrl.includes('drive.google.com/file/d/')) {
         const fileId = embedUrl.match(/\/d\/([a-zA-Z0-9-_]+)/)?.[1];
         if (fileId) {
