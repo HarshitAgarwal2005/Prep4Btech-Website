@@ -110,7 +110,15 @@ const About: React.FC = () => {
       url: 'https://www.instagram.com/invites/contact/?igsh=2tpj8tcsf5l5&utm_content=epyez14',
       color: 'hover:text-pink-600 hover:bg-pink-50 dark:hover:bg-pink-900/20',
       followers: '1K+'
-     }
+     },
+     {
+      name: 'LinkedIn',
+      icon: Linkedin,
+      url1: 'https://www.linkedin.com/in/hariom-shivnani?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ',
+      color: 'hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/20',
+      followers: '500+'
+    }
+    
       //  ,
     //  {
     //   name: 'Email',
@@ -267,7 +275,7 @@ const About: React.FC = () => {
                   {socialLinks.map((social) => (
                     <a
                       key={social.name}
-                      href={social.'https://www.linkedin.com/in/hariom-shivnani?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app '}
+                      href={social.url}
                       target="_blank"
                       rel="noopener noreferrer"
                       className={`p-3 bg-white/50 dark:bg-gray-700/50 backdrop-blur-sm rounded-xl border border-white/20 dark:border-gray-600/20 ${social.color} transition-all duration-300 hover:scale-110 hover:shadow-lg group`}
