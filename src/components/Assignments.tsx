@@ -160,9 +160,13 @@ const goBack = () => {
         </body>
         </html>
       `);  
-      newWindow.document.close();
+     
+    newWindow.document.close();
+      }
+    } catch (error) {
+      alert(`Error viewing ${paper.title}. Please try again later.`);
     }
-  }; 
+  };
   
   
      
