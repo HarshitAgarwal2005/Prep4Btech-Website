@@ -96,69 +96,67 @@ const goBack = () => {
     return contentType ? contentType.color : 'bg-gray-500';
   };
 
-  const handleContentView = (content: ContentItem) => {
-    // Open content in view-only mode
-    const newWindow = window.open('', '_blank', 'width=1200,height=800,scrollbars=yes,resizable=yes');
-    if (newWindow) {
-      newWindow.document.write(`
-        <!DOCTYPE html>
-        <html>
-        <head>
-          <title>${content.title} - Prep4Btech Content</title>
-          <style>
-            body { 
-              margin: 0; 
-              padding: 0; 
-              font-family: Arial, sans-serif; 
-              background: #1e293b;
-              color: white;
-            }
-            .header { 
-              background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
-              color: white; 
-              padding: 20px; 
-              text-align: center; 
-            }
-            .content { 
-              padding: 40px; 
-              text-align: center; 
-            }
-            .demo-content {
-              background: #334155;
-              border-radius: 12px;
-              padding: 30px;
-              margin: 20px 0;
-              border: 1px solid #475569;
-            }
-            .icon {
-              font-size: 48px;
-              margin-bottom: 20px;
-            }
-          </style>
-        </head>
-        <body>
-          <div class="header">
-            <h1>${content.title}</h1>
-            <p>${content.description}</p>
-            <p><strong>Type:</strong> ${content.type.toUpperCase()} | <strong>Subject:</strong> ${selectedSubject?.name}</p>
-          </div>
-          <div class="content">
-            <div class="demo-content">
-              <div class="icon">📚</div>
-              <h2>Content Preview</h2>
-              <p>This is a demo preview of the ${content.type} content.</p>
-              <p><strong>File Size:</strong> ${content.fileSize || content.duration || 'N/A'}</p>
-              <p><strong>Upload Date:</strong> ${new Date(content.uploadDate).toLocaleDateString()}</p>
-              <br>
-              <p style="color: #94a3b8;">In a real implementation, this would display the actual content like PDF viewer, video player, or document viewer.</p>
-            </div>
-          </div>
-        </body>
-        </html>
-      `);
-      newWindow.document.close();
-    }
-  };
+ const handleContentView = (content: ContentItem) => {
+  const newWindow = window.open('', '_blank', 'width=1200,height=800,scrollbars=yes,resizable=yes');
+  if (newWindow) {
+    newWindow.document.write(`
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <title>${content.title} - Prep4Btech Content</title>
+        <style>
+          body { 
+            margin: 0; 
+            padding: 0; 
+            font-family: Arial, sans-serif; 
+            background: #1e293b;
+            color: white;
+
+            /* NEW: Make body flex container for layout */
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+          }
+          .header { 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+            color: white; 
+            padding: 20px; 
+            text-align: center; 
+            
+            /* NEW: Prevent header from shrinking */
+            flex-shrink: 0;
+          }
+          .content {
+            /* NEW: Take remaining height */
+            flex-grow: 1;
+            padding: 0;  /* Removed padding */
+            margin: 0;   /* Removed margin */
+          }
+          iframe {
+            /* NEW: iframe fills content area */
+            width: 100%;
+            height: 100%;
+            border: none;
+          }
+        </style>
+      </head>
+      <body>
+        <div class="header">
+          <h1>${content.title}</h1>
+          <p>${content.description}</p>
+          <p><strong>Type:</strong> ${content.type.toUpperCase()} | <strong>Subject:</strong> ${selectedSubject?.name}</p>
+        </div>
+        <div class="content">
+          <!-- CHANGED: Replaced demo content div with iframe loading content.link -->
+          <iframe src="${content.link}" allowfullscreen></iframe>
+        </div>
+      </body>
+      </html>
+    `);
+    newWindow.document.close();
+  }
+};
+
 
   return (
     <div className="min-h-screen bg-slate-900 text-white py-8 relative overflow-hidden">
