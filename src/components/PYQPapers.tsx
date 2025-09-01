@@ -96,7 +96,7 @@ const PYQPapers: React.FC = () => {
           <!DOCTYPE html>
           <html>
           <head>
-            <title>${paper.title} - StudyHub PYQ</title>
+            <title>${paper.title} - Prep4Btech PYQ</title>
             <style>
               body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
               .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px; text-align: center; }
