@@ -155,7 +155,7 @@ if (email.trim()) {
                   <h3 className="text-2xl font-bold bg-gradient-to-r from-violet-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
                     Prep4Btech
                   </h3>
-                  <p className="text-sm text-gray-300">by Team</p>
+                  <p className="text-sm text-gray-300">by Error 404</p>
                 </div>
               </div>
               
