@@ -232,7 +232,7 @@ const Sidebar: React.FC = () => {
               >
                 📚 User Guide
               </button>
-              <button 
+              <button
                 onClick={() => window.location.href = '/contact'}
                 className="w-full text-left p-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-white/50 dark:hover:bg-gray-600/50 rounded-lg transition-colors"
               >
