@@ -251,7 +251,7 @@ const About: React.FC = () => {
                   </div>
                 </div>
                 
-                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Harshit Agarwal</h2>
+                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Hariom shivnani</h2>
                 <p className="text-lg text-violet-600 dark:text-violet-400 mb-4">Full Stack Developer & Student</p>
 
                 {/* Social Links */}
@@ -277,7 +277,7 @@ const About: React.FC = () => {
                     <div className="text-sm text-gray-600 dark:text-gray-300">Years Coding</div>
                   </div>
                   <div className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-xl p-4">
-                    <div className="text-2xl font-bold text-green-600 dark:text-green-400">50+</div>
+                    <div className="text-2xl font-bold text-green-600 dark:text-green-400">2+</div>
                     <div className="text-sm text-gray-600 dark:text-gray-300">Projects Built</div>
                   </div>
                 </div>
