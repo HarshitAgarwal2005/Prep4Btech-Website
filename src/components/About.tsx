@@ -143,7 +143,14 @@ const socialLink = [
       url: 'https://www.instagram.com/hariomshivnani?igsh=b2NlOWQ3ZW16amVz',
       color: 'hover:text-pink-600 hover:bg-pink-50 dark:hover:bg-pink-900/20',
       followers: '1K+'
-     }
+     },
+   {
+    name: 'Email',
+    icon: Mail,
+    url: 'mailto:harshitagarwal25807@gmail.com',        // <-- Your email here
+    color: 'hover:text-green-600 hover:bg-green-50 dark:hover:bg-green-900/20',
+    followers: ''
+  }
   ]; 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 dark:from-gray-900 dark:via-blue-900/20 dark:to-indigo-900/20 py-12 relative overflow-hidden">
