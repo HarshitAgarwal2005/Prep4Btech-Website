@@ -150,25 +150,15 @@ const goBack = () => {
             <p>${content.description}</p>
             <p><strong>Type:</strong> ${content.type.toUpperCase()} | <strong>Subject:</strong> ${selectedSubject?.name}</p>
           </div>
-          <div class="content">
-            <div class="demo-content">
-              <div class="icon">📚</div>
-              <h2>Content Preview</h2>
-              <p>This is a demo preview of the ${content.type} content.</p>
-              <p><strong>File Size:</strong> ${content.fileSize || content.duration || 'N/A'}</p>
-              <p><strong>Upload Date:</strong> ${new Date(content.uploadDate).toLocaleDateString()}</p>
-              <br>
-              <p style="color: #94a3b8;">In a real implementation, this would display the actual content like PDF viewer, video player, or document viewer.</p>
-            </div>
-          </div>
+         
           <div class="header">
           <h1>${content.title}</h1>
           <p>${content.description}</p>
-          <p><strong>Type:</strong> ${content.type.toUpperCase()} | <strong>Subject:</strong> ${selectedSubject?.name}</p>
+          <p><strong>Type:</strong> ${content.type.toUpperCase()} | <strong>Subject:</strong> ${selectedSubject?.subjectId}</p>
         </div>
         <div class="content">
           <!-- CHANGED: Replaced demo content div with iframe loading content.link -->
-          <iframe src="${content.link}" allowfullscreen></iframe>
+          <iframe src="${content.viewUrl}" allowfullscreen></iframe>
         </div>
         </body>
         </html>
