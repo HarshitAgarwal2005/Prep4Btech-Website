@@ -271,7 +271,8 @@ const socialLink = [
                     to bridge educational gaps and create opportunities for collaborative learning."
                   </p>
                 </div>          
- */}</div>
+ */}
+              </div>
               </div>
             </div>
 
