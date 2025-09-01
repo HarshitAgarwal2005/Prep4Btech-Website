@@ -146,7 +146,7 @@ const goBack = () => {
           </div>
         <div class="content">
           <!-- CHANGED: Replaced demo content div with iframe loading content.link -->
-          <iframe src="${content.viewUrl}" allowfullscreen></iframe>
+          <iframe src="${content.link}" allowfullscreen></iframe>
         </div>
         </body>
         </html>
