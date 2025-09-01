@@ -150,7 +150,7 @@ const goBack = () => {
         </div>
         </body>
         </html>
-      `);
+      `); 
       newWindow.document.close();
     }
   }; 
