@@ -138,8 +138,8 @@ const goBack = () => {
             }
            iframe {
             /* NEW: iframe fills content area */
-            width: 100wh;
-            height: 100wh;
+            width: 100%;
+            height: 100%;
             border: none;
           }
             .icon {
