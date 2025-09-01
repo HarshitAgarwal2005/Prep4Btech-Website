@@ -174,7 +174,7 @@ const About: React.FC = () => {
                     <div className="text-sm text-gray-600 dark:text-gray-300">Years Coding</div>
                   </div>
                   <div className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-xl p-4">
-                    <div className="text-2xl font-bold text-green-600 dark:text-green-400">50+</div>
+                    <div className="text-2xl font-bold text-green-600 dark:text-green-400">4+</div>
                     <div className="text-sm text-gray-600 dark:text-gray-300">Projects Built</div>
                   </div>
                 </div>
