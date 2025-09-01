@@ -328,7 +328,7 @@ const About: React.FC = () => {
           </div>
 
            {/* Mission Statement */}
-                <div className="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 text-white rounded-2xl p-6 mb-10">
+                <div className="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 text-white rounded-2xl p-6 mb-12">
                   <h3 className="text-xl font-bold mb-4 flex items-center">
                     <Target className="h-6 w-6 mr-3" />
                     Mission & Vision
