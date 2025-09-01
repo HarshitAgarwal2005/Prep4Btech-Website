@@ -156,8 +156,6 @@ const goBack = () => {
     newWindow.document.close();
   }
 };
-
-
   return (
     <div className="min-h-screen bg-slate-900 text-white py-8 relative overflow-hidden">
       {/* Background Pattern */}
