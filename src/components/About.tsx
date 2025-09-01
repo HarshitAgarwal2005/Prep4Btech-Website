@@ -126,21 +126,21 @@ const socialLink = [
    {
       name: 'LinkedIn',
       icon: Linkedin,
-      url1: 'https://www.linkedin.com/in/hariom-shivnani?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ',
+      url: 'https://www.linkedin.com/in/hariom-shivnani?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ',
       color: 'hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/20',
       followers: '500+'
     },
     {
       name: 'GitHub',
       icon: Github,
-      url1: 'https://github.com/hariom1610',
+      url: 'https://github.com/hariom1610',
       color: 'hover:text-gray-800 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800/50',
       followers: '200+'
     },
     {
       name: 'Instagram',
       icon: Instagram,
-      url1: 'https://www.instagram.com/hariomshivnani?igsh=b2NlOWQ3ZW16amVz',
+      url: 'https://www.instagram.com/hariomshivnani?igsh=b2NlOWQ3ZW16amVz',
       color: 'hover:text-pink-600 hover:bg-pink-50 dark:hover:bg-pink-900/20',
       followers: '1K+'
      }
@@ -288,10 +288,10 @@ const socialLink = [
 
                 {/* Social Links */}
                 <div className="flex justify-center space-x-4 mb-6">
-                  {socialLinks.map((social) => (
+                  {socialLink.map((social) => (
                     <a
                       key={social.name}
-                      href={social.url1}
+                      href={social.url}
                       target="_blank"
                       rel="noopener noreferrer"
                       className={`p-3 bg-white/50 dark:bg-gray-700/50 backdrop-blur-sm rounded-xl border border-white/20 dark:border-gray-600/20 ${social.color} transition-all duration-300 hover:scale-110 hover:shadow-lg group`}
