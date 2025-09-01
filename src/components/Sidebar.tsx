@@ -248,7 +248,7 @@ const Sidebar: React.FC = () => {
           </div>
 
           {/* Statistics */}
-          <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-gray-800 dark:to-gray-700 rounded-2xl p-6 border border-purple-100 dark:border-gray-600">
+          {/* <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-gray-800 dark:to-gray-700 rounded-2xl p-6 border border-purple-100 dark:border-gray-600">
             <div className="flex items-center mb-4">
               <div className="bg-gradient-to-r from-purple-500 to-pink-500 p-2 rounded-lg mr-3">
                 <Eye className="h-5 w-5 text-white" />
@@ -270,9 +270,9 @@ const Sidebar: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
     </>
-  );
+  ); 
 };
 
 export default Sidebar;
