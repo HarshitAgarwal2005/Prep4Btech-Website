@@ -131,13 +131,7 @@ const goBack = () => {
             height: 100%;
             border: none;
           }
-            .demo-content {
-              background: #334155;
-              border-radius: 12px;
-              padding: 30px;
-              margin: 20px 0;
-              border: 1px solid #475569;
-            }
+            
             .icon {
               font-size: 48px;
               margin-bottom: 20px;
@@ -150,12 +144,6 @@ const goBack = () => {
             <p>${content.description}</p>
             <p><strong>Type:</strong> ${content.type.toUpperCase()} | <strong>Subject:</strong> ${selectedSubject?.name}</p>
           </div>
-         
-          <div class="header">
-          <h1>${content.title}</h1>
-          <p>${content.description}</p>
-          <p><strong>Type:</strong> ${content.type.toUpperCase()} | <strong>Subject:</strong> ${selectedSubject?.subjectId}</p>
-        </div>
         <div class="content">
           <!-- CHANGED: Replaced demo content div with iframe loading content.link -->
           <iframe src="${content.viewUrl}" allowfullscreen></iframe>
