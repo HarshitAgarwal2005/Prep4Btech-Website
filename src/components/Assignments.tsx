@@ -125,8 +125,7 @@ const goBack = () => {
               padding: 40px; 
               text-align: center; 
             }
-            //bsdbjsabjbv
-            iframe {
+            
             /* NEW: iframe fills content area */
             width: 100%;
             height: 100%;
