@@ -365,7 +365,7 @@ if (email.trim()) {
               <div className="flex items-center space-x-2 text-gray-300">
                 <span>© {currentYear} Prep4Btech. Made with</span>
                 <Heart className="h-4 w-4 text-red-500 animate-pulse" />
-                <span>by Team</span>
+                <span>by Error 404</span>
               </div>
               
               <div className="flex items-center space-x-6 text-sm">
