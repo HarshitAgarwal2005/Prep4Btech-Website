@@ -268,8 +268,8 @@ const Sidebar: React.FC = () => {
                 <div className="text-xs text-gray-600 dark:text-gray-300">Downloads</div>
               </div>
             </div>
-          </div>
-        </div>*/}
+          </div>*/}
+        </div>
       </div>
     </>
   ); 
