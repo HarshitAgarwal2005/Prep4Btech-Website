@@ -19,9 +19,9 @@ const Assignments: React.FC = () => {
   useEffect(() => {
     const year = searchParams.get('year');
     const semester = searchParams.get('semester');
-    // if (year) {
-    //   setSelectedYear(parseInt(year));
-    // } 
+    if (year) {
+      setSelectedYear(parseInt(year));
+    }   
     if (semester) {
       setSelectedSemester(parseInt(semester));
     }
