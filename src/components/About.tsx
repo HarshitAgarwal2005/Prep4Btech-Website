@@ -107,7 +107,7 @@ const About: React.FC = () => {
     {
       name: 'Instagram',
       icon: Instagram,
-      url: 'https://www.instagram.com/invites/contact/?igsh=2tpj8tcsf5l5&utm_content=epyez14',
+      url: 'https://www.instagram.com/harshitagarwal2005?igsh=N3F5OTNlMWNvdXZr',
       color: 'hover:text-pink-600 hover:bg-pink-50 dark:hover:bg-pink-900/20',
       followers: '1K+'
      },
