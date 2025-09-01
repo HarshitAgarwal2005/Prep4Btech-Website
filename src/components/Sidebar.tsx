@@ -183,6 +183,23 @@ const Sidebar: React.FC = () => {
             </div>
           </div>
 
+          <div className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-gray-800 dark:to-gray-700 rounded-2xl p-6 border border-green-100 dark:border-gray-600">
+            <div className="flex items-center mb-4">
+              <div className="bg-gradient-to-r from-green-500 to-emerald-500 p-2 rounded-lg mr-3">
+                <User className="h-5 w-5 text-white" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-gray-900 dark:text-white">Profile</h3>
+                <p className="text-sm text-gray-600 dark:text-gray-300">Hariom Shivnani</p>
+              </div>
+            </div>
+            <div className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
+              <p><span className="font-medium">Branch:</span> CSE</p>
+              <p><span className="font-medium">College:</span> JECRC Foundation</p>
+              <p><span className="font-medium">Year:</span> B.Tech Student</p>
+            </div>
+          </div>
+
           {/* Notifications */}
           <div className="bg-gradient-to-r from-orange-50 to-amber-50 dark:from-gray-800 dark:to-gray-700 rounded-2xl p-6 border border-orange-100 dark:border-gray-600">
             <div className="flex items-center mb-4">
