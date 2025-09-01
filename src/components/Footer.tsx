@@ -323,7 +323,7 @@ if (email.trim()) {
                 <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
                   Get notified about new study materials, assignments, and project ideas. 
                   Join our community of successful B.Tech students! 🚀
-                </p>
+                </p> 
                 
                 {isSubscribed? (
                   <div className="bg-green-500/20 border border-green-400/30 rounded-xl p-6 max-w-2xl mx-auto">
