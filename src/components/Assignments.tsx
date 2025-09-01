@@ -99,7 +99,7 @@ const goBack = () => {
 
 
   const handleContentView = (content: ContentItem) => {
-  
+  try{
       // Convert Google Drive share URL to embed URL for iframe viewing
       let embedUrl = content.viewUrl || '';
        
