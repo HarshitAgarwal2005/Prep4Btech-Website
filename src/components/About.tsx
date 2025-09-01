@@ -181,7 +181,7 @@ const About: React.FC = () => {
               </div>
 
               {/* Detailed Information */}
-              <div className="lg:col-span-2 space-y-8">
+              <div className="lg:col-span-2 space-y-8 mt-20">
                 {/* Personal Details */}
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center">
