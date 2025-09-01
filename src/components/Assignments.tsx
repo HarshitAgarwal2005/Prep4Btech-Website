@@ -125,6 +125,13 @@ const goBack = () => {
               padding: 40px; 
               text-align: center; 
             }
+            //bsdbjsabjbv
+            iframe {
+            /* NEW: iframe fills content area */
+            width: 100%;
+            height: 100%;
+            border: none;
+          }
             .demo-content {
               background: #334155;
               border-radius: 12px;
@@ -161,6 +168,17 @@ const goBack = () => {
       newWindow.document.close();
     }
   }; 
+
+   {
+    id: 'physics-theory-1',
+    title: 'Waves Optics Notes',
+    description: 'Theory covering mechanics, waves, and optics',
+    type: 'theory',
+    subjectId: 'physics-s1',
+    fileSize: '3.1 MB',
+    uploadDate: '2024-01-18',
+    viewUrl: 'https://drive.google.com/file/d/13zjpU57j5qPC9puTU12QY0rJQA7BYMs-/view?usp=sharing'
+  },
   // Open in a new window with iframe for view-only mode
      
   return (
