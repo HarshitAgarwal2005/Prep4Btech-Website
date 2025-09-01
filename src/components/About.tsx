@@ -113,14 +113,14 @@ const About: React.FC = () => {
      },
      
     
+     {
+    name: 'Email',
+    icon: Mail,
+    url: 'mailto:harshitagarwal25807@gmail.com',        // <-- Your email here
+    color: 'hover:text-green-600 hover:bg-green-50 dark:hover:bg-green-900/20',
+    followers: ''
+  }
     
-    //  {
-    //   name: 'Email',
-    //   icon: Email,
-    //   url: 'mailto:harshitagarwal25807@gmail.com',
-    //   color: 'hover:text-pink-600 hover:bg-pink-50 dark:hover:bg-pink-900/20',
-    //   followers: '1K+'
-    // }
   ]; 
 const socialLink = [
    {
