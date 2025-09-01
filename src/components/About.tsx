@@ -147,7 +147,7 @@ const socialLink = [
    {
     name: 'Email',
     icon: Mail,
-    url: 'mailto:harshitagarwal25807@gmail.com',        // <-- Your email here
+    url: 'mailto:hariom.shivnani23@gmail.com',        // <-- Your email here
     color: 'hover:text-green-600 hover:bg-green-50 dark:hover:bg-green-900/20',
     followers: ''
   }
