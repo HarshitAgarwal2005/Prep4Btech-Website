@@ -221,7 +221,7 @@ const About: React.FC = () => {
                 </div>
 
                 {/* Mission Statement */}
-                <div className="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 text-white rounded-2xl p-6">
+               {/*  <div className="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 text-white rounded-2xl p-6">
                   <h3 className="text-xl font-bold mb-4 flex items-center">
                     <Target className="h-6 w-6 mr-3" />
                     Mission & Vision
@@ -235,7 +235,7 @@ const About: React.FC = () => {
               </div>
             </div>
           </div>
-
+ */}
 
  {/* hariom  bio section */}
  <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 sm:p-12 mb-12 border border-white/20 dark:border-gray-700/20">
