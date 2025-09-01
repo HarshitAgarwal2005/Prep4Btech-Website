@@ -114,7 +114,7 @@ const About: React.FC = () => {
     //  {
     //   name: 'Email',
     //   icon: Email,
-    //   url: 'https://www.instagram.com/invites/contact/?igsh=2tpj8tcsf5l5&utm_content=epyez14',
+    //   url: 'mailto:harshitagarwal25807@gmail.com',
     //   color: 'hover:text-pink-600 hover:bg-pink-50 dark:hover:bg-pink-900/20',
     //   followers: '1K+'
     // }
