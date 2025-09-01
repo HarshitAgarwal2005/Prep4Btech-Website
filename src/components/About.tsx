@@ -231,8 +231,8 @@ const About: React.FC = () => {
                     that empower every B.Tech student to excel in their studies. I believe in the power of technology 
                     to bridge educational gaps and create opportunities for collaborative learning."
                   </p>
-                </div>          </div>
- */}
+                </div>          
+ */}</div>
               </div>
             </div>
 
