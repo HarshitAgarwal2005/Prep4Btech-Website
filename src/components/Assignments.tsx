@@ -101,7 +101,7 @@ const goBack = () => {
   const handleContentView = (content: ContentItem) => {
     try {
       // Convert Google Drive share URL to embed URL for iframe viewing
-      let embedUrl = paper.downloadUrl || '';
+      let embedUrl = content.viewUrl || '';
       
       if (embedUrl.includes('drive.google.com/file/d/')) {
         const fileId = embedUrl.match(/\/d\/([a-zA-Z0-9-_]+)/)?.[1];
@@ -111,8 +111,6 @@ const goBack = () => {
       }
       
       // Open in a new window with iframe for view-only mode
-
-    // Open content in view-only mode
     const newWindow = window.open('', '_blank', 'width=1200,height=800,scrollbars=yes,resizable=yes');
     if (newWindow) {
       newWindow.document.write(`
@@ -156,17 +154,12 @@ const goBack = () => {
             <h1>${content.title}</h1>
             <p>${content.description}</p>
             <p><strong>Type:</strong> ${content.type.toUpperCase()} | <strong>Subject:</strong> ${selectedSubject?.name}</p>
-          </div>
-        <div class="content">
-          <!-- CHANGED: Replaced demo content div with iframe loading content.link -->
-          <iframe src="${content.link}" allowfullscreen></iframe>
-        </div>
         <div class="content">
               <iframe src="${embedUrl}" allowfullscreen></iframe>
             </div>
         </body>
         </html>
-      `); 
+      `);  
       newWindow.document.close();
     }
   }; 
