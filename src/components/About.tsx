@@ -129,34 +129,27 @@ const About: React.FC = () => {
     // }
   ]; 
 const socialLink = [
-    {
+   {
       name: 'LinkedIn',
       icon: Linkedin,
-      url: 'https://www.linkedin.com/in/harshitagarwal2005?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      url1: 'https://www.linkedin.com/in/hariom-shivnani?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ',
       color: 'hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/20',
       followers: '500+'
     },
     {
       name: 'GitHub',
       icon: Github,
-      url: 'https://github.com/HarshitAgarwal2005',
+      url1: 'https://github.com/hariom1610',
       color: 'hover:text-gray-800 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800/50',
       followers: '200+'
     },
     {
       name: 'Instagram',
       icon: Instagram,
-      url: 'https://www.instagram.com/invites/contact/?igsh=2tpj8tcsf5l5&utm_content=epyez14',
+      url1: 'https://www.instagram.com/hariomshivnani?igsh=b2NlOWQ3ZW16amVz',
       color: 'hover:text-pink-600 hover:bg-pink-50 dark:hover:bg-pink-900/20',
       followers: '1K+'
-     },
-     {
-      name: 'LinkedIn',
-      icon: Linkedin,
-      url1: 'https://www.linkedin.com/in/hariom-shivnani?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ',
-      color: 'hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/20',
-      followers: '500+'
-    }
+     }
   ]; 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 dark:from-gray-900 dark:via-blue-900/20 dark:to-indigo-900/20 py-12 relative overflow-hidden">
