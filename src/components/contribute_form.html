@@ -1,0 +1,63 @@
+<!-- Avatar Button (Bottom Right) -->
+<div id="contributeBtn" style="
+    position: fixed; bottom: 24px; right: 24px; z-index: 1000; cursor: pointer;">
+  <img src="girl-avatar.png" alt="Contribute" width="60" height="60" title="Contribute a Resource" />
+</div>
+
+<!-- Hidden Modal Form -->
+<div id="contributeModal" style="display:none; position:fixed;bottom:0;right:0;left:0;top:0;background:rgba(0,0,0,0.6);z-index:1001;">
+  <form id="resourceForm" style="background:#fff;padding:24px;max-width:350px;margin:auto;margin-top:10vh;border-radius:18px;">
+    <h3>Contribute BTech Resource</h3>
+    <label>Name <span style="color:red">*</span></label>
+    <input name="entry.1000001" id="name" type="text" required style="width:100%;margin-bottom:12px;" />
+    <label>Email <span style="color:red">*</span></label>
+    <input name="entry.1000002" id="email" type="email" required style="width:100%;margin-bottom:12px;" />
+    <label>Content Link <span style="color:red">*</span></label>
+    <input name="entry.1000003" id="contentlink" type="url" required style="width:100%;margin-bottom:16px;" />
+    <button type="submit" style="width:100%;background:green;color:#fff;padding:8px 0;border:none;">Submit</button>
+    <button type="button" id="closeModal" style="width:100%;margin-top:8px;">Cancel</button>
+  </form>
+</div>
+
+<script>
+const googleFormUrl = "https://docs.google.com/forms/u/0/d/e/YOUR_FORM_ID/formResponse"; // Replace with your Google Form Response URL
+
+document.getElementById('contributeBtn').onclick = function() {
+  document.getElementById('contributeModal').style.display = 'block';
+};
+document.getElementById('closeModal').onclick = function() {
+  document.getElementById('contributeModal').style.display = 'none';
+};
+
+document.getElementById('resourceForm').onsubmit = async function(e) {
+  e.preventDefault();
+
+  let name = document.getElementById('name').value.trim();
+  let email = document.getElementById('email').value.trim();
+  let link = document.getElementById('contentlink').value.trim();
+
+  if (!name || !email || !link) {
+    alert("All fields are required.");
+    return;
+  }
+
+  // Replace entry numbers with your Google Form's field name attributes
+  const data = new FormData();
+  data.append("entry.1000001", name);
+  data.append("entry.1000002", email);
+  data.append("entry.1000003", link);
+
+  try {
+    await fetch(googleFormUrl, {
+      method: "POST",
+      mode: "no-cors",
+      body: data
+    });
+    alert("Thank you for contributing!");
+    document.getElementById('resourceForm').reset();
+    document.getElementById('contributeModal').style.display = 'none';
+  } catch (err) {
+    alert("There was an error submitting. Please try again.");
+  }
+};
+</script>
