@@ -113,7 +113,7 @@ const About: React.FC = () => {
      },
      
     
-      //  ,
+    
     //  {
     //   name: 'Email',
     //   icon: Email,
