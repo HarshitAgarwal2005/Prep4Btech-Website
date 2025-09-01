@@ -214,6 +214,17 @@ const goBack = () => {
               <p style="color: #94a3b8;">In a real implementation, this would display the actual content like PDF viewer, video player, or document viewer.</p>
             </div>
           </div>
+           
+//         <div class="header">
+//           <h1>${content.title}</h1>
+//           <p>${content.description}</p>
+//           <p><strong>Type:</strong> ${content.type.toUpperCase()} | <strong>Subject:</strong> ${selectedSubject?.name}</p>
+//         </div>
+//         <div class="content">
+//           <!-- CHANGED: Replaced demo content div with iframe loading content.link -->
+//           <iframe src="${content.link}" allowfullscreen></iframe>
+//         </div>
+//      
         </body>
         </html>
       `);
