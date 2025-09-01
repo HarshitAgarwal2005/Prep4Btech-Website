@@ -113,54 +113,107 @@ const goBack = () => {
       // Open in a new window with iframe for view-only mode
     const newWindow = window.open('', '_blank', 'width=1200,height=900,scrollbars=yes,resizable=yes');
     if (newWindow) {
-      newWindow.document.write(`
-        <!DOCTYPE html>
-        <html>
-        <head>
-          <title>${content.title} - Prep4Btech Content</title>
-          <style>
-            body { 
-              margin: 0; 
-              padding: 0; 
-              font-family: Arial, sans-serif; 
-              background: #1e293b;
-              color: white;
-            }
-            .header { 
-              background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
-              color: white; 
-              padding: 20px; 
-              text-align: center; 
-            }
-            .content { 
-              padding: 40px; 
-              text-align: center; 
-            }
-           iframe {
-            /* NEW: iframe fills content area */
-            width: 100%;
-            height: 100%;
-            border: none;
-          }
-            .icon {
-              font-size: 48px;
-              margin-bottom: 20px;
-            }
-          </style>
-        </head>
-        <body>
-          <div class="header">
-            <h1>${content.title}</h1>
-            <p>${content.description}</p>
-            <p><strong>Type:</strong> ${content.type.toUpperCase()} | <strong>Subject:</strong> ${selectedSubject?.name}</p>
-            </div>
-        <div class="content">
-              <iframe src="${embedUrl}" allowfullscreen></iframe>
-            </div>
-        </body>
-        </html>
-      `);  
-     
+      // newWindow.document.write(`
+      //   <!DOCTYPE html>
+      //   <html>
+      //   <head>
+      //     <title>${content.title} - Prep4Btech Content</title>
+      //     <style>
+      //       body { 
+      //         margin: 0; 
+      //         padding: 0; 
+      //         font-family: Arial, sans-serif; 
+      //         background: #1e293b;
+      //         color: white;
+      //       }
+      //       .header { 
+      //         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+      //         color: white; 
+      //         padding: 20px; 
+      //         text-align: center; 
+      //       }
+      //       .content { 
+      //         padding: 40px; 
+      //         text-align: center; 
+      //       }
+      //      iframe {
+      //       /* NEW: iframe fills content area */
+      //       width: 100%;
+      //       height: 100%;
+      //       border: none;
+      //     }
+      //       .icon {
+      //         font-size: 48px;
+      //         margin-bottom: 20px;
+      //       }
+      //     </style>
+      //   </head>
+      //   <body>
+      //     <div class="header">
+      //       <h1>${content.title}</h1>
+      //       <p>${content.description}</p>
+      //       <p><strong>Type:</strong> ${content.type.toUpperCase()} | <strong>Subject:</strong> ${selectedSubject?.name}</p>
+      //       </div>
+      //   <div class="content">
+      //         <iframe src="${embedUrl}" allowfullscreen></iframe>
+      //       </div>
+      //   </body>
+      //   </html>
+      // `);  
+     newWindow.document.write(`
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>${content.title} - Prep4Btech Content</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        background: #1e293b;
+        color: white;
+        font-family: Arial, sans-serif;
+      }
+      .header { 
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+        color: white; 
+        padding: 20px; 
+        text-align: center; 
+        flex-shrink: 0;
+      }
+      .content { 
+        flex: 1 1 0%;
+        min-height: 0;
+        padding: 0;            /* Remove padding */
+        margin: 0;
+        display: flex;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+        background: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>${content.title}</h1>
+      <p>${content.description}</p>
+      <p><strong>Type:</strong> ${content.type.toUpperCase()} | <strong>Subject:</strong> ${selectedSubject?.name}</p>
+    </div>
+    <div class="content">
+      <iframe src="${embedUrl}" allowfullscreen></iframe>
+    </div>
+  </body>
+  </html>
+`);
+
     newWindow.document.close();
       }
     } catch (error) {
