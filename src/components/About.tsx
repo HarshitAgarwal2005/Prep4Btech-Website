@@ -275,7 +275,7 @@ const About: React.FC = () => {
                   {socialLinks.map((social) => (
                     <a
                       key={social.name}
-                      href={social.url}
+                      href={social.url1}
                       target="_blank"
                       rel="noopener noreferrer"
                       className={`p-3 bg-white/50 dark:bg-gray-700/50 backdrop-blur-sm rounded-xl border border-white/20 dark:border-gray-600/20 ${social.color} transition-all duration-300 hover:scale-110 hover:shadow-lg group`}
