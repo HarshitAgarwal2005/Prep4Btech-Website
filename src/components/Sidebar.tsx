@@ -239,7 +239,7 @@ const Sidebar: React.FC = () => {
                 💬 Contact Support
               </button>
               <button 
-                onClick={() => window.open('https://github.com/HarshitAgarwal2005/studyhub/issues', '_blank')}
+                onClick={() => window.open('mailto:harshitagarwal25807@gmail.com', '_blank')}
                 className="w-full text-left p-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-white/50 dark:hover:bg-gray-600/50 rounded-lg transition-colors"
               >
                 🐛 Report Bug
