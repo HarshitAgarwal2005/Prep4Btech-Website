@@ -323,7 +323,12 @@ const About: React.FC = () => {
                   </div>
                 </div>
 
-                {/* Mission Statement */}
+               
+              </div>
+            </div>
+          </div>
+
+           {/* Mission Statement */}
                 <div className="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 text-white rounded-2xl p-6">
                   <h3 className="text-xl font-bold mb-4 flex items-center">
                     <Target className="h-6 w-6 mr-3" />
@@ -335,10 +340,6 @@ const About: React.FC = () => {
                     to bridge educational gaps and create opportunities for collaborative learning."
                   </p>
                 </div>
-              </div>
-            </div>
-          </div>
-
           {/* Skills Section */}
           <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 mb-12 border border-white/20 dark:border-gray-700/20">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center flex items-center justify-center">
