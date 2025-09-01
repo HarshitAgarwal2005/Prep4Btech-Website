@@ -333,11 +333,11 @@ const About: React.FC = () => {
                     <Target className="h-6 w-6 mr-3" />
                     Mission & Vision
                   </h3>
-                  <h3 className="text-violet-100 leading-relaxed">
+                  <p className="text-violet-100 leading-relaxed">
                     "To democratize education by creating accessible, comprehensive, and well-organized academic resources 
                     that empower every B.Tech student to excel in their studies. I believe in the power of technology 
                     to bridge educational gaps and create opportunities for collaborative learning."
-                  </h3>
+                  </p>
                 </div>
           {/* Skills Section */}
           <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 mb-12 border border-white/20 dark:border-gray-700/20">
