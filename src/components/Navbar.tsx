@@ -123,7 +123,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
                 <span className="text-xl font-bold bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
                   Prep4Btech
                 </span>
-                <div className="text-xs text-gray-500 dark:text-gray-400 -mt-1">By Team</div>
+                <div className="text-xs text-gray-500 dark:text-gray-400 -mt-1">By Team Error 404</div>
               </div>
             </Link>
           </div>
