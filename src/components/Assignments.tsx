@@ -221,38 +221,7 @@ const goBack = () => {
 //     }
 //   };
   // Open in a new window with iframe for view-only mode
-      const newWindow = window.open('', '_blank', 'width=1200,height=800,scrollbars=yes,resizable=yes');
-      if (newWindow) {
-        newWindow.document.write(`
-          <!DOCTYPE html>
-          <html>
-          <head>
-            <title>${paper.title} - StudyHub PYQ</title>
-            <style>
-              body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
-              .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px; text-align: center; }
-              .content { height: calc(100vh - 80px); }
-              iframe { width: 100%; height: 100%; border: none; }
-              .loading { display: flex; justify-content: center; align-items: center; height: 100%; }
-            </style>
-          </head>
-          <body>
-            <div class="header">
-              <h2>${paper.title}</h2>
-              <p>Year: ${paper.year} | Subject: ${selectedSubject?.name}</p>
-            </div>
-            <div class="content">
-              <iframe src="${embedUrl}" allowfullscreen></iframe>
-            </div>
-          </body>
-          </html>
-        `);
-        newWindow.document.close();
-      }
-    } catch (error) {
-      alert(`Error viewing ${paper.title}. Please try again later.`);
-    }
-  };
+     
   return (
     <div className="min-h-screen bg-slate-900 text-white py-8 relative overflow-hidden">
       {/* Background Pattern */}
