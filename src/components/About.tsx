@@ -111,13 +111,7 @@ const About: React.FC = () => {
       color: 'hover:text-pink-600 hover:bg-pink-50 dark:hover:bg-pink-900/20',
       followers: '1K+'
      },
-     {
-      name: 'LinkedIn',
-      icon: Linkedin,
-      url1: 'https://www.linkedin.com/in/hariom-shivnani?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ',
-      color: 'hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/20',
-      followers: '500+'
-    }
+     
     
       //  ,
     //  {
