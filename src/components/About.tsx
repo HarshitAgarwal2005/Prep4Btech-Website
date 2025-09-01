@@ -236,6 +236,109 @@ const About: React.FC = () => {
             </div>
           </div>
 
+
+ {/* hariom  bio section */}
+ <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 sm:p-12 mb-12 border border-white/20 dark:border-gray-700/20">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+              {/* Profile Image and Basic Info */}
+              <div className="lg:col-span-1 text-center">
+                <div className="relative inline-block mb-6">
+                  <div className="w-48 h-48 bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 rounded-full flex items-center justify-center shadow-2xl mx-auto">
+                    <User className="h-24 w-24 text-white" />
+                  </div>
+                  <div className="absolute -bottom-2 -right-2 bg-green-500 w-12 h-12 rounded-full border-4 border-white dark:border-gray-800 flex items-center justify-center">
+                    <Zap className="h-6 w-6 text-white" />
+                  </div>
+                </div>
+                
+                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Harshit Agarwal</h2>
+                <p className="text-lg text-violet-600 dark:text-violet-400 mb-4">Full Stack Developer & Student</p>
+
+                {/* Social Links */}
+                <div className="flex justify-center space-x-4 mb-6">
+                  {socialLinks.map((social) => (
+                    <a
+                      key={social.name}
+                      href={social.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`p-3 bg-white/50 dark:bg-gray-700/50 backdrop-blur-sm rounded-xl border border-white/20 dark:border-gray-600/20 ${social.color} transition-all duration-300 hover:scale-110 hover:shadow-lg group`}
+                      title={`${social.name} - ${social.followers} followers`}
+                    >
+                      <social.icon className="h-6 w-6" />
+                    </a>
+                  ))}
+                </div>
+
+                {/* Quick Stats */}
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 rounded-xl p-4">
+                    <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">3+</div>
+                    <div className="text-sm text-gray-600 dark:text-gray-300">Years Coding</div>
+                  </div>
+                  <div className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-xl p-4">
+                    <div className="text-2xl font-bold text-green-600 dark:text-green-400">50+</div>
+                    <div className="text-sm text-gray-600 dark:text-gray-300">Projects Built</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Detailed Information */}
+              <div className="lg:col-span-2 space-y-8">
+                {/* Personal Details */}
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 flex items-center">
+                    <User className="h-6 w-6 mr-3 text-violet-600" />
+                    Personal Information
+                  </h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="flex items-center p-4 bg-gradient-to-r from-violet-50 to-purple-50 dark:from-violet-900/20 dark:to-purple-900/20 rounded-xl">
+                      <GraduationCap className="h-6 w-6 text-violet-600 mr-3" />
+                      <div>
+                        <div className="font-semibold text-gray-900 dark:text-white">Branch</div>
+                        <div className="text-gray-600 dark:text-gray-300">Computer Science Engineering</div>
+                      </div>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 rounded-xl">
+                      <BookOpen className="h-6 w-6 text-blue-600 mr-3" />
+                      <div>
+                        <div className="font-semibold text-gray-900 dark:text-white">College</div>
+                        <div className="text-gray-600 dark:text-gray-300">JECRC Foundation</div>
+                      </div>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-xl">
+                      <MapPin className="h-6 w-6 text-green-600 mr-3" />
+                      <div>
+                        <div className="font-semibold text-gray-900 dark:text-white">Location</div>
+                        <div className="text-gray-600 dark:text-gray-300">Jaipur, Rajasthan, India</div>
+                      </div>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-red-50 dark:from-orange-900/20 dark:to-red-900/20 rounded-xl">
+                      <Calendar className="h-6 w-6 text-orange-600 mr-3" />
+                      <div>
+                        <div className="font-semibold text-gray-900 dark:text-white">Year</div>
+                        <div className="text-gray-600 dark:text-gray-300">B.Tech Student (Current)</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Mission Statement */}
+                <div className="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 text-white rounded-2xl p-6">
+                  <h3 className="text-xl font-bold mb-4 flex items-center">
+                    <Target className="h-6 w-6 mr-3" />
+                    Mission & Vision
+                  </h3>
+                  <p className="text-violet-100 leading-relaxed">
+                    "To democratize education by creating accessible, comprehensive, and well-organized academic resources 
+                    that empower every B.Tech student to excel in their studies. I believe in the power of technology 
+                    to bridge educational gaps and create opportunities for collaborative learning."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Skills Section */}
           <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 mb-12 border border-white/20 dark:border-gray-700/20">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center flex items-center justify-center">
