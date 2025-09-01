@@ -164,7 +164,7 @@ const goBack = () => {
     newWindow.document.close();
       }
     } catch (error) {
-      alert(`Error viewing ${paper.title}. Please try again later.`);
+      alert(`Error viewing ${content.title}. Please try again later.`);
     }
   };
   
