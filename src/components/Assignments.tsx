@@ -136,13 +136,7 @@ const goBack = () => {
               padding: 40px; 
               text-align: center; 
             }
-            iframe {
-            /* NEW: iframe fills content area */
-            width: 100%;
-            height: 100%;
-            border: none;
-          }
-            
+           
             .icon {
               font-size: 48px;
               margin-bottom: 20px;
