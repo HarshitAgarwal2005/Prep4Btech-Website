@@ -456,7 +456,7 @@ const socialLink = [
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="mailto:harshitagarwal25807@gmail.com"
+                href="mailto:prep4btech@gmail.com"
                 className="bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white py-3 px-6 rounded-xl transition-all duration-300 hover:scale-105 flex items-center justify-center"
               >
                 <Mail className="h-5 w-5 mr-2" />
