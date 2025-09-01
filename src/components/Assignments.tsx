@@ -96,66 +96,7 @@ const goBack = () => {
     return contentType ? contentType.color : 'bg-gray-500';
   };
 
-//  const handleContentView = (content: ContentItem) => {
-//   const newWindow = window.open('', '_blank', 'width=1200,height=800,scrollbars=yes,resizable=yes');
-//   if (newWindow) {
-//     newWindow.document.write(`
-//       <!DOCTYPE html>
-//       <html>
-//       <head>
-//         <title>${content.title} - Prep4Btech Content</title>
-//         <style>
-//           body { 
-//             margin: 0; 
-//             padding: 0; 
-//             font-family: Arial, sans-serif; 
-//             background: #1e293b;
-//             color: white;
 
-//             /* NEW: Make body flex container for layout */
-//             display: flex;
-//             flex-direction: column;
-//             height: 100vh;
-//           }
-//           .header { 
-//             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
-//             color: white; 
-//             padding: 20px; 
-//             text-align: center; 
-            
-//             /* NEW: Prevent header from shrinking */
-//             flex-shrink: 0;
-//           }
-//           .content {
-//             /* NEW: Take remaining height */
-//             flex-grow: 1;
-//             padding: 0;  /* Removed padding */
-//             margin: 0;   /* Removed margin */
-//           }
-//           iframe {
-//             /* NEW: iframe fills content area */
-//             width: 100%;
-//             height: 100%;
-//             border: none;
-//           }
-//         </style>
-//       </head>
-//       <body>
-//         <div class="header">
-//           <h1>${content.title}</h1>
-//           <p>${content.description}</p>
-//           <p><strong>Type:</strong> ${content.type.toUpperCase()} | <strong>Subject:</strong> ${selectedSubject?.name}</p>
-//         </div>
-//         <div class="content">
-//           <!-- CHANGED: Replaced demo content div with iframe loading content.link -->
-//           <iframe src="${content.link}" allowfullscreen></iframe>
-//         </div>
-//       </body>
-//       </html>
-//     `);
-//     newWindow.document.close();
-//   }
-// };
 
   const handleContentView = (content: ContentItem) => {
     // Open content in view-only mode
@@ -214,17 +155,6 @@ const goBack = () => {
               <p style="color: #94a3b8;">In a real implementation, this would display the actual content like PDF viewer, video player, or document viewer.</p>
             </div>
           </div>
-           
-//         <div class="header">
-//           <h1>${content.title}</h1>
-//           <p>${content.description}</p>
-//           <p><strong>Type:</strong> ${content.type.toUpperCase()} | <strong>Subject:</strong> ${selectedSubject?.name}</p>
-//         </div>
-//         <div class="content">
-//           <!-- CHANGED: Replaced demo content div with iframe loading content.link -->
-//           <iframe src="${content.link}" allowfullscreen></iframe>
-//         </div>
-//      
         </body>
         </html>
       `);
