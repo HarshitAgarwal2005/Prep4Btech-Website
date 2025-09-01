@@ -136,7 +136,7 @@ const goBack = () => {
               padding: 40px; 
               text-align: center; 
             }
-            
+            iframe {
             /* NEW: iframe fills content area */
             width: 100%;
             height: 100%;
