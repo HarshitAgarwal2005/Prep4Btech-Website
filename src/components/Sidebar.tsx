@@ -227,7 +227,7 @@ const Sidebar: React.FC = () => {
             </div>
             <div className="space-y-2">
               <button 
-                onClick={() => window.open('/contact', '_blank')}
+                onClick={() => window.open('/help', '_blank')}
                 className="w-full text-left p-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-white/50 dark:hover:bg-gray-600/50 rounded-lg transition-colors"
               >
                 📚 User Guide
