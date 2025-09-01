@@ -99,6 +99,19 @@ const goBack = () => {
 
 
   const handleContentView = (content: ContentItem) => {
+    try {
+      // Convert Google Drive share URL to embed URL for iframe viewing
+      let embedUrl = paper.downloadUrl || '';
+      
+      if (embedUrl.includes('drive.google.com/file/d/')) {
+        const fileId = embedUrl.match(/\/d\/([a-zA-Z0-9-_]+)/)?.[1];
+        if (fileId) {
+          embedUrl = `https://drive.google.com/file/d/${fileId}/preview`;
+        }
+      }
+      
+      // Open in a new window with iframe for view-only mode
+
     // Open content in view-only mode
     const newWindow = window.open('', '_blank', 'width=1200,height=800,scrollbars=yes,resizable=yes');
     if (newWindow) {
