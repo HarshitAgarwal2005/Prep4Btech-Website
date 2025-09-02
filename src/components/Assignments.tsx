@@ -598,8 +598,8 @@ const goBack = () => {
                               <Icon className="h-6 w-6 text-white" />
                             </div>
                             <div>
-                              <h3 className="text-lg font-semibold text-white mb-1">{content.title}</h3>
-                              <p className="text-gray-400 text-sm mb-2">{content.description}</p>
+                              <h3 className="text-lg font-semibold text-slate-800 dark:text-white mb-1">{content.title}</h3>
+<p className="text-gray-600 dark:text-gray-400 text-sm mb-2">{content.description}</p>
                               <div className="flex items-center space-x-4 text-xs text-gray-500">
                                 <span className="flex items-center">
                                   <Calendar className="h-3 w-3 mr-1" />
