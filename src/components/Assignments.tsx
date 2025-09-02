@@ -280,7 +280,7 @@ const goBack = () => {
                   <Filter className="h-6 w-6 text-blue-400 mr-3" />
                   <h2 className="text-2xl font-bold"> Content</h2>
                 </div>
-                <div className="text-sm text-gray-400">Select by Year</div>
+                <div className="text-sm text-gray-500 dark:text-gray-400">Select by Year</div>
               </div>
 
               {/* Search Subject */}
