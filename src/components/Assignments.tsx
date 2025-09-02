@@ -414,7 +414,7 @@ const goBack = () => {
                       <FileText className="h-8 w-8 text-white" />
                     </div>
                     <div className="text-2xl font-bold">8</div>
-                    <div className="text-gray-400 text-sm">Total Semesters</div>
+                    <div className="text-gray-500 dark:text-gray-400 text-sm">Total Semesters</div>
                   </div>
                   <div className="text-center">
                     <div className="bg-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
