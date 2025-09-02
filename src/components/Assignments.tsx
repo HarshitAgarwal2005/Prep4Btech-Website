@@ -448,7 +448,7 @@ const goBack = () => {
 
           {/* Step 2: Branch Selection */}
           {selectedYear && selectedSemester && !selectedBranch && (
-            <div className="bg-slate-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 mb-12 border border-slate-700">
+            <div className="bg-slate-100/80 dark:bg-slate-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 mb-12 border border-slate-200 dark:border-slate-700">
               <div className="flex items-center justify-center mb-8">
                 <Users className="h-8 w-8 text-green-400 mr-3" />
                 <h2 className="text-2xl font-bold">Select Your Branch</h2>
