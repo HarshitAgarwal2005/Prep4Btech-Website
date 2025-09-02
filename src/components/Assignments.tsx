@@ -314,7 +314,7 @@ const goBack = () => {
                   <div className="grid grid-cols-2 gap-3">
                     <button
                       onClick={() => { setSelectedYear(1); setSelectedSemester(1); }}
-                      className="bg-slate-800/30 hover:bg-slate-800/50 backdrop-blur-sm rounded-lg p-4 transition-all duration-300 hover:scale-105"
+                      className="bg-white/20 hover:bg-white/40 dark:bg-slate-800/30 dark:hover:bg-slate-800/50 backdrop-blur-sm rounded-lg p-4 transition-all duration-300 hover:scale-105"
                     >
                       <div className="text-lg font-semibold">Semester 1</div>
                       <div className="text-sm text-blue-200">5 Subjects</div>
