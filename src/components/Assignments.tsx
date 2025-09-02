@@ -589,9 +589,9 @@ const goBack = () => {
                     
                     return (
                       <div
-                        key={content.id}
-                        className="bg-slate-700/50 rounded-xl p-6 hover:bg-slate-700 transition-all duration-300 border border-slate-600 hover:border-slate-500"
-                      >
+  key={content.id}
+  className="bg-slate-100 rounded-xl p-6 dark:bg-slate-700/50 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all duration-300 border border-slate-200 dark:border-slate-600 dark:hover:border-slate-500"
+>
                         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                           <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-gray-500">
                             <div className={`${colorClass} p-3 rounded-xl`}>
