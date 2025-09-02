@@ -442,7 +442,6 @@ const goBack = () => {
       <div className="text-gray-500 dark:text-gray-400 text-sm">Content Viewed</div>
     </div>
   </div>
-</div>
           )}
 
           {/* Step 2: Branch Selection */}
