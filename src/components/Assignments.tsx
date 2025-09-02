@@ -241,7 +241,7 @@ const goBack = () => {
               <FileText className="h-12 w-12 text-blue-400 mr-4" />
               <h1 className="text-4xl sm:text-5xl font-bold">Content 📚</h1>
             </div>
-            <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
               Access content organized by year, semester, and subject. View documents directly in your browser.
             </p>
           </div>
