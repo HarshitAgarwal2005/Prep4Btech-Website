@@ -483,7 +483,7 @@ const goBack = () => {
                 <h2 className="text-2xl font-bold">Select Subject</h2>
               </div>
               <div className="text-center mb-6">
-                <p className="text-gray-400">
+                <p className="text-gray-4!00">
                   Semester {selectedSemester} • Choose a subject to view content
                 </p>
               </div>
