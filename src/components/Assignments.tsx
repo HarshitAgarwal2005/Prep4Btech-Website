@@ -396,7 +396,7 @@ const goBack = () => {
                     </button>
                     <button
                       onClick={() => { setSelectedYear(4); setSelectedSemester(8); }}
-                      className="bg-slate-800/30 hover:bg-slate-800/50 backdrop-blur-sm rounded-lg p-4 transition-all duration-300 hover:scale-105"
+                      className="bg-white/20 hover:bg-white/40 dark:bg-slate-800/30 dark:hover:bg-slate-800/50 backdrop-blur-sm rounded-lg p-4 transition-all duration-300 hover:scale-105"
                     >
                       <div className="text-lg font-semibester">Semester 8</div>
                       <div className="text-sm text-orange-200">2 Subjects</div>
