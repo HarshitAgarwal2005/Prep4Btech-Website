@@ -274,7 +274,7 @@ const goBack = () => {
 
           {/* Step 1: Year & Semester Selection */}
           {!selectedYear && (
-            <div className="bg-slate-100/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 mb-12 border border-slate-700">
+            <div className="bg-slate-100/80 dark:bg-slate-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 mb-8 border border-slate-200 dark:border-slate-700">
               <div className="flex items-center justify-between mb-8">
                 <div className="flex items-center">
                   <Filter className="h-6 w-6 text-blue-400 mr-3" />
