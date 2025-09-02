@@ -1,6 +1,6 @@
 import React, { useState, createContext, useContext } from 'react';
 import { Mail, MapPin, Send, Linkedin, Github, CheckCircle, AlertCircle, Lock, LogOut, User, Instagram } from 'lucide-react';
-import { supabase } from 'src/supabaseClient.ts';
+import { supabase } from './supabaseClient.ts';
 // Create Developer Auth Context
 const DeveloperAuthContext = createContext<{
   isAuthenticated: boolean;
