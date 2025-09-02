@@ -406,40 +406,43 @@ const goBack = () => {
               </div>
 
               {/* Content Statistics */}
-              <div className="mt-12 bg-slate-100/80 dark:bg-slate-800/80 backdrop-blur-xl rounded-2xl p-8">
-                <h3 className="text-xl font-bold text-center mb-8">Content Statistics</h3>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                  <div className="text-center">
-                    <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <FileText className="h-8 w-8 text-white" />
-                    </div>
-                    <div className="text-2xl font-bold">8</div>
-                    <div className="text-gray-500 dark:text-gray-400 text-sm">Total Semesters</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="bg-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <BookOpen className="h-8 w-8 text-white" />
-                    </div>
-                    <div className="text-2xl font-bold">40</div>
-                    <div className="text-gray-400 text-sm">Available Subjects</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="bg-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <Users className="h-8 w-8 text-white" />
-                    </div>
-                    <div className="text-2xl font-bold">19</div>
-                    <div className="text-gray-400 text-sm">Available Content</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="bg-orange-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <Trophy className="h-8 w-8 text-white" />
-                    </div>
-                    <div className="text-2xl font-bold">1000+</div>
-                    <div className="text-gray-400 text-sm">Content Viewed</div>
-                  </div>
-                </div>
-              </div>
-            </div>
+<div className="mt-12 bg-slate-100/80 dark:bg-slate-800/80 backdrop-blur-xl rounded-2xl p-8">
+  <h3 className="text-xl font-bold text-center mb-8">Content Statistics</h3>
+  <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+    <div className="text-center">
+      <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+        <FileText className="h-8 w-8 text-white" />
+      </div>
+      <div className="text-2xl font-bold">8</div>
+      {/* Changed text-gray-400 to text-gray-500 for light mode */}
+      <div className="text-gray-500 dark:text-gray-400 text-sm">Total Semesters</div>
+    </div>
+    <div className="text-center">
+      <div className="bg-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+        <BookOpen className="h-8 w-8 text-white" />
+      </div>
+      <div className="text-2xl font-bold">40</div>
+      {/* Changed text-gray-400 to text-gray-500 for light mode */}
+      <div className="text-gray-500 dark:text-gray-400 text-sm">Available Subjects</div>
+    </div>
+    <div className="text-center">
+      <div className="bg-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+        <Users className="h-8 w-8 text-white" />
+      </div>
+      <div className="text-2xl font-bold">19</div>
+      {/* Changed text-gray-400 to text-gray-500 for light mode */}
+      <div className="text-gray-500 dark:text-gray-400 text-sm">Available Content</div>
+    </div>
+    <div className="text-center">
+      <div className="bg-orange-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+        <Trophy className="h-8 w-8 text-white" />
+      </div>
+      <div className="text-2xl font-bold">1000+</div>
+      {/* Changed text-gray-400 to text-gray-500 for light mode */}
+      <div className="text-gray-500 dark:text-gray-400 text-sm">Content Viewed</div>
+    </div>
+  </div>
+</div>
           )}
 
           {/* Step 2: Branch Selection */}
