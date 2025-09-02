@@ -82,7 +82,7 @@ const Contact: React.FC = () => {
             // If the database insert fails, stop and show the error
             throw insertError;
         }
-      const response = await fetch(`${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-doubt-email`, {
+      const response = await fetch(`${import.meta.env.VITE_SUPABASE_URL.replace('/v1', '')}/functions/v1/send-doubt-email`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
