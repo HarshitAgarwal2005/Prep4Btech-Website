@@ -1225,77 +1225,77 @@ export const contentSubjects: ContentSubject[] = [
 
 export const contentItems: ContentItem[] = [
   // Engineering Mathematics-I Content
-  // { 
-  //   id: 'math1-theory-1',
-  //   title: 'Engineering Mathematics-I Complete Notes',
-  //   description: 'Comprehensive theory notes covering all topics',
-  //   type: 'theory',
-  //   subjectId: 'math1-s1',
-  //   fileSize: '2.5 MB',
-  //   uploadDate: '2024-01-15',
-  //   viewUrl: 'https://example.com/math1-notes'
-  // },
-  // {
-  //   id: 'math1-theory-2',
-  //   title: 'Engineering Mathematics-I Practice Problems',
-  //   description: 'Solved examples and practice exercises',
-  //   type: 'theory',
-  //   subjectId: 'math1-s1',
-  //   fileSize: '1.8 MB',
-  //   uploadDate: '2024-01-20',
-  //   viewUrl: 'https://example.com/math1-practice'
-  // },
-  // {
-  //   id: 'math1-lab-1',
-  //   title: 'Engineering Mathematics-I Lab Manual',
-  //   description: 'Laboratory experiments and procedures',
-  //   type: 'lab',
-  //   subjectId: 'math1-s1',
-  //   fileSize: '3.2 MB',
-  //   uploadDate: '2024-01-25',
-  //   viewUrl: 'https://example.com/math1-lab'
-  // },
-  // {
-  //   id: 'math1-video-1',
-  //   title: 'Engineering Mathematics-I Video Lectures',
-  //   description: 'Video lectures covering key concepts',
-  //   type: 'videos',
-  //   subjectId: 'math1-s1',
-  //   duration: '45 minutes',
-  //   uploadDate: '2024-01-30',
-  //   viewUrl: 'https://example.com/math1-videos',
-  //   thumbnailUrl: 'https://example.com/math1-thumb'
-  // },
-  // {
-  //   id: 'math1-book-1',
-  //   title: 'Engineering Mathematics by Kreyszig',
-  //   description: 'Reference textbook for advanced mathematics',
-  //   type: 'books',
-  //   subjectId: 'math1-s1',
-  //   fileSize: '15.2 MB',
-  //   uploadDate: '2024-02-01',
-  //   viewUrl: 'https://example.com/math1-book'
-  // },
-  // {
-  //   id: 'math1-assignment-1',
-  //   title: 'Engineering Mathematics-I Assignment 1',
-  //   description: 'First assignment with solutions',
-  //   type: 'assignments',
-  //   subjectId: 'math1-s1',
-  //   fileSize: '1.1 MB',
-  //   uploadDate: '2024-02-05',
-  //   viewUrl: 'https://example.com/math1-assignment1'
-  // },
-  // {
-  //   id: 'math1-mtt-1',
-  //   title: 'Engineering Mathematics-I MTT Paper',
-  //   description: 'Mid-term test paper with solutions',
-  //   type: 'mtt',
-  //   subjectId: 'math1-s1',
-  //   fileSize: '0.8 MB',
-  //   uploadDate: '2024-02-10',
-  //   viewUrl: 'https://example.com/math1-mtt'
-  // }, 
+  {
+    id: 'math1-theory-1',
+    title: 'Engineering Mathematics-I Complete Notes',
+    description: 'Comprehensive theory notes covering all topics',
+    type: 'theory',
+    subjectId: 'math1-s1',
+    fileSize: '2.5 MB',
+    uploadDate: '2024-01-15',
+    viewUrl: 'https://example.com/math1-notes'
+  },
+  {
+    id: 'math1-theory-2',
+    title: 'Engineering Mathematics-I Practice Problems',
+    description: 'Solved examples and practice exercises',
+    type: 'theory',
+    subjectId: 'math1-s1',
+    fileSize: '1.8 MB',
+    uploadDate: '2024-01-20',
+    viewUrl: 'https://example.com/math1-practice'
+  },
+  {
+    id: 'math1-lab-1',
+    title: 'Engineering Mathematics-I Lab Manual',
+    description: 'Laboratory experiments and procedures',
+    type: 'lab',
+    subjectId: 'math1-s1',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-01-25',
+    viewUrl: 'https://example.com/math1-lab'
+  },
+  {
+    id: 'math1-video-1',
+    title: 'Engineering Mathematics-I Video Lectures',
+    description: 'Video lectures covering key concepts',
+    type: 'videos',
+    subjectId: 'math1-s1',
+    duration: '45 minutes',
+    uploadDate: '2024-01-30',
+    viewUrl: 'https://example.com/math1-videos',
+    thumbnailUrl: 'https://example.com/math1-thumb'
+  },
+  {
+    id: 'math1-book-1',
+    title: 'Engineering Mathematics by Kreyszig',
+    description: 'Reference textbook for advanced mathematics',
+    type: 'books',
+    subjectId: 'math1-s1',
+    fileSize: '15.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://example.com/math1-book'
+  },
+  {
+    id: 'math1-assignment-1',
+    title: 'Engineering Mathematics-I Assignment 1',
+    description: 'First assignment with solutions',
+    type: 'assignments',
+    subjectId: 'math1-s1',
+    fileSize: '1.1 MB',
+    uploadDate: '2024-02-05',
+    viewUrl: 'https://example.com/math1-assignment1'
+  },
+  {
+    id: 'math1-mtt-1',
+    title: 'Engineering Mathematics-I MTT Paper',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'math1-s1',
+    fileSize: '0.8 MB',
+    uploadDate: '2024-02-10',
+    viewUrl: 'https://example.com/math1-mtt'
+  },
 
   // Engineering Physics Content
   {
@@ -1306,7 +1306,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'physics-s1',
     fileSize: '3.1 MB',
     uploadDate: '2024-01-18',
-    viewUrl: 'https://drive.google.com/file/d/13zjpU57j5qPC9puTU12QY0rJQA7BYMs-/view?usp=sharing'
+    viewUrl: 'https://drive.google.com/file/d/13zjpU57j5qPC9puTU12QY0rJQA7BYMs-/view?usp=drive_link'
   },
    {
     id: 'physics-theory-1',
@@ -1358,6 +1358,8 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-18',
     viewUrl: 'https://drive.google.com/file/d/1DbdLYuzoLUbjMR_AKoEQ6ZsYOdAbn0AT/view?usp=drive_link'
   },
+  
+  
   {
     id: 'physics-lab-1',
     title: 'Engineering Physics Lab All Experiments',
@@ -1370,7 +1372,7 @@ export const contentItems: ContentItem[] = [
   },
    {
     id: 'physics-book-1',
-    title: 'Laser Chapter Book Notes', 
+    title: 'Laser Chapter Book Notes',
     description: 'Reference textbook for Laser',
     type: 'books',
     subjectId: 'physics-s1',
@@ -1378,6 +1380,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1km_lTssd-EBO0ENmBEa_p9keAoicVjuc/view?usp=sharing'
   },
+  
   // {
   //   id: 'physics-video-1',
   //   title: 'Engineering Physics Video Lectures',
