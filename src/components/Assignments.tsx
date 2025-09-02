@@ -531,7 +531,7 @@ const goBack = () => {
                   </p>
                 </div>
                 <div className="text-right">
-                  <p className="text-sm text-gray-400">
+                  <p className="text-sm text-gray-600 dark:text-gray-400">
                     Semester {selectedSubject.semester} • {selectedSubject.description}
                   </p>
                 </div>
