@@ -492,10 +492,10 @@ const goBack = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {filteredSubjects.map((subject) => (
                     <div
-                      key={subject.id}
-                      onClick={() => setSelectedSubject(subject)}
-                      className="bg-slate-700/50 hover:bg-slate-700 rounded-2xl p-6 cursor-pointer transition-all duration-300 hover:scale-105 border border-slate-600 hover:border-blue-500 group"
-                    >
+  key={subject.id}
+  onClick={() => setSelectedSubject(subject)}
+  className="bg-slate-100 hover:bg-slate-200 dark:bg-slate-700/50 dark:hover:bg-slate-700 rounded-2xl p-6 cursor-pointer transition-all duration-300 hover:scale-105 border border-slate-200 dark:border-slate-600 dark:hover:border-blue-500 group"
+>
                       <div className="text-center">
                         <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
                           <span className="text-2xl">{subject.icon}</span>
