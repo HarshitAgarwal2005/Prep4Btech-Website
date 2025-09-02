@@ -41,7 +41,7 @@ serve(async (req) => {
         <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
           <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
             <h2 style="color: #4F46E5; border-bottom: 2px solid #4F46E5; padding-bottom: 10px;">
-              📚 New Doubt Submission - StudyHub
+              📚 New Doubt Submission - Prep4Btech
             </h2>
             
             <div style="background: #F8FAFC; padding: 20px; border-radius: 8px; margin: 20px 0;">
