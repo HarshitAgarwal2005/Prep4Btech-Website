@@ -1309,7 +1309,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/13zjpU57j5qPC9puTU12QY0rJQA7BYMs-/view?usp=sharing'
   },
    {
-    id: 'physics-theory-1',
+    id: 'physics-theory-2',
     title: 'Quantum Mechanics Notes',
     description: 'Theory covering Quantum Mechanics',
     type: 'theory',
@@ -1319,7 +1319,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1UjMPjD1c4g8BnhPjyuefzZn1jYLe9cnv/view?usp=drive_link'
   },
    {
-    id: 'physics-theory-1',
+    id: 'physics-theory-3',
     title: 'Coherence and Optical Fibre Notes',
     description: 'Theory covering Coherence and Optical Fibre',
     type: 'theory',
@@ -1329,7 +1329,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1uxk8aZpSWzJ9f-WfivGXU1dTibfcyb4a/view?usp=drive_link'
   },
    {
-    id: 'physics-theory-1',
+    id: 'physics-theory-4',
     title: 'Laser Notes',
     description: 'Theory covering laser ',
     type: 'theory',
@@ -1339,7 +1339,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1fm5dJNGThyHOzIJcGP0edD7B1yYu865D/view?usp=drive_link'
   },
    {
-    id: 'physics-theory-1',
+    id: 'physics-theory-5',
     title: 'Material Science Notes',
     description: 'Theory covering Material Science ',
     type: 'theory',
@@ -1349,7 +1349,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1nqkIv2fPTLzode2bTNND-djot2f0gaIS/view?usp=drive_link'
   },
    {
-    id: 'physics-theory-1',
+    id: 'physics-theory-6',
     title: 'Electromagnetism Notes',
     description: 'Theory covering Electromagnetism ',
     type: 'theory',
@@ -1358,8 +1358,6 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-18',
     viewUrl: 'https://drive.google.com/file/d/1DbdLYuzoLUbjMR_AKoEQ6ZsYOdAbn0AT/view?usp=drive_link'
   },
-  
-  
   {
     id: 'physics-lab-1',
     title: 'Engineering Physics Lab All Experiments',
@@ -1380,17 +1378,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1km_lTssd-EBO0ENmBEa_p9keAoicVjuc/view?usp=sharing'
   },
-  
-  // {
-  //   id: 'physics-video-1',
-  //   title: 'Engineering Physics Video Lectures',
-  //   description: 'Conceptual explanations with demonstrations',
-  //   type: 'videos',
-  //   subjectId: 'physics-s1',
-  //   duration: '60 minutes',
-  //   uploadDate: '2024-01-28',
-  //   viewUrl: 'https://example.com/physics-videos'
-  // },
+  {
+    id: 'physics-video-1',
+    title: 'Engineering Physics Video Lectures',
+    description: 'Conceptual explanations with demonstrations',
+    type: 'videos',
+    subjectId: 'physics-s1',
+    duration: '60 minutes',
+    uploadDate: '2024-01-28',
+    viewUrl: 'https://example.com/physics-videos'
+  },
 
   // Communication Skills Content
   {
