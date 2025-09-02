@@ -793,7 +793,7 @@ const PYQPapers: React.FC = () => {
 
           {/* Step 2: Select Branch */}
           {selectedCourse && !selectedBranch && (
-            <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 border border-white/20 dark:border-gray-700/20">
+            <div className="bg-slate-100/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 border border-white/20 dark:border-gray-700/20">
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center flex items-center justify-center">
                 <Users className="h-8 w-8 mr-3 text-green-600" />
                 Select Your Branch
