@@ -72,16 +72,7 @@ const Contact: React.FC = () => {
     setError(null);
 
     try {
-      const { error: insertError } = await supabase
-                .from('contact_messages') // The name of your table
-                .insert([
-                    { name: formData.name, email: formData.email, message: formData.message }
-                ]);
-
-            if (insertError) {
-                // If there's an error with the database, throw it
-                throw insertError;
-            }
+      
       const response = await fetch(`${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-doubt-email`, {
         method: 'POST',
         headers: {
