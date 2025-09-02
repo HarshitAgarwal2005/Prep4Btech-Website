@@ -501,8 +501,8 @@ const goBack = () => {
                           <span className="text-2xl">{subject.icon}</span>
                         </div>
                         <h3 className="text-lg font-semibold mb-2">{subject.code}</h3>
-                        <p className="text-sm text-gray-300 mb-2">{subject.name}</p>
-                        <p className="text-xs text-gray-500">{subject.description}</p>
+                        <p className="text-sm text-gray-700 dark:text-gray-300 mb-2">{subject.name}</p>
+<p className="text-xs text-gray-600 dark:text-gray-500">{subject.description}</p>
                         <ChevronRight className="h-5 w-5 text-blue-400 mx-auto mt-4 group-hover:translate-x-1 transition-transform" />
                       </div>
                     </div>
