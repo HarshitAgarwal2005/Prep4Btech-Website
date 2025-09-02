@@ -483,7 +483,7 @@ const goBack = () => {
                 <h2 className="text-2xl font-bold">Select Subject</h2>
               </div>
               <div className="text-center mb-6">
-                <p className="text-gray-4!00">
+                <p className="text-gray-400">
                   Semester {selectedSemester} • Choose a subject to view content
                 </p>
               </div>
@@ -522,7 +522,7 @@ const goBack = () => {
 
           {/* Step 4: Content Display */}
           {selectedSubject && (
-            <div className="bg-slate-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 border border-slate-700">
+            <div className="bg-slate-100/80 dark:bg-slate-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 border border-slate-200 dark:border-slate-700">
               <div className="flex items-center justify-between mb-8">
                 <div>
                   <h2 className="text-3xl font-bold mb-2">{selectedSubject.name}</h2>
