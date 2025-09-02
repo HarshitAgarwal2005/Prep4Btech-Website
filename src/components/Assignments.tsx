@@ -466,7 +466,7 @@ const goBack = () => {
                       </div>
                       <h3 className="text-lg font-semibold mb-2">{branch.code}</h3>
                       <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">{branch.name}</p>
-                      <p className="text-xs text-gray-500">{branch.description}</p>
+                      <p className="text-xs text-gray-500 dark:text-gray-500">{branch.description}</p>
                       <ChevronRight className="h-5 w-5 text-gray-400 mx-auto mt-4 group-hover:translate-x-1 transition-transform" />
                     </div>
                   </div>
