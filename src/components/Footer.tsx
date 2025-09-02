@@ -86,11 +86,13 @@ if (email.trim()) {
   const quickLinks = [
     { name: 'Home', path: '/' },
     { name: 'Year', path: '/year' },
-    { name: 'RTU Syllabus', path: '/rtu-syllabus' },
-    { name: 'Content', path: '/assignments' },
+    { name: 'Content', path: '/assignments' }, 
     { name: 'Books', path: '/books' },
     { name: 'Projects', path: '/projects' },
-    { name: 'PYQ Papers', path: '/pyq-papers' }
+    { name: 'PYQ Papers', path: '/pyq-papers' },
+    { name: 'RTU Syllabus', path: '/rtu-syllabus' },
+    { name: 'Contact', path: '/contact' },
+    { name: 'About Us', path: '/about' },
   ];
 
   const resources = [
