@@ -248,7 +248,7 @@ const goBack = () => {
 
           {/* Breadcrumb Navigation */}
           {(selectedYear || selectedSemester || selectedBranch || selectedSubject) && (
-            <div className="bg-slate-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 mb-8 border border-slate-700">
+            <div className="bg-slate-100/80 dark:bg-slate-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 mb-8 border border-slate-200 dark:border-slate-700">
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-4">
                   <button
