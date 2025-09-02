@@ -255,7 +255,7 @@ const goBack = () => {
                     onClick={goBack}
                     className="bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 p-2 rounded-lg transition-colors"
                   >
-                    <ArrowLeft className="h-5 w-5" />
+                    <ArrowLeft className="h-5 w-5 text-gray-600 dark:text-gray-300" />
                   </button>
                   <div>
                     <h2 className="text-lg font-semibold">Navigation</h2>
