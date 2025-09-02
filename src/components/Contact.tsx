@@ -109,7 +109,9 @@ const Contact: React.FC = () => {
       }, 3000);
 
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to send message. Please try again.');
+      const errorMessage = err instanceof Error ? err.message : 'An unknown error occurred.';
+        setError(`Submission failed: ${errorMessage}`);
+        console.error(err);
     } finally {
       setIsSubmitting(false);
     }
