@@ -1225,7 +1225,7 @@ export const contentSubjects: ContentSubject[] = [
 
 export const contentItems: ContentItem[] = [
   // Engineering Mathematics-I Content
-  {
+  { 
     id: 'math1-theory-1',
     title: 'Engineering Mathematics-I Complete Notes',
     description: 'Comprehensive theory notes covering all topics',
@@ -1378,16 +1378,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1km_lTssd-EBO0ENmBEa_p9keAoicVjuc/view?usp=sharing'
   },
-  {
-    id: 'physics-video-1',
-    title: 'Engineering Physics Video Lectures',
-    description: 'Conceptual explanations with demonstrations',
-    type: 'videos',
-    subjectId: 'physics-s1',
-    duration: '60 minutes',
-    uploadDate: '2024-01-28',
-    viewUrl: 'https://example.com/physics-videos'
-  },
+  // {
+  //   id: 'physics-video-1',
+  //   title: 'Engineering Physics Video Lectures',
+  //   description: 'Conceptual explanations with demonstrations',
+  //   type: 'videos',
+  //   subjectId: 'physics-s1',
+  //   duration: '60 minutes',
+  //   uploadDate: '2024-01-28',
+  //   viewUrl: 'https://example.com/physics-videos'
+  // },
 
   // Communication Skills Content
   {
