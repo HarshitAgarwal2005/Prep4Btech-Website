@@ -406,7 +406,7 @@ const goBack = () => {
               </div>
 
               {/* Content Statistics */}
-              <div className="mt-12 bg-slate-100/80 rounded-2xl p-8">
+              <div className="mt-12 bg-slate-100/80 dark:bg-slate-800/80 rounded-2xl p-8">
                 <h3 className="text-xl font-bold text-center mb-8">Content Statistics</h3>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                   <div className="text-center">
