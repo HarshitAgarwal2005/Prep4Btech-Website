@@ -253,7 +253,7 @@ const goBack = () => {
                 <div className="flex items-center space-x-4">
                   <button
                     onClick={goBack}
-                    className="bg-slate-100 hover:bg-slate-500 p-2 rounded-lg transition-colors"
+                    className="bg-slate-100 hover:bg-slate-200 p-2 rounded-lg transition-colors"
                   >
                     <ArrowLeft className="h-5 w-5" />
                   </button>
