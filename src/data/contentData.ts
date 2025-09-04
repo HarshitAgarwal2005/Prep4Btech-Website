@@ -1418,7 +1418,7 @@ export const contentItems: ContentItem[] = [
     title: 'Basic Electrical Engineering Unit-1 Notes',
     description: 'Comprehensive theory notes covering unit-1 topics',
     type: 'theory',
-    subjectId: 'elec1-s1',
+    subjectId: 'elec-s1',
     fileSize: '8 MB',
     uploadDate: '2024-01-15',
     viewUrl: 'https://example.com/elec1-notes'
