@@ -17,7 +17,7 @@ serve(async (req) => {
 
   // ... rest of your function logic
 });
-
+//export PATH="$HOME/.npm-global/bin:$PATH"
 interface DoubtRequest {
   subject: string
   doubt: string
