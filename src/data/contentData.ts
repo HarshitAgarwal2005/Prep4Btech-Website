@@ -1,5 +1,4 @@
 import { ContentSubject, ContentItem } from '../types';
-
 export const contentSubjects: ContentSubject[] = [
   // First Year - Semester 1
   {
@@ -1412,6 +1411,67 @@ export const contentItems: ContentItem[] = [
     fileSize: '0.9 MB',
     uploadDate: '2024-02-03',
     viewUrl: 'https://example.com/comm-assignment'
+  },
+  // BASIC ELECTRICAL ENGINEERING SEM-1
+  {
+    id: 'elec1-theory-1',
+    title: 'Basic Electrical Engineering Unit-1 Notes',
+    description: 'Comprehensive theory notes covering unit-1 topics',
+    type: 'theory',
+    subjectId: 'elec1-s1',
+    fileSize: '8 MB',
+    uploadDate: '2024-01-15',
+    viewUrl: 'https://example.com/elec1-notes'
+  },
+  {
+    id: 'elec1-theory-2',
+    title: 'Basic Electrical Engineering Unit-2 Notes',
+    description: 'Comprehensive theory notes covering unit-2 topics',
+    type: 'theory',
+    subjectId: 'elec1-s1',
+    fileSize: '8 MB',
+    uploadDate: '2024-01-15',
+    viewUrl: 'https://example.com/elec1-notes'
+  },
+  {
+    id: 'elec1-theory-3',
+    title: 'Basic Electrical Engineering Unit-3 Notes',
+    description: 'Comprehensive theory notes covering unit-3 topics',
+    type: 'theory',
+    subjectId: 'elec1-s1',
+    fileSize: '8 MB',
+    uploadDate: '2024-01-15',
+    viewUrl: 'https://example.com/elec1-notes'
+  },
+  {
+    id: 'elec1-theory-4',
+    title: 'Basic Electrical Engineering Unit-4 Notes',
+    description: 'Comprehensive theory notes covering unit-4 topics',
+    type: 'theory',
+    subjectId: 'elec1-s1',
+    fileSize: '8 MB',
+    uploadDate: '2024-01-15',
+    viewUrl: 'https://example.com/elec1-notes'
+  },
+  {
+    id: 'elec1-theory-5',
+    title: 'Basic Electrical Engineering Unit-5 Notes',
+    description: 'Comprehensive theory notes covering unit-5 topics',
+    type: 'theory',
+    subjectId: 'elec1-s1',
+    fileSize: '8 MB',
+    uploadDate: '2024-01-15',
+    viewUrl: 'https://example.com/elec1-notes'
+  },
+  {
+    id: 'elec1-theory-6',
+    title: 'Basic Electrical Engineering Unit-6 Notes',
+    description: 'Comprehensive theory notes covering unit-6 topics',
+    type: 'theory',
+    subjectId: 'elec1-s1',
+    fileSize: '8 MB',
+    uploadDate: '2024-01-15',
+    viewUrl: 'https://example.com/elec1-notes'
   },
   // programming problem solving sem 2
    {
