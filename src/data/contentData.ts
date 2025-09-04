@@ -1454,7 +1454,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://example.com/elec1-notes'
   },
   {
-    id: 'elec1-theory-5',
+    id: 'electrical1-theory-5',
     title: 'Basic Electrical Engineering Unit-5 Notes',
     description: 'Comprehensive theory notes covering unit-5 topics',
     type: 'theory',
