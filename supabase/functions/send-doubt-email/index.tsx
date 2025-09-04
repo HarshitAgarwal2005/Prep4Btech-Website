@@ -1,10 +1,22 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts"
 
+// supabase/functions/send-doubt-email/index.ts
+
+// These headers are perfect.
 const corsHeaders = {
   'Access-Control-Allow-Origin': 'https://prep4btech.netlify.app',
   'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
   'Access-Control-Allow-Methods': 'POST, OPTIONS',
 }
+
+serve(async (req) => {
+  // This correctly handles the preflight request.
+  if (req.method === 'OPTIONS') {
+    return new Response('ok', { headers: corsHeaders })
+  }
+
+  // ... rest of your function logic
+});
 
 interface DoubtRequest {
   subject: string
