@@ -72,6 +72,7 @@ const Contact: React.FC = () => {
     setError(null);
 
     try {
+      // 1. Insert data into the database first
       const { error: insertError } = await supabase
             .from('contact_messages') // The name of your table
             .insert([
@@ -96,21 +97,21 @@ if (functionError) {
   // If the function call fails, throw the error
   throw functionError;
 }
-
+ // If everything is successful
       setIsSubmitted(true);
       setTimeout(() => {
         setIsSubmitted(false);
         setFormData({ name: '', email: '', message: '' });
       }, 3000);
 
-    } catch (err) {
-      const errorMessage = err instanceof Error ? err.message : 'An unknown error occurred.';
-        setError(`Submission failed: ${errorMessage}`);
-        console.error(err);
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
+     } catch (err: any) {
+    const errorMessage = err.message || 'An unknown error occurred.';
+    setError(`Submission failed: ${errorMessage}`);
+    console.error(err);
+  } finally {
+    setIsSubmitting(false);
+  }
+};
 
   const handleDeveloperLogin = (e: React.FormEvent) => {
     e.preventDefault();
