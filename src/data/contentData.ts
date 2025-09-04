@@ -1473,6 +1473,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-15',
     viewUrl: 'https://example.com/elec1-notes'
   },
+  {
+    id: 'elec1-lab-1',
+    title: 'BEE Handwritten Lab Manual',
+    description: 'Laboratory experiments and procedures',
+    type: 'lab',
+    subjectId: 'elec-s1',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-01-25',
+    viewUrl: 'https://example.com/math1-lab'
+  },
   // programming problem solving sem 2
    {
     id: 'pps-s2',
