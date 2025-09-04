@@ -82,25 +82,20 @@ const Contact: React.FC = () => {
             // If the database insert fails, stop and show the error
             throw insertError;
         }
-      const response = await fetch(`${import.meta.env.VITE_SUPABASE_URL.replace('/v1', '')}/functions/v1/send-doubt-email`, {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          subject: 'Contact Form Message',
-          doubt: `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`,
-          userEmail: formData.email,
-          userName: formData.name
-        })
-      });
+    // ✅ ADD THIS BLOCK IN ITS PLACE
+const { error: functionError } = await supabase.functions.invoke('send-doubt-email', {
+  body: {
+    subject: 'Contact Form Message',
+    doubt: `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`,
+    userEmail: formData.email,
+    userName: formData.name
+  },
+});
 
-      const result = await response.json();
-
-      if (!response.ok) {
-        throw new Error(result.error || 'Failed to send message');
-      }
+if (functionError) {
+  // If the function call fails, throw the error
+  throw functionError;
+}
 
       setIsSubmitted(true);
       setTimeout(() => {
