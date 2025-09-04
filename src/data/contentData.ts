@@ -1415,7 +1415,7 @@ export const contentItems: ContentItem[] = [
   // BASIC ELECTRICAL ENGINEERING SEM-1
   {
     id: 'elec1-theory-1',
-    title: 'Basic Electrical Engineering Unit-1 Notes',
+    title: 'Unit-1 DC Circuit',
     description: 'Comprehensive theory notes covering unit-1 topics',
     type: 'theory',
     subjectId: 'elec-s1',
@@ -1425,7 +1425,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'elec1-theory-2',
-    title: 'Basic Electrical Engineering Unit-2 Notes',
+    title: 'Unit-2 AC Circuit Notes',
     description: 'Comprehensive theory notes covering unit-2 topics',
     type: 'theory',
     subjectId: 'elec-s1',
