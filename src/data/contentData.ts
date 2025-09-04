@@ -1445,7 +1445,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'elec1-theory-4',
-    title: 'Basic Electrical Engineering Unit-4 Notes',
+    title: 'Unit-4 Electrical Machines Notes',
     description: 'Comprehensive theory notes covering unit-4 topics',
     type: 'theory',
     subjectId: 'elec1-s1',
