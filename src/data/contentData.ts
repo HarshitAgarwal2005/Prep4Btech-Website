@@ -1455,10 +1455,10 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'electrical1-theory-5',
-    title: 'Basic Electrical Engineering Unit-5 Notes',
+    title: 'Unit-5 Power Converter Notes',
     description: 'Comprehensive theory notes covering unit-5 topics',
     type: 'theory',
-    subjectId: 'electrical1-s1',
+    subjectId: 'elec-s1',
     fileSize: '8 MB',
     uploadDate: '2024-01-15',
     viewUrl: 'https://example.com/elec1-notes'
