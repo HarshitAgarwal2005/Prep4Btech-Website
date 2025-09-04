@@ -1465,10 +1465,10 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'elec1-theory-6',
-    title: 'Basic Electrical Engineering Unit-6 Notes',
+    title: 'Unit-6 Electrical Installations Notes',
     description: 'Comprehensive theory notes covering unit-6 topics',
     type: 'theory',
-    subjectId: 'elec1-s1',
+    subjectId: 'elec-s1',
     fileSize: '8 MB',
     uploadDate: '2024-01-15',
     viewUrl: 'https://example.com/elec1-notes'
