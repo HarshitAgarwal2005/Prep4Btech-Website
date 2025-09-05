@@ -1412,7 +1412,7 @@ export const contentItems: ContentItem[] = [
   // },
 {
     id: 'camd-1',
-    title: 'Communication Skills Theory Notes',
+    title: 'Lab Manual_CAMD',
     description: 'Grammar, writing skills, and presentation techniques',
     type: 'theory',
     subjectId: 'camd-s1',
