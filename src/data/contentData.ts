@@ -1422,7 +1422,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'camd-2',
-    title: 'SHEETS FOR CAMD 1-3',
+    title: ' CAMD SHEETS 1-3',
     description: 'Grammar, writing skills, and presentation techniques',
     type: 'lab',
     subjectId: 'camd-s1',
@@ -1431,8 +1431,8 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1Pm8nSsHezu12faHZmOqbkXIlcCiLauzR/view?usp=drive_link'
   },
   {
-    id: 'camd-1',
-    title: 'Lab Manual_CAMD',
+    id: 'camd-2',
+    title: 'CAMD SHEETS 4-5',
     description: 'Grammar, writing skills, and presentation techniques',
     type: 'theory',
     subjectId: 'camd-s1',
