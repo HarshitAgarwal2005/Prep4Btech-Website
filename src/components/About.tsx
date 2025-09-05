@@ -169,7 +169,7 @@ const About: React.FC = () => {
                         ))}
                       </div>
                     </div>
-                    <div className="lg:col-span-2 space-y-8 lg:mt-0">
+                    <div className="lg:col-span-2 space-y-8 lg:mt-0 mt-30">
                       <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white flex items-center">
                         <User className="h-6 w-6 mr-3 text-violet-600" /> Personal Information
                       </h3>
