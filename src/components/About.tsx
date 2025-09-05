@@ -167,7 +167,7 @@ const About: React.FC = () => {
                             <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-300">{stat.label}</div>
                           </div>
                         ))}
-                      </div>
+                      </div> 
                     </div> 
                     <div className="lg:col-span-2 space-y-8 mt-20">
                       <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white flex items-center">
