@@ -12,13 +12,11 @@ export const corsHeaders = {
 }
 
 serve(async (req) => {
-  // This correctly handles the preflight request.
   if (req.method === 'OPTIONS') {
-    return new Response('ok', { headers: corsHeaders })
+    return new Response('ok', { status: 200, headers: corsHeaders })
   }
-
-  // ... rest of your function logic
-});
+  // ... rest of your code
+})
 //export PATH="$HOME/.npm-global/bin:$PATH"
 interface DoubtRequest {
   subject: string
