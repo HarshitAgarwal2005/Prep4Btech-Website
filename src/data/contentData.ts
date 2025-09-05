@@ -1411,7 +1411,7 @@ export const contentItems: ContentItem[] = [
   //   viewUrl: 'https://example.com/physics-videos'
   // },
 {
-    id: 'comm-theory-1',
+    id: 'camd-1',
     title: 'Communication Skills Theory Notes',
     description: 'Grammar, writing skills, and presentation techniques',
     type: 'theory',
