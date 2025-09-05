@@ -171,7 +171,7 @@ const About: React.FC = () => {
                     </div>
                     <div className="lg:col-span-2 space-y-8 lg:mt-0">
                       <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white flex items-center">
-                        <User className="h-6 w-6 mr-3 text-violet-600" /> Personal Information
+                        <User className="h-6 w-6 mr-3 text-violet-600 pt-30" /> Personal Information
                       </h3>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                          <div className="flex items-center p-4 bg-gradient-to-r from-violet-50 to-purple-50 dark:from-violet-900/20 dark:to-purple-900/20 rounded-xl"><GraduationCap className="h-6 w-6 text-violet-600 mr-3 flex-shrink-0" /><div><div className="font-semibold text-gray-900 dark:text-white">Branch</div><div className="text-gray-600 dark:text-gray-300">{dev.personalInfo.branch}</div></div></div>
