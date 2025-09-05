@@ -1413,7 +1413,7 @@ export const contentItems: ContentItem[] = [
 {
     id: 'camd-1',
     title: 'Lab Manual_CAMD',
-    description: 'Grammar, writing skills, and presentation techniques',
+    description: '1',
     type: 'theory',
     subjectId: 'camd-s1',
     fileSize: '1.9 MB',
@@ -1423,7 +1423,7 @@ export const contentItems: ContentItem[] = [
   {
     id: 'camd-2',
     title: ' CAMD SHEETS 1-3',
-    description: 'Grammar, writing skills, and presentation techniques',
+    description: '2',
     type: 'lab',
     subjectId: 'camd-s1',
     fileSize: '1.9 MB',
@@ -1433,7 +1433,7 @@ export const contentItems: ContentItem[] = [
   {
     id: 'camd-3',
     title: 'CAMD SHEETS 4-5',
-    description: 'Grammar, writing skills, and presentation techniques',
+    description: '3',
     type: 'lab',
     subjectId: 'camd-s1',
     fileSize: '1.9 MB',
@@ -1443,7 +1443,7 @@ export const contentItems: ContentItem[] = [
   {
     id: 'camd-4',
     title: 'CAMD SHEETS 6-9',
-    description: 'Grammar, writing skills, and presentation techniques',
+    description: '4',
     type: 'lab',
     subjectId: 'camd-s1',
     fileSize: '1.9 MB',
