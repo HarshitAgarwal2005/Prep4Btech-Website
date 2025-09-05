@@ -29,8 +29,8 @@ interface DoubtRequest {
 serve(async (req) => {
   // Handle CORS preflight requests
   if (req.method === 'OPTIONS') {
-    return new Response('ok', { headers: corsHeaders })
-  }
+  return new Response('ok', { status: 200, headers: corsHeaders }) // add status: 200
+}
 
   try {
     const { subject, doubt, image, userEmail, userName }: DoubtRequest = await req.json()
