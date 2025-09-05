@@ -1,17 +1,4 @@
-import React from 'react';
-import { Calendar, BookOpen, Users, Trophy, FileText } from 'lucide-react';
-import { Link } from 'react-router-dom';
-
-const Year: React.FC = () => {
-  const years = [
-    {
-      year: 1,
-      title: 'First Year',
-      description: 'Foundation courses and basic engineering concepts',
-      semesters: [
-        { 
-          sem: 1, 
-          title: 'Seimport React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Calendar, BookOpen, Users, Trophy, FileText, Filter } from 'lucide-react';
 // import { Link } from 'react-router-dom'; // Removed this import
 
@@ -332,7 +319,20 @@ const Year: React.FC = () => {
 
 export default Year;
 
-mester 1', 
+import React, { useState } from 'react';
+import { Calendar, BookOpen, Users, Trophy, FileText, Filter } from 'lucide-react';
+// import { Link } from 'react-router-dom'; // Removed this import
+
+const Year: React.FC = () => {
+  const years = [
+    {
+      year: 1,
+      title: 'First Year',
+      description: 'Foundation courses and basic engineering concepts',
+      semesters: [
+        {  
+          sem: 1,  
+          title: 'Semester 1',  
           description: 'Basic engineering fundamentals',
           subjects: [
             'Computer Science Engineering',
@@ -344,9 +344,9 @@ mester 1',
             'Biomedical Engineering'
           ]
         },
-        { 
-          sem: 2, 
-          title: 'Semester 2', 
+        {  
+          sem: 2,  
+          title: 'Semester 2',  
           description: 'Advanced fundamentals and programming',
           subjects: [
            'Computer Science Engineering',
@@ -367,32 +367,28 @@ mester 1',
       title: 'Second Year',
       description: 'Core computer science subjects and data structures',
       semesters: [
-        { 
-          sem: 3, 
-          title: 'Semester 3', 
+        {  
+          sem: 3,  
+          title: 'Semester 3',  
           description: 'Data structures and algorithms fundamentals',
           subjects: [
             'Computer Science Engineering',
             'Information Technology',
             'Electrical Engineering',
             'Mechanical Engineering',
-            'Civil Engineering',
-            'Petroleum Engineering',
-            'Biomedical Engineering'
+            'Civil Engineering'
           ]
         },
-        { 
-          sem: 4, 
-          title: 'Semester 4', 
+        {  
+          sem: 4,  
+          title: 'Semester 4',  
           description: 'Database systems and computer networks',
           subjects: [
             'Computer Science Engineering',
             'Information Technology',
             'Electrical Engineering',
             'Mechanical Engineering',
-            'Civil Engineering',
-            'Petroleum Engineering',
-            'Biomedical Engineering'
+            'Civil Engineering'
           ]
         }
       ],
@@ -404,32 +400,24 @@ mester 1',
       title: 'Third Year',
       description: 'Advanced topics and specialization subjects',
       semesters: [
-        { 
-          sem: 5, 
-          title: 'Semester 5', 
+        {  
+          sem: 5,  
+          title: 'Semester 5',  
           description: 'Software engineering and web development',
           subjects: [
            'Computer Science Engineering',
             'Information Technology',
             'Electrical Engineering',
-            'Mechanical Engineering',
-            'Civil Engineering',
-            'Petroleum Engineering',
-            'Biomedical Engineering'
           ]
         },
-        { 
-          sem: 6, 
-          title: 'Semester 6', 
+        {  
+          sem: 6,  
+          title: 'Semester 6',  
           description: 'Machine learning and advanced computing',
           subjects: [
            'Computer Science Engineering',
             'Information Technology',
             'Electrical Engineering',
-            'Mechanical Engineering',
-            'Civil Engineering',
-            'Petroleum Engineering',
-            'Biomedical Engineering'
           ]
         }
       ],
@@ -441,32 +429,22 @@ mester 1',
       title: 'Fourth Year',
       description: 'Capstone projects and industry-oriented subjects',
       semesters: [
-        { 
-          sem: 7, 
-          title: 'Semester 7', 
+        {  
+          sem: 7,  
+          title: 'Semester 7',  
           description: 'Final year project and advanced topics',
           subjects: [
             'Computer Science Engineering',
-            'Information Technology',
-            'Electrical Engineering',
-            'Mechanical Engineering',
-            'Civil Engineering',
-            'Petroleum Engineering',
-            'Biomedical Engineering'
+            'Information Technology'
           ]
         },
-        { 
-          sem: 8, 
-          title: 'Semester 8', 
+        {  
+          sem: 8,  
+          title: 'Semester 8',  
           description: 'Industry training and project completion',
           subjects: [
            'Computer Science Engineering',
-            'Information Technology',
-            'Electrical Engineering',
-            'Mechanical Engineering',
-            'Civil Engineering',
-            'Petroleum Engineering',
-            'Biomedical Engineering'
+            'Information Technology'
           ]
         }
       ],
@@ -474,6 +452,21 @@ mester 1',
       icon: Calendar
     }
   ];
+
+  const [selectedYear, setSelectedYear] = useState<number | null>(null);
+
+  // Filter years based on the selected year
+  const filteredYears = years.filter(yearData => {
+    if (!selectedYear) return true; // If no year is selected, show all years
+    return yearData.year === selectedYear;
+  });
+
+  const yearFilterButtons = [
+      { label: '1st Year', year: 1 },
+      { label: '2nd Year', year: 2 },
+      { label: '3rd Year', year: 3 },
+      { label: '4th Year', year: 4 },
+  ]
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 dark:from-gray-900 dark:via-blue-900/20 dark:to-indigo-900/20 py-8 sm:py-12 relative overflow-hidden">
@@ -495,72 +488,113 @@ mester 1',
             </p>
           </div>
 
+          {/* --- UPDATED FILTER SECTION --- */}
+          <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 mb-12 border border-white/20 dark:border-gray-700/20 max-w-4xl mx-auto">
+             <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">Filter by Year</label>
+             <div className="flex flex-wrap gap-2">
+                <button
+                    onClick={() => setSelectedYear(null)}
+                    className={`px-4 py-2 rounded-lg font-medium transition-colors text-sm sm:text-base ${
+                    selectedYear === null
+                        ? 'bg-purple-600 text-white'
+                        : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                    }`}
+                >
+                    All Years
+                </button>
+                {yearFilterButtons.map(button => (
+                    <button
+                    key={button.year}
+                    onClick={() => setSelectedYear(button.year)}
+                    className={`px-4 py-2 rounded-lg font-medium transition-colors text-sm sm:text-base ${
+                        selectedYear === button.year
+                        ? 'bg-purple-600 text-white'
+                        : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                    }`}
+                    >
+                    {button.label}
+                    </button>
+                ))}
+             </div>
+          </div>
+
+
           {/* Centered Layout for Year Cards */}
           <div className="flex justify-center mb-16 sm:mb-20">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-6xl w-full">
-              {years.map((yearData) => (
-                <div
-                  key={yearData.year}
-                  className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden group hover:scale-105 border border-white/20 dark:border-gray-700/20"
-                >
-                  <div className={`bg-gradient-to-r ${yearData.color} p-6 sm:p-8 text-white relative overflow-hidden`}>
-                    <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
-                      <yearData.icon className="w-full h-full" />
-                    </div>
-                    <div className="relative z-10">
-                      <div className="flex items-center mb-4">
-                        <yearData.icon className="h-6 w-6 sm:h-8 sm:w-8 mr-3" />
-                        <h2 className="text-2xl sm:text-3xl font-bold">{yearData.title}</h2>
+            <div className={`max-w-6xl w-full ${filteredYears.length === 1 ? 'flex justify-center' : 'grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8'}`}>
+              {filteredYears.length > 0 ? (
+                filteredYears.map((yearData) => (
+                  <div
+                    key={yearData.year}
+                    className={`bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 overflow-hidden group hover:scale-105 border border-white/20 dark:border-gray-700/20 ${filteredYears.length === 1 ? 'w-full md:max-w-lg' : ''}`}
+                  >
+                    <div className={`bg-gradient-to-r ${yearData.color} p-6 sm:p-8 text-white relative overflow-hidden`}>
+                      <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
+                        <yearData.icon className="w-full h-full" />
                       </div>
-                      <p className="text-white/90 text-base sm:text-lg leading-relaxed">
-                        {yearData.description}
-                      </p>
+                      <div className="relative z-10">
+                        <div className="flex items-center mb-4">
+                          <yearData.icon className="h-6 w-6 sm:h-8 sm:w-8 mr-3" />
+                          <h2 className="text-2xl sm:text-3xl font-bold">{yearData.title}</h2>
+                        </div>
+                        <p className="text-white/90 text-base sm:text-lg leading-relaxed">
+                          {yearData.description}
+                        </p>
+                      </div>
                     </div>
-                  </div>
 
-                  <div className="p-6 sm:p-8">
-                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white mb-6">Semesters</h3>
-                    <div className="space-y-6">
-                      {yearData.semesters.map((semester) => (
-                        <div
-                          key={semester.sem}
-                          className="bg-gray-50 dark:bg-gray-700/50 rounded-xl p-4 sm:p-6 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
-                        >
-                          <div className="flex items-center mb-3">
-                            <div className={`w-3 h-3 rounded-full bg-gradient-to-r ${yearData.color} mr-3`}></div>
-                            <h4 className="font-semibold text-gray-900 dark:text-white text-base sm:text-lg">{semester.title}</h4>
-                          </div>
-                          <p className="text-gray-600 dark:text-gray-300 text-sm ml-6 mb-4">
-                            {semester.description}
-                          </p>
-                          <div className="ml-6 mb-4">
-                            <h5 className="font-medium text-gray-800 dark:text-gray-200 mb-2">Subjects:</h5>
-                            <div className="grid grid-cols-1 gap-2">
-                              {semester.subjects.map((subject, index) => (
-                                <div key={index} className="flex items-center text-sm text-gray-700 dark:text-gray-300">
-                                  <FileText className="h-4 w-4 mr-2 text-blue-500 flex-shrink-0" />
-                                  <span>{subject}</span>
-                                </div>
-                              ))}
+                    <div className="p-6 sm:p-8">
+                      <h3 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white mb-6">Semesters</h3>
+                      <div className="space-y-6">
+                        {yearData.semesters.map((semester) => (
+                          <div
+                            key={semester.sem}
+                            className="bg-gray-50 dark:bg-gray-700/50 rounded-xl p-4 sm:p-6 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+                          >
+                            <div className="flex items-center mb-3">
+                              <div className={`w-3 h-3 rounded-full bg-gradient-to-r ${yearData.color} mr-3`}></div>
+                              <h4 className="font-semibold text-gray-900 dark:text-white text-base sm:text-lg">{semester.title}</h4>
+                            </div>
+                            <p className="text-gray-600 dark:text-gray-300 text-sm ml-6 mb-4">
+                              {semester.description}
+                            </p>
+                            <div className="ml-6 mb-4">
+                              <h5 className="font-medium text-gray-800 dark:text-gray-200 mb-2">Subjects:</h5>
+                              <div className="grid grid-cols-1 gap-2">
+                                {semester.subjects.map((subject, index) => (
+                                  <div key={index} className="flex items-center text-sm text-gray-700 dark:text-gray-300">
+                                    <FileText className="h-4 w-4 mr-2 text-blue-500 flex-shrink-0" />
+                                    <span>{subject}</span>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                            
+                            <div className="ml-6">
+                              {/* --- FIX: Replaced Link with a standard <a> tag --- */}
+                              <a
+                                href={`/assignments?year=${yearData.year}&semester=${semester.sem}`}
+                                className={`inline-flex items-center justify-center w-full sm:w-auto bg-gradient-to-r ${yearData.color} text-white py-3 px-8 rounded-xl font-semibold text-center hover:shadow-xl transition-all duration-500 transform hover:scale-110 text-sm sm:text-base shadow-lg hover:shadow-2xl`}
+                              >
+                                <BookOpen className="h-4 w-4 mr-2" />
+                                Explore Content
+                              </a>
                             </div>
                           </div>
-                          
-                          {/* Single Action Button */}
-                          <div className="ml-6">
-                            <Link
-                              to={`/assignments?year=${yearData.year}&semester=${semester.sem}`}
-                              className={`inline-flex items-center justify-center w-full sm:w-auto bg-gradient-to-r ${yearData.color} text-white py-3 px-8 rounded-xl font-semibold text-center hover:shadow-xl transition-all duration-500 transform hover:scale-110 text-sm shadow-lg hover:shadow-2xl`}
-                            >
-                              <BookOpen className="h-4 w-4 mr-2" />
-                              Explore Content
-                            </Link>
-                          </div>
-                        </div>
-                      ))}
+                        ))}
+                      </div>
                     </div>
                   </div>
+                ))
+              ) : (
+                <div className="col-span-1 md:col-span-2 bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-12 text-center border border-white/20 dark:border-gray-700/20 w-full">
+                    <Filter className="h-16 w-16 text-gray-300 mx-auto mb-6" />
+                    <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">No Matching Years Found</h2>
+                    <p className="text-gray-600 dark:text-gray-300">
+                        Please select a different year to see the relevant academic information.
+                    </p>
                 </div>
-              ))}
+              )}
             </div>
           </div>
 
@@ -605,3 +639,4 @@ mester 1',
 };
 
 export default Year;
+
