@@ -1482,7 +1482,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'elec-s1',
     fileSize: '8 MB',
     uploadDate: '2024-01-15',
-    viewUrl: 'https://example.com/elec1-notes'
+    viewUrl: 'https://drive.google.com/file/d/1VjBqua8Sbl33BQ8zNYBjDF6qmg_6Z0co/view?usp=sharing'
   },
   {
     id: 'elec1-theory-2',
