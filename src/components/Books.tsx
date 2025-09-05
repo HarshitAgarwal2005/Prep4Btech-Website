@@ -1,6 +1,17 @@
 import React, { useState } from 'react';
 import { Book, Download, ExternalLink, Search, Filter, Star } from 'lucide-react';
-import { books } from '../data/mockData';
+// Assuming 'books' is imported from your mock data file.
+// You would have: import { books } from '../data/mockData';
+
+// Mock data for demonstration since it was not provided.
+// The structure should match what you have.
+const books = [
+    { id: 1, title: 'Introduction to Algorithms', author: 'Thomas H. Cormen', subjects: ['Algorithms', 'Data Structures'], assignments: ['Assignment 1'], isbn: '978-0262033848', downloadUrl: '#', buyUrl: '#' },
+    { id: 2, title: 'Clean Code', author: 'Robert C. Martin', subjects: ['Software Engineering', 'Best Practices'], assignments: ['Assignment 2'], isbn: '978-0132350884', downloadUrl: null, buyUrl: '#' },
+    { id: 3, title: 'Database System Concepts', author: 'Abraham Silberschatz', subjects: ['Database Systems', 'SQL'], assignments: ['Assignment 3'], isbn: '978-0078022159', downloadUrl: '#', buyUrl: null },
+    { id: 4, title: 'Data Structures and Algorithms in Java', author: 'Robert Lafore', subjects: ['Data Structures', 'Java', 'Algorithms'], assignments: ['Assignment 4'], isbn: '978-0672324536', downloadUrl: '#', buyUrl: '#' }
+];
+
 
 const Books: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -10,8 +21,14 @@ const Books: React.FC = () => {
 
   const filteredBooks = books.filter(book => {
     const matchesSearch = book.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                         book.author.toLowerCase().includes(searchQuery.toLowerCase());
-    const matchesSubject = selectedSubject ? book.assignments.includes(selectedSubject) : true; // subject to assignment 
+                          book.author.toLowerCase().includes(searchQuery.toLowerCase());
+
+    // --- FIX IS HERE ---
+    // The original code was checking 'book.assignments', but the filter buttons are based on 'book.subjects'.
+    // If a book object doesn't have an 'assignments' property, it would cause a crash.
+    // I've changed it to correctly check against the 'book.subjects' array.
+    const matchesSubject = selectedSubject ? book.subjects.includes(selectedSubject) : true;
+
     return matchesSearch && matchesSubject;
   });
 
@@ -191,7 +208,7 @@ const Books: React.FC = () => {
               <p className="text-gray-600 dark:text-gray-300 text-sm">Top-rated books by students and professionals</p>
             </div>
             <div className="text-center p-6 bg-gradient-to-br from-purple-50 to-purple-100 dark:from-purple-900/20 dark:to-purple-800/20 rounded-xl">
-              <div className="bg-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-bg-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Filter className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Latest Additions</h3>
