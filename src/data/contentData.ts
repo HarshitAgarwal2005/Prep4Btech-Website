@@ -1431,7 +1431,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1Pm8nSsHezu12faHZmOqbkXIlcCiLauzR/view?usp=drive_link'
   },
   {
-    id: 'camd-2',
+    id: 'camd-3',
     title: 'CAMD SHEETS 4-5',
     description: 'Grammar, writing skills, and presentation techniques',
     type: 'lab',
@@ -1441,7 +1441,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1tm1EpYQfwC9uVoSwEMyHEpmf0Y738GEJ/view?usp=drive_link'
   },
   {
-    id: 'camd-2',
+    id: 'camd-4',
     title: 'CAMD SHEETS 6-9',
     description: 'Grammar, writing skills, and presentation techniques',
     type: 'lab',
