@@ -1420,6 +1420,26 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://example.com/comm-notes'
   },
+  {
+    id: 'camd-2',
+    title: 'SHEETS FOR CAMD 1-3',
+    description: 'Grammar, writing skills, and presentation techniques',
+    type: 'lab',
+    subjectId: 'camd-s1',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Pm8nSsHezu12faHZmOqbkXIlcCiLauzR/view?usp=drive_link'
+  },
+  {
+    id: 'camd-1',
+    title: 'Lab Manual_CAMD',
+    description: 'Grammar, writing skills, and presentation techniques',
+    type: 'theory',
+    subjectId: 'camd-s1',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://example.com/comm-notes'
+  },
   
 
   // Communication Skills Content
