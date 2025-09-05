@@ -1532,7 +1532,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'elec-s1',
     fileSize: '8 MB',
     uploadDate: '2024-01-15',
-    viewUrl: 'https://example.com/elec1-notes'
+    viewUrl: 'https://drive.google.com/file/d/14fJ74REIv9yReHxFepQ9afXSR5jSNwcH/view?usp=sharing'
   },
   {
     id: 'elec1-lab-1',
