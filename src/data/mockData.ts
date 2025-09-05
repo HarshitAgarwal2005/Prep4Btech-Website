@@ -177,7 +177,17 @@ export const assignments: Assignment[] = [
 ];
 
 export const books: Book[] = [
-  {
+ // ...
+const books = [
+    { 
+        id: 1, 
+        title: 'Introduction to Algorithms', 
+        // ... other properties
+        qrCodeUrl: 'https://i.imgur.com/your-qr-code-image.png' // <-- PASTE YOUR URL HERE
+    },
+    // ... other books
+];
+// {
     id: 'b1',
     title: 'Introduction to Algorithms',
     author: 'Thomas H. Cormen',
