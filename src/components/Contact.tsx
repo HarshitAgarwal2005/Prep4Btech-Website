@@ -110,7 +110,9 @@ const Contact: React.FC = () => {
 
     } catch (err) {
       const errorMessage = err instanceof Error ? err.message : 'An unknown error occurred.';
+      // code that triggers notification/banner in UI
         // setError(`Submission failed: ${errorMessage}`);
+      // Simply do nothing, or optionally setError(null) to clear previous errors
 setError(null);
       
         console.error(err);
