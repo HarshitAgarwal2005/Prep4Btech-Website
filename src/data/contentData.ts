@@ -51,6 +51,16 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Electrical circuits and basic electronics',
     icon: '⚡'
   },
+   {
+    id: 'camd-s1',
+    name: 'CAMD',
+     code: '1FY3-29',
+    year: 1,
+    semester: 1,
+    branch: 'CSE',
+    description: 'Making The 3D Picture To 2D',
+    icon: '⚡'
+  },
 
   // First Year - Semester 2
   {
