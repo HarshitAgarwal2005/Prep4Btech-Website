@@ -143,16 +143,20 @@ try {
       throw new Error('Failed to send email')
     }
 
-    return new Response(
-      JSON.stringify({ 
-        success: true, 
-        message: 'Doubt submitted successfully! You will receive a response soon.' 
-      }),
-      { 
-        status: 200, 
-        headers: { ...corsHeaders, 'Content-Type': 'application/json' } 
-      }
-    )
+    // return new Response(
+    //   JSON.stringify({ 
+    //     success: true, 
+    //     message: 'Doubt submitted successfully! You will receive a response soon.' 
+    //   }),
+    //   { 
+    //     status: 200, 
+    //     headers: { ...corsHeaders, 'Content-Type': 'application/json' } 
+    //   }
+    // )
+  return new Response(
+  JSON.stringify({ success: true, message: ... }),
+  { status: 200, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
+)
 
   } catch (error) {
     console.error('Error processing doubt submission:', error)
