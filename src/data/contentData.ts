@@ -1512,7 +1512,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'elec-s1',
     fileSize: '8 MB',
     uploadDate: '2024-01-15',
-    viewUrl: 'https://example.com/elec1-notes'
+    viewUrl: 'https://drive.google.com/file/d/14WF_yJ7QFx6LnEvjayOHptD-I9G5M_1P/view?usp=sharing'
   },
   {
     id: 'electrical1-theory-5',
