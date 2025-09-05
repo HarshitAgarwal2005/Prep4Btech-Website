@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Link, useLocation, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Search, Menu, X, BookOpen, Sparkles } from 'lucide-react';
 
 interface NavbarProps {
@@ -49,7 +49,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
   const location = useLocation();
   const navigate = useNavigate();
 
-  // This effect will block the background from scrolling when the mobile menu is open.
+  // This effect blocks the background from scrolling when the mobile menu is open.
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
@@ -142,9 +142,10 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
           </div>
         </div>
 
-        {/* --- UPDATED Mobile Navigation --- */}
+        {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden">
+            {/* The 'no-scrollbar' class is added here to hide the scrollbar */}
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 max-h-[calc(100vh-4rem)] overflow-y-auto no-scrollbar">
               {navItems.map((item) => (
                 <Link
@@ -187,32 +188,5 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
   );
 };
 
-const App = () => {
-  const handleSearch = (query: string) => {
-    console.log("Searched for:", query);
-  };
+export default Navbar;
 
-  return (
-    <BrowserRouter>
-      <style>{`
-        .no-scrollbar::-webkit-scrollbar {
-            display: none;
-        }
-        .no-scrollbar {
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
-      `}</style>
-      <Navbar onSearch={handleSearch} />
-      <div className="p-4">
-        <h1>Page Content</h1>
-        <p>Your Navbar is now running inside a BrowserRouter and should work correctly.</p>
-      </div>
-    </BrowserRouter>
-  );
-}
-
-
-export default App;
-
- 
