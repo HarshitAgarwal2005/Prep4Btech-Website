@@ -1434,11 +1434,11 @@ export const contentItems: ContentItem[] = [
     id: 'camd-2',
     title: 'CAMD SHEETS 4-5',
     description: 'Grammar, writing skills, and presentation techniques',
-    type: 'theory',
+    type: 'lab',
     subjectId: 'camd-s1',
     fileSize: '1.9 MB',
     uploadDate: '2024-01-16',
-    viewUrl: 'https://example.com/comm-notes'
+    viewUrl: 'https://drive.google.com/file/d/1tm1EpYQfwC9uVoSwEMyHEpmf0Y738GEJ/view?usp=drive_link'
   },
   
 
