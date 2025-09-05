@@ -166,8 +166,8 @@ try {
     //     error: 'Failed to submit doubt. Please try again later.' 
     //   }),
 return new Response(
-  JSON.stringify({ error: 'Subject and doubt are required' }),
-  { status: 400, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
+  JSON.stringify({ error: 'Failed to submit doubt. Please try again later.' }),
+  { status: 500, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
 )
     //   { 
     //     status: 500, 
