@@ -1410,6 +1410,17 @@ export const contentItems: ContentItem[] = [
   //   uploadDate: '2024-01-28',
   //   viewUrl: 'https://example.com/physics-videos'
   // },
+{
+    id: 'comm-theory-1',
+    title: 'Communication Skills Theory Notes',
+    description: 'Grammar, writing skills, and presentation techniques',
+    type: 'theory',
+    subjectId: 'camd-s1',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://example.com/comm-notes'
+  },
+  
 
   // Communication Skills Content
   {
