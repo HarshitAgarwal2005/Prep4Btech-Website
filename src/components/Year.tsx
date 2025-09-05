@@ -315,7 +315,7 @@ const Year: React.FC = () => {
       </div>
     </div>
   );
-};
+}; 
 
 export default Year;
 
