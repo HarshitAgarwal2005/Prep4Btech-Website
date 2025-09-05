@@ -173,7 +173,7 @@ const About: React.FC = () => {
                       <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white flex items-center">
                         <User className="h-6 w-6 mr-3 text-violet-600" /> Personal Information
                       </h3>
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mt-30">
                          <div className="flex items-center p-4 bg-gradient-to-r from-violet-50 to-purple-50 dark:from-violet-900/20 dark:to-purple-900/20 rounded-xl"><GraduationCap className="h-6 w-6 text-violet-600 mr-3 flex-shrink-0" /><div><div className="font-semibold text-gray-900 dark:text-white">Branch</div><div className="text-gray-600 dark:text-gray-300">{dev.personalInfo.branch}</div></div></div>
                          <div className="flex items-center p-4 bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 rounded-xl"><BookOpen className="h-6 w-6 text-blue-600 mr-3 flex-shrink-0" /><div><div className="font-semibold text-gray-900 dark:text-white">College</div><div className="text-gray-600 dark:text-gray-300">{dev.personalInfo.college}</div></div></div>
                          <div className="flex items-center p-4 bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-xl"><MapPin className="h-6 w-6 text-green-600 mr-3 flex-shrink-0" /><div><div className="font-semibold text-gray-900 dark:text-white">Location</div><div className="text-gray-600 dark:text-gray-300">{dev.personalInfo.location}</div></div></div>
