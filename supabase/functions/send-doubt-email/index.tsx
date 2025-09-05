@@ -57,7 +57,7 @@ try {
     status: 500,
     headers: { ...corsHeaders, 'Content-Type': 'application/json' }
   })
-}
+} 
     // Create email content
     const emailSubject = `New Doubt Submission: ${subject}`
     const emailBody = `
