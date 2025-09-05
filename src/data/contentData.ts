@@ -113,6 +113,16 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Civil engineering fundamentals',
     icon: '🏗️'
   },
+  {
+    id: 'caeg-s2',
+    name: 'CAEG',
+    code: '2FY3-28',
+    year: 1,
+    semester: 2,
+    branch: 'CSE',
+    description: 'Making the scales',
+    icon: '🏗️'
+  },
 
   // Second Year - Semester 3
   {
