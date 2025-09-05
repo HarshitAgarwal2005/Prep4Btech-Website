@@ -8,6 +8,17 @@ import { Book, Download, ExternalLink, Search, Filter, Star, X, ShoppingCart, Ma
 const books = [
     { id: 1, title: 'Introduction to Algorithms', author: 'Thomas H. Cormen', subjects: ['Algorithms', 'Data Structures'], assignments: ['Assignment 1'], isbn: '978-0262033848', downloadUrl: 'https://docs.google.com/document/d/1BvT2g_f-X_v9n_yZ_.../export?format=pdf', buyUrl: '#', price: 75.50, qrCodeUrl: 'https://placehold.co/200x200/ffffff/000000?text=Scan+Me' },
     { id: 2, title: 'Clean Code', author: 'Robert C. Martin', subjects: ['Software Engineering', 'Best Practices'], assignments: ['Assignment 2'], isbn: '978-0132350884', downloadUrl: null, buyUrl: '#', price: 42.00, qrCodeUrl: 'https://placehold.co/200x200/ffffff/000000?text=Scan+Me' },
+  // ... this below code is for how to add the qr for payment 
+// const books = [
+//     { 
+//         id: 1, 
+//         title: 'Introduction to Algorithms', 
+//         // ... other properties
+//         qrCodeUrl: 'https://i.imgur.com/your-qr-code-image.png' // <-- PASTE YOUR URL HERE
+//     },
+//     // ... other books
+// ];
+
     { id: 3, title: 'Database System Concepts', author: 'Abraham Silberschutz', subjects: ['Database Systems', 'SQL'], assignments: ['Assignment 3'], isbn: '978-0078022159', downloadUrl: 'https://docs.google.com/document/d/1C_w9p_g-Y_x8o_zX_.../export?format=pdf', buyUrl: null, price: 89.99, qrCodeUrl: 'https://placehold.co/200x200/ffffff/000000?text=Scan+Me' },
     { id: 4, title: 'Data Structures and Algorithms in Java', author: 'Robert Lafore', subjects: ['Data Structures', 'Java', 'Algorithms'], assignments: ['Assignment 4'], isbn: '978-0672324536', downloadUrl: 'https://docs.google.com/document/d/1D_x0q_h-Z_y7p_aW_.../export?format=pdf', buyUrl: '#', price: 55.25, qrCodeUrl: 'https://placehold.co/200x200/ffffff/000000?text=Scan+Me' }
 ];
