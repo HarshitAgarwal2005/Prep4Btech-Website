@@ -72,7 +72,6 @@ const Contact: React.FC = () => {
     setError(null);
 
     try {
-      // 1. Insert data into the database first
       const { error: insertError } = await supabase
             .from('contact_messages') // The name of your table
             .insert([
@@ -83,35 +82,40 @@ const Contact: React.FC = () => {
             // If the database insert fails, stop and show the error
             throw insertError;
         }
-    // ✅ ADD THIS BLOCK IN ITS PLACE
-const { error: functionError } = await supabase.functions.invoke('send-doubt-email', {
-  body: {
-    subject: 'Contact Form Message',
-    doubt: `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`,
-    userEmail: formData.email,
-    userName: formData.name
-  },
-});
+      const response = await fetch(`${import.meta.env.VITE_SUPABASE_URL.replace('/v1', '')}/functions/v1/send-doubt-email`, {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          subject: 'Contact Form Message',
+          doubt: `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`,
+          userEmail: formData.email,
+          userName: formData.name
+        })
+      });
 
-if (functionError) {
-  // If the function call fails, throw the error
-  throw functionError;
-}
- // If everything is successful
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.error || 'Failed to send message');
+      }
+
       setIsSubmitted(true);
       setTimeout(() => {
         setIsSubmitted(false);
         setFormData({ name: '', email: '', message: '' });
       }, 3000);
 
-     } catch (err: any) {
-    const errorMessage = err.message || 'An unknown error occurred.';
-    setError(`Submission failed: ${errorMessage}`);
-    console.error(err);
-  } finally {
-    setIsSubmitting(false);
-  }
-};
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : 'An unknown error occurred.';
+        setError(`Submission failed: ${errorMessage}`);
+        console.error(err);
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   const handleDeveloperLogin = (e: React.FormEvent) => {
     e.preventDefault();
