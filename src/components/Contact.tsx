@@ -121,10 +121,12 @@ const Contact: React.FC = () => {
       
         // console.error(err);
      
-    } finally {
-      setIsSubmitting(false);
-       setFormData({ name: '', email: '', message: '' });
-    }
+     } finally {
+      setIsSubmitting(false);
+      // This ensures the form fields are always cleared after an attempt.
+      setFormData({ name: '', email: '', message: '' });
+    }
+
   };
  
   try {
