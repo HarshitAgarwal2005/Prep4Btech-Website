@@ -3,10 +3,12 @@ import { serve } from "https://deno.land/std@0.168.0/http/server.ts"
 // supabase/functions/send-doubt-email/index.ts
 
 // These headers are perfect.
-const corsHeaders = {
-  'Access-Control-Allow-Origin': 'https://prep4btech.netlify.app',
-  'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
+export const corsHeaders = {
+  'Access-Control-Allow-Origin': 'https://prep4btech.netlify.app', // Use your exact frontend origin, not '*'
+  'Access-Control-Allow-Headers':
+    'authorization, x-client-info, apikey, content-type',
   'Access-Control-Allow-Methods': 'POST, OPTIONS',
+  'Access-Control-Max-Age': '86400', // Optional: cache preflight requests
 }
 
 serve(async (req) => {
