@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- 
+    Instructions:
+    1. Replace "https://prep4btech.netlify.app/" with your homepage URL.
+    2. Duplicate the entire <url> block for each page on your website.
+    3. Change the <loc> content to the full URL of the page.
+    4. (Optional) Update <lastmod> to the date you last updated the page.
+  -->
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://prep4btech.netlify.app/</loc>
+    <lastmod>2025-09-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://prep4btech.netlify.app/about</loc>
+    <lastmod>2025-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://prep4btech.netlify.app/contact</loc>
+    <lastmod>2025-09-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Add more <url> blocks for your other pages here -->
+
+</urlset>
