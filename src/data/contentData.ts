@@ -1446,7 +1446,7 @@ export const contentItems: ContentItem[] = [
     description: '4',
     type: 'lab',
     subjectId: 'camd-s1',
-    fileSize: '1.9 MB',
+    fileSize: '1.9 MB', 
     uploadDate: '2024-01-16',
     viewUrl: 'https://drive.google.com/file/d/1hznIvRM9ROwudAgzgKkOkSnwpV5XhBGy/view?usp=drive_link'
   },
