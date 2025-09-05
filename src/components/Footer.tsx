@@ -373,7 +373,7 @@ if (email.trim()) {
                 <Link to="/terms" className="text-gray-300 hover:text-white transition-colors">
                   Terms of Service
                 </Link>
-                <Link to="public/syllabi/sitemap.xml" className="text-gray-300 hover:text-white transition-colors">
+                <Link to="public/sitemap.xml" className="text-gray-300 hover:text-white transition-colors">
                   Sitemap
                 </Link>
                 <Link to="/contact" className="text-gray-300 hover:text-white transition-colors">
