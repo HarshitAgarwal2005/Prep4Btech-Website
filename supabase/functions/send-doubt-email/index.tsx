@@ -32,19 +32,19 @@ serve(async (req) => {
   return new Response('ok', { status: 200, headers: corsHeaders }) // add status: 200
 }
 
-  try {
-    const { subject, doubt, image, userEmail, userName }: DoubtRequest = await req.json()
+  // try {
+  //   const { subject, doubt, image, userEmail, userName }: DoubtRequest = await req.json()
 
-    // Validate required fields
-    if (!subject || !doubt) {
-      return new Response(
-        JSON.stringify({ error: 'Subject and doubt are required' }),
-        { 
-          status: 400, 
-          headers: { ...corsHeaders, 'Content-Type': 'application/json' } 
-        }
-      )
-    }
+  //   // Validate required fields
+  //   if (!subject || !doubt) {
+  //     return new Response(
+  //       JSON.stringify({ error: 'Subject and doubt are required' }),
+  //       { 
+  //         status: 400, 
+  //         headers: { ...corsHeaders, 'Content-Type': 'application/json' } 
+  //       }
+  //     )
+  //   } 
 
     // Create email content
     const emailSubject = `New Doubt Submission: ${subject}`
