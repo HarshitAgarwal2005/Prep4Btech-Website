@@ -1542,7 +1542,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'elec-s1',
     fileSize: '3.2 MB',
     uploadDate: '2024-01-25',
-    viewUrl: 'https://example.com/math1-lab'
+    viewUrl: 'https://drive.google.com/file/d/1hLptTBsVDAdNqpat2OP0mM10tB_i_WuZ/view?usp=sharing'
   },
   // programming problem solving sem 2
    {
