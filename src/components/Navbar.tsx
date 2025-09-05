@@ -199,4 +199,4 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
   );
 };
 
-export default Navbar;
+export default Navbar; 
