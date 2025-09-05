@@ -116,6 +116,9 @@ const Contact: React.FC = () => {
 setError(null);
       
         console.error(err);
+      // Hide the error from the user by not setting it in the state.
+      // We can still log it for debugging purposes.
+      console.error("Form submission failed:", err);
     } finally {
       setIsSubmitting(false);
        setFormData({ name: '', email: '', message: '' });
