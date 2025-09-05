@@ -109,16 +109,17 @@ const Contact: React.FC = () => {
       }, 3000);
 
     } catch (err) {
-      const errorMessage = err instanceof Error ? err.message : 'An unknown error occurred.';
+       // Hide the error from the user by not setting it in the state.
+      // We can still log it for debugging purposes.
+      console.error("Form submission failed:", err);
+      // const errorMessage = err instanceof Error ? err.message : 'An unknown error occurred.';
       // code that triggers notification/banner in UI
         // setError(`Submission failed: ${errorMessage}`);
       // Simply do nothing, or optionally setError(null) to clear previous errors
-setError(null);
+// setError(null);
       
-        console.error(err);
-      // Hide the error from the user by not setting it in the state.
-      // We can still log it for debugging purposes.
-      console.error("Form submission failed:", err);
+        // console.error(err);
+     
     } finally {
       setIsSubmitting(false);
        setFormData({ name: '', email: '', message: '' });
