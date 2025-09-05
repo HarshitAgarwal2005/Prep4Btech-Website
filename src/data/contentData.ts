@@ -697,7 +697,7 @@ export const contentSubjects: ContentSubject[] = [
    id: 'ae-s3',
     name: 'Analog Electronics',
     code: '3EE4-06',
-    code: '3CS1-03',
+   
     year: 2,
     semester: 3,
     branch: 'EE',
