@@ -1362,8 +1362,6 @@ export const pyqPapers: PYQPaper[] = [
   {
     id: 'paper-4',
     title: 'BTECH-2-SEM-BASIC-MECHANICAL-ENGINEERING-2E3206-2024',
-    id: 'paper-3',
-    title: 'Engineering Mathematics-1 - Previous Year Questions 2024',
     year: 2024,
     subjectId: 'cse-s1-mech',
     downloadUrl: 'https://drive.google.com/file/d/10qBWT9Of4qSvsREZ4O0EcgtWNpq-CQ0n/view?usp=sharing',
