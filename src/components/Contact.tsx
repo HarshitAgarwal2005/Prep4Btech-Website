@@ -118,8 +118,19 @@ setError(null);
         console.error(err);
     } finally {
       setIsSubmitting(false);
+       setFormData({ name: '', email: '', message: '' });
     }
   };
+ 
+  try {
+  // after submit, whether success or error:
+  setFormData({ name: '', email: '', message: '' });
+} catch (err) {
+  // remove or suppress error notification here
+  setFormData({ name: '', email: '', message: '' });
+}
+
+
 
   const handleDeveloperLogin = (e: React.FormEvent) => {
     e.preventDefault();
