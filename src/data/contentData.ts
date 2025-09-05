@@ -1440,6 +1440,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://drive.google.com/file/d/1tm1EpYQfwC9uVoSwEMyHEpmf0Y738GEJ/view?usp=drive_link'
   },
+  {
+    id: 'camd-2',
+    title: 'CAMD SHEETS 6-9',
+    description: 'Grammar, writing skills, and presentation techniques',
+    type: 'lab',
+    subjectId: 'camd-s1',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1hznIvRM9ROwudAgzgKkOkSnwpV5XhBGy/view?usp=drive_link'
+  },
   
 
   // Communication Skills Content
