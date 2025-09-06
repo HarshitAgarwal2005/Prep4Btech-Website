@@ -29,7 +29,7 @@ serve(async (req) => {
   }
 
   // Only allow POST requests for the main functionality
-  if (req.method !== 'POST') {
+  if (req.method != 'POST') {
     console.log(`Method ${req.method} not allowed`);
     return new Response(
       JSON.stringify({ error: 'Method not allowed' }),
