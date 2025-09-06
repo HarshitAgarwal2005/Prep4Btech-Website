@@ -1892,6 +1892,17 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-25',
     viewUrl: 'https://drive.google.com/file/d/1hLptTBsVDAdNqpat2OP0mM10tB_i_WuZ/view?usp=sharing'
   },
+  //BASIC MECH ENGG
+  {
+    id: 'mech-theory-1-cse',
+    title: 'Unit 1 PPT,
+    description: 'Unit 1: Fundamentals ',
+    type: 'theory',
+    subjectId: 'mech-s1-cse',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-01-25',
+    viewUrl: 'https://docs.google.com/presentation/d/1aky5Ho6uulkkpmGU8Ah0x-X4xjwGrMcS/edit?usp=sharing&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
 
   // Programming for problem solving sem 2 (for CSE)
   {
