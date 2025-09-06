@@ -1478,6 +1478,17 @@ export const contentItems: ContentItem[] = [
     // viewUrl: 'https://example.com/camd-manual'
     viewUrl: 'https://youtube.com/playlist?list=PLDN15nk5uLiBrAkdOhEvkmVPs2UtwfGao&si=fUdnH9PjiYJTMntW'
   },
+  {
+    id: 'camd-videos-3-cse',
+    title: 'RIVET JOINTS -- PLAYLIST',
+    description: 'Complete lab manual for Computer-Aided Machine Drawing',
+    type: 'videos',
+    subjectId: 'camd-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    // viewUrl: 'https://example.com/camd-manual'
+    viewUrl: 'https://youtube.com/playlist?list=PLDN15nk5uLiBrAkdOhEvkmVPs2UtwfGao&si=fUdnH9PjiYJTMntW'
+  },
 
 
   // Communication Skills Content (for CSE)
