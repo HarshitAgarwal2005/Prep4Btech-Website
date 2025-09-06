@@ -1647,6 +1647,76 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
   },
+   {
+    id: 'mpws-mtt-1-cse',
+    title: 'CARPENTRY WORKSHOP NOTES',
+    description: 'Complete lab manual for Computer-Aided Machine Drawing',
+    type: 'mtt',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
+  {
+    id: 'mpws-mtt-2-cse',
+    title: 'FITTING WORKSHOP NOTES',
+    description: 'Complete lab Manual For Manufaturing Practices Workshop',
+    type: 'mtt',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
+  {
+    id: 'mpws-mtt-3-cse',
+    title: 'FOUNDARY WORKSHOP NOTES',
+    description: 'Complete lab manual for Manufaturing Practices Workshop',
+    type: 'mtt',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
+  {
+    id: 'mpws-mtt-4-cse',
+    title: 'WELDING WORKSHOP NOTES',
+    description: 'Complete lab manual for Manufaturing Practices Workshop',
+    type: 'mtt',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
+  {
+    id: 'mpws-mtt-5-cse',
+    title: 'GAS WORKSHOP NOTES',
+    description: 'Complete lab manual for Manufaturing Practices Workshop',
+    type: 'mtt',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
+  {
+    id: 'mpws-mtt-6-cse',
+    title: 'TIN SMITHY WORKSHOP NOTES',
+    description: 'Complete lab manual for Manufaturing Practices Workshop',
+    type: 'mtt',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
+  {
+    id: 'mpws-mtt-7-cse',
+    title: 'MACHINE SHOP WORKSHOP NOTES',
+    description: 'Complete lab manual for Manufaturing Practices Worksho',
+    type: 'mtt',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
   // Communication Skills Content (for CSE)
   {
     id: 'comm-theory-1-cse',
