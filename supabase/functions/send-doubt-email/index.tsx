@@ -3,9 +3,9 @@ import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
 
 // CORS headers that your browser needs to see in the OPTIONS response
 export const corsHeaders = {
-  'Access-Control-Allow-Origin': 'https://prep4btech.netlify.app',
+  'Access-Control-Allow-Origin': '*', // Changed from specific domain to allow all origins during testing
   'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
-  'Access-Control-Allow-Methods': 'POST, OPTIONS', // Must include OPTIONS
+  'Access-Control-Allow-Methods': 'POST, OPTIONS',
 };
 
 interface DoubtRequest {
@@ -17,18 +17,33 @@ interface DoubtRequest {
 }
 
 serve(async (req) => {
-  console.log(`Function invoked. Method: ${req.method}`);
+  console.log(`Function invoked. Method: ${req.method}, URL: ${req.url}`);
 
-  // This block is CRITICAL. It handles the browser's preflight check.
+  // Handle CORS preflight request
   if (req.method === 'OPTIONS') {
     console.log('Handling OPTIONS preflight request.');
-    return new Response('ok', { headers: corsHeaders });
+    return new Response('ok', { 
+      status: 200, // Explicitly set status to 200
+      headers: corsHeaders 
+    });
+  }
+
+  // Only allow POST requests for the main functionality
+  if (req.method !== 'POST') {
+    console.log(`Method ${req.method} not allowed`);
+    return new Response(
+      JSON.stringify({ error: 'Method not allowed' }),
+      { 
+        status: 405, 
+        headers: { ...corsHeaders, 'Content-Type': 'application/json' } 
+      }
+    );
   }
 
   try {
     console.log('Verifying environment variables...');
-    // **IMPROVEMENT**: Check for all required secrets at the start.
-    // This will cause a clear error if a secret is missing.
+    
+    // Check for all required secrets at the start
     const requiredEnv = [
       'SUPABASE_URL',
       'SUPABASE_SERVICE_ROLE_KEY',
@@ -36,18 +51,32 @@ serve(async (req) => {
       'EMAILJS_TEMPLATE_ID',
       'EMAILJS_USER_ID'
     ];
+    
     for (const key of requiredEnv) {
       if (!Deno.env.get(key)) {
-        // This will create a specific, easy-to-read error in your logs.
+        console.error(`Missing required environment variable: ${key}`);
         throw new Error(`Missing required environment variable: ${key}`);
       }
     }
     console.log('All required environment variables are present.');
 
     console.log('Processing POST request.');
-    const { subject, doubt, imageUrl, userEmail, userName }: DoubtRequest = await req.json();
+    
+    let requestData: DoubtRequest;
+    try {
+      requestData = await req.json();
+    } catch (jsonError) {
+      console.error('Failed to parse JSON:', jsonError);
+      return new Response(
+        JSON.stringify({ error: 'Invalid JSON in request body' }),
+        { status: 400, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
+      );
+    }
+
+    const { subject, doubt, imageUrl, userEmail, userName } = requestData;
     console.log(`Received data for subject: "${subject}"`);
 
+    // Validate required fields
     if (!subject || !doubt) {
       console.log('Validation failed: Subject or doubt is missing.');
       return new Response(
@@ -72,6 +101,7 @@ serve(async (req) => {
         image_url: imageUrl,
         user_email: userEmail,
         user_name: userName,
+        created_at: new Date().toISOString(),
       });
 
     if (dbError) {
@@ -80,7 +110,7 @@ serve(async (req) => {
     }
     console.log('Database insert successful.');
 
-    // Full HTML email body is now included to prevent errors
+    // Email body with proper HTML structure
     const emailBody = `
       <html>
         <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
@@ -112,7 +142,7 @@ serve(async (req) => {
               ${imageUrl ? `
                 <h3 style="color: #1E293B;">Attached Image:</h3>
                  <p style="background: white; padding: 10px; border-radius: 4px;">
-                   Image URL: <a href="${imageUrl}">${imageUrl}</a>
+                   Image URL: <a href="${imageUrl}" target="_blank">${imageUrl}</a>
                  </p>
               ` : ''}
             </div>
@@ -133,40 +163,59 @@ serve(async (req) => {
     `;
 
     console.log('Attempting to send email via EmailJS...');
-    const emailResponse = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        service_id: Deno.env.get('EMAILJS_SERVICE_ID'),
-        template_id: Deno.env.get('EMAILJS_TEMPLATE_ID'),
-        user_id: Deno.env.get('EMAILJS_USER_ID'),
-        template_params: {
-          to_email: 'prep4btech@gmail.com',
-          subject: `New Doubt: ${subject}`,
-          message: emailBody,
-          from_name: userName || 'Prep4btech Student',
-          reply_to: userEmail || 'noreply@prep4btech.netlify.app'
-        }
-      })
-    });
-    console.log(`EmailJS API response status: ${emailResponse.status}`);
-
-    if (!emailResponse.ok) {
-      console.warn(`Database entry was saved, but email sending failed for subject: "${subject}"`);
+    try {
+      const emailResponse = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          service_id: Deno.env.get('EMAILJS_SERVICE_ID'),
+          template_id: Deno.env.get('EMAILJS_TEMPLATE_ID'),
+          user_id: Deno.env.get('EMAILJS_USER_ID'),
+          template_params: {
+            to_email: 'prep4btech@gmail.com',
+            subject: `New Doubt: ${subject}`,
+            message: emailBody,
+            from_name: userName || 'Prep4btech Student',
+            reply_to: userEmail || 'noreply@prep4btech.netlify.app'
+          }
+        })
+      });
+      
+      console.log(`EmailJS API response status: ${emailResponse.status}`);
+      
+      if (!emailResponse.ok) {
+        const emailErrorText = await emailResponse.text();
+        console.warn(`Email sending failed for subject: "${subject}". Response: ${emailErrorText}`);
+      } else {
+        console.log('Email sent successfully.');
+      }
+    } catch (emailError) {
+      console.warn(`Database entry was saved, but email sending failed for subject: "${subject}". Error:`, emailError);
     }
 
     console.log('Function finished successfully. Sending 200 response.');
     return new Response(
-      JSON.stringify({ success: true, message: 'Doubt submitted successfully!' }),
-      { status: 200, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
+      JSON.stringify({ 
+        success: true, 
+        message: 'Doubt submitted successfully!' 
+      }),
+      { 
+        status: 200, 
+        headers: { ...corsHeaders, 'Content-Type': 'application/json' } 
+      }
     );
 
   } catch (error) {
-    // This will now log the detailed error to your Supabase function logs
     console.error('An error occurred in the main try-catch block:', error);
     return new Response(
-      JSON.stringify({ error: 'Failed to submit doubt. Please try again later.' }),
-      { status: 500, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
+      JSON.stringify({ 
+        error: 'Failed to submit doubt. Please try again later.',
+        details: error instanceof Error ? error.message : 'Unknown error'
+      }),
+      { 
+        status: 500, 
+        headers: { ...corsHeaders, 'Content-Type': 'application/json' } 
+      }
     );
   }
 });
