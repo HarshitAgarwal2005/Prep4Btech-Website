@@ -1587,6 +1587,66 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
   },
+  {
+    id: 'mpws-theory-2-cse',
+    title: 'FITTING WORKSHOP NOTES',
+    description: 'Complete lab manual for Manufaturing Practices Workshop',
+    type: 'theory',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
+  {
+    id: 'mpws-theory-1-cse',
+    title: 'CARPENTRY WORKSHOP NOTES',
+    description: 'Complete lab manual for Computer-Aided Machine Drawing',
+    type: 'theory',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
+  {
+    id: 'mpws-theory-1-cse',
+    title: 'CARPENTRY WORKSHOP NOTES',
+    description: 'Complete lab manual for Computer-Aided Machine Drawing',
+    type: 'theory',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
+  {
+    id: 'mpws-theory-1-cse',
+    title: 'CARPENTRY WORKSHOP NOTES',
+    description: 'Complete lab manual for Computer-Aided Machine Drawing',
+    type: 'theory',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
+  {
+    id: 'mpws-theory-1-cse',
+    title: 'CARPENTRY WORKSHOP NOTES',
+    description: 'Complete lab manual for Computer-Aided Machine Drawing',
+    type: 'theory',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
+  {
+    id: 'mpws-theory-1-cse',
+    title: 'CARPENTRY WORKSHOP NOTES',
+    description: 'Complete lab manual for Computer-Aided Machine Drawing',
+    type: 'theory',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
   // Communication Skills Content (for CSE)
   {
     id: 'comm-theory-1-cse',
