@@ -1435,7 +1435,7 @@ export const contentItems: ContentItem[] = [
   { 
     id: 'physics-videos-3-cse',
     title: 'QUANTUM MECHANICS -> PLAYLIST',
-    description: 'Reference Playlist for Wave Optics',
+    description: 'Reference Playlist for Quantum Mechanics',
     type: 'videos',
     subjectId: 'physics-s1-cse',
     fileSize: '8-23 minutes',
@@ -1445,7 +1445,7 @@ export const contentItems: ContentItem[] = [
    { 
     id: 'physics-videos-4-cse',
     title: 'COHERENCE & OPTICAL FIBRE  -> PLAYLIST',
-    description: 'Reference Playlist for coherence and Optical fibre',
+    description: 'Reference Playlist for Coherence and Optical Fibre',
     type: 'videos',
     subjectId: 'physics-s1-cse',
     fileSize: '12-30 minutes',
@@ -1465,10 +1465,10 @@ export const contentItems: ContentItem[] = [
   { 
     id: 'physics-videos-6-cse',
     title: 'MATERIAL SCIENCE AND SEMICONDUCTOR --> PLAYLIST',
-    description: 'Reference Playlist for Wave Optics',
+    description: 'Reference Playlist for Material and Semiconductor',
     type: 'videos',
     subjectId: 'physics-s1-cse',
-    fileSize: 'minutes',
+    fileSize: '12-30 minutes',
     uploadDate: '2024-02-01',
     viewUrl: 'https://youtube.com/embed?list=PL2xHbdoT5bU-oXm_tW2_QEeTiyNuZesQz&si=lXogQH50YSitHXG2'
   },
