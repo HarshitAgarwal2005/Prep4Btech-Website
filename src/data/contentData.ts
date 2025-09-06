@@ -1577,7 +1577,27 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://youtu.be/HH5zoBpzvg4?si=mEXNuCsum_iPTjSy'
   },
 
+{
+  //   id: 'mpws-s1-cse',
+  //   name: 'MPWS',
+  //   code: '1FY3-25',
+  //   year: 1,
+  //   semester: 1,
+  //   branch: 'CSE',
+  //   description: 'Manufacturing Practices Workshop',
+  //   icon: '✏️'
+  // },
 
+   {
+    id: 'mpws-theory-1-cse',
+    title: 'CARPENTRY WORKSHOP NOTES',
+    description: 'Complete lab manual for Computer-Aided Machine Drawing',
+    type: 'videos',
+    subjectId: 'camd-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://youtu.be/HH5zoBpzvg4?si=mEXNuCsum_iPTjSy'
+  },
   // Communication Skills Content (for CSE)
   {
     id: 'comm-theory-1-cse',
