@@ -1415,10 +1415,10 @@ export const contentItems: ContentItem[] = [
   {
     id: 'physics-videos-1-cse',
     title: 'WAVES OPTICS -> PLAYLIST-I',
-    description: 'Reference textbook for Wave Optics',
+    description: 'Reference Playlist for Wave Optics',
     type: 'videos',
     subjectId: 'physics-s1-cse',
-    fileSize: '15.2 MB',
+    fileSize: '28 minutes',
     uploadDate: '2024-02-01',
     viewUrl: 'https://www.youtube.com/embed?list=PL2xHbdoT5bU__dR9EEEC0iCvClc1ZxxXO'
   },
@@ -1440,7 +1440,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'physics-s1-cse',
     fileSize: '15.2 MB',
     uploadDate: '2024-02-01',
-    viewUrl: 'https://youtube.com/playlist?list=PL2xHbdoT5bU8dTo3Ia88FX59f9TkPWYex&si=Su6ylBmqvm9uxUFv'
+    viewUrl: 'https://youtube.com/embed?list=PL2xHbdoT5bU8dTo3Ia88FX59f9TkPWYex&si=Su6ylBmqvm9uxUFv'
   },
    { 
     id: 'physics-videos-4-cse',
@@ -1450,7 +1450,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'physics-s1-cse',
     fileSize: '15.2 MB',
     uploadDate: '2024-02-01',
-    viewUrl: 'https://youtube.com/playlist?list=PL2xHbdoT5bU-v4TxX47U8I2QkLyBx6CJe&si=GlDAbviGzteX-k5v'
+    viewUrl: 'https://youtube.com/embed?list=PL2xHbdoT5bU-v4TxX47U8I2QkLyBx6CJe&si=GlDAbviGzteX-k5v'
   },
    { 
     id: 'physics-videos-5-cse',
@@ -1460,7 +1460,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'physics-s1-cse',
     fileSize: '15.2 MB',
     uploadDate: '2024-02-01',
-    viewUrl: 'https://youtube.com/playlist?list=PLnt5TdZ5ADYLfJHfhgAtbO74ricDxwE4E&si=CZki5_YFf3uxbySM'
+    viewUrl: 'https://youtube.com/embed?list=PLnt5TdZ5ADYLfJHfhgAtbO74ricDxwE4E&si=CZki5_YFf3uxbySM'
   },
   { 
     id: 'physics-videos-6-cse',
@@ -1470,7 +1470,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'physics-s1-cse',
     fileSize: '15.2 MB',
     uploadDate: '2024-02-01',
-    viewUrl: 'https://youtube.com/playlist?list=PL2xHbdoT5bU-oXm_tW2_QEeTiyNuZesQz&si=lXogQH50YSitHXG2'
+    viewUrl: 'https://youtube.com/embed?list=PL2xHbdoT5bU-oXm_tW2_QEeTiyNuZesQz&si=lXogQH50YSitHXG2'
   },
   { 
     id: 'physics-videos-7-cse',
@@ -1480,7 +1480,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'physics-s1-cse',
     fileSize: '15.2 MB',
     uploadDate: '2024-02-01',
-    viewUrl: 'https://youtube.com/playlist?list=PL2xHbdoT5bU_dmzNHJbwAGQRCl9AY8DjO&si=wTVmxLXVc1bfQmR8'
+    viewUrl: 'https://youtube.com/embed?list=PL2xHbdoT5bU_dmzNHJbwAGQRCl9AY8DjO&si=wTVmxLXVc1bfQmR8'
   },
 
   // CAMD Content (for CSE)
