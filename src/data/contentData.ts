@@ -1404,7 +1404,17 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'physics-videos-1-cse',
-    title: 'WAVES OPTICS -> PART-I',
+    title: 'WAVES OPTICS -> AVANI PAREEK',
+    description: 'Reference textbook for Wave Optics',
+    type: 'videos',
+    subjectId: 'physics-s1-cse',
+    fileSize: '15.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://youtube.com/playlist?list=PL2xHbdoT5bU__dR9EEEC0iCvClc1ZxxXO&si=R5aI2y146eXARHuO'
+  },
+   {
+    id: 'physics-videos-2-cse',
+    title: 'WAVES OPTICS -> PART-II',
     description: 'Reference textbook for Wave Optics',
     type: 'videos',
     subjectId: 'physics-s1-cse',
