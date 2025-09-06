@@ -1447,7 +1447,7 @@ export const contentItems: ContentItem[] = [
   },
    {
     id: 'camd-mttpaper-1-cse',
-    title: 'Lab Manual_CAMD',
+    title: 'VIVA QUESTIONS',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
     type: 'mttpaper',
     subjectId: 'camd-s1-cse',
