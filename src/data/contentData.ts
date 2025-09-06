@@ -1454,7 +1454,7 @@ export const contentItems: ContentItem[] = [
   },
   { 
     id: 'physics-videos-6-cse',
-    title: 'MATERIAL SCIENCE AND SEMICONDUCTOR -> PLAYLIST',
+    title: 'MATERIAL SCIENCE AND SEMICONDUCTOR --> PLAYLIST',
     description: 'Reference textbook for Wave Optics',
     type: 'videos',
     subjectId: 'physics-s1-cse',
