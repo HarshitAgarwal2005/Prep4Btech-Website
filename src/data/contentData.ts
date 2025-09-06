@@ -1895,7 +1895,7 @@ export const contentItems: ContentItem[] = [
   //BASIC MECH ENGG
   {
     id: 'mech-theory-1-cse',
-    title: 'Unit 1 PPT,
+    title: 'Unit 1 PPT',
     description: 'Unit 1: Fundamentals ',
     type: 'theory',
     subjectId: 'mech-s1-cse',
