@@ -1576,18 +1576,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://youtu.be/HH5zoBpzvg4?si=mEXNuCsum_iPTjSy'
   },
-
-// { 
-  //   id: 'mpws-s1-cse',
-  //   name: 'MPWS',
-  //   code: '1FY3-25',
-  //   year: 1,
-  //   semester: 1,
-  //   branch: 'CSE',
-  //   description: 'Manufacturing Practices Workshop',
-  //   icon: '✏️'
-  // },
-
+//  MPWS content (for cse)
    {
     id: 'mpws-theory-1-cse',
     title: 'CARPENTRY WORKSHOP NOTES',
