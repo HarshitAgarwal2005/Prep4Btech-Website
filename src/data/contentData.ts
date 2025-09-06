@@ -1445,7 +1445,7 @@ export const contentItems: ContentItem[] = [
    { 
     id: 'physics-videos-4-cse',
     title: 'COHERENCE & OPTICAL FIBRE  -> PLAYLIST',
-    description: 'Reference Playlist for Wave Optics',
+    description: 'Reference Playlist for coherence and Optical fibre',
     type: 'videos',
     subjectId: 'physics-s1-cse',
     fileSize: '12-30 minutes',
@@ -1455,10 +1455,10 @@ export const contentItems: ContentItem[] = [
    { 
     id: 'physics-videos-5-cse',
     title: 'LASER -> PLAYLIST',
-    description: 'Reference Playlist for Wave Optics',
+    description: 'Reference Playlist for Laser',
     type: 'videos',
     subjectId: 'physics-s1-cse',
-    fileSize: 'minutes',
+    fileSize: '15-30 minutes',
     uploadDate: '2024-02-01',
     viewUrl: 'https://youtube.com/embed?list=PLnt5TdZ5ADYLfJHfhgAtbO74ricDxwE4E&si=CZki5_YFf3uxbySM'
   },
