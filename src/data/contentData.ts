@@ -1425,7 +1425,7 @@ export const contentItems: ContentItem[] = [
    { 
     id: 'physics-videos-2-cse',
     title: 'WAVES OPTICS -> PLAYLIST-II',
-    description: 'Reference textbook for Wave Optics',
+    description: 'Reference Playlist for Wave Optics',
     type: 'videos',
     subjectId: 'physics-s1-cse',
     fileSize: '15.2 MB',
