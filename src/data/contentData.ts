@@ -1435,7 +1435,7 @@ export const contentItems: ContentItem[] = [
   { 
     id: 'physics-videos-3-cse',
     title: 'QUANTUM MECHANICS -> PLAYLIST',
-    description: 'Reference textbook for Wave Optics',
+    description: 'Reference Playlist for Wave Optics',
     type: 'videos',
     subjectId: 'physics-s1-cse',
     fileSize: '15.2 MB',
@@ -1445,7 +1445,7 @@ export const contentItems: ContentItem[] = [
    { 
     id: 'physics-videos-4-cse',
     title: 'COHERENCE & OPTICAL FIBRE  -> PLAYLIST',
-    description: 'Reference textbook for Wave Optics',
+    description: 'Reference Playlist for Wave Optics',
     type: 'videos',
     subjectId: 'physics-s1-cse',
     fileSize: '15.2 MB',
@@ -1455,7 +1455,7 @@ export const contentItems: ContentItem[] = [
    { 
     id: 'physics-videos-5-cse',
     title: 'LASER -> PLAYLIST',
-    description: 'Reference textbook for Wave Optics',
+    description: 'Reference Playlist for Wave Optics',
     type: 'videos',
     subjectId: 'physics-s1-cse',
     fileSize: '15.2 MB',
@@ -1465,7 +1465,7 @@ export const contentItems: ContentItem[] = [
   { 
     id: 'physics-videos-6-cse',
     title: 'MATERIAL SCIENCE AND SEMICONDUCTOR --> PLAYLIST',
-    description: 'Reference textbook for Wave Optics',
+    description: 'Reference Playlist for Wave Optics',
     type: 'videos',
     subjectId: 'physics-s1-cse',
     fileSize: '15.2 MB',
@@ -1475,10 +1475,10 @@ export const contentItems: ContentItem[] = [
   { 
     id: 'physics-videos-7-cse',
     title: 'ELECTROMAGNETISM --> PLAYLIST',
-    description: 'Reference textbook for Wave Optics',
+    description: 'Reference Playlist for Wave Optics',
     type: 'videos',
     subjectId: 'physics-s1-cse',
-    fileSize: '15.2 MB',
+    fileSize: 'minutes',
     uploadDate: '2024-02-01',
     viewUrl: 'https://youtube.com/embed?list=PL2xHbdoT5bU_dmzNHJbwAGQRCl9AY8DjO&si=wTVmxLXVc1bfQmR8'
   },
