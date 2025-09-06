@@ -1638,7 +1638,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
   },
   {
-    id: 'mpws-theory-1-cse',
+    id: 'mpws-theory-7-cse',
     title: 'CARPENTRY WORKSHOP NOTES',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
     type: 'theory',
