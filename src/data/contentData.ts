@@ -1650,7 +1650,7 @@ export const contentItems: ContentItem[] = [
   // pdf notes
 {
     id: 'mpws-lab-1-cse',
-    title: 'CARPENTRY WORKSHOP NOTES',
+    title: 'CARPENTRY WORKSHOP PDF NOTES',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
     type: 'lab',
     subjectId: 'mpws-s1-cse',
@@ -1660,7 +1660,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mpws-lab-2-cse',
-    title: 'FITTING WORKSHOP NOTES',
+    title: 'FITTING WORKSHOP PDF NOTES',
     description: 'Complete lab Manual For Manufaturing Practices Workshop',
     type: 'lab',
     subjectId: 'mpws-s1-cse',
@@ -1670,7 +1670,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mpws-lab-3-cse',
-    title: 'FOUNDARY WORKSHOP NOTES',
+    title: 'FOUNDARY WORKSHOP PDF NOTES',
     description: 'Complete lab manual for Manufaturing Practices Workshop',
     type: 'lab',
     subjectId: 'mpws-s1-cse',
@@ -1680,7 +1680,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mpws-lab-4-cse',
-    title: 'WELDING WORKSHOP NOTES',
+    title: 'WELDING WORKSHOP PDF NOTES',
     description: 'Complete lab manual for Manufaturing Practices Workshop',
     type: 'lab',
     subjectId: 'mpws-s1-cse',
@@ -1690,7 +1690,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mpws-lab-5-cse',
-    title: 'GAS WORKSHOP NOTES',
+    title: 'GAS WORKSHOP PDF NOTES',
     description: 'Complete lab manual for Manufaturing Practices Workshop',
     type: 'lab',
     subjectId: 'mpws-s1-cse',
@@ -1700,7 +1700,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mpws-lab-6-cse',
-    title: 'TIN SMITHY WORKSHOP NOTES',
+    title: 'TIN SMITHY WORKSHOP PDF NOTES',
     description: 'Complete lab manual for Manufaturing Practices Workshop',
     type: 'lab',
     subjectId: 'mpws-s1-cse',
@@ -1710,7 +1710,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mpws-lab-7-cse',
-    title: 'MACHINE SHOP WORKSHOP NOTES',
+    title: 'MACHINE SHOP WORKSHOP PDF NOTES',
     description: 'Complete lab manual for Manufaturing Practices Worksho',
     type: 'lab',
     subjectId: 'mpws-s1-cse',
