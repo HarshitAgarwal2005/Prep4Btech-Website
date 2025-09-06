@@ -63,6 +63,16 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Computer-Aided Machine Drawing',
     icon: '✏️'
   },
+   {
+    id: 'mpws-s1-cse',
+    name: 'MPWS',
+    code: '1FY3-29',
+    year: 1,
+    semester: 1,
+    branch: 'CSE',
+    description: 'Computer-Aided Machine Drawing',
+    icon: '✏️'
+  },
   // ECE
   {
     id: 'math1-s1-ece',
