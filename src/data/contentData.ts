@@ -1475,10 +1475,10 @@ export const contentItems: ContentItem[] = [
   { 
     id: 'physics-videos-7-cse',
     title: 'ELECTROMAGNETISM --> PLAYLIST',
-    description: 'Reference Playlist for Wave Optics',
+    description: 'Reference Playlist for Electromagnetism',
     type: 'videos',
     subjectId: 'physics-s1-cse',
-    fileSize: 'minutes',
+    fileSize: '6-60 minutes',
     uploadDate: '2024-02-01',
     viewUrl: 'https://youtube.com/embed?list=PL2xHbdoT5bU_dmzNHJbwAGQRCl9AY8DjO&si=wTVmxLXVc1bfQmR8'
   },
