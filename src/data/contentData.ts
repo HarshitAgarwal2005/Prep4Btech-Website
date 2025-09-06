@@ -1740,36 +1740,36 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://drive.google.com/file/d/1uMW45JcDyoFlgSTGsJTYcy58A08vzhkb/view?usp=drive_link'
   },
-  {
-    id: 'mpws-mtt-3-cse',
-    title: 'FOUNDARY WORKSHOP VIVA QUESTIONS',
-    description: 'Complete lab manual for Manufaturing Practices Workshop',
-    type: 'mtt',
-    subjectId: 'mpws-s1-cse',
-    fileSize: '1.9 MB',
-    uploadDate: '2024-01-16',
-    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
-  },
-  {
-    id: 'mpws-mtt-4-cse',
-    title: 'WELDING WORKSHOPVIVA QUESTIONS',
-    description: 'Complete lab manual for Manufaturing Practices Workshop',
-    type: 'mtt',
-    subjectId: 'mpws-s1-cse',
-    fileSize: '1.9 MB',
-    uploadDate: '2024-01-16',
-    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
-  },
-  {
-    id: 'mpws-mtt-5-cse',
-    title: 'GAS WORKSHOP VIVA QUESTIONS',
-    description: 'Complete lab manual for Manufaturing Practices Workshop',
-    type: 'mtt',
-    subjectId: 'mpws-s1-cse',
-    fileSize: '1.9 MB',
-    uploadDate: '2024-01-16',
-    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
-  },
+  // {
+  //   id: 'mpws-mtt-3-cse',
+  //   title: 'FOUNDARY WORKSHOP VIVA QUESTIONS',
+  //   description: 'Complete lab manual for Manufaturing Practices Workshop',
+  //   type: 'mtt',
+  //   subjectId: 'mpws-s1-cse',
+  //   fileSize: '1.9 MB',
+  //   uploadDate: '2024-01-16',
+  //   viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  // },
+  // {
+  //   id: 'mpws-mtt-4-cse',
+  //   title: 'WELDING WORKSHOPVIVA QUESTIONS',
+  //   description: 'Complete lab manual for Manufaturing Practices Workshop',
+  //   type: 'mtt',
+  //   subjectId: 'mpws-s1-cse',
+  //   fileSize: '1.9 MB',
+  //   uploadDate: '2024-01-16',
+  //   viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  // },
+  // {
+  //   id: 'mpws-mtt-5-cse',
+  //   title: 'GAS WORKSHOP VIVA QUESTIONS',
+  //   description: 'Complete lab manual for Manufaturing Practices Workshop',
+  //   type: 'mtt',
+  //   subjectId: 'mpws-s1-cse',
+  //   fileSize: '1.9 MB',
+  //   uploadDate: '2024-01-16',
+  //   viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  // },
   {
     id: 'mpws-mtt-6-cse',
     title: 'TIN SMITHY WORKSHOP VIVA QUESTIONS',
@@ -1778,7 +1778,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'mpws-s1-cse',
     fileSize: '1.9 MB',
     uploadDate: '2024-01-16',
-    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1HDfTSC1NiB7xBJn2IOTOczUeO3gOrijr/view?usp=drive_link'
   },
   {
     id: 'mpws-mtt-7-cse',
