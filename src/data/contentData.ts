@@ -1810,6 +1810,15 @@ export const contentItems: ContentItem[] = [
     fileSize: '0.9 MB',
     uploadDate: '2024-02-03',
     viewUrl: 'https://drive.google.com/file/d/1kybcKaoEdOR2r5l8dW5kxsY9mWJhHXkD/view?usp=sharing'
+  },{
+    id: 'comm-videos-1-cse',
+    title: '',
+    description: 'The Luncheon Summary',
+    type: 'videos',
+    subjectId: 'comm-s1-cse',
+    fileSize: '10 minutes',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://www.youtube.com/embed/RfutYBp0VtA'
   },
 
   // BASIC ELECTRICAL ENGINEERING SEM-1 (for CSE)
