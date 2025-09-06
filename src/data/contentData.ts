@@ -1423,7 +1423,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://youtube.com/playlist?list=PLU0SZIJ1umnkSHtOidNcWIegDQlbapIjF&si=QK2YKi9FPca5EeQt'
   },
   { 
-    id: 'physics-videos-2-cse',
+    id: 'physics-videos-3-cse',
     title: 'QUANTUM MECHANICS -> PLAYLIST',
     description: 'Reference textbook for Wave Optics',
     type: 'videos',
