@@ -1418,7 +1418,7 @@ export const contentItems: ContentItem[] = [
     description: 'Reference Playlist for Wave Optics',
     type: 'videos',
     subjectId: 'physics-s1-cse',
-    fileSize: '28 minutes',
+    fileSize: '15-28 minutes',
     uploadDate: '2024-02-01',
     viewUrl: 'https://www.youtube.com/embed?list=PL2xHbdoT5bU__dR9EEEC0iCvClc1ZxxXO'
   },
