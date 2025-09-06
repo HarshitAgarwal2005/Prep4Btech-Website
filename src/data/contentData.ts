@@ -1799,7 +1799,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'comm-s1-cse',
     fileSize: '1.9 MB',
     uploadDate: '2024-01-16',
-    viewUrl: 'https://example.com/comm-notes'
+    viewUrl: 'https://drive.google.com/file/d/1J5sj1vkoo0ZwKxGIOZxMDX0MRNziqV5C/view?usp=sharing'
   },
   {
     id: 'comm-assignment-1-cse',
