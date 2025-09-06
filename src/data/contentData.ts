@@ -1446,7 +1446,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1hznIvRM9ROwudAgzgKkOkSnwpV5XhBGy/view?usp=drive_link'
   },
    {
-    id: 'camd-mttpaper-1-cse',
+    id: 'camd-mtt-1-cse',
     title: 'VIVA QUESTIONS',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
     type: 'mtt',
