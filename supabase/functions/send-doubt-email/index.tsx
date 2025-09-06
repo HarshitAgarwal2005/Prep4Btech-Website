@@ -20,7 +20,7 @@ serve(async (req) => {
   console.log(`Function invoked. Method: ${req.method}, URL: ${req.url}`);
 
   // Handle CORS preflight request
-  if (req.method === 'OPTIONS') {
+  if (req.method == 'OPTIONS') {
     console.log('Handling OPTIONS preflight request.');
     return new Response('ok', { 
       status: 200, // Explicitly set status to 200
