@@ -1442,6 +1442,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://youtube.com/playlist?list=PL2xHbdoT5bU-v4TxX47U8I2QkLyBx6CJe&si=GlDAbviGzteX-k5v'
   },
+   { 
+    id: 'physics-videos-4-cse',
+    title: 'LASER -> PLAYLIST',
+    description: 'Reference textbook for Wave Optics',
+    type: 'videos',
+    subjectId: 'physics-s1-cse',
+    fileSize: '15.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://youtube.com/playlist?list=PLnt5TdZ5ADYLfJHfhgAtbO74ricDxwE4E&si=CZki5_YFf3uxbySM'
+  },
 
   // CAMD Content (for CSE)
   {
