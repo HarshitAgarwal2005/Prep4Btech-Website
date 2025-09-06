@@ -1410,7 +1410,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'physics-s1-cse',
     fileSize: '15.2 MB',
     uploadDate: '2024-02-01',
-    viewUrl: 'https://drive.google.com/file/d/1km_lTssd-EBO0ENmBEa_p9keAoicVjuc/view?usp=sharing'
+    viewUrl: 'https://youtube.com/playlist?list=PL2xHbdoT5bU__dR9EEEC0iCvClc1ZxxXO&si=R5aI2y146eXARHuO'
   },
 
   // CAMD Content (for CSE)
