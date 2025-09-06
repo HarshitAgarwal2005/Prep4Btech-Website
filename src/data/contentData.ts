@@ -1422,6 +1422,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://youtube.com/playlist?list=PLU0SZIJ1umnkSHtOidNcWIegDQlbapIjF&si=QK2YKi9FPca5EeQt'
   },
+  { 
+    id: 'physics-videos-2-cse',
+    title: 'QUANTUM MECHANICS -> PLAYLIST',
+    description: 'Reference textbook for Wave Optics',
+    type: 'videos',
+    subjectId: 'physics-s1-cse',
+    fileSize: '15.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://youtube.com/playlist?list=PLU0SZIJ1umnkSHtOidNcWIegDQlbapIjF&si=QK2YKi9FPca5EeQt'
+  },
 
   // CAMD Content (for CSE)
   {
