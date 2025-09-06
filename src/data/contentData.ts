@@ -1462,6 +1462,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://youtube.com/playlist?list=PL2xHbdoT5bU-oXm_tW2_QEeTiyNuZesQz&si=lXogQH50YSitHXG2'
   },
+  { 
+    id: 'physics-videos-7-cse',
+    title: 'ELECTROMAGNETISM --> PLAYLIST',
+    description: 'Reference textbook for Wave Optics',
+    type: 'videos',
+    subjectId: 'physics-s1-cse',
+    fileSize: '15.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://youtube.com/playlist?list=PL2xHbdoT5bU_dmzNHJbwAGQRCl9AY8DjO&si=wTVmxLXVc1bfQmR8'
+  },
 
   // CAMD Content (for CSE)
   {
