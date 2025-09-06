@@ -1420,7 +1420,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'physics-s1-cse',
     fileSize: '15.2 MB',
     uploadDate: '2024-02-01',
-    viewUrl: 'https://youtube.com/playlist?list=PL2xHbdoT5bU__dR9EEEC0iCvClc1ZxxXO&si=z6iLio0cBwhzvybP'
+    viewUrl: 'https://www.youtube.com/embed?list=PL2xHbdoT5bU__dR9EEEC0iCvClc1ZxxXO'
   },
    { 
     id: 'physics-videos-2-cse',
