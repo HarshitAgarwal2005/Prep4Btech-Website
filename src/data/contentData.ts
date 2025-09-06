@@ -66,7 +66,7 @@ export const contentSubjects: ContentSubject[] = [
    {
     id: 'mpws-s1-cse',
     name: 'Manufacturing Practices Workshop --> MPWS',
-    code: '1FY3-29',
+    code: '1FY3-25',
     year: 1,
     semester: 1,
     branch: 'CSE',
