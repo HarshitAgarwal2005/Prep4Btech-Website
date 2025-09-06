@@ -1412,7 +1412,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://youtube.com/playlist?list=PL2xHbdoT5bU__dR9EEEC0iCvClc1ZxxXO&si=R5aI2y146eXARHuO'
   },
-   {
+   { 
     id: 'physics-videos-2-cse',
     title: 'WAVES OPTICS -> PART-II',
     description: 'Reference textbook for Wave Optics',
