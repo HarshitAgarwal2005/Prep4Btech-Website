@@ -1647,6 +1647,79 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
   },
+  // pdf notes
+{
+    id: 'mpws-lab-1-cse',
+    title: 'CARPENTRY WORKSHOP NOTES',
+    description: 'Complete lab manual for Computer-Aided Machine Drawing',
+    type: 'lab',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
+  {
+    id: 'mpws-lab-2-cse',
+    title: 'FITTING WORKSHOP NOTES',
+    description: 'Complete lab Manual For Manufaturing Practices Workshop',
+    type: 'lab',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
+  {
+    id: 'mpws-lab-3-cse',
+    title: 'FOUNDARY WORKSHOP NOTES',
+    description: 'Complete lab manual for Manufaturing Practices Workshop',
+    type: 'lab',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
+  {
+    id: 'mpws-lab-4-cse',
+    title: 'WELDING WORKSHOP NOTES',
+    description: 'Complete lab manual for Manufaturing Practices Workshop',
+    type: 'lab',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
+  {
+    id: 'mpws-lab-5-cse',
+    title: 'GAS WORKSHOP NOTES',
+    description: 'Complete lab manual for Manufaturing Practices Workshop',
+    type: 'lab',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
+  {
+    id: 'mpws-lab-6-cse',
+    title: 'TIN SMITHY WORKSHOP NOTES',
+    description: 'Complete lab manual for Manufaturing Practices Workshop',
+    type: 'lab',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
+  {
+    id: 'mpws-lab-7-cse',
+    title: 'MACHINE SHOP WORKSHOP NOTES',
+    description: 'Complete lab manual for Manufaturing Practices Worksho',
+    type: 'lab',
+    subjectId: 'mpws-s1-cse',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  },
+  
+  //viva voice for mpws
    {
     id: 'mpws-mtt-1-cse',
     title: 'CARPENTRY WORKSHOP VIVA QUESTIONS',
