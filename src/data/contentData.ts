@@ -1649,7 +1649,7 @@ export const contentItems: ContentItem[] = [
   },
    {
     id: 'mpws-mtt-1-cse',
-    title: 'CARPENTRY WORKSHOP NOTES',
+    title: 'CARPENTRY WORKSHOP VIVA QUESTIONS',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
     type: 'mtt',
     subjectId: 'mpws-s1-cse',
@@ -1659,7 +1659,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mpws-mtt-2-cse',
-    title: 'FITTING WORKSHOP NOTES',
+    title: 'FITTING WORKSHOP VIVA QUESTIONS',
     description: 'Complete lab Manual For Manufaturing Practices Workshop',
     type: 'mtt',
     subjectId: 'mpws-s1-cse',
@@ -1669,7 +1669,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mpws-mtt-3-cse',
-    title: 'FOUNDARY WORKSHOP NOTES',
+    title: 'FOUNDARY WORKSHOP VIVA QUESTIONS',
     description: 'Complete lab manual for Manufaturing Practices Workshop',
     type: 'mtt',
     subjectId: 'mpws-s1-cse',
@@ -1679,7 +1679,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mpws-mtt-4-cse',
-    title: 'WELDING WORKSHOP NOTES',
+    title: 'WELDING WORKSHOPVIVA QUESTIONS',
     description: 'Complete lab manual for Manufaturing Practices Workshop',
     type: 'mtt',
     subjectId: 'mpws-s1-cse',
@@ -1689,7 +1689,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mpws-mtt-5-cse',
-    title: 'GAS WORKSHOP NOTES',
+    title: 'GAS WORKSHOP VIVA QUESTIONS',
     description: 'Complete lab manual for Manufaturing Practices Workshop',
     type: 'mtt',
     subjectId: 'mpws-s1-cse',
@@ -1699,7 +1699,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mpws-mtt-6-cse',
-    title: 'TIN SMITHY WORKSHOP NOTES',
+    title: 'TIN SMITHY WORKSHOP VIVA QUESTIONS',
     description: 'Complete lab manual for Manufaturing Practices Workshop',
     type: 'mtt',
     subjectId: 'mpws-s1-cse',
@@ -1709,7 +1709,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mpws-mtt-7-cse',
-    title: 'MACHINE SHOP WORKSHOP NOTES',
+    title: 'MACHINE SHOP WORKSHOP VIVA QUESTIONS',
     description: 'Complete lab manual for Manufaturing Practices Worksho',
     type: 'mtt',
     subjectId: 'mpws-s1-cse',
