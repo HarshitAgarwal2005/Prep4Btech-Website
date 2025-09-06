@@ -1432,6 +1432,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://youtube.com/playlist?list=PL2xHbdoT5bU8dTo3Ia88FX59f9TkPWYex&si=Su6ylBmqvm9uxUFv'
   },
+   { 
+    id: 'physics-videos-4-cse',
+    title: 'COHERENCE & OPTICAL FIBRE  -> PLAYLIST',
+    description: 'Reference textbook for Wave Optics',
+    type: 'videos',
+    subjectId: 'physics-s1-cse',
+    fileSize: '15.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://youtube.com/playlist?list=PL2xHbdoT5bU8dTo3Ia88FX59f9TkPWYex&si=Su6ylBmqvm9uxUFv'
+  },
 
   // CAMD Content (for CSE)
   {
