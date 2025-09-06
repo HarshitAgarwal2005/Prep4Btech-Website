@@ -1402,6 +1402,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1km_lTssd-EBO0ENmBEa_p9keAoicVjuc/view?usp=sharing'
   },
+  {
+    id: 'physics-videos-1-cse',
+    title: 'WAVES OPTICS -> PART-I',
+    description: 'Reference textbook for Laser',
+    type: 'books',
+    subjectId: 'physics-s1-cse',
+    fileSize: '15.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1km_lTssd-EBO0ENmBEa_p9keAoicVjuc/view?usp=sharing'
+  },
 
   // CAMD Content (for CSE)
   {
