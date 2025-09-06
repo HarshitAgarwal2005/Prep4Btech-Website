@@ -26,6 +26,24 @@ serve(async (req) => {
   }
 
   try {
+    console.log('Verifying environment variables...');
+    // **IMPROVEMENT**: Check for all required secrets at the start.
+    // This will cause a clear error if a secret is missing.
+    const requiredEnv = [
+      'SUPABASE_URL',
+      'SUPABASE_SERVICE_ROLE_KEY',
+      'EMAILJS_SERVICE_ID',
+      'EMAILJS_TEMPLATE_ID',
+      'EMAILJS_USER_ID'
+    ];
+    for (const key of requiredEnv) {
+      if (!Deno.env.get(key)) {
+        // This will create a specific, easy-to-read error in your logs.
+        throw new Error(`Missing required environment variable: ${key}`);
+      }
+    }
+    console.log('All required environment variables are present.');
+
     console.log('Processing POST request.');
     const { subject, doubt, imageUrl, userEmail, userName }: DoubtRequest = await req.json();
     console.log(`Received data for subject: "${subject}"`);
@@ -152,4 +170,3 @@ serve(async (req) => {
     );
   }
 });
-
