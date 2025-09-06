@@ -65,12 +65,12 @@ export const contentSubjects: ContentSubject[] = [
   },
    {
     id: 'mpws-s1-cse',
-    name: 'MPWS',
+    name: 'Manufacturing Practices Workshop --> MPWS',
     code: '1FY3-29',
     year: 1,
     semester: 1,
     branch: 'CSE',
-    description: 'Computer-Aided Machine Drawing',
+    description: 'Manufacturing Practices Workshop',
     icon: '✏️'
   },
   // ECE
