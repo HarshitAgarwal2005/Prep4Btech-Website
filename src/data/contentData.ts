@@ -1809,7 +1809,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'comm-s1-cse',
     fileSize: '0.9 MB',
     uploadDate: '2024-02-03',
-    viewUrl: 'https://example.com/comm-assignment'
+    viewUrl: 'https://drive.google.com/file/d/1kybcKaoEdOR2r5l8dW5kxsY9mWJhHXkD/view?usp=sharing'
   },
 
   // BASIC ELECTRICAL ENGINEERING SEM-1 (for CSE)
