@@ -1780,17 +1780,17 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://drive.google.com/file/d/1HDfTSC1NiB7xBJn2IOTOczUeO3gOrijr/view?usp=drive_link'
   },
-  {
-    id: 'mpws-mtt-7-cse',
-    title: 'MACHINE SHOP WORKSHOP VIVA QUESTIONS',
-    description: 'Complete lab manual for Manufaturing Practices Worksho',
-    type: 'mtt',
-    subjectId: 'mpws-s1-cse',
-    fileSize: '1.9 MB',
-    uploadDate: '2024-01-16',
-    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
-  },
-  // Communication Skills Content (for CSE)
+  // { 
+  //   id: 'mpws-mtt-7-cse',
+  //   title: 'MACHINE SHOP WORKSHOP VIVA QUESTIONS',
+  //   description: 'Complete lab manual for Manufaturing Practices Worksho',
+  //   type: 'mtt',
+  //   subjectId: 'mpws-s1-cse',
+  //   fileSize: '1.9 MB',
+  //   uploadDate: '2024-01-16',
+  //   viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+  // },
+  // // Communication Skills Content (for CSE)
   {
     id: 'comm-theory-1-cse',
     title: 'Communication Skills Theory Notes',
