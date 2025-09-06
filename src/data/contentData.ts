@@ -1404,7 +1404,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'physics-videos-1-cse',
-    title: 'WAVES OPTICS ->BY AVANI PAREEK',
+    title: 'WAVES OPTICS -> PLAYLIST-I',
     description: 'Reference textbook for Wave Optics',
     type: 'videos',
     subjectId: 'physics-s1-cse',
@@ -1414,7 +1414,7 @@ export const contentItems: ContentItem[] = [
   },
    { 
     id: 'physics-videos-2-cse',
-    title: 'WAVES OPTICS -> PART-II',
+    title: 'WAVES OPTICS -> PLAYLIST-II',
     description: 'Reference textbook for Wave Optics',
     type: 'videos',
     subjectId: 'physics-s1-cse',
