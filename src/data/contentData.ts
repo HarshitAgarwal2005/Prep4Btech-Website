@@ -1582,7 +1582,7 @@ export const contentItems: ContentItem[] = [
     title: 'CARPENTRY WORKSHOP NOTES',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
     type: 'theory',
-    subjectId: 'camd-s1-cse',
+    subjectId: 'mpws-s1-cse',
     fileSize: '1.9 MB',
     uploadDate: '2024-01-16',
     viewUrl: 'https://youtu.be/HH5zoBpzvg4?si=mEXNuCsum_iPTjSy'
