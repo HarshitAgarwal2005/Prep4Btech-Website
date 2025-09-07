@@ -1869,7 +1869,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'comm-s1-cse',
     fileSize: '10 minutes',
     uploadDate: '2024-01-16',
-    viewUrl: 'https://www.youtube.com/embed/RfutYBp0VtA'
+    viewUrl: 'https://www.youtube.com/embed/j9kTN2iX2hc?si=bnXit-zxceze2-LG'
   },
   {
     id: 'comm-lab-1-cse',
