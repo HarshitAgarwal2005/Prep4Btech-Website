@@ -1871,6 +1871,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://www.youtube.com/embed/RfutYBp0VtA'
   },
+  {
+    id: 'comm-lab-1-cse',
+    title: 'LG Lab Manual',
+    description: 'Complete Handwritten Manual',
+    type: 'lab',
+    subjectId: 'comm-s1-cse',
+    fileSize: '9 MB',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://drive.google.com/file/d/1m--AbcbM78mQyGcC78ZQJ-N_tfwPnQ0U/view?usp=sharing'
+  },
 
   // BASIC ELECTRICAL ENGINEERING SEM-1 (for CSE)
   {
