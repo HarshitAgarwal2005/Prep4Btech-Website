@@ -1996,7 +1996,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mech-theory-5-cse',
-    title: 'Unit 4 PPT',
+    title: 'Unit 4 PDF',
     description: 'Unit 4: Power Transmission',
     type: 'theory',
     subjectId: 'mech-s1-cse',
