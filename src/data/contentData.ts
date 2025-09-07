@@ -13,7 +13,7 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Fundamental mathematical concepts for engineering',
     icon: '📐'
   },
-  {
+  { 
     id: 'physics-s1-cse',
     name: 'Engineering Physics',
     code: '1FY2-02',
