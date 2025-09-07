@@ -51,7 +51,7 @@ export const contentSubjects: ContentSubject[] = [
     semester: 1,
     branch: 'CSE',
     description: 'Electrical circuits and basic electronics',
-    icon: '⚡'
+    icon: '⚡' 
   },
   {
     id: 'camd-s1-cse',
