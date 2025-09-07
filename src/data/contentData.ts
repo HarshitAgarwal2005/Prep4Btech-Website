@@ -19,7 +19,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '1FY2-02',
     year: 1,
     semester: 1,
-    branch: ['CSE','ECE','EE','MECH','CIVIL'],
+    branch: ['CSE'],
     description: 'Basic physics principles and applications',
     icon: '⚛️'
   },
