@@ -1656,7 +1656,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'mpws-s1-cse',
     fileSize: '1.9 MB',
     uploadDate: '2024-01-16',
-    viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1cJAxDk0Ylx4Y04mrKl9I2C0j79bLC_L7/view?usp=drive_link'
   },
   {
     id: 'mpws-lab-2-cse',
