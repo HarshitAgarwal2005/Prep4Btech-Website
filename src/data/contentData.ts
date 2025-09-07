@@ -1853,8 +1853,8 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'comm-videos-5-cse',
-    title: 'The Luncheon',
-    description: 'Summary',
+    title: 'IF',
+    description: 'Summary (Poem)',
     type: 'videos',
     subjectId: 'comm-s1-cse',
     fileSize: '10 minutes',
@@ -1863,8 +1863,8 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'comm-videos-6-cse',
-    title: 'The Luncheon',
-    description: 'Summary',
+    title: 'Where the mind is without Fear',
+    description: 'Summary (Poem)',
     type: 'videos',
     subjectId: 'comm-s1-cse',
     fileSize: '10 minutes',
