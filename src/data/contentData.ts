@@ -1812,8 +1812,8 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1kybcKaoEdOR2r5l8dW5kxsY9mWJhHXkD/view?usp=sharing'
   },{
     id: 'comm-videos-1-cse',
-    title: '',
-    description: 'The Luncheon Summary',
+    title: 'The Luncheon',
+    description: 'Summary',
     type: 'videos',
     subjectId: 'comm-s1-cse',
     fileSize: '10 minutes',
