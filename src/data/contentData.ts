@@ -1488,7 +1488,7 @@ export const contentItems: ContentItem[] = [
     id: 'camd-theory-1-cse',
     title: 'Lab Manual_CAMD',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
-    type: 'videos',
+    type: 'theory',
     subjectId: 'camd-s1-cse',
     fileSize: '1.9 MB',
     uploadDate: '2024-01-16',
