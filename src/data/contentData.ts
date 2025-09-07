@@ -1810,8 +1810,59 @@ export const contentItems: ContentItem[] = [
     fileSize: '0.9 MB',
     uploadDate: '2024-02-03',
     viewUrl: 'https://drive.google.com/file/d/1kybcKaoEdOR2r5l8dW5kxsY9mWJhHXkD/view?usp=sharing'
-  },{
+  },
+  {
     id: 'comm-videos-1-cse',
+    title: 'The Luncheon',
+    description: 'Summary (Short Story)',
+    type: 'videos',
+    subjectId: 'comm-s1-cse',
+    fileSize: '10 minutes',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://www.youtube.com/embed/RfutYBp0VtA'
+  },
+  {
+    id: 'comm-videos-2-cse',
+    title: 'How Much Land Does a Man Need?',
+    description: 'Summary (Short Story)',
+    type: 'videos',
+    subjectId: 'comm-s1-cse',
+    fileSize: '10 minutes',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://www.youtube.com/embed/RfutYBp0VtA'
+  },
+  {
+    id: 'comm-videos-3-cse',
+    title: 'The Night Train at Deoli',
+    description: 'Summary (Short Story)',
+    type: 'videos',
+    subjectId: 'comm-s1-cse',
+    fileSize: '10 minutes',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://www.youtube.com/embed/RfutYBp0VtA'
+  },
+  {
+    id: 'comm-videos-4-cse',
+    title: 'The Luncheon',
+    description: 'Summary',
+    type: 'videos',
+    subjectId: 'comm-s1-cse',
+    fileSize: '10 minutes',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://www.youtube.com/embed/RfutYBp0VtA'
+  },
+  {
+    id: 'comm-videos-5-cse',
+    title: 'The Luncheon',
+    description: 'Summary',
+    type: 'videos',
+    subjectId: 'comm-s1-cse',
+    fileSize: '10 minutes',
+    uploadDate: '2024-01-16',
+    viewUrl: 'https://www.youtube.com/embed/RfutYBp0VtA'
+  },
+  {
+    id: 'comm-videos-6-cse',
     title: 'The Luncheon',
     description: 'Summary',
     type: 'videos',
