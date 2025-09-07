@@ -1987,12 +1987,12 @@ export const contentItems: ContentItem[] = [
   {
     id: 'mech-theory-4-cse',
     title: 'Unit 3 PPT',
-    description: 'Unit 1: Fundamentals ',
+    description: 'Unit 3: RAC',
     type: 'theory',
     subjectId: 'mech-s1-cse',
     fileSize: '3.2 MB',
     uploadDate: '2024-01-25',
-    viewUrl: 'https://docs.google.com/presentation/d/1aky5Ho6uulkkpmGU8Ah0x-X4xjwGrMcS/edit?usp=sharing&ouid=109272455612884300462&rtpof=true&sd=true'
+    viewUrl: 'https://docs.google.com/presentation/d/1kgUsLLS7u1Wmhm9VCo0KQLLgKxAz6gZB/edit?usp=sharing&ouid=109272455612884300462&rtpof=true&sd=true'
   },
   {
     id: 'mech-theory-5-cse',
