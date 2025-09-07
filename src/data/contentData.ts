@@ -1843,8 +1843,8 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'comm-videos-4-cse',
-    title: 'The Luncheon',
-    description: 'Summary',
+    title: 'IF',
+    description: 'Summary (Poem)',
     type: 'videos',
     subjectId: 'comm-s1-cse',
     fileSize: '10 minutes',
