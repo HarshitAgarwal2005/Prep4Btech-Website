@@ -2022,7 +2022,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'mech-s1-cse',
     fileSize: '3.2 MB',
     uploadDate: '2024-01-25',
-    viewUrl: ''
+    viewUrl: 'https://drive.google.com/file/d/1VYldSHGwmp7h2AejVS5AMD-5XuyLdkXn/view?usp=sharing'
   },
 
   // Programming for problem solving sem 2 (for CSE)
