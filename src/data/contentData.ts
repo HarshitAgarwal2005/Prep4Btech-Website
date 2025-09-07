@@ -1975,9 +1975,9 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://docs.google.com/presentation/d/1a1m__MM28xzTw9xzi1eWbn8pCfRqk1T2/edit?usp=sharing&ouid=109272455612884300462&rtpof=true&sd=true'
   },
   {
-    id: 'mech-theory-2-cse',
+    id: 'mech-theory-3-cse',
     title: 'Unit 2 PPT',
-    description: 'Unit 1: Fundamentals ',
+    description: 'Unit 1: Pumps and IC Engine',
     type: 'theory',
     subjectId: 'mech-s1-cse',
     fileSize: '3.2 MB',
@@ -1985,7 +1985,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://docs.google.com/presentation/d/1aky5Ho6uulkkpmGU8Ah0x-X4xjwGrMcS/edit?usp=sharing&ouid=109272455612884300462&rtpof=true&sd=true'
   },
   {
-    id: 'mech-theory-3-cse',
+    id: 'mech-theory-4-cse',
     title: 'Unit 3 PPT',
     description: 'Unit 1: Fundamentals ',
     type: 'theory',
@@ -1995,34 +1995,34 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://docs.google.com/presentation/d/1aky5Ho6uulkkpmGU8Ah0x-X4xjwGrMcS/edit?usp=sharing&ouid=109272455612884300462&rtpof=true&sd=true'
   },
   {
-    id: 'mech-theory-4-cse',
-    title: 'Unit 4 PPT',
-    description: 'Unit 1: Fundamentals ',
-    type: 'theory',
-    subjectId: 'mech-s1-cse',
-    fileSize: '3.2 MB',
-    uploadDate: '2024-01-25',
-    viewUrl: 'https://docs.google.com/presentation/d/1aky5Ho6uulkkpmGU8Ah0x-X4xjwGrMcS/edit?usp=sharing&ouid=109272455612884300462&rtpof=true&sd=true'
-  },
-  {
     id: 'mech-theory-5-cse',
-    title: 'Unit 5 PPT',
-    description: 'Unit 1: Fundamentals ',
+    title: 'Unit 4 PPT',
+    description: 'Unit 4: Power Transmission',
     type: 'theory',
     subjectId: 'mech-s1-cse',
     fileSize: '3.2 MB',
     uploadDate: '2024-01-25',
-    viewUrl: 'https://docs.google.com/presentation/d/1aky5Ho6uulkkpmGU8Ah0x-X4xjwGrMcS/edit?usp=sharing&ouid=109272455612884300462&rtpof=true&sd=true'
+    viewUrl: 'https://drive.google.com/file/d/1_RN6AYHlXXQwszqFRokXvUDts31njb6D/view?usp=sharing'
   },
   {
     id: 'mech-theory-6-cse',
+    title: 'Unit 5 PPT',
+    description: 'Unit 5:Primary Manufacturing Process',
+    type: 'theory',
+    subjectId: 'mech-s1-cse',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-01-25',
+    viewUrl: 'https://drive.google.com/file/d/1-v4X0MMcNkrb3E06JXwlVOw_xrjyizlW/view?usp=sharing'
+  },
+  {
+    id: 'mech-theory-7-cse',
     title: 'Unit 6 PPT',
     description: 'Unit 1: Fundamentals ',
     type: 'theory',
     subjectId: 'mech-s1-cse',
     fileSize: '3.2 MB',
     uploadDate: '2024-01-25',
-    viewUrl: 'https://docs.google.com/presentation/d/1aky5Ho6uulkkpmGU8Ah0x-X4xjwGrMcS/edit?usp=sharing&ouid=109272455612884300462&rtpof=true&sd=true'
+    viewUrl: ''
   },
 
   // Programming for problem solving sem 2 (for CSE)
