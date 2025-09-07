@@ -1857,7 +1857,7 @@ export const contentItems: ContentItem[] = [
     description: 'Summary (Poem)',
     type: 'videos',
     subjectId: 'comm-s1-cse',
-    fileSize: '10 minutes',
+    fileSize: '20 minutes',
     uploadDate: '2024-01-16',
     viewUrl: 'https://www.youtube.com/embed/Sq4LBFLP88E?si=FJ_797CXJ8ou8rh1'
   },
@@ -1867,7 +1867,7 @@ export const contentItems: ContentItem[] = [
     description: 'Summary (Poem)',
     type: 'videos',
     subjectId: 'comm-s1-cse',
-    fileSize: '10 minutes',
+    fileSize: '8 minutes',
     uploadDate: '2024-01-16',
     viewUrl: 'https://www.youtube.com/embed/j9kTN2iX2hc?si=bnXit-zxceze2-LG'
   },
