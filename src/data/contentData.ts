@@ -74,26 +74,27 @@ export const contentSubjects: ContentSubject[] = [
     icon: '✏️'
   },
   // ECE
-  {
-    id: 'math1-s1-ece',
-    name: 'Engineering Mathematics-I',
-    code: '1FY2-01',
-    year: 1,
-    semester: 1,
-    branch: 'ECE',
-    description: 'Fundamental mathematical concepts for engineering',
-    icon: '📐'
-  },
-  {
-    id: 'physics-s1-ece',
-    name: 'Engineering Physics',
-    code: '1FY2-02',
-    year: 1,
-    semester: 1,
-    branch: 'ECE',
-    description: 'Basic physics principles and applications',
-    icon: '⚛️'
-  },
+  // {
+  //   id: 'math1-s1-ece',
+  //   name: 'Engineering Mathematics-I',
+  //   code: '1FY2-01',
+  //   year: 1,
+  //   semester: 1,
+  //   branch: 'ECE',
+  //   description: 'Fundamental mathematical concepts for engineering',
+  //   icon: '📐'
+  // },
+  // {
+  //   id: 'physics-s1-ece',
+  //   name: 'Engineering Physics',
+  //   code: '1FY2-02',
+  //   year: 1,
+  //   semester: 1,
+  //   branch: 'ECE',
+  //   description: 'Basic physics principles and applications',
+  //   icon: '⚛️'
+  // },
+  
   {
     id: 'comm-s1-ece',
     name: 'Communication Skills',
