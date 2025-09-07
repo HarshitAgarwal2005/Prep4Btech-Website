@@ -1847,7 +1847,7 @@ export const contentItems: ContentItem[] = [
     description: 'Summary (Poem)',
     type: 'videos',
     subjectId: 'comm-s1-cse',
-    fileSize: '10 minutes',
+    fileSize: '6 minutes',
     uploadDate: '2024-01-16',
     viewUrl: 'https://www.youtube.com/embed/vt1RsT-w1QA?si=BEY9DbukaBGLoH4S'
   },
