@@ -25,7 +25,7 @@ export interface Assignment {
   description: string;
   subject: string;
   year: number;
-  branch: string;
+  branch: string[];
   dueDate: string;
   downloadUrl?: string;
   solutionUrl?: string;
