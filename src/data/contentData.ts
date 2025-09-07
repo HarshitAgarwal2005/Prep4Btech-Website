@@ -1966,6 +1966,16 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mech-theory-2-cse',
+    title: 'Unit 1 PPT',
+    description: 'Unit 1: Boilers ',
+    type: 'theory',
+    subjectId: 'mech-s1-cse',
+    fileSize: '2 MB',
+    uploadDate: '2024-01-25',
+    viewUrl: 'https://docs.google.com/presentation/d/1a1m__MM28xzTw9xzi1eWbn8pCfRqk1T2/edit?usp=sharing&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+  {
+    id: 'mech-theory-2-cse',
     title: 'Unit 2 PPT',
     description: 'Unit 1: Fundamentals ',
     type: 'theory',
