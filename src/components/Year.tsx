@@ -18,9 +18,7 @@ const Year: React.FC = () => {
             'Information Technology',
             'Electrical Engineering',
             'Mechanical Engineering',
-            'Civil Engineering',
-            'Petroleum Engineering',
-            'Biomedical Engineering'
+            'Civil Engineering'
           ]
         },
         {  
@@ -32,9 +30,7 @@ const Year: React.FC = () => {
             'Information Technology',
             'Electrical Engineering',
             'Mechanical Engineering',
-            'Civil Engineering',
-            'Petroleum Engineering',
-            'Biomedical Engineering'
+            'Civil Engineering'
           ]
         }
       ],
