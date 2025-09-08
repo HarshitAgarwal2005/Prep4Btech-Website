@@ -15,7 +15,7 @@ const Year: React.FC = () => {
           description: 'Basic engineering fundamentals',
           subjects: [
             'Computer Science Engineering',
-            'Information Technology',
+            'Electronics and Communication Engineering',
             'Electrical Engineering',
             'Mechanical Engineering',
             'Civil Engineering'
@@ -27,7 +27,7 @@ const Year: React.FC = () => {
           description: 'Advanced fundamentals and programming',
           subjects: [
            'Computer Science Engineering',
-            'Information Technology',
+            'Electronics and Communication Engineering',
             'Electrical Engineering',
             'Mechanical Engineering',
             'Civil Engineering'
@@ -48,7 +48,7 @@ const Year: React.FC = () => {
           description: 'Data structures and algorithms fundamentals',
           subjects: [
             'Computer Science Engineering',
-            'Information Technology',
+            'Electronics and Communication Engineering',
             'Electrical Engineering',
             'Mechanical Engineering',
             'Civil Engineering'
@@ -60,7 +60,7 @@ const Year: React.FC = () => {
           description: 'Database systems and computer networks',
           subjects: [
             'Computer Science Engineering',
-            'Information Technology',
+            'Electronics and Communication Engineering',
             'Electrical Engineering',
             'Mechanical Engineering',
             'Civil Engineering'
@@ -81,7 +81,7 @@ const Year: React.FC = () => {
           description: 'Software engineering and web development',
           subjects: [
            'Computer Science Engineering',
-            'Information Technology',
+            'Electronics and Communication',
             'Electrical Engineering',
             'Mechanical Engineering',
             'Civil Engineering'
@@ -93,8 +93,10 @@ const Year: React.FC = () => {
           description: 'Machine learning and advanced computing',
           subjects: [
            'Computer Science Engineering',
-            'Information Technology',
+            'Electronics and Communication Engineering',
             'Electrical Engineering',
+            'Mechanical Engineering',
+            'Civil Engineering'
           ]
         }
       ],
@@ -112,7 +114,10 @@ const Year: React.FC = () => {
           description: 'Final year project and advanced topics',
           subjects: [
             'Computer Science Engineering',
-            'Information Technology'
+            'Electronics and Communication Engineering',
+            'Electrical Engineering',
+            'Mechanical Engineering',
+            'Civil Engineering'
           ]
         },
         {  
@@ -121,7 +126,10 @@ const Year: React.FC = () => {
           description: 'Industry training and project completion',
           subjects: [
            'Computer Science Engineering',
-            'Information Technology'
+            'Electronics and Communication Engineering',
+            'Electrical Engineering',
+            'Mechanical Engineering',
+            'Civil Engineering'
           ]
         }
       ],
