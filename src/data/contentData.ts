@@ -1265,7 +1265,7 @@ export const contentItems: ContentItem[] = [
     title: 'Engineering Mathematics-I Complete Notes',
     description: 'Comprehensive theory notes covering all topics',
     type: 'theory',
-    subjectId: 'math1-s1-cse',
+    subjectId: 'math1-s1-cse,
     fileSize: '2.5 MB',
     uploadDate: '2024-01-15',
     viewUrl: 'https://example.com/math1-notes'
