@@ -83,6 +83,8 @@ const Year: React.FC = () => {
            'Computer Science Engineering',
             'Information Technology',
             'Electrical Engineering',
+            'Mechanical Engineering',
+            'Civil Engineering'
           ]
         },
         {  
