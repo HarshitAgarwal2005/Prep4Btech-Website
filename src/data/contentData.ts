@@ -1261,7 +1261,7 @@ export const contentSubjects: ContentSubject[] = [
 export const contentItems: ContentItem[] = [
   // Engineering Mathematics-I Content (for CSE)
   {
-    id: 'math1-s1-cse',
+    id: 'math1-theory-1-cse',
     title: 'Engineering Mathematics-I Complete Notes',
     description: 'Comprehensive theory notes covering all topics',
     type: 'theory',
