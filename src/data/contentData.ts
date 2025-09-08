@@ -4,7 +4,7 @@ export const contentSubjects: ContentSubject[] = [
   // First Year - Semester 1 (Common Subjects, differentiated by branch)
   // CSE
   {
-    id: 'math1-s1',
+    id: 'math1-s1-cse,
     name: 'Engineering Mathematics-I',
     code: '1FY2-01',
     year: 1,
@@ -1265,7 +1265,7 @@ export const contentItems: ContentItem[] = [
     title: 'Engineering Mathematics-I Complete Notes',
     description: 'Comprehensive theory notes covering all topics',
     type: 'theory',
-    subjectId: 'math1-s1',
+    subjectId: 'math1-s1-cse',
     fileSize: '2.5 MB',
     uploadDate: '2024-01-15',
     viewUrl: 'https://example.com/math1-notes'
