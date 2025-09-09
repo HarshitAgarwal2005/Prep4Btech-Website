@@ -2079,6 +2079,17 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1y0A4EH4QSqUzrhulsxrzQ2tfib46YHNp/view?usp=drive_link'
   },
+  //ENGINEERING CHEMISTRY
+{
+    id: 'chem-theory-1-cse',
+    title: 'Unit 1 Water',
+    description: 'Complete Notes for Unit 1 Water',
+    type: 'theory',
+    subjectId: 'chem-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
+  },
 
   // Data Structures & Algorithms Content (for CSE)
   {
