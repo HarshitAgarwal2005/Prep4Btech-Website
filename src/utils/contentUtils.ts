@@ -13,17 +13,29 @@ import { ContentItem, ContentSubject } from '../types';
  * @returns An array of subject objects.
  */
 export function getSubjectsForBranch(branchCode: string, year: number, semester: number): ContentSubject[] {
-  // Determine which branch's subjects to look for.
-  // If it's the first year, always use 'CSE' as the source of truth.
-  // Otherwise, use the provided branch code.
-  const lookupBranch = year === 1 ? 'CSE' : branchCode;
+  // For any year greater than 1, find the specific subjects for that branch.
+  if (year !== 1) {
+    return contentSubjects.filter(subject =>
+      subject.branch === branchCode &&
+      subject.year === year &&
+      subject.semester === semester
+    );
+  }
 
-  // Filter the subjects based on the determined branch, year, and semester.
-  return contentSubjects.filter(subject =>
-    subject.branch === lookupBranch &&
+  // For the first year, find the common base subjects from CSE.
+  const commonSubjects = contentSubjects.filter(subject =>
+    subject.branch === 'CSE' &&
     subject.year === year &&
     subject.semester === semester
   );
+
+  // **FIX:** Transform the common subjects to match the requested branch.
+  // This creates new subject objects with the correct branch and ID.
+  return commonSubjects.map(subject => ({
+    ...subject,
+    branch: branchCode, // Set the branch to the one requested (e.g., 'ECE')
+    id: subject.id.replace('-cse', `-${branchCode.toLowerCase()}`), // e.g., 'math1-s1-cse' -> 'math1-s1-ece'
+  }));
 }
 
 /**
