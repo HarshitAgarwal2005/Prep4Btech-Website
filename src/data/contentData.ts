@@ -2256,6 +2256,46 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2025-09-10',
     viewUrl:''
   },
+  {
+    id:'hv-theory-2-cse',
+    title:'Unit 2',
+    description:'Complete Notes for Unit 2',
+    type:'theory',
+    subjectId:'hv-s2-cse',
+    fileSize:'5 MB',
+    uploadDate: '2025-09-10',
+    viewUrl:''
+  },
+  {
+    id:'hv-theory-3-cse',
+    title:'Unit 3',
+    description:'Complete Notes for Unit 3',
+    type:'theory',
+    subjectId:'hv-s2-cse',
+    fileSize:'5 MB',
+    uploadDate: '2025-09-10',
+    viewUrl:''
+  },
+  {
+    id:'hv-theory-4-cse',
+    title:'Unit 4',
+    description:'Complete Notes for Unit 4',
+    type:'theory',
+    subjectId:'hv-s2-cse',
+    fileSize:'5 MB',
+    uploadDate: '2025-09-10',
+    viewUrl:''
+  },
+  {
+    id:'hv-theory-5-cse',
+    title:'Unit 5',
+    description:'Complete Notes for Unit 5',
+    type:'theory',
+    subjectId:'hv-s2-cse',
+    fileSize:'5 MB',
+    uploadDate: '2025-09-10',
+    viewUrl:''
+  },
   // Data Structures & Algorithms Content (for CSE)
   {
     id: 'dsa-theory-1-cse',
