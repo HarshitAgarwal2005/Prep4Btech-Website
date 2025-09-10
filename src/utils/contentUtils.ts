@@ -81,4 +81,3 @@ export function getContentForSubject(subjectId: string): ContentItem[] {
   // If no specific or common content is found, return an empty array.
   return [];
 }
-
