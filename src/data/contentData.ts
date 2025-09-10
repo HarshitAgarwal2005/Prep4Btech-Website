@@ -2317,25 +2317,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: ''
   },
   //BASIC CIVIL ENGINEERING
-  {
-    id: 'cvil-theory-1-cse',
-    title: 'Unit 1',
-    description: 'Complete Notes for Unit 1',
-    type: 'theory',
-    subjectId: 'civil-s2-cse',
-    fileSize: '24.2 MB',
-    uploadDate: '2024-02-01',
-    viewUrl: '{
-    id: 'math2-books-1-cse',
-    title: 'NK',
-    description: 'Complete book',
-    type: 'books',
-    subjectId: 'math2-s2-cse',
-    fileSize: '24.2 MB',
-    uploadDate: '2024-02-01',
-    viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
-  },'
-  },
+
   // Data Structures & Algorithms Content (for CSE 3rd SEM)
   {
     id: 'dsa-theory-1-cse',
