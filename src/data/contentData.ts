@@ -2317,7 +2317,16 @@ export const contentItems: ContentItem[] = [
     viewUrl: ''
   },
   //BASIC CIVIL ENGINEERING
-
+  {
+    id: 'civil-theory-1-cse',
+    title: 'Unit 1',
+    description: 'Complete Notes for Unit 1',
+    type: 'theory',
+    subjectId: 'dsa-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://example.com/dsa-notes'
+  },
   // Data Structures & Algorithms Content (for CSE 3rd SEM)
   {
     id: 'dsa-theory-1-cse',
