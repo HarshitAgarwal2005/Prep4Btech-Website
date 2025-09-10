@@ -2296,6 +2296,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2025-09-10',
     viewUrl:''
   },
+  {
+    id: 'hv-books-1-cse',
+    title: 'NK',
+    description: 'Complete book',
+    type: 'books',
+    subjectId: 'hv-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: ''
+  },
   // Data Structures & Algorithms Content (for CSE 3rd SEM)
   {
     id: 'dsa-theory-1-cse',
