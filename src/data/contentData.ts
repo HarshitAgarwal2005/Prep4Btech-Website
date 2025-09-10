@@ -2245,6 +2245,17 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
+  // HUMAN VALUES 
+  {
+    id:'hv-theory-1-cse',
+    title:'Unit 1',
+    description:'Complete Notes for Unit 1',
+    type:'theory',
+    subjectId:'hv-s2-cse',
+    fileSize:'5 MB',
+    uploadDate: '2025-09-10',
+    viewUrl:''
+  }
   // Data Structures & Algorithms Content (for CSE)
   {
     id: 'dsa-theory-1-cse',
