@@ -1,14 +1,7 @@
 import { ContentSubject, ContentItem } from '../types';
 
-/**
- * OPTIMIZATION:
- * All redundant 1st-year subjects for ECE, EE, MECH, and CIVIL have been removed.
- * The CSE subjects for Year 1 now serve as the single source of truth.
- * The logic to look up these subjects for other branches is now in `getSubjectsForBranch`
- * located in `src/utils/contentUtils.ts`.
- */
 export const contentSubjects: ContentSubject[] = [
-  // First Year - Semester 1 (Base subjects for all branches)
+  // First Year - Semester 1 (COMMON SUBJECTS - DEFINED ONLY FOR CSE)
   {
     id: 'math1-s1-cse',
     name: 'Engineering Mathematics-I',
@@ -69,7 +62,7 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Computer-Aided Machine Drawing',
     icon: '✏️'
   },
-  {
+   {
     id: 'mpws-s1-cse',
     name: 'MPWS',
     code: '1FY3-25',
@@ -80,7 +73,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '✏️'
   },
 
-  // First Year - Semester 2 (Base subjects for all branches)
+  // First Year - Semester 2 (COMMON SUBJECTS - DEFINED ONLY FOR CSE)
   {
     id: 'math2-s2-cse',
     name: 'Engineering Mathematics-II',
@@ -141,9 +134,6 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Computer-Aided Engineering Graphics',
     icon: '📐'
   },
-
-  // NOTE: All 1st year subjects for ECE, EE, MECH, CIVIL are removed.
-  // The application will now use the CSE subjects as the common source.
 
   // Second Year - Semester 3 - CSE
   {
@@ -469,8 +459,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '📚'
   },
 
-  // ECE Subjects
-  // ECE - SEM 3
+  // ECE Subjects (Year 2 onwards)
   {
     id: 'signals-s3-ece',
     name: 'Signals and Systems',
@@ -492,8 +481,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '📻'
   },
 
-  // EE Subjects
-  // EE - Semester 3
+  // EE Subjects (Year 2 onwards)
   {
     id: 'ae-s3-ee',
     name: 'Advance Mathematics',
@@ -564,7 +552,6 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Study of electric and magnetic fields',
     icon: '🧲'
   },
-  // EE - Semester 4
   {
     id: 'bio-s4-ee',
     name: 'Biology',
@@ -634,7 +621,6 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Fundamentals of digital circuits and logic design',
     icon: '🔌'
   },
-  // EE - 3rd year semester 5
   {
     id: 'em-s5-ee',
     name: 'Electrical Materials',
@@ -645,7 +631,7 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Properties and applications of electrical materials',
     icon: '🔬'
   }, {
-    id: 'ps1-s5-ee', // Assuming ps2-s5 was a typo and this is Power System 1
+    id: 'ps1-s5-ee',
     name: 'Power System-I',
     code: '5EE4-02',
     year: 3,
@@ -709,7 +695,6 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Design and analysis of digital control systems',
     icon: '🎛️'
   },
-  // EE - 3rd year semester 6
   {
     id: 'ca-s6-ee',
     name: 'Computer Architecture',
@@ -790,7 +775,6 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Technology of electric and hybrid vehicles',
     icon: '🚙'
   },
-  // EE - 4th year semester 7
   {
     id: 'pec-s7-ee',
     name: 'Professional Elective Course-I',
@@ -810,7 +794,6 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Elective from other departments',
     icon: '📖'
   },
-  // EE - 4th year semester 8
   {
     id: 'pec2-s8-ee',
     name: 'Professional Elective Course-II',
@@ -831,8 +814,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '📖'
   },
 
-  // MECH Subjects
-  // MECH - 2ND YEAR - SEM 3
+  // MECH Subjects (Year 2 onwards)
   {
     id: 'thermo-s3-mech',
     name: 'Thermodynamics',
@@ -855,8 +837,6 @@ export const contentSubjects: ContentSubject[] = [
   },
 ];
 
-// The contentItems array remains exactly the same as before.
-// It only contains the content for the base CSE subjects for the 1st year.
 export const contentItems: ContentItem[] = [
   // Engineering Mathematics-I Content (for CSE)
   {
@@ -1022,7 +1002,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://www.youtube.com/embed?list=PL2xHbdoT5bU__dR9EEEC0iCvClc1ZxxXO'
   },
-  {
+   {
     id: 'physics-videos-2-cse',
     title: 'WAVES OPTICS -> PLAYLIST-II',
     description: 'Reference Playlist for Wave Optics',
@@ -1042,7 +1022,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://youtube.com/embed?list=PL2xHbdoT5bU8dTo3Ia88FX59f9TkPWYex&si=Su6ylBmqvm9uxUFv'
   },
-  {
+   {
     id: 'physics-videos-4-cse',
     title: 'COHERENCE & OPTICAL FIBRE  -> PLAYLIST',
     description: 'Reference Playlist for Coherence and Optical Fibre',
@@ -1052,7 +1032,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://youtube.com/embed?list=PL2xHbdoT5bU-v4TxX47U8I2QkLyBx6CJe&si=GlDAbviGzteX-k5v'
   },
-  {
+   {
     id: 'physics-videos-5-cse',
     title: 'LASER -> PLAYLIST',
     description: 'Reference Playlist for Laser',
@@ -1124,7 +1104,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://drive.google.com/file/d/1hznIvRM9ROwudAgzgKkOkSnwpV5XhBGy/view?usp=drive_link'
   },
-  {
+   {
     id: 'camd-mtt-1-cse',
     title: 'VIVA QUESTIONS',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
@@ -1134,7 +1114,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://drive.google.com/file/d/13KJpegxkTUyp_KKN8z0Pp__ho-x4GNjr/view?usp=drive_link'
   },
-  {
+   {
     id: 'camd-videos-1-cse',
     title: 'ORTHOGONAL PROJECTION -- PLAYLIST',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
@@ -1144,7 +1124,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://youtube.com/playlist?list=PLDN15nk5uLiBpnIOK5r3KXdfFOVzGHJSt&si=yRjEILVa75JwfS4T'
   },
-  {
+   {
     id: 'camd-videos-2-cse',
     title: 'SECTIONAL VIEW -- PLAYLIST',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
@@ -1174,8 +1154,8 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://youtu.be/HH5zoBpzvg4?si=mEXNuCsum_iPTjSy'
   },
-  //  MPWS content (for cse)
-  {
+//  MPWS content (for cse)
+   {
     id: 'mpws-theory-1-cse',
     title: 'CARPENTRY WORKSHOP NOTES',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
@@ -1246,7 +1226,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/14J6DqW0BpmvePUFHFCKTBO-Wnl0NovrX/view?usp=drive_link'
   },
   // pdf notes
-  {
+{
     id: 'mpws-lab-1-cse',
     title: 'CARPENTRY WORKSHOP PDF NOTES',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
@@ -1316,9 +1296,8 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://drive.google.com/file/d/1_s0eTmYM_vRnKogkjofdR6EWxZ7nwkvR/view?usp=drive_link'
   },
-
   //viva voice for mpws
-  {
+   {
     id: 'mpws-mtt-1-cse',
     title: 'CARPENTRY WORKSHOP VIVA QUESTIONS',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
@@ -1398,7 +1377,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'comm-s1-cse',
     fileSize: '10 minutes',
     uploadDate: '2024-01-16',
-    viewUrl: 'https://www.youtube.com/embed/nAN4a7Hnwsg?si=G6NfeQLvxMVjzsCI'
+    viewUrl:'https://www.youtube.com/embed/nAN4a7Hnwsg?si=G6NfeQLvxMVjzsCI'
   },
   {
     id: 'comm-videos-4-cse',
@@ -1636,7 +1615,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1y0A4EH4QSqUzrhulsxrzQ2tfib46YHNp/view?usp=drive_link'
   },
   //ENGINEERING CHEMISTRY
-  {
+{
     id: 'chem-theory-1-cse',
     title: 'Unit 1',
     description: 'Complete Notes for Unit 1 Water',
@@ -1646,7 +1625,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
-  {
+{
     id: 'chem-theory-2-cse',
     title: 'Unit 2',
     description: 'Complete Notes for Unit 2 Organic Fuels',
@@ -1656,7 +1635,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
-  {
+{
     id: 'chem-theory-3-cse',
     title: 'Unit 3',
     description: 'Complete Notes for Unit 3 Corrosion and its control',
@@ -1666,7 +1645,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
-  {
+{
     id: 'chem-theory-4-cse',
     title: 'Unit 4',
     description: 'Complete Notes for Unit 4 Engineering Materials',
@@ -1676,7 +1655,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
-  {
+{
     id: 'chem-theory-5-cse',
     title: 'Unit 5',
     description: 'Complete Notes for Unit 5 Organic Rxn Mech. and Intro. to Drugs',
@@ -1697,7 +1676,6 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
-
   {
     id: 'math2-theory-2-cse',
     title: 'Unit 2',
@@ -1728,7 +1706,6 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
-
   {
     id: 'math2-theory-5-cse',
     title: 'Unit 5',
@@ -1749,7 +1726,6 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
-
   {
     id: 'math2-videos-2-cse',
     title: 'Unit 2',
@@ -1760,7 +1736,6 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
-
   {
     id: 'math2-videos-3-cse',
     title: 'Unit 3',
@@ -1801,56 +1776,56 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
-  // HUMAN VALUES 
+  // HUMAN VALUES
   {
-    id: 'hv-theory-1-cse',
-    title: 'Unit 1',
-    description: 'Complete Notes for Unit 1',
-    type: 'theory',
-    subjectId: 'hv-s2-cse',
-    fileSize: '5 MB',
+    id:'hv-theory-1-cse',
+    title:'Unit 1',
+    description:'Complete Notes for Unit 1',
+    type:'theory',
+    subjectId:'hv-s2-cse',
+    fileSize:'5 MB',
     uploadDate: '2025-09-10',
-    viewUrl: ''
+    viewUrl:''
   },
   {
-    id: 'hv-theory-2-cse',
-    title: 'Unit 2',
-    description: 'Complete Notes for Unit 2',
-    type: 'theory',
-    subjectId: 'hv-s2-cse',
-    fileSize: '5 MB',
+    id:'hv-theory-2-cse',
+    title:'Unit 2',
+    description:'Complete Notes for Unit 2',
+    type:'theory',
+    subjectId:'hv-s2-cse',
+    fileSize:'5 MB',
     uploadDate: '2025-09-10',
-    viewUrl: ''
+    viewUrl:''
   },
   {
-    id: 'hv-theory-3-cse',
-    title: 'Unit 3',
-    description: 'Complete Notes for Unit 3',
-    type: 'theory',
-    subjectId: 'hv-s2-cse',
-    fileSize: '5 MB',
+    id:'hv-theory-3-cse',
+    title:'Unit 3',
+    description:'Complete Notes for Unit 3',
+    type:'theory',
+    subjectId:'hv-s2-cse',
+    fileSize:'5 MB',
     uploadDate: '2025-09-10',
-    viewUrl: ''
+    viewUrl:''
   },
   {
-    id: 'hv-theory-4-cse',
-    title: 'Unit 4',
-    description: 'Complete Notes for Unit 4',
-    type: 'theory',
-    subjectId: 'hv-s2-cse',
-    fileSize: '5 MB',
+    id:'hv-theory-4-cse',
+    title:'Unit 4',
+    description:'Complete Notes for Unit 4',
+    type:'theory',
+    subjectId:'hv-s2-cse',
+    fileSize:'5 MB',
     uploadDate: '2025-09-10',
-    viewUrl: ''
+    viewUrl:''
   },
   {
-    id: 'hv-theory-5-cse',
-    title: 'Unit 5',
-    description: 'Complete Notes for Unit 5',
-    type: 'theory',
-    subjectId: 'hv-s2-cse',
-    fileSize: '5 MB',
+    id:'hv-theory-5-cse',
+    title:'Unit 5',
+    description:'Complete Notes for Unit 5',
+    type:'theory',
+    subjectId:'hv-s2-cse',
+    fileSize:'5 MB',
     uploadDate: '2025-09-10',
-    viewUrl: ''
+    viewUrl:''
   },
   {
     id: 'hv-books-1-cse',
@@ -1935,7 +1910,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://example.com/civil-notes'
   },
   {
-    id: 'caeg-theory-1-cse',
+    id: 'caeg-theory-2-cse',
     title: 'Sheet 2',
     description: 'Complete Sheet 2 Daigrams',
     type: 'theory',
@@ -2080,3 +2055,4 @@ export const branches = [
     color: 'from-purple-500 to-indigo-500'
   }
 ];
+
