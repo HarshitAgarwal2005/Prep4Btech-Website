@@ -2419,10 +2419,10 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://example.com/civil-notes'
   },
   {
-    id: 'caeg-labs-1-cse',
+    id: 'caeg-lab-1-cse',
     title: 'Lab Manual',
     description: 'Complete Manual',
-    type: 'labs',
+    type: 'lab',
     subjectId: 'caeg-s2-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
