@@ -2325,7 +2325,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'civil-s2-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://example.com/dsa-notes'
+    viewUrl: 'https://example.com/civil-notes'
   },
   // Data Structures & Algorithms Content (for CSE 3rd SEM)
   {
