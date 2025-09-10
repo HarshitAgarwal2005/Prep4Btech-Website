@@ -2080,4 +2080,3 @@ export const branches = [
     color: 'from-purple-500 to-indigo-500'
   }
 ];
-
