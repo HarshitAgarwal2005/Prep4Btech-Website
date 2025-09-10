@@ -2327,6 +2327,46 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-15',
     viewUrl: 'https://example.com/civil-notes'
   },
+  {
+    id: 'civil-theory-2-cse',
+    title: 'Unit 2',
+    description: 'Complete Notes for Unit 2',
+    type: 'theory',
+    subjectId: 'civil-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://example.com/civil-notes'
+  },
+  {
+    id: 'civil-theory-3-cse',
+    title: 'Unit 3',
+    description: 'Complete Notes for Unit 3',
+    type: 'theory',
+    subjectId: 'civil-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://example.com/civil-notes'
+  },
+  {
+    id: 'civil-theory-4-cse',
+    title: 'Unit 4',
+    description: 'Complete Notes for Unit 4',
+    type: 'theory',
+    subjectId: 'civil-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://example.com/civil-notes'
+  },
+  {
+    id: 'civil-theory-5-cse',
+    title: 'Unit 5',
+    description: 'Complete Notes for Unit 5',
+    type: 'theory',
+    subjectId: 'civil-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://example.com/civil-notes'
+  },
   // Data Structures & Algorithms Content (for CSE 3rd SEM)
   {
     id: 'dsa-theory-1-cse',
