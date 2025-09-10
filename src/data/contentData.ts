@@ -2296,7 +2296,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2025-09-10',
     viewUrl:''
   },
-  // Data Structures & Algorithms Content (for CSE)
+  // Data Structures & Algorithms Content (for CSE 3rd SEM)
   {
     id: 'dsa-theory-1-cse',
     title: 'Data Structures & Algorithms Complete Notes',
