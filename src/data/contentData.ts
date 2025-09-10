@@ -2422,7 +2422,7 @@ export const contentItems: ContentItem[] = [
     id: 'caeg-lab-1-cse',
     title: 'Lab Manual',
     description: 'Complete Manual',
-    type: 'lab',
+    type: 'labs',
     subjectId: 'caeg-s2-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
