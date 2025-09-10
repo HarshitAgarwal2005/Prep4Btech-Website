@@ -2082,8 +2082,48 @@ export const contentItems: ContentItem[] = [
   //ENGINEERING CHEMISTRY
 {
     id: 'chem-theory-1-cse',
-    title: 'Unit 1 Water',
+    title: 'Unit 1',
     description: 'Complete Notes for Unit 1 Water',
+    type: 'theory',
+    subjectId: 'chem-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
+  },
+{
+    id: 'chem-theory-2-cse',
+    title: 'Unit 2',
+    description: 'Complete Notes for Unit 2 Organic Fuels',
+    type: 'theory',
+    subjectId: 'chem-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
+  },
+{
+    id: 'chem-theory-3-cse',
+    title: 'Unit 3',
+    description: 'Complete Notes for Unit 3 Corrosion and its control',
+    type: 'theory',
+    subjectId: 'chem-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
+  },
+{
+    id: 'chem-theory-4-cse',
+    title: 'Unit 4',
+    description: 'Complete Notes for Unit 4 Engineering Materials',
+    type: 'theory',
+    subjectId: 'chem-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
+  },
+{
+    id: 'chem-theory-5-cse',
+    title: 'Unit 5',
+    description: 'Complete Notes for Unit 5 Organic Rxn Mech. and Intro. to Drugs',
     type: 'theory',
     subjectId: 'chem-s2-cse',
     fileSize: '24.2 MB',
