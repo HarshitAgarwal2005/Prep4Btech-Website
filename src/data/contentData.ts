@@ -2141,6 +2141,81 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
+  
+  {
+    id: 'math2-theory-2-cse',
+    title: 'Unit 2',
+    description: 'Complete Notes for Unit 2',
+    type: 'theory',
+    subjectId: 'math2-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
+  },
+  {
+    id: 'math2-theory-3-cse',
+    title: 'Unit 3',
+    description: 'Complete Notes for Unit 3',
+    type: 'theory',
+    subjectId: 'math2-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
+  },
+  {
+    id: 'math2-theory-4-cse',
+    title: 'Unit 4',
+    description: 'Complete Notes for Unit 4',
+    type: 'theory',
+    subjectId: 'math2-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
+  },
+  
+  {
+    id: 'math2-theory-5-cse',
+    title: 'Unit 5',
+    description: 'Complete Notes for Unit 5',
+    type: 'theory',
+    subjectId: 'math2-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
+  },
+  {
+    id: 'math2-videos-1-cse',
+    title: 'Unit 1',
+    description: 'Complete Playlist for Unit 1',
+    type: 'videos',
+    subjectId: 'math2-s2-cse',
+    fileSize: '5 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
+  },
+  
+  {
+    id: 'math2-videos-2-cse',
+    title: 'Unit 2',
+    description: 'Complete Playlist for Unit 2',
+    type: 'videos',
+    subjectId: 'math2-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
+  },
+  
+  {
+    id: 'math2-videos-3-cse',
+    title: 'Unit 3',
+    description: 'Complete Playlist for Unit 3',
+    type: 'videos',
+    subjectId: 'math2-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
+  },
+  
   // Data Structures & Algorithms Content (for CSE)
   {
     id: 'dsa-theory-1-cse',
