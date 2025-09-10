@@ -2305,7 +2305,17 @@ export const contentItems: ContentItem[] = [
     fileSize: '24.2 MB',
     uploadDate: '2024-02-01',
     viewUrl: ''
-  },
+  }, 
+  {
+    id: 'hv-assignments-1-cse',
+    title: 'Assignments for HV',
+    description: 'Complete Assignment',
+    type: 'assignments',
+    subjectId: 'hv-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: ''
+  }, 
   // Data Structures & Algorithms Content (for CSE 3rd SEM)
   {
     id: 'dsa-theory-1-cse',
