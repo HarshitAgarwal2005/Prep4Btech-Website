@@ -2421,7 +2421,7 @@ export const contentItems: ContentItem[] = [
   {
     id: 'caeg-lab-1-cse',
     title: 'Lab Manual',
-    description: 'Complete Manal',
+    description: 'Complete Manual',
     type: 'lab',
     subjectId: 'caeg-s2-cse',
     fileSize: '4.2 MB',
