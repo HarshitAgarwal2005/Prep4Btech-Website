@@ -2418,6 +2418,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-15',
     viewUrl: 'https://example.com/civil-notes'
   },
+  {
+    id: 'caeg-lab-1-cse',
+    title: 'Lab Manual',
+    description: 'Complete Manal',
+    type: 'lab',
+    subjectId: 'caeg-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://example.com/civil-notes'
+  },
   // Data Structures & Algorithms Content (for CSE 3rd SEM)
   {
     id: 'dsa-theory-1-cse',
