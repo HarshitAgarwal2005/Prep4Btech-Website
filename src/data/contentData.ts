@@ -2255,7 +2255,7 @@ export const contentItems: ContentItem[] = [
     fileSize:'5 MB',
     uploadDate: '2025-09-10',
     viewUrl:''
-  }
+  },
   // Data Structures & Algorithms Content (for CSE)
   {
     id: 'dsa-theory-1-cse',
