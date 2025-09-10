@@ -12,12 +12,14 @@ import { ContentItem, ContentSubject } from '../types';
  * @returns An array of subject objects.
  */
 export function getSubjectsForBranch(branchCode: string, year: number, semester: number): ContentSubject[] {
-  const normalizedBranchCode = branchCode.toUpperCase();
+  // Ensure branchCode is not null and normalize it to uppercase for consistent comparison.
+  const normalizedBranchCode = (branchCode || '').toUpperCase();
 
   // For any year greater than 1, find the specific subjects for that branch.
   if (year !== 1) {
     return contentSubjects.filter(subject =>
-      subject.branch === normalizedBranchCode &&
+      // FIX: Compare branches in a case-insensitive way.
+      subject.branch.toUpperCase() === normalizedBranchCode &&
       subject.year === year &&
       subject.semester === semester
     );
@@ -27,7 +29,8 @@ export function getSubjectsForBranch(branchCode: string, year: number, semester:
 
   // 1. Find the common base subjects from CSE for the given semester.
   const commonBaseSubjects = contentSubjects.filter(subject =>
-    subject.branch === 'CSE' &&
+    // FIX: Compare 'CSE' in a case-insensitive way to handle potential data variations.
+    subject.branch.toUpperCase() === 'CSE' &&
     subject.year === 1 &&
     subject.semester === semester
   );
