@@ -2322,7 +2322,7 @@ export const contentItems: ContentItem[] = [
     title: 'Unit 1',
     description: 'Complete Notes for Unit 1',
     type: 'theory',
-    subjectId: 'dsa-s3-cse',
+    subjectId: 'civil-s2-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
     viewUrl: 'https://example.com/dsa-notes'
