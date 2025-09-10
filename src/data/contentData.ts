@@ -2419,7 +2419,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://example.com/civil-notes'
   },
   {
-    id: 'caeg-lab-1-cse',
+    id: 'caeg-labs-1-cse',
     title: 'Lab Manual',
     description: 'Complete Manual',
     type: 'labs',
