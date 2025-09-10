@@ -1,19 +1,25 @@
 import { ContentSubject, ContentItem } from '../types';
 
+/**
+ * OPTIMIZATION:
+ * All redundant 1st-year subjects for ECE, EE, MECH, and CIVIL have been removed.
+ * The CSE subjects for Year 1 now serve as the single source of truth.
+ * The logic to look up these subjects for other branches is now in `getSubjectsForBranch`
+ * located in `src/utils/contentUtils.ts`.
+ */
 export const contentSubjects: ContentSubject[] = [
-  // First Year - Semester 1 (Common Subjects, differentiated by branch)
-  // CSE
+  // First Year - Semester 1 (Base subjects for all branches)
   {
     id: 'math1-s1-cse',
     name: 'Engineering Mathematics-I',
     code: '1FY2-01',
     year: 1,
     semester: 1,
-     branch: 'CSE',
+    branch: 'CSE',
     description: 'Fundamental mathematical concepts for engineering',
     icon: '📐'
   },
-  { 
+  {
     id: 'physics-s1-cse',
     name: 'Engineering Physics',
     code: '1FY2-02',
@@ -51,7 +57,7 @@ export const contentSubjects: ContentSubject[] = [
     semester: 1,
     branch: 'CSE',
     description: 'Electrical circuits and basic electronics',
-    icon: '⚡' 
+    icon: '⚡'
   },
   {
     id: 'camd-s1-cse',
@@ -63,7 +69,7 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Computer-Aided Machine Drawing',
     icon: '✏️'
   },
-   {
+  {
     id: 'mpws-s1-cse',
     name: 'MPWS',
     code: '1FY3-25',
@@ -73,215 +79,8 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Manufacturing Practices Workshop',
     icon: '✏️'
   },
-  // ECE
-  { 
-    id: 'math1-s1-ece',
-    name: 'Engineering Mathematics-I',
-    code: '1FY2-01',
-    year: 1,
-    semester: 1,
-    branch: 'ECE',
-    description: 'Fundamental mathematical concepts for engineering',
-    icon: '📐'
-  },
-  {
-    id: 'physics-s1-ece',
-    name: 'Engineering Physics',
-    code: '1FY2-02',
-    year: 1,
-    semester: 1,
-    branch: 'ECE',
-    description: 'Basic physics principles and applications',
-    icon: '⚛️'
-  },
-  
-  {
-    id: 'comm-s1-ece',
-    name: 'Communication Skills',
-    code: '1FY1-04',
-    year: 1,
-    semester: 1,
-    branch: 'ECE',
-    description: 'English communication and technical writing',
-    icon: '💬'
-  },
-  {
-    id: 'mech-s1-ece',
-    name: 'Basic Mechanical Engineering',
-    code: '2FY3-07',
-    year: 1,
-    semester: 1,
-    branch: 'ECE',
-    description: 'Introduction to mechanical engineering concepts',
-    icon: '⚙️'
-  },
-  {
-    id: 'elec-s1-ece',
-    name: 'Basic Electrical Engineering',
-    code: '1FY3-08',
-    year: 1,
-    semester: 1,
-    branch: 'ECE',
-    description: 'Electrical circuits and basic electronics',
-    icon: '⚡'
-  },
-  // EE
-  {
-    id: 'math1-s1-ee',
-    name: 'Engineering Mathematics-I',
-    code: '1FY2-01',
-    year: 1,
-    semester: 1,
-    branch: 'EE',
-    description: 'Fundamental mathematical concepts for engineering',
-    icon: '📐'
-  },
-  {
-    id: 'physics-s1-ee',
-    name: 'Engineering Physics',
-    code: '1FY2-02',
-    year: 1,
-    semester: 1,
-    branch: 'EE',
-    description: 'Basic physics principles and applications',
-    icon: '⚛️'
-  },
-  {
-    id: 'comm-s1-ee',
-    name: 'Communication Skills',
-    code: '1FY1-04',
-    year: 1,
-    semester: 1,
-    branch: 'EE',
-    description: 'English communication and technical writing',
-    icon: '💬'
-  },
-  {
-    id: 'mech-s1-ee',
-    name: 'Basic Mechanical Engineering',
-    code: '2FY3-07',
-    year: 1,
-    semester: 1,
-    branch: 'EE',
-    description: 'Introduction to mechanical engineering concepts',
-    icon: '⚙️'
-  },
-  {
-    id: 'elec-s1-ee',
-    name: 'Basic Electrical Engineering',
-    code: '1FY3-08',
-    year: 1,
-    semester: 1,
-    branch: 'EE',
-    description: 'Electrical circuits and basic electronics',
-    icon: '⚡'
-  },
-  // MECH
-  {
-    id: 'math1-s1-mech',
-    name: 'Engineering Mathematics-I',
-    code: '1FY2-01',
-    year: 1,
-    semester: 1,
-    branch: 'MECH',
-    description: 'Fundamental mathematical concepts for engineering',
-    icon: '📐'
-  },
-  {
-    id: 'physics-s1-mech',
-    name: 'Engineering Physics',
-    code: '1FY2-02',
-    year: 1,
-    semester: 1,
-    branch: 'MECH',
-    description: 'Basic physics principles and applications',
-    icon: '⚛️'
-  },
-  {
-    id: 'comm-s1-mech',
-    name: 'Communication Skills',
-    code: '1FY1-04',
-    year: 1,
-    semester: 1,
-    branch: 'MECH',
-    description: 'English communication and technical writing',
-    icon: '💬'
-  },
-  {
-    id: 'mech-s1-mech',
-    name: 'Basic Mechanical Engineering',
-    code: '2FY3-07',
-    year: 1,
-    semester: 1,
-    branch: 'MECH',
-    description: 'Introduction to mechanical engineering concepts',
-    icon: '⚙️'
-  },
-  {
-    id: 'elec-s1-mech',
-    name: 'Basic Electrical Engineering',
-    code: '1FY3-08',
-    year: 1,
-    semester: 1,
-    branch: 'MECH',
-    description: 'Electrical circuits and basic electronics',
-    icon: '⚡'
-  },
-  // CIVIL
-  {
-    id: 'math1-s1-civil',
-    name: 'Engineering Mathematics-I',
-    code: '1FY2-01',
-    year: 1,
-    semester: 1,
-    branch: 'CIVIL',
-    description: 'Fundamental mathematical concepts for engineering',
-    icon: '📐'
-  },
-  {
-    id: 'physics-s1-civil',
-    name: 'Engineering Physics',
-    code: '1FY2-02',
-    year: 1,
-    semester: 1,
-    branch: 'CIVIL',
-    description: 'Basic physics principles and applications',
-    icon: '⚛️'
-  },
-  {
-    id: 'comm-s1-civil',
-    name: 'Communication Skills',
-    code: '1FY1-04',
-    year: 1,
-    semester: 1,
-    branch: 'CIVIL',
-    description: 'English communication and technical writing',
-    icon: '💬'
-  },
-  {
-    id: 'mech-s1-civil',
-    name: 'Basic Mechanical Engineering',
-    code: '2FY3-07',
-    year: 1,
-    semester: 1,
-    branch: 'CIVIL',
-    description: 'Introduction to mechanical engineering concepts',
-    icon: '⚙️'
-  },
-  {
-    id: 'elec-s1-civil',
-    name: 'Basic Electrical Engineering',
-    code: '1FY3-08',
-    year: 1,
-    semester: 1,
-    branch: 'CIVIL',
-    description: 'Electrical circuits and basic electronics',
-    icon: '⚡'
-  },
 
-
-  // First Year - Semester 2 (Common Subjects, differentiated by branch)
-  // CSE
+  // First Year - Semester 2 (Base subjects for all branches)
   {
     id: 'math2-s2-cse',
     name: 'Engineering Mathematics-II',
@@ -342,211 +141,9 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Computer-Aided Engineering Graphics',
     icon: '📐'
   },
-  // ECE
-  {
-    id: 'math2-s2-ece',
-    name: 'Engineering Mathematics-II',
-    code: '2FY2-01',
-    year: 1,
-    semester: 2,
-    branch: 'ECE',
-    description: 'Advanced mathematical concepts and applications',
-    icon: '📊'
-  },
-  {
-    id: 'chem-s2-ece',
-    name: 'Engineering Chemistry',
-    code: '2FY2-03',
-    year: 1,
-    semester: 2,
-    branch: 'ECE',
-    description: 'Chemical principles for engineering applications',
-    icon: '🧪'
-  },
-  {
-    id: 'hv-s2-ece',
-    name: 'Human Values',
-    code: '1FY1-05',
-    year: 1,
-    semester: 2,
-    branch: 'ECE',
-    description: 'Ethics, values and professional development',
-    icon: '🤝'
-  },
-  {
-    id: 'pps-s2-ece',
-    name: 'Programming for Problem Solving',
-    code: '2FY3-06',
-    year: 1,
-    semester: 2,
-    branch: 'ECE',
-    description: 'Introduction to programming concepts',
-    icon: '💻'
-  },
-  {
-    id: 'civil-s2-ece',
-    name: 'Basic Civil Engineering',
-    code: '1FY3-09',
-    year: 1,
-    semester: 2,
-    branch: 'ECE',
-    description: 'Civil engineering fundamentals',
-    icon: '🏗️'
-  },
-  // EE
-  {
-    id: 'math2-s2-ee',
-    name: 'Engineering Mathematics-II',
-    code: '2FY2-01',
-    year: 1,
-    semester: 2,
-    branch: 'EE',
-    description: 'Advanced mathematical concepts and applications',
-    icon: '📊'
-  },
-  {
-    id: 'chem-s2-ee',
-    name: 'Engineering Chemistry',
-    code: '2FY2-03',
-    year: 1,
-    semester: 2,
-    branch: 'EE',
-    description: 'Chemical principles for engineering applications',
-    icon: '🧪'
-  },
-  {
-    id: 'hv-s2-ee',
-    name: 'Human Values',
-    code: '1FY1-05',
-    year: 1,
-    semester: 2,
-    branch: 'EE',
-    description: 'Ethics, values and professional development',
-    icon: '🤝'
-  },
-  {
-    id: 'pps-s2-ee',
-    name: 'Programming for Problem Solving',
-    code: '2FY3-06',
-    year: 1,
-    semester: 2,
-    branch: 'EE',
-    description: 'Introduction to programming concepts',
-    icon: '💻'
-  },
-  {
-    id: 'civil-s2-ee',
-    name: 'Basic Civil Engineering',
-    code: '1FY3-09',
-    year: 1,
-    semester: 2,
-    branch: 'EE',
-    description: 'Civil engineering fundamentals',
-    icon: '🏗️'
-  },
-  // MECH
-  {
-    id: 'math2-s2-mech',
-    name: 'Engineering Mathematics-II',
-    code: '2FY2-01',
-    year: 1,
-    semester: 2,
-    branch: 'MECH',
-    description: 'Advanced mathematical concepts and applications',
-    icon: '📊'
-  },
-  {
-    id: 'chem-s2-mech',
-    name: 'Engineering Chemistry',
-    code: '2FY2-03',
-    year: 1,
-    semester: 2,
-    branch: 'MECH',
-    description: 'Chemical principles for engineering applications',
-    icon: '🧪'
-  },
-  {
-    id: 'hv-s2-mech',
-    name: 'Human Values',
-    code: '1FY1-05',
-    year: 1,
-    semester: 2,
-    branch: 'MECH',
-    description: 'Ethics, values and professional development',
-    icon: '🤝'
-  },
-  {
-    id: 'pps-s2-mech',
-    name: 'Programming for Problem Solving',
-    code: '2FY3-06',
-    year: 1,
-    semester: 2,
-    branch: 'MECH',
-    description: 'Introduction to programming concepts',
-    icon: '💻'
-  },
-  {
-    id: 'civil-s2-mech',
-    name: 'Basic Civil Engineering',
-    code: '1FY3-09',
-    year: 1,
-    semester: 2,
-    branch: 'MECH',
-    description: 'Civil engineering fundamentals',
-    icon: '🏗️'
-  },
-  // CIVIL
-  {
-    id: 'math2-s2-civil',
-    name: 'Engineering Mathematics-II',
-    code: '2FY2-01',
-    year: 1,
-    semester: 2,
-    branch: 'CIVIL',
-    description: 'Advanced mathematical concepts and applications',
-    icon: '📊'
-  },
-  {
-    id: 'chem-s2-civil',
-    name: 'Engineering Chemistry',
-    code: '2FY2-03',
-    year: 1,
-    semester: 2,
-    branch: 'CIVIL',
-    description: 'Chemical principles for engineering applications',
-    icon: '🧪'
-  },
-  {
-    id: 'hv-s2-civil',
-    name: 'Human Values',
-    code: '1FY1-05',
-    year: 1,
-    semester: 2,
-    branch: 'CIVIL',
-    description: 'Ethics, values and professional development',
-    icon: '🤝'
-  },
-  {
-    id: 'pps-s2-civil',
-    name: 'Programming for Problem Solving',
-    code: '2FY3-06',
-    year: 1,
-    semester: 2,
-    branch: 'CIVIL',
-    description: 'Introduction to programming concepts',
-    icon: '💻'
-  },
-  {
-    id: 'civil-s2-civil',
-    name: 'Basic Civil Engineering',
-    code: '1FY3-09',
-    year: 1,
-    semester: 2,
-    branch: 'CIVIL',
-    description: 'Civil engineering fundamentals',
-    icon: '🏗️'
-  },
 
+  // NOTE: All 1st year subjects for ECE, EE, MECH, CIVIL are removed.
+  // The application will now use the CSE subjects as the common source.
 
   // Second Year - Semester 3 - CSE
   {
@@ -1258,6 +855,8 @@ export const contentSubjects: ContentSubject[] = [
   },
 ];
 
+// The contentItems array remains exactly the same as before.
+// It only contains the content for the base CSE subjects for the 1st year.
 export const contentItems: ContentItem[] = [
   // Engineering Mathematics-I Content (for CSE)
   {
@@ -1423,7 +1022,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://www.youtube.com/embed?list=PL2xHbdoT5bU__dR9EEEC0iCvClc1ZxxXO'
   },
-   { 
+  {
     id: 'physics-videos-2-cse',
     title: 'WAVES OPTICS -> PLAYLIST-II',
     description: 'Reference Playlist for Wave Optics',
@@ -1433,7 +1032,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://youtube.com/embed?list=PLU0SZIJ1umnkSHtOidNcWIegDQlbapIjF&si=QK2YKi9FPca5EeQt'
   },
-  { 
+  {
     id: 'physics-videos-3-cse',
     title: 'QUANTUM MECHANICS -> PLAYLIST',
     description: 'Reference Playlist for Quantum Mechanics',
@@ -1443,7 +1042,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://youtube.com/embed?list=PL2xHbdoT5bU8dTo3Ia88FX59f9TkPWYex&si=Su6ylBmqvm9uxUFv'
   },
-   { 
+  {
     id: 'physics-videos-4-cse',
     title: 'COHERENCE & OPTICAL FIBRE  -> PLAYLIST',
     description: 'Reference Playlist for Coherence and Optical Fibre',
@@ -1453,7 +1052,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://youtube.com/embed?list=PL2xHbdoT5bU-v4TxX47U8I2QkLyBx6CJe&si=GlDAbviGzteX-k5v'
   },
-   { 
+  {
     id: 'physics-videos-5-cse',
     title: 'LASER -> PLAYLIST',
     description: 'Reference Playlist for Laser',
@@ -1463,7 +1062,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://youtube.com/embed?list=PLnt5TdZ5ADYLfJHfhgAtbO74ricDxwE4E&si=CZki5_YFf3uxbySM'
   },
-  { 
+  {
     id: 'physics-videos-6-cse',
     title: 'MATERIAL SCIENCE AND SEMICONDUCTOR --> PLAYLIST',
     description: 'Reference Playlist for Material and Semiconductor',
@@ -1473,7 +1072,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://youtube.com/embed?list=PL2xHbdoT5bU-oXm_tW2_QEeTiyNuZesQz&si=lXogQH50YSitHXG2'
   },
-  { 
+  {
     id: 'physics-videos-7-cse',
     title: 'ELECTROMAGNETISM --> PLAYLIST',
     description: 'Reference Playlist for Electromagnetism',
@@ -1493,7 +1092,6 @@ export const contentItems: ContentItem[] = [
     subjectId: 'camd-s1-cse',
     fileSize: '1.9 MB',
     uploadDate: '2024-01-16',
-    // viewUrl: 'https://example.com/camd-manual'
     viewUrl: 'https://drive.google.com/file/d/13KJpegxkTUyp_KKN8z0Pp__ho-x4GNjr/view?usp=drive_link'
   },
   {
@@ -1526,7 +1124,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://drive.google.com/file/d/1hznIvRM9ROwudAgzgKkOkSnwpV5XhBGy/view?usp=drive_link'
   },
-   {
+  {
     id: 'camd-mtt-1-cse',
     title: 'VIVA QUESTIONS',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
@@ -1534,10 +1132,9 @@ export const contentItems: ContentItem[] = [
     subjectId: 'camd-s1-cse',
     fileSize: '1.9 MB',
     uploadDate: '2024-01-16',
-    // viewUrl: 'https://example.com/camd-manual'
     viewUrl: 'https://drive.google.com/file/d/13KJpegxkTUyp_KKN8z0Pp__ho-x4GNjr/view?usp=drive_link'
   },
-   {
+  {
     id: 'camd-videos-1-cse',
     title: 'ORTHOGONAL PROJECTION -- PLAYLIST',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
@@ -1547,7 +1144,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://youtube.com/playlist?list=PLDN15nk5uLiBpnIOK5r3KXdfFOVzGHJSt&si=yRjEILVa75JwfS4T'
   },
-   {
+  {
     id: 'camd-videos-2-cse',
     title: 'SECTIONAL VIEW -- PLAYLIST',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
@@ -1577,8 +1174,8 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://youtu.be/HH5zoBpzvg4?si=mEXNuCsum_iPTjSy'
   },
-//  MPWS content (for cse)
-   {
+  //  MPWS content (for cse)
+  {
     id: 'mpws-theory-1-cse',
     title: 'CARPENTRY WORKSHOP NOTES',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
@@ -1649,7 +1246,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/14J6DqW0BpmvePUFHFCKTBO-Wnl0NovrX/view?usp=drive_link'
   },
   // pdf notes
-{
+  {
     id: 'mpws-lab-1-cse',
     title: 'CARPENTRY WORKSHOP PDF NOTES',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
@@ -1719,9 +1316,9 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://drive.google.com/file/d/1_s0eTmYM_vRnKogkjofdR6EWxZ7nwkvR/view?usp=drive_link'
   },
-  
+
   //viva voice for mpws
-   {
+  {
     id: 'mpws-mtt-1-cse',
     title: 'CARPENTRY WORKSHOP VIVA QUESTIONS',
     description: 'Complete lab manual for Computer-Aided Machine Drawing',
@@ -1741,36 +1338,6 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://drive.google.com/file/d/1uMW45JcDyoFlgSTGsJTYcy58A08vzhkb/view?usp=drive_link'
   },
-  // {
-  //   id: 'mpws-mtt-3-cse',
-  //   title: 'FOUNDARY WORKSHOP VIVA QUESTIONS',
-  //   description: 'Complete lab manual for Manufaturing Practices Workshop',
-  //   type: 'mtt',
-  //   subjectId: 'mpws-s1-cse',
-  //   fileSize: '1.9 MB',
-  //   uploadDate: '2024-01-16',
-  //   viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
-  // },
-  // {
-  //   id: 'mpws-mtt-4-cse',
-  //   title: 'WELDING WORKSHOPVIVA QUESTIONS',
-  //   description: 'Complete lab manual for Manufaturing Practices Workshop',
-  //   type: 'mtt',
-  //   subjectId: 'mpws-s1-cse',
-  //   fileSize: '1.9 MB',
-  //   uploadDate: '2024-01-16',
-  //   viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
-  // },
-  // {
-  //   id: 'mpws-mtt-5-cse',
-  //   title: 'GAS WORKSHOP VIVA QUESTIONS',
-  //   description: 'Complete lab manual for Manufaturing Practices Workshop',
-  //   type: 'mtt',
-  //   subjectId: 'mpws-s1-cse',
-  //   fileSize: '1.9 MB',
-  //   uploadDate: '2024-01-16',
-  //   viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
-  // },
   {
     id: 'mpws-mtt-6-cse',
     title: 'TIN SMITHY WORKSHOP VIVA QUESTIONS',
@@ -1781,18 +1348,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://drive.google.com/file/d/1HDfTSC1NiB7xBJn2IOTOczUeO3gOrijr/view?usp=drive_link'
   },
-  // { 
-  //   id: 'mpws-mtt-7-cse',
-  //   title: 'MACHINE SHOP WORKSHOP VIVA QUESTIONS',
-  //   description: 'Complete lab manual for Manufaturing Practices Worksho',
-  //   type: 'mtt',
-  //   subjectId: 'mpws-s1-cse',
-  //   fileSize: '1.9 MB',
-  //   uploadDate: '2024-01-16',
-  //   viewUrl: 'https://drive.google.com/file/d/1Ofj5-E--2L95DsM4j-XY-AFrq0fY_C8F/view?usp=drive_link'
-  // },
 
-  
   // // Communication Skills Content (for CSE)
   {
     id: 'comm-theory-1-cse',
@@ -1842,7 +1398,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'comm-s1-cse',
     fileSize: '10 minutes',
     uploadDate: '2024-01-16',
-    viewUrl:'https://www.youtube.com/embed/nAN4a7Hnwsg?si=G6NfeQLvxMVjzsCI'
+    viewUrl: 'https://www.youtube.com/embed/nAN4a7Hnwsg?si=G6NfeQLvxMVjzsCI'
   },
   {
     id: 'comm-videos-4-cse',
@@ -2080,7 +1636,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1y0A4EH4QSqUzrhulsxrzQ2tfib46YHNp/view?usp=drive_link'
   },
   //ENGINEERING CHEMISTRY
-{
+  {
     id: 'chem-theory-1-cse',
     title: 'Unit 1',
     description: 'Complete Notes for Unit 1 Water',
@@ -2090,7 +1646,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
-{
+  {
     id: 'chem-theory-2-cse',
     title: 'Unit 2',
     description: 'Complete Notes for Unit 2 Organic Fuels',
@@ -2100,7 +1656,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
-{
+  {
     id: 'chem-theory-3-cse',
     title: 'Unit 3',
     description: 'Complete Notes for Unit 3 Corrosion and its control',
@@ -2110,7 +1666,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
-{
+  {
     id: 'chem-theory-4-cse',
     title: 'Unit 4',
     description: 'Complete Notes for Unit 4 Engineering Materials',
@@ -2120,7 +1676,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
-{
+  {
     id: 'chem-theory-5-cse',
     title: 'Unit 5',
     description: 'Complete Notes for Unit 5 Organic Rxn Mech. and Intro. to Drugs',
@@ -2141,7 +1697,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
-  
+
   {
     id: 'math2-theory-2-cse',
     title: 'Unit 2',
@@ -2172,7 +1728,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
-  
+
   {
     id: 'math2-theory-5-cse',
     title: 'Unit 5',
@@ -2193,7 +1749,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
-  
+
   {
     id: 'math2-videos-2-cse',
     title: 'Unit 2',
@@ -2204,7 +1760,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
-  
+
   {
     id: 'math2-videos-3-cse',
     title: 'Unit 3',
@@ -2247,54 +1803,54 @@ export const contentItems: ContentItem[] = [
   },
   // HUMAN VALUES 
   {
-    id:'hv-theory-1-cse',
-    title:'Unit 1',
-    description:'Complete Notes for Unit 1',
-    type:'theory',
-    subjectId:'hv-s2-cse',
-    fileSize:'5 MB',
+    id: 'hv-theory-1-cse',
+    title: 'Unit 1',
+    description: 'Complete Notes for Unit 1',
+    type: 'theory',
+    subjectId: 'hv-s2-cse',
+    fileSize: '5 MB',
     uploadDate: '2025-09-10',
-    viewUrl:''
+    viewUrl: ''
   },
   {
-    id:'hv-theory-2-cse',
-    title:'Unit 2',
-    description:'Complete Notes for Unit 2',
-    type:'theory',
-    subjectId:'hv-s2-cse',
-    fileSize:'5 MB',
+    id: 'hv-theory-2-cse',
+    title: 'Unit 2',
+    description: 'Complete Notes for Unit 2',
+    type: 'theory',
+    subjectId: 'hv-s2-cse',
+    fileSize: '5 MB',
     uploadDate: '2025-09-10',
-    viewUrl:''
+    viewUrl: ''
   },
   {
-    id:'hv-theory-3-cse',
-    title:'Unit 3',
-    description:'Complete Notes for Unit 3',
-    type:'theory',
-    subjectId:'hv-s2-cse',
-    fileSize:'5 MB',
+    id: 'hv-theory-3-cse',
+    title: 'Unit 3',
+    description: 'Complete Notes for Unit 3',
+    type: 'theory',
+    subjectId: 'hv-s2-cse',
+    fileSize: '5 MB',
     uploadDate: '2025-09-10',
-    viewUrl:''
+    viewUrl: ''
   },
   {
-    id:'hv-theory-4-cse',
-    title:'Unit 4',
-    description:'Complete Notes for Unit 4',
-    type:'theory',
-    subjectId:'hv-s2-cse',
-    fileSize:'5 MB',
+    id: 'hv-theory-4-cse',
+    title: 'Unit 4',
+    description: 'Complete Notes for Unit 4',
+    type: 'theory',
+    subjectId: 'hv-s2-cse',
+    fileSize: '5 MB',
     uploadDate: '2025-09-10',
-    viewUrl:''
+    viewUrl: ''
   },
   {
-    id:'hv-theory-5-cse',
-    title:'Unit 5',
-    description:'Complete Notes for Unit 5',
-    type:'theory',
-    subjectId:'hv-s2-cse',
-    fileSize:'5 MB',
+    id: 'hv-theory-5-cse',
+    title: 'Unit 5',
+    description: 'Complete Notes for Unit 5',
+    type: 'theory',
+    subjectId: 'hv-s2-cse',
+    fileSize: '5 MB',
     uploadDate: '2025-09-10',
-    viewUrl:''
+    viewUrl: ''
   },
   {
     id: 'hv-books-1-cse',
@@ -2305,7 +1861,7 @@ export const contentItems: ContentItem[] = [
     fileSize: '24.2 MB',
     uploadDate: '2024-02-01',
     viewUrl: ''
-  }, 
+  },
   {
     id: 'hv-assignments-1-cse',
     title: 'Assignments for HV',
@@ -2524,3 +2080,4 @@ export const branches = [
     color: 'from-purple-500 to-indigo-500'
   }
 ];
+
