@@ -2367,6 +2367,17 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-15',
     viewUrl: 'https://example.com/civil-notes'
   },
+  // CAEG
+  {
+    id: 'caeg-theory-1-cse',
+    title: 'Sheet 1',
+    description: 'Complete Sheet 1 Daigrams',
+    type: 'theory',
+    subjectId: 'caeg-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://example.com/civil-notes'
+  },
   // Data Structures & Algorithms Content (for CSE 3rd SEM)
   {
     id: 'dsa-theory-1-cse',
