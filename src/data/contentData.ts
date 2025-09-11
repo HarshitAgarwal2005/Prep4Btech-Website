@@ -2778,7 +2778,7 @@ export const contentItems: ContentItem[] = [
   
   {
     id: 'dsa-lab-1-cse',
-    title: 'DSA Lab Programs',
+    title: 'DSA LAB MANUAL',
     description: 'Implementation of data structures in C++',
     type: 'lab',
     subjectId: 'dsa-s3-cse',
@@ -2786,17 +2786,17 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-18',
     viewUrl: 'https://drive.google.com/file/d/1U3rb8UBf8MIOLSMOnDaK04jIdGdmQAsi/view?usp=drive_link'
   },
-  {
-    id: 'dsa-video-1-cse',
-    title: 'DSA Video Tutorials',
-    description: 'Step-by-step algorithm explanations',
-    type: 'videos',
-    subjectId: 'dsa-s3-cse',
-    duration: '120 minutes',
-    uploadDate: '2024-02-20',
-    viewUrl: 'https://example.com/dsa-videos',
-    thumbnailUrl: 'https://placehold.co/600x400/000000/FFFFFF?text=DSA'
-  },
+  // {
+  //   id: 'dsa-video-1-cse',
+  //   title: 'DSA Video Tutorials',
+  //   description: 'Step-by-step algorithm explanations',
+  //   type: 'videos',
+  //   subjectId: 'dsa-s3-cse',
+  //   duration: '120 minutes',
+  //   uploadDate: '2024-02-20',
+  //   viewUrl: 'https://example.com/dsa-videos',
+  //   thumbnailUrl: 'https://placehold.co/600x400/000000/FFFFFF?text=DSA'
+  // },
   {
     id: 'dsa-mtt-1-cse',
     title: 'DSA Mid-Term Test Paper',
