@@ -2786,6 +2786,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-18',
     viewUrl: 'https://drive.google.com/file/d/1U3rb8UBf8MIOLSMOnDaK04jIdGdmQAsi/view?usp=drive_link'
   },
+  {
+    id: 'dsa-books-1-cse',
+    title: 'DSA NK',
+    description: 'Implementation of data structures in C++',
+    type: 'books',
+    subjectId: 'dsa-s3-cse',
+    fileSize: '2.1 MB',
+    uploadDate: '2024-02-18',
+    viewUrl: 'https://drive.google.com/file/d/1GmOjHLI7bn0Kh0sBz2coKm4u63dClDfY/view?usp=drive_link'
+  },
   // {
   //   id: 'dsa-video-1-cse',
   //   title: 'DSA Video Tutorials',
@@ -2797,16 +2807,16 @@ export const contentItems: ContentItem[] = [
   //   viewUrl: 'https://example.com/dsa-videos',
   //   thumbnailUrl: 'https://placehold.co/600x400/000000/FFFFFF?text=DSA'
   // },
-  {
-    id: 'dsa-mtt-1-cse',
-    title: 'DSA Mid-Term Test Paper',
-    description: 'Previous year MTT with detailed solutions',
-    type: 'mtt',
-    subjectId: 'dsa-s3-cse',
-    fileSize: '1.3 MB',
-    uploadDate: '2024-02-25',
-    viewUrl: 'https://example.com/dsa-mtt'
-  }
+  // {
+  //   id: 'dsa-mtt-1-cse',
+  //   title: 'DSA Mid-Term Test Paper',
+  //   description: 'Previous year MTT with detailed solutions',
+  //   type: 'mtt',
+  //   subjectId: 'dsa-s3-cse',
+  //   fileSize: '1.3 MB',
+  //   uploadDate: '2024-02-25',
+  //   viewUrl: 'https://example.com/dsa-mtt'
+  // }
 ];
 
 export const branches = [
