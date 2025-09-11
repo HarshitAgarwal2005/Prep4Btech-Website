@@ -2200,6 +2200,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-15',
     viewUrl: 'https://example.com/civil-notes'
   },
+  {
+    id: 'chem-lab-2-cse',
+    title: 'Complete Lab Manual',
+    description: 'Lab Manual Work',
+    type: 'lab',
+    subjectId: 'chem-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://example.com/civil-notes'
+  },
   // MATHS - 2
   {
     id: 'math2-theory-1-cse',
