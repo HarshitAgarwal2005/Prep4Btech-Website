@@ -3068,7 +3068,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'oop-books-4-cse',
-    title: 'OJECT ORIENTED PROGRAMMING LAB MANUAL',
+    title: 'OJECT ORIENTED PROGRAMMING NK PDF',
     description: 'OJECT ORIENTED PROGRAMMING ',
     type: 'books',
     subjectId: 'oop-s3-cse',
