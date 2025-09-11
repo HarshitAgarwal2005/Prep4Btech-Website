@@ -2967,7 +2967,7 @@ export const contentItems: ContentItem[] = [
 
   //object oriented programming cse 2nd 3rd sem
   {
-    id: 'oop-theory-1-cse',
+    id: 'oops-theory-1-cse',
     title: 'OJECT ORIENTED PROGRAMMING UNIT-1',
     description: 'OJECT ORIENTED PROGRAMMING ',
     type: 'theory',
