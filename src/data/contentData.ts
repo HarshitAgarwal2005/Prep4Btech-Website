@@ -2642,7 +2642,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1c5_0P8o1a77BQLHrkhS-B_H_KJZgkXTM/view?usp=drive_link'
   },
    {
-    id: 'de-assignments-5-cse',
+    id: 'de-assignments-1-cse',
     title: 'DE ASSIGNMENT CO1',
     description: ' Digital Electronics', 
     type: 'assignments',
@@ -2664,8 +2664,18 @@ export const contentItems: ContentItem[] = [
   },
   
    {
-    id: 'de-books-2-cse',
+    id: 'de-books-1-cse',
     title: ' Digital Electronics NK Pdf',
+    description: ' Digital Electronics', 
+    type: 'books',
+    subjectId: 'de-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1oJ5d3jVw7CWBpwPsq-2hxYQKPR60zr3W/view?usp=drive_link'
+  },
+   {
+    id: 'de-books-2-cse',
+    title: ' Digital Electronics Unit -1',
     description: ' Digital Electronics', 
     type: 'books',
     subjectId: 'de-s3-cse',
