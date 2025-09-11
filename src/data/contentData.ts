@@ -2904,6 +2904,56 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1NlKUV-T_b4ERicziOFs9qAOnx9D3usZC/view?usp=drive_link'
   },
+   {
+    id: 'mefa-assignments-1-cse',
+    title: 'MEFA ASSIGNMENTS CO1',
+    description: 'MEFA',
+    type: 'assignments',
+    subjectId: 'mefa-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1NlKUV-T_b4ERicziOFs9qAOnx9D3usZC/view?usp=drive_link'
+  },
+  {
+    id: 'mefa-assignments-2-cse',
+    title: 'MEFA ASSIGNMENTS CO1',
+    description: 'MEFA',
+    type: 'assignments',
+    subjectId: 'mefa-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1NlKUV-T_b4ERicziOFs9qAOnx9D3usZC/view?usp=drive_link'
+  },
+  {
+    id: 'mefa-assignments-3-cse',
+    title: 'MEFA ASSIGNMENTS CO1',
+    description: 'MEFA',
+    type: 'assignments',
+    subjectId: 'mefa-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1NlKUV-T_b4ERicziOFs9qAOnx9D3usZC/view?usp=drive_link'
+  },
+  {
+    id: 'mefa-assignments-4-cse',
+    title: 'MEFA ASSIGNMENTS CO1',
+    description: 'MEFA',
+    type: 'assignments',
+    subjectId: 'mefa-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1NlKUV-T_b4ERicziOFs9qAOnx9D3usZC/view?usp=drive_link'
+  },
+  {
+    id: 'mefa-assignments-5-cse',
+    title: 'MEFA ASSIGNMENTS CO1',
+    description: 'MEFA',
+    type: 'assignments',
+    subjectId: 'mefa-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1NlKUV-T_b4ERicziOFs9qAOnx9D3usZC/view?usp=drive_link'
+  },
   
 ];
 
