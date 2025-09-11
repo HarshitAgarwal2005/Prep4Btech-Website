@@ -2860,7 +2860,7 @@ export const contentItems: ContentItem[] = [
   }, {
     id: 'mefa-books-2-cse',
     title: 'MEFA UNIT-2',
-    description: 'Previous year Assignments with detailed solutions',
+    description: 'MEFA',
     type: 'books',
     subjectId: 'mefa-s3-cse',
     fileSize: '1.3 MB',
@@ -2869,7 +2869,7 @@ export const contentItems: ContentItem[] = [
   }, {
     id: 'mefa-books-3-cse',
     title: 'MEFA UNIT-3',
-    description: 'Previous year Assignments with detailed solutions',
+    description: 'MEFA',
     type: 'books',
     subjectId: 'mefa-s3-cse',
     fileSize: '1.3 MB',
@@ -2878,7 +2878,7 @@ export const contentItems: ContentItem[] = [
   }, {
     id: 'mefa-books-4-cse',
     title: 'MEFA UNIT-4',
-    description: 'Previous year Assignments with detailed solutions',
+    description: 'MEFA',
     type: 'books',
     subjectId: 'mefa-s3-cse',
     fileSize: '1.3 MB',
@@ -2887,7 +2887,7 @@ export const contentItems: ContentItem[] = [
   }, {
     id: 'mefa-books-5-cse',
     title: 'MEFA UNIT-5',
-    description: 'Previous year Assignments with detailed solutions',
+    description: 'MEFA',
     type: 'books',
     subjectId: 'mefa-s3-cse',
     fileSize: '1.3 MB',
