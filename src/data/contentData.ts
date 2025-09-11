@@ -2593,7 +2593,27 @@ export const contentItems: ContentItem[] = [
   },
    {
     id: 'de-theory-2-cse',
-    title: 'unit -1',
+    title: 'unit -2',
+    description: ' Digital Electronics',
+    type: 'theory',
+    subjectId: 'de-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
+  },
+   {
+    id: 'de-theory-3-cse',
+    title: 'unit -3',
+    description: ' Digital Electronics',
+    type: 'theory',
+    subjectId: 'de-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
+  },
+   {
+    id: 'de-theory-4-cse',
+    title: 'unit -4',
     description: ' Digital Electronics',
     type: 'theory',
     subjectId: 'de-s3-cse',
@@ -2603,27 +2623,7 @@ export const contentItems: ContentItem[] = [
   },
    {
     id: 'de-theory-5-cse',
-    title: 'unit -1',
-    description: ' Digital Electronics',
-    type: 'theory',
-    subjectId: 'de-s3-cse',
-    fileSize: '4.2 MB',
-    uploadDate: '2024-02-15',
-    viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
-  },
-   {
-    id: 'de-theory-5-cse',
-    title: 'unit -1',
-    description: ' Digital Electronics',
-    type: 'theory',
-    subjectId: 'de-s3-cse',
-    fileSize: '4.2 MB',
-    uploadDate: '2024-02-15',
-    viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
-  },
-   {
-    id: 'de-theory-5-cse',
-    title: 'unit -1',
+    title: 'unit -5',
     description: ' Digital Electronics',
     type: 'theory',
     subjectId: 'de-s3-cse',
