@@ -2642,10 +2642,10 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1c5_0P8o1a77BQLHrkhS-B_H_KJZgkXTM/view?usp=drive_link'
   },
    {
-    id: 'de-assignment-5-cse',
+    id: 'de-assignments-5-cse',
     title: 'unit -1',
     description: ' Digital Electronics', 
-    type: 'assignment',
+    type: 'assignments',
     subjectId: 'de-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
