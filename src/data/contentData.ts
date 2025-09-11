@@ -2334,7 +2334,7 @@ export const contentItems: ContentItem[] = [
     subjectId:'hv-s2-cse',
     fileSize:'5 MB',
     uploadDate: '2025-09-10',
-    viewUrl:''
+    viewUrl:'https://drive.google.com/file/d/17pbZb6Un948K2_R-smVGN2xR8xqndrPN/view?usp=sharing'
   },
   {
     id:'hv-theory-2-cse',
@@ -2344,7 +2344,7 @@ export const contentItems: ContentItem[] = [
     subjectId:'hv-s2-cse',
     fileSize:'5 MB',
     uploadDate: '2025-09-10',
-    viewUrl:''
+    viewUrl:'https://drive.google.com/file/d/1mlvEAVO3Jfupn1npnQl6TV9-Zw1Urme-/view?usp=sharing'
   },
   {
     id:'hv-theory-3-cse',
@@ -2354,7 +2354,7 @@ export const contentItems: ContentItem[] = [
     subjectId:'hv-s2-cse',
     fileSize:'5 MB',
     uploadDate: '2025-09-10',
-    viewUrl:''
+viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?usp=sharing'
   },
   {
     id:'hv-theory-4-cse',
@@ -2364,7 +2364,7 @@ export const contentItems: ContentItem[] = [
     subjectId:'hv-s2-cse',
     fileSize:'5 MB',
     uploadDate: '2025-09-10',
-    viewUrl:''
+    viewUrl:'https://drive.google.com/file/d/1gNE1xtNLueQOhK9VX61rYvDtbOjFMO_Q/view?usp=sharing'
   },
   {
     id:'hv-theory-5-cse',
