@@ -2532,7 +2532,7 @@ export const contentItems: ContentItem[] = [
   },
 {
     id: 'aem-notes-2-cse',
-    title: 'unit -1',
+    title: 'unit -2',
     description: 'Advanced Engineering Mathematics',
     type: 'notes',
     subjectId: 'aem-s3-cse',
@@ -2542,7 +2542,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'aem-notes-3-cse',
-    title: 'unit -1',
+    title: 'unit -3',
     description: 'Advanced Engineering Mathematics',
     type: 'notes',
     subjectId: 'aem-s3-cse',
