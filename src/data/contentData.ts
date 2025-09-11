@@ -2570,16 +2570,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-15',
     viewUrl: 'https://drive.google.com/file/d/1YLIZylqobkAEcQv0ieyOR0apPbqhN0YY/view?usp=drive_link'
   },
-  // {
-  //   id: 'aem-notes-1-cse',
-  //   title: 'unit -1',
-  //   description: 'Advanced Engineering Mathematics',
-  //   type: 'notes',
-  //   subjectId: 'aem-s3-cse',
-  //   fileSize: '4.2 MB',
-  //   uploadDate: '2024-02-15',
-  //   viewUrl: 'https://drive.google.com/file/d/1mxOsC7ZM1WDxaBYEk57BZu7eYlo-fQek/view?usp=drive_link'
-  // },
+  {
+    id: 'aem-books-1-cse',
+    title: 'Advanced Engineering Mathematics NK Pdf',
+    description: 'Advanced Engineering Mathematics',
+    type: 'books',
+    subjectId: 'aem-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1mxOsC7ZM1WDxaBYEk57BZu7eYlo-fQek/view?usp=drive_link'
+  },
   
   // Data Structures & Algorithms Content (for CSE 3rd SEM)
   {
