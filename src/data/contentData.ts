@@ -2729,7 +2729,7 @@ export const contentItems: ContentItem[] = [
  
   {
     id: 'dsa-theory-1-cse',
-    title: 'Data Structures & Algorithms Complete Notes',
+    title: 'Data Structures & Algorithms Unit -1',
     description: 'Arrays, linked lists, trees, graphs, and algorithms',
     type: 'theory',
     subjectId: 'dsa-s3-cse',
@@ -2739,7 +2739,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'dsa-theory-2-cse',
-    title: 'unit -5',
+    title: 'Data Structures & Algorithms Unit -2',
     description: 'Arrays, linked lists, trees, graphs, and algorithms',
     type: 'theory',
     subjectId: 'dsa-s3-cse',
