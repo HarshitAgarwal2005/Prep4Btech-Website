@@ -2434,7 +2434,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'civil-s2-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://example.com/civil-notes'
+    viewUrl: 'https://drive.google.com/file/d/1hMPsmOSX2n7_vwKLLR5Ug1DJh4l1m9fP/view?usp=sharing'
   },
   {
     id: 'civil-theory-2-cse',
