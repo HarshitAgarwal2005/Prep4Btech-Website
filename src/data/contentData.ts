@@ -2724,9 +2724,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1kbAmOZvnDZuaQxpRIosSrergQlaKMR1t/view?usp=drive_link'
   },
  // Data Structures & Algorithms Content (for CSE 3rd SEM)
-  
-  
- 
+
   {
     id: 'dsa-theory-1-cse',
     title: 'Data Structures & Algorithms Unit -1',
@@ -2735,17 +2733,17 @@ export const contentItems: ContentItem[] = [
     subjectId: 'dsa-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://drive.google.com/drive/folders/1voNPu41-8cFflVI6F-UBvXqjMaSPfJbV?usp=drive_link'
+    viewUrl: 'https://docs.google.com/presentation/d/1-AS86iGm40x3JAVX0WiyqazbJGBDmh54/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
   },
-  {
-    id: 'dsa-the-2-cse',
+   {
+    id: 'dsa-theory-2-cse',
     title: 'Data Structures & Algorithms Unit -2',
     description: 'Arrays, linked lists, trees, graphs, and algorithms',
-    type: 'books',
+    type: 'theory',
     subjectId: 'dsa-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://docs.google.com/presentation/d/1-AS86iGm40x3JAVX0WiyqazbJGBDmh54/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+    viewUrl: 'https://docs.google.com/presentation/d/1Y-bGekqaZZSj_ZYWbJS-3HuPYD3j1Eqq/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
   },
   
   {
