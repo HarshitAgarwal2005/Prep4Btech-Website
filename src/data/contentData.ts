@@ -2609,7 +2609,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'de-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1rQq97-bkReOD5UArdOxTwp9lXEMZA4o5/view?usp=drive_link'
   },
    {
     id: 'de-theory-4-cse',
