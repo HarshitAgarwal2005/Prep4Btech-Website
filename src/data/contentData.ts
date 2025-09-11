@@ -2735,7 +2735,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'dsa-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://example.com/dsa-notes'
+    viewUrl: 'https://drive.google.com/drive/folders/1voNPu41-8cFflVI6F-UBvXqjMaSPfJbV?usp=drive_link'
   },
   {
     id: 'dsa-theory-2-cse',
