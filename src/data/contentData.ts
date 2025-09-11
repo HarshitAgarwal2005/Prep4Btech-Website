@@ -1262,13 +1262,43 @@ export const contentItems: ContentItem[] = [
   // Engineering Mathematics-I Content (for CSE)
   {
     id: 'math1-theory-1-cse',
-    title: 'Engineering Mathematics-I Complete Notes',
+    title: 'Unit 1',
     description: 'Comprehensive theory notes covering all topics',
     type: 'theory',
     subjectId: 'math1-s1-cse',
     fileSize: '2.5 MB',
     uploadDate: '2024-01-15',
     viewUrl: 'https://drive.google.com/file/d/1whQz-fyCmR9pZMDe93oOArWK6UkZzFOF/view?usp=sharing'
+  },
+  {
+    id: 'math1-theory-2-cse',
+    title: 'Unit 2',
+    description: 'Solved examples and practice exercises',
+    type: 'theory',
+    subjectId: 'math1-s1-cse',
+    fileSize: '1.8 MB',
+    uploadDate: '2024-01-20',
+    viewUrl: 'https://drive.google.com/file/d/1nitmrGjW5zEgYmrHffiZejjEl01CmU_X/view?usp=sharing'
+  },
+  {
+    id: 'math1-theory-3-cse',
+    title: 'Unit 3',
+    description: 'Solved examples and practice exercises',
+    type: 'theory',
+    subjectId: 'math1-s1-cse',
+    fileSize: '1.8 MB',
+    uploadDate: '2024-01-20',
+    viewUrl: 'https://drive.google.com/file/d/1cZF1gPJHyMJvHTuc4zo8S8uoDm0cxNYA/view?usp=sharing'
+  },
+  {
+    id: 'math1-theory-4-cse',
+    title: 'Unit 4',
+    description: 'Solved examples and practice exercises',
+    type: 'theory',
+    subjectId: 'math1-s1-cse',
+    fileSize: '1.8 MB',
+    uploadDate: '2024-01-20',
+    viewUrl: 'https://drive.google.com/file/d/1nitmrGjW5zEgYmrHffiZejjEl01CmU_X/view?usp=sharing'
   },
   {
     id: 'math1-theory-2-cse',
@@ -1279,16 +1309,6 @@ export const contentItems: ContentItem[] = [
     fileSize: '1.8 MB',
     uploadDate: '2024-01-20',
     viewUrl: 'https://drive.google.com/file/d/1nitmrGjW5zEgYmrHffiZejjEl01CmU_X/view?usp=sharing'
-  },
-  {
-    id: 'math1-lab-1-cse',
-    title: 'Engineering Mathematics-I Lab Manual',
-    description: 'Laboratory experiments and procedures',
-    type: 'lab',
-    subjectId: 'math1-s1-cse',
-    fileSize: '3.2 MB',
-    uploadDate: '2024-01-25',
-    viewUrl: 'https://example.com/math1-lab'
   },
   {
     id: 'math1-video-1-cse',
