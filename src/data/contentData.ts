@@ -2521,14 +2521,14 @@ export const contentItems: ContentItem[] = [
 
   //2nd year 
 {
-    id: 'caeg-assignments-1-cse',
+    id: 'aem-notes-1-cse',
     title: 'Sketch book',
     description: 'Assignments done in Sketch Book',
-    type: 'assignments',
+    type: 'notes',
     subjectId: 'aem-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://example.com/civil-notes'
+    viewUrl: 'https://drive.google.com/file/d/1mxOsC7ZM1WDxaBYEk57BZu7eYlo-fQek/view?usp=drive_link'
   },
   
   // Data Structures & Algorithms Content (for CSE 3rd SEM)
