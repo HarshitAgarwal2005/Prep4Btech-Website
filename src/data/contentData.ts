@@ -2820,7 +2820,7 @@ export const contentItems: ContentItem[] = [
   {
     id: 'dsa-assignments-1-cse',
     title: 'DSA ASSIGNMENTS CO1',
-    description: 'Previous year MTT with detailed solutions',
+    description: 'Previous year Assignments with detailed solutions',
     type: 'assignments',
     subjectId: 'dsa-s3-cse',
     fileSize: '1.3 MB',
@@ -2830,7 +2830,7 @@ export const contentItems: ContentItem[] = [
     {
     id: 'dsa-assignments-2-cse',
     title: 'DSA ASSIGNMENTS CO2',
-    description: 'Previous year MTT with detailed solutions',
+    description: 'Previous year Assignments with detailed solutions',
     type: 'assignments',
     subjectId: 'dsa-s3-cse',
     fileSize: '1.3 MB',
@@ -2840,7 +2840,7 @@ export const contentItems: ContentItem[] = [
     {
     id: 'dsa-assignments-3-cse',
     title: 'DSA ASSIGNMENTS CO3',
-    description: 'Previous year MTT with detailed solutions',
+    description: 'Previous year Assignments with detailed solutions',
     type: 'assignments',
     subjectId: 'dsa-s3-cse',
     fileSize: '1.3 MB',
