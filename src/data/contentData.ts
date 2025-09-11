@@ -2653,10 +2653,10 @@ export const contentItems: ContentItem[] = [
   },
   
    {
-    id: 'de-assignment-2-cse',
+    id: 'de-assignments-2-cse',
     title: 'unit -1',
     description: ' Digital Electronics', 
-    type: 'assignment',
+    type: 'assignments',
     subjectId: 'de-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
