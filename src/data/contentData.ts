@@ -2685,7 +2685,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'de-books-3-cse',
-    title: ' Digital Electronics Unit -1',
+    title: ' Digital Electronics Unit -2',
     description: ' Digital Electronics', 
     type: 'books',
     subjectId: 'de-s3-cse',
@@ -2695,7 +2695,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'de-books-4-cse',
-    title: ' Digital Electronics Unit -1',
+    title: ' Digital Electronics Unit -3',
     description: ' Digital Electronics', 
     type: 'books',
     subjectId: 'de-s3-cse',
@@ -2705,7 +2705,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'de-books-5-cse',
-    title: ' Digital Electronics Unit -1',
+    title: ' Digital Electronics Unit -4',
     description: ' Digital Electronics', 
     type: 'books',
     subjectId: 'de-s3-cse',
@@ -2715,7 +2715,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'de-books-6-cse',
-    title: ' Digital Electronics Unit -1',
+    title: ' Digital Electronics Unit -5',
     description: ' Digital Electronics', 
     type: 'books',
     subjectId: 'de-s3-cse',
