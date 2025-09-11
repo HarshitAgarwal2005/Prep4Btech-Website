@@ -2977,7 +2977,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1ZY3rIrkdDTtCryxJKxuu7hlWXyjQZv0g/view?usp=drive_link'
   },
   {
-    id: 'oops-theory-2-cse',
+    id: 'oop-theory-2-cse',
     title: 'OJECT ORIENTED PROGRAMMING UNIT-2',
     description: 'OJECT ORIENTED PROGRAMMING ',
     type: 'theory',
