@@ -1268,7 +1268,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'math1-s1-cse',
     fileSize: '2.5 MB',
     uploadDate: '2024-01-15',
-    viewUrl: 'https://example.com/math1-notes'
+    viewUrl: 'https://drive.google.com/file/d/1whQz-fyCmR9pZMDe93oOArWK6UkZzFOF/view?usp=sharing'
   },
   {
     id: 'math1-theory-2-cse',
@@ -1278,7 +1278,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'math1-s1-cse',
     fileSize: '1.8 MB',
     uploadDate: '2024-01-20',
-    viewUrl: 'https://example.com/math1-practice'
+    viewUrl: 'https://drive.google.com/file/d/1nitmrGjW5zEgYmrHffiZejjEl01CmU_X/view?usp=sharing'
   },
   {
     id: 'math1-lab-1-cse',
