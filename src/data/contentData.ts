@@ -2180,6 +2180,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
+  {
+    id: 'chem-assignments-1-cse',
+    title: 'Assignments 1',
+    description: 'Assignment 1',
+    type: 'assignments',
+    subjectId: 'caeg-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://example.com/civil-notes'
+  },
   // MATHS - 2
   {
     id: 'math2-theory-1-cse',
