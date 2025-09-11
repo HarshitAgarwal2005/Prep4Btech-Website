@@ -2198,7 +2198,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'chem-s2-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://example.com/civil-notes'
+    viewUrl: 'https://drive.google.com/file/d/1nuy0Srd5Zb_pIOMpqPutYkWMgSSUvi43/view?usp=sharing'
   },
   {
     id: 'chem-lab-2-cse',
