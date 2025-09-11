@@ -2153,7 +2153,7 @@ export const contentItems: ContentItem[] = [
   {
     id: 'chem-videos-3-cse',
     title: 'Unit 3',
-    description: 'Complete Playlist for Unit 3',
+    description: 'Complete Playlist for Unit 3 Corrosion',
     type: 'videos',
     subjectId: 'chem-s2-cse',
     fileSize: '5 minutes',
