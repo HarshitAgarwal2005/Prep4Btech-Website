@@ -2558,7 +2558,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'aem-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://drive.google.com/file/d/1mxOsC7ZM1WDxaBYEk57BZu7eYlo-fQek/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/14eKnMvTY2LQBxaOqYZk7OD4-kT5x708I/view?usp=drive_link'
   },
   {
     id: 'aem-notes-5-cse',
