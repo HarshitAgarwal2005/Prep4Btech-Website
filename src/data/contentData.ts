@@ -2858,8 +2858,8 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/10IQb_yMp8xPYv3l-Y-j9GFpRrDFFVt2G/view?usp=drive_link'
   }, {
-    id: 'mefa-books-1-cse',
-    title: 'DSA ASSIGNMENTS CO3',
+    id: 'mefa-books-2-cse',
+    title: 'MEFA UNIT-2',
     description: 'Previous year Assignments with detailed solutions',
     type: 'books',
     subjectId: 'mefa-s3-cse',
@@ -2868,7 +2868,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/10IQb_yMp8xPYv3l-Y-j9GFpRrDFFVt2G/view?usp=drive_link'
   }, {
     id: 'mefa-books-3-cse',
-    title: 'DSA ASSIGNMENTS CO3',
+    title: 'MEFA UNIT-3',
     description: 'Previous year Assignments with detailed solutions',
     type: 'books',
     subjectId: 'mefa-s3-cse',
@@ -2876,8 +2876,8 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/10IQb_yMp8xPYv3l-Y-j9GFpRrDFFVt2G/view?usp=drive_link'
   }, {
-    id: 'mefa-books-3-cse',
-    title: 'DSA ASSIGNMENTS CO3',
+    id: 'mefa-books-4-cse',
+    title: 'MEFA UNIT-4',
     description: 'Previous year Assignments with detailed solutions',
     type: 'books',
     subjectId: 'mefa-s3-cse',
@@ -2885,8 +2885,8 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/10IQb_yMp8xPYv3l-Y-j9GFpRrDFFVt2G/view?usp=drive_link'
   }, {
-    id: 'mefa-books-3-cse',
-    title: 'DSA ASSIGNMENTS CO3',
+    id: 'mefa-books-5-cse',
+    title: 'MEFA UNIT-5',
     description: 'Previous year Assignments with detailed solutions',
     type: 'books',
     subjectId: 'mefa-s3-cse',
