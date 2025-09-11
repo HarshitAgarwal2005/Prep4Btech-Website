@@ -2663,6 +2663,17 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1BFMEKaboZh1d_9gL-UQEqnd8SUKbG7oK/view?usp=drive_link'
   },
   
+   {
+    id: 'de-books-2-cse',
+    title: 'DE ASSIGNMENT CO2',
+    description: ' Digital Electronics', 
+    type: 'books',
+    subjectId: 'de-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1BFMEKaboZh1d_9gL-UQEqnd8SUKbG7oK/view?usp=drive_link'
+  },
+  
   
   // Data Structures & Algorithms Content (for CSE 3rd SEM)
   {
