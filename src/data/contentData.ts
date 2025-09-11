@@ -3056,6 +3056,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1tkW6nSy6MCAbLkGHyHPWuF9wumvcveCU/view?usp=drive_link'
   },
+   {
+    id: 'oop-lab-4-cse',
+    title: 'OJECT ORIENTED PROGRAMMING LAB MANUAL',
+    description: 'OJECT ORIENTED PROGRAMMING ',
+    type: 'lab',
+    subjectId: 'oop-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1tkW6nSy6MCAbLkGHyHPWuF9wumvcveCU/view?usp=drive_link'
+  },
   
 ];
 
