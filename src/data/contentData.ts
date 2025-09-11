@@ -2580,6 +2580,18 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-15',
     viewUrl: 'https://drive.google.com/drive/folders/1Yzc4-ov7DvbS4Pj4CXXrv5Yj3yECHlW7?usp=drive_link'
   },
+  // digital electronics 2nd yr
+  {
+    id: 'de-notes-5-cse',
+    title: 'unit -1',
+    description: '  // Digital Electronics',
+    type: 'notes',
+    subjectId: 'aem-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1YLIZylqobkAEcQv0ieyOR0apPbqhN0YY/view?usp=drive_link'
+  },
+  
   
   // Data Structures & Algorithms Content (for CSE 3rd SEM)
   {
