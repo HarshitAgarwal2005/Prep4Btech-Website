@@ -2883,7 +2883,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'mefa-s3-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/10IQb_yMp8xPYv3l-Y-j9GFpRrDFFVt2G/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1R3q_Jz_fnB0Q4Tk9RJd7KM6uTj-iTB3g/view?usp=drive_link'
   }, {
     id: 'mefa-books-5-cse',
     title: 'MEFA UNIT-5',
