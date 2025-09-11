@@ -2912,7 +2912,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'mefa-s3-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1NlKUV-T_b4ERicziOFs9qAOnx9D3usZC/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1Fz7uPiXpOtg5YPjUUA9oji9EQjB5zjJo/view?usp=drive_link'
   },
   {
     id: 'mefa-assignments-2-cse',
