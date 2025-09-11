@@ -2546,6 +2546,66 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-15',
     viewUrl: 'https://drive.google.com/file/d/1gZuTeDtGf4dlyc5rKOr3ki5n9xhH8C03/view?usp=sharing'
   },
+  {
+    id: 'cviil-books-1-cse',
+    title: 'NK',
+    description: 'NK ',
+    type: 'books',
+    subjectId: 'civil-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1gZuTeDtGf4dlyc5rKOr3ki5n9xhH8C03/view?usp=sharing'
+  },
+  {
+    id: 'cviil-books-1-cse',
+    title: 'Unit 1',
+    description: 'Aashriwad',
+    type: 'books',
+    subjectId: 'civil-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1L8S6obTJb-ezH7-oYctag4uGjwdId9MG/view?usp=sharing'
+  },
+  {
+    id: 'cviil-books-1-cse',
+    title: 'NK',
+    description: 'NK ',
+    type: 'books',
+    subjectId: 'civil-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1gZuTeDtGf4dlyc5rKOr3ki5n9xhH8C03/view?usp=sharing'
+  },
+  {
+    id: 'cviil-books-1-cse',
+    title: 'NK',
+    description: 'NK ',
+    type: 'books',
+    subjectId: 'civil-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1gZuTeDtGf4dlyc5rKOr3ki5n9xhH8C03/view?usp=sharing'
+  },
+  {
+    id: 'cviil-books-1-cse',
+    title: 'NK',
+    description: 'NK ',
+    type: 'books',
+    subjectId: 'civil-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1gZuTeDtGf4dlyc5rKOr3ki5n9xhH8C03/view?usp=sharing'
+  },
+  {
+    id: 'cviil-books-1-cse',
+    title: 'NK',
+    description: 'NK ',
+    type: 'books',
+    subjectId: 'civil-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1gZuTeDtGf4dlyc5rKOr3ki5n9xhH8C03/view?usp=sharing'
+  },
   // CAEG
   {
     id: 'caeg-theory-1-cse',
