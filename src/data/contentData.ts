@@ -2582,6 +2582,66 @@ export const contentItems: ContentItem[] = [
   },
   // digital electronics 2nd yr
   {
+    id: 'de-theory-1-cse',
+    title: 'unit -1',
+    description: ' Digital Electronics',
+    type: 'theory',
+    subjectId: 'de-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
+  },
+   {
+    id: 'de-theory-2-cse',
+    title: 'unit -1',
+    description: ' Digital Electronics',
+    type: 'theory',
+    subjectId: 'de-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
+  },
+   {
+    id: 'de-notes-5-cse',
+    title: 'unit -1',
+    description: ' Digital Electronics',
+    type: 'theory',
+    subjectId: 'de-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
+  },
+   {
+    id: 'de-notes-5-cse',
+    title: 'unit -1',
+    description: ' Digital Electronics',
+    type: 'theory',
+    subjectId: 'de-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
+  },
+   {
+    id: 'de-notes-5-cse',
+    title: 'unit -1',
+    description: ' Digital Electronics',
+    type: 'theory',
+    subjectId: 'de-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
+  },
+   {
+    id: 'de-notes-5-cse',
+    title: 'unit -1',
+    description: ' Digital Electronics',
+    type: 'theory',
+    subjectId: 'de-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
+  },
+   {
     id: 'de-notes-5-cse',
     title: 'unit -1',
     description: ' Digital Electronics',
