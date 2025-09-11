@@ -3076,6 +3076,17 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1xY1QTERneYeLlTcRsY4sQiLGq6BEkWjU/view?usp=drive_link'
   },
+  // se 2nd year 3rd sem 
+  {
+    id: 'se-theory-4-cse',
+    title: 'SOFTWARE ENGINEERING UNIT-1',
+    description: 'SOFTWARE ENGINEERING ',
+    type: 'theory',
+    subjectId: 'se-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1QmdL6f0pSShpQgSY5JfeO0LYiI_zoyIP/view?usp=drive_link'
+  },
   
 ];
 
