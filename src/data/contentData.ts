@@ -2185,7 +2185,7 @@ export const contentItems: ContentItem[] = [
     title: 'Assignments 1',
     description: 'Assignment 1',
     type: 'assignments',
-    subjectId: 'caeg-s2-cse',
+    subjectId: 'chem-s2-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
     viewUrl: 'https://example.com/civil-notes'
