@@ -2825,7 +2825,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'dsa-s3-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://example.com/dsa-mtt'
+    viewUrl: 'https://drive.google.com/file/d/1ILW0Nzko43ShUEnH4Bdc3pEBa2xf3h5K/view?usp=drive_link'
   },
     {
     id: 'dsa-assignments-2-cse',
@@ -2835,7 +2835,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'dsa-s3-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://example.com/dsa-mtt'
+    viewUrl: 'https://drive.google.com/file/d/1IMXya14ws1y98Papc4Ztdev3icBqFsMK/view?usp=drive_link'
   },
     {
     id: 'dsa-assignments-3-cse',
