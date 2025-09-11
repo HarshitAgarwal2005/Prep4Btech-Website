@@ -119,7 +119,7 @@ https://prep4btech.netlify.app
 ## Contact
 
 **Developer**: Harshit Agarwal  
-**Email**: harshitagarwal25907@gmail.com  
+**Email**: harshitagarwal25807@gmail.com  
 **College**: JECRC Foundation, Jaipur  
 **Branch**: Computer Science Engineering (CSE)
 
