@@ -2643,7 +2643,7 @@ export const contentItems: ContentItem[] = [
   },
    {
     id: 'de-assignments-5-cse',
-    title: 'unit -1',
+    title: 'DE ASSIGNMENT CO1',
     description: ' Digital Electronics', 
     type: 'assignments',
     subjectId: 'de-s3-cse',
