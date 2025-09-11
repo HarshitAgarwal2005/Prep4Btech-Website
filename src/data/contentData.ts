@@ -2545,7 +2545,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'caeg-s2-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://example.com/civil-notes'
+    viewUrl: 'https://drive.google.com/file/d/1q5BkazLvfnQtAe-HwYbjeh_WE9BwSrk3/view?usp=sharing'
   },
 
   //2nd year 
