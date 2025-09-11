@@ -2639,7 +2639,7 @@ export const contentItems: ContentItem[] = [
   //   subjectId: 'de-s3-cse',
   //   fileSize: '4.2 MB',
   //   uploadDate: '2024-02-15',
-  //   viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
+  //   viewUrl: 'https://drive.google.com/file/d/1c5_0P8o1a77BQLHrkhS-B_H_KJZgkXTM/view?usp=drive_link'
   // },
   //  {
   //   id: 'de-theory-5-cse',
