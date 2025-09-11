@@ -2521,7 +2521,7 @@ export const contentItems: ContentItem[] = [
 
   //2nd year 
 {
-    id: 'aem-notes-1-cse',
+    id: 'aem-theory-1-cse',
     title: 'unit -1',
     description: 'Advanced Engineering Mathematics',
     type: 'theory',
@@ -2531,7 +2531,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1mxOsC7ZM1WDxaBYEk57BZu7eYlo-fQek/view?usp=drive_link'
   },
 {
-    id: 'aem-notes-2-cse',
+    id: 'aem-theory-2-cse',
     title: 'unit -2',
     description: 'Advanced Engineering Mathematics',
     type: 'theory',
@@ -2541,7 +2541,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1GoJn6UEnJzLH2K9Xo5HgW-O-ACbtVluB/view?usp=drive_link'
   },
   {
-    id: 'aem-notes-3-cse',
+    id: 'aem-theory-3-cse',
     title: 'unit -3',
     description: 'Advanced Engineering Mathematics',
     type: 'theory',
@@ -2551,7 +2551,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1QJDRfpdLK8Tbaf7r2tai9fti-P_GEFxN/view?usp=drive_link'
   },
   {
-    id: 'aem-notes-4-cse',
+    id: 'aem-theory-4-cse',
     title: 'unit -4',
     description: 'Advanced Engineering Mathematics',
     type: 'theory',
@@ -2561,7 +2561,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/14eKnMvTY2LQBxaOqYZk7OD4-kT5x708I/view?usp=drive_link'
   },
   {
-    id: 'aem-notes-5-cse',
+    id: 'aem-theory-5-cse',
     title: 'unit -5',
     description: 'Advanced Engineering Mathematics',
     type: 'theory',
