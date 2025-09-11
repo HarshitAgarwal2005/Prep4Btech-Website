@@ -2631,16 +2631,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-15',
     viewUrl: 'https://drive.google.com/file/d/1_EuUXRYe1-_22mtLbl-TbmCS1L238VkL/view?usp=drive_link'
   },
-  //  {
-  //   id: 'de-lab-5-cse',
-  //   title: 'LAB MANUAL',
-  //   description: ' Digital Electronics',
-  //   type: 'lab',
-  //   subjectId: 'de-s3-cse',
-  //   fileSize: '4.2 MB',
-  //   uploadDate: '2024-02-15',
-  //   viewUrl: 'https://drive.google.com/file/d/1c5_0P8o1a77BQLHrkhS-B_H_KJZgkXTM/view?usp=drive_link'
-  // },
+   {
+    id: 'de-lab-1-cse',
+    title: 'LAB MANUAL',
+    description: ' Digital Electronics',
+    type: 'lab',
+    subjectId: 'de-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1c5_0P8o1a77BQLHrkhS-B_H_KJZgkXTM/view?usp=drive_link'
+  },
   //  {
   //   id: 'de-theory-5-cse',
   //   title: 'unit -1',
