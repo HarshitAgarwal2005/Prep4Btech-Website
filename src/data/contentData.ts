@@ -2816,7 +2816,37 @@ export const contentItems: ContentItem[] = [
   //   fileSize: '1.3 MB',
   //   uploadDate: '2024-02-25',
   //   viewUrl: 'https://example.com/dsa-mtt'
-  // }
+  // },
+  {
+    id: 'dsa-assignments-1-cse',
+    title: 'DSA Mid-Term Test Paper',
+    description: 'Previous year MTT with detailed solutions',
+    type: 'mtt',
+    subjectId: 'dsa-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://example.com/dsa-mtt'
+  },
+    {
+    id: 'dsa-mtt-1-cse',
+    title: 'DSA Mid-Term Test Paper',
+    description: 'Previous year MTT with detailed solutions',
+    type: 'mtt',
+    subjectId: 'dsa-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://example.com/dsa-mtt'
+  },
+    {
+    id: 'dsa-mtt-1-cse',
+    title: 'DSA Mid-Term Test Paper',
+    description: 'Previous year MTT with detailed solutions',
+    type: 'mtt',
+    subjectId: 'dsa-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://example.com/dsa-mtt'
+  }
 ];
 
 export const branches = [
