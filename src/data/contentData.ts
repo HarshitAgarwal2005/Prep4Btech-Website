@@ -2536,6 +2536,16 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-15',
     viewUrl: 'https://drive.google.com/file/d/1pnd8sOl7qbiBQva5k2aAa_TZ4G_VifJX/view?usp=sharing'
   },
+  {
+    id: 'cviil-books-1-cse',
+    title: 'NK',
+    description: 'NK ',
+    type: 'books',
+    subjectId: 'civil-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/drive/folders/1EGhBVOGGAQhXrkya0xC1C9lZDra4Jf7c?usp=sharing'
+  },
   // CAEG
   {
     id: 'caeg-theory-1-cse',
