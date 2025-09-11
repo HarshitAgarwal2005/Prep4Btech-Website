@@ -2784,7 +2784,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'dsa-s3-cse',
     fileSize: '2.1 MB',
     uploadDate: '2024-02-18',
-    viewUrl: 'https://example.com/dsa-lab'
+    viewUrl: 'https://drive.google.com/file/d/1U3rb8UBf8MIOLSMOnDaK04jIdGdmQAsi/view?usp=drive_link'
   },
   {
     id: 'dsa-video-1-cse',
