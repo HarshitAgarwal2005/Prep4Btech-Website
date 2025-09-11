@@ -2183,16 +2183,16 @@ export const contentItems: ContentItem[] = [
   {
     id: 'chem-assignments-1-cse',
     title: 'Assignments 1',
-    description: 'Assignment 1',
+    description: 'Assignment Unit 1 and 2',
     type: 'assignments',
     subjectId: 'chem-s2-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://example.com/civil-notes'
+    viewUrl: 'https://drive.google.com/file/d/1i35qx4zsDwRBESRPPxTiE0ihpdBmAYJg/view?usp=sharing'
   },
   {
     id: 'chem-assignments-2-cse',
-    title: 'Assignment 2',
+    title: 'Assignment Unit 3,4,5',
     description: 'Assignment 2',
     type: 'assignments',
     subjectId: 'chem-s2-cse',
