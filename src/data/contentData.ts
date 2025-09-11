@@ -2130,6 +2130,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   },
+  {
+    id: 'chem-videos-1-cse',
+    title: 'Unit 1',
+    description: 'Complete Playlist for Unit 1',
+    type: 'videos',
+    subjectId: 'chem-s2-cse',
+    fileSize: '5 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
+  },
   // MATHS - 2
   {
     id: 'math2-theory-1-cse',
