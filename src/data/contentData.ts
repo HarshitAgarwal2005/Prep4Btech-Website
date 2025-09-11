@@ -2396,6 +2396,16 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     viewUrl: ''
   }, 
   {
+    id: 'hv-lab-1-cse',
+    title: 'Lab Manual',
+    description: 'Complete Lab Manual',
+    type: 'lab',
+    subjectId: 'hv-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1wia-3sFwL6vRPTEpP_Bzxq7_R6m-tC9U/view?usp=sharing'
+  }, 
+  {
     id: 'hv-assignments-1-cse',
     title: 'Assignments for HV',
     description: 'Complete Assignment',
