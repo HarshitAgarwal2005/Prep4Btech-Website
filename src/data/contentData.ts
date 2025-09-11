@@ -2977,24 +2977,24 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1ZY3rIrkdDTtCryxJKxuu7hlWXyjQZv0g/view?usp=drive_link'
   },
   {
-    id: 'oops-theory-1-cse',
-    title: 'OJECT ORIENTED PROGRAMMING UNIT-1',
+    id: 'oops-theory-2-cse',
+    title: 'OJECT ORIENTED PROGRAMMING UNIT-2',
     description: 'OJECT ORIENTED PROGRAMMING ',
     type: 'theory',
     subjectId: 'oops-s3-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://docs.google.com/document/d/1GDYMKSKuFnowiJ3M_D0vueR0XjvcpeAX_Mhmn_02B9w/edit?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/16SiIvQ4cQ-R0VoYGVCP_MEKu2o-VZrO6/view?usp=drive_link'
   },
   {
-    id: 'oops-theory-1-cse',
-    title: 'OJECT ORIENTED PROGRAMMING UNIT-1',
+    id: 'oops-theory-3-cse',
+    title: 'OJECT ORIENTED PROGRAMMING UNIT-3',
     description: 'OJECT ORIENTED PROGRAMMING ',
     type: 'theory',
     subjectId: 'oops-s3-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://docs.google.com/document/d/1GDYMKSKuFnowiJ3M_D0vueR0XjvcpeAX_Mhmn_02B9w/edit?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1newZboIk6_8kNObNm6qbSsDltdecGu-l/view?usp=drive_link'
   },
   {
     id: 'oops-theory-1-cse',
