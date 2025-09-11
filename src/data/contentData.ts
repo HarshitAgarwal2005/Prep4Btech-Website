@@ -2848,7 +2848,17 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/10IQb_yMp8xPYv3l-Y-j9GFpRrDFFVt2G/view?usp=drive_link'
   },
   // mefa cse 2nd yr 3rd sem
-   {
+  {
+    id: 'mefa-theory-1-cse',
+    title: 'MEFA UNIT-2',
+    description: 'MEFA NOTES ',
+    type: 'theory',
+    subjectId: 'mefa-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1KMVVuQzI9olBJOF_i6Ru7UptbeHEapIm/view?usp=drive_link'
+  },
+  {
     id: 'mefa-books-1-cse',
     title: 'MEFA UNIT-1',
     description: 'MEFA',
