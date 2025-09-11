@@ -2522,8 +2522,8 @@ export const contentItems: ContentItem[] = [
   //2nd year 
 {
     id: 'aem-notes-1-cse',
-    title: 'Sketch book',
-    description: 'Assignments done in Sketch Book',
+    title: 'unit -1',
+    description: 'Advanced Engineering Mathematics',
     type: 'notes',
     subjectId: 'aem-s3-cse',
     fileSize: '4.2 MB',
