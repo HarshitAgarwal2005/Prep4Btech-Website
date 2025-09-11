@@ -2456,16 +2456,6 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-15',
     viewUrl: 'https://drive.google.com/file/d/1TEXyua3f_z0W9NT2OLZBhr2RjqsJvDo9/view?usp=sharing'
   },
-  {
-    id: 'civil-lab-1-cse',
-    title: 'Lab Manual',
-    description: 'Complete Manual',
-    type: 'lab',
-    subjectId: 'civil-s2-cse',
-    fileSize: '4.2 MB',
-    uploadDate: '2024-02-15',
-    viewUrl: 'https://drive.google.com/file/d/1cTbNR37X0fqPS6P1fv2PKNqaRBAWTG5a/view?usp=sharing'
-  },
   // {
   //   id: 'civil-theory-4-cse',
   //   title: 'Unit 4',
@@ -2486,7 +2476,26 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   //   uploadDate: '2024-02-15',
   //   viewUrl: 'https://example.com/civil-notes'
   // },
-  
+  {
+    id: 'civil-lab-1-cse',
+    title: 'Lab Manual',
+    description: 'Complete Manual',
+    type: 'lab',
+    subjectId: 'civil-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1cTbNR37X0fqPS6P1fv2PKNqaRBAWTG5a/view?usp=sharing'
+  },
+  {
+    id: 'cviil-assignments-1-cse',
+    title: 'Assignment 1',
+    description: 'Assignment 1',
+    type: 'assignments',
+    subjectId: 'civil-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1v0FV8BQoSxTsUn3vZLG_pcovJInJJIDG/view?usp=sharing'
+  },
   // CAEG
   {
     id: 'caeg-theory-1-cse',
@@ -2558,7 +2567,6 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-15',
     viewUrl: 'https://drive.google.com/file/d/1q5BkazLvfnQtAe-HwYbjeh_WE9BwSrk3/view?usp=sharing'
   },
-
   //2nd year 
 {
     id: 'aem-theory-1-cse',
