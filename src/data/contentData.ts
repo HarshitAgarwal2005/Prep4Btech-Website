@@ -2845,7 +2845,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'dsa-s3-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://example.com/dsa-mtt'
+    viewUrl: 'https://drive.google.com/file/d/10IQb_yMp8xPYv3l-Y-j9GFpRrDFFVt2G/view?usp=drive_link'
   }
 ];
 
