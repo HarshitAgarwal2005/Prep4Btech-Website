@@ -2396,16 +2396,6 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     viewUrl: 'https://drive.google.com/file/d/1mhVk9tLesks5jJyl1f--R5FtkgSJtvHz/view?usp=sharing'
   },
   {
-    id: 'hv-books-1-cse',
-    title: 'NK',
-    description: 'Complete book',
-    type: 'books',
-    subjectId: 'hv-s2-cse',
-    fileSize: '24.2 MB',
-    uploadDate: '2024-02-01',
-    viewUrl: 'https://drive.google.com/file/d/1rRinuDB3mhHilqwsNb4QKs2ClfSboX7p/view?usp=sharing'
-  }, 
-  {
     id: 'hv-lab-1-cse',
     title: 'Lab Manual',
     description: 'Complete Lab Manual',
@@ -2425,6 +2415,16 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/19g8gx49P123jlBjfuCML7vCJpX6bOuiu/view?usp=sharing'
   },
+  {
+    id: 'hv-books-1-cse',
+    title: 'NK',
+    description: 'Complete book',
+    type: 'books',
+    subjectId: 'hv-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1rRinuDB3mhHilqwsNb4QKs2ClfSboX7p/view?usp=sharing'
+  }, 
   //BASIC CIVIL ENGINEERING
   {
     id: 'civil-theory-1-cse',
