@@ -2819,7 +2819,7 @@ export const contentItems: ContentItem[] = [
   // },
   {
     id: 'dsa-assignments-1-cse',
-    title: 'DSA ASSIGNMENTS',
+    title: 'DSA ASSIGNMENTS CO1',
     description: 'Previous year MTT with detailed solutions',
     type: 'assignments',
     subjectId: 'dsa-s3-cse',
@@ -2828,8 +2828,8 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://example.com/dsa-mtt'
   },
     {
-    id: 'dsa-assignments-1-cse',
-    title: 'DSA ASSIGNMENTS',
+    id: 'dsa-assignments-2-cse',
+    title: 'DSA ASSIGNMENTS CO2',
     description: 'Previous year MTT with detailed solutions',
     type: 'assignments',
     subjectId: 'dsa-s3-cse',
@@ -2838,10 +2838,10 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://example.com/dsa-mtt'
   },
     {
-    id: 'dsa-mtt-1-cse',
-    title: 'DSA Mid-Term Test Paper',
+    id: 'dsa-assignments-3-cse',
+    title: 'DSA ASSIGNMENTS CO3',
     description: 'Previous year MTT with detailed solutions',
-    type: 'mtt',
+    type: 'assignments',
     subjectId: 'dsa-s3-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
