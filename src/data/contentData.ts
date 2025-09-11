@@ -2496,6 +2496,46 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-15',
     viewUrl: 'https://drive.google.com/file/d/1v0FV8BQoSxTsUn3vZLG_pcovJInJJIDG/view?usp=sharing'
   },
+  {
+    id: 'cviil-assignments-2-cse',
+    title: 'Assignment 2',
+    description: 'Assignment 2',
+    type: 'assignments',
+    subjectId: 'civil-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1KUs-qeXyBqQ0hBR1R9kR5c1DjoO0veiE/view?usp=sharing'
+  },
+  {
+    id: 'cviil-assignments-1-cse',
+    title: 'Assignment 1',
+    description: 'Assignment 1',
+    type: 'assignments',
+    subjectId: 'civil-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1v0FV8BQoSxTsUn3vZLG_pcovJInJJIDG/view?usp=sharing'
+  },
+  {
+    id: 'cviil-assignments-1-cse',
+    title: 'Assignment 1',
+    description: 'Assignment 1',
+    type: 'assignments',
+    subjectId: 'civil-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1v0FV8BQoSxTsUn3vZLG_pcovJInJJIDG/view?usp=sharing'
+  },
+  {
+    id: 'cviil-assignments-1-cse',
+    title: 'Assignment 1',
+    description: 'Assignment 1',
+    type: 'assignments',
+    subjectId: 'civil-s2-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1v0FV8BQoSxTsUn3vZLG_pcovJInJJIDG/view?usp=sharing'
+  },
   // CAEG
   {
     id: 'caeg-theory-1-cse',
