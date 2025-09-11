@@ -2654,7 +2654,7 @@ export const contentItems: ContentItem[] = [
   
    {
     id: 'de-assignments-2-cse',
-    title: 'unit -1',
+    title: 'DE ASSIGNMENT CO2',
     description: ' Digital Electronics', 
     type: 'assignments',
     subjectId: 'de-s3-cse',
