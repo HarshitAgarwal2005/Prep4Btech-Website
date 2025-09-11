@@ -2535,7 +2535,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'caeg-s2-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://example.com/civil-notes'
+    viewUrl: 'https://drive.google.com/file/d/1dBNHDfikNMi-G_ZKNKzcj00CpZbHEkU6/view?usp=sharing'
   },
   {
     id: 'caeg-assignments-1-cse',
