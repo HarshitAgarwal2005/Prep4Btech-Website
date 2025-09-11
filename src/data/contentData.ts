@@ -2711,7 +2711,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'de-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://drive.google.com/file/d/1oJ5d3jVw7CWBpwPsq-2hxYQKPR60zr3W/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/17SsTg9zK5mkWoIrzSB5hX_SxkIWjo9rN/view?usp=drive_link'
   },
   {
     id: 'de-books-6-cse',
