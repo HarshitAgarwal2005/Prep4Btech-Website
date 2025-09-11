@@ -3017,8 +3017,38 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1ZtL6_5vnReD3fMFaOIJRGZ91NCsNOlVD/view?usp=drive_link'
   },
   {
-    id: 'oop-assignments-5-cse',
+    id: 'oop-assignments-1-cse',
     title: 'OJECT ORIENTED PROGRAMMING ASSIGNMENTS CO1',
+    description: 'OJECT ORIENTED PROGRAMMING ',
+    type: 'assignments',
+    subjectId: 'oop-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1jnrXED0wCO42Zufm6pNb3Qvu4poiXMlJ/view?usp=drive_link'
+  },
+   {
+    id: 'oop-assignments-5-cse',
+    title: 'OJECT ORIENTED PROGRAMMING ASSIGNMENTS CO2',
+    description: 'OJECT ORIENTED PROGRAMMING ',
+    type: 'assignments',
+    subjectId: 'oop-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1ZtL6_5vnReD3fMFaOIJRGZ91NCsNOlVD/view?usp=drive_link'
+  },
+   {
+    id: 'oop-assignments-5-cse',
+    title: 'OJECT ORIENTED PROGRAMMING ASSIGNMENTS CO3',
+    description: 'OJECT ORIENTED PROGRAMMING ',
+    type: 'assignments',
+    subjectId: 'oop-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1ZtL6_5vnReD3fMFaOIJRGZ91NCsNOlVD/view?usp=drive_link'
+  },
+   {
+    id: 'oop-assignments-5-cse',
+    title: 'OJECT ORIENTED PROGRAMMING ASSIGNMENTS CO4',
     description: 'OJECT ORIENTED PROGRAMMING ',
     type: 'assignments',
     subjectId: 'oop-s3-cse',
