@@ -2457,25 +2457,36 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     viewUrl: 'https://drive.google.com/file/d/1TEXyua3f_z0W9NT2OLZBhr2RjqsJvDo9/view?usp=sharing'
   },
   {
-    id: 'civil-theory-4-cse',
-    title: 'Unit 4',
-    description: 'Complete Notes for Unit 4',
-    type: 'theory',
+    id: 'civil-lab-1-cse',
+    title: 'Lab Manual',
+    description: 'Complete Manual',
+    type: 'lab',
     subjectId: 'civil-s2-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://example.com/civil-notes'
+    viewUrl: 'https://drive.google.com/file/d/1cTbNR37X0fqPS6P1fv2PKNqaRBAWTG5a/view?usp=sharing'
   },
-  {
-    id: 'civil-theory-5-cse',
-    title: 'Unit 5',
-    description: 'Complete Notes for Unit 5',
-    type: 'theory',
-    subjectId: 'civil-s2-cse',
-    fileSize: '4.2 MB',
-    uploadDate: '2024-02-15',
-    viewUrl: 'https://example.com/civil-notes'
-  },
+  // {
+  //   id: 'civil-theory-4-cse',
+  //   title: 'Unit 4',
+  //   description: 'Complete Notes for Unit 4',
+  //   type: 'theory',
+  //   subjectId: 'civil-s2-cse',
+  //   fileSize: '4.2 MB',
+  //   uploadDate: '2024-02-15',
+  //   viewUrl: 'https://example.com/civil-notes'
+  // },
+  // {
+  //   id: 'civil-theory-5-cse',
+  //   title: 'Unit 5',
+  //   description: 'Complete Notes for Unit 5',
+  //   type: 'theory',
+  //   subjectId: 'civil-s2-cse',
+  //   fileSize: '4.2 MB',
+  //   uploadDate: '2024-02-15',
+  //   viewUrl: 'https://example.com/civil-notes'
+  // },
+  
   // CAEG
   {
     id: 'caeg-theory-1-cse',
