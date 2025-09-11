@@ -2631,26 +2631,26 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-15',
     viewUrl: 'https://drive.google.com/file/d/1_EuUXRYe1-_22mtLbl-TbmCS1L238VkL/view?usp=drive_link'
   },
-   {
-    id: 'de-theory-5-cse',
-    title: 'unit -1',
-    description: ' Digital Electronics',
-    type: 'theory',
-    subjectId: 'de-s3-cse',
-    fileSize: '4.2 MB',
-    uploadDate: '2024-02-15',
-    viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
-  },
-   {
-    id: 'de-theory-5-cse',
-    title: 'unit -1',
-    description: ' Digital Electronics',
-    type: 'theory',
-    subjectId: 'de-s3-cse',
-    fileSize: '4.2 MB',
-    uploadDate: '2024-02-15',
-    viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
-  },
+  //  {
+  //   id: 'de-theory-5-cse',
+  //   title: 'unit -1',
+  //   description: ' Digital Electronics',
+  //   type: 'theory',
+  //   subjectId: 'de-s3-cse',
+  //   fileSize: '4.2 MB',
+  //   uploadDate: '2024-02-15',
+  //   viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
+  // },
+  //  {
+  //   id: 'de-theory-5-cse',
+  //   title: 'unit -1',
+  //   description: ' Digital Electronics', 
+  //   type: 'theory',
+  //   subjectId: 'de-s3-cse',
+  //   fileSize: '4.2 MB',
+  //   uploadDate: '2024-02-15',
+  //   viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
+  // },
   
   
   // Data Structures & Algorithms Content (for CSE 3rd SEM)
