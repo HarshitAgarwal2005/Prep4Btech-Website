@@ -2525,7 +2525,7 @@ export const contentItems: ContentItem[] = [
     title: 'Sketch book',
     description: 'Assignments done in Sketch Book',
     type: 'assignments',
-    subjectId: 'caeg-s2-cse',
+    subjectId: 'aem-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
     viewUrl: 'https://example.com/civil-notes'
