@@ -2846,7 +2846,55 @@ export const contentItems: ContentItem[] = [
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/10IQb_yMp8xPYv3l-Y-j9GFpRrDFFVt2G/view?usp=drive_link'
-  }
+  },
+  // mefa cse 2nd yr 3rd sem
+   {
+    id: 'mefa-books-1-cse',
+    title: 'MEFA UNIT-1',
+    description: 'MEFA',
+    type: 'books',
+    subjectId: 'dsa-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/10IQb_yMp8xPYv3l-Y-j9GFpRrDFFVt2G/view?usp=drive_link'
+  }, {
+    id: 'dsa-assignments-1-cse',
+    title: 'DSA ASSIGNMENTS CO3',
+    description: 'Previous year Assignments with detailed solutions',
+    type: 'assignments',
+    subjectId: 'dsa-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/10IQb_yMp8xPYv3l-Y-j9GFpRrDFFVt2G/view?usp=drive_link'
+  }, {
+    id: 'dsa-assignments-3-cse',
+    title: 'DSA ASSIGNMENTS CO3',
+    description: 'Previous year Assignments with detailed solutions',
+    type: 'assignments',
+    subjectId: 'dsa-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/10IQb_yMp8xPYv3l-Y-j9GFpRrDFFVt2G/view?usp=drive_link'
+  }, {
+    id: 'dsa-assignments-3-cse',
+    title: 'DSA ASSIGNMENTS CO3',
+    description: 'Previous year Assignments with detailed solutions',
+    type: 'assignments',
+    subjectId: 'dsa-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/10IQb_yMp8xPYv3l-Y-j9GFpRrDFFVt2G/view?usp=drive_link'
+  }, {
+    id: 'dsa-assignments-3-cse',
+    title: 'DSA ASSIGNMENTS CO3',
+    description: 'Previous year Assignments with detailed solutions',
+    type: 'assignments',
+    subjectId: 'dsa-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/10IQb_yMp8xPYv3l-Y-j9GFpRrDFFVt2G/view?usp=drive_link'
+  },
+  
 ];
 
 export const branches = [
