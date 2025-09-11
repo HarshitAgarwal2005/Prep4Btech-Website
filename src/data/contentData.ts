@@ -2578,7 +2578,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'aem-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://drive.google.com/file/d/1mxOsC7ZM1WDxaBYEk57BZu7eYlo-fQek/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/drive/folders/1Yzc4-ov7DvbS4Pj4CXXrv5Yj3yECHlW7?usp=drive_link'
   },
   
   // Data Structures & Algorithms Content (for CSE 3rd SEM)
