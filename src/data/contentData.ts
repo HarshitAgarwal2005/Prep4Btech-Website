@@ -2602,7 +2602,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
   },
    {
-    id: 'de-notes-5-cse',
+    id: 'de-theory-5-cse',
     title: 'unit -1',
     description: ' Digital Electronics',
     type: 'theory',
@@ -2612,7 +2612,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
   },
    {
-    id: 'de-notes-5-cse',
+    id: 'de-theory-5-cse',
     title: 'unit -1',
     description: ' Digital Electronics',
     type: 'theory',
@@ -2622,7 +2622,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
   },
    {
-    id: 'de-notes-5-cse',
+    id: 'de-theory-5-cse',
     title: 'unit -1',
     description: ' Digital Electronics',
     type: 'theory',
@@ -2632,7 +2632,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
   },
    {
-    id: 'de-notes-5-cse',
+    id: 'de-theory-5-cse',
     title: 'unit -1',
     description: ' Digital Electronics',
     type: 'theory',
@@ -2642,7 +2642,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1-F-KLcGCLsngmSYoMpfRjOu20Wbqzl4w/view?usp=drive_link'
   },
    {
-    id: 'de-notes-5-cse',
+    id: 'de-theory-5-cse',
     title: 'unit -1',
     description: ' Digital Electronics',
     type: 'theory',
