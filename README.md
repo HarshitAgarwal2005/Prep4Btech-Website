@@ -74,7 +74,7 @@ The system is designed to work with various email services. You can configure:
 
 ### For Administrators
 
-1. **Receive Notifications**: All doubt submissions are emailed to harshitagarwal25907@gmail.com
+1. **Receive Notifications**: All doubt submissions are emailed to harshitagarwal25807@gmail.com
 2. **Rich Information**: Emails include complete student information and formatted questions
 3. **Easy Response**: Reply directly to student emails for personalized help
 
