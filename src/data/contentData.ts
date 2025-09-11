@@ -2745,6 +2745,36 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-15',
     viewUrl: 'https://docs.google.com/presentation/d/1Y-bGekqaZZSj_ZYWbJS-3HuPYD3j1Eqq/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
   },
+  {
+    id: 'dsa-theory-3-cse',
+    title: 'Data Structures & Algorithms Unit -3',
+    description: 'Arrays, linked lists, trees, graphs, and algorithms',
+    type: 'theory',
+    subjectId: 'dsa-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://docs.google.com/presentation/d/1Y-bGekqaZZSj_ZYWbJS-3HuPYD3j1Eqq/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+  {
+    id: 'dsa-theory-4-cse',
+    title: 'Data Structures & Algorithms Unit -4',
+    description: 'Arrays, linked lists, trees, graphs, and algorithms',
+    type: 'theory',
+    subjectId: 'dsa-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://docs.google.com/presentation/d/1Y-bGekqaZZSj_ZYWbJS-3HuPYD3j1Eqq/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+  {
+    id: 'dsa-theory-5-cse',
+    title: 'Data Structures & Algorithms Unit -5',
+    description: 'Arrays, linked lists, trees, graphs, and algorithms',
+    type: 'theory',
+    subjectId: 'dsa-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://docs.google.com/presentation/d/1Y-bGekqaZZSj_ZYWbJS-3HuPYD3j1Eqq/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
   
   {
     id: 'dsa-lab-1-cse',
