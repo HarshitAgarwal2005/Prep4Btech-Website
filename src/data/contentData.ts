@@ -2586,7 +2586,7 @@ export const contentItems: ContentItem[] = [
     title: 'unit -1',
     description: '  // Digital Electronics',
     type: 'theory',
-    subjectId: 'aem-s3-cse',
+    subjectId: 'de-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
     viewUrl: 'https://drive.google.com/file/d/1YLIZylqobkAEcQv0ieyOR0apPbqhN0YY/view?usp=drive_link'
