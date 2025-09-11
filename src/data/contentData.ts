@@ -3016,6 +3016,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1ZtL6_5vnReD3fMFaOIJRGZ91NCsNOlVD/view?usp=drive_link'
   },
+  {
+    id: 'oop-assignments-5-cse',
+    title: 'OJECT ORIENTED PROGRAMMING ASSIGNMENTS CO1',
+    description: 'OJECT ORIENTED PROGRAMMING ',
+    type: 'assignments',
+    subjectId: 'oop-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1ZtL6_5vnReD3fMFaOIJRGZ91NCsNOlVD/view?usp=drive_link'
+  },
   
 ];
 
