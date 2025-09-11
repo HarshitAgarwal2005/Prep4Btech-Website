@@ -2585,7 +2585,7 @@ export const contentItems: ContentItem[] = [
     id: 'de-notes-5-cse',
     title: 'unit -1',
     description: '  // Digital Electronics',
-    type: 'notes',
+    type: 'theory',
     subjectId: 'aem-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
