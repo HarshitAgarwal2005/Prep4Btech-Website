@@ -2738,10 +2738,10 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/drive/folders/1voNPu41-8cFflVI6F-UBvXqjMaSPfJbV?usp=drive_link'
   },
   {
-    id: 'dsa-theory-2-cse',
+    id: 'dsa-the-2-cse',
     title: 'Data Structures & Algorithms Unit -2',
     description: 'Arrays, linked lists, trees, graphs, and algorithms',
-    type: 'theory',
+    type: 'books',
     subjectId: 'dsa-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
