@@ -2723,20 +2723,10 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-15',
     viewUrl: 'https://drive.google.com/file/d/1kbAmOZvnDZuaQxpRIosSrergQlaKMR1t/view?usp=drive_link'
   },
-  //dsa 2nd yr 3rd sem
-  {
-    id: 'dsa-theory-5-cse',
-    title: 'unit -5',
-    description: ' Digital Electronics',
-    type: 'theory',
-    subjectId: 'dsa-s3-cse',
-    fileSize: '4.2 MB',
-    uploadDate: '2024-02-15',
-    viewUrl: 'https://drive.google.com/file/d/1_EuUXRYe1-_22mtLbl-TbmCS1L238VkL/view?usp=drive_link'
-  },
+ // Data Structures & Algorithms Content (for CSE 3rd SEM)
   
   
-  // Data Structures & Algorithms Content (for CSE 3rd SEM)
+ 
   {
     id: 'dsa-theory-1-cse',
     title: 'Data Structures & Algorithms Complete Notes',
@@ -2747,6 +2737,17 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-15',
     viewUrl: 'https://example.com/dsa-notes'
   },
+  {
+    id: 'dsa-theory-2-cse',
+    title: 'unit -5',
+    description: 'Arrays, linked lists, trees, graphs, and algorithms',
+    type: 'theory',
+    subjectId: 'dsa-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1_EuUXRYe1-_22mtLbl-TbmCS1L238VkL/view?usp=drive_link'
+  },
+  
   {
     id: 'dsa-lab-1-cse',
     title: 'DSA Lab Programs',
