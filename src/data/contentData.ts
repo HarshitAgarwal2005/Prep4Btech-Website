@@ -2971,7 +2971,7 @@ export const contentItems: ContentItem[] = [
     title: 'OJECT ORIENTED PROGRAMMING UNIT-1',
     description: 'OJECT ORIENTED PROGRAMMING ',
     type: 'theory',
-    subjectId: 'oops-s3-cse', 
+    subjectId: 'oop-s3-cse', 
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1ZY3rIrkdDTtCryxJKxuu7hlWXyjQZv0g/view?usp=drive_link'
@@ -2981,7 +2981,7 @@ export const contentItems: ContentItem[] = [
     title: 'OJECT ORIENTED PROGRAMMING UNIT-2',
     description: 'OJECT ORIENTED PROGRAMMING ',
     type: 'theory',
-    subjectId: 'oops-s3-cse',
+    subjectId: 'oop-s3-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/16SiIvQ4cQ-R0VoYGVCP_MEKu2o-VZrO6/view?usp=drive_link'
@@ -3001,7 +3001,7 @@ export const contentItems: ContentItem[] = [
     title: 'OJECT ORIENTED PROGRAMMING UNIT-4',
     description: 'OJECT ORIENTED PROGRAMMING ',
     type: 'theory',
-    subjectId: 'oops-s3-cse',
+    subjectId: 'oop-s3-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1h3lv788FofqeJEIKsZqeA_sArkQderCE/view?usp=drive_link'
@@ -3011,7 +3011,7 @@ export const contentItems: ContentItem[] = [
     title: 'OJECT ORIENTED PROGRAMMING UNIT-5',
     description: 'OJECT ORIENTED PROGRAMMING ',
     type: 'theory',
-    subjectId: 'oops-s3-cse',
+    subjectId: 'oop-s3-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1ZtL6_5vnReD3fMFaOIJRGZ91NCsNOlVD/view?usp=drive_link'
