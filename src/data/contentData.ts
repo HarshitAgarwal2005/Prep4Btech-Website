@@ -2665,7 +2665,7 @@ export const contentItems: ContentItem[] = [
   
    {
     id: 'de-books-2-cse',
-    title: 'DE ASSIGNMENT CO2',
+    title: ' Digital Electronics NK Pdf',
     description: ' Digital Electronics', 
     type: 'books',
     subjectId: 'de-s3-cse',
