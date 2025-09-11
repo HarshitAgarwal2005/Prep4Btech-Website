@@ -2577,14 +2577,14 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     viewUrl: 'https://drive.google.com/file/d/12x0uY8YXRi10oXPhFFQYfhNfddPfQosI/view?usp=sharing'
   },
   {
-    id: 'cviil-books-1-cse',
-    title: 'NK',
-    description: 'NK ',
+    id: 'cviil-books-3-cse',
+    title: 'Unit 3',
+    description: 'Aashriwad',
     type: 'books',
     subjectId: 'civil-s2-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://drive.google.com/file/d/1gZuTeDtGf4dlyc5rKOr3ki5n9xhH8C03/view?usp=sharing'
+    viewUrl: 'https://drive.google.com/file/d/1EclF59UyfAdEyrByIGwkkIUREEWGr5vp/view?usp=sharing'
   },
   {
     id: 'cviil-books-1-cse',
