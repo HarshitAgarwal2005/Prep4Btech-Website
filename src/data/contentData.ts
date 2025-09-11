@@ -2916,7 +2916,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mefa-assignments-2-cse',
-    title: 'MEFA ASSIGNMENTS CO1',
+    title: 'MEFA ASSIGNMENTS CO2',
     description: 'MEFA',
     type: 'assignments',
     subjectId: 'mefa-s3-cse',
@@ -2926,7 +2926,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mefa-assignments-3-cse',
-    title: 'MEFA ASSIGNMENTS CO1',
+    title: 'MEFA ASSIGNMENTS CO3',
     description: 'MEFA',
     type: 'assignments',
     subjectId: 'mefa-s3-cse',
@@ -2936,7 +2936,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mefa-assignments-4-cse',
-    title: 'MEFA ASSIGNMENTS CO1',
+    title: 'MEFA ASSIGNMENTS CO4',
     description: 'MEFA',
     type: 'assignments',
     subjectId: 'mefa-s3-cse',
@@ -2946,7 +2946,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mefa-assignments-5-cse',
-    title: 'MEFA ASSIGNMENTS CO1',
+    title: 'MEFA ASSIGNMENTS CO5',
     description: 'MEFA',
     type: 'assignments',
     subjectId: 'mefa-s3-cse',
