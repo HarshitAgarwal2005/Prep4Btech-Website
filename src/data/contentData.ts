@@ -3078,8 +3078,48 @@ export const contentItems: ContentItem[] = [
   },
   // se 2nd year 3rd sem 
   {
-    id: 'se-theory-4-cse',
+    id: 'se-theory-1-cse',
     title: 'SOFTWARE ENGINEERING UNIT-1',
+    description: 'SOFTWARE ENGINEERING ',
+    type: 'theory',
+    subjectId: 'se-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1QmdL6f0pSShpQgSY5JfeO0LYiI_zoyIP/view?usp=drive_link'
+  },
+  {
+    id: 'se-theory-2-cse',
+    title: 'SOFTWARE ENGINEERING UNIT-2',
+    description: 'SOFTWARE ENGINEERING ',
+    type: 'theory',
+    subjectId: 'se-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1jHB_qXBrkJ6ZjxuT_1z_VFbPGoFXNdIR/view?usp=drive_link'
+  },
+  {
+    id: 'se-theory-3-cse',
+    title: 'SOFTWARE ENGINEERING UNIT-3',
+    description: 'SOFTWARE ENGINEERING ',
+    type: 'theory',
+    subjectId: 'se-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1QmdL6f0pSShpQgSY5JfeO0LYiI_zoyIP/view?usp=drive_link'
+  },
+  {
+    id: 'se-theory-4-cse',
+    title: 'SOFTWARE ENGINEERING UNIT-4',
+    description: 'SOFTWARE ENGINEERING ',
+    type: 'theory',
+    subjectId: 'se-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1QmdL6f0pSShpQgSY5JfeO0LYiI_zoyIP/view?usp=drive_link'
+  },
+  {
+    id: 'se-theory-5-cse',
+    title: 'SOFTWARE ENGINEERING UNIT-5',
     description: 'SOFTWARE ENGINEERING ',
     type: 'theory',
     subjectId: 'se-s3-cse',
