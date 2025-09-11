@@ -2753,7 +2753,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'dsa-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://docs.google.com/presentation/d/1Y-bGekqaZZSj_ZYWbJS-3HuPYD3j1Eqq/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+    viewUrl: 'https://docs.google.com/presentation/d/1ZY35p2z6xY4QFVeemEwijmGEhYv4t6c6/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
   },
   {
     id: 'dsa-theory-4-cse',
