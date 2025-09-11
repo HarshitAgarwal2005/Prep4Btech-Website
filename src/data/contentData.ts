@@ -2683,6 +2683,46 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-15',
     viewUrl: 'https://drive.google.com/file/d/1oJ5d3jVw7CWBpwPsq-2hxYQKPR60zr3W/view?usp=drive_link'
   },
+  {
+    id: 'de-books-3-cse',
+    title: ' Digital Electronics Unit -1',
+    description: ' Digital Electronics', 
+    type: 'books',
+    subjectId: 'de-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1oJ5d3jVw7CWBpwPsq-2hxYQKPR60zr3W/view?usp=drive_link'
+  },
+  {
+    id: 'de-books-4-cse',
+    title: ' Digital Electronics Unit -1',
+    description: ' Digital Electronics', 
+    type: 'books',
+    subjectId: 'de-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1oJ5d3jVw7CWBpwPsq-2hxYQKPR60zr3W/view?usp=drive_link'
+  },
+  {
+    id: 'de-books-5-cse',
+    title: ' Digital Electronics Unit -1',
+    description: ' Digital Electronics', 
+    type: 'books',
+    subjectId: 'de-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1oJ5d3jVw7CWBpwPsq-2hxYQKPR60zr3W/view?usp=drive_link'
+  },
+  {
+    id: 'de-books-6-cse',
+    title: ' Digital Electronics Unit -1',
+    description: ' Digital Electronics', 
+    type: 'books',
+    subjectId: 'de-s3-cse',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-02-15',
+    viewUrl: 'https://drive.google.com/file/d/1oJ5d3jVw7CWBpwPsq-2hxYQKPR60zr3W/view?usp=drive_link'
+  },
   
   
   // Data Structures & Algorithms Content (for CSE 3rd SEM)
