@@ -3148,6 +3148,28 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1ro1z01EdIt3cstXNicnYcFvLBxD6AbiC/view?usp=drive_link'
   },
   
+   {
+    id: 'se-assignments-1-cse',
+    title: 'SOFTWARE ENGINEERING CO1',
+    description: 'SOFTWARE ENGINEERING ',
+    type: 'assignments',
+    subjectId: 'se-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1ro1z01EdIt3cstXNicnYcFvLBxD6AbiC/view?usp=drive_link'
+  },
+
+   {
+    id: 'se-assignments-2-cse',
+    title: 'SOFTWARE ENGINEERING NK',
+    description: 'SOFTWARE ENGINEERING ',
+    type: 'assignments',
+    subjectId: 'se-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1ksZ0kRqtlIvm3MJJEkjf0-KCep-SYu-8/view?usp=drive_link'
+  },
+  
 ];
 
 export const branches = [
