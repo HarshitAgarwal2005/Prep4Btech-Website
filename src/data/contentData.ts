@@ -1298,7 +1298,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'math1-s1-cse',
     fileSize: '1.8 MB',
     uploadDate: '2024-01-20',
-    viewUrl: 'https://drive.google.com/file/d/1nitmrGjW5zEgYmrHffiZejjEl01CmU_X/view?usp=sharing'
+    viewUrl: 'https://drive.google.com/file/d/1J16xVC8i2t-OpcXWdpyy3Xj7FuF1VBXr/view?usp=sharing'
   },
   {
     id: 'math1-theory-2-cse',
