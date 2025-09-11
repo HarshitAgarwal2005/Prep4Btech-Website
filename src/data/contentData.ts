@@ -2376,6 +2376,16 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2025-09-10',                      viewUrl:'https://drive.google.com/file/d/1qXXniO1inuEfrtJJ2uCUz8So8AG1xsxz/view?usp=sharing'
   },
   {
+    id: 'hv-theory-6-cse',
+    title: 'Unit 1-5',
+    description: 'Complete Handwritten Notes',
+    type: 'theory',
+    subjectId: 'hv-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1lM5fVswxmXm_jHtzNP0kSxkzFXyWdS1I/view?usp=sharing'
+  },
+  {
     id: 'hv-books-1-cse',
     title: 'NK',
     description: 'Complete book',
