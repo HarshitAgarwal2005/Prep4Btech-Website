@@ -2428,8 +2428,8 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   //BASIC CIVIL ENGINEERING
   {
     id: 'civil-theory-1-cse',
-    title: 'Unit 1',
-    description: 'Complete Notes for Unit 1',
+    title: 'Unit 1-6',
+    description: 'Complete Handwritten Notes for Unit 1-6',
     type: 'theory',
     subjectId: 'civil-s2-cse',
     fileSize: '4.2 MB',
@@ -2438,13 +2438,13 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
   {
     id: 'civil-theory-2-cse',
-    title: 'Unit 2',
-    description: 'Complete Notes for Unit 2',
+    title: 'Unit 5',
+    description: 'Complete Notes for Unit 5 Transportation',
     type: 'theory',
     subjectId: 'civil-s2-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://example.com/civil-notes'
+    viewUrl: 'https://drive.google.com/file/d/1hMPsmOSX2n7_vwKLLR5Ug1DJh4l1m9fP/view?usp=sharing'
   },
   {
     id: 'civil-theory-3-cse',
