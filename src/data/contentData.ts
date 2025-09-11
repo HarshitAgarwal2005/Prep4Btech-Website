@@ -2448,13 +2448,13 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
   {
     id: 'civil-theory-3-cse',
-    title: 'Unit 3',
-    description: 'Complete Notes for Unit 3',
+    title: 'Unit 6',
+    description: 'Notes for Unit 6 Env. Pollution',
     type: 'theory',
     subjectId: 'civil-s2-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://example.com/civil-notes'
+    viewUrl: 'https://drive.google.com/file/d/1TEXyua3f_z0W9NT2OLZBhr2RjqsJvDo9/view?usp=sharing'
   },
   {
     id: 'civil-theory-4-cse',
