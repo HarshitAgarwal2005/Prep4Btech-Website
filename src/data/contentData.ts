@@ -2291,7 +2291,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'math2-s2-cse',
     fileSize: '24.2 MB',
     uploadDate: '2024-02-01',
-    viewUrl: 'https://drive.google.com/file/d/16aND3qpQddPlTFPqavKwi9fVIqGoJPA3/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1luJH35Va5k1ZyvefNASU5eGNC8IovUM9/view?usp=drive_link'
   },
   // {
   //   id: 'math2-videos-1-cse',
