@@ -2343,7 +2343,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'math2-s2-cse',
     fileSize: '24.2 MB',
     uploadDate: '2024-02-01',
-    viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
+    viewUrl: 'https://drive.google.com/drive/folders/1AN4gRVDOrjql41OkBffZuE08wftbfilO?usp=drive_link'
   },
   // HUMAN VALUES 
   {
