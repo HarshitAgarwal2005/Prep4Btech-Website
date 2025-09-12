@@ -3404,14 +3404,14 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
 
    {
-    id: 'dbms-theory-2-cse',
-    title: 'UNIT 1',
+    id: 'dbms-theory-6-cse',
+    title: 'UNIT 6',
     description: 'DATABASE MANAGEMENT SYSTEM',
     type: 'theory',
     subjectId: 'dbms-s4-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1aq3BRx_q1qLJN9GV7NbPCL4LEutQIc50/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1ObeoqSKDkiUJRzk-qQFb3_KMbquE8go8/view?usp=drive_link'
   },
 
   
