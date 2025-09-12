@@ -3554,6 +3554,16 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1RF0ZEbIFkUMI7xIUKXUgNXDix29Q2pbO/view?usp=drive_link'
   },
+  {
+    id: 'dccn-assignments-3-cse',
+    title: 'ASSIGNMENTS 3',
+    description: 'Data Communication & Computer Networks',
+    type: 'assignments',
+    subjectId: 'dccn-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1RF0ZEbIFkUMI7xIUKXUgNXDix29Q2pbO/view?usp=drive_link'
+  },
   
   
   
