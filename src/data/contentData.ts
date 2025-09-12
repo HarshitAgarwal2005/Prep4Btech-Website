@@ -3349,16 +3349,72 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
   //dbms notes
    {
+    id: 'dbms-theory-1-cse',
+    title: 'UNIT 1',
+    description: 'DATABASE MANAGEMENT SYSTEM',
+    type: 'theory',
+    subjectId: 'dbms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1aq3BRx_q1qLJN9GV7NbPCL4LEutQIc50/view?usp=drive_link'
+  },
+
+   {
+    id: 'dbms-theory-2-cse',
+    title: 'UNIT 2',
+    description: 'DATABASE MANAGEMENT SYSTEM',
+    type: 'theory',
+    subjectId: 'dbms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1Rg6haAXJT7LxhsauIlYHojudtEan42uB/view?usp=drive_link'
+  },
+
+   {
     id: 'dbms-theory-2-cse',
     title: 'UNIT 1',
     description: 'DATABASE MANAGEMENT SYSTEM',
     type: 'theory',
-    subjectId: 'se-s4-cse',
+    subjectId: 'dbms-s4-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1ksZ0kRqtlIvm3MJJEkjf0-KCep-SYu-8/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1aq3BRx_q1qLJN9GV7NbPCL4LEutQIc50/view?usp=drive_link'
   },
 
+   {
+    id: 'dbms-theory-2-cse',
+    title: 'UNIT 1',
+    description: 'DATABASE MANAGEMENT SYSTEM',
+    type: 'theory',
+    subjectId: 'dbms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1aq3BRx_q1qLJN9GV7NbPCL4LEutQIc50/view?usp=drive_link'
+  },
+
+   {
+    id: 'dbms-theory-2-cse',
+    title: 'UNIT 1',
+    description: 'DATABASE MANAGEMENT SYSTEM',
+    type: 'theory',
+    subjectId: 'dbms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1aq3BRx_q1qLJN9GV7NbPCL4LEutQIc50/view?usp=drive_link'
+  },
+
+   {
+    id: 'dbms-theory-2-cse',
+    title: 'UNIT 1',
+    description: 'DATABASE MANAGEMENT SYSTEM',
+    type: 'theory',
+    subjectId: 'dbms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1aq3BRx_q1qLJN9GV7NbPCL4LEutQIc50/view?usp=drive_link'
+  },
+
+  
   
   
 ];
