@@ -3503,6 +3503,26 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1aWwIPvniuwDpsS-nVzO9LnbzWFZTbKHA/view?usp=drive_link'
   },
+  {
+    id: 'dbms-books-9-cse',
+    title: 'ASSIGNMENTS 9',
+    description: 'DATABASE MANAGEMENT SYSTEM',
+    type: 'books',
+    subjectId: 'dbms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1aWwIPvniuwDpsS-nVzO9LnbzWFZTbKHA/view?usp=drive_link'
+  },
+  {
+    id: 'dbms-lab-1-cse',
+    title: 'LAB MANUAL',
+    description: 'DATABASE MANAGEMENT SYSTEM',
+    type: 'lab',
+    subjectId: 'dbms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/document/d/1Ezj1RkZ7XS_gwnVuPOaKQOe9AUU-e9Pl/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
 
   
   
