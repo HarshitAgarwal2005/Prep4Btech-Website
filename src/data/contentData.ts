@@ -3413,6 +3413,56 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1ObeoqSKDkiUJRzk-qQFb3_KMbquE8go8/view?usp=drive_link'
   },
+   {
+    id: 'dbms-assignments-1-cse',
+    title: 'ASSIGNMENTS 1',
+    description: 'DATABASE MANAGEMENT SYSTEM',
+    type: 'assignments',
+    subjectId: 'dbms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/15NtaV3N-So-ezZt0ERu4Qia8ACDp9LRH/view?usp=drive_link'
+  },
+  {
+    id: 'dbms-assignments-2-cse',
+    title: 'ASSIGNMENTS 2',
+    description: 'DATABASE MANAGEMENT SYSTEM',
+    type: 'assignments',
+    subjectId: 'dbms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1SewO85mgXoUQa4Ypx2YDnau1UKXPWpd3/view?usp=drive_link'
+  },
+  {
+    id: 'dbms-assignments-3-cse',
+    title: 'ASSIGNMENTS 3',
+    description: 'DATABASE MANAGEMENT SYSTEM',
+    type: 'assignments',
+    subjectId: 'dbms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/15NtaV3N-So-ezZt0ERu4Qia8ACDp9LRH/view?usp=drive_link'
+  },
+  {
+    id: 'dbms-assignments-4-cse',
+    title: 'ASSIGNMENTS 4',
+    description: 'DATABASE MANAGEMENT SYSTEM',
+    type: 'assignments',
+    subjectId: 'dbms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/15NtaV3N-So-ezZt0ERu4Qia8ACDp9LRH/view?usp=drive_link'
+  },
+  {
+    id: 'dbms-assignments-5-cse',
+    title: 'ASSIGNMENTS 5',
+    description: 'DATABASE MANAGEMENT SYSTEM',
+    type: 'assignments',
+    subjectId: 'dbms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/15NtaV3N-So-ezZt0ERu4Qia8ACDp9LRH/view?usp=drive_link'
+  },
 
   
   
