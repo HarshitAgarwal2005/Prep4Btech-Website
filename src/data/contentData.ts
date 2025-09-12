@@ -2337,7 +2337,7 @@ export const contentItems: ContentItem[] = [
   // },
   {
     id: 'math2-books-1-cse',
-    title: 'NK',
+    title: 'UNIT 1 BOOK PDF',
     description: 'Complete book',
     type: 'books',
     subjectId: 'math2-s2-cse',
