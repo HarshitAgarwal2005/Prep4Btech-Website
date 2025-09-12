@@ -2270,7 +2270,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'math2-s2-cse',
     fileSize: '24.2 MB',
     uploadDate: '2024-02-01',
-    viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
+    viewUrl: 'https://drive.google.com/file/d/1PiV7az2NfqVV6Q2mdS4Vy-wn0GAi2fsO/view?usp=drive_link'
   },
   
   {
