@@ -2335,6 +2335,16 @@ export const contentItems: ContentItem[] = [
   //   uploadDate: '2024-02-01', 
   //   viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
   // },
+    {
+    id: 'math2-books-0-cse',
+    title: 'NK PDF',
+    description: 'Complete book',
+    type: 'books',
+    subjectId: 'math2-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1_ZuPpA8wNdGbp_ypIWZbkfRl42ibjAl6/view?usp=drive_link'
+  },
   {
     id: 'math2-books-1-cse',
     title: 'UNIT 1 BOOK PDF',
@@ -2405,6 +2415,7 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tq9_Xl8irIjxPFcptOX84JGfuOC3ekU2/view?usp=drive_link'
   },
+
  
   {
     id: 'math2-assignments-1-cse',
