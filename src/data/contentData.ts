@@ -2367,7 +2367,17 @@ export const contentItems: ContentItem[] = [
   },
    {
     id: 'math2-books-4-cse',
-    title: 'UNIT 4 BOOK PDF',
+    title: 'UNIT-4-PART-1 BOOK PDF',
+    description: 'Complete book',
+    type: 'books',
+    subjectId: 'math2-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/18MdDru4c7C3yctymaraOQSpFVIMfQACI/view?usp=drive_link'
+  },
+  {
+    id: 'math2-books-4-cse',
+    title: 'UNIT-4-PART-2 BOOK PDF',
     description: 'Complete book',
     type: 'books',
     subjectId: 'math2-s2-cse',
