@@ -1349,7 +1349,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'math1-s1-cse',
     fileSize: '1.1 MB',
     uploadDate: '2024-02-05',
-    viewUrl: 'https://example.com/math1-assignment1'
+    viewUrl: 'https://drive.google.com/file/d/10KRcrA2oTniya7HrM56qQghUur-g81fo/view?usp=sharing'
   },
   {
     id: 'math1-mtt-1-cse',
