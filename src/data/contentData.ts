@@ -1735,7 +1735,7 @@ export const contentItems: ContentItem[] = [
     description: 'Complete lab manual for Manufaturing Practices Worksho',
     type: 'lab',
     subjectId: 'mpws-s1-cse',
-    fileSize: '1.9 MB',
+    fileSize: '1.9 MB', 
     uploadDate: '2024-01-16',
     viewUrl: 'https://drive.google.com/file/d/1_s0eTmYM_vRnKogkjofdR6EWxZ7nwkvR/view?usp=drive_link'
   },
