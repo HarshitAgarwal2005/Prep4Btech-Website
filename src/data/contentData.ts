@@ -1311,6 +1311,16 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1-zL_wWqEuOent_2YjMXSQDSiEiQyADVO/view?usp=sharing'
   },
   {
+    id: 'math1-theory-6-cse',
+    title: 'Complete Notes',
+    description: 'Handwritten notes all units',
+    type: 'theory',
+    subjectId: 'math1-s1-cse',
+    fileSize: '73 MB',
+    uploadDate: '2024-01-20',
+    viewUrl: 'https://drive.google.com/file/d/1AdFoapsHRcRk_X39RJ95vdd4cqn5BrGe/view?usp=sharing'
+  },
+  {
     id: 'math1-video-1-cse',
     title: 'Engineering Mathematics-I Video Lectures',
     description: 'Video lectures covering key concepts',
