@@ -1333,13 +1333,13 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'math1-book-1-cse',
-    title: 'Engineering Mathematics by Kreyszig',
-    description: 'Reference textbook for advanced mathematics',
+    title: 'PYQ Book NK ',
+    description: 'Reference textbook for Engg. Mathematics PYQs',
     type: 'books',
     subjectId: 'math1-s1-cse',
     fileSize: '15.2 MB',
     uploadDate: '2024-02-01',
-    viewUrl: 'https://example.com/math1-book'
+    viewUrl: 'https://drive.google.com/file/d/1aXUtifvycoKUTfdxoIBCsfjVTXPqegPW/view?usp=sharing'
   },
   {
     id: 'math1-assignment-1-cse',
