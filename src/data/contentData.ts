@@ -3347,6 +3347,19 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1ksZ0kRqtlIvm3MJJEkjf0-KCep-SYu-8/view?usp=drive_link'
   },
+  //dbms notes
+   {
+    id: 'dbms-theory-2-cse',
+    title: 'UNIT 1',
+    description: 'DATABASE MANAGEMENT SYSTEM',
+    type: 'theory',
+    subjectId: 'se-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1ksZ0kRqtlIvm3MJJEkjf0-KCep-SYu-8/view?usp=drive_link'
+  },
+
+  
   
 ];
 
