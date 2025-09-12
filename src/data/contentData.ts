@@ -2363,7 +2363,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'math2-s2-cse',
     fileSize: '24.2 MB',
     uploadDate: '2024-02-01',
-    viewUrl: 'https://drive.google.com/drive/folders/1AN4gRVDOrjql41OkBffZuE08wftbfilO?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1jMLYI3euaL_ZulYIbN5oUvM_GnVrnFan/view?usp=drive_link'
   },
    {
     id: 'math2-books-4-cse',
