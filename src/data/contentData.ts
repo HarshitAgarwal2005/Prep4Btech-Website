@@ -2376,7 +2376,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/18MdDru4c7C3yctymaraOQSpFVIMfQACI/view?usp=drive_link'
   },
   {
-    id: 'math2-books-4-cse',
+    id: 'math2-books-5-cse',
     title: 'UNIT-4-PART-2 BOOK PDF',
     description: 'Complete book',
     type: 'books',
@@ -2386,14 +2386,24 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1niN7aeJxalat_E2lcZSNSnrtAvELPF2O/view?usp=drive_link'
   },
    {
-    id: 'math2-books-5-cse',
-    title: 'UNIT 5 BOOK PDF',
+    id: 'math2-books-6-cse',
+    title: 'UNIT-5-PART-1 BOOK PDF',
     description: 'Complete book',
     type: 'books',
     subjectId: 'math2-s2-cse',
     fileSize: '24.2 MB',
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1Z5ge2RPhVjpO_sKooIYBc_J0r_vxfwOH/view?usp=drive_link'
+  },
+  {
+    id: 'math2-books-7-cse',
+    title: 'UNIT-5-PART-2 BOOK PDF',
+    description: 'Complete book',
+    type: 'books',
+    subjectId: 'math2-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1tq9_Xl8irIjxPFcptOX84JGfuOC3ekU2/view?usp=drive_link'
   },
   // HUMAN VALUES 
   {
