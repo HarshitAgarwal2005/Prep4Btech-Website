@@ -44,7 +44,7 @@ const About: React.FC = () => {
       // --- TODO: Add your image URL here ---
       // For best results, use a square image (e.g., 200x200 pixels).
       // imageUrl: 'https://placehold.co/200x200/E9D5FF/8B5CF6?text=HA',
-      imageUrl: 'HarshitPic.jpg', 
+      imageUrl: 'HarshitPic.png', 
       socials: [
         { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/harshitagarwal2005?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', color: 'hover:text-blue-600' },
         { name: 'GitHub', icon: Github, url: 'https://github.com/HarshitAgarwal2005', color: 'hover:text-gray-800 dark:hover:text-gray-200' },
