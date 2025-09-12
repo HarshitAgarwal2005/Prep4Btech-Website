@@ -2424,7 +2424,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'math2-s2-cse',
     fileSize: '24.2 MB',
     uploadDate: '2024-02-01',
-    viewUrl: 'https://drive.google.com/file/d/1tq9_Xl8irIjxPFcptOX84JGfuOC3ekU2/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1aukFXN6ly2HJ3Hagz5ZM8KRIEet04JG2/view?usp=drive_link'
   },
   {
     id: 'math2-assignments-3-cse',
