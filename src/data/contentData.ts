@@ -3511,7 +3511,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'dbms-s4-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1aWwIPvniuwDpsS-nVzO9LnbzWFZTbKHA/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1qOGCanbRxyX96NfIp6sNNihpsre13Scn/view?usp=drive_link'
   },
   {
     id: 'dbms-lab-1-cse',
