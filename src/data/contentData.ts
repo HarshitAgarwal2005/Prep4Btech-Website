@@ -2405,6 +2405,38 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1tq9_Xl8irIjxPFcptOX84JGfuOC3ekU2/view?usp=drive_link'
   },
+ 
+  {
+    id: 'math2-assignments-1-cse',
+    title: 'ASSIGNMENT 1',
+    description: 'Complete Assignment',
+    type: 'assignments',
+    subjectId: 'math2-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/16hgJleI5pAAljlLvnlOeI14Vgq8linW7/view?usp=drive_link'
+  },
+  {
+    id: 'math2-assignments-2-cse',
+    title: 'ASSIGNMENT 2',
+    description: 'Complete Assignment',
+    type: 'assignments',
+    subjectId: 'math2-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1tq9_Xl8irIjxPFcptOX84JGfuOC3ekU2/view?usp=drive_link'
+  },
+  {
+    id: 'math2-assignments-3-cse',
+    title: 'ASSIGNMENT 3',
+    description: 'Complete Assignment',
+    type: 'assignments',
+    subjectId: 'math2-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1tq9_Xl8irIjxPFcptOX84JGfuOC3ekU2/view?usp=drive_link'
+  },
+  
   // HUMAN VALUES 
   { 
     id:'hv-theory-1-cse',
