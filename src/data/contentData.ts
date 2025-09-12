@@ -2283,6 +2283,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/16aND3qpQddPlTFPqavKwi9fVIqGoJPA3/view?usp=drive_link'
   },
+  {
+    id: 'math2-theory-6-cse',
+    title: 'COMPLETE NOTES UNIT 1-5 ',
+    description: 'Complete Notes for Unit 5',
+    type: 'theory',
+    subjectId: 'math2-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/16aND3qpQddPlTFPqavKwi9fVIqGoJPA3/view?usp=drive_link'
+  },
   // {
   //   id: 'math2-videos-1-cse',
   //   title: 'Unit 1',
