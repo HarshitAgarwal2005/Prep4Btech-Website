@@ -2345,6 +2345,46 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/drive/folders/1AN4gRVDOrjql41OkBffZuE08wftbfilO?usp=drive_link'
   },
+   {
+    id: 'math2-books-2-cse',
+    title: 'UNIT 2 BOOK PDF',
+    description: 'Complete book',
+    type: 'books',
+    subjectId: 'math2-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/drive/folders/1AN4gRVDOrjql41OkBffZuE08wftbfilO?usp=drive_link'
+  },
+   {
+    id: 'math2-books-3-cse',
+    title: 'UNIT 3 BOOK PDF',
+    description: 'Complete book',
+    type: 'books',
+    subjectId: 'math2-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/drive/folders/1AN4gRVDOrjql41OkBffZuE08wftbfilO?usp=drive_link'
+  },
+   {
+    id: 'math2-books-4-cse',
+    title: 'UNIT 4 BOOK PDF',
+    description: 'Complete book',
+    type: 'books',
+    subjectId: 'math2-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/drive/folders/1AN4gRVDOrjql41OkBffZuE08wftbfilO?usp=drive_link'
+  },
+   {
+    id: 'math2-books-5-cse',
+    title: 'UNIT 5 BOOK PDF',
+    description: 'Complete book',
+    type: 'books',
+    subjectId: 'math2-s2-cse',
+    fileSize: '24.2 MB',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/drive/folders/1AN4gRVDOrjql41OkBffZuE08wftbfilO?usp=drive_link'
+  },
   // HUMAN VALUES 
   {
     id:'hv-theory-1-cse',
