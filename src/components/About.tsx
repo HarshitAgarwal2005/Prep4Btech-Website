@@ -66,7 +66,7 @@ const About: React.FC = () => {
       name: 'Hariom Shivnani',
       title: 'Full Stack Developer & Student', 
       // --- TODO: Add your image URL here ---
-      imageUrl: 'hariom.jpg',
+      imageUrl: '/home/project/hariom.jpg',
        // imageUrl: 'https://placehold.co/200x200/E9D5FF/8B5CF6?text=HS',
       socials: [
         { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/hariom-shivnani?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', color: 'hover:text-blue-600' },
