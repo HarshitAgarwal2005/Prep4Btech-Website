@@ -4279,6 +4279,69 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1a3swsMDypeU3LfNOcBNHOtxnTW1OaNHE/view?usp=drive_link'
   },
+  //iot notes
+   {
+    id: 'iot-theory-1-cse',
+    title: 'Internet Of Things Unit-1',
+    description: 'Internet Of Things',
+    type: 'theory',
+    subjectId: 'iot-s7-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1a3swsMDypeU3LfNOcBNHOtxnTW1OaNHE/view?usp=drive_link'
+  },
+   {
+    id: 'iot-theory-2-cse',
+    title: 'Internet Of Things Unit-2',
+    description: 'Internet Of Things',
+    type: 'theory',
+    subjectId: 'iot-s7-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1a3swsMDypeU3LfNOcBNHOtxnTW1OaNHE/view?usp=drive_link'
+  },
+   {
+    id: 'iot-theory-3-cse',
+    title: 'Internet Of Things Unit-3',
+    description: 'Internet Of Things',
+    type: 'theory',
+    subjectId: 'iot-s7-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1a3swsMDypeU3LfNOcBNHOtxnTW1OaNHE/view?usp=drive_link'
+  },
+   {
+    id: 'iot-theory-4-cse',
+    title: 'Internet Of Things Unit-4',
+    description: 'Internet Of Things',
+    type: 'theory',
+    subjectId: 'iot-s7-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1a3swsMDypeU3LfNOcBNHOtxnTW1OaNHE/view?usp=drive_link'
+  },
+   {
+    id: 'iot-theory-5-cse',
+    title: 'Internet Of Things Unit-5',
+    description: 'Internet Of Things',
+    type: 'theory',
+    subjectId: 'iot-s7-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1a3swsMDypeU3LfNOcBNHOtxnTW1OaNHE/view?usp=drive_link'
+  },
+   
+  
+   {
+    id: 'iot-books-1-cse',
+    title: 'Internet Of Things NK BOOK PDF',
+    description: 'Internet Of Things',
+    type: 'books',
+    subjectId: 'iot-s7-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/13fvfIC-QcOvAXsfmBsU-2a-KCUXwJksQ/view?usp=drive_link'
+  },
   
 
   
