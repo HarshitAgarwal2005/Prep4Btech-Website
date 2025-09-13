@@ -3948,6 +3948,46 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
   //TC NOTES
   {
+    id: 'tc-theory-1-cse',
+    title: 'TC UNIT-2',
+    description: 'Technical communication',
+    type: 'theory',
+    subjectId: 'tc-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1uF9tKX5J8btss2ZC3Ou9cqqEBmGsHPpo/view?usp=drive_link'
+  },
+  {
+    id: 'tc-theory-2-cse',
+    title: 'TC UNIT-2',
+    description: 'Technical communication',
+    type: 'theory',
+    subjectId: 'tc-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/document/d/1tNBmCbDtLGScAcAgX6YWCSOittX7Zn7v/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+  {
+    id: 'tc-theory-3-cse',
+    title: 'TC UNIT-2',
+    description: 'Technical communication',
+    type: 'theory',
+    subjectId: 'tc-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/document/d/1tNBmCbDtLGScAcAgX6YWCSOittX7Zn7v/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+  {
+    id: 'tc-theory-4-cse',
+    title: 'TC UNIT-2',
+    description: 'Technical communication',
+    type: 'theory',
+    subjectId: 'tc-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/document/d/1tNBmCbDtLGScAcAgX6YWCSOittX7Zn7v/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+  {
     id: 'tc-theory-4-cse',
     title: 'TC UNIT-2',
     description: 'Technical communication',
