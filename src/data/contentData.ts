@@ -4255,7 +4255,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
    {
     id: 'itc-books-2-cse',
-    title: 'Information Theory & Coding NK BOOK PDF',
+    title: 'Information Theory & Coding Unit-1&2',
     description: 'Quantification, storage, and communication of information',
     type: 'books',
     subjectId: 'itc-s5-cse',
@@ -4265,7 +4265,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
    {
     id: 'itc-books-3-cse',
-    title: 'Information Theory & Coding NK BOOK PDF',
+    title: 'Information Theory & Coding Unit-3',
     description: 'Quantification, storage, and communication of information',
     type: 'books',
     subjectId: 'itc-s5-cse',
@@ -4275,13 +4275,23 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
    {
     id: 'itc-books-4-cse',
-    title: 'Information Theory & Coding NK BOOK PDF',
+    title: 'Information Theory & Coding Unit-4',
     description: 'Quantification, storage, and communication of information',
     type: 'books',
     subjectId: 'itc-s5-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1Iv-PrNXmw0zAcwYG6yME9F5pTaB7EfEd/view?usp=drive_link'
+  },
+   {
+    id: 'itc-books-5-cse',
+    title: 'Information Theory & Coding Unit-5',
+    description: 'Quantification, storage, and communication of information',
+    type: 'books',
+    subjectId: 'itc-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1tdXsUcHzd2vuyDtgCWbZ-DeQLA8SFwth/view?usp=drive_link'
   },
   // 4th year
   
