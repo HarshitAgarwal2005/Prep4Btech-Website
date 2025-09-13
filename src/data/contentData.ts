@@ -3988,7 +3988,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     viewUrl: 'https://drive.google.com/file/d/1llWCcJmEpR3bLIe2Pp5heFp3AO4JWUlO/view?usp=drive_link'
   },
   {
-    id: 'tc-assignments-4-cse',
+    id: 'tc-assignments-1-cse',
     title: 'TC ASSIGNMENT',
     description: 'Technical communication',
     type: 'assignments',
@@ -3997,6 +3997,29 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1DFd24zzAy5idOWYjSkCQwZgR83eyJRvU/view?usp=drive_link'
   },
+  // TOC NOTES
+  {
+    id: 'toc-thoery-1-cse',
+    title: 'UNIT-1 NOTES',
+    description: 'Technical communication',
+    type: 'theory',
+    subjectId: 'toc-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/presentation/d/1CPcrV4g5OfVbswEj2-h-JQbllxDrYyid/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+   {
+    id: 'tOc-assignments-1-cse',
+    title: 'TC ASSIGNMENT',
+    description: 'Technical communication',
+    type: 'assignments',
+    subjectId: 'tOc-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1DFd24zzAy5idOWYjSkCQwZgR83eyJRvU/view?usp=drive_link'
+  },
+  
+  
   
   
   
