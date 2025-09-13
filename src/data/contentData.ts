@@ -4298,7 +4298,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'iot-s7-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1a3swsMDypeU3LfNOcBNHOtxnTW1OaNHE/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/11cfzzAGn0n90TZdQk7DFRG8hmG2X50Kv/view?usp=drive_link'
   },
    {
     id: 'iot-theory-3-cse',
