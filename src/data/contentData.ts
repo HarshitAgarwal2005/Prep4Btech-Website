@@ -4303,6 +4303,56 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1tdXsUcHzd2vuyDtgCWbZ-DeQLA8SFwth/view?usp=drive_link'
   },
+   {
+    id: 'itc-assignments-1-cse',
+    title: 'Information Theory & Coding Assignment-1',
+    description: 'Quantification, storage, and communication of information',
+    type: 'assignments',
+    subjectId: 'itc-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1EVFrPqteexoPJ6hM0uXdLru8g8gQDd7r/view?usp=drive_link'
+  },
+   {
+    id: 'itc-assignments-2-cse',
+    title: 'Information Theory & Coding Assignment-2',
+    description: 'Quantification, storage, and communication of information',
+    type: 'assignments',
+    subjectId: 'itc-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1qVn8VSbxfpgDSfUi5SUIgUgYgQ74rsKE/view?usp=drive_link'
+  },
+   {
+    id: 'itc-assignments-3-cse',
+    title: 'Information Theory & Coding Assignment-3',
+    description: 'Quantification, storage, and communication of information',
+    type: 'assignments',
+    subjectId: 'itc-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1FsBeYDODGdQNTROlGnwi57_Yqt6XQERJ/view?usp=drive_link'
+  },
+   {
+    id: 'itc-assignments-4-cse',
+    title: 'Information Theory & Coding Assignment-4',
+    description: 'Quantification, storage, and communication of information',
+    type: 'assignments',
+    subjectId: 'itc-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1qdQZodDrWEd-uobD8QxhzaAQI-XcMONH/view?usp=drive_link'
+  },
+   {
+    id: 'itc-assignments-5-cse',
+    title: 'Information Theory & Coding Assignment-5',
+    description: 'Quantification, storage, and communication of information',
+    type: 'assignments',
+    subjectId: 'itc-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/17x9h6pM_MWU-Iv37s2l3xFTyYtKmNO8w/view?usp=drive_link'
+  },
   
   // 4th year
   
