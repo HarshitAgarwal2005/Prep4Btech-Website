@@ -789,6 +789,36 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Principles of data communication and networking',
     icon: '🌐'
   },
+   {
+    id: 'linux-s4-cse',
+    name: 'Linux Programming Lab',
+    code: '4CS4-XX',
+    year: 2,
+    semester: 4,
+    branch: 'CSE/AI/AIDS/IT',
+    description: 'Principles of Linux Programming',
+    icon: '🌐'
+  },
+   {
+    id: 'java-s4-cse',
+    name: 'Java Programming Lab',
+    code: '4CS4-XX',
+    year: 2,
+    semester: 4,
+    branch: 'CSE/AI/AIDS/IT',
+    description: 'Principles of Java Programming',
+    icon: '🌐'
+  },
+   {
+    id: 'dccn-s4-cse',
+    name: 'Data Communication & Computer Networks',
+    code: '4CS4-07',
+    year: 2,
+    semester: 4,
+    branch: 'CSE/AI/AIDS/IT',
+    description: 'Principles of data communication and networking',
+    icon: '🌐'
+  },
 
   // 3rd year semester 5 - CSE
   {
