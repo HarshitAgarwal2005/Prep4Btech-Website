@@ -4118,6 +4118,40 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1OlRK40QyRA7l2vuI5xeKMVH-gVe_wzTo/view?usp=drive_link'
   },
+  //LINUX LAB
+  {
+    id: 'toc-assignments-7-cse',
+    title: 'TC ASSIGNMENT',
+    description: 'Technical communication',
+    type: 'assignments',
+    subjectId: 'toc-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1OlRK40QyRA7l2vuI5xeKMVH-gVe_wzTo/view?usp=drive_link'
+  },
+  //JAVA LAB
+  {
+    id: 'toc-assignments-7-cse',
+    title: 'TC ASSIGNMENT',
+    description: 'Technical communication',
+    type: 'assignments',
+    subjectId: 'toc-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1OlRK40QyRA7l2vuI5xeKMVH-gVe_wzTo/view?usp=drive_link'
+  },
+
+// NETWORKING PROGRAMMING LAB
+  {
+    id: 'toc-assignments-7-cse',
+    title: 'TC ASSIGNMENT',
+    description: 'Technical communication',
+    type: 'assignments',
+    subjectId: 'toc-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1OlRK40QyRA7l2vuI5xeKMVH-gVe_wzTo/view?usp=drive_link'
+  },
   
   
   
