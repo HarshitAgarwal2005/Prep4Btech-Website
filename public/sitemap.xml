@@ -1,61 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://prep4btech.netlify.app/</loc>
-    <lastmod>2025-09-05</lastmod>
+    <lastmod>2025-09-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-  
   <url>
     <loc>https://prep4btech.netlify.app/year.html</loc>
-    <lastmod>2025-09-05</lastmod>
+    <lastmod>2025-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <url>
     <loc>https://prep4btech.netlify.app/assignments.html</loc>
-    <lastmod>2025-09-05</lastmod>
+    <lastmod>2025-09-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://prep4btech.netlify.app/books.html</loc>
-    <lastmod>2025-09-01</lastmod>
+    <lastmod>2025-09-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://prep4btech.netlify.app/projects.html</loc>
-    <lastmod>2025-09-01</lastmod>
+    <lastmod>2025-09-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://prep4btech.netlify.app/pyq-papers.html</loc>
-    <lastmod>2025-09-01</lastmod>
+    <lastmod>2025-09-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://prep4btech.netlify.app/rtu-syllabus.html</loc>
-    <lastmod>2025-09-01</lastmod>
+    <lastmod>2025-09-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://prep4btech.netlify.app/contact.html</loc>
-    <lastmod>2025-09-01</lastmod>
+    <lastmod>2025-09-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://prep4btech.netlify.app/about.html</loc>
-    <lastmod>2025-09-01</lastmod>
+    <lastmod>2025-09-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
-
 </urlset>
