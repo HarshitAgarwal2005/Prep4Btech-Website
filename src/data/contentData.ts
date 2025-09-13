@@ -4375,6 +4375,28 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     viewUrl: 'https://drive.google.com/file/d/1GZ9iXkPgmh5arz4rIIiqP-022gpO2-yp/view?usp=drive_link'
   },
   
+  {
+    id: 'cd-lab-1-cse',
+    title: 'Compiler Design Lab Manual',
+    description: 'Principles and practices of compiler construction',
+    type: 'lab',
+    subjectId: 'cd-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1GZ9iXkPgmh5arz4rIIiqP-022gpO2-yp/view?usp=drive_link'
+  },
+
+  {
+    id: 'cd-books-2-cse',
+    title: 'Compiler Design NK BOOK PDF',
+    description: 'Principles and practices of compiler construction',
+    type: 'books',
+    subjectId: 'cd-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1GZ9iXkPgmh5arz4rIIiqP-022gpO2-yp/view?usp=drive_link'
+  },
+  
   
   // 4th year
   
