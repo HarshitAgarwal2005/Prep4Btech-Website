@@ -9,7 +9,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '1FY2-01',
     year: 1,
     semester: 1,
-     branch: 'CSE',
+     branch: 'CSE/AI/AIDS/IT',
     description: 'Fundamental mathematical concepts for engineering',
     icon: '📐'
   },
@@ -19,7 +19,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '1FY2-02',
     year: 1,
     semester: 1,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Basic physics principles and applications',
     icon: '⚛️'
   },
@@ -29,7 +29,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '1FY1-04',
     year: 1,
     semester: 1,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'English communication and technical writing',
     icon: '💬'
   },
@@ -39,7 +39,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '2FY3-07',
     year: 1,
     semester: 1,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Introduction to mechanical engineering concepts',
     icon: '⚙️'
   },
@@ -49,7 +49,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '1FY3-08',
     year: 1,
     semester: 1,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Electrical circuits and basic electronics',
     icon: '⚡' 
   },
@@ -59,7 +59,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '1FY3-29',
     year: 1,
     semester: 1,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Computer-Aided Machine Drawing',
     icon: '✏️'
   },
