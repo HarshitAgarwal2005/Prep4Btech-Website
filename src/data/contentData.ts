@@ -4356,13 +4356,13 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   //cd notes
   {
     id: 'cd-theory-5-cse',
-    title: 'Compiler Design',
+    title: 'Compiler Design unit-1,2,4',
     description: 'Principles and practices of compiler construction',
     type: 'theory',
     subjectId: 'cd-s5-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/17x9h6pM_MWU-Iv37s2l3xFTyYtKmNO8w/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1xA3W_fhhHjCSSgIPBYpT86vVptendD6b/view?usp=drive_link'
   },
   
   
