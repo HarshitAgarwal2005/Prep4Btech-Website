@@ -4127,7 +4127,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'lab-s4-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1OlRK40QyRA7l2vuI5xeKMVH-gVe_wzTo/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1v4H0A0kIoeIiGslncObq7GYqtut4cPXK/view?usp=drive_link'
   },
   //JAVA LAB
   {
