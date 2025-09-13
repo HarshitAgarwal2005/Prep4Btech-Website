@@ -3988,14 +3988,14 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     viewUrl: 'https://drive.google.com/file/d/1llWCcJmEpR3bLIe2Pp5heFp3AO4JWUlO/view?usp=drive_link'
   },
   {
-    id: 'tc-theory-4-cse',
+    id: 'tc-assignments-4-cse',
     title: 'TC UNIT-2',
     description: 'Technical communication',
-    type: 'theory',
+    type: 'assignments',
     subjectId: 'tc-s4-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://docs.google.com/document/d/1tNBmCbDtLGScAcAgX6YWCSOittX7Zn7v/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+    viewUrl: 'https://drive.google.com/file/d/1DFd24zzAy5idOWYjSkCQwZgR83eyJRvU/view?usp=drive_link'
   },
   
   
