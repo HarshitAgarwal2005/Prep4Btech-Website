@@ -4452,7 +4452,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'oe2-s8-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1h8sGFFOzbC0wOtvkQnYH980AfLf3XMbx/view?usp=drive_link'
+    viewUrl: 'https://docs.google.com/document/d/1HGYl8lxbLjsGwo0kQSfyQEu2nQHOjoUQ/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
   },
    {
     id: 'oe2-theory-1-cse',
@@ -4462,7 +4462,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'oe2-s8-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1h8sGFFOzbC0wOtvkQnYH980AfLf3XMbx/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1FdwcH4wVumk9CSIipsaZbUkVcqupbLy3/view?usp=drive_link'
   },
 
   
