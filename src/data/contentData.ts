@@ -74,17 +74,17 @@ export const contentSubjects: ContentSubject[] = [
     icon: '✏️'
   },
   // ECE
-  { 
+ {
     id: 'math1-s1-cse',
     name: 'Engineering Mathematics-I',
     code: '1FY2-01',
     year: 1,
     semester: 1,
-    branch: 'ECE',
+     branch: 'ECE',
     description: 'Fundamental mathematical concepts for engineering',
     icon: '📐'
   },
-  {
+  { 
     id: 'physics-s1-cse',
     name: 'Engineering Physics',
     code: '1FY2-02',
@@ -94,7 +94,6 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Basic physics principles and applications',
     icon: '⚛️'
   },
-  
   {
     id: 'comm-s1-cse',
     name: 'Communication Skills',
@@ -123,20 +122,40 @@ export const contentSubjects: ContentSubject[] = [
     semester: 1,
     branch: 'ECE',
     description: 'Electrical circuits and basic electronics',
-    icon: '⚡'
+    icon: '⚡' 
+  },
+  {
+    id: 'camd-s1-cse',
+    name: 'CAMD',
+    code: '1FY3-29',
+    year: 1,
+    semester: 1,
+    branch: 'ECE',
+    description: 'Computer-Aided Machine Drawing',
+    icon: '✏️'
+  },
+   {
+    id: 'mpws-s1-cse',
+    name: 'MPWS',
+    code: '1FY3-25',
+    year: 1,
+    semester: 1,
+    branch: 'ECE',
+    description: 'Manufacturing Practices Workshop',
+    icon: '✏️'
   },
   // EE
-  {
+ {
     id: 'math1-s1-cse',
     name: 'Engineering Mathematics-I',
     code: '1FY2-01',
     year: 1,
     semester: 1,
-    branch: 'EE',
+     branch: 'EE',
     description: 'Fundamental mathematical concepts for engineering',
     icon: '📐'
   },
-  {
+  { 
     id: 'physics-s1-cse',
     name: 'Engineering Physics',
     code: '1FY2-02',
@@ -174,7 +193,27 @@ export const contentSubjects: ContentSubject[] = [
     semester: 1,
     branch: 'EE',
     description: 'Electrical circuits and basic electronics',
-    icon: '⚡'
+    icon: '⚡' 
+  },
+  {
+    id: 'camd-s1-cse',
+    name: 'CAMD',
+    code: '1FY3-29',
+    year: 1,
+    semester: 1,
+    branch: 'EE',
+    description: 'Computer-Aided Machine Drawing',
+    icon: '✏️'
+  },
+   {
+    id: 'mpws-s1-cse',
+    name: 'MPWS',
+    code: '1FY3-25',
+    year: 1,
+    semester: 1,
+    branch: 'EE',
+    description: 'Manufacturing Practices Workshop',
+    icon: '✏️'
   },
   // MECH
   {
@@ -183,11 +222,11 @@ export const contentSubjects: ContentSubject[] = [
     code: '1FY2-01',
     year: 1,
     semester: 1,
-    branch: 'MECH',
+     branch: 'MECH',
     description: 'Fundamental mathematical concepts for engineering',
     icon: '📐'
   },
-  {
+  { 
     id: 'physics-s1-cse',
     name: 'Engineering Physics',
     code: '1FY2-02',
@@ -225,7 +264,27 @@ export const contentSubjects: ContentSubject[] = [
     semester: 1,
     branch: 'MECH',
     description: 'Electrical circuits and basic electronics',
-    icon: '⚡'
+    icon: '⚡' 
+  },
+  {
+    id: 'camd-s1-cse',
+    name: 'CAMD',
+    code: '1FY3-29',
+    year: 1,
+    semester: 1,
+    branch: 'MECH',
+    description: 'Computer-Aided Machine Drawing',
+    icon: '✏️'
+  },
+   {
+    id: 'mpws-s1-cse',
+    name: 'MPWS',
+    code: '1FY3-25',
+    year: 1,
+    semester: 1,
+    branch: 'MECH',
+    description: 'Manufacturing Practices Workshop',
+    icon: '✏️'
   },
   // CIVIL
   {
@@ -234,11 +293,11 @@ export const contentSubjects: ContentSubject[] = [
     code: '1FY2-01',
     year: 1,
     semester: 1,
-    branch: 'CIVIL',
+     branch: 'CIVIL',
     description: 'Fundamental mathematical concepts for engineering',
     icon: '📐'
   },
-  {
+  { 
     id: 'physics-s1-cse',
     name: 'Engineering Physics',
     code: '1FY2-02',
@@ -276,9 +335,28 @@ export const contentSubjects: ContentSubject[] = [
     semester: 1,
     branch: 'CIVIL',
     description: 'Electrical circuits and basic electronics',
-    icon: '⚡'
+    icon: '⚡' 
   },
-
+  {
+    id: 'camd-s1-cse',
+    name: 'CAMD',
+    code: '1FY3-29',
+    year: 1,
+    semester: 1,
+    branch: 'CIVIL',
+    description: 'Computer-Aided Machine Drawing',
+    icon: '✏️'
+  },
+   {
+    id: 'mpws-s1-cse',
+    name: 'MPWS',
+    code: '1FY3-25',
+    year: 1,
+    semester: 1,
+    branch: 'CIVIL',
+    description: 'Manufacturing Practices Workshop',
+    icon: '✏️'
+  },
 
   // First Year - Semester 2 (Common Subjects, differentiated by branch)
   // CSE
@@ -343,7 +421,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '📐'
   },
   // ECE
-  {
+   {
     id: 'math2-s2-cse',
     name: 'Engineering Mathematics-II',
     code: '2FY2-01',
@@ -380,7 +458,7 @@ export const contentSubjects: ContentSubject[] = [
     year: 1,
     semester: 2,
     branch: 'ECE',
-    description: 'Introduction to programming concepts',
+    description: 'Introduction to programming concepts using C',
     icon: '💻'
   },
   {
@@ -392,9 +470,19 @@ export const contentSubjects: ContentSubject[] = [
     branch: 'ECE',
     description: 'Civil engineering fundamentals',
     icon: '🏗️'
+  },
+  {
+    id: 'caeg-s2-cse',
+    name: 'CAEG',
+    code: '2FY3-28',
+    year: 1,
+    semester: 2,
+    branch: 'ECE',
+    description: 'Computer-Aided Engineering Graphics',
+    icon: '📐'
   },
   // EE
-  {
+   {
     id: 'math2-s2-cse',
     name: 'Engineering Mathematics-II',
     code: '2FY2-01',
@@ -431,7 +519,7 @@ export const contentSubjects: ContentSubject[] = [
     year: 1,
     semester: 2,
     branch: 'EE',
-    description: 'Introduction to programming concepts',
+    description: 'Introduction to programming concepts using C',
     icon: '💻'
   },
   {
@@ -443,6 +531,16 @@ export const contentSubjects: ContentSubject[] = [
     branch: 'EE',
     description: 'Civil engineering fundamentals',
     icon: '🏗️'
+  },
+  {
+    id: 'caeg-s2-cse',
+    name: 'CAEG',
+    code: '2FY3-28',
+    year: 1,
+    semester: 2,
+    branch: 'EE',
+    description: 'Computer-Aided Engineering Graphics',
+    icon: '📐'
   },
   // MECH
   {
@@ -482,7 +580,7 @@ export const contentSubjects: ContentSubject[] = [
     year: 1,
     semester: 2,
     branch: 'MECH',
-    description: 'Introduction to programming concepts',
+    description: 'Introduction to programming concepts using C',
     icon: '💻'
   },
   {
@@ -495,8 +593,18 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Civil engineering fundamentals',
     icon: '🏗️'
   },
-  // CIVIL
   {
+    id: 'caeg-s2-cse',
+    name: 'CAEG',
+    code: '2FY3-28',
+    year: 1,
+    semester: 2,
+    branch: 'MECH',
+    description: 'Computer-Aided Engineering Graphics',
+    icon: '📐'
+  },
+  // CIVIL
+   {
     id: 'math2-s2-cse',
     name: 'Engineering Mathematics-II',
     code: '2FY2-01',
@@ -533,7 +641,7 @@ export const contentSubjects: ContentSubject[] = [
     year: 1,
     semester: 2,
     branch: 'CIVIL',
-    description: 'Introduction to programming concepts',
+    description: 'Introduction to programming concepts using C',
     icon: '💻'
   },
   {
@@ -545,6 +653,16 @@ export const contentSubjects: ContentSubject[] = [
     branch: 'CIVIL',
     description: 'Civil engineering fundamentals',
     icon: '🏗️'
+  },
+  {
+    id: 'caeg-s2-cse',
+    name: 'CAEG',
+    code: '2FY3-28',
+    year: 1,
+    semester: 2,
+    branch: 'CIVIL',
+    description: 'Computer-Aided Engineering Graphics',
+    icon: '📐'
   },
 
 
