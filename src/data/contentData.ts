@@ -4121,8 +4121,8 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   //LINUX LAB
   {
     id: 'linux-lab-1-cse',
-    title: 'TC ASSIGNMENT',
-    description: 'Technical communication',
+    title: 'LINUX PROGRAMMING LAB MANUAL',
+    description: 'LINUX PROGRAMMING LAB',
     type: 'lab',
     subjectId: 'lab-s4-cse',
     fileSize: '1.3 MB',
@@ -4132,8 +4132,8 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   //JAVA LAB
   {
     id: 'java-lab-1-cse',
-    title: 'TC ASSIGNMENT',
-    description: 'Technical communication',
+    title: 'JAVA PROGRAMMING LAB MANUAL',
+    description: 'JAVA PROGRAMMING LAB',
     type: 'lab',
     subjectId: 'toc-s4-cse',
     fileSize: '1.3 MB',
@@ -4144,8 +4144,8 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
 // NETWORKING PROGRAMMING LAB
    {
     id: 'np-theory-1-cse',
-    title: 'TC ASSIGNMENT',
-    description: 'Technical communication',
+    title: 'NOTES',
+    description: 'NETWROK PROGRAMMING LAB',
     type: 'theory',
     subjectId: 'np-s4-cse',
     fileSize: '1.3 MB',
@@ -4154,8 +4154,8 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
   {
     id: 'np-lab-2-cse',
-    title: 'TC ASSIGNMENT',
-    description: 'Technical communication',
+    title: 'NETWROK PROGRAMMING LAB MANUAL',
+    description: 'NETWROK PROGRAMMING LAB',
     type: 'lab',
     subjectId: 'np-s4-cse',
     fileSize: '1.3 MB',
