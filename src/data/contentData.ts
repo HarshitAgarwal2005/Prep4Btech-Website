@@ -4618,6 +4618,26 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1MkdkfkRiUGZ_ParICuL9CqBrjbKKuME3/view?usp=drive_link'
   },
+  {
+    id: 'aa-lab-1-cse',
+    title: 'Analysis Of Algorithm Lab Manual',
+    description: 'Analysis of algorithm complexity and performance',
+    type: 'lab',
+    subjectId: 'aa-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1FixYFiksN4ROLLIS2rv4yeRpBPV7fXLZ/view?usp=drive_link'
+  },
+  {
+    id: 'aa-books-1-cse',
+    title: 'Analysis Of Algorithm NK BOOK PDF',
+    description: 'Analysis of algorithm complexity and performance',
+    type: 'books',
+    subjectId: 'aa-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1Vyj_xpEX8w7RcPlxzNxt0FNL1qep8Zmp/view?usp=drive_link'
+  },
   
   
   
