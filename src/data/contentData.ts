@@ -4361,6 +4361,68 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1-J-6al6795u-MHQ7Aan7YvOs5W188TmT/view?usp=drive_link'
   },
+  // 8th sem 
+   {
+    id: 'bda-theory-1-cse',
+    title: 'Big Data Analytics Unit-1',
+    description: 'Analyzing large and complex data sets',
+    type: 'theory',
+    subjectId: 'bda-s8-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1b_AFmZhxg77tpVUicfuLaqBzGcowjbJC/view?usp=drive_link'
+  },
+  {
+    id: 'bda-theory-2-cse',
+    title: 'Big Data Analytics Unit-2',
+    description: 'Analyzing large and complex data sets',
+    type: 'theory',
+    subjectId: 'bda-s8-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1IKyuwQI63PfWBsILlH63BKgoOpEDXUqK/view?usp=drive_link'
+  },
+  {
+    id: 'bda-theory-3-cse',
+    title: 'Big Data Analytics Unit-3',
+    description: 'Analyzing large and complex data sets',
+    type: 'theory',
+    subjectId: 'bda-s8-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1oAvIf1vXZJ2Hr7glkuLB0cbsiRXKAOp9/view?usp=drive_link'
+  },
+  {
+    id: 'bda-theory-4-cse',
+    title: 'Big Data Analytics Unit-4',
+    description: 'Analyzing large and complex data sets',
+    type: 'theory',
+    subjectId: 'bda-s8-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/14HOWyCGBo5-mwdFePqgc80R-hr8b2cT7/view?usp=drive_link'
+  },
+  {
+    id: 'bda-theory-5-cse',
+    title: 'Big Data Analytics Unit-5',
+    description: 'Analyzing large and complex data sets',
+    type: 'theory',
+    subjectId: 'bda-s8-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1J3u-ctyVuumsb2W4NrrKCfk5QCg0Q9E_/view?usp=drive_link'
+  },
+
+  {
+    id: 'bda-theory-1-cse',
+    title: 'Big Data Analytics Unit-1',
+    description: 'Analyzing large and complex data sets',
+    type: 'theory',
+    subjectId: 'bda-s8-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1J3u-ctyVuumsb2W4NrrKCfk5QCg0Q9E_/view?usp=drive_link'
+  },
   
 
   
