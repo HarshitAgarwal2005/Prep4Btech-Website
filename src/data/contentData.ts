@@ -4396,6 +4396,106 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1ZL9OJ1UYegX1h0mNZr6lfzBpn2xfPIdg/view?usp=drive_link'
   },
+  //cg notes
+   {
+    id: 'cgm-theory-1-cse',
+    title: 'Computer Graphics & Multimedia Unit-1,2,3,4 Habdwritten Notes',
+    description: 'Creating and manipulating visual content',
+    type: 'theory',
+    subjectId: 'cgm-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1LkPwgrfEUKHPCCdUZlLQP6X-hbtp1PdU/view?usp=drive_link'
+  },
+  
+   {
+    id: 'cgm-theory-2-cse',
+    title: 'Computer Graphics & Multimedia Unit-1 ',
+    description: 'Creating and manipulating visual content',
+    type: 'theory',
+    subjectId: 'cgm-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1myVjbV_3kmLOgTBGEJWbyZcK_KOgySFT/view?usp=drive_link'
+  },
+
+   {
+    id: 'cgm-theory-3-cse',
+    title: 'Computer Graphics & Multimedia Unit-2',
+    description: 'Creating and manipulating visual content',
+    type: 'theory',
+    subjectId: 'cgm-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1rqctx6N7JX-0qSzZacaovxi5eU_NtFjw/view?usp=drive_link'
+  },
+
+   {
+    id: 'cgm-theory-4-cse',
+    title: 'Computer Graphics & Multimedia Unit-3',
+    description: 'Creating and manipulating visual content',
+    type: 'theory',
+    subjectId: 'cgm-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1m49dAKaY7lm1g7FMmGwfYFgMH0wwnADy/view?usp=drive_link'
+  },
+
+   {
+    id: 'cgm-theory-5-cse',
+    title: 'Computer Graphics & Multimedia Unit-4',
+    description: 'Creating and manipulating visual content',
+    type: 'theory',
+    subjectId: 'cgm-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1EskyWEBxsWgD7OyCvDpApIoEhPux6isI/view?usp=drive_link'
+  },
+
+   {
+    id: 'cgm-theory-6-cse',
+    title: 'Computer Graphics & Multimedia Unit-5',
+    description: 'Creating and manipulating visual content',
+    type: 'theory',
+    subjectId: 'cgm-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1uMEEE2Rd_AamO6PsSmyOVNUhqwNu7d87/view?usp=drive_link'
+  },
+
+   {
+    id: 'cgm-theory-7-cse',
+    title: 'Computer Graphics & Multimedia Unit-6',
+    description: 'Creating and manipulating visual content',
+    type: 'theory',
+    subjectId: 'cgm-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1fYMknVkqq-BTMGUxmX2RdQ6M5gUCjhke/view?usp=drive_link'
+  },
+
+   {
+    id: 'cgm-theory-1-cse',
+    title: 'Computer Graphics & Multimedia',
+    description: 'Creating and manipulating visual content',
+    type: 'theory',
+    subjectId: 'cgm-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1ZL9OJ1UYegX1h0mNZr6lfzBpn2xfPIdg/view?usp=drive_link'
+  },
+
+   {
+    id: 'cgm-theory-1-cse',
+    title: 'Computer Graphics & Multimedia',
+    description: 'Creating and manipulating visual content',
+    type: 'theory',
+    subjectId: 'cgm-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1ZL9OJ1UYegX1h0mNZr6lfzBpn2xfPIdg/view?usp=drive_link'
+  },
+  
   
   
   // 4th year
