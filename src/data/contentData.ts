@@ -69,7 +69,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '1FY3-25',
     year: 1,
     semester: 1,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Manufacturing Practices Workshop',
     icon: '✏️'
   },
@@ -366,7 +366,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '2FY2-01',
     year: 1,
     semester: 2,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Advanced mathematical concepts and applications',
     icon: '📊'
   },
@@ -376,7 +376,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '2FY2-03',
     year: 1,
     semester: 2,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Chemical principles for engineering applications',
     icon: '🧪'
   },
@@ -386,7 +386,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '1FY1-05',
     year: 1,
     semester: 2,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Ethics, values and professional development',
     icon: '🤝'
   },
@@ -396,7 +396,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '2FY3-06',
     year: 1,
     semester: 2,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Introduction to programming concepts using C',
     icon: '💻'
   },
@@ -406,7 +406,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '1FY3-09',
     year: 1,
     semester: 2,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Civil engineering fundamentals',
     icon: '🏗️'
   },
@@ -416,7 +416,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '2FY3-28',
     year: 1,
     semester: 2,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Computer-Aided Engineering Graphics',
     icon: '📐'
   },
@@ -673,7 +673,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '3CS2-01',
     year: 2,
     semester: 3,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Advanced topics in engineering mathematics',
     icon: '📈'
   },
@@ -683,7 +683,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '3CS4-06',
     year: 2,
     semester: 3,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Concepts of OOP using languages like C++ or Java',
     icon: '🎯'
   },
@@ -693,7 +693,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '3CS3-04',
     year: 2,
     semester: 3,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Fundamentals of digital circuits and logic design',
     icon: '🔌'
   },
@@ -703,7 +703,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '3CS4-05',
     year: 2,
     semester: 3,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Data organization and algorithmic problem solving',
     icon: '🔗'
   },
@@ -713,7 +713,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '3CS1-03',
     year: 2,
     semester: 3,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Economic principles and financial management in engineering',
     icon: '💰'
   },
@@ -723,7 +723,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '3CS4-07',
     year: 2,
     semester: 3,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Principles of software development life cycle',
     icon: '🔧'
   },
@@ -735,7 +735,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '4CS2-01',
     year: 2,
     semester: 4,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Mathematical structures that are fundamentally discrete',
     icon: '🔢'
   },
@@ -745,7 +745,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '4CS1-02',
     year: 2,
     semester: 4,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Effective communication for technical fields',
     icon: '📝'
   },
@@ -755,7 +755,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '4CS3-01',
     year: 2,
     semester: 4,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Architecture and programming of microprocessors',
     icon: '🤖'
   },
@@ -765,7 +765,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '4CS4-05',
     year: 2,
     semester: 4,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Design and management of databases',
     icon: '🗃️'
   },
@@ -775,7 +775,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '4CS4-06',
     year: 2,
     semester: 4,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Theoretical foundations of computer science',
     icon: '🧠'
   },
@@ -785,7 +785,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '4CS4-07',
     year: 2,
     semester: 4,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Principles of data communication and networking',
     icon: '🌐'
   },
@@ -797,7 +797,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '5CS3-01',
     year: 3,
     semester: 5,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Quantification, storage, and communication of information',
     icon: '📡'
   }, {
@@ -806,7 +806,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '5CS4-02',
     year: 3,
     semester: 5,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Principles and practices of compiler construction',
     icon: '⚙️'
   }, {
@@ -815,7 +815,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '5CS4-03',
     year: 3,
     semester: 5,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Core concepts of operating systems',
     icon: '💻'
   }, {
@@ -824,7 +824,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '5CS4-04',
     year: 3,
     semester: 5,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Creating and manipulating visual content',
     icon: '🎨'
   }, {
@@ -833,7 +833,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '5CS5-05',
     year: 3,
     semester: 5,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Analysis of algorithm complexity and performance',
     icon: '📊'
   }, {
@@ -842,7 +842,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '5CS5-11',
     year: 3,
     semester: 5,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Principles of wireless communication systems',
     icon: '📶'
   }, {
@@ -851,7 +851,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '5CS5-12',
     year: 3,
     semester: 5,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Design and use of computer technology',
     icon: '🧑‍💻'
   },
@@ -861,7 +861,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '5CS5-13',
     year: 3,
     semester: 5,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Computational analysis of biological data',
     icon: '🧬'
   },
@@ -873,7 +873,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '6CS3-01',
     year: 3,
     semester: 6,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Processing digital images using algorithms',
     icon: '🖼️'
   },
@@ -883,7 +883,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '6CS4-02',
     year: 3,
     semester: 6,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Algorithms that learn from data',
     icon: '🤖'
   },
@@ -893,7 +893,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '6CS4-04',
     year: 3,
     semester: 6,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Structure and behavior of computer systems',
     icon: '🏛️'
   },
@@ -903,7 +903,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '6CS4-05',
     year: 3,
     semester: 6,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Creating intelligent machines',
     icon: '🧠'
   },
@@ -913,7 +913,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '6CS4-06',
     year: 3,
     semester: 6,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'On-demand computing services over the internet',
     icon: '☁️'
   },
@@ -923,7 +923,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '6CS4-11',
     year: 3,
     semester: 6,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Systems with components on networked computers',
     icon: '🔗'
   },
@@ -933,7 +933,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '6CS5-12',
     year: 3,
     semester: 6,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Network control is decoupled from forwarding functions',
     icon: '🌐'
   },
@@ -943,7 +943,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '6CS4-13',
     year: 3,
     semester: 6,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Electronic commerce and enterprise resource planning',
     icon: '🛒'
   },
@@ -955,7 +955,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '7CS4-01',
     year: 4,
     semester: 7,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Network of physical objects embedded with sensors',
     icon: '🛰️'
   }, {
@@ -964,7 +964,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '7CS4-XX',
     year: 4,
     semester: 7,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Elective course from other departments',
     icon: '📚'
   },
@@ -976,7 +976,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '8CS4-01',
     year: 4,
     semester: 8,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Analyzing large and complex data sets',
     icon: '📊'
   }, {
@@ -985,7 +985,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '8CS4-XX',
     year: 4,
     semester: 8,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Elective course from other departments',
     icon: '📚'
   },
