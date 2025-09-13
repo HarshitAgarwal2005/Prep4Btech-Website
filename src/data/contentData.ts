@@ -344,7 +344,7 @@ export const contentSubjects: ContentSubject[] = [
   },
   // ECE
   {
-    id: 'math2-s2-ece',
+    id: 'math2-s2-cse',
     name: 'Engineering Mathematics-II',
     code: '2FY2-01',
     year: 1,
@@ -354,7 +354,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '📊'
   },
   {
-    id: 'chem-s2-ece',
+    id: 'chem-s2-cse',
     name: 'Engineering Chemistry',
     code: '2FY2-03',
     year: 1,
@@ -364,7 +364,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '🧪'
   },
   {
-    id: 'hv-s2-ece',
+    id: 'hv-s2-cse',
     name: 'Human Values',
     code: '1FY1-05',
     year: 1,
@@ -374,7 +374,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '🤝'
   },
   {
-    id: 'pps-s2-ece',
+    id: 'pps-s2-cse',
     name: 'Programming for Problem Solving',
     code: '2FY3-06',
     year: 1,
@@ -384,7 +384,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '💻'
   },
   {
-    id: 'civil-s2-ece',
+    id: 'civil-s2-cse',
     name: 'Basic Civil Engineering',
     code: '1FY3-09',
     year: 1,
@@ -395,7 +395,7 @@ export const contentSubjects: ContentSubject[] = [
   },
   // EE
   {
-    id: 'math2-s2-ee',
+    id: 'math2-s2-cse',
     name: 'Engineering Mathematics-II',
     code: '2FY2-01',
     year: 1,
@@ -405,7 +405,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '📊'
   },
   {
-    id: 'chem-s2-ee',
+    id: 'chem-s2-cse',
     name: 'Engineering Chemistry',
     code: '2FY2-03',
     year: 1,
@@ -415,7 +415,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '🧪'
   },
   {
-    id: 'hv-s2-ee',
+    id: 'hv-s2-cse',
     name: 'Human Values',
     code: '1FY1-05',
     year: 1,
@@ -425,7 +425,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '🤝'
   },
   {
-    id: 'pps-s2-ee',
+    id: 'pps-s2-cse',
     name: 'Programming for Problem Solving',
     code: '2FY3-06',
     year: 1,
@@ -435,7 +435,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '💻'
   },
   {
-    id: 'civil-s2-ee',
+    id: 'civil-s2-cse',
     name: 'Basic Civil Engineering',
     code: '1FY3-09',
     year: 1,
@@ -446,7 +446,7 @@ export const contentSubjects: ContentSubject[] = [
   },
   // MECH
   {
-    id: 'math2-s2-mech',
+    id: 'math2-s2-cse',
     name: 'Engineering Mathematics-II',
     code: '2FY2-01',
     year: 1,
@@ -456,7 +456,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '📊'
   },
   {
-    id: 'chem-s2-mech',
+    id: 'chem-s2-cse',
     name: 'Engineering Chemistry',
     code: '2FY2-03',
     year: 1,
@@ -466,7 +466,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '🧪'
   },
   {
-    id: 'hv-s2-mech',
+    id: 'hv-s2-cse',
     name: 'Human Values',
     code: '1FY1-05',
     year: 1,
@@ -476,7 +476,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '🤝'
   },
   {
-    id: 'pps-s2-mech',
+    id: 'pps-s2-cse',
     name: 'Programming for Problem Solving',
     code: '2FY3-06',
     year: 1,
@@ -486,7 +486,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '💻'
   },
   {
-    id: 'civil-s2-mech',
+    id: 'civil-s2-cse',
     name: 'Basic Civil Engineering',
     code: '1FY3-09',
     year: 1,
@@ -497,7 +497,7 @@ export const contentSubjects: ContentSubject[] = [
   },
   // CIVIL
   {
-    id: 'math2-s2-civil',
+    id: 'math2-s2-cse',
     name: 'Engineering Mathematics-II',
     code: '2FY2-01',
     year: 1,
@@ -507,7 +507,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '📊'
   },
   {
-    id: 'chem-s2-civil',
+    id: 'chem-s2-cse',
     name: 'Engineering Chemistry',
     code: '2FY2-03',
     year: 1,
@@ -517,7 +517,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '🧪'
   },
   {
-    id: 'hv-s2-civil',
+    id: 'hv-s2-cse',
     name: 'Human Values',
     code: '1FY1-05',
     year: 1,
@@ -527,7 +527,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '🤝'
   },
   {
-    id: 'pps-s2-civil',
+    id: 'pps-s2-cse',
     name: 'Programming for Problem Solving',
     code: '2FY3-06',
     year: 1,
@@ -537,7 +537,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '💻'
   },
   {
-    id: 'civil-s2-civil',
+    id: 'civil-s2-cse',
     name: 'Basic Civil Engineering',
     code: '1FY3-09',
     year: 1,
