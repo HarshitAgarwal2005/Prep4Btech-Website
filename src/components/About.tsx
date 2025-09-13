@@ -63,7 +63,7 @@ const About: React.FC = () => {
       }
     },
     {
-      name: 'Hariom Shivnani',
+      name: 'Hariom Shivnani', 
       title: 'Full Stack Developer & Student', 
       // --- TODO: Add your image URL here ---
       imageUrl: '/home/project/hariom.jpg',
