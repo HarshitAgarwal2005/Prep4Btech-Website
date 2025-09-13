@@ -3989,7 +3989,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
   {
     id: 'tc-assignments-4-cse',
-    title: 'TC UNIT-2',
+    title: 'TC ASSIGNMENTS',
     description: 'Technical communication',
     type: 'assignments',
     subjectId: 'tc-s4-cse',
