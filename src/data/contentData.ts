@@ -4248,18 +4248,6 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://docs.google.com/document/d/1hraL_TISSjNoJsIT57ekPoiaYmxLjBfY/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
   },
-
-  {
-    id: 'oe1-theory-6-cse',
-    title: 'Open Elective-I UNIT-6',
-    description: 'Open Elective',
-    type: 'theory',
-    subjectId: 'oe1-s7-cse',
-    fileSize: '1.3 MB',
-    uploadDate: '2024-02-25',
-    viewUrl: 'https://docs.google.com/document/d/1icVqAnjqYLHzqEzVSMgBgQXqQZVPNa2V/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
-  },
-
   {
     id: 'oe1-theory-7-cse',
     title: 'Open Elective-I NOTES',
@@ -4268,7 +4256,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'oe1-s7-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://docs.google.com/document/d/1icVqAnjqYLHzqEzVSMgBgQXqQZVPNa2V/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+    viewUrl: 'https://drive.google.com/file/d/1wlWb8-vKifrKQdAgRPzMBO0b2JSY1N8v/view?usp=drive_link'
   },
   
   {
