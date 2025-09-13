@@ -4443,6 +4443,19 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1h8sGFFOzbC0wOtvkQnYH980AfLf3XMbx/view?usp=drive_link'
   },
+  //iot sem 8 notes
+  {
+    id: 'oe2-lab-2-cse',
+    title: 'Big Data Analytics Lab Manual',
+    description: 'Analyzing large and complex data sets',
+    type: 'lab',
+    subjectId: 'oe2-s8-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1h8sGFFOzbC0wOtvkQnYH980AfLf3XMbx/view?usp=drive_link'
+  },
+
+  
   
 
   
