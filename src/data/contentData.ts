@@ -3908,7 +3908,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
   {
     id: 'mi-theory-1-cse',
-    title: 'UNIT 1&2',
+    title: 'UNIT 3,4,5',
     description: 'Microprocessor & Interfaces',
     type: 'theory',
     subjectId: 'mi-s4-cse',
@@ -3927,20 +3927,10 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     viewUrl: 'https://docs.google.com/presentation/d/1ruYbCjUFMJrbMvrsB0noqkckZ0UB1AdQ/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
   },
   {
-    id: 'mi-theory-4-cse',
-    title: 'UNIT 1&2',
+    id: 'mi-books-4-cse',
+    title: 'M&I NK',
     description: 'Microprocessor & Interfaces',
-    type: 'theory',
-    subjectId: 'mi-s4-cse',
-    fileSize: '1.3 MB',
-    uploadDate: '2024-02-25',
-    viewUrl: 'https://docs.google.com/presentation/d/1ruYbCjUFMJrbMvrsB0noqkckZ0UB1AdQ/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
-  },
-  {
-    id: 'mi-theory-4-cse',
-    title: 'UNIT 1&2',
-    description: 'Microprocessor & Interfaces',
-    type: 'theory',
+    type: 'books',
     subjectId: 'mi-s4-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
