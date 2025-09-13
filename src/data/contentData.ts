@@ -4293,6 +4293,17 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1tdXsUcHzd2vuyDtgCWbZ-DeQLA8SFwth/view?usp=drive_link'
   },
+   {
+    id: 'itc-assignments-5-cse',
+    title: 'Information Theory & Coding Assignment-1',
+    description: 'Quantification, storage, and communication of information',
+    type: 'assignments',
+    subjectId: 'itc-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1tdXsUcHzd2vuyDtgCWbZ-DeQLA8SFwth/view?usp=drive_link'
+  },
+  
   // 4th year
   
   {
