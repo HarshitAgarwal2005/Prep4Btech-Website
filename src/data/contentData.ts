@@ -4202,6 +4202,47 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://docs.google.com/document/d/1icVqAnjqYLHzqEzVSMgBgQXqQZVPNa2V/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
   },
+  //3rd year notes cse th sem 
+   {
+    id: 'itc-theory-1-cse',
+    title: 'Information Theory & Coding Unit-2&3',
+    description: 'Quantification, storage, and communication of information',
+    type: 'theory',
+    subjectId: 'itc-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1elkMWTqRUbHI6t7Ht-mwM4SCnJM6SERQ/view?usp=drive_link'
+  },
+  {
+    id: 'itc-theory-2-cse',
+    title: 'Information Theory & Coding Unit-4',
+    description: 'Quantification, storage, and communication of information',
+    type: 'theory',
+    subjectId: 'itc-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/document/d/1icVqAnjqYLHzqEzVSMgBgQXqQZVPNa2V/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+  {
+    id: 'itc-theory-1-cse',
+    title: 'Information Theory & Coding Unit-5',
+    description: 'Quantification, storage, and communication of information',
+    type: 'theory',
+    subjectId: 'itc-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/document/d/1icVqAnjqYLHzqEzVSMgBgQXqQZVPNa2V/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+  {
+    id: 'itc-theory-1-cse',
+    title: 'Information Theory & Coding Unit-6',
+    description: 'Quantification, storage, and communication of information',
+    type: 'theory',
+    subjectId: 'itc-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/document/d/1icVqAnjqYLHzqEzVSMgBgQXqQZVPNa2V/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
   // 4th year
   
   {
