@@ -4340,7 +4340,17 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'iot-s7-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/13fvfIC-QcOvAXsfmBsU-2a-KCUXwJksQ/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1-6_MkzpmTlpj7EwcljKjpsroL9EDKDQi/view?usp=drive_link'
+  },
+  {
+    id: 'iot-books-2-cse',
+    title: 'Internet Of Things ',
+    description: 'Internet Of Things',
+    type: 'books',
+    subjectId: 'iot-s7-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1-J-6al6795u-MHQ7Aan7YvOs5W188TmT/view?usp=drive_link'
   },
   
 
