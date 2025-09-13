@@ -10,7 +10,7 @@
     <loc>https://prep4btech.netlify.app/year.html</loc>
     <lastmod>2025-09-13</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://prep4btech.netlify.app/assignments.html</loc>
@@ -34,7 +34,7 @@
     <loc>https://prep4btech.netlify.app/pyq-papers.html</loc>
     <lastmod>2025-09-13</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://prep4btech.netlify.app/rtu-syllabus.html</loc>
@@ -46,12 +46,12 @@
     <loc>https://prep4btech.netlify.app/contact.html</loc>
     <lastmod>2025-09-13</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://prep4btech.netlify.app/about.html</loc>
     <lastmod>2025-09-13</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.9</priority>
   </url>
 </urlset>
