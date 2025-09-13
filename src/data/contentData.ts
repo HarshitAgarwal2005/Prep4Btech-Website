@@ -810,13 +810,13 @@ export const contentSubjects: ContentSubject[] = [
     icon: '🌐'
   },
    {
-    id: 'dccn-s4-cse',
-    name: 'Data Communication & Computer Networks',
-    code: '4CS4-07',
+    id: 'np-s4-cse',
+    name: 'Network Programming Lab',
+    code: '4CS4-XX',
     year: 2,
     semester: 4,
     branch: 'CSE/AI/AIDS/IT',
-    description: 'Principles of data communication and networking',
+    description: 'Principles of Network Programming',
     icon: '🌐'
   },
 
