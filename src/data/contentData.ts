@@ -1019,6 +1019,16 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Elective course from other departments',
     icon: '📚'
   },
+  {
+    id: 'stv-s8-cse',
+    name: 'Software Testing and Validation Lab',
+    code: '8CS4-XX',
+    year: 4,
+    semester: 8,
+    branch: 'CSE/AI/AIDS/IT',
+    description: 'Software Testing and Validation',
+    icon: '📚'
+  },
 
   // ECE Subjects
   // ECE - SEM 3
