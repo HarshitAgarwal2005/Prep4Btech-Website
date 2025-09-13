@@ -4120,7 +4120,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
   //LINUX LAB
   {
-    id: 'linux-lab-7-cse',
+    id: 'linux-lab-1-cse',
     title: 'TC ASSIGNMENT',
     description: 'Technical communication',
     type: 'lab',
@@ -4131,7 +4131,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
   //JAVA LAB
   {
-    id: 'java-lab-7-cse',
+    id: 'java-lab-1-cse',
     title: 'TC ASSIGNMENT',
     description: 'Technical communication',
     type: 'lab',
@@ -4142,15 +4142,25 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
 
 // NETWORKING PROGRAMMING LAB
+   {
+    id: 'np-theory-1-cse',
+    title: 'TC ASSIGNMENT',
+    description: 'Technical communication',
+    type: 'theory',
+    subjectId: 'np-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1xMp_nXcA39X4vkggwO6S6aSaxRtRmT1A/view?usp=drive_link'
+  },
   {
-    id: 'np-lab-7-cse',
+    id: 'np-lab-2-cse',
     title: 'TC ASSIGNMENT',
     description: 'Technical communication',
     type: 'lab',
     subjectId: 'np-s4-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1OlRK40QyRA7l2vuI5xeKMVH-gVe_wzTo/view?usp=drive_link'
+    viewUrl: 'https://docs.google.com/document/d/1icVqAnjqYLHzqEzVSMgBgQXqQZVPNa2V/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
   },
   
   
