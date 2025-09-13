@@ -4445,7 +4445,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
   //iot sem 8 notes
   {
-    id: 'oe2-lab-2-cse',
+    id: 'oe2-lab-1-cse',
     title: 'Big Data Analytics Lab Manual',
     description: 'Analyzing large and complex data sets',
     type: 'lab',
