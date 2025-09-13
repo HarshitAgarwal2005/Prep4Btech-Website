@@ -4546,6 +4546,37 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1wEJFigkCF_bvzUo0FtICmHTzieVhxTZz/view?usp=drive_link'
   },
+  // wireless communication
+  {
+    id: 'wc-theory-1-cse',
+    title: 'Wireless Communication unit-1',
+    description: 'Principles of wireless communication systems',
+    type: 'theory',
+    subjectId: 'wc-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1JRZ0j1FeD4o7GQ7A8T6wWM6q1YHl5IsR/view?usp=drive_link'
+  },
+   {
+    id: 'wc-theory-2-cse',
+    title: 'Wireless Communication unit-2',
+    description: 'Principles of wireless communication systems',
+    type: 'theory',
+    subjectId: 'wc-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/18i-NsEqJrTVApSzRKcTp85ZvaXSvEqlI/view?usp=drive_link'
+  },
+   {
+    id: 'wc-theory-3-cse',
+    title: 'Wireless Communication unit--2,3,4,',
+    description: 'Principles of wireless communication systems',
+    type: 'theory',
+    subjectId: 'wc-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1dU0wwKZff5ruyyM3lNtTe_h_6gBkkKmB/view?usp=drive_link'
+  },
   
   
   
