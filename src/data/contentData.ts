@@ -4344,7 +4344,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
   {
     id: 'iot-books-2-cse',
-    title: 'Internet Of Things ',
+    title: 'Internet Of Things PYQS-EEDM And IOT ',
     description: 'Internet Of Things',
     type: 'books',
     subjectId: 'iot-s7-cse',
