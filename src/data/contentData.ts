@@ -4353,6 +4353,18 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/17x9h6pM_MWU-Iv37s2l3xFTyYtKmNO8w/view?usp=drive_link'
   },
+  //cd notes
+  {
+    id: 'cd-theory-5-cse',
+    title: 'Compiler Design',
+    description: 'Principles and practices of compiler construction',
+    type: 'theory',
+    subjectId: 'cd-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/17x9h6pM_MWU-Iv37s2l3xFTyYtKmNO8w/view?usp=drive_link'
+  },
+  
   
   // 4th year
   
