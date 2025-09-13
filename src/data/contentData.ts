@@ -4588,6 +4588,36 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1n8z-XMP4pRSbnvshKUzYjzQ8bRvRuKgv/view?usp=drive_link'
   },
+  {
+    id: 'aa-assignments-1-cse',
+    title: 'Analysis Of Algorithm Assignment-1',
+    description: 'Analysis of algorithm complexity and performance',
+    type: 'assignments',
+    subjectId: 'aa-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/17IvfdD1SVRDMvzC0Gskh50cT7FKyc98-/view?usp=drive_link'
+  },
+  {
+    id: 'aa-assignments-2-cse',
+    title: 'Analysis Of Algorithm Assignments-2',
+    description: 'Analysis of algorithm complexity and performance',
+    type: 'assignments',
+    subjectId: 'aa-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1yTR_rlB-sPdu5J9TZHUbkFXu7e08DY9M/view?usp=drive_link'
+  },
+  {
+    id: 'aa-assignments-3-cse',
+    title: 'Analysis Of Algorithm Assignments-3',
+    description: 'Analysis of algorithm complexity and performance',
+    type: 'assignments',
+    subjectId: 'aa-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1MkdkfkRiUGZ_ParICuL9CqBrjbKKuME3/view?usp=drive_link'
+  },
   
   
   
