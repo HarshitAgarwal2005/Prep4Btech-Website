@@ -4154,7 +4154,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     title: 'LINUX PROGRAMMING LAB MANUAL',
     description: 'LINUX PROGRAMMING LAB',
     type: 'lab',
-    subjectId: 'lab-s4-cse',
+    subjectId: 'linux-s4-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1v4H0A0kIoeIiGslncObq7GYqtut4cPXK/view?usp=drive_link'
@@ -4165,7 +4165,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     title: 'JAVA PROGRAMMING LAB MANUAL',
     description: 'JAVA PROGRAMMING LAB',
     type: 'lab',
-    subjectId: 'toc-s4-cse',
+    subjectId: 'java-s4-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
     viewUrl: 'https://docs.google.com/document/d/1VsI7anMHl0XBaZpxvzlep_aEE_hjqWkg/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
