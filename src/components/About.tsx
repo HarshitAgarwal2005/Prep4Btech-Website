@@ -64,7 +64,7 @@ const About: React.FC = () => {
     },
     {
       name: 'Hariom Shivnani', 
-      title: 'Full Stack Developer & Student', 
+      title: 'Full Stack Developer & Student',  
       // --- TODO: Add your image URL here ---
       imageUrl: '/home/project/hariom.jpg',
        // imageUrl: 'https://placehold.co/200x200/E9D5FF/8B5CF6?text=HS',
