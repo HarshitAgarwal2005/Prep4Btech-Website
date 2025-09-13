@@ -4475,14 +4475,14 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
 
    {
-    id: 'cgm-theory-1-cse',
-    title: 'Computer Graphics & Multimedia',
+    id: 'cgm-lab-1-cse',
+    title: 'Computer Graphics & Multimedia Lab Manual',
     description: 'Creating and manipulating visual content',
-    type: 'theory',
+    type: 'lab',
     subjectId: 'cgm-s5-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1ZL9OJ1UYegX1h0mNZr6lfzBpn2xfPIdg/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1kvjmplmnwRudYV8pnbGhntofmtg5Fx4x/view?usp=drive_link'
   },
 
    {
