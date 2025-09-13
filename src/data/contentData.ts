@@ -4464,6 +4464,17 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1FdwcH4wVumk9CSIipsaZbUkVcqupbLy3/view?usp=drive_link'
   },
+  //stv lab
+  {
+    id: 'stv-lab-1-cse',
+    title: 'Software Testing and Validation Lab Manual',
+    description: 'Software Testing and Validation Lab',
+    type: 'lab',
+    subjectId: 'stv-s8-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/12bKR3ZiwOqAq-oVj1ygCFamMmYE2Dm5E/view?usp=drive_link'
+  },
 
   
   
