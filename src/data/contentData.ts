@@ -4192,7 +4192,97 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://docs.google.com/document/d/1icVqAnjqYLHzqEzVSMgBgQXqQZVPNa2V/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
   },
+  // 4th year
   
+  {
+    id: 'oe1-theory-1-cse',
+    title: 'Open Elective-I UNIT-1',
+    description: 'Open Elective',
+    type: 'theory',
+    subjectId: 'oe1-s7-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/document/d/1xv3QBA4TbHn0qPW-t97qaPdlpvGL_xbm/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+
+  {
+    id: 'oe1-theory-2-cse',
+    title: 'Open Elective-I UNIT-2',
+    description: 'Open Elective',
+    type: 'theory',
+    subjectId: 'oe1-s7-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/document/d/1icVqAnjqYLHzqEzVSMgBgQXqQZVPNa2V/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+
+  {
+    id: 'oe1-theory-3-cse',
+    title: 'Open Elective-I UNIT-3',
+    description: 'Open Elective',
+    type: 'theory',
+    subjectId: 'oe1-s7-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/document/d/1icVqAnjqYLHzqEzVSMgBgQXqQZVPNa2V/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+
+  {
+    id: 'oe1-theory-4-cse',
+    title: 'Open Elective-I UNIT-4',
+    description: 'Open Elective',
+    type: 'theory',
+    subjectId: 'oe1-s7-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/document/d/1icVqAnjqYLHzqEzVSMgBgQXqQZVPNa2V/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+
+  {
+    id: 'oe1-theory-5-cse',
+    title: 'Open Elective-I UNIT-5',
+    description: 'Open Elective',
+    type: 'theory',
+    subjectId: 'oe1-s47-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/document/d/1icVqAnjqYLHzqEzVSMgBgQXqQZVPNa2V/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+
+  {
+    id: 'oe1-theory-6-cse',
+    title: 'Open Elective-I UNIT-6',
+    description: 'Open Elective',
+    type: 'theory',
+    subjectId: 'oe1-s7-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/document/d/1icVqAnjqYLHzqEzVSMgBgQXqQZVPNa2V/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+
+  {
+    id: 'oe1-theory-7-cse',
+    title: 'Open Elective-I NOTES',
+    description: 'Open Elective',
+    type: 'theory',
+    subjectId: 'oe1-s7-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/document/d/1icVqAnjqYLHzqEzVSMgBgQXqQZVPNa2V/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+  
+  {
+    id: 'oe1-books-1-cse',
+    title: 'Open Elective-I',
+    description: 'Open Elective',
+    type: 'books',
+    subjectId: 'oe1-s7-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/document/d/1icVqAnjqYLHzqEzVSMgBgQXqQZVPNa2V/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+  
+
   
   
   
