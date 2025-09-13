@@ -4486,10 +4486,10 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
 
    {
-    id: 'cgm-theory-1-cse',
+    id: 'cgm-assignments-1-cse',
     title: 'Computer Graphics & Multimedia',
     description: 'Creating and manipulating visual content',
-    type: 'theory',
+    type: 'assignments',
     subjectId: 'cgm-s5-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
