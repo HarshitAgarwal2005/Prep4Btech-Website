@@ -3805,6 +3805,96 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1RF0ZEbIFkUMI7xIUKXUgNXDix29Q2pbO/view?usp=drive_link'
   },
+  //DMS 
+   {
+    id: 'dms-theory-1-cse',
+    title: 'UNIT-2',
+    description: 'Discrete Mathematics Structure',
+    type: 'theory',
+    subjectId: 'dms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1InTxw4czHXYKDIHai69Xs9CsGpTSix45/view?usp=drive_link'
+  },
+ {
+    id: 'dms-theory-2-cse',
+    title: 'UNIT-3',
+    description: 'Discrete Mathematics Structure',
+    type: 'theory',
+    subjectId: 'dms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1Blf5c2VETFqS719-U7AUjTTxWi7L5QUR/view?usp=drive_link'
+  }, {
+    id: 'dms-theory-3-cse',
+    title: 'UNIT-4',
+    description: 'Discrete Mathematics Structure',
+    type: 'theory',
+    subjectId: 'dms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1SNYB9dbfV1T-UX37XSSiI10B7keIYa15/view?usp=drive_link'
+  },
+{
+    id: 'dms-theory-4-cse',
+    title: 'UNIT-5',
+    description: 'Discrete Mathematics Structure',
+    type: 'theory',
+    subjectId: 'dms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1TlZvwVdAjgVtRxEnNBjVwsQW7JEynVzZ/view?usp=drive_link'
+  },
+{
+    id: 'dms-theory-5-cse',
+    title: 'UNIT-6',
+    description: 'Discrete Mathematics Structure',
+    type: 'theory',
+    subjectId: 'dms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/193sM7hkJBI2EY-LA5CPhcVvQKLOdqVQg/view?usp=drive_link'
+  },
+{
+    id: 'dms-books-1-cse',
+    title: 'DMS NK',
+    description: 'Discrete Mathematics Structure',
+    type: 'books',
+    subjectId: 'dms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1Y8XptdZTUUJzchF140JseHNL394aw6a7/view?usp=drive_link'
+  },
+{
+    id: 'dms-books-2-cse',
+    title: 'SETS ',
+    description: 'Discrete Mathematics Structure',
+    type: 'books',
+    subjectId: 'dms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/presentation/d/1cAbLwD0u6bid9RgQNz7AFQA2V91dH6FW/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+{
+    id: 'dms-books-3-cse',
+    title: 'RELATIONS',
+    description: 'Discrete Mathematics Structure',
+    type: 'books',
+    subjectId: 'dms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/presentation/d/1imJhPPtV-RSYfIy_Pyvp-bwbBBl8Q-Su/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+{
+    id: 'dms-books-4-cse',
+    title: 'DMS NK',
+    description: 'Discrete Mathematics Structure',
+    type: 'books',
+    subjectId: 'dms-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/presentation/d/1ruYbCjUFMJrbMvrsB0noqkckZ0UB1AdQ/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
   
   
   
