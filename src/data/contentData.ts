@@ -3914,7 +3914,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'mi-s4-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://docs.google.com/presentation/d/1ruYbCjUFMJrbMvrsB0noqkckZ0UB1AdQ/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+    viewUrl: 'https://drive.google.com/file/d/1Mm93j7KV46DnlS7CWFsa08UnOmVN-vxU/view?usp=drive_link'
   },
   {
     id: 'mi-lab-4-cse',
