@@ -4414,8 +4414,8 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
 
   {
-    id: 'bda-theory-1-cse',
-    title: 'Big Data Analytics Unit-1',
+    id: 'bda-theory-6-cse',
+    title: 'Big Data Analytics Notes',
     description: 'Analyzing large and complex data sets',
     type: 'theory',
     subjectId: 'bda-s8-cse',
