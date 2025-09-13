@@ -4205,7 +4205,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   //3rd year notes cse th sem 
    {
     id: 'itc-theory-1-cse',
-    title: 'Information Theory & Coding Unit-2&3',
+    title: 'Information Theory & Coding Unit-1,2,3',
     description: 'Quantification, storage, and communication of information',
     type: 'theory',
     subjectId: 'itc-s5-cse',
