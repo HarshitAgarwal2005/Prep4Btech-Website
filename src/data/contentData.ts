@@ -4487,13 +4487,64 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
 
    {
     id: 'cgm-assignments-1-cse',
-    title: 'Computer Graphics & Multimedia',
+    title: 'Computer Graphics & Multimedia Assignments-1',
     description: 'Creating and manipulating visual content',
     type: 'assignments',
     subjectId: 'cgm-s5-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1ZL9OJ1UYegX1h0mNZr6lfzBpn2xfPIdg/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/15o7wwN_QZWEQ_j66xqixmtFc4rIeieoY/view?usp=drive_link'
+  },
+   
+   {
+    id: 'cgm-assignments-2-cse',
+    title: 'Computer Graphics & Multimedia Assignments-2',
+    description: 'Creating and manipulating visual content',
+    type: 'assignments',
+    subjectId: 'cgm-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1p6lYg3bmsvlrruvnkQv8El3WEuyPZiSJ/view?usp=drive_link'
+  },
+   {
+    id: 'cgm-assignments-3-cse',
+    title: 'Computer Graphics & Multimedia Assignments-3',
+    description: 'Creating and manipulating visual content',
+    type: 'assignments',
+    subjectId: 'cgm-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1riTu3wObDU-is1HgbS2bTPI4KRED55ey/view?usp=drive_link'
+  },
+   {
+    id: 'cgm-assignments-4-cse',
+    title: 'Computer Graphics & Multimedia Assignments-4',
+    description: 'Creating and manipulating visual content',
+    type: 'assignments',
+    subjectId: 'cgm-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/10QP2eetZsM5swLKXanc4xqJ8gA_c8GId/view?usp=drive_link'
+  },
+   {
+    id: 'cgm-assignments-5-cse',
+    title: 'Computer Graphics & Multimedia Assignments-5',
+    description: 'Creating and manipulating visual content',
+    type: 'assignments',
+    subjectId: 'cgm-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1uqo1lOwgrQOPmFcjDTbpx34DWqE8d1b2/view?usp=drive_link'
+  },
+  {
+    id: 'cgm-assignments-6-cse',
+    title: 'Computer Graphics & Multimedia Assignments-6',
+    description: 'Creating and manipulating visual content',
+    type: 'assignments',
+    subjectId: 'cgm-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1wEJFigkCF_bvzUo0FtICmHTzieVhxTZz/view?usp=drive_link'
   },
   
   
