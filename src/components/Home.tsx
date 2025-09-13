@@ -95,7 +95,7 @@ const Home: React.FC = () => {
             <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 dark:text-white mb-6">
               Welcome to{' '}
               <span className="bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-pulse">
-                Prep4btech
+                Prep4Btech
               </span>
             </h1>
             
