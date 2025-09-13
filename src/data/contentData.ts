@@ -4423,6 +4423,16 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/16jRyGMivxN810TsCHzyYY5gA_2uYu27-/view?usp=drive_link'
   },
+   {
+    id: 'bda-books-6-cse',
+    title: 'Big Data Analytics NK Book PDF',
+    description: 'Analyzing large and complex data sets',
+    type: 'books',
+    subjectId: 'bda-s8-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1h8sGFFOzbC0wOtvkQnYH980AfLf3XMbx/view?usp=drive_link'
+  },
   
 
   
