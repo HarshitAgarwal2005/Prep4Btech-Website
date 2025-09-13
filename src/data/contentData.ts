@@ -4261,13 +4261,23 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   
   {
     id: 'oe1-books-1-cse',
-    title: 'Open Elective-I',
+    title: 'Open Elective-I NK BOOK PDF',
     description: 'Open Elective',
     type: 'books',
     subjectId: 'oe1-s7-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://docs.google.com/document/d/1icVqAnjqYLHzqEzVSMgBgQXqQZVPNa2V/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+    viewUrl: 'https://drive.google.com/file/d/1PBgGJg8oEMOzPEHIvS-jx0m4IB7UbG9b/view?usp=drive_link'
+  },
+   {
+    id: 'oe1-books-2-cse',
+    title: 'Open Elective-I PYQS-EEDM And IOT BOOK PDF',
+    description: 'Open Elective',
+    type: 'books',
+    subjectId: 'oe1-s7-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1PBgGJg8oEMOzPEHIvS-jx0m4IB7UbG9b/view?usp=drive_link'
   },
   
 
