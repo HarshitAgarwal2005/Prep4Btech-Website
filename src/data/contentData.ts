@@ -75,7 +75,7 @@ export const contentSubjects: ContentSubject[] = [
   },
   // ECE
   { 
-    id: 'math1-s1-ece',
+    id: 'math1-s1-cse',
     name: 'Engineering Mathematics-I',
     code: '1FY2-01',
     year: 1,
@@ -85,7 +85,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '📐'
   },
   {
-    id: 'physics-s1-ece',
+    id: 'physics-s1-cse',
     name: 'Engineering Physics',
     code: '1FY2-02',
     year: 1,
@@ -96,7 +96,7 @@ export const contentSubjects: ContentSubject[] = [
   },
   
   {
-    id: 'comm-s1-ece',
+    id: 'comm-s1-cse',
     name: 'Communication Skills',
     code: '1FY1-04',
     year: 1,
@@ -106,7 +106,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '💬'
   },
   {
-    id: 'mech-s1-ece',
+    id: 'mech-s1-cse',
     name: 'Basic Mechanical Engineering',
     code: '2FY3-07',
     year: 1,
@@ -116,7 +116,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '⚙️'
   },
   {
-    id: 'elec-s1-ece',
+    id: 'elec-s1-cse',
     name: 'Basic Electrical Engineering',
     code: '1FY3-08',
     year: 1,
@@ -127,7 +127,7 @@ export const contentSubjects: ContentSubject[] = [
   },
   // EE
   {
-    id: 'math1-s1-ee',
+    id: 'math1-s1-cse',
     name: 'Engineering Mathematics-I',
     code: '1FY2-01',
     year: 1,
@@ -137,7 +137,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '📐'
   },
   {
-    id: 'physics-s1-ee',
+    id: 'physics-s1-cse',
     name: 'Engineering Physics',
     code: '1FY2-02',
     year: 1,
@@ -147,7 +147,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '⚛️'
   },
   {
-    id: 'comm-s1-ee',
+    id: 'comm-s1-cse',
     name: 'Communication Skills',
     code: '1FY1-04',
     year: 1,
@@ -157,7 +157,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '💬'
   },
   {
-    id: 'mech-s1-ee',
+    id: 'mech-s1-cse',
     name: 'Basic Mechanical Engineering',
     code: '2FY3-07',
     year: 1,
@@ -167,7 +167,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '⚙️'
   },
   {
-    id: 'elec-s1-ee',
+    id: 'elec-s1-cse',
     name: 'Basic Electrical Engineering',
     code: '1FY3-08',
     year: 1,
@@ -178,7 +178,7 @@ export const contentSubjects: ContentSubject[] = [
   },
   // MECH
   {
-    id: 'math1-s1-mech',
+    id: 'math1-s1-cse',
     name: 'Engineering Mathematics-I',
     code: '1FY2-01',
     year: 1,
@@ -188,7 +188,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '📐'
   },
   {
-    id: 'physics-s1-mech',
+    id: 'physics-s1-cse',
     name: 'Engineering Physics',
     code: '1FY2-02',
     year: 1,
@@ -198,7 +198,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '⚛️'
   },
   {
-    id: 'comm-s1-mech',
+    id: 'comm-s1-cse',
     name: 'Communication Skills',
     code: '1FY1-04',
     year: 1,
@@ -208,7 +208,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '💬'
   },
   {
-    id: 'mech-s1-mech',
+    id: 'mech-s1-cse',
     name: 'Basic Mechanical Engineering',
     code: '2FY3-07',
     year: 1,
@@ -218,7 +218,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '⚙️'
   },
   {
-    id: 'elec-s1-mech',
+    id: 'elec-s1-cse',
     name: 'Basic Electrical Engineering',
     code: '1FY3-08',
     year: 1,
@@ -229,7 +229,7 @@ export const contentSubjects: ContentSubject[] = [
   },
   // CIVIL
   {
-    id: 'math1-s1-civil',
+    id: 'math1-s1-cse',
     name: 'Engineering Mathematics-I',
     code: '1FY2-01',
     year: 1,
@@ -239,7 +239,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '📐'
   },
   {
-    id: 'physics-s1-civil',
+    id: 'physics-s1-cse',
     name: 'Engineering Physics',
     code: '1FY2-02',
     year: 1,
@@ -249,7 +249,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '⚛️'
   },
   {
-    id: 'comm-s1-civil',
+    id: 'comm-s1-cse',
     name: 'Communication Skills',
     code: '1FY1-04',
     year: 1,
@@ -259,7 +259,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '💬'
   },
   {
-    id: 'mech-s1-civil',
+    id: 'mech-s1-cse',
     name: 'Basic Mechanical Engineering',
     code: '2FY3-07',
     year: 1,
@@ -269,7 +269,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '⚙️'
   },
   {
-    id: 'elec-s1-civil',
+    id: 'elec-s1-cse',
     name: 'Basic Electrical Engineering',
     code: '1FY3-08',
     year: 1,
