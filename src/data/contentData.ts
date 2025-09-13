@@ -4446,8 +4446,18 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   //iot sem 8 notes
   {
     id: 'oe2-theory-1-cse',
-    title: 'Disaster Management',
-    description: 'Analyzing large and complex data sets',
+    title: 'Disaster Management Notes 1',
+    description: 'Elective course from other departments',
+    type: 'theory',
+    subjectId: 'oe2-s8-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1h8sGFFOzbC0wOtvkQnYH980AfLf3XMbx/view?usp=drive_link'
+  },
+   {
+    id: 'oe2-theory-1-cse',
+    title: 'Disaster Management Notes 2',
+    description: 'Elective course from other departments',
     type: 'theory',
     subjectId: 'oe2-s8-cse',
     fileSize: '1.3 MB',
