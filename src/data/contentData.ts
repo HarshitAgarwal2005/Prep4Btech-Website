@@ -4008,12 +4008,52 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://docs.google.com/presentation/d/1CPcrV4g5OfVbswEj2-h-JQbllxDrYyid/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
   },
+  {
+    id: 'toc-thoery-2-cse',
+    title: 'UNIT-2 NOTES',
+    description: 'Technical communication',
+    type: 'theory',
+    subjectId: 'toc-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/presentation/d/1q42eri2lQ2vnOR2AJwxGg7yB_IMmHi4d/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+  {
+    id: 'toc-thoery-3-cse',
+    title: 'UNIT-3 NOTES',
+    description: 'Technical communication',
+    type: 'theory',
+    subjectId: 'toc-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/presentation/d/1CPcrV4g5OfVbswEj2-h-JQbllxDrYyid/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+  {
+    id: 'toc-thoery-4-cse',
+    title: 'UNIT-4 NOTES',
+    description: 'Technical communication',
+    type: 'theory',
+    subjectId: 'toc-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/presentation/d/1CPcrV4g5OfVbswEj2-h-JQbllxDrYyid/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+  {
+    id: 'toc-thoery-5-cse',
+    title: 'UNIT-5 NOTES',
+    description: 'Technical communication',
+    type: 'theory',
+    subjectId: 'toc-s4-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/presentation/d/1CPcrV4g5OfVbswEj2-h-JQbllxDrYyid/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
    {
-    id: 'tOc-assignments-1-cse',
+    id: 'toc-assignments-1-cse',
     title: 'TC ASSIGNMENT',
     description: 'Technical communication',
     type: 'assignments',
-    subjectId: 'tOc-s4-cse',
+    subjectId: 'toc-s4-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1DFd24zzAy5idOWYjSkCQwZgR83eyJRvU/view?usp=drive_link'
