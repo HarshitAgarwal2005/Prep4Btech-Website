@@ -4331,7 +4331,16 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     viewUrl: 'https://drive.google.com/file/d/1a3swsMDypeU3LfNOcBNHOtxnTW1OaNHE/view?usp=drive_link'
   },
    
-  
+   {
+    id: 'iot-lab-1-cse',
+    title: 'Internet Of Things Lab Manual',
+    description: 'Internet Of Things',
+    type: 'lab',
+    subjectId: 'iot-s7-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/13fvfIC-QcOvAXsfmBsU-2a-KCUXwJksQ/view?usp=drive_link'
+  },
    {
     id: 'iot-books-1-cse',
     title: 'Internet Of Things NK BOOK PDF',
@@ -4344,7 +4353,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
   {
     id: 'iot-books-2-cse',
-    title: 'Internet Of Things  IOT ',
+    title: 'Internet Of Things PYQS-EEDM And IOT ',
     description: 'Internet Of Things',
     type: 'books',
     subjectId: 'iot-s7-cse',
