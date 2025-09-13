@@ -4355,7 +4355,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
   //cd notes
   {
-    id: 'cd-theory-5-cse',
+    id: 'cd-theory-1-cse',
     title: 'Compiler Design unit-1,2,4',
     description: 'Principles and practices of compiler construction',
     type: 'theory',
@@ -4363,6 +4363,16 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1xA3W_fhhHjCSSgIPBYpT86vVptendD6b/view?usp=drive_link'
+  },
+  {
+    id: 'cd-theory-2-cse',
+    title: 'Compiler Design unit-3',
+    description: 'Principles and practices of compiler construction',
+    type: 'theory',
+    subjectId: 'cd-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1GZ9iXkPgmh5arz4rIIiqP-022gpO2-yp/view?usp=drive_link'
   },
   
   
