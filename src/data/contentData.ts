@@ -5560,6 +5560,28 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
      uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/19Wh9678WiLrBM9SW0izjCTgk8atmit7U/view?usp=drive_link'
   },
+  // mi notes
+   {
+    id: 'iss-books-1-cse',
+    title: 'Machine Learning Nk Book Pdf Old Edition',
+    description: 'Information Security System ',
+    type: 'books',
+    subjectId: 'iss-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1qBLsHE8M933CilB40GlH8NqT8OzVFLmJ/view?usp=drive_link'
+  },
+
+   {
+    id: 'ml-books-2-cse',
+    title: 'Machine Learning  Nk Book Pdf New Edition',
+    description: 'Information Security System ',
+    type: 'books',
+    subjectId: 'ml-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/19Wh9678WiLrBM9SW0izjCTgk8atmit7U/view?usp=drive_link'
+  },
   
   
   
