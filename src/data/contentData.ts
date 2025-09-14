@@ -5066,6 +5066,59 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: 'Creating intelligent machines',
     viewUrl: 'https://drive.google.com/file/d/1KQgLzMHa3P7WitZ_aRt6jXLu4yduGazf/view?usp=drive_link'
   },
+  //cao notes
+   {
+    id: 'cao-thory-1-cse',
+    title: 'Computer Architecture & Organization Unit-1',
+    description: 'Structure and behavior of computer systems',
+    type: 'theory',
+    subjectId: 'cao-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/1tYzHbrM9y28Td_AXgUFLzCBI_kGlkBX7/view?usp=drive_link'
+  },
+  
+   {
+    id: 'cao-thory-2-cse',
+    title: 'Computer Architecture & Organization Unit-2',
+    description: 'Structure and behavior of computer systems',
+    type: 'theory',
+    subjectId: 'cao-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/192BJ3F7tFwr6aaHRj6WpL6rsetI0eeCN/view?usp=drive_link'
+  },
+   {
+    id: 'cao-theory-3-cse',
+    title: 'Computer Architecture & Organization Unit-3',
+    description: 'Structure and behavior of computer systems',
+    type: 'theory',
+    subjectId: 'cao-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/1F0fdD3Wo4qD2AnoJ2rwYP_EvcGl752RP/view?usp=drive_link'
+  },
+   {
+    id: 'cao-theory-4-cse',
+    title: 'Computer Architecture & Organization Unit-4',
+    description: 'Structure and behavior of computer systems',
+    type: 'theory',
+    subjectId: 'cao-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/14nYGPvUWdb7hIwoaXlcnhjqOPZlzo2YU/view?usp=drive_link'
+  },
+  
+   {
+    id: 'cao-theory-5-cse',
+    title: 'Computer Architecture & Organization Unit-5',
+    description: 'Structure and behavior of computer systems',
+    type: 'theory',
+    subjectId: 'cao-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/18gTlmse2VXiJDmIh5J81Y6670UzdEmB5/view?usp=drive_link'
+  },
   
   
  
