@@ -937,6 +937,16 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Creating intelligent machines',
     icon: '🧠'
   },
+   {
+    id: 'iss-s6-ee',
+    name: 'Imfromation Security System',
+    code: '6EE4-XX',
+    year: 3,
+    semester: 6,
+    branch: 'CSE',
+    description: 'Methods for Security System',
+    icon: '💡'
+  },
   {
     id: 'cc-s6-cse',
     name: 'Cloud Computing',
@@ -1301,6 +1311,7 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Protection schemes for power systems',
     icon: '🛡️'
   },
+ 
   {
     id: 'eeca-s6-ee',
     name: 'Electrical Energy Conservation & Auditing',
