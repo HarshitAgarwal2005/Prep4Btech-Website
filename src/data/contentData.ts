@@ -5561,6 +5561,59 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     viewUrl: 'https://drive.google.com/file/d/19Wh9678WiLrBM9SW0izjCTgk8atmit7U/view?usp=drive_link'
   },
   // mi notes
+    {
+    id: 'ml-theory-1-cse',
+    title: 'Information Security System Unit-1',
+    description: 'Information Security System ',
+    type: 'theory',
+    subjectId: 'ml-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/109CEZwji-1qpr11NEpb14Lh5j6AjUXRy/view?usp=drive_link'
+  },
+
+   {
+    id: 'ml-theory-2-cse',
+    title: 'Information Security System  Unit-2',
+    description: 'Information Security System ',
+    type: 'theory',
+    subjectId: 'ml-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1wRglYYWSuXI2uWrcZUTE5qeELdZHu-J0/view?usp=drive_link'
+  },
+
+   {
+    id: 'ml-theory-3-cse',
+    title: 'Information Security System  Unit-3',
+    description: 'Information Security System ',
+    type: 'theory',
+    subjectId: 'ml-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/15WFRbNHVN6X0n2A2pjy81Oki61oKWgQj/view?usp=drive_link'
+  },
+
+   {
+    id: 'ml-theory-4-cse',
+    title: 'Information Security System  Unit-4',
+    description: 'Information Security System ',
+    type: 'theory',
+    subjectId: 'ml-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1WJexjKohWQm3d6p7pkyzyBP2UN8O-eX3/view?usp=drive_link'
+  },
+   {
+    id: 'ml-theory-5-cse',
+    title: 'Information Security System  Unit-5',
+    description: 'Information Security System ',
+    type: 'theory',
+    subjectId: 'ml-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1YTQ1FuCE5Sv8Yah5oWwNOFmj32UWSgjs/view?usp=drive_link'
+  },
    {
     id: 'iss-books-1-cse',
     title: 'Machine Learning Nk Book Pdf Old Edition',
