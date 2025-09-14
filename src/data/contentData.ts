@@ -4746,6 +4746,71 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/15TSor2Q6Zm6qCczOSip7SKZt6m-jcBVM/view?usp=drive_link'
   },
+   {
+    id: 'hci-books-1-cse',
+    title: 'Human Computer Interaction Unit-1',
+    description: 'Design and use of computer technology',
+    type: 'books',
+    subjectId: 'hci-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/presentation/d/1C_mRQkjKSmqYJI9gzFdf-d1hXRwExUEB/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+
+   {
+    id: 'hci-books-2-cse',
+    title: 'Human Computer Interaction Unit-2',
+    description: 'Design and use of computer technology',
+    type: 'books',
+    subjectId: 'hci-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/presentation/d/1WTQJQgaTrsqNIXF3r2zt3WaJhXO1Dur6/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+
+   {
+    id: 'hci-books-3-cse',
+    title: 'Human Computer Interaction Unit-3',
+    description: 'Design and use of computer technology',
+    type: 'books',
+    subjectId: 'hci-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1hlVpCOIaglLRn2DxNejY2WpU1ReyxPlg/view?usp=drive_link'
+  },
+
+   {
+    id: 'hci-books-4-cse',
+    title: 'Human Computer Interaction Unit-4',
+    description: 'Design and use of computer technology',
+    type: 'books',
+    subjectId: 'hci-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1mqcGUTA-epuOPWET8F39yiT72PO8wF1R/view?usp=drive_link'
+  },
+
+   {
+    id: 'hci-books-5-cse',
+    title: 'Human Computer Interaction Unit-5',
+    description: 'Design and use of computer technology',
+    type: 'books',
+    subjectId: 'hci-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1rRG1aZ1x8qJZxc2Dmy-OmNR0Ffwp32z9/view?usp=drive_link'
+  },
+
+   {
+    id: 'hci-books-6-cse',
+    title: 'Human Computer Interaction Unit-6',
+    description: 'Design and use of computer technology',
+    type: 'books',
+    subjectId: 'hci-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/18hBMRoVeJzQK9LlANXtrxfZ3aVabiwaT/view?usp=drive_link'
+  },
   
   
   
