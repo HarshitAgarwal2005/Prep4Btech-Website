@@ -4638,6 +4638,18 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1Vyj_xpEX8w7RcPlxzNxt0FNL1qep8Zmp/view?usp=drive_link'
   },
+  //hci notes
+   {
+    id: 'hci-theory-1-cse',
+    title: 'Analysis Of Algorithm NK BOOK PDF',
+    description: 'Analysis of algorithm complexity and performance',
+    type: 'theory',
+    subjectId: 'hci-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1Vyj_xpEX8w7RcPlxzNxt0FNL1qep8Zmp/view?usp=drive_link'
+  },
+  
   
   
   
