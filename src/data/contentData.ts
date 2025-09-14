@@ -4949,7 +4949,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
    {
     id: 'ai-theory-1-cse',
     title: 'Artificial Intelligence Unit-1',
-    description: 'Core concepts of operating systems',
+    description: 'Creating intelligent machines',
     type: 'theory',
     subjectId: 'ai-s6-cse',
     fileSize: '1.3 MB',
@@ -4959,7 +4959,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
    {
     id: 'ai-theory-2-cse',
     title: 'Artificial Intelligence Unit-2',
-    description: 'Core concepts of operating systems',
+    description: 'Creating intelligent machines',
     type: 'theory',
     subjectId: 'ai-s6-cse',
     fileSize: '1.3 MB',
@@ -4969,7 +4969,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
    {
     id: 'ai-theory-3-cse',
     title: 'Artificial Intelligence Unit-3',
-    description: 'Core concepts of operating systems',
+    description: 'Creating intelligent machines',
     type: 'theory',
     subjectId: 'ai-s6-cse',
     fileSize: '1.3 MB',
@@ -4979,7 +4979,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
    {
     id: 'ai-theory-4-cse',
     title: 'Artificial Intelligence Unit-4',
-    description: 'Core concepts of operating systems',
+    description: 'Creating intelligent machines',
     type: 'theory',
     subjectId: 'ai-s6-cse',
     fileSize: '1.3 MB',
@@ -4989,7 +4989,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
    {
     id: 'ai-theory-5-cse',
     title: 'Artificial Intelligence Unit-5',
-    description: 'Core concepts of operating systems',
+    description: 'Creating intelligent machines',
     type: 'theory',
     subjectId: 'ai-s6-cse',
     fileSize: '1.3 MB',
@@ -4999,7 +4999,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   {
     id: 'ai-assignments-1-cse',
     title: 'Artificial Intelligence Assignment Of Unit-1',
-    description: 'Core concepts of operating systems',
+    description: 'Creating intelligent machines',
     type: 'assignments',
     subjectId: 'ai-s6-cse',
     fileSize: '1.3 MB',
@@ -5009,7 +5009,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
    {
     id: 'ai-assignments-2-cse',
     title: 'Artificial Intelligence Assignment Of Unit-2',
-    description: 'Core concepts of operating systems',
+    description: 'Creating intelligent machines',
     type: 'assignments',
     subjectId: 'ai-s6-cse',
     fileSize: '1.3 MB',
@@ -5019,7 +5019,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
    {
     id: 'ai-assignments-3-cse',
     title: 'Artificial Intelligence Assignment Of Unit-3',
-    description: 'Core concepts of operating systems',
+    description: 'Creating intelligent machines',
     type: 'assignments',
     subjectId: 'ai-s6-cse',
     fileSize: '1.3 MB',
@@ -5029,7 +5029,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
    {
     id: 'ai-assignments-4-cse',
     title: 'Artificial Intelligence Assignment Of Unit-4',
-    description: 'Core concepts of operating systems',
+    description: 'Creating intelligent machines',
     type: 'assignments',
     subjectId: 'ai-s6-cse',
     fileSize: '1.3 MB',
@@ -5039,31 +5039,31 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
    {
     id: 'ai-assignments-5-cse',
     title: 'Artificial Intelligence Assignment Of Unit-5',
-    description: 'Core concepts of operating systems',
+    description: 'Creating intelligent machines',
     type: 'assignments',
     subjectId: 'ai-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+   uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1WHfET6SFkCy7dorV1yB9DDKmIyQRJOCs/view?usp=drive_link'
   },
    {
     id: 'ai-books-1-cse',
     title: 'Artificial Intelligence NK BOOK PDF OLD EDITION',
-    description: 'Core concepts of operating systems',
+    description: 'Creating intelligent machines',
     type: 'books',
     subjectId: 'ai-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+    uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1cTk9YSQ8_PqtjxkkZ87z2AKJso1G3XkU/view?usp=drive_link'
   },
    {
     id: 'ai-books-2-cse',
     title: 'Artificial Intelligence NK BOOK PDF NEW EDITION',
-    description: 'Core concepts of operating systems',
+    description: 'Creating intelligent machines',
     type: 'books',
     subjectId: 'ai-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+    uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1KQgLzMHa3P7WitZ_aRt6jXLu4yduGazf/view?usp=drive_link'
   },
   //cao notes
@@ -5074,7 +5074,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     type: 'theory',
     subjectId: 'cao-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1tYzHbrM9y28Td_AXgUFLzCBI_kGlkBX7/view?usp=drive_link'
   },
   
@@ -5085,7 +5085,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     type: 'theory',
     subjectId: 'cao-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/192BJ3F7tFwr6aaHRj6WpL6rsetI0eeCN/view?usp=drive_link'
   },
    {
@@ -5095,7 +5095,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     type: 'theory',
     subjectId: 'cao-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+    uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1F0fdD3Wo4qD2AnoJ2rwYP_EvcGl752RP/view?usp=drive_link'
   },
    {
@@ -5105,7 +5105,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     type: 'theory',
     subjectId: 'cao-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+   uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/14nYGPvUWdb7hIwoaXlcnhjqOPZlzo2YU/view?usp=drive_link'
   },
   
@@ -5116,7 +5116,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     type: 'theory',
     subjectId: 'cao-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+    uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/18gTlmse2VXiJDmIh5J81Y6670UzdEmB5/view?usp=drive_link'
   },
   {
@@ -5126,7 +5126,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     type: 'assignments',
     subjectId: 'cao-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+   uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1w_hd5fcZSuQs_xKu4FtwjOKSy3QVfJgf/view?usp=drive_link'
   },
   
@@ -5139,7 +5139,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     type: 'assignments',
     subjectId: 'cao-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1QkZ-81IzX1wtEOknjKcmH4l9eid6d8W_/view?usp=drive_link'
   },
   
@@ -5152,7 +5152,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     type: 'assignments',
     subjectId: 'cao-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+    uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1EYk6mzl9B_f3deelwgB3GfQ5JCWdHcoI/view?usp=drive_link'
   },
    {
@@ -5162,7 +5162,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     type: 'books',
     subjectId: 'cao-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+   uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1aXFOkCVELl-l_Iu6l1MK48EvA2jYp61A/view?usp=drive_link'
   },
    {
@@ -5172,7 +5172,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     type: 'books',
     subjectId: 'cao-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+    uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/16WxVBCWhcyCX_KHrPbu_DRfxNbRzpdFn/view?usp=drive_link'
   },
   //Dip notes
@@ -5183,7 +5183,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     type: 'theory',
     subjectId: 'dip-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/16WxVBCWhcyCX_KHrPbu_DRfxNbRzpdFn/view?usp=drive_link'
   },
   
