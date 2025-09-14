@@ -4922,6 +4922,16 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1UnqqrQAQRAke6Zikbm9BMpFoMPLbGchq/view?usp=drive_link'
   },
+   {
+    id: 'os-books-5-cse',
+    title: 'Operating System NK BOOK PDF',
+    description: 'Core concepts of operating systems',
+    type: 'books',
+    subjectId: 'os-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1ls61Ps4bzrZnVOuxQpVxRLzLzJQ4nlcX/view?usp=drive_link'
+  },
  
   
   
