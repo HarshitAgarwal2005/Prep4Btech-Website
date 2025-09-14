@@ -5421,7 +5421,124 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
      uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1Ox0j7eWw9jG-lbl1S9856JznMAQqZdjt/view?usp=drive_link'
   },
-  
+  //iss notes
+  {
+    id: 'iss-theory-1-cse',
+    title: 'Information Security System Unit-1',
+    description: 'Information Security System ',
+    type: 'theory',
+    subjectId: 'iss-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/109CEZwji-1qpr11NEpb14Lh5j6AjUXRy/view?usp=drive_link'
+  },
+
+   {
+    id: 'iss-theory-2-cse',
+    title: 'Information Security System  Unit-2',
+    description: 'Information Security System ',
+    type: 'theory',
+    subjectId: 'iss-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1wRglYYWSuXI2uWrcZUTE5qeELdZHu-J0/view?usp=drive_link'
+  },
+
+   {
+    id: 'iss-theory-3-cse',
+    title: 'Information Security System  Unit-3',
+    description: 'Information Security System ',
+    type: 'theory',
+    subjectId: 'iss-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/15WFRbNHVN6X0n2A2pjy81Oki61oKWgQj/view?usp=drive_link'
+  },
+
+   {
+    id: 'iss-theory-4-cse',
+    title: 'Information Security System  Unit-4',
+    description: 'Information Security System ',
+    type: 'theory',
+    subjectId: 'iss-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1WJexjKohWQm3d6p7pkyzyBP2UN8O-eX3/view?usp=drive_link'
+  },
+   {
+    id: 'iss-theory-5-cse',
+    title: 'Information Security System  Unit-5',
+    description: 'Information Security System ',
+    type: 'theory',
+    subjectId: 'iss-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1uIivX9nVPZCKMfe04gSkI3Dqbxty8QTP/view?usp=drive_link'
+  },
+   {
+    id: 'iss-assignments-1-cse',
+    title: 'Information Security System Assignment Of Unit-1',
+    description: 'Information Security System ',
+    type: 'assignments',
+    subjectId: 'iss-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1ga1-WiPn-6qYoQgHIJOsETU1W7CZNvvr/view?usp=drive_link'
+  },
+
+   {
+    id: 'iss-assignments-2-cse',
+    title: 'Information Security System  Assignment Of Unit-2',
+    description: 'Information Security System ',
+    type: 'assignments',
+    subjectId: 'iss-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1hNaSm3fPcDXQ4OPJQarXXJtmaMWr48v-/view?usp=drive_link'
+  },
+
+   {
+    id: 'iss-assignments-3-cse',
+    title: 'Information Security System Of Unit-3',
+    description: 'Information Security System ',
+    type: 'assignments',
+    subjectId: 'iss-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1RdHdmCnk9M4S8c8m-wja__WadK8y3cNS/view?usp=drive_link'
+  },
+
+   {
+    id: 'iss-assignments-4-cse',
+    title: 'Information Security System  Assignment Of Unit-4',
+    description: 'Information Security System ',
+    type: 'assignments',
+    subjectId: 'iss-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1GN6O7cYbiKHf6dY6R56DPsWtVOWQkJQ6/view?usp=drive_link'
+  },
+    {
+    id: 'iss-books-1-cse',
+    title: 'Information Security System Nk Book Pdf Old Edition',
+    description: 'Information Security System ',
+    type: 'books',
+    subjectId: 'iss-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1Oul7jPnrTpJxw9PHWJ28WhiFvqfd46Gx/view?usp=drive_link'
+  },
+
+   {
+    id: 'iss-books-2-cse',
+    title: 'Information Security System  Nk Book Pdf New Edition',
+    description: 'Information Security System ',
+    type: 'books',
+    subjectId: 'iss-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1Ox0j7eWw9jG-lbl1S9856JznMAQqZdjt/view?usp=drive_link'
+  },
   
   
   
