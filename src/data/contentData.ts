@@ -943,7 +943,7 @@ export const contentSubjects: ContentSubject[] = [
     code: '6EE4-XX',
     year: 3,
     semester: 6,
-    branch: 'CSE',
+    branch: 'CSE/AI/AIDS/IT',
     description: 'Methods for Security System',
     icon: '💡'
   },
