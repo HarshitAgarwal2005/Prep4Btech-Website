@@ -5121,26 +5121,26 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
   {
     id: 'cao-assignments-5-cse',
-    title: 'Computer Architecture & Organization Assigmnent-1',
+    title: 'Computer Architecture & Organization Assigmnent Of Unit-1',
     description: 'Structure and behavior of computer systems',
     type: 'assignments',
     subjectId: 'cao-s6-cse',
     fileSize: '1.3 MB',
     uploadDate: 'Creating intelligent machines',
-    viewUrl: 'https://drive.google.com/file/d/18gTlmse2VXiJDmIh5J81Y6670UzdEmB5/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1w_hd5fcZSuQs_xKu4FtwjOKSy3QVfJgf/view?usp=drive_link'
   },
   
   
   
    {
     id: 'cao-assignments-2-cse',
-    title: 'Computer Architecture & Organization Assigmnent-2',
+    title: 'Computer Architecture & Organization Assigmnent Of Unit-2',
     description: 'Structure and behavior of computer systems',
     type: 'assignments',
     subjectId: 'cao-s6-cse',
     fileSize: '1.3 MB',
     uploadDate: 'Creating intelligent machines',
-    viewUrl: 'https://drive.google.com/file/d/18gTlmse2VXiJDmIh5J81Y6670UzdEmB5/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1QkZ-81IzX1wtEOknjKcmH4l9eid6d8W_/view?usp=drive_link'
   },
   
   
