@@ -5119,6 +5119,43 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: 'Creating intelligent machines',
     viewUrl: 'https://drive.google.com/file/d/18gTlmse2VXiJDmIh5J81Y6670UzdEmB5/view?usp=drive_link'
   },
+  {
+    id: 'cao-assignments-5-cse',
+    title: 'Computer Architecture & Organization Assigmnent-1',
+    description: 'Structure and behavior of computer systems',
+    type: 'assignments',
+    subjectId: 'cao-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/18gTlmse2VXiJDmIh5J81Y6670UzdEmB5/view?usp=drive_link'
+  },
+  
+  
+  
+   {
+    id: 'cao-assignments-2-cse',
+    title: 'Computer Architecture & Organization Assigmnent-2',
+    description: 'Structure and behavior of computer systems',
+    type: 'assignments',
+    subjectId: 'cao-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/18gTlmse2VXiJDmIh5J81Y6670UzdEmB5/view?usp=drive_link'
+  },
+  
+  
+
+   {
+    id: 'cao-assignments-3-cse',
+    title: 'Computer Architecture & Organization Assigmnent-3',
+    description: 'Structure and behavior of computer systems',
+    type: 'assignments',
+    subjectId: 'cao-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/18gTlmse2VXiJDmIh5J81Y6670UzdEmB5/view?usp=drive_link'
+  },
+  
   
   
  
