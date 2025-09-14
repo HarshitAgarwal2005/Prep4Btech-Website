@@ -2092,7 +2092,7 @@ export const pyqPapers: PYQPaper[] = [
 //   {
 //     id: 'paper-8',
 //     title: '31',
-//     year: 2025,
+//     year: 2024,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1s1QRK58rgqePAquAGXGA5xycr8NpnllG/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2101,7 +2101,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '32',
-//     year: 2025,
+//     year: 2024,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1mx2DBwMKSWxVIx6tBGpVaYONQAzK7Bp1/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2110,7 +2110,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '33',
-//     year: 2025,
+//     year: 2024,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1SDHHbXRypVclm5ZcbBHihYbBq9xGJHZx/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2119,7 +2119,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '34',
-//     year: 2025,
+//     year: 2024,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1kDR1_z4HFwAmHUAgWTQY68mzw1ApSTkE/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2128,7 +2128,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '35',
-//     year: 2025,
+//     year: 2024,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1ZWbWJA0BBRCOpYPErRHdaG3yLAFhE57S/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2137,7 +2137,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '36',
-//     year: 2025,
+//     year: 2024,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1thOHCmaY0wSCr-hWAP5GWhBMXSzglQjE/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2146,7 +2146,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '37',
-//     year: 2025,
+//     year: 2024,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1E5pQATVqX_mvS9EzqpCdV1SZXnJawyrN/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2155,7 +2155,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '38',
-//     year: 2025,
+//     year: 2024,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1B1tnXvyTLQefGE4DmJcB-HaMCweltu7f/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2164,7 +2164,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '39',
-//     year: 2025,
+//     year: 2024,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/12CDsW_0RRj_oYQo4MNqoJMFLkqA28pWA/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2173,7 +2173,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '40',
-//     year: 2025,
+//     year: 2023,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1nxBwag3OQzmnaU5UiK5pJ0WC3KAgHuq0/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2182,7 +2182,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '41',
-//     year: 2025,
+//     year: 2023,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1dlwZ3AEHddgTlrxmkIbeXXLsT2LItHe5/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2191,7 +2191,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '42',
-//     year: 2025,
+//     year: 2023,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1cKz-_eHeeq2flIdS1WPqOdo6JzUhL_c1/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2200,7 +2200,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '43',
-//     year: 2025,
+//     year: 2023,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1zb7QBdVtT02Y8c5ZiSZeq2gN03bpiwPU/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2209,7 +2209,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '44',
-//     year: 2025,
+//     year: 2023,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1OEhhm7pORfEcCW0_YwNKq2YLFFWKT3Zy/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2218,7 +2218,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '45',
-//     year: 2025,
+//     year: 2023,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1h1a3yon2UmvOaZhMYGwhvtVs5XsbO72X/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2227,7 +2227,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '46',
-//     year: 2025,
+//     year: 2023,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1UAtnMTbPSDt_bC9Jdx1Lxfk3ejahBFuP/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2236,7 +2236,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '47',
-//     year: 2025,
+//     year: 2023,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1LnWsAOJpWxhgYoJrencS4CJcN43-9TO-/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2245,7 +2245,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '48',
-//     year: 2025,
+//     year: 2023,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1F8pTSnigLLAGNWcEFUU_oNSVmDe-OIqN/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2254,7 +2254,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '49',
-//     year: 2025,
+//     year: 2023,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/14LTyXgePbrVdZcQlVfhqwn9hnt28WmYO/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2263,7 +2263,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '50',
-//     year: 2025,
+//     year: 2023,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1Tq08DnyeyZQkEh768NAOurbGubbeFdtQ/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2272,7 +2272,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '51',
-//     year: 2025,
+//     year: 2023,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1qbC_9SEG_BQeg0TFZQs0H-zLOOeLij1U/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2281,7 +2281,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '52',
-//     year: 2025,
+//     year: 2023,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1BdSgNf-1mf8jHqkg17hEKvUF5dlPcK22/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2299,7 +2299,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '54',
-//     year: 2025,
+//     year: 2023,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1RvQa5xsYr5Z4TYXbUHEOBf5WeA_GahGZ/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2308,7 +2308,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '55',
-//     year: 2025,
+//     year: 2022,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1Xt-qs2iQog_OxIoQ7vHqE-xRep7ZsHYa/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2317,7 +2317,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '56',
-//     year: 2025,
+//     year: 2022,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1mqVwFylebPvjRfll2VkbSeSoOF1Af2lo/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2326,7 +2326,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '57',
-//     year: 2025,
+//     year: 2022,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1ZY2bfae2a4oMrzmIYnOXbEF7fNeaSglG/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2335,7 +2335,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '58',
-//     year: 2025,
+//     year: 2022,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1ViSkwm8MWDwMvj_X1tE9WbcR6vZeQNRt/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2344,7 +2344,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '59',
-//     year: 2025,
+//     year: 2022,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1dAu9jryWP-qTT6emXD2socmLH1brup_a/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2353,7 +2353,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '60',
-//     year: 2025,
+//     year: 2022,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1G6lSW_fRMalfoBjeSm9WnKKsuHjoEuaB/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
@@ -2362,7 +2362,7 @@ export const pyqPapers: PYQPaper[] = [
 // {
 //     id: 'paper-8',
 //     title: '61',
-//     year: 2025,
+//     year: 2022,
 //     subjectId: 'cse-s4-toc',
 //     downloadUrl: 'https://drive.google.com/file/d/1PV9zUWncinElRA2od8Qk61iry6RT3jSl/view?usp=drive_link',
 //     uploadDate: '2025-01-15',
