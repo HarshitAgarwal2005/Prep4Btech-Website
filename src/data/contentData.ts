@@ -5564,29 +5564,29 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     {
     id: 'ml-theory-1-cse',
     title: 'Machine Learning Unit-1',
-    description: 'Information Security System ',
+    description: 'Algorithms that learn from data ',
     type: 'theory',
     subjectId: 'ml-s6-cse',
     fileSize: '1.3 MB',
      uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/109CEZwji-1qpr11NEpb14Lh5j6AjUXRy/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1vxZLYqSiFGzgEm_TKTEIMmHvqkBXTHTD/view?usp=drive_link'
   },
 
    {
     id: 'ml-theory-2-cse',
     title: 'Machine Learning Unit-2',
-    description: 'Information Security System ',
+    description: 'Algorithms that learn from data',
     type: 'theory',
     subjectId: 'ml-s6-cse',
     fileSize: '1.3 MB',
      uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1wRglYYWSuXI2uWrcZUTE5qeELdZHu-J0/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1ShHORMxogPC7DKe6WGerqEeJ8p4zZqLg/view?usp=drive_link'
   },
 
    {
     id: 'ml-theory-3-cse',
     title: 'Machine Learning  Unit-3',
-    description: 'Information Security System ',
+    description: 'Algorithms that learn from data',
     type: 'theory',
     subjectId: 'ml-s6-cse',
     fileSize: '1.3 MB',
@@ -5597,7 +5597,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
    {
     id: 'ml-theory-4-cse',
     title: 'Machine Learning Unit-4',
-    description: 'Information Security System ',
+    description: 'Algorithms that learn from data',
     type: 'theory',
     subjectId: 'ml-s6-cse',
     fileSize: '1.3 MB',
@@ -5607,7 +5607,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
    {
     id: 'ml-theory-5-cse',
     title: 'Machine Learning Unit-5',
-    description: 'Information Security System ',
+    description: 'Algorithms that learn from data',
     type: 'theory',
     subjectId: 'ml-s6-cse',
     fileSize: '1.3 MB',
@@ -5617,7 +5617,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
    {
     id: 'iss-books-1-cse',
     title: 'Machine Learning Nk Book Pdf Old Edition',
-    description: 'Information Security System ',
+    description: 'Algorithms that learn from data',
     type: 'books',
     subjectId: 'iss-s6-cse',
     fileSize: '1.3 MB',
@@ -5628,7 +5628,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
    {
     id: 'ml-books-2-cse',
     title: 'Machine Learning  Nk Book Pdf New Edition',
-    description: 'Information Security System ',
+    description: 'Algorithms that learn from data',
     type: 'books',
     subjectId: 'ml-s6-cse',
     fileSize: '1.3 MB',
