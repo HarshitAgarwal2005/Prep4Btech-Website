@@ -4998,7 +4998,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
   {
     id: 'ai-assignments-1-cse',
-    title: 'Artificial Intelligence Unit-1',
+    title: 'Artificial Intelligence Assignment Of Unit-1',
     description: 'Core concepts of operating systems',
     type: 'assignments',
     subjectId: 'ai-s6-cse',
@@ -5008,7 +5008,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
    {
     id: 'ai-assignments-2-cse',
-    title: 'Artificial Intelligence Unit-2',
+    title: 'Artificial Intelligence Assignment Of Unit-2',
     description: 'Core concepts of operating systems',
     type: 'assignments',
     subjectId: 'ai-s6-cse',
@@ -5018,7 +5018,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
    {
     id: 'ai-assignments-3-cse',
-    title: 'Artificial Intelligence Unit-3',
+    title: 'Artificial Intelligence Assignment Of Unit-3',
     description: 'Core concepts of operating systems',
     type: 'assignments',
     subjectId: 'ai-s6-cse',
@@ -5028,7 +5028,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
    {
     id: 'ai-assignments-4-cse',
-    title: 'Artificial Intelligence Unit-4',
+    title: 'Artificial Intelligence Assignment Of Unit-4',
     description: 'Core concepts of operating systems',
     type: 'assignments',
     subjectId: 'ai-s6-cse',
@@ -5038,7 +5038,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
    {
     id: 'ai-assignments-5-cse',
-    title: 'Artificial Intelligence Unit-5',
+    title: 'Artificial Intelligence Assignment Of Unit-5',
     description: 'Core concepts of operating systems',
     type: 'assignments',
     subjectId: 'ai-s6-cse',
