@@ -5046,6 +5046,27 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: 'Creating intelligent machines',
     viewUrl: 'https://drive.google.com/file/d/1WHfET6SFkCy7dorV1yB9DDKmIyQRJOCs/view?usp=drive_link'
   },
+   {
+    id: 'ai-books-1-cse',
+    title: 'Artificial Intelligence NK BOOK PDF OLD EDITION',
+    description: 'Core concepts of operating systems',
+    type: 'books',
+    subjectId: 'ai-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/1cTk9YSQ8_PqtjxkkZ87z2AKJso1G3XkU/view?usp=drive_link'
+  },
+   {
+    id: 'ai-books-2-cse',
+    title: 'Artificial Intelligence NK BOOK PDF NEW EDITION',
+    description: 'Core concepts of operating systems',
+    type: 'books',
+    subjectId: 'ai-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/1KQgLzMHa3P7WitZ_aRt6jXLu4yduGazf/view?usp=drive_link'
+  },
+  
   
  
   
