@@ -5178,7 +5178,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   //Dip notes
   {
     id: 'dip-theory-1-cse',
-    title: 'Digital Image Processing',
+    title: 'Digital Image Processing Unit-1',
     description: 'Processing digital images using algorithms',
     type: 'theory',
     subjectId: 'dip-s6-cse',
@@ -5186,6 +5186,50 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
      uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/16WxVBCWhcyCX_KHrPbu_DRfxNbRzpdFn/view?usp=drive_link'
   },
+
+   {
+    id: 'dip-theory-2-cse',
+    title: 'Digital Image Processing Unit-2',
+    description: 'Processing digital images using algorithms',
+    type: 'theory',
+    subjectId: 'dip-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/16WxVBCWhcyCX_KHrPbu_DRfxNbRzpdFn/view?usp=drive_link'
+  },
+
+   {
+    id: 'dip-theory-3-cse',
+    title: 'Digital Image Processing Unit-3',
+    description: 'Processing digital images using algorithms',
+    type: 'theory',
+    subjectId: 'dip-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/16WxVBCWhcyCX_KHrPbu_DRfxNbRzpdFn/view?usp=drive_link'
+  },
+
+   {
+    id: 'dip-theory-4-cse',
+    title: 'Digital Image Processing Unit-4',
+    description: 'Processing digital images using algorithms',
+    type: 'theory',
+    subjectId: 'dip-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/16WxVBCWhcyCX_KHrPbu_DRfxNbRzpdFn/view?usp=drive_link'
+  },
+   {
+    id: 'dip-theory-5-cse',
+    title: 'Digital Image Processing Unit-5',
+    description: 'Processing digital images using algorithms',
+    type: 'theory',
+    subjectId: 'dip-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/16WxVBCWhcyCX_KHrPbu_DRfxNbRzpdFn/view?usp=drive_link'
+  },
+  
   
   
   
