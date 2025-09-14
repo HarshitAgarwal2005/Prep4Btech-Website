@@ -2088,7 +2088,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '4.2 MB'
   },
   
-  ishke baad dekhna h konse papers upload hua h 
+ // ishke baad dekhna h konse papers upload hua h 
   {
     id: 'paper-8',
     title: '31',
