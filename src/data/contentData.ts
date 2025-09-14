@@ -4932,6 +4932,17 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1ls61Ps4bzrZnVOuxQpVxRLzLzJQ4nlcX/view?usp=drive_link'
   },
+  // java lab manual also add subject 
+  // {
+  //   id: 'java-books-1-cse',
+  //   title: 'Advanced Java Lab Manual',
+  //   description: 'Advanced Java Lab',
+  //   type: 'books',
+  //   subjectId: 'java-s5-cse',
+  //   fileSize: '1.3 MB',
+  //   uploadDate: '2024-02-25',
+  //   viewUrl: 'https://drive.google.com/file/d/1ls61Ps4bzrZnVOuxQpVxRLzLzJQ4nlcX/view?usp=drive_link'
+  // },
  
   
   
