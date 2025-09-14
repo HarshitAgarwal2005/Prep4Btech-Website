@@ -4943,6 +4943,110 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   //   uploadDate: '2024-02-25',
   //   viewUrl: 'https://drive.google.com/file/d/1dXmCRgx-_iOxHQ7Asp3iwlkfQ_UnJYlp/view?usp=drive_link'
   // },
+  // 6th semester
+  // AI NOTES 
+ 
+   {
+    id: 'ai-theory-1-cse',
+    title: 'Artificial Intelligence Unit-1',
+    description: 'Core concepts of operating systems',
+    type: 'theory',
+    subjectId: 'ai-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/1-vxMKBLURkecV9z5wSFz00UxeJ2RP2Ub/view?usp=drive_link'
+  },
+   {
+    id: 'ai-theory-2-cse',
+    title: 'Artificial Intelligence Unit-2',
+    description: 'Core concepts of operating systems',
+    type: 'theory',
+    subjectId: 'ai-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/1ymjfkunBju0yTEfgz6MULnDzaFX9_PKA/view?usp=drive_link'
+  },
+   {
+    id: 'ai-theory-3-cse',
+    title: 'Artificial Intelligence Unit-3',
+    description: 'Core concepts of operating systems',
+    type: 'theory',
+    subjectId: 'ai-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/1p5TAgxv-F2KuWpkSYJGNwL7QOvkFaJrD/view?usp=drive_link'
+  },
+   {
+    id: 'ai-theory-4-cse',
+    title: 'Artificial Intelligence Unit-4',
+    description: 'Core concepts of operating systems',
+    type: 'theory',
+    subjectId: 'ai-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/1SRQp7XGb_OHCiwWXFPghwnDTIrfGgE6D/view?usp=drive_link'
+  },
+   {
+    id: 'ai-theory-5-cse',
+    title: 'Artificial Intelligence Unit-5',
+    description: 'Core concepts of operating systems',
+    type: 'theory',
+    subjectId: 'ai-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/15nzy9CuwJE5RodIsycbxXX81pBy9YD-P/view?usp=drive_link'
+  },
+  {
+    id: 'ai-assignments-1-cse',
+    title: 'Artificial Intelligence Unit-1',
+    description: 'Core concepts of operating systems',
+    type: 'assignments',
+    subjectId: 'ai-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/1SstcYyIMZQm-g3L4MVVXQbrsPYlONLg_/view?usp=drive_link'
+  },
+   {
+    id: 'ai-assignments-2-cse',
+    title: 'Artificial Intelligence Unit-2',
+    description: 'Core concepts of operating systems',
+    type: 'assignments',
+    subjectId: 'ai-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/1MwHP30lvQN2O-ktUWESUPgfINOMsqnU9/view?usp=drive_link'
+  },
+   {
+    id: 'ai-assignments-3-cse',
+    title: 'Artificial Intelligence Unit-3',
+    description: 'Core concepts of operating systems',
+    type: 'assignments',
+    subjectId: 'ai-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/1cAbKXUuzrT1GUtX46-0wVYl4NK2GXbxX/view?usp=drive_link'
+  },
+   {
+    id: 'ai-assignments-4-cse',
+    title: 'Artificial Intelligence Unit-4',
+    description: 'Core concepts of operating systems',
+    type: 'assignments',
+    subjectId: 'ai-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/1wjdjQeBUFCwONNcuD6I1tN7l6XlTflQJ/view?usp=drive_link'
+  },
+   {
+    id: 'ai-assignments-5-cse',
+    title: 'Artificial Intelligence Unit-5',
+    description: 'Core concepts of operating systems',
+    type: 'assignments',
+    subjectId: 'ai-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/1WHfET6SFkCy7dorV1yB9DDKmIyQRJOCs/view?usp=drive_link'
+  },
+  
  
   
   
