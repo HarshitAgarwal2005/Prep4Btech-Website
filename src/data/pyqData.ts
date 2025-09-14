@@ -2116,7 +2116,7 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
-
+{
     id: 'paper-8',
     title: 'BTECH-CS-IT-4-SEM-DATABASE-MANAGEMENT-SYSTEM-4E1305-2024',
     year: 2024,
