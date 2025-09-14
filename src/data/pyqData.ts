@@ -2090,6 +2090,7 @@ export const pyqPapers: PYQPaper[] = [
   
   // ishke baad dekhna h konse papers upload hua h 
   
+  
 
   // 5th semester papers
     
