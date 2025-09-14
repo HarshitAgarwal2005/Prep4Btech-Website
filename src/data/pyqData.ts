@@ -2217,7 +2217,7 @@ export const pyqPapers: PYQPaper[] = [
   },
 {
     id: 'paper-8', // check this 
-    title: '46',
+    title: 'BTECH-CS-IT-4-SEM-SOFTWARE-TESTING-4ITDC07-2023',
     year: 2023,
     subjectId: 'cse-s4-st',
     downloadUrl: 'https://drive.google.com/file/d/1UAtnMTbPSDt_bC9Jdx1Lxfk3ejahBFuP/view?usp=drive_link',
@@ -2226,7 +2226,7 @@ export const pyqPapers: PYQPaper[] = [
   },
 {
     id: 'paper-8',
-    title: '47',
+    title: 'BTECH-CS-IT-AID-CAI-4-SEM-THEORY-OF-COMPUTATION-4E1306-JUL-2023',
     year: 2023,
     subjectId: 'cse-s4-toc',
     downloadUrl: 'https://drive.google.com/file/d/1LnWsAOJpWxhgYoJrencS4CJcN43-9TO-/view?usp=drive_link',
@@ -2235,7 +2235,7 @@ export const pyqPapers: PYQPaper[] = [
   },
 {
     id: 'paper-8',
-    title: '48',
+    title: 'BTECH-CS-IT-ALL-4-SEM-DATA-BASE-MANAGEMENT-SYSTEMS-41N0404-AUG-2023',
     year: 2023,
     subjectId: 'cse-s4-dbms',
     downloadUrl: 'https://drive.google.com/file/d/1F8pTSnigLLAGNWcEFUU_oNSVmDe-OIqN/view?usp=drive_link',
@@ -2244,7 +2244,7 @@ export const pyqPapers: PYQPaper[] = [
   },
 {
     id: 'paper-8',
-    title: '49',
+    title: 'BTECH-CS-IT-ALL-4-SEM-DISCRETE-MATHEMATICS-41N0401-AUG-2023',
     year: 2023,
     subjectId: 'cse-s4-dms',
     downloadUrl: 'https://drive.google.com/file/d/14LTyXgePbrVdZcQlVfhqwn9hnt28WmYO/view?usp=drive_link',
@@ -2253,7 +2253,7 @@ export const pyqPapers: PYQPaper[] = [
   },
 {
     id: 'paper-8',
-    title: '50',
+    title: 'BTECH-CS-IT-ALL-4-SEM-INTRODUCTION-TO-JAVA-PROGRAMMING-41N0406-AUG-2023',
     year: 2023,
     subjectId: 'cse-s4-jp', //check this 
     downloadUrl: 'https://drive.google.com/file/d/1Tq08DnyeyZQkEh768NAOurbGubbeFdtQ/view?usp=drive_link',
@@ -2262,7 +2262,7 @@ export const pyqPapers: PYQPaper[] = [
   },
 {
     id: 'paper-8',// check this
-    title: '51',
+    title: 'BTECH-CS-IT-ALL-4-SEM-INTRODUCTION-TO-PYTHON-PROGRAMMING-41N0405-AUG-2023',
     year: 2023,
     subjectId: 'cse-s4-pp',
     downloadUrl: 'https://drive.google.com/file/d/1qbC_9SEG_BQeg0TFZQs0H-zLOOeLij1U/view?usp=drive_link',
@@ -2271,7 +2271,7 @@ export const pyqPapers: PYQPaper[] = [
   },
 {
     id: 'paper-8',
-    title: '52',
+    title: 'BTECH-CS-IT-ALL-4-SEM-MICROPROCESSOR-AND-INTERFACES-41N0402-AUG-2023',
     year: 2023,
     subjectId: 'cse-s4-mi',
     downloadUrl: 'https://drive.google.com/file/d/1BdSgNf-1mf8jHqkg17hEKvUF5dlPcK22/view?usp=drive_link',
@@ -2280,7 +2280,7 @@ export const pyqPapers: PYQPaper[] = [
   },
 {
     id: 'paper-8',
-    title: '53',
+    title: 'BTECH-CS-IT-ALL-4-SEM-THEORY-OF-COMPUTATION-41N0403-AUG-2023',
     year: 2025,
     subjectId: 'cse-s4-toc',
     downloadUrl: 'https://drive.google.com/file/d/1y2pZ-ZleGxUfdCm64GBatCdUsbq6mJmj/view?usp=drive_link',
@@ -2289,7 +2289,7 @@ export const pyqPapers: PYQPaper[] = [
   },
 {
     id: 'paper-8',
-    title: '54',
+    title: 'BTECH-IT-4-SEM-PRINCIPLE-OF-COMMUNICATION-4E1330-2023',
     year: 2023,
     subjectId: 'cse-s4-toc',
     downloadUrl: 'https://drive.google.com/file/d/1RvQa5xsYr5Z4TYXbUHEOBf5WeA_GahGZ/view?usp=drive_link',
@@ -2298,7 +2298,7 @@ export const pyqPapers: PYQPaper[] = [
   },
 {
     id: 'paper-8',
-    title: '55',
+    title: 'BTECH-4-SEM-MANAGERIAL-ECONOMICS-AND-FINANCIAL-ACCOUNTING-4E1302-2022',
     year: 2022,
     subjectId: 'cse-s3-mefa',
     downloadUrl: 'https://drive.google.com/file/d/1Xt-qs2iQog_OxIoQ7vHqE-xRep7ZsHYa/view?usp=drive_link',
@@ -2307,7 +2307,7 @@ export const pyqPapers: PYQPaper[] = [
   },
 {
     id: 'paper-8',
-    title: '56',
+    title: 'BTECH-4-SEM-TECHNICAL-COMMUNICATION-4E1303-2022',
     year: 2022,
     subjectId: 'cse-s4-tc',
     downloadUrl: 'https://drive.google.com/file/d/1mqVwFylebPvjRfll2VkbSeSoOF1Af2lo/view?usp=drive_link',
@@ -2316,7 +2316,7 @@ export const pyqPapers: PYQPaper[] = [
   },
 {
     id: 'paper-8',
-    title: '57',
+    title: 'BTECH-CS-IT-AID-CAI-4-SEM-DATA-COMMUNICATION-AND-COMPUTER-NETWORKS-4E1307-2022',
     year: 2022,
     subjectId: 'cse-s4-dccn',
     downloadUrl: 'https://drive.google.com/file/d/1ZY2bfae2a4oMrzmIYnOXbEF7fNeaSglG/view?usp=drive_link',
@@ -2325,7 +2325,7 @@ export const pyqPapers: PYQPaper[] = [
   },
 {
     id: 'paper-8',
-    title: '58',
+    title: 'BTECH-CS-IT-AID-CAI-4-SEM-DATABASE-MANAGEMENT-SYSTEM-4E1305-2022',
     year: 2022,
     subjectId: 'cse-s4-dbms',
     downloadUrl: 'https://drive.google.com/file/d/1ViSkwm8MWDwMvj_X1tE9WbcR6vZeQNRt/view?usp=drive_link',
@@ -2334,7 +2334,7 @@ export const pyqPapers: PYQPaper[] = [
   },
 {
     id: 'paper-8',
-    title: '59',
+    title: 'BTECH-CS-IT-AID-CAI-4-SEM-DISCRETE-MATHEMATICS-STRUCTURE-4E1301-2022',
     year: 2022,
     subjectId: 'cse-s4-dms',
     downloadUrl: 'https://drive.google.com/file/d/1dAu9jryWP-qTT6emXD2socmLH1brup_a/view?usp=drive_link',
@@ -2343,7 +2343,7 @@ export const pyqPapers: PYQPaper[] = [
   },
 {
     id: 'paper-8',
-    title: '60',
+    title: 'BTECH-CS-IT-AID-CAI-4-SEM-THEORY-OF-COMPUTATION-4E1306-2022',
     year: 2022,
     subjectId: 'cse-s4-toc',
     downloadUrl: 'https://drive.google.com/file/d/1G6lSW_fRMalfoBjeSm9WnKKsuHjoEuaB/view?usp=drive_link',
@@ -2352,7 +2352,7 @@ export const pyqPapers: PYQPaper[] = [
   },
 {
     id: 'paper-8',
-    title: '61',
+    title: 'BTECH-IT-4-SEM-PRINCIPLE-OF-COMMUNICATION-4E1330-2022',
     year: 2022,
     subjectId: 'cse-s4-toc',
     downloadUrl: 'https://drive.google.com/file/d/1PV9zUWncinElRA2od8Qk61iry6RT3jSl/view?usp=drive_link',
