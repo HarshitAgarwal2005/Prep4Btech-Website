@@ -5178,8 +5178,8 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   //Dip notes
   {
     id: 'dip-theory-1-cse',
-    title: 'Computer Architecture & Organization Nk Book Pdf New Edition',
-    description: 'Structure and behavior of computer systems',
+    title: 'Digital Image Processing',
+    description: 'Processing digital images using algorithms',
     type: 'theory',
     subjectId: 'dip-s6-cse',
     fileSize: '1.3 MB',
