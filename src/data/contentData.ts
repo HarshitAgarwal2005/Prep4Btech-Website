@@ -5153,8 +5153,29 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'cao-s6-cse',
     fileSize: '1.3 MB',
     uploadDate: 'Creating intelligent machines',
-    viewUrl: 'https://drive.google.com/file/d/18gTlmse2VXiJDmIh5J81Y6670UzdEmB5/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1EYk6mzl9B_f3deelwgB3GfQ5JCWdHcoI/view?usp=drive_link'
   },
+   {
+    id: 'cao-books-1-cse',
+    title: 'Computer Architecture & Organization Nk Book Pdf Old Edition',
+    description: 'Structure and behavior of computer systems',
+    type: 'books',
+    subjectId: 'cao-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/1aXFOkCVELl-l_Iu6l1MK48EvA2jYp61A/view?usp=drive_link'
+  },
+   {
+    id: 'cao-books-1-cse',
+    title: 'Computer Architecture & Organization Nk Book Pdf New Edition',
+    description: 'Structure and behavior of computer systems',
+    type: 'books',
+    subjectId: 'cao-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/16WxVBCWhcyCX_KHrPbu_DRfxNbRzpdFn/view?usp=drive_link'
+  },
+  
   
   
   
