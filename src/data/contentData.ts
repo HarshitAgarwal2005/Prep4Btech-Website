@@ -4953,7 +4953,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     type: 'theory',
     subjectId: 'ai-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+    uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1-vxMKBLURkecV9z5wSFz00UxeJ2RP2Ub/view?usp=drive_link'
   },
    {
@@ -4963,7 +4963,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     type: 'theory',
     subjectId: 'ai-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+    uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1ymjfkunBju0yTEfgz6MULnDzaFX9_PKA/view?usp=drive_link'
   },
    {
@@ -4973,8 +4973,8 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     type: 'theory',
     subjectId: 'ai-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
-    viewUrl: 'https://drive.google.com/file/d/1p5TAgxv-F2KuWpkSYJGNwL7QOvkFaJrD/view?usp=drive_link'
+   uploadDate: '2024-02-25',
+     viewUrl: 'https://drive.google.com/file/d/1p5TAgxv-F2KuWpkSYJGNwL7QOvkFaJrD/view?usp=drive_link'
   },
    {
     id: 'ai-theory-4-cse',
@@ -5171,6 +5171,17 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     description: 'Structure and behavior of computer systems',
     type: 'books',
     subjectId: 'cao-s6-cse',
+    fileSize: '1.3 MB',
+    uploadDate: 'Creating intelligent machines',
+    viewUrl: 'https://drive.google.com/file/d/16WxVBCWhcyCX_KHrPbu_DRfxNbRzpdFn/view?usp=drive_link'
+  },
+  //Dip notes
+  {
+    id: 'dip-theory-1-cse',
+    title: 'Computer Architecture & Organization Nk Book Pdf New Edition',
+    description: 'Structure and behavior of computer systems',
+    type: 'theory',
+    subjectId: 'dip-s6-cse',
     fileSize: '1.3 MB',
     uploadDate: 'Creating intelligent machines',
     viewUrl: 'https://drive.google.com/file/d/16WxVBCWhcyCX_KHrPbu_DRfxNbRzpdFn/view?usp=drive_link'
