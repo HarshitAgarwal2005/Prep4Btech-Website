@@ -4668,7 +4668,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'hci-s5-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1Vyj_xpEX8w7RcPlxzNxt0FNL1qep8Zmp/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1kKlZkaYEwxFccqybcXMYO7XSRa41cGZ3/view?usp=drive_link'
   },
   {
     id: 'hci-theory-4-cse',
@@ -4678,7 +4678,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'hci-s5-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1Vyj_xpEX8w7RcPlxzNxt0FNL1qep8Zmp/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/13zFxqnYLFUwFuNGZ9dhwnncQx1vgpACi/view?usp=drive_link'
   },
   
    {
