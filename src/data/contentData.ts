@@ -4647,6 +4647,103 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'hci-s5-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1DRThPBA1rLuFJUk_kLSQV45VuK2u3Zx-/view?usp=drive_link'
+  },
+ 
+  {
+    id: 'hci-theory-2-cse',
+    title: 'Human Computer Interaction Unit-3',
+    description: 'Design and use of computer technology',
+    type: 'theory',
+    subjectId: 'hci-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1kKlZkaYEwxFccqybcXMYO7XSRa41cGZ3/view?usp=drive_link'
+  },
+  {
+    id: 'hci-theory-3-cse',
+    title: 'Human Computer Interaction Unit-4&5',
+    description: 'Design and use of computer technology',
+    type: 'theory',
+    subjectId: 'hci-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1Vyj_xpEX8w7RcPlxzNxt0FNL1qep8Zmp/view?usp=drive_link'
+  },
+  {
+    id: 'hci-theory-4-cse',
+    title: 'Human Computer Interaction Unit-6',
+    description: 'Design and use of computer technology',
+    type: 'theory',
+    subjectId: 'hci-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1Vyj_xpEX8w7RcPlxzNxt0FNL1qep8Zmp/view?usp=drive_link'
+  },
+  
+   {
+    id: 'hci-assignments-1-cse',
+    title: 'Human Computer Interaction Unit-1',
+    description: 'Design and use of computer technology',
+    type: 'assignments',
+    subjectId: 'hci-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1Vyj_xpEX8w7RcPlxzNxt0FNL1qep8Zmp/view?usp=drive_link'
+  },
+
+   {
+    id: 'hci-assignments-2-cse',
+    title: 'Human Computer Interaction Unit-2',
+    description: 'Design and use of computer technology',
+    type: 'assignments',
+    subjectId: 'hci-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1Vyj_xpEX8w7RcPlxzNxt0FNL1qep8Zmp/view?usp=drive_link'
+  },
+
+   {
+    id: 'hci-assignments-3-cse',
+    title: 'Human Computer Interaction Unit-3',
+    description: 'Design and use of computer technology',
+    type: 'assignments',
+    subjectId: 'hci-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1Vyj_xpEX8w7RcPlxzNxt0FNL1qep8Zmp/view?usp=drive_link'
+  },
+
+   {
+    id: 'hci-assignments-4-cse',
+    title: 'Human Computer Interaction Unit-4',
+    description: 'Design and use of computer technology',
+    type: 'assignments',
+    subjectId: 'hci-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1Vyj_xpEX8w7RcPlxzNxt0FNL1qep8Zmp/view?usp=drive_link'
+  },
+
+   {
+    id: 'hci-assignments-5-cse',
+    title: 'Human Computer Interaction Unit-5',
+    description: 'Design and use of computer technology',
+    type: 'assignments',
+    subjectId: 'hci-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1Vyj_xpEX8w7RcPlxzNxt0FNL1qep8Zmp/view?usp=drive_link'
+  },
+
+   {
+    id: 'hci-assignments-6-cse',
+    title: 'Human Computer Interaction Unit-6',
+    description: 'Design and use of computer technology',
+    type: 'assignments',
+    subjectId: 'hci-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1Vyj_xpEX8w7RcPlxzNxt0FNL1qep8Zmp/view?usp=drive_link'
   },
   
