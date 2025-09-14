@@ -4811,8 +4811,118 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/18hBMRoVeJzQK9LlANXtrxfZ3aVabiwaT/view?usp=drive_link'
   },
-  
-  
+  //os 
+   {
+    id: 'os-theory-1-cse',
+    title: 'Operating System Unit-1',
+    description: 'Core concepts of operating systems',
+    type: 'theory',
+    subjectId: 'os-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/presentation/d/1t9h6HoKpzsmGN6B3uJ6fi5b2DEW9RYJu/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+  {
+    id: 'os-theory-2-cse',
+    title: 'Operating System Unit-2',
+    description: 'Core concepts of operating systems',
+    type: 'theory',
+    subjectId: 'os-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/presentation/d/15oW-bSGqeEjfFYL62SnHJagGQ_LJByP_/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+  {
+    id: 'os-theory-3-cse',
+    title: 'Operating System Unit-3',
+    description: 'Core concepts of operating systems',
+    type: 'theory',
+    subjectId: 'os-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/presentation/d/11LUiLFU2apr2YmbXKMRvRbLRZBXf0EaO/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+  {
+    id: 'os-theory-4-cse',
+    title: 'Operating System Unit-4',
+    description: 'Core concepts of operating systems',
+    type: 'theory',
+    subjectId: 'os-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://docs.google.com/presentation/d/1B7DmoCLrD_Gqfo-JKyDDuK0NFc_QHtHH/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+  },
+  {
+    id: 'os-theory-5-cse',
+    title: 'Operating System Unit-5',
+    description: 'Core concepts of operating systems',
+    type: 'theory',
+    subjectId: 'os-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1lp15MKRm4uomzBFr1GpDB_vDUNnVc482/view?usp=drive_link'
+  },
+   {
+    id: 'os-assignments-1-cse',
+    title: 'Operating System Assignment Of Unit-1',
+    description: 'Core concepts of operating systems',
+    type: 'assignments',
+    subjectId: 'os-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/13isQHaITCmQC3GZDfX9ZtYeqSHexXpEu/view?usp=drive_link'
+  },
+  {
+    id: 'os-assignments-2-cse',
+    title: 'Operating System Assignment-1 Of Unit-2',
+    description: 'Core concepts of operating systems',
+    type: 'assignments',
+    subjectId: 'os-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1nTN94Woee4LBgfzkxdKnu9yiWexMrVeh/view?usp=drive_link'
+  },
+   {
+    id: 'os-assignments-2-cse',
+    title: 'Operating System Assignment-2 Of Unit-2',
+    description: 'Core concepts of operating systems',
+    type: 'assignments',
+    subjectId: 'os-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1pmtwMpeh9uhshi3Bp9-Z70rOWmrPUWis/view?usp=drive_link'
+  }
+  {
+    id: 'os-assignments-3-cse',
+    title: 'Operating System Assignment Of Unit-3',
+    description: 'Core concepts of operating systems',
+    type: 'assignments',
+    subjectId: 'os-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/18hBMRoVeJzQK9LlANXtrxfZ3aVabiwaT/view?usp=drive_link'
+  },
+  {
+    id: 'os-assignments-4-cse',
+    title: 'Operating System Assignment Of Unit-4',
+    description: 'Core concepts of operating systems',
+    type: 'assignments',
+    subjectId: 'os-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/18hBMRoVeJzQK9LlANXtrxfZ3aVabiwaT/view?usp=drive_link'
+  },
+  {
+    id: 'os-assignments-5-cse',
+    title: 'Operating System Assignment Of Unit-5',
+    description: 'Core concepts of operating systems',
+    type: 'assignments',
+    subjectId: 'os-s5-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/18hBMRoVeJzQK9LlANXtrxfZ3aVabiwaT/view?usp=drive_link'
+  },
+ 
   
   
   
