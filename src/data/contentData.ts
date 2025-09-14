@@ -5223,7 +5223,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     id: 'dip-theory-5-cse',
     title: 'Digital Image Processing Unit-5',
     description: 'Processing digital images using algorithms',
-    type: 'assignments',
+    type: 'theory',
     subjectId: 'dip-s6-cse',
     fileSize: '1.3 MB',
      uploadDate: '2024-02-25',
@@ -5305,128 +5305,118 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
   // ds notes
   {
-    id: 'dip-theory-1-cse',
-    title: 'Digital Image Processing Unit-1',
-    description: 'Processing digital images using algorithms',
+    id: 'ds-theory-1-cse',
+    title: 'Distributed System Unit-1',
+    description: 'Systems with components on networked computers',
     type: 'theory',
-    subjectId: 'dip-s6-cse',
+    subjectId: 'ds-s6-cse',
     fileSize: '1.3 MB',
      uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/16cYvx5HCSBrrhBCO15RtmY03_B_l7ewx/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1rmsgZ6k80IpenYCrkZE0S7goR-Eq68TY/view?usp=drive_link'
   },
 
    {
-    id: 'dip-theory-2-cse',
-    title: 'Digital Image Processing Unit-2',
-    description: 'Processing digital images using algorithms',
+    id: 'ds-theory-2-cse',
+    title: 'Distributed System Unit-2',
+    description: 'Systems with components on networked computers',
     type: 'theory',
-    subjectId: 'dip-s6-cse',
+    subjectId: 'ds-s6-cse',
     fileSize: '1.3 MB',
      uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1cgdOu2z3hQGCE2C6rrivHR7s5HbR-id4/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1RXtokjGUEFt2cjoY7Qj4KtSgpNDULomJ/view?usp=drive_link'
   },
 
    {
-    id: 'dip-theory-3-cse',
-    title: 'Digital Image Processing Unit-3',
-    description: 'Processing digital images using algorithms',
+    id: 'ds-theory-3-cse',
+    title: 'Distributed System Unit-3',
+    description: 'Systems with components on networked computers',
     type: 'theory',
-    subjectId: 'dip-s6-cse',
+    subjectId: 'ds-s6-cse',
     fileSize: '1.3 MB',
      uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/131R63_MfYpxajNny4r3uUrPKXrxljb3t/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1St3Jxk38qSvKhzj3GMI43JDi_wSmh0ja/view?usp=drive_link'
   },
 
    {
-    id: 'dip-theory-4-cse',
-    title: 'Digital Image Processing Unit-4',
-    description: 'Processing digital images using algorithms',
+    id: 'ds-theory-4-cse',
+    title: 'Distributed System Unit-4',
+    description: 'Systems with components on networked computers',
     type: 'theory',
-    subjectId: 'dip-s6-cse',
+    subjectId: 'ds-s6-cse',
     fileSize: '1.3 MB',
      uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1UeH_3-lAuhAnaSfCaiFWDj8I4j3vO7rX/view?usp=sharing'
+    viewUrl: 'https://drive.google.com/file/d/1JCxNAF9NNS7ZhJcKgDdJvtzRhi7z7Fgj/view?usp=drive_link'
   },
    {
-    id: 'dip-theory-5-cse',
-    title: 'Digital Image Processing Unit-5',
-    description: 'Processing digital images using algorithms',
+    id: 'ds-theory-5-cse',
+    title: 'Distributed System Unit-5',
+    description: 'Systems with components on networked computers',
     type: 'theory',
-    subjectId: 'dip-s6-cse',
+    subjectId: 'ds-s6-cse',
     fileSize: '1.3 MB',
      uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1W0YY0Y--s18g6EkJ6_U_8dGN2zExyV85/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1uIivX9nVPZCKMfe04gSkI3Dqbxty8QTP/view?usp=drive_link'
   },
-  {
-    id: 'dip-theory-1-cse',
-    title: 'Digital Image Processing Assignment Of Unit-1',
-    description: 'Processing digital images using algorithms',
-    type: 'theory',
-    subjectId: 'dip-s6-cse',
+   {
+    id: 'ds-assignments-1-cse',
+    title: 'Distributed System Assignment Of Unit-1',
+    description: 'Systems with components on networked computers',
+    type: 'assignments',
+    subjectId: 'ds-s6-cse',
     fileSize: '1.3 MB',
      uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1nfJTXr8kqxYMp3KpqEYnMKIZJPGAlRlN/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1ga1-WiPn-6qYoQgHIJOsETU1W7CZNvvr/view?usp=drive_link'
   },
 
    {
-    id: 'dip-theory-2-cse',
-    title: 'Digital Image Processing Assignment Of Unit-2',
-    description: 'Processing digital images using algorithms',
-    type: 'theory',
-    subjectId: 'dip-s6-cse',
+    id: 'ds-assignments-2-cse',
+    title: 'Distributed System Assignment Of Unit-2',
+    description: 'Systems with components on networked computers',
+    type: 'assignments',
+    subjectId: 'ds-s6-cse',
     fileSize: '1.3 MB',
      uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1EQsfRSXCnVhmSKvSs75Vx6G3HrH4EO8X/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1hNaSm3fPcDXQ4OPJQarXXJtmaMWr48v-/view?usp=drive_link'
   },
 
    {
-    id: 'dip-theory-3-cse',
-    title: 'Digital Image Processing Assignment Of Unit-3',
-    description: 'Processing digital images using algorithms',
-    type: 'theory',
-    subjectId: 'dip-s6-cse',
+    id: 'ds-assignments-3-cse',
+    title: 'Distributed System Assignment Of Unit-3',
+    description: 'Systems with components on networked computers',
+    type: 'assignments',
+    subjectId: 'ds-s6-cse',
     fileSize: '1.3 MB',
      uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/18cpk7mxcG9edKHWacdz1ZsyjchhKrS4K/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1RdHdmCnk9M4S8c8m-wja__WadK8y3cNS/view?usp=drive_link'
   },
 
    {
-    id: 'dip-theory-4-cse',
-    title: 'Digital Image Processing Assignment Of Unit-4',
-    description: 'Processing digital images using algorithms',
-    type: 'theory',
-    subjectId: 'dip-s6-cse',
+    id: 'ds-assignments-4-cse',
+    title: 'Distributed System Assignment Of Unit-4',
+    description: 'Systems with components on networked computers',
+    type: 'assignments',
+    subjectId: 'ds-s6-cse',
     fileSize: '1.3 MB',
      uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/1gFBxY9QedC_RRRJcm4_6uBR5tg78bltq/view?usp=drive_link'
-  },
-   {
-    id: 'dip-theory-5-cse',
-    title: 'Digital Image Processing Assignment Of Unit-5',
-    description: 'Processing digital images using algorithms',
-    type: 'theory',
-    subjectId: 'dip-s6-cse',
-    fileSize: '1.3 MB',
-     uploadDate: '2024-02-25',
-    viewUrl: 'https://drive.google.com/file/d/14UiYcaghktL7lFH1w8x9YCHnVM3rz7CJ/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1GN6O7cYbiKHf6dY6R56DPsWtVOWQkJQ6/view?usp=drive_link'
   },
     {
-    id: 'dip-books-1-cse',
-    title: 'Digital Image Processing Nk Book Pdf Old Edition',
-    description: 'Processing digital images using algorithms',
+    id: 'ds-books-1-cse',
+    title: 'Distributed System Nk Book Pdf Old Edition',
+    description: 'Systems with components on networked computers',
     type: 'books',
-    subjectId: 'dip-s6-cse',
+    subjectId: 'ds-s6-cse',
     fileSize: '1.3 MB',
      uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1DvHt4FXmYUnn4kuFUEGii4mNPLC_-ywG/view?usp=drive_link'
   },
 
    {
-    id: 'dip-books-2-cse',
-    title: 'Digital Image Processing Nk Book Pdf New Edition',
-    description: 'Processing digital images using algorithms',
+    id: 'ds-books-2-cse',
+    title: 'Distributed System Nk Book Pdf New Edition',
+    description: 'Systems with components on networked computers',
     type: 'books',
-    subjectId: 'dip-s6-cse',
+    subjectId: 'ds-s6-cse',
     fileSize: '1.3 MB',
      uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1DGvsbDpoLcQl6r41mwblceHrgiEy4jhn/view?usp=drive_link'
