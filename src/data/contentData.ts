@@ -5282,6 +5282,27 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
      uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/14UiYcaghktL7lFH1w8x9YCHnVM3rz7CJ/view?usp=drive_link'
   },
+    {
+    id: 'dip-books-1-cse',
+    title: 'Digital Image Processing Nk Book Pdf Old Edition',
+    description: 'Processing digital images using algorithms',
+    type: 'books',
+    subjectId: 'dip-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1nfJTXr8kqxYMp3KpqEYnMKIZJPGAlRlN/view?usp=drive_link'
+  },
+
+   {
+    id: 'dip-books-2-cse',
+    title: 'Digital Image Processing Nk Book Pdf New Edition',
+    description: 'Processing digital images using algorithms',
+    type: 'books',
+    subjectId: 'dip-s6-cse',
+    fileSize: '1.3 MB',
+     uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1EQsfRSXCnVhmSKvSs75Vx6G3HrH4EO8X/view?usp=drive_link'
+  },
   
   
   
