@@ -5563,7 +5563,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   // mi notes
     {
     id: 'ml-theory-1-cse',
-    title: 'Information Security System Unit-1',
+    title: 'Machine Learning Unit-1',
     description: 'Information Security System ',
     type: 'theory',
     subjectId: 'ml-s6-cse',
@@ -5574,7 +5574,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
 
    {
     id: 'ml-theory-2-cse',
-    title: 'Information Security System  Unit-2',
+    title: 'Machine Learning Unit-2',
     description: 'Information Security System ',
     type: 'theory',
     subjectId: 'ml-s6-cse',
@@ -5585,7 +5585,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
 
    {
     id: 'ml-theory-3-cse',
-    title: 'Information Security System  Unit-3',
+    title: 'Machine Learning  Unit-3',
     description: 'Information Security System ',
     type: 'theory',
     subjectId: 'ml-s6-cse',
@@ -5596,7 +5596,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
 
    {
     id: 'ml-theory-4-cse',
-    title: 'Information Security System  Unit-4',
+    title: 'Machine Learning Unit-4',
     description: 'Information Security System ',
     type: 'theory',
     subjectId: 'ml-s6-cse',
@@ -5606,7 +5606,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
    {
     id: 'ml-theory-5-cse',
-    title: 'Information Security System  Unit-5',
+    title: 'Machine Learning Unit-5',
     description: 'Information Security System ',
     type: 'theory',
     subjectId: 'ml-s6-cse',
