@@ -938,8 +938,8 @@ export const contentSubjects: ContentSubject[] = [
     icon: '🧠'
   },
    {
-    id: 'iss-s6-ee',
-    name: 'Imfromation Security System',
+    id: 'iss-s6-cse',
+    name: 'Imfromation Security System', 
     code: '6EE4-XX',
     year: 3,
     semester: 6,
