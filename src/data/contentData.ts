@@ -4983,7 +4983,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     type: 'theory',
     subjectId: 'ai-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+      uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1SRQp7XGb_OHCiwWXFPghwnDTIrfGgE6D/view?usp=drive_link'
   },
    {
@@ -4993,7 +4993,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     type: 'theory',
     subjectId: 'ai-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+      uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/15nzy9CuwJE5RodIsycbxXX81pBy9YD-P/view?usp=drive_link'
   },
   {
@@ -5003,7 +5003,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     type: 'assignments',
     subjectId: 'ai-s6-cse',
     fileSize: '1.3 MB',
-    uploadDate: 'Creating intelligent machines',
+    uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/1SstcYyIMZQm-g3L4MVVXQbrsPYlONLg_/view?usp=drive_link'
   },
    {
