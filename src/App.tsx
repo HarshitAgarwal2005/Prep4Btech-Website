@@ -16,6 +16,8 @@ import PYQPapers from './components/PYQPapers';
 import Contact from './components/Contact';
 import About from './components/About';
 import AskDoubt from './components/AskDoubt';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import TermsOfService from './components/TermsOfService';
 
 // Component to handle scroll to top on route change
 const ScrollToTop: React.FC = () => {
@@ -73,6 +75,8 @@ function App() {
                 <Route path="/pyq-papers" element={<PYQPapers />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                <Route path="/terms-of-service" element={<TermsOfService />} />
               </Routes>
             </main>
             <Footer />

@@ -367,10 +367,10 @@ if (email.trim()) {
               </div>
               
               <div className="flex items-center space-x-6 text-sm">
-                <Link to="/privacy" className="text-gray-300 hover:text-white transition-colors">
-                  Privacy Policy
-                </Link>
-                <Link to="/terms" className="text-gray-300 hover:text-white transition-colors">
+                <Link to="/privacy-policy" className="text-gray-300 hover:text-white transition-colors">
+  Privacy Policy
+</Link>
+                <Link to="/terms-of-service" className="text-gray-300 hover:text-white transition-colors">
                   Terms of Service
                 </Link>
                 <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition-colors">
