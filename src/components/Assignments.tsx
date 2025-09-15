@@ -642,7 +642,7 @@ const goBack = () => {
               ) : (
                 <div className="text-center py-12">
                   <FileText className="h-16 w-16 text-gray-600 mx-auto mb-4" />
-                  <h3 className="text-xl font-semibold mb-2">No Content Available</h3>
+                  <h3 className="text-xl font-semibold mb-2">Coming Soon</h3>
                   <p className="text-gray-400">
                     {selectedContentType 
                       ? `No ${selectedContentType} content available for ${selectedSubject.name}`
