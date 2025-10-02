@@ -2820,7 +2820,7 @@ export const contentItems: ContentItem[] = [
   },
   { 
     id: 'math2-mtt-1-cse',
-    title: 'Chemistry Mtt Paper-1',
+    title: 'Mathematics Mtt Paper-1',
     description: 'Mid-term test paper with solutions',
     type: 'mtt',
     subjectId: 'math2-s2-cse',
