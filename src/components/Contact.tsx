@@ -1,19 +1,10 @@
-import React, { useState, createContext, useContext } from 'react';
+import React, { useState, createContext, useContext, useEffect } from 'react';
 import { Mail, MapPin, Send, Linkedin, Github, CheckCircle, AlertCircle, Lock, LogOut, User, Instagram } from 'lucide-react';
 
-// --- Supabase Client Setup ---
-// Corrected: Removed the ESM import from CDN.
-// We now assume Supabase is loaded globally and available on the `window` object,
-// which is a common pattern in sandboxed or web editor environments.
-const { createClient } = (window.supabase || {});
-
+// --- Supabase Credentials ---
 // IMPORTANT: Replace these placeholder values with your real Supabase URL and Anon Key.
-const supabaseUrl = 'https://zcbqcdjglcspllhqiygd.supabase.co'; // <-- REPLACE WITH YOUR SUPABASE URL
-const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpjYnFjZGpnbGNzcGxsaHFpeWdkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTYxMjMwODIsImV4cCI6MjA3MTY5OTA4Mn0.i7iJU9hSlX0JE97lXvPUL-ZfGUQd0vNmvSATjcaR8yA'; // <-- REPLACE WITH YOUR SUPABASE ANON KEY
-
-// Initialize the client. We add a check to ensure the library was loaded correctly.
-export const supabase = createClient ? createClient(supabaseUrl, supabaseAnonKey) : null;
-
+const supabaseUrl = 'YOUR_SUPABASE_URL'; // <-- REPLACE WITH YOUR SUPABASE URL
+const supabaseAnonKey = 'YOUR_SUPABASE_ANON_KEY'; // <-- REPLACE WITH YOUR SUPABASE ANON KEY
 
 // --- Developer Auth Context ---
 const DeveloperAuthContext = createContext({
@@ -51,9 +42,10 @@ export const DeveloperAuthProvider = ({ children }) => {
   );
 };
 
-
 // --- Main Contact Component ---
 const Contact = () => {
+  // State for the Supabase client instance
+  const [supabase, setSupabase] = useState(null);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -70,6 +62,53 @@ const Contact = () => {
 
   const { isAuthenticated, login, logout } = useDeveloperAuth();
 
+  // Effect hook to dynamically load the Supabase script and initialize the client
+  useEffect(() => {
+    // Function to initialize the client once the script is loaded
+    const initializeSupabase = () => {
+      if (window.supabase) {
+        const client = window.supabase.createClient(supabaseUrl, supabaseAnonKey);
+        setSupabase(client);
+      } else {
+        setError("Could not load the Supabase library. Please contact support.");
+      }
+    };
+
+    // Check if the script is already on the page
+    if (document.querySelector('script[src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"]')) {
+      // If the script is present but window.supabase isn't ready, wait for it
+      if (window.supabase) {
+        initializeSupabase();
+      } else {
+        // This is a fallback for a race condition
+        const interval = setInterval(() => {
+          if (window.supabase) {
+            clearInterval(interval);
+            initializeSupabase();
+          }
+        }, 100);
+      }
+    } else {
+      // If the script isn't on the page, create and load it
+      const script = document.createElement('script');
+      script.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2';
+      script.async = true;
+      
+      script.onload = initializeSupabase;
+      
+      script.onerror = () => {
+        setError("Failed to load the Supabase script. Please check your connection.");
+      };
+
+      document.body.appendChild(script);
+      
+      // Cleanup function to remove the script if the component unmounts
+      return () => {
+        document.body.removeChild(script);
+      };
+    }
+  }, []); // Empty dependency array ensures this runs only once when the component mounts
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -80,13 +119,12 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Updated validation to check if the supabase client was successfully created.
+    // Updated validation to check the stateful supabase client
     if (!supabase) {
-        setError('Supabase client is not available. Please contact the site administrator.');
+        setError('Supabase is not initialized yet. Please wait a moment and try again.');
         return;
     }
 
-    // Basic validation to prevent submission if Supabase credentials are not set
     if (supabaseUrl === 'YOUR_SUPABASE_URL' || supabaseAnonKey === 'YOUR_SUPABASE_ANON_KEY') {
         setError('Supabase credentials are not configured. Please contact the site administrator.');
         return;
@@ -96,7 +134,6 @@ const Contact = () => {
     setError(null);
 
     try {
-      // Step 1: Insert data into the Supabase table
       const { error: insertError } = await supabase
         .from('contact_messages')
         .insert([{ 
@@ -105,12 +142,10 @@ const Contact = () => {
             message: formData.message 
         }]);
 
-      // If the database insert fails, throw the error to be caught below
       if (insertError) {
         throw insertError;
       }
       
-      // Step 2: Call the Edge Function (optional, but good to keep)
       const response = await fetch(`${supabaseUrl}/functions/v1/send-doubt-email`, {
         method: 'POST',
         headers: {
@@ -131,7 +166,7 @@ const Contact = () => {
       }
       
       setIsSubmitted(true);
-      setFormData({ name: '', email: '', message: '' }); // Clear form on success
+      setFormData({ name: '', email: '', message: '' });
 
       setTimeout(() => {
         setIsSubmitted(false);
@@ -216,7 +251,7 @@ const Contact = () => {
               <h1 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">Connect with Us</h1>
               <h5 className="text-lg font-semibold text-gray-900 dark:text-white mb-4"> Harshit Agarwal</h5>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                 <a href="https://www.linkedin.com/in/harshitagarwal2005?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center p-4 bg-blue-50 dark:bg-blue-900/20 hover:bg-blue-100 dark:hover:bg-blue-900/30 rounded-xl transition-colors group">
+                 <a href="https://www.linkedin.com/in/harshitagarwal2005?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium_android_app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center p-4 bg-blue-50 dark:bg-blue-900/20 hover:bg-blue-100 dark:hover:bg-blue-900/30 rounded-xl transition-colors group">
                   <Linkedin className="h-6 w-6 text-blue-600 dark:text-blue-400 mr-3 group-hover:scale-110 transition-transform" />
                   <span className="font-medium text-blue-800 dark:text-blue-300">LinkedIn</span>
                 </a>
@@ -232,7 +267,7 @@ const Contact = () => {
               <br/>
                <h5 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Hariom Shivnani</h5>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                 <a href="https://www.linkedin.com/in/hariom-shivnani?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center p-4 bg-blue-50 dark:bg-blue-900/20 hover:bg-blue-100 dark:hover:bg-blue-900/30 rounded-xl transition-colors group">
+                 <a href="https://www.linkedin.com/in/hariom-shivnani?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium_android_app" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center p-4 bg-blue-50 dark:bg-blue-900/20 hover:bg-blue-100 dark:hover:bg-blue-900/30 rounded-xl transition-colors group">
                   <Linkedin className="h-6 w-6 text-blue-600 dark:text-blue-400 mr-3 group-hover:scale-110 transition-transform" />
                   <span className="font-medium text-blue-800 dark:text-blue-300">LinkedIn</span>
                 </a>
@@ -283,7 +318,7 @@ const Contact = () => {
                     <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Message</label>
                     <textarea id="message" name="message" value={formData.message} onChange={handleChange} required rows={6} className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors resize-none bg-white dark:bg-gray-700 text-gray-900 dark:text-white" placeholder="Write your message here..." />
                   </div>
-                  <button type="submit" disabled={isSubmitting} className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-6 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 flex items-center justify-center font-semibold transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none">
+                  <button type="submit" disabled={isSubmitting || !supabase} className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-6 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 flex items-center justify-center font-semibold transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none">
                     {isSubmitting ? (
                       <><div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-2"></div>Sending...</>
                     ) : (
