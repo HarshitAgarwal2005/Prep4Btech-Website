@@ -2133,6 +2133,26 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-16',
     viewUrl: 'https://drive.google.com/file/d/1m--AbcbM78mQyGcC78ZQJ-N_tfwPnQ0U/view?usp=sharing'
   },
+  { 
+    id: 'comm-mtt-1-cse',
+    title: 'Communication Skills Mtt Paper-1',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'comm-s1-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1Vfnz0BEn8xptaaXDB2xlsC7Ye8Gs0EfN/view?usp=drive_link'
+  },
+  { 
+    id: 'comm-mtt-2-cse',
+    title: 'Communication Skills Mtt Paper-2',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'comm-s1-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1brCYYt_WUwWdGD5BQaY4F2dqB6fHsmsX/view?usp=drive_link'
+  },
 
   // BASIC ELECTRICAL ENGINEERING SEM-1 (for CSE)
   {
