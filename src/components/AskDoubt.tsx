@@ -193,7 +193,7 @@ const AskDoubt: React.FC = () => {
                   {/* Student Email */}
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">
-                      Your Email (Optional)
+                      Your Email*
                     </label>
                     <input
                       type="email"
