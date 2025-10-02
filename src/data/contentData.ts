@@ -2266,6 +2266,26 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-25',
     viewUrl: 'https://drive.google.com/file/d/1VYldSHGwmp7h2AejVS5AMD-5XuyLdkXn/view?usp=sharing'
   },
+   { 
+    id: 'mech-mtt-1-cse',
+    title: 'Basic Mechanical Engineering Mtt Paper-1',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'mech-s1-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1g9FT3RjT6FH4b9I2zvK1ePc4TjldQ7Qy/view?usp=drive_link'
+  },
+  { 
+    id: 'mech-mtt-2-cse',
+    title: 'Basic Mechanical Engineering Mtt Paper-2',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'mech-s1-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1E7cn21hggxlsGToVU4uWMpElmPwnfYIk/view?usp=drive_link'
+  },
 
   // Programming for problem solving sem 2 (for CSE)
   {
