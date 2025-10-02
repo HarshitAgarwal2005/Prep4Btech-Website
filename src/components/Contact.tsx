@@ -3,8 +3,8 @@ import { Mail, MapPin, Send, Linkedin, Github, CheckCircle, AlertCircle, Lock, L
 
 // --- Supabase Credentials ---
 // IMPORTANT: Replace these placeholder values with your real Supabase URL and Anon Key.
-const supabaseUrl = 'https://zcbqcdjglcspllhqiygd.supabase.co'; // <-- REPLACE WITH YOUR SUPABASE URL
-const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpjYnFjZGpnbGNzcGxsaHFpeWdkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTYxMjMwODIsImV4cCI6MjA3MTY5OTA4Mn0.i7iJU9hSlX0JE97lXvPUL-ZfGUQd0vNmvSATjcaR8yA'; // <-- REPLACE WITH YOUR SUPABASE ANON KEY
+const supabaseUrl = 'YOUR_SUPABASE_URL'; // <-- REPLACE WITH YOUR SUPABASE URL
+const supabaseAnonKey = 'YOUR_SUPABASE_ANON_KEY'; // <-- REPLACE WITH YOUR SUPABASE ANON KEY
 
 // --- Developer Auth Context ---
 const DeveloperAuthContext = createContext({
@@ -121,12 +121,12 @@ const Contact = () => {
 
     // Updated validation to check the stateful supabase client
     if (!supabase) {
-        setError('Supabase is not initialized yet. Please wait a moment and try again.');
+        console.error('Supabase is not initialized yet. Please wait a moment and try again.');
         return;
     }
 
     if (supabaseUrl === 'YOUR_SUPABASE_URL' || supabaseAnonKey === 'YOUR_SUPABASE_ANON_KEY') {
-        setError('Supabase credentials are not configured. Please contact the site administrator.');
+        console.error('Supabase credentials are not configured. Please contact the site administrator.');
         return;
     }
 
@@ -134,6 +134,7 @@ const Contact = () => {
     setError(null);
 
     try {
+      // Step 1: Insert data into the Supabase table (Primary action)
       const { error: insertError } = await supabase
         .from('contact_messages')
         .insert([{ 
@@ -143,28 +144,11 @@ const Contact = () => {
         }]);
 
       if (insertError) {
+        // If the primary action fails, throw the error to be handled by the catch block
         throw insertError;
       }
       
-      const response = await fetch(`${supabaseUrl}/functions/v1/send-doubt-email`, {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${supabaseAnonKey}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          subject: 'Contact Form Message',
-          doubt: `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`,
-          userEmail: formData.email,
-          userName: formData.name
-        })
-      });
-
-      if (!response.ok) {
-        const result = await response.json();
-        throw new Error(result.error || 'Failed to send notification email.');
-      }
-      
+      // If insert is successful, update UI to show success immediately
       setIsSubmitted(true);
       setFormData({ name: '', email: '', message: '' });
 
@@ -172,10 +156,36 @@ const Contact = () => {
         setIsSubmitted(false);
       }, 3000);
 
+      // Step 2: Attempt to call the Edge Function (Secondary action)
+      // Its failure will be logged but won't show an error to the user.
+      try {
+        const response = await fetch(`${supabaseUrl}/functions/v1/send-doubt-email`, {
+            method: 'POST',
+            headers: {
+            'Authorization': `Bearer ${supabaseAnonKey}`,
+            'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+            subject: 'Contact Form Message',
+            doubt: `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`,
+            userEmail: formData.email,
+            userName: formData.name
+            })
+        });
+
+        if (!response.ok) {
+            const result = await response.json();
+            throw new Error(result.error || 'Failed to send notification email.');
+        }
+      } catch (fetchError) {
+          // Silently log the secondary action's failure to the console for debugging
+          console.warn("Could not send notification email:", fetchError);
+      }
+      
     } catch (err) {
+      // Catch critical errors (like the database insert failing) and log them to the console.
+      // Do not set the state, so the error does not appear in the UI.
       console.error("Form submission failed:", err);
-      const errorMessage = err.message || 'An unknown error occurred. Please try again.';
-      setError(`Submission failed: ${errorMessage}`);
     } finally {
       setIsSubmitting(false);
     }
