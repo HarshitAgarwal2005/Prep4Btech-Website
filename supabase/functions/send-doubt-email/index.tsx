@@ -1,9 +1,10 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
+import { decode } from "https://deno.land/std@0.168.0/encoding/base64.ts";
 
-// CORS headers that your browser needs to see in the OPTIONS response
+// CORS headers
 export const corsHeaders = {
-  'Access-Control-Allow-Origin': '*', // Changed from specific domain to allow all origins during testing
+  'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
   'Access-Control-Allow-Methods': 'POST, OPTIONS',
 };
@@ -11,107 +12,89 @@ export const corsHeaders = {
 interface DoubtRequest {
   subject: string;
   doubt: string;
-  imageUrl?: string;
+  image?: string;
   userEmail?: string;
   userName?: string;
 }
 
 serve(async (req) => {
-  console.log(`Function invoked. Method: ${req.method}, URL: ${req.url}`);
-
-  // Handle CORS preflight request
-  if (req.method == 'OPTIONS') {
-    // console.log('Handling OPTIONS preflight request.');
-    // return new Response('ok', { 
-    //   status: 200, // Explicitly set status to 200
-    //   headers: corsHeaders 
-    // });
-    return new Response('ok', { headers: corsHeaders })
-  }
-
-  // Only allow POST requests for the main functionality
-  if (req.method != 'POST') {
-    console.log(`Method ${req.method} not allowed`);
-    return new Response(
-      JSON.stringify({ error: 'Method not allowed' }),
-      { 
-        status: 405, 
-        headers: { ...corsHeaders, 'Content-Type': 'application/json' } 
-      }
-    );
+  if (req.method === 'OPTIONS') {
+    return new Response('ok', { headers: corsHeaders });
   }
 
   try {
-    console.log('Verifying environment variables...');
-    
-    // Check for all required secrets at the start
-    const requiredEnv = [
-      'SUPABASE_URL',
-      'SUPABASE_SERVICE_ROLE_KEY',
-      'EMAILJS_SERVICE_ID',
-      'EMAILJS_TEMPLATE_ID',
-      'EMAILJS_USER_ID'
-    ];
-    
+    const requiredEnv = ['SUPABASE_URL', 'SUPABASE_SERVICE_ROLE_KEY', 'EMAILJS_SERVICE_ID', 'EMAILJS_TEMPLATE_ID', 'EMAILJS_USER_ID'];
     for (const key of requiredEnv) {
       if (!Deno.env.get(key)) {
-        console.error(`Missing required environment variable: ${key}`);
         throw new Error(`Missing required environment variable: ${key}`);
       }
     }
-    console.log('All required environment variables are present.');
 
-    console.log('Processing POST request.');
-    
-    let requestData: DoubtRequest;
-    try {
-      requestData = await req.json();
-    } catch (jsonError) {
-      console.error('Failed to parse JSON:', jsonError);
-      return new Response(
-        JSON.stringify({ error: 'Invalid JSON in request body' }),
-        { status: 400, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
-      );
+    const { subject, doubt, image, userEmail, userName }: DoubtRequest = await req.json();
+
+    if (!subject || !doubt || !userEmail) {
+      return new Response(JSON.stringify({ error: 'Subject, doubt, and email are required' }), {
+        status: 400,
+        headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+      });
     }
 
-    const { subject, doubt, imageUrl, userEmail, userName } = requestData;
-    console.log(`Received data for subject: "${subject}"`);
-
-    // Validate required fields
-    if (!subject || !doubt) {
-      console.log('Validation failed: Subject or doubt is missing.');
-      return new Response(
-        JSON.stringify({ error: 'Subject and doubt are required' }),
-        { status: 400, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
-      );
-    }
-
-    console.log('Initializing Supabase client...');
     const supabaseClient = createClient(
       Deno.env.get('SUPABASE_URL')!,
       Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!
     );
-    console.log('Supabase client initialized.');
 
-    console.log('Attempting to insert into "doubts" table...');
+    let publicImageUrl: string | undefined = undefined;
+
+    if (image) {
+      try {
+        const matches = image.match(/^data:(.+);base64,(.+)$/);
+        if (!matches || matches.length !== 3) {
+          throw new Error('Invalid image data format.');
+        }
+
+        const contentType = matches[1];
+        const base64Data = matches[2];
+        const imageBuffer = decode(base64Data);
+        const fileExtension = contentType.split('/')[1];
+        const fileName = `doubt-${Date.now()}.${fileExtension}`;
+        const filePath = `public/${fileName}`;
+
+        const { data: uploadData, error: uploadError } = await supabaseClient.storage
+          .from('doubts-images')
+          .upload(filePath, imageBuffer, {
+            contentType: contentType,
+            cacheControl: '3600',
+            upsert: false,
+          });
+
+        if (uploadError) {
+          throw new Error(`Storage Error: ${uploadError.message}`);
+        }
+
+        const { data: urlData } = supabaseClient.storage.from('doubts-images').getPublicUrl(uploadData.path);
+        publicImageUrl = urlData.publicUrl;
+
+      } catch (uploadError) {
+        console.warn(`Image upload failed: ${uploadError.message}. Proceeding without image.`);
+      }
+    }
+
     const { error: dbError } = await supabaseClient
       .from('doubts')
       .insert({
         subject,
         doubt,
-        image_url: imageUrl,
+        image_url: publicImageUrl,
         user_email: userEmail,
         user_name: userName,
         created_at: new Date().toISOString(),
       });
 
     if (dbError) {
-      console.error('Database insertion failed:', dbError);
       throw new Error(`Database Error: ${dbError.message}`);
     }
-    console.log('Database insert successful.');
-
-    // Email body with proper HTML structure
+    
     const emailBody = `
       <html>
         <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
@@ -140,11 +123,13 @@ serve(async (req) => {
                   ${userName}
                 </p>
               ` : ''}
-              ${imageUrl ? `
+              ${publicImageUrl ? `
                 <h3 style="color: #1E293B;">Attached Image:</h3>
-                 <p style="background: white; padding: 10px; border-radius: 4px;">
-                   Image URL: <a href="${imageUrl}" target="_blank">${imageUrl}</a>
-                 </p>
+                 <div style="background: white; padding: 10px; border-radius: 4px;">
+                   <a href="${publicImageUrl}" target="_blank">
+                     <img src="${publicImageUrl}" alt="Doubt image" style="max-width: 100%; height: auto; border-radius: 4px;">
+                   </a>
+                 </div>
               ` : ''}
             </div>
             <div style="background: #EEF2FF; padding: 15px; border-radius: 8px; margin-top: 20px;">
@@ -163,60 +148,33 @@ serve(async (req) => {
       </html>
     `;
 
-    console.log('Attempting to send email via EmailJS...');
-    try {
-      const emailResponse = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          service_id: Deno.env.get('EMAILJS_SERVICE_ID'),
-          template_id: Deno.env.get('EMAILJS_TEMPLATE_ID'),
-          user_id: Deno.env.get('EMAILJS_USER_ID'),
-          template_params: {
-            to_email: 'prep4btech@gmail.com',
-            subject: `New Doubt: ${subject}`,
-            message: emailBody,
-            from_name: userName || 'Prep4btech Student',
-            reply_to: userEmail || 'noreply@prep4btech.netlify.app'
-          }
-        })
-      });
-      
-      console.log(`EmailJS API response status: ${emailResponse.status}`);
-      
-      if (!emailResponse.ok) {
-        const emailErrorText = await emailResponse.text();
-        console.warn(`Email sending failed for subject: "${subject}". Response: ${emailErrorText}`);
-      } else {
-        console.log('Email sent successfully.');
-      }
-    } catch (emailError) {
-      console.warn(`Database entry was saved, but email sending failed for subject: "${subject}". Error:`, emailError);
-    }
-
-    console.log('Function finished successfully. Sending 200 response.');
-    return new Response(
-      JSON.stringify({ 
-        success: true, 
-        message: 'Doubt submitted successfully!' 
+    await fetch('https://api.emailjs.com/api/v1.0/email/send', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        service_id: Deno.env.get('EMAILJS_SERVICE_ID'),
+        template_id: Deno.env.get('EMAILJS_TEMPLATE_ID'),
+        user_id: Deno.env.get('EMAILJS_USER_ID'),
+        template_params: {
+          to_email: 'prep4btech@gmail.com',
+          subject: `New Doubt: ${subject}`,
+          message: emailBody,
+          from_name: userName || 'Prep4btech Student',
+          reply_to: userEmail || 'noreply@prep4btech.netlify.app'
+        },
       }),
-      { 
-        status: 200, 
-        headers: { ...corsHeaders, 'Content-Type': 'application/json' } 
-      }
-    );
+    });
+
+    return new Response(JSON.stringify({ success: true, message: 'Doubt submitted successfully!' }), {
+      status: 200,
+      headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+    });
 
   } catch (error) {
-    console.error('An error occurred in the main try-catch block:', error);
-    return new Response(
-      JSON.stringify({ 
-        error: 'Failed to submit doubt. Please try again later.',
-        details: error instanceof Error ? error.message : 'Unknown error'
-      }),
-      { 
-        status: 500, 
-        headers: { ...corsHeaders, 'Content-Type': 'application/json' } 
-      }
-    ); 
+    console.error('An error occurred:', error);
+    return new Response(JSON.stringify({ error: 'Failed to submit doubt.', details: error.message }), {
+      status: 500,
+      headers: { ...corsHeaders, 'Content-Type': 'application/json' },
+    });
   }
 });
