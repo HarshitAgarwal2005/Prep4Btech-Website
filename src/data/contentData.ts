@@ -1538,7 +1538,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'math1-s1-cse',
     fileSize: '0.8 MB',
     uploadDate: '2024-02-10',
-    viewUrl: 'https://example.com/math1-mtt'
+    viewUrl: 'https://drive.google.com/file/d/1SHq1kF4rGNBRZqLeX__1_tXnqGGG4bm2/view?usp=drive_link'
   },
 
   // Engineering Physics Content (for CSE)
