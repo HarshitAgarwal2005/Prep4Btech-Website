@@ -2338,6 +2338,48 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1y0A4EH4QSqUzrhulsxrzQ2tfib46YHNp/view?usp=drive_link'
   },
+
+   { 
+    id: 'pps-mtt-1-cse',
+    title: 'PPS Mtt Paper-1',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'pps-s2-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/11JS0fCPZdOZd7G4KXWIMCm_VHSb3Z_Gh/view?usp=drive_link'
+  },
+  { 
+    id: 'pps-mtt-2-cse',
+    title: 'PPS Mtt Paper-2',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'pps-s2-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1ckS36HubBHlQZjneUvIHfwEy7bpNin4e/view?usp=drive_link'
+  },
+  { 
+    id: 'pps-mtt-3-cse',
+    title: 'PPS Mtt Paper-3',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'pps-s2-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1mVYXlwqiONaHHGdaiDmEE6taK50LtolP/view?usp=drive_link'
+  },
+  { 
+    id: 'pps-mtt-4-cse',
+    title: 'PPS Mtt Paper-4',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'pps-s2-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1Ugo619D7d8Gjw8SMd2bR6eEC7dO95wkX/view?usp=drive_link'
+  },
+  
   //ENGINEERING CHEMISTRY
 {
     id: 'chem-theory-1-cse',
