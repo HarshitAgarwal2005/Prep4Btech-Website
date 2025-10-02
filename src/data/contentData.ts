@@ -1540,6 +1540,26 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-10',
     viewUrl: 'https://drive.google.com/file/d/1SHq1kF4rGNBRZqLeX__1_tXnqGGG4bm2/view?usp=drive_link'
   },
+   {
+    id: 'math1-mtt-3-cse',
+    title: 'Engineering Mathematics-I MTT Paper -3',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'math1-s1-cse',
+    fileSize: '0.8 MB',
+    uploadDate: '2024-02-10',
+    viewUrl: 'https://drive.google.com/file/d/1WtErXCa-9ywDMRYPSVb_kqsJPlzvyiMS/view?usp=drive_link'
+  },
+   {
+    id: 'math1-mtt-4-cse',
+    title: 'Engineering Mathematics-I MTT Paper -4',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'math1-s1-cse',
+    fileSize: '0.8 MB',
+    uploadDate: '2024-02-10',
+    viewUrl: 'https://drive.google.com/file/d/1wfHgM5AcSVsGYZ4ui2ydixjzeNpWD3bv/view?usp=drive_link'
+  },
 
   // Engineering Physics Content (for CSE)
   {
