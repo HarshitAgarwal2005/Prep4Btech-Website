@@ -2519,7 +2519,37 @@ export const contentItems: ContentItem[] = [
     subjectId: 'chem-s2-cse',
     fileSize: '6-60 minutes',
     uploadDate: '2024-02-01',
-    viewUrl: 'https://drive.google.com/file/d/1Ugo619D7d8Gjw8SMd2bR6eEC7dO95wkX/view?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1TpgtOuCBn8AwkUQ4fqWV8cWhvkbz-Ykw/view?usp=drive_link'
+  },
+  { 
+    id: 'chem-mtt-2-cse',
+    title: 'Chemistry Mtt Paper-2',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'chem-s2-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1HTIPAFagjx0dufP-dVs4Ca2lPh3UEwJe/view?usp=drive_link'
+  },
+  { 
+    id: 'chem-mtt-3-cse',
+    title: 'Chemistry Mtt Paper-3',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'chem-s2-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1qk0upCkAcFf8qxMVhO1itMoMJKvyppES/view?usp=drive_link'
+  },
+  { 
+    id: 'chem-mtt-4-cse',
+    title: 'Chemistry Mtt Paper-4',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'chem-s2-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1tNXBGrOQMef7Q6HX226VpcQVbO4u8ldT/view?usp=drive_link'
   },
   // MATHS - 2
   {
