@@ -21,11 +21,12 @@ serve(async (req) => {
 
   // Handle CORS preflight request
   if (req.method == 'OPTIONS') {
-    console.log('Handling OPTIONS preflight request.');
-    return new Response('ok', { 
-      status: 200, // Explicitly set status to 200
-      headers: corsHeaders 
-    });
+    // console.log('Handling OPTIONS preflight request.');
+    // return new Response('ok', { 
+    //   status: 200, // Explicitly set status to 200
+    //   headers: corsHeaders 
+    // });
+    return new Response('ok', { headers: corsHeaders })
   }
 
   // Only allow POST requests for the main functionality
