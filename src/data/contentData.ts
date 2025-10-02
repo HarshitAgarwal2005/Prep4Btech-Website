@@ -1522,7 +1522,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'math1-mtt-1-cse',
-    title: 'Engineering Mathematics-I MTT Paper',
+    title: 'Engineering Mathematics-I MTT Paper -1',
     description: 'Mid-term test paper with solutions',
     type: 'mtt',
     subjectId: 'math1-s1-cse',
@@ -1532,7 +1532,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'math1-mtt-2-cse',
-    title: 'Engineering Mathematics-I MTT Paper',
+    title: 'Engineering Mathematics-I MTT Paper -2',
     description: 'Mid-term test paper with solutions',
     type: 'mtt',
     subjectId: 'math1-s1-cse',
@@ -1687,6 +1687,16 @@ export const contentItems: ContentItem[] = [
     title: 'ELECTROMAGNETISM --> PLAYLIST',
     description: 'Reference Playlist for Electromagnetism',
     type: 'videos',
+    subjectId: 'physics-s1-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://youtube.com/embed?list=PL2xHbdoT5bU_dmzNHJbwAGQRCl9AY8DjO&si=wTVmxLXVc1bfQmR8'
+  },
+  { 
+    id: 'physics-mtt-1-cse',
+    title: 'Engineering Physics Mtt Paper-1',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
     subjectId: 'physics-s1-cse',
     fileSize: '6-60 minutes',
     uploadDate: '2024-02-01',
