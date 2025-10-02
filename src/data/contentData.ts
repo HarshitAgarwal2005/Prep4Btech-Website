@@ -2778,6 +2778,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1JVq0edsnxgXkDacaQQyPvhgIYmlA9-eo/view?usp=drive_link'
   },
+  { 
+    id: 'math2-mtt-1-cse',
+    title: 'Chemistry Mtt Paper-1',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'math2-s2-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1hK6ycG73CfJTeoQ8T_g-dSN2dsRqDAh-/view?usp=drive_link'
+  },
   
   // HUMAN VALUES 
   { 
