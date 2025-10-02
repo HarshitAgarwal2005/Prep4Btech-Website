@@ -1700,7 +1700,17 @@ export const contentItems: ContentItem[] = [
     subjectId: 'physics-s1-cse',
     fileSize: '6-60 minutes',
     uploadDate: '2024-02-01',
-    viewUrl: 'https://youtube.com/embed?list=PL2xHbdoT5bU_dmzNHJbwAGQRCl9AY8DjO&si=wTVmxLXVc1bfQmR8'
+    viewUrl: 'https://drive.google.com/file/d/1Dg3s_5vJGguu60w-uSl3ggDK6MjglDhU/view?usp=drive_link'
+  },
+   { 
+    id: 'physics-mtt-2-cse',
+    title: 'Engineering Physics Mtt Paper-2',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'physics-s1-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1CA--muNpxwg1cx00afV5wDTI0lHuRUN4/view?usp=drive_link'
   },
 
   // CAMD Content (for CSE)
