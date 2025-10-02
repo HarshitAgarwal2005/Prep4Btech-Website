@@ -3109,6 +3109,49 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-15',
     viewUrl: 'https://drive.google.com/file/d/1IZY_xM5kT9zWfmW_Ky1GE95FRIWEw5Dq/view?usp=sharing'
   },
+   { 
+    id: 'cviil-mtt-1-cse',
+    title: 'Basic Civil Engineering Mtt Paper-1',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'civil-s2-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1aaHmLH95qVE8pdrecLEOAjcKiJWfMkxj/view?usp=drive_link'
+  },
+   
+  { 
+    id: 'cviil-mtt-2-cse',
+    title: 'Basic Civil Engineering Mtt Paper-2',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'civil-s2-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1t3qfalbUQEduN5JUkUEkfTDMZSw3G9EA/view?usp=drive_link'
+  },
+
+  { 
+    id: 'cviil-mtt-3-cse',
+    title: 'Basic Civil Engineering Mtt Paper-3',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'civil-s2-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1BhinVlDkmFs7JWl_FYd2xR0_egAFLzyJ/view?usp=drive_link'
+  },
+   { 
+    id: 'cviil-mtt-4-cse',
+    title: 'Basic Civil Engineering Mtt Paper-4',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'civil-s2-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1evAr9w3TeZCE9EZT1FXYPUBnmrFEyFja/view?usp=drive_link'
+  },
+   
   // CAEG
   {
     id: 'caeg-theory-1-cse',
