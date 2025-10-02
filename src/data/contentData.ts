@@ -2889,6 +2889,26 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     uploadDate: '2024-02-01',
     viewUrl: 'https://drive.google.com/file/d/1rRinuDB3mhHilqwsNb4QKs2ClfSboX7p/view?usp=sharing'
   }, 
+  { 
+    id: 'hv-mtt-1-cse',
+    title: 'Human Values Mtt Paper-1',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'hv-s2-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1oILNT8_yQVMDaFDvB3kf2JPpYrS99RVt/view?usp=drive_link'
+  },
+   { 
+    id: 'hv-mtt-2-cse',
+    title: 'Human Values Mtt Paper-2',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'hv-s2-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1XOh8tu03qbq-O4bl8pFxGvAKPZTW56xs/view?usp=drive_link'
+  },
   //BASIC CIVIL ENGINEERING
   {
     id: 'civil-theory-1-cse',
