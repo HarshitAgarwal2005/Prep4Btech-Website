@@ -1528,6 +1528,16 @@ export const contentItems: ContentItem[] = [
     subjectId: 'math1-s1-cse',
     fileSize: '0.8 MB',
     uploadDate: '2024-02-10',
+    viewUrl: 'https://drive.google.com/file/d/17lRfBbEJGSt8JqbEa7dy2Tiws1cbx4qJ/view?usp=drive_link'
+  },
+  {
+    id: 'math1-mtt-2-cse',
+    title: 'Engineering Mathematics-I MTT Paper',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'math1-s1-cse',
+    fileSize: '0.8 MB',
+    uploadDate: '2024-02-10',
     viewUrl: 'https://example.com/math1-mtt'
   },
 
