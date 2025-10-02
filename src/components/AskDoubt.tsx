@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { MessageCircle, X, Send, Upload, CheckCircle, AlertCircle } from 'lucide-react';
 
 const AskDoubt: React.FC = () => {
-  // ... (all other state and constants remain the same)
   const [isOpen, setIsOpen] = useState(false);
   const [doubt, setDoubt] = useState('');
   const [subject, setSubject] = useState('');
@@ -20,23 +19,43 @@ const AskDoubt: React.FC = () => {
     'Engineering Chemistry', 'Communication Skills', 'Human Values', 'Other'
   ];
 
-  // MODIFIED FUNCTION
+  const resetForm = () => {
+    setDoubt('');
+    setSubject('');
+    setUserEmail('');
+    setUserName('');
+    setImage(null);
+    setError(null);
+    setIsSubmitted(false);
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     setError(null);
 
+    // Basic validation
+    if (!subject || !doubt) {
+        setError("Please fill in all required fields.");
+        setIsSubmitting(false);
+        return;
+    }
+
     try {
-      // Convert image to base64 if present
-      let imageData = null;
+      let imageData: string | ArrayBuffer | null = null;
       if (image) {
-        const reader = new FileReader();
-        imageData = await new Promise((resolve) => {
-          reader.onload = () => resolve(reader.result);
+        // Convert image to base64 using a Promise for cleaner async/await
+        imageData = await new Promise((resolve, reject) => {
+          const reader = new FileReader();
           reader.readAsDataURL(image);
+          reader.onload = () => resolve(reader.result);
+          reader.onerror = (error) => reject(error);
         });
       }
 
+      // Ensure your environment variables are set correctly in your .env file
+      // VITE_SUPABASE_URL should be your project URL
+      // VITE_SUPABASE_ANON_KEY should be your project's anon key
       const response = await fetch(`${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-doubt-email`, {
         method: 'POST',
         headers: {
@@ -51,29 +70,41 @@ const AskDoubt: React.FC = () => {
           image: imageData
         })
       });
-      
-      // ✅ SOLUTION: Check response status BEFORE trying to parse JSON
+
+      // If the server responds with an error status (e.g., 4xx, 5xx)
       if (!response.ok) {
-        // If the server sent an error, it might be in JSON format.
-        // We'll try to parse it, but add a fallback.
-        const errorResult = await response.json().catch(() => ({
-          error: 'Failed to submit doubt. The server returned an error.'
-        }));
-        throw new Error(errorResult.error || 'Failed to submit doubt');
+        let serverError = 'An error occurred on the server.';
+        try {
+            // Try to parse a JSON error message from the server
+            const errorResult = await response.json();
+            serverError = errorResult.error || `Server responded with status: ${response.status}`;
+        } catch (e) {
+            // If the response is not JSON, use the status text
+            serverError = response.statusText || `Server responded with status: ${response.status}`;
+        }
+        throw new Error(serverError);
       }
 
-      // If response.ok is true, we assume success without needing a response body.
+      // On success
       setIsSubmitted(true);
-      
-      // Reset form after successful submission
       setTimeout(() => {
-        setIsSubmitted(false);
         setIsOpen(false);
-        resetForm(); // Use the reset function
+        resetForm();
       }, 3000);
 
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to submit doubt. Please try again.');
+      const errorMessage = err instanceof Error ? err.message : 'An unknown error occurred.';
+      
+      // SOLUTION: Only log network errors to the console, but show other errors in the UI.
+      // "Failed to fetch" is a generic browser error for network failures.
+      if (errorMessage.toLowerCase().includes('failed to fetch')) {
+        console.error("Submission failed due to a network error. This could be an internet issue, a CORS problem, or the server being down. Error:", errorMessage);
+        setError("Could not connect to the server. Please check your internet connection and try again.");
+      } else {
+        // For other errors (e.g., server-side validation), show them to the user.
+        setError(errorMessage);
+        console.error("An error occurred during doubt submission:", err);
+      }
     } finally {
       setIsSubmitting(false);
     }
@@ -82,27 +113,16 @@ const AskDoubt: React.FC = () => {
   const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
       const file = e.target.files[0];
-      if (file.size > 5 * 1024 * 1024) {
-        setError('Image size should be less than 5MB');
+      if (file.size > 5 * 1024 * 1024) { // 5MB limit
+        setError('Image size must be less than 5MB.');
         return;
       }
       setImage(file);
-      setError(null);
+      setError(null); // Clear previous errors
     }
   };
 
-  const resetForm = () => {
-    setDoubt('');
-    setSubject('');
-    setUserEmail('');
-    setUserName('');
-    setImage(null);
-    setError(null);
-    setIsSubmitted(false);
-  };
-
   return (
-    // ... (JSX remains the same)
     <>
       {/* Floating Button */}
       <button
@@ -114,8 +134,8 @@ const AskDoubt: React.FC = () => {
 
       {/* Modal */}
       {isOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md max-h-[90vh] overflow-hidden">
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4 transition-opacity duration-300">
+          <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md max-h-[90vh] overflow-hidden flex flex-col">
             {/* Header */}
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6">
               <div className="flex items-center justify-between">
@@ -136,7 +156,7 @@ const AskDoubt: React.FC = () => {
             </div>
 
             {/* Content */}
-            <div className="p-6 max-h-[calc(90vh-200px)] overflow-y-auto">
+            <div className="p-6 overflow-y-auto">
               {isSubmitted ? (
                 <div className="text-center py-8">
                   <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -144,21 +164,21 @@ const AskDoubt: React.FC = () => {
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Doubt Submitted! ✅</h3>
                   <p className="text-gray-600 text-sm">
-                    Your question has been sent to Harshit. You'll get a response via email soon!
+                    Your question has been sent. You'll get a response via email soon!
                   </p>
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-4">
                   {error && (
-                    <div className="bg-red-50 border border-red-200 rounded-lg p-4 flex items-center">
-                      <AlertCircle className="h-5 w-5 text-red-500 mr-2" />
+                    <div className="bg-red-50 border border-red-200 rounded-lg p-4 flex items-start">
+                      <AlertCircle className="h-5 w-5 text-red-500 mr-3 flex-shrink-0 mt-0.5" />
                       <span className="text-red-700 text-sm">{error}</span>
                     </div>
                   )}
 
                   {/* Student Name */}
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-gray-700 mb-1">
                       Your Name (Optional)
                     </label>
                     <input
@@ -172,8 +192,8 @@ const AskDoubt: React.FC = () => {
 
                   {/* Student Email */}
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Your Email *
+                    <label className="block text-sm font-medium text-gray-700 mb-1">
+                      Your Email (Optional)
                     </label>
                     <input
                       type="email"
@@ -182,14 +202,14 @@ const AskDoubt: React.FC = () => {
                       className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                       placeholder="your.email@example.com"
                     />
-                    <p className="text-xs text-gray-500 mt-1">
-                      Provide your email to receive a direct response
+                     <p className="text-xs text-gray-500 mt-1">
+                      Provide your email to receive a direct response.
                     </p>
                   </div>
 
                   {/* Subject Selection */}
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-gray-700 mb-1">
                       Subject *
                     </label>
                     <select
@@ -207,7 +227,7 @@ const AskDoubt: React.FC = () => {
 
                   {/* Doubt Text */}
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-gray-700 mb-1">
                       Your Question *
                     </label>
                     <textarea
@@ -215,14 +235,14 @@ const AskDoubt: React.FC = () => {
                       onChange={(e) => setDoubt(e.target.value)}
                       required
                       rows={4}
-                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-vertical"
                       placeholder="Describe your doubt in detail..."
                     />
                   </div>
 
                   {/* Image Upload */}
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                    <label className="block text-sm font-medium text-gray-700 mb-1">
                       Upload Image (Optional)
                     </label>
                     <div className="border-2 border-dashed border-gray-300 rounded-lg p-4">
@@ -235,14 +255,14 @@ const AskDoubt: React.FC = () => {
                       />
                       <label
                         htmlFor="image-upload"
-                        className="cursor-pointer flex flex-col items-center text-gray-600 hover:text-gray-800 transition-colors"
+                        className="cursor-pointer flex flex-col items-center text-gray-600 hover:text-blue-600 transition-colors"
                       >
                         <Upload className="h-8 w-8 mb-2" />
                         <span className="text-sm text-center">
                           {image ? (
-                            <span className="text-green-600">✓ {image.name}</span>
+                            <span className="text-green-600 font-medium">✓ {image.name}</span>
                           ) : (
-                            'Click to upload screenshot or diagram (Max 5MB)'
+                            'Click to upload (Max 5MB)'
                           )}
                         </span>
                       </label>
@@ -272,9 +292,9 @@ const AskDoubt: React.FC = () => {
             </div>
 
             {/* Footer */}
-            <div className="bg-gray-50 px-6 py-4 text-center">
+            <div className="bg-gray-50 px-6 py-4 text-center border-t border-gray-200">
               <p className="text-xs text-gray-600">
-                💡 Tip: Be specific about your doubt for better help!
+                💡 Tip: Be specific with your question for a better answer!
               </p>
             </div>
           </div>
@@ -284,4 +304,4 @@ const AskDoubt: React.FC = () => {
   );
 };
 
-export default AskDoubt; 
+export default AskDoubt;
