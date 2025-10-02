@@ -2511,6 +2511,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-02-15',
     viewUrl: 'https://example.com/civil-notes'
   },
+   { 
+    id: 'chem-mtt-1-cse',
+    title: 'Chemistry Mtt Paper-1',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'chem-s2-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1Ugo619D7d8Gjw8SMd2bR6eEC7dO95wkX/view?usp=drive_link'
+  },
   // MATHS - 2
   {
     id: 'math2-theory-1-cse',
