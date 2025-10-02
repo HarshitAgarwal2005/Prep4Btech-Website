@@ -2185,6 +2185,16 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-25',
     viewUrl: 'https://drive.google.com/file/d/1hLptTBsVDAdNqpat2OP0mM10tB_i_WuZ/view?usp=sharing'
   },
+  { 
+    id: 'elec1-mtt-1-cse',
+    title: 'Electrical Engineering Mtt Paper-1',
+    description: 'Mid-term test paper with solutions',
+    type: 'mtt',
+    subjectId: 'elec-s1-cse',
+    fileSize: '6-60 minutes',
+    uploadDate: '2024-02-01',
+    viewUrl: 'https://drive.google.com/file/d/1lzNiBF2zke0_mkJP7arha1LjxpNcmh0O/view?usp=drive_link'
+  },
   //BASIC MECH ENGG
   {
     id: 'mech-theory-1-cse',
