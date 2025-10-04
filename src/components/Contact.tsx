@@ -296,7 +296,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="space-y-6 sm:space-y-8">
             <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 sm:p-8 border border-white/20 dark:border-gray-700/20">
-              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">Send Message</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-6">Send Feedback</h2>
               {isSubmitted ? (
                 <div className="text-center py-12">
                   <div className="bg-green-100 dark:bg-green-900/30 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
