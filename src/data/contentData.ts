@@ -1497,9 +1497,19 @@ export const contentItems: ContentItem[] = [
     subjectId: 'math1-s1-cse',
     duration: '45 minutes',
     uploadDate: '2024-01-30',
-    viewUrl: 'https://www.youtube.com/embed/videoseries?si=icwb9oXWDVqOx3C_&amp;list=PLU6SqdYcYsfJfRHH0K1CgNkheUKk2fBb6',
+    viewUrl: 'https://www.youtube.com/embed/videoseries?si=icwb9oXWDVqOx3C_&amp;list=PLU6SqdYcYsfJfRHH0K1CgNkheUKk2fBb6'
     // thumbnailUrl: 'https://placehold.co/600x400/000000/FFFFFF?text=Math-I'
   },
+  {
+    id: 'math1-video-1-cse',
+    title: 'Engineering Mathematics-I Video Lectures',
+    description: 'Video lectures covering key concepts', 
+    type: 'videos',
+    subjectId: 'math1-s1-cse',
+    duration: '45 minutes',
+    uploadDate: '2024-01-30',
+    viewUrl: 'https://www.youtube.com/embed/videoseries?si=icwb9oXWDVqOx3C_&amp;list=PLU6SqdYcYsfJfRHH0K1CgNkheUKk2fBb6'
+  }
   {
     id: 'math1-book-1-cse',
     title: 'PYQ Book NK ',
