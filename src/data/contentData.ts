@@ -1491,8 +1491,8 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'math1-video-1-cse',
-    title: 'Engineering Mathematics-I Video Lectures',
-    description: 'Video lectures covering key concepts', 
+    title: 'Unit-I Video Lectures',
+    description: 'Video lectures covering Fourier Series', 
     type: 'videos',
     subjectId: 'math1-s1-cse',
     duration: '15-30 mins',
@@ -1501,7 +1501,7 @@ export const contentItems: ContentItem[] = [
     // thumbnailUrl: 'https://placehold.co/600x400/000000/FFFFFF?text=Math-I'
   },
   {
-    id: 'math1-video-1-cse',
+    id: 'math1-video-2-cse',
     title: 'Engineering Mathematics-I Video Lectures',
     description: 'Video lectures covering key concepts', 
     type: 'videos',
@@ -1511,7 +1511,7 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://www.youtube.com/embed/videoseries?si=yo2gDfqi4owL7PJP&amp;list=PL0lJvXukJqxa7o4r5gzJ_Bhry7GD7BtxC'
   },
   {
-    id: 'math1-video-1-cse',
+    id: 'math1-video-3-cse',
     title: 'Engineering Mathematics-I Video Lectures',
     description: 'Video lectures covering key concepts', 
     type: 'videos',
