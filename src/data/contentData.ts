@@ -2345,6 +2345,66 @@ export const contentItems: ContentItem[] = [
     uploadDate: '2024-01-25',
     viewUrl: 'https://drive.google.com/file/d/1VYldSHGwmp7h2AejVS5AMD-5XuyLdkXn/view?usp=sharing'
   },
+  {
+    id: 'mech-videos-1-cse',
+    title: 'Unit 1',
+    description: 'video Lecture Covering all topics',
+    type: 'videos',
+    subjectId: 'mech-s1-cse',
+    fileSize: '8 minutes',
+    uploadDate: '2025-09-30',
+    viewUrl: 'https://www.youtube.com'
+  },
+  {
+    id: 'mech-videos-2-cse',
+    title: 'Unit 2',
+    description: 'video Lecture Covering all topics',
+    type: 'videos',
+    subjectId: 'mech-s1-cse',
+    fileSize: '8 minutes',
+    uploadDate: '2025-09-30',
+    viewUrl: 'https://www.youtube.com/'
+  },
+  {
+    id: 'mech-videos-3-cse',
+    title: 'Unit 3',
+    description: 'video Lecture Covering all topics',
+    type: 'videos',
+    subjectId: 'mech-s1-cse',
+    fileSize: '8 minutes',
+    uploadDate: '2025-09-30',
+    viewUrl: 'https://www.youtube.com/'
+  },
+  {
+    id: 'mech-videos-4-cse',
+    title: 'Unit 4',
+    description: 'video Lecture Covering all topics',
+    type: 'videos',
+    subjectId: 'mech-s1-cse',
+    fileSize: '8 minutes',
+    uploadDate: '2025-09-30',
+    viewUrl: 'https://www.youtube.com/'
+  },
+  {
+    id: 'mech-videos-5-cse',
+    title: 'Unit 5',
+    description: 'video Lecture Covering all topics',
+    type: 'videos',
+    subjectId: 'mech-s1-cse',
+    fileSize: '8 minutes',
+    uploadDate: '2025-09-30',
+    viewUrl: 'https://www.youtube.com'
+  },
+  {
+    id: 'mech-videos-6-cse',
+    title: 'Unit 6',
+    description: 'video Lecture Covering all topics',
+    type: 'videos',
+    subjectId: 'mech-s1-cse',
+    fileSize: '8 minutes',
+    uploadDate: '2025-09-30',
+    viewUrl: 'https://www.youtube.com'
+  },
    { 
     id: 'mech-mtt-1-cse',
     title: 'Basic Mechanical Engineering Mtt Paper-1',
