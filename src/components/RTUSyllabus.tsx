@@ -139,7 +139,7 @@ const RTUSyllabus: React.FC = () => {
             'Internet of Things',
             'Open Elective-1'
           ],
-          syllabusUrl: 'https://drive.google.com/file/d/1CGiSoPvOL7iMow-cVcijalqhBqksbLvi/view?usp=sharing'
+          syllabusUrl: 'https://drive.google.com/file/d/17H_WGyEE_DR7OzfMyEu9Dmhl2SNi1b2j/view?usp=drive_link'
         },
         { 
           sem: 8, 
