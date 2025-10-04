@@ -1509,7 +1509,17 @@ export const contentItems: ContentItem[] = [
     duration: '45 minutes',
     uploadDate: '2024-01-30',
     viewUrl: 'https://www.youtube.com/embed/videoseries?si=yo2gDfqi4owL7PJP&amp;list=PL0lJvXukJqxa7o4r5gzJ_Bhry7GD7BtxC'
-  }
+  },
+  {
+    id: 'math1-video-1-cse',
+    title: 'Engineering Mathematics-I Video Lectures',
+    description: 'Video lectures covering key concepts', 
+    type: 'videos',
+    subjectId: 'math1-s1-cse',
+    duration: '45 minutes',
+    uploadDate: '2024-01-30',
+    viewUrl: 'https://www.youtube.com/embed/videoseries?si=yo2gDfqi4owL7PJP&amp;list=PL0lJvXukJqxa7o4r5gzJ_Bhry7GD7BtxC'
+  },
   {
     id: 'math1-book-1-cse',
     title: 'PYQ Book NK ',
