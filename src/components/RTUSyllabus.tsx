@@ -65,7 +65,7 @@ const RTUSyllabus: React.FC = () => {
             'Managerial Economics And Financial Accounting'
           ],
           syllabusUrl: 'https://drive.google.com/file/d/115zSvkEqQBw9OKEYf-0s9dMCI7zXG_4k/view?usp=drive_link'
-        },
+        }, 
         { 
           sem: 4, 
           title: 'Semester 4', 
