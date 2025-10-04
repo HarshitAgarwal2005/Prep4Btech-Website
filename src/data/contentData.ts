@@ -1502,8 +1502,8 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'math1-video-2-cse',
-    title: 'Engineering Mathematics-I Video Lectures',
-    description: 'Video lectures covering key concepts', 
+    title: 'Unit-II Video Lectures',
+    description: 'Video lectures covering Beta-gamma Functions', 
     type: 'videos',
     subjectId: 'math1-s1-cse',
     duration: '45 minutes',
