@@ -120,7 +120,7 @@ const RTUSyllabus: React.FC = () => {
             'Software Defined Network',
             'Ecommerce & ERP'
           ],
-          syllabusUrl: 'https://drive.google.com/file/d/11Q1zuW1O_kXs7ERINcRiFS7x0znCHE2M/view?usp=sharing'
+          syllabusUrl: 'https://drive.google.com/file/d/1KgFv1UZwllYWJB1o1UC3oPeY82e7pQ2D/view?usp=drive_link'
         }
       ],
       color: 'from-purple-500 to-pink-500',
