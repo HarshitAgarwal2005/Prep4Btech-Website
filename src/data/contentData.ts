@@ -1512,8 +1512,8 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'math1-video-3-cse',
-    title: 'Engineering Mathematics-I Video Lectures',
-    description: 'Video lectures covering key concepts', 
+    title: 'Unit-III Video Lectures',
+    description: 'Video lectures covering Sequence and Series', 
     type: 'videos',
     subjectId: 'math1-s1-cse',
     duration: '45 minutes',
