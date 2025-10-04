@@ -1533,12 +1533,12 @@ export const contentItems: ContentItem[] = [
   {
     id: 'math1-video-5-cse',
     title: 'Engineering Mathematics-I Video Lectures',
-    description: 'Video lectures covering ', 
+    description: 'Video lectures covering Double Integration', 
     type: 'videos',
     subjectId: 'math1-s1-cse',
     duration: '45 minutes',
     uploadDate: '2024-01-30',
-    viewUrl: 'https://www.youtube.com/embed/videoseries?si=yo2gDfqi4owL7PJP&amp;list=PL0lJvXukJqxa7o4r5gzJ_Bhry7GD7BtxC'
+    viewUrl: 'https://www.youtube.com/'
   },
   {
     id: 'math1-book-1-cse',
