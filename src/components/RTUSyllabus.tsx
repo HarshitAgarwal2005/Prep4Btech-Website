@@ -28,7 +28,7 @@ const RTUSyllabus: React.FC = () => {
             'Basic Mechanical Engineering',
             'Basic Electrical Engineering'
           ],
-          syllabusUrl: 'https://drive.google.com/file/d/11SFf2VM44Cvkh890-UCo0zkKpFhQtZOJ/view?usp=sharing'
+          syllabusUrl: 'https://drive.google.com/file/d/1TL74osVbY5EgND-wbG9u5jqZ0fQgQZ4h/view?usp=drive_link'
         },
         { 
           sem: 2, 
