@@ -78,7 +78,7 @@ const RTUSyllabus: React.FC = () => {
             'Microprocessor And Interface',
             'Theory Of Computation'
           ],
-          syllabusUrl: 'https://drive.google.com/file/d/11czaYIx5BHJlj65SgiRtbh8cq6VURhWC/view?usp=sharing'
+          syllabusUrl: 'https://drive.google.com/file/d/1rRwi30z5mWb_dGMyeq54z-UwqoyLs3tq/view?usp=drive_link'
         }
       ],
       color: 'from-green-500 to-teal-500',
