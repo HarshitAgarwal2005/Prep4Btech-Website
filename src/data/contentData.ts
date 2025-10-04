@@ -1518,6 +1518,16 @@ export const contentItems: ContentItem[] = [
     subjectId: 'math1-s1-cse',
     duration: '45 minutes',
     uploadDate: '2024-01-30',
+    viewUrl: 'https://youtube.com'
+  },
+  {
+    id: 'math1-video-4-cse',
+    title: 'Unit-IV Video Lectures',
+    description: 'Video lectures covering partial Differentiation', 
+    type: 'videos',
+    subjectId: 'math1-s1-cse',
+    duration: '45 minutes',
+    uploadDate: '2024-01-30',
     viewUrl: 'https://www.youtube.com/embed/videoseries?si=yo2gDfqi4owL7PJP&amp;list=PL0lJvXukJqxa7o4r5gzJ_Bhry7GD7BtxC'
   },
   {
