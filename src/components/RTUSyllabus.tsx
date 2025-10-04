@@ -149,7 +149,7 @@ const RTUSyllabus: React.FC = () => {
             'Big Data Analytics',
             'Open Elective-2'
           ],
-          syllabusUrl: 'https://drive.google.com/file/d/1FTrE9nQ0GDHkp7t1u0feZAFujmpDkLFr/view?usp=sharing'
+          syllabusUrl: 'https://drive.google.com/file/d/1wWyCc7y6O0uUn0dfwZvzVklbWE9KHyet/view?usp=drive_link'
         }
       ],
       color: 'from-orange-500 to-red-500',
