@@ -103,7 +103,7 @@ const RTUSyllabus: React.FC = () => {
             'Human Computer Interaction',
             'Bioinformatics'
           ],
-          syllabusUrl: 'https://drive.google.com/file/d/11nxIts47YcupIjYxGO4ytf0sueAncOxg/view?usp=sharing'
+          syllabusUrl: 'https://drive.google.com/file/d/17Znc8gmaqMoGXzGhLLf7BoOWzsPu4M0V/view?usp=drive_link'
         },
         { 
           sem: 6, 
