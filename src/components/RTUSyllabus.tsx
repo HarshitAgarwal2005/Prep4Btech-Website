@@ -41,7 +41,7 @@ const RTUSyllabus: React.FC = () => {
             'Programming for Problem Solving',
             'Basic Civil Engineering'
           ],
-          syllabusUrl: 'https://drive.google.com/file/d/11QFKehks83wYocR3xZQCaiVTrGvLzZCQ/view?usp=sharing'
+          syllabusUrl: 'https://drive.google.com/file/d/1vIe-y6O4uPSfkVWSqcVD5_XR2UfEEIwC/view?usp=drive_link'
         }
       ],
       color: 'from-blue-500 to-cyan-500',
