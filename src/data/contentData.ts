@@ -1492,14 +1492,14 @@ export const contentItems: ContentItem[] = [
   // {
   //   id: 'math1-video-1-cse',
   //   title: 'Engineering Mathematics-I Video Lectures',
-  //   description: 'Video lectures covering key concepts',
+  //   description: 'Video lectures covering key concepts', 
   //   type: 'videos',
   //   subjectId: 'math1-s1-cse',
   //   duration: '45 minutes',
   //   uploadDate: '2024-01-30',
   //   viewUrl: 'https://example.com/math1-videos',
   //   thumbnailUrl: 'https://placehold.co/600x400/000000/FFFFFF?text=Math-I'
-  },
+  // },
   {
     id: 'math1-book-1-cse',
     title: 'PYQ Book NK ',
