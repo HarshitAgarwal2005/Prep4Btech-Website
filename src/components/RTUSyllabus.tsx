@@ -64,7 +64,7 @@ const RTUSyllabus: React.FC = () => {
             'Digital Electronics',
             'Managerial Economics And Financial Accounting'
           ],
-          syllabusUrl: 'https://drive.google.com/file/d/11h4ITOg-7DvIJm1XERbxw_rQjFhPn2qd/view?usp=sharing'
+          syllabusUrl: 'https://drive.google.com/file/d/115zSvkEqQBw9OKEYf-0s9dMCI7zXG_4k/view?usp=drive_link'
         },
         { 
           sem: 4, 
