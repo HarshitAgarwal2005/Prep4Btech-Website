@@ -3009,6 +3009,16 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     viewUrl: 'https://www.youtube.com/embed/O3dw1qDmv_Y?si=rtnBKSV9Dcy2O_rD'
   },
   {
+    id: 'hv-videos-2-cse',
+    title: 'Unit 2',
+    description: 'Complete oneshot for Unit 2',
+    type: 'videos',
+    subjectId: 'hv-s2-cse',
+    fileSize: '40 min',
+    uploadDate: '2024-02-01', 
+    viewUrl: 'https://www.youtube.com/embed/3pSQTB3dYJ0?si=JdYypBCF4SPrjlm5'
+  },
+  {
     id: 'hv-lab-1-cse',
     title: 'Lab Manual',
     description: 'Complete Lab Manual',
