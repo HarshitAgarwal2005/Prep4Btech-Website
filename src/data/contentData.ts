@@ -2588,7 +2588,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'chem-s2-cse',
     fileSize: '5 minutes',
     uploadDate: '2024-02-01',
-    viewUrl: 'https://www.youtube.com/embed/videoseries?si=agjqJz4gShQZLafp&amp;list=PL2xHbdoT5bU8AP9fmmi8dE4AkpudMw-vy'
+    viewUrl: 'https://www.youtube.com/embed/videoseries?si=D9WGbW4LchdLIMde&amp;list=PLXPu2vF4HkwU8UBmiea-af7xH61VKYVE8'
   },
   {
     id: 'chem-videos-3-cse',
