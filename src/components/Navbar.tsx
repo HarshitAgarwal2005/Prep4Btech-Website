@@ -194,8 +194,8 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
             </div>
           )}
         </div>
-        {/* Collaboration Strip (Visible on Desktop) */}
-<div className="hidden md:flex justify-center items-center bg-gradient-to-r from-violet-50 to-pink-50 dark:from-gray-800 dark:to-gray-900 py-2 border-t border-gray-200/50 dark:border-gray-700/50">
+         {/* Collaboration Strip (Visible on Desktop) */}
+        {/* <div className="hidden md:flex justify-center items-center bg-gradient-to-r from-violet-50 to-pink-50 dark:from-gray-800 dark:to-gray-900 py-2 border-t border-gray-200/50 dark:border-gray-700/50">
   <p className="text-sm text-gray-700 dark:text-gray-300 flex items-center space-x-2">
     <span>🤝 In Collaboration with</span>
     <img
@@ -208,9 +208,10 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
     </span>
   </p>
 </div>
+        */}
 
 {/* Mobile Collaboration Strip (Visible only on small screens) */}
-{isOpen && (
+        {/*{isOpen && (
   <div className="md:hidden bg-gradient-to-r from-violet-600 to-purple-600 text-white text-center py-2 rounded-xl mt-2 mx-2">
     <p className="text-sm font-medium flex items-center justify-center space-x-2">
       <span>🤝</span>
@@ -225,7 +226,8 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
     </span>
     </p>
   </div>
-)}
+)} 
+        */}
 
       </nav>
     </>
