@@ -216,7 +216,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
       <span>🤝</span>
       <span>In Collaboration with</span>
       <img
-        src="/origins-logo.png"
+        src="/origins.jpg"
         alt="Origins Logo"
         className="h-4 w-auto object-contain"
       />
