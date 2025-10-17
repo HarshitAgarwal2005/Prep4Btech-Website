@@ -220,7 +220,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
         alt="Origins Logo"
         className="h-4 w-auto object-contain"
       />
-      <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-pink-600">
+      <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-violet-200 to-pink-600">
       Origins 
     </span>
     </p>
