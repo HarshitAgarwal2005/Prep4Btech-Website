@@ -199,7 +199,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
   <p className="text-sm text-gray-700 dark:text-gray-300 flex items-center space-x-2">
     <span>🤝 In Collaboration with</span>
     <img
-      src="/origins-logo.png" // make sure the file is in your public/ directory
+      src="/origins-logo.jpg" // make sure the file is in your public/ directory
       alt="Origins Logo"
       className="h-6 md:h-7 w-auto object-contain hover:scale-110 transition-transform duration-300"
     />
