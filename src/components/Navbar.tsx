@@ -422,7 +422,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
               <Handshake className="h-4 w-4 text-violet-500 group-hover:animate-shake" />
               <span>In Collaboration with</span>
               <img
-                src="/origins-logo.png" // IMPORTANT: Place your logo in the 'public' folder
+                src="/origins.jpg" // IMPORTANT: Place your logo in the 'public' folder
                 alt="Origins Logo"
                 className="h-5 w-auto object-contain group-hover:scale-110 transition-transform duration-300"
               />
