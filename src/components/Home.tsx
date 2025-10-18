@@ -144,51 +144,7 @@ const Home: React.FC = () => {
           </div>
         </div>
       </div>
-      {/* ===================== NEW: COLLABORATION SECTION ===================== */}
-<div className="py-16 sm:py-20 relative">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="text-center mb-12">
-      <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-        In Partnership With 🤝
-      </h2>
-      <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-        We're proud to collaborate with communities that share our vision.
-      </p>
-    </div>
     
-    <div className="max-w-3xl mx-auto">
-      <div className="bg-white/60 dark:bg-gray-800/60 backdrop-blur-xl rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 border border-white/20 dark:border-gray-700/20">
-        <div className="flex flex-col sm:flex-row items-center text-center sm:text-left space-y-6 sm:space-y-0 sm:space-x-8">
-          <div className="flex-shrink-0">
-            <img 
-              src="/origins.jpg" // IMPORTANT: Place your logo in the 'public' folder
-              alt="Origins Community Logo" 
-              className="h-24 w-24 object-contain rounded-full shadow-lg bg-white p-2" 
-            />
-          </div>
-          <div className="flex-grow">
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-              Origins Community
-            </h3>
-            <p className="mt-2 text-gray-600 dark:text-gray-300">
-              A vibrant student community at JECRC, dedicated to fostering innovation, collaboration, and learning beyond the classroom.
-            </p>
-            <a 
-              href="<https://www.instagram.com/>" // <-- IMPORTANT: Add their link here too
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="mt-4 inline-block bg-gradient-to-r from-violet-600 to-purple-600 text-white font-semibold px-6 py-2 rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300"
-            >
-              Learn More
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-{/* =========================== END OF NEW SECTION ========================== */}
-
       {/* Features Section */}
       <div className="py-16 sm:py-24 bg-white/30 dark:bg-gray-800/30 backdrop-blur-xl relative pt-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
