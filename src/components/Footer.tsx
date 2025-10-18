@@ -365,6 +365,13 @@ if (email.trim()) {
                 <Heart className="h-4 w-4 text-red-500 animate-pulse" />
                 <span>by Error 404</span>
               </div>
+              <div className="flex items-center justify-center space-x-2 text-sm text-gray-400">
+                <Handshake className="h-4 w-4 text-violet-400"/>
+                <span>In partnership with</span>
+                <a href="https://www.instagram.com/jecrc.origins/" target="_blank" rel="noopener noreferrer" className="font-semibold text-violet-300 hover:text-white transition-colors">
+                  Origins Community
+                </a>
+              </div>
               
               <div className="flex items-center space-x-6 text-sm">
                 <Link to="/privacy-policy" className="text-gray-300 hover:text-white transition-colors">
