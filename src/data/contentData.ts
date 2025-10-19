@@ -2093,6 +2093,16 @@ export const contentItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/1J5sj1vkoo0ZwKxGIOZxMDX0MRNziqV5C/view?usp=sharing'
   },
   {
+    id: 'comm-books-1-cse',
+    title: 'Comm. SKills by NK',
+    description: 'Complete NK Book',
+    type: 'books',
+    subjectId: 'comm-s1-cse',
+    fileSize: '47 MB',
+    uploadDate: '2025-10-20',
+    viewUrl: 'https://drive.google.com/file/d/1LOTKclWx6VvyrqKDWTp8iLgq3NvkkXao/view?usp=sharing'
+  },
+  {
     id: 'comm-assignment-1-cse',
     title: 'Communication Skills Assignment',
     description: 'Essay writing and presentation assignments',
