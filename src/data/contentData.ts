@@ -3626,7 +3626,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'dsa-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://docs.google.com/presentation/d/1ZY35p2z6xY4QFVeemEwijmGEhYv4t6c6/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+    viewUrl: 'https://drive.google.com/file/d/10urmJNq1NiPC0AehtlQQPkSEYtXV3Yy7/view?usp=sharing'
   },
   {
     id: 'dsa-theory-4-cse',
