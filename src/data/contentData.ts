@@ -3606,7 +3606,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'dsa-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://docs.google.com/presentation/d/1-AS86iGm40x3JAVX0WiyqazbJGBDmh54/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
+    viewUrl: 'https://drive.google.com/file/d/1vHuQ-RYlI9AQm64df_d7Ys-vRc9lLrti/view?usp=drive_link'
   },
    {
     id: 'dsa-theory-2-cse',
@@ -3616,7 +3616,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'dsa-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://docs.google.com/presentation/d/1Y-bGekqaZZSj_ZYWbJS-3HuPYD3j1Eqq/edit?usp=sharing&ouid=109272455612884300462&rtpof=true&sd=true'
+    viewUrl: 'https://drive.google.com/file/d/1mnuzVnmf7brHzQF6d9y3QtZ8ekJ1W0L9/view?usp=drive_link'
   },
   {
     id: 'dsa-theory-3-cse',
@@ -3626,7 +3626,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'dsa-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://docs.google.com/presentation/d/1ZY35p2z6xY4QFVeemEwijmGEhYv4t6c6/edit?usp=sharing&ouid=109272455612884300462&rtpof=true&sd=true'
+    viewUrl: 'https://drive.google.com/file/d/1mATrjlUviuLxPxtKnlgvxsgttf4Yu5-D/view?usp=drive_link'
   },
   {
     id: 'dsa-theory-4-cse',
@@ -3636,7 +3636,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'dsa-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://docs.google.com/presentation/d/1ZY35p2z6xY4QFVeemEwijmGEhYv4t6c6/edit?usp=sharing&ouid=109272455612884300462&rtpof=true&sd=true'
+    viewUrl: 'https://drive.google.com/file/d/1xMbwNV8mEfg0IGGmgmPVus0SeDjkaY_N/view?usp=drive_link'
   },
   {
     id: 'dsa-theory-5-cse',
@@ -3646,7 +3646,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'dsa-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://docs.google.com/presentation/d/1aF_A2Vc0HtmfU4h3hbZSe1IWrmoP3slM/edit?usp=sharing&ouid=109272455612884300462&rtpof=true&sd=true'
+    viewUrl: 'https://drive.google.com/file/d/1xafgBPC6g35U0UxFlis_t2xjnw5gGUYZ/view?usp=drive_link'
   },
   
   {
