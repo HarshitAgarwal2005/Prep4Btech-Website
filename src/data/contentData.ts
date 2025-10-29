@@ -2297,7 +2297,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mech-theory-2-cse',
-    title: 'Unit 1: Boilers',
+    title: 'Unit 1.2: Boilers',
     description: 'NOTES part 2',
     type: 'theory',
     subjectId: 'mech-s1-cse',
@@ -2307,8 +2307,8 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mech-theory-3-cse',
-    title: 'Unit 2 PPT',
-    description: 'Unit 2: Pumps and IC Engine',
+    title: 'Unit 2: Pumps and IC Engine',
+    description: 'Full unit Notes',
     type: 'theory',
     subjectId: 'mech-s1-cse',
     fileSize: '3.2 MB',
