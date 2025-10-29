@@ -2367,13 +2367,13 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mech-videos-2-cse',
-    title: 'Unit 2',
+    title: 'Unit 2.1: Pumps',
     description: 'video Lecture Covering all topics',
     type: 'videos',
     subjectId: 'mech-s1-cse',
     fileSize: '8 minutes',
     uploadDate: '2025-09-30',
-    viewUrl: 'https://www.youtube.com/'
+    viewUrl: 'https://www.youtube.com/embed/5FL1G6kLZTs?si=19mXH2fQQlM8L17u'
   },
   {
     id: 'mech-videos-3-cse',
