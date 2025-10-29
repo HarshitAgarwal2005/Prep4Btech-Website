@@ -2317,8 +2317,8 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mech-theory-4-cse',
-    title: 'Unit 3 PPT',
-    description: 'Unit 3: RAC',
+    title: 'Unit 3: RAC',
+    description: 'Full unit Notes',
     type: 'theory',
     subjectId: 'mech-s1-cse',
     fileSize: '3.2 MB',
