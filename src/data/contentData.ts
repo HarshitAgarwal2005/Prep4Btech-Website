@@ -2303,7 +2303,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'mech-s1-cse',
     fileSize: '2 MB',
     uploadDate: '2024-01-25',
-    viewUrl: 'https://docs.google.com/presentation/d/1a1m__MM28xzTw9xzi1eWbn8pCfRqk1T2/edit?usp=sharing&ouid=109272455612884300462&rtpof=true&sd=true'
+    viewUrl: 'https://drive.google.com/file/d/1aydI0mKFebL0krhEQji5bqq8zz91vlxx/view?usp=sharing'
   },
   {
     id: 'mech-theory-3-cse',
