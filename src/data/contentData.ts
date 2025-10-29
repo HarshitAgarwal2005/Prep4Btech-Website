@@ -2347,8 +2347,8 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mech-theory-7-cse',
-    title: 'Unit 6 PPT',
-    description: 'Unit 6: Eng. Materials and Heat Treatment of Steel',
+    title: 'Unit 6: Eng. Materials and Heat Treatment of Steel',
+    description: 'Handwritten Notes',
     type: 'theory',
     subjectId: 'mech-s1-cse',
     fileSize: '3.2 MB',
