@@ -2287,8 +2287,8 @@ export const contentItems: ContentItem[] = [
   //BASIC MECH ENGG
   {
     id: 'mech-theory-1-cse',
-    title: 'Unit 1 PPT',
-    description: 'Unit 1: Fundamentals ',
+    title: 'Unit 1.1: Fundamentals',
+    description: 'NOTES 1st part',
     type: 'theory',
     subjectId: 'mech-s1-cse',
     fileSize: '3.2 MB',
@@ -2297,8 +2297,8 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mech-theory-2-cse',
-    title: 'Unit 1 PPT',
-    description: 'Unit 1: Boilers ',
+    title: 'Unit 1: Boilers',
+    description: 'NOTES part 2',
     type: 'theory',
     subjectId: 'mech-s1-cse',
     fileSize: '2 MB',
