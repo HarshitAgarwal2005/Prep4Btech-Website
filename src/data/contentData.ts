@@ -2337,8 +2337,8 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mech-theory-6-cse',
-    title: 'Unit 5 PPT',
-    description: 'Unit 5:Primary Manufacturing Process',
+    title: 'Unit 5: Primary Manufacturing Process',
+    description: 'Handwritten Notes',
     type: 'theory',
     subjectId: 'mech-s1-cse',
     fileSize: '3.2 MB',
