@@ -2308,12 +2308,12 @@ export const contentItems: ContentItem[] = [
   {
     id: 'mech-theory-3-cse',
     title: 'Unit 2 PPT',
-    description: 'Unit 1: Pumps and IC Engine',
+    description: 'Unit 2: Pumps and IC Engine',
     type: 'theory',
     subjectId: 'mech-s1-cse',
     fileSize: '3.2 MB',
     uploadDate: '2024-01-25',
-    viewUrl: 'https://docs.google.com/presentation/d/1aky5Ho6uulkkpmGU8Ah0x-X4xjwGrMcS/edit?usp=sharing&ouid=109272455612884300462&rtpof=true&sd=true'
+    viewUrl: 'https://drive.google.com/file/d/1tU1oDvQPgoyIUFqLUsLeimuePaO4DChy/view?usp=sharing'
   },
   {
     id: 'mech-theory-4-cse',
