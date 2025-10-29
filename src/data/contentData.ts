@@ -2387,7 +2387,7 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mech-videos-3-cse',
-    title: 'Unit 3',
+    title: 'Unit 3: RAC',
     description: 'video Lecture Covering all topics',
     type: 'videos',
     subjectId: 'mech-s1-cse',
@@ -2403,7 +2403,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'mech-s1-cse',
     fileSize: '8 minutes',
     uploadDate: '2025-09-30',
-    viewUrl: 'https://www.youtube.com/'
+    viewUrl: 'https://www.youtube.com/embed/Gd6-v03HWeQ?si=Gmg-W6LfsKBNBtj8'
   },
   {
     id: 'mech-videos-5-cse',
