@@ -2327,8 +2327,8 @@ export const contentItems: ContentItem[] = [
   },
   {
     id: 'mech-theory-5-cse',
-    title: 'Unit 4 PDF',
-    description: 'Unit 4: Power Transmission',
+    title: 'Unit 4: Power Transmission',
+    description: '',
     type: 'theory',
     subjectId: 'mech-s1-cse',
     fileSize: '3.2 MB',
