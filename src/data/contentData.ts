@@ -2413,7 +2413,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'mech-s1-cse',
     fileSize: '8 minutes',
     uploadDate: '2025-09-30',
-    viewUrl: 'https://youtube.com/embed'
+    viewUrl: 'https://youtube.com/embed/'
   },
   {
     id: 'mech-videos-6-cse',
