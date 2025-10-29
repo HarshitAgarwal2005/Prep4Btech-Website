@@ -2413,7 +2413,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'mech-s1-cse',
     fileSize: '8 minutes',
     uploadDate: '2025-09-30',
-    viewUrl: 'https://www.youtube.com'
+    viewUrl: ''
   },
   {
     id: 'mech-videos-6-cse',
@@ -2423,7 +2423,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'mech-s1-cse',
     fileSize: '8 minutes',
     uploadDate: '2025-09-30',
-    viewUrl: 'https://www.youtube.com'
+    viewUrl: 'https://www.youtube.com/embed/LEkLGlOEsLw?si=z_axekAEwvp3XyoM'
   },
    { 
     id: 'mech-mtt-1-cse',
