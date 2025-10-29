@@ -2383,7 +2383,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'mech-s1-cse',
     fileSize: '8 minutes',
     uploadDate: '2025-09-30',
-    viewUrl: 'https://www.youtube.com/'
+    viewUrl: 'https://www.youtube.com/embed/AYYF6cmF0gM?si=yJ_G3TLxdHM4Bj5j'
   },
   {
     id: 'mech-videos-4-cse',
