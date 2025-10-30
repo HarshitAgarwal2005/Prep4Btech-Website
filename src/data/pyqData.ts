@@ -323,7 +323,7 @@ export const pyqSubjects: PYQSubject[] = [
     name: 'Analysis Of Algorithm',
     code: '5CS5-05',
     branchId: 'cse',
-    semester: 5,
+    semester: 5, 
     credits: 3
   },
   {
@@ -342,14 +342,14 @@ export const pyqSubjects: PYQSubject[] = [
     semester: 5,
     credits: 2
   },
-  {
-    id: 'cse-s5-bio',
-    name: 'Bioinformatics',
-    code: '5CS5-13',
-    branchId: 'cse',
-    semester: 5,
-    credits: 2
-  },
+  // {
+  //   id: 'cse-s5-bio',
+  //   name: 'Bioinformatics',
+  //   code: '5CS5-13',
+  //   branchId: 'cse',
+  //   semester: 5,
+  //   credits: 2
+  // },
    {
     id: 'cse-s5-extra',
     name: 'Other Papers',
