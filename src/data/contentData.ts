@@ -3461,7 +3461,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     subjectId: 'aem-s3-cse',
     fileSize: '4.2 MB',
     uploadDate: '2024-02-15',
-    viewUrl: 'https://drive.google.com/drive/folders/1Yzc4-ov7DvbS4Pj4CXXrv5Yj3yECHlW7?usp=drive_link'
+    viewUrl: 'https://drive.google.com/file/d/1TnDJosAf06-kg8jfl-h9m0dN994tvETf/view?usp=sharingk'
   },
   // digital electronics 2nd yr
   {
