@@ -2568,7 +2568,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'chem-s2-cse',
     fileSize: '24.2 MB',
     uploadDate: '2024-02-01',
-    viewUrl: 'https://drive.google.com/file/d/1tE4S0ELp_f3beDnyruGNJqJQZrVq843S/view?usp=sharing'
+    viewUrl: 'https://drive.google.com/file/d/1KeA03VUn6isS2OR1La238JleVkP0RV7j/view?usp=sharing'
   },
 {
     id: 'chem-theory-4-cse',
