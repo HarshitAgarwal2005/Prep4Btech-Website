@@ -411,13 +411,22 @@ const contributors: Contributor[] = [
   }
 ];
 
+// const skills = [
+//   { name: 'React.js', level: 90, color: 'from-blue-500 to-cyan-500' },
+//   { name: 'TypeScript', level: 85, color: 'from-blue-600 to-indigo-600' },
+//   { name: 'Node.js', level: 75, color: 'from-green-500 to-emerald-500' },
+//   { name: 'Python', level: 96, color: 'from-yellow-500 to-orange-500' },
+// ];
 const skills = [
-  { name: 'React.js', level: 90, color: 'from-blue-500 to-cyan-500' },
-  { name: 'TypeScript', level: 85, color: 'from-blue-600 to-indigo-600' },
-  { name: 'Node.js', level: 75, color: 'from-green-500 to-emerald-500' },
-  { name: 'Python', level: 96, color: 'from-yellow-500 to-orange-500' },
-];
-
+//     { name: 'React.js', level: 90, color: 'from-blue-500 to-cyan-500' },
+//     { name: 'TypeScript', level: 85, color: 'from-blue-600 to-indigo-600' },
+//     { name: 'Node.js', level: 75, color: 'from-green-500 to-emerald-500' },
+//     { name: 'Python', level: 96, color: 'from-yellow-500 to-orange-500' },
+//     { name: 'Java', level: 82, color: 'from-red-500 to-pink-500' },
+//     { name: 'Database Design', level: 84, color: 'from-purple-500 to-violet-500' },
+//     { name: 'UI/UX Design', level: 84, color: 'from-pink-500 to-rose-500' },
+//     { name: 'Machine Learning', level: 76, color: 'from-indigo-500 to-purple-500' }
+//   ];
 const achievements = [
   { title: 'Prep4Btech Platform', description: 'Serving 1000+ students', icon: BookOpen, color: 'from-blue-500 to-cyan-500' },
   { title: 'Open Source', description: 'Active GitHub contributors', icon: Github, color: 'from-gray-700 to-gray-900' },
