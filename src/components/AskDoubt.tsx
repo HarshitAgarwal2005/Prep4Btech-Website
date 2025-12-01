@@ -165,8 +165,15 @@ const AskDoubt: React.FC = () => {
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6 shrink-0">
               <div className="flex items-center justify-between">
                 <div>
-                  <h2 className="text-xl font-bold">Ask a Doubt 🤔</h2>
-                  <p className="text-blue-100 text-sm">Get help with your questions</p>
+                  {/* <h2 className="text-xl font-bold">Ask a Doubt 🤔</h2>
+                  <p className="text-blue-100 text-sm">Get help with your questions</p> */}
+                  <h2 className="text-xl font-bold flex items-center">
+                    {mode === 'AI' ? <Bot className="mr-2 h-6 w-6" /> : <MessageCircle className="mr-2 h-6 w-6" />}
+                    {mode === 'AI' ? 'AI Assistant' : 'Ask a Mentor'}
+                  </h2>
+                  <p className="text-blue-100 text-sm">
+                    {mode === 'AI' ? 'Get instant answers powered by AI' : 'Get expert help via email'}
+                  </p>
                 </div>
                 <button
                   onClick={() => {
