@@ -25,6 +25,15 @@ const Assignments: React.FC = () => {
     if (semester) {
       setSelectedSemester(parseInt(semester));
     } 
+    if (branch) setSelectedBranch(branch);
+    else setSelectedBranch(null);
+
+    if (subjectId) {
+      const foundSubject = contentSubjects.find(s => s.id === subjectId);
+      if (foundSubject) setSelectedSubject(foundSubject);
+    } else {
+      setSelectedSubject(null);
+    }
   }, [searchParams]);
 
   const resetSelection = () => {
