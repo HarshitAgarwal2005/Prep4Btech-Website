@@ -206,7 +206,7 @@ const response = await fetch(`${supabaseUrl}/functions/v1/send-doubt-email`, {
 
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">
-                      Your Name (Optional)
+                      Your Name
                     </label>
                     <input
                       type="text"
