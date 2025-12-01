@@ -27,6 +27,15 @@ const Assignments: React.FC = () => {
     } 
   }, [searchParams]);
 
+  const resetSelection = () => {
+    setSelectedYear(null); 
+    setSelectedSemester(null);
+    setSelectedBranch(null);
+    setSelectedSubject(null);
+    setSelectedContentType(null);
+    setSearchQuery('');
+  };
+
 const goBack = () => {
     if (selectedSubject) {
       setSelectedSubject(null);
@@ -43,10 +52,10 @@ const goBack = () => {
     const items = [];
     if (selectedYear) items.push(`Year ${selectedYear}`); 
     if (selectedSemester) items.push(`Sem ${selectedSemester}`);
-    // if (selectedBranch) {
-    //   const branch = branches.find(b => b.code === selectedBranch);
-    //   if (branch) items.push(branch.code);
-    // }
+    if (selectedBranch) {
+      const branch = branches.find(b => b.code === selectedBranch);
+      if (branch) items.push(branch.code);
+    }
     if (selectedSubject) items.push(selectedSubject.name);
     return items.join(' > ');
   };
