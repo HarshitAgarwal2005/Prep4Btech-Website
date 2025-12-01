@@ -181,7 +181,7 @@ const response = await fetch(`${supabaseUrl}/functions/v1/send-doubt-email`, {
             <div className="p-6 overflow-y-auto">
               {isSubmitted ? (
                 <div className="text-center py-8">
-                  <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="bg-green-100 dark:bg-green-900/30 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                     <CheckCircle className="h-8 w-8 text-green-600" />
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Doubt Submitted! ✅</h3>
