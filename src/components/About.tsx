@@ -809,7 +809,7 @@ const skills = [
   { name: 'React.js', level: 90, color: 'from-blue-500 to-cyan-500' },
   { name: 'TypeScript', level: 85, color: 'from-blue-600 to-indigo-600' },
   { name: 'Node.js', level: 75, color: 'from-green-500 to-emerald-500' },
-  { name: 'Python', level: 96, color: 'from-yellow-500 to-orange-500' },
+  { name: 'Python', level: 80, color: 'from-yellow-500 to-orange-500' },
 ];
 
 const achievements = [
