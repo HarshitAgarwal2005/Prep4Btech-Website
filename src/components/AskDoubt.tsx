@@ -23,6 +23,37 @@ const [isLoadingAI, setIsLoadingAI] = useState(false);
     'Engineering Chemistry', 'Communication Skills', 'Human Values', 'Other'
   ];
 
+  const handleAskAI = async () => {
+  if (!doubt || !subject) {
+    setError("Please select a subject and ask your question.");
+    return;
+  }
+
+  setIsLoadingAI(true);
+  setError(null);
+
+  try {
+    const response = await fetch(`${import.meta.env.VITE_SUPABASE_URL}/functions/v1/ask-ai`, {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ question: doubt, subject })
+    });
+
+    const data = await response.json();
+    if (data.error) throw new Error(data.error);
+
+    setAiAnswer(data.answer);
+  } catch (err) {
+    setError("AI is busy. Switching to manual mode...");
+    setMode('EMAIL'); // Auto-fallback on error
+  } finally {
+    setIsLoadingAI(false);
+  }
+};
+
   const resetForm = () => {
     setDoubt('');
     setSubject('');
