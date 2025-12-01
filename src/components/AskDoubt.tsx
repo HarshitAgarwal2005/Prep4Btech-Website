@@ -11,6 +11,7 @@ const AskDoubt: React.FC = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  
   const [mode, setMode] = useState<'AI' | 'EMAIL'>('AI');
 const [aiAnswer, setAiAnswer] = useState<string | null>(null);
 const [isLoadingAI, setIsLoadingAI] = useState(false);
