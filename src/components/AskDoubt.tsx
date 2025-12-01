@@ -199,13 +199,96 @@ const AskDoubt: React.FC = () => {
                   </p>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="space-y-4">
+          <>
                   {error && (
-                    <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4 flex items-start">
+                    <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4 flex items-start mb-4">
                       <AlertCircle className="h-5 w-5 text-red-500 mr-3 flex-shrink-0 mt-0.5" />
                       <span className="text-red-700 dark:text-red-400 text-sm">{error}</span>
                     </div>
                   )}
+
+                  {mode === 'AI' ? (
+                    // === AI MODE UI ===
+                    <div className="space-y-4">
+                      <div>
+                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Subject *</label>
+                        <select
+                          value={subject}
+                          onChange={(e) => setSubject(e.target.value)}
+                          className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 text-gray-900 dark:text-white"
+                        >
+                          <option value="">Select a subject</option>
+                          {subjects.map(sub => <option key={sub} value={sub}>{sub}</option>)}
+                        </select>
+                      </div>
+
+                      <div>
+                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Your Question *</label>
+                        <textarea
+                          value={doubt}
+                          onChange={(e) => setDoubt(e.target.value)}
+                          rows={4}
+                          className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 text-gray-900 dark:text-white placeholder-gray-400"
+                          placeholder="Describe your doubt..."
+                        />
+                      </div>
+
+                      {aiAnswer && (
+                        <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800 p-4 rounded-xl animate-fade-in">
+                          <h4 className="font-bold text-blue-800 dark:text-blue-300 flex items-center mb-2">
+                            <Sparkles className="h-4 w-4 mr-2" /> AI Suggestion:
+                          </h4>
+                          <div className="text-sm text-gray-700 dark:text-gray-200 leading-relaxed whitespace-pre-wrap">
+                            {aiAnswer}
+                          </div>
+                          
+                          <div className="mt-4 flex gap-3 pt-3 border-t border-blue-100 dark:border-blue-800/50">
+                            <button 
+                              onClick={() => { setIsOpen(false); resetForm(); }}
+                              className="flex-1 bg-green-600 hover:bg-green-700 text-white px-3 py-2 rounded-lg text-sm transition-colors"
+                            >
+                              Helpful, Thanks!
+                            </button>
+                            <button 
+                              onClick={() => setMode('EMAIL')}
+                              className="flex-1 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-800 dark:text-white px-3 py-2 rounded-lg text-sm transition-colors"
+                            >
+                              Ask Human Mentor
+                            </button>
+                          </div>
+                        </div>
+                      )}
+
+                      {!aiAnswer && (
+                        <button
+                          onClick={handleAskAI}
+                          disabled={isLoadingAI}
+                          className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-4 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all flex items-center justify-center font-medium shadow-lg"
+                        >
+                          {isLoadingAI ? (
+                            <><div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>Thinking...</>
+                          ) : (
+                            <><Sparkles className="h-4 w-4 mr-2" />Get Instant Answer</>
+                          )}
+                        </button>
+                      )}
+                    </div>
+                  ) : (
+                    // === EMAIL FALLBACK MODE (Your Existing Form) ===
+                    <form onSubmit={handleSubmit} className="space-y-4 animate-fade-in">
+                      <div className="flex items-center mb-2 text-sm text-gray-500 dark:text-gray-400">
+                        <button type="button" onClick={() => setMode('AI')} className="flex items-center hover:text-blue-600 dark:hover:text-blue-400">
+                          <ArrowLeft className="h-4 w-4 mr-1" /> Back to AI
+                        </button>
+                      </div>
+                      
+                {/*  <form onSubmit={handleSubmit} className="space-y-4">
+                  {error && (
+                     <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4 flex items-start">
+                       <AlertCircle className="h-5 w-5 text-red-500 mr-3 flex-shrink-0 mt-0.5" />
+                       <span className="text-red-700 dark:text-red-400 text-sm">{error}</span>
+                     </div>
+                   )} */}
 
                   <div>
                     <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
