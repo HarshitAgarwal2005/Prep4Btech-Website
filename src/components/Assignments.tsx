@@ -68,15 +68,29 @@ const Assignments: React.FC = () => {
   };
 
 const goBack = () => {
+    // if (selectedSubject) {
+    //   setSelectedSubject(null);
+    //   setSelectedContentType(null);
+    // } else if (selectedBranch) {
+    //   setSelectedBranch(null);
+    // } else if (selectedYear || selectedSemester) {
+    //   setSelectedYear(null);
+    //   setSelectedSemester(null);
+    // }
+  const newParams = new URLSearchParams(searchParams);
+    
     if (selectedSubject) {
-      setSelectedSubject(null);
-      setSelectedContentType(null);
+      // If viewing Subject -> Go back to Branch list
+      newParams.delete('subject');
     } else if (selectedBranch) {
-      setSelectedBranch(null);
+      // If viewing Branch -> Go back to Year list
+      newParams.delete('branch');
     } else if (selectedYear || selectedSemester) {
-      setSelectedYear(null);
-      setSelectedSemester(null);
+      // If viewing Year -> Go back to Home/Start
+      newParams.delete('year');
+      newParams.delete('semester');
     }
+    setSearchParams(newParams);
   };
 
   const getBreadcrumb = () => {
