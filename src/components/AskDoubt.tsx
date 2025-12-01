@@ -92,7 +92,7 @@ const [isLoadingAI, setIsLoadingAI] = useState(false);
       //     'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
       //     'Content-Type': 'application/json',
       //   },
-      const supabaseUrl = 'VITE_SUPABASE_URL';
+      const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 const supabaseKey = 'VITE_SUPABASE_ANON_KEY';
 
 const response = await fetch(`${supabaseUrl}/functions/v1/send-doubt-email`, {
