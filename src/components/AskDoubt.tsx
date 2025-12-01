@@ -194,7 +194,7 @@ const response = await fetch(`${supabaseUrl}/functions/v1/send-doubt-email`, {
                   {error && (
                     <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4 flex items-start">
                       <AlertCircle className="h-5 w-5 text-red-500 mr-3 flex-shrink-0 mt-0.5" />
-                      <span className="text-red-700 text-sm">{error}</span>
+                      <span className="text-red-700 dark:text-red-400 text-sm">{error}</span>
                     </div>
                   )}
 
