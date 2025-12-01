@@ -206,7 +206,7 @@ const response = await fetch(`${supabaseUrl}/functions/v1/send-doubt-email`, {
 
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">
-                      Your Name
+                      Your Name *
                     </label>
                     <input
                       type="text"
@@ -219,7 +219,7 @@ const response = await fetch(`${supabaseUrl}/functions/v1/send-doubt-email`, {
 
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">
-                      Your Email*
+                      Your Email *
                     </label>
                     <input
                       type="email"
