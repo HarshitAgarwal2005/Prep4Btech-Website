@@ -93,7 +93,7 @@ const [isLoadingAI, setIsLoadingAI] = useState(false);
       //     'Content-Type': 'application/json',
       //   },
       const supabaseUrl = 'VITE_SUPABASE_URL';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpjYnFjZGpnbGNzcGxsaHFpeWdkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTYxMjMwODIsImV4cCI6MjA3MTY5OTA4Mn0.i7iJU9hSlX0JE97lXvPUL-ZfGUQd0vNmvSATjcaR8yA';
+const supabaseKey = 'VITE_SUPABASE_ANON_KEY';
 
 const response = await fetch(`${supabaseUrl}/functions/v1/send-doubt-email`, {
   method: 'POST',
