@@ -165,15 +165,8 @@ const AskDoubt: React.FC = () => {
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6 shrink-0">
               <div className="flex items-center justify-between">
                 <div>
-                  {/* <h2 className="text-xl font-bold">Ask a Doubt 🤔</h2>
-                  <p className="text-blue-100 text-sm">Get help with your questions</p> */}
-                  <h2 className="text-xl font-bold flex items-center">
-                    {mode === 'AI' ? <Bot className="mr-2 h-6 w-6" /> : <MessageCircle className="mr-2 h-6 w-6" />}
-                    {mode === 'AI' ? 'AI Assistant' : 'Ask a Mentor'}
-                  </h2>
-                  <p className="text-blue-100 text-sm">
-                    {mode === 'AI' ? 'Get instant answers powered by AI' : 'Get expert help via email'}
-                  </p>
+                  <h2 className="text-xl font-bold">Ask a Doubt 🤔</h2>
+                  <p className="text-blue-100 text-sm">Get help with your questions</p>
                 </div>
                 <button
                   onClick={() => {
@@ -199,136 +192,130 @@ const AskDoubt: React.FC = () => {
                   </p>
                 </div>
               ) : (
-          <>
-                  {error && (
-                    <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4 flex items-start mb-4">
-                      <AlertCircle className="h-5 w-5 text-red-500 mr-3 flex-shrink-0 mt-0.5" />
-                      <span className="text-red-700 dark:text-red-400 text-sm">{error}</span>
-                    </div>
-                  )}
+          
+                // <form onSubmit={handleSubmit} className="space-y-4">
+                //   {error && (
+                //     <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4 flex items-start">
+                //       <AlertCircle className="h-5 w-5 text-red-500 mr-3 flex-shrink-0 mt-0.5" />
+                //       <span className="text-red-700 dark:text-red-400 text-sm">{error}</span>
+                //     </div>
+                //   )}
 
-                  {mode === 'AI' ? (
-                    // === AI MODE UI ===
-                    <div className="space-y-4">
-                      <div>
-                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Subject *</label>
-                        <select
-                          value={subject}
-                          onChange={(e) => setSubject(e.target.value)}
-                          className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 text-gray-900 dark:text-white"
-                        >
-                          <option value="">Select a subject</option>
-                          {subjects.map(sub => <option key={sub} value={sub}>{sub}</option>)}
-                        </select>
-                      </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                      Your Name (Optional)
+                    </label>
+                    <input
+                      type="text"
+                      value={userName}
+                      onChange={(e) => setUserName(e.target.value)}
+                      className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 dark:text-white placeholder-gray-400"
+                      placeholder="Enter your name"
+                    />
+                  </div>
 
-                      <div>
-                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Your Question *</label>
-                        <textarea
-                          value={doubt}
-                          onChange={(e) => setDoubt(e.target.value)}
-                          rows={4}
-                          className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 text-gray-900 dark:text-white placeholder-gray-400"
-                          placeholder="Describe your doubt..."
-                        />
-                      </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                      Your Email*
+                    </label>
+                    <input
+                      type="email"
+                      value={userEmail}
+                      onChange={(e) => setUserEmail(e.target.value)}
+                      required
+                      className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 dark:text-white placeholder-gray-400"
+                      placeholder="your.email@example.com"
+                    />
+                     <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                      Provide your email to receive a direct response.
+                    </p>
+                  </div>
 
-                      {aiAnswer && (
-                        <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800 p-4 rounded-xl animate-fade-in">
-                          <h4 className="font-bold text-blue-800 dark:text-blue-300 flex items-center mb-2">
-                            <Sparkles className="h-4 w-4 mr-2" /> AI Suggestion:
-                          </h4>
-                          <div className="text-sm text-gray-700 dark:text-gray-200 leading-relaxed whitespace-pre-wrap">
-                            {aiAnswer}
-                          </div>
-                          
-                          <div className="mt-4 flex gap-3 pt-3 border-t border-blue-100 dark:border-blue-800/50">
-                            <button 
-                              onClick={() => { setIsOpen(false); resetForm(); }}
-                              className="flex-1 bg-green-600 hover:bg-green-700 text-white px-3 py-2 rounded-lg text-sm transition-colors"
-                            >
-                              Helpful, Thanks!
-                            </button>
-                            <button 
-                              onClick={() => setMode('EMAIL')}
-                              className="flex-1 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-800 dark:text-white px-3 py-2 rounded-lg text-sm transition-colors"
-                            >
-                              Ask Human Mentor
-                            </button>
-                          </div>
-                        </div>
-                      )}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                      Subject *
+                    </label>
+                    <select
+                      value={subject}
+                      onChange={(e) => setSubject(e.target.value)}
+                      required
+                      className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 dark:text-white"
+                    >
+                      <option value="" className="text-gray-500">Select a subject</option>
+                      {subjects.map(sub => (
+                        <option key={sub} value={sub}>{sub}</option>
+                      ))}
+                    </select>
+                  </div>
 
-                      {!aiAnswer && (
-                        <button
-                          onClick={handleAskAI}
-                          disabled={isLoadingAI}
-                          className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-4 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all flex items-center justify-center font-medium shadow-lg"
-                        >
-                          {isLoadingAI ? (
-                            <><div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>Thinking...</>
-                          ) : (
-                            <><Sparkles className="h-4 w-4 mr-2" />Get Instant Answer</>
-                          )}
-                        </button>
-                      )}
-                    </div>
-                  ) : (
-            <form onSubmit={handleSubmit} className="space-y-4 animate-fade-in">
-                      <div className="flex items-center mb-2 text-sm text-gray-500 dark:text-gray-400">
-                        <button type="button" onClick={() => setMode('AI')} className="flex items-center hover:text-blue-600 dark:hover:text-blue-400">
-                          <ArrowLeft className="h-4 w-4 mr-1" /> Back to AI
-                        </button>
-                      </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                      Your Question *
+                    </label>
+                    <textarea
+                      value={doubt}
+                      onChange={(e) => setDoubt(e.target.value)}
+                      required
+                      rows={4}
+                      className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-vertical text-gray-900 dark:text-white placeholder-gray-400"
+                      placeholder="Describe your doubt in detail..."
+                    />
+                  </div>
 
-                      {/* We don't need Subject/Doubt again as they are preserved in state */}
-                      
-                      <div>
-                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Name (Optional)</label>
-                        <input
-                          type="text"
-                          value={userName}
-                          onChange={(e) => setUserName(e.target.value)}
-                          className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg text-gray-900 dark:text-white"
-                          placeholder="Enter your name"
-                        />
-                      </div>
-
-                      <div>
-                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Email *</label>
-                        <input
-                          type="email"
-                          value={userEmail}
-                          onChange={(e) => setUserEmail(e.target.value)}
-                          required
-                          className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg text-gray-900 dark:text-white"
-                          placeholder="your.email@example.com"
-                        />
-                        <p className="text-xs text-gray-500 mt-1">We'll send the answer here.</p>
-                      </div>
-
-                      <div>
-                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Attachment (Optional)</label>
-                        <div className="border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg p-4 bg-gray-50 dark:bg-gray-700/50">
-                          <input type="file" accept="image/*" onChange={handleImageUpload} className="hidden" id="image-upload" />
-                          <label htmlFor="image-upload" className="cursor-pointer flex flex-col items-center text-gray-600 dark:text-gray-300 hover:text-blue-600">
-                            <Upload className="h-8 w-8 mb-2" />
-                            <span className="text-sm">{image ? `✓ ${image.name}` : 'Click to upload'}</span>
-                          </label>
-                        </div>
-                      </div>
-
-                      <button
-                        type="submit"
-                        disabled={isSubmitting}
-                        className="w-full bg-gray-800 dark:bg-gray-700 hover:bg-gray-900 dark:hover:bg-gray-600 text-white py-3 px-4 rounded-lg transition-all flex items-center justify-center font-medium"
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                      Upload Image (Optional)
+                    </label>
+                    <div className="border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg p-4 bg-gray-50 dark:bg-gray-700/50 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+                      <input
+                        type="file"
+                        accept="image/*"
+                        onChange={handleImageUpload}
+                        className="hidden"
+                        id="image-upload"
+                      />
+                      <label
+                        htmlFor="image-upload"
+                        className="cursor-pointer flex flex-col items-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                       >
-                        {isSubmitting ? 'Sending...' : <><Send className="h-4 w-4 mr-2" />Send to Mentor</>}
-                      </button>
-                    </form>
-                  )}
-                </>
+                        <Upload className="h-8 w-8 mb-2" />
+                        <span className="text-sm text-center">
+                          {image ? (
+                            <span className="text-green-600 dark:text-green-400 font-medium">✓ {image.name}</span>
+                          ) : (
+                            'Click to upload (Max 5MB)'
+                          )}
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+
+                  <button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-4 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 flex items-center justify-center font-medium disabled:opacity-50 disabled:cursor-not-allowed shadow-lg"
+                  >
+                    {isSubmitting ? (
+                      <>
+                        <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>
+                        Sending...
+                      </>
+                    ) : (
+                      <>
+                        <Send className="h-4 w-4 mr-2" />
+                        Submit Doubt
+                      </>
+                    )}
+                  </button>
+                </form>
               )}
+            </div>
+
+            {/* Footer Tip */}
+            <div className="bg-gray-50 dark:bg-gray-900 px-6 py-4 text-center border-t border-gray-200 dark:border-gray-700 shrink-0">
+              <p className="text-xs text-gray-600 dark:text-gray-400">
+                💡 Tip: Be specific with your question for a better answer!
+              </p>
             </div>
           </div>
         </div>
@@ -336,135 +323,5 @@ const AskDoubt: React.FC = () => {
     </>
   );
 };
-//                  <form onSubmit={handleSubmit} className="space-y-4">
-//                   {error && (
-//                      <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4 flex items-start">
-//                        <AlertCircle className="h-5 w-5 text-red-500 mr-3 flex-shrink-0 mt-0.5" />
-//                        <span className="text-red-700 dark:text-red-400 text-sm">{error}</span>
-//                      </div>
-//                    )}
-
-//                   <div>
-//                     <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-//                       Your Name (Optional)
-//                     </label>
-//                     <input
-//                       type="text"
-//                       value={userName}
-//                       onChange={(e) => setUserName(e.target.value)}
-//                       className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 dark:text-white placeholder-gray-400"
-//                       placeholder="Enter your name"
-//                     />
-//                   </div>
-
-//                   <div>
-//                     <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-//                       Your Email*
-//                     </label>
-//                     <input
-//                       type="email"
-//                       value={userEmail}
-//                       onChange={(e) => setUserEmail(e.target.value)}
-//                       required
-//                       className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 dark:text-white placeholder-gray-400"
-//                       placeholder="your.email@example.com"
-//                     />
-//                      <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-//                       Provide your email to receive a direct response.
-//                     </p>
-//                   </div>
-
-//                   <div>
-//                     <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-//                       Subject *
-//                     </label>
-//                     <select
-//                       value={subject}
-//                       onChange={(e) => setSubject(e.target.value)}
-//                       required
-//                       className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 dark:text-white"
-//                     >
-//                       <option value="" className="text-gray-500">Select a subject</option>
-//                       {subjects.map(sub => (
-//                         <option key={sub} value={sub}>{sub}</option>
-//                       ))}
-//                     </select>
-//                   </div>
-
-//                   <div>
-//                     <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-//                       Your Question *
-//                     </label>
-//                     <textarea
-//                       value={doubt}
-//                       onChange={(e) => setDoubt(e.target.value)}
-//                       required
-//                       rows={4}
-//                       className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-vertical text-gray-900 dark:text-white placeholder-gray-400"
-//                       placeholder="Describe your doubt in detail..."
-//                     />
-//                   </div>
-
-//                   <div>
-//                     <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-//                       Upload Image (Optional)
-//                     </label>
-//                     <div className="border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg p-4 bg-gray-50 dark:bg-gray-700/50 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
-//                       <input
-//                         type="file"
-//                         accept="image/*"
-//                         onChange={handleImageUpload}
-//                         className="hidden"
-//                         id="image-upload"
-//                       />
-//                       <label
-//                         htmlFor="image-upload"
-//                         className="cursor-pointer flex flex-col items-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-//                       >
-//                         <Upload className="h-8 w-8 mb-2" />
-//                         <span className="text-sm text-center">
-//                           {image ? (
-//                             <span className="text-green-600 dark:text-green-400 font-medium">✓ {image.name}</span>
-//                           ) : (
-//                             'Click to upload (Max 5MB)'
-//                           )}
-//                         </span>
-//                       </label>
-//                     </div>
-//                   </div>
-
-//                   <button
-//                     type="submit"
-//                     disabled={isSubmitting}
-//                     className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-4 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 flex items-center justify-center font-medium disabled:opacity-50 disabled:cursor-not-allowed shadow-lg"
-//                   >
-//                     {isSubmitting ? (
-//                       <>
-//                         <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>
-//                         Sending...
-//                       </>
-//                     ) : (
-//                       <>
-//                         <Send className="h-4 w-4 mr-2" />
-//                         Submit Doubt
-//                       </>
-//                     )}
-//                   </button>
-//                 </form>
-//               )}
-//             </div>
-
-//             {/* Footer Tip */}
-//             <div className="bg-gray-50 dark:bg-gray-900 px-6 py-4 text-center border-t border-gray-200 dark:border-gray-700 shrink-0">
-//               <p className="text-xs text-gray-600 dark:text-gray-400">
-//                 💡 Tip: Be specific with your question for a better answer!
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-//       )}
-//     </>
-//   );
-// };
 
 export default AskDoubt;
