@@ -4,7 +4,7 @@ import { Mail, MapPin, Send, Linkedin, Github, CheckCircle, AlertCircle, Lock, L
 // --- Supabase Credentials ---
 // IMPORTANT: Replace these placeholder values with your real Supabase URL and Anon Key.
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL; // <-- REPLACE WITH YOUR SUPABASE URL
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY; // <-- REPLACE WITH YOUR SUPABASE ANON KEY
+const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpjYnFjZGpnbGNzcGxsaHFpeWdkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTYxMjMwODIsImV4cCI6MjA3MTY5OTA4Mn0.i7iJU9hSlX0JE97lXvPUL-ZfGUQd0vNmvSATjcaR8yA'; // <-- REPLACE WITH YOUR SUPABASE ANON KEY
 
 // --- Developer Auth Context ---
 const DeveloperAuthContext = createContext({
@@ -125,7 +125,7 @@ const Contact = () => {
         return;
     }
 
-    if (supabaseUrl === import.meta.env.VITE_SUPABASE_URL || supabaseAnonKey === import.meta.env.VITE_SUPABASE_ANON_KEY) {
+    if (supabaseUrl === 'YOUR_SUPABASE_URL' || supabaseAnonKey === 'YOUR_SUPABASE_ANON_KEY') {
         console.error('Supabase credentials are not configured. Please contact the site administrator.');
         return;
     }
@@ -159,10 +159,10 @@ const Contact = () => {
       // Step 2: Attempt to call the Edge Function (Secondary action)
       // Its failure will be logged but won't show an error to the user.
       try {
-        const response = await fetch(`${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-doubt-email`, {
+        const response = await fetch(`${supabaseUrl}/functions/v1/send-doubt-email`, {
             method: 'POST',
             headers: {
-            'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
+            'Authorization': `Bearer ${supabaseAnonKey}`,
             'Content-Type': 'application/json',
             },
             body: JSON.stringify({
