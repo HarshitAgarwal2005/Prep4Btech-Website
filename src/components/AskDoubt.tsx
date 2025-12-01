@@ -274,21 +274,13 @@ const AskDoubt: React.FC = () => {
                       )}
                     </div>
                   ) : (
-                    // === EMAIL FALLBACK MODE (Your Existing Form) ===
-                    <form onSubmit={handleSubmit} className="space-y-4 animate-fade-in">
-                      <div className="flex items-center mb-2 text-sm text-gray-500 dark:text-gray-400">
-                        <button type="button" onClick={() => setMode('AI')} className="flex items-center hover:text-blue-600 dark:hover:text-blue-400">
-                          <ArrowLeft className="h-4 w-4 mr-1" /> Back to AI
-                        </button>
-                      </div>
-                      
-                {/*  <form onSubmit={handleSubmit} className="space-y-4">
+                 <form onSubmit={handleSubmit} className="space-y-4">
                   {error && (
                      <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4 flex items-start">
                        <AlertCircle className="h-5 w-5 text-red-500 mr-3 flex-shrink-0 mt-0.5" />
                        <span className="text-red-700 dark:text-red-400 text-sm">{error}</span>
                      </div>
-                   )} */}
+                   )}
 
                   <div>
                     <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
@@ -407,6 +399,7 @@ const AskDoubt: React.FC = () => {
               </p>
             </div>
           </div>
+        </div>
         </div>
       )}
     </>
