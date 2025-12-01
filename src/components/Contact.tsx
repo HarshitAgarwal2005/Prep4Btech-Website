@@ -3,7 +3,7 @@ import { Mail, MapPin, Send, Linkedin, Github, CheckCircle, AlertCircle, Lock, L
 
 // --- Supabase Credentials ---
 // IMPORTANT: Replace these placeholder values with your real Supabase URL and Anon Key.
-const supabaseUrl = 'https://zcbqcdjglcspllhqiygd.supabase.co'; // <-- REPLACE WITH YOUR SUPABASE URL
+const supabaseUrl = 'VITE_SUPABASE_URL'; // <-- REPLACE WITH YOUR SUPABASE URL
 const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpjYnFjZGpnbGNzcGxsaHFpeWdkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTYxMjMwODIsImV4cCI6MjA3MTY5OTA4Mn0.i7iJU9hSlX0JE97lXvPUL-ZfGUQd0vNmvSATjcaR8yA'; // <-- REPLACE WITH YOUR SUPABASE ANON KEY
 
 // --- Developer Auth Context ---
