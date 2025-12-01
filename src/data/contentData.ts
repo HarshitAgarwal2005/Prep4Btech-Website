@@ -6386,3 +6386,46 @@ export const branches = [
     color: 'from-purple-500 to-indigo-500'
   }
 ];
+
+export const branches = [
+  {
+    id: 'cse',
+    name: 'Computer Science Engineering',
+    code: 'CSE/AI/AIDS/IT',
+    description: 'Software development and computer systems',
+    icon: '💻',
+    color: 'from-blue-500 to-cyan-500'
+  },
+  {
+    id: 'ece',
+    name: 'Electronics & Communication Engineering',
+    code: 'ECE',
+    description: 'Electronics and communication systems',
+    icon: '📡',
+    color: 'from-green-500 to-emerald-500'
+  },
+  {
+    id: 'ee',
+    name: 'Electrical Engineering',
+    code: 'EE',
+    description: 'Electrical systems and power engineering',
+    icon: '⚡',
+    color: 'from-yellow-500 to-orange-500'
+  },
+  {
+    id: 'mech',
+    name: 'Mechanical Engineering',
+    code: 'MECH',
+    description: 'Mechanical systems and manufacturing',
+    icon: '⚙️',
+    color: 'from-red-500 to-pink-500'
+  },
+  {
+    id: 'civil',
+    name: 'Civil Engineering',
+    code: 'CIVIL',
+    description: 'Infrastructure and construction engineering',
+    icon: '🏗️',
+    color: 'from-purple-500 to-indigo-500'
+  }
+];
