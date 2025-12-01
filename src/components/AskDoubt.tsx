@@ -158,6 +158,7 @@ const AskDoubt: React.FC = () => {
       {isOpen && (
         <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 p-4 transition-opacity duration-300">
           {/* Main Modal Container - Added dark mode background */}
+          
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl w-full max-w-md max-h-[90vh] overflow-hidden flex flex-col border border-gray-200 dark:border-gray-700">
             
             {/* Header */}
@@ -179,6 +180,53 @@ const AskDoubt: React.FC = () => {
               </div>
             </div>
 
+{/* Inside your modal div */}
+
+{mode === 'AI' ? (
+  <div className="space-y-4">
+    {/* Subject & Question Inputs (Shared) */}
+    <select value={subject} onChange={(e) => setSubject(e.target.value)} ... />
+    <textarea value={doubt} onChange={(e) => setDoubt(e.target.value)} ... />
+
+    {/* AI Answer Display */}
+    {aiAnswer && (
+      <div className="bg-blue-50 p-4 rounded-lg">
+        <h4 className="font-bold text-blue-800">AI Suggestion:</h4>
+        <p className="text-sm text-gray-700 mt-2">{aiAnswer}</p>
+
+        <div className="mt-4 flex gap-2">
+          <button 
+            onClick={() => { setIsOpen(false); resetForm(); }}
+            className="bg-green-600 text-white px-3 py-1 rounded text-sm"
+          >
+            Helpful, Thanks!
+          </button>
+          <button 
+            onClick={() => setMode('EMAIL')}
+            className="bg-gray-600 text-white px-3 py-1 rounded text-sm"
+          >
+            Not satisfied? Ask Mentor
+          </button>
+        </div>
+      </div>
+    )}
+
+    {/* Get Answer Button */}
+    {!aiAnswer && (
+      <button onClick={handleAskAI} disabled={isLoadingAI} ... >
+        {isLoadingAI ? 'Thinking...' : 'Get Instant Answer'}
+      </button>
+    )}
+  </div>
+) : (
+  /* YOUR EXISTING FORM GOES HERE */
+  /* Make sure to pre-fill the 'doubt' and 'subject' from the AI step so the user doesn't have to type it again */
+  <form onSubmit={handleSubmit}>
+     {/* ... existing file upload and submit logic ... */}
+     <button type="button" onClick={() => setMode('AI')}>Back to AI</button>
+  </form>
+)}
+            
             <div className="p-6 overflow-y-auto">
               {isSubmitted ? (
                 <div className="text-center py-8">
