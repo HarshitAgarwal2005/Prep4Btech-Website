@@ -97,10 +97,11 @@ const goBack = () => {
     const items = [];
     if (selectedYear) items.push(`Year ${selectedYear}`); 
     if (selectedSemester) items.push(`Sem ${selectedSemester}`);
-    if (selectedBranch) {
-      const branch = branches.find(b => b.code === selectedBranch);
-      if (branch) items.push(branch.code);
-    }
+    if (selectedBranch) items.push(selectedBranch);
+    // if (selectedBranch) {
+    //   const branch = branches.find(b => b.code === selectedBranch);
+    //   if (branch) items.push(branch.code);
+    // }
     if (selectedSubject) items.push(selectedSubject.name);
     return items.join(' > ');
   };
