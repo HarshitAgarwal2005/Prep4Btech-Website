@@ -276,7 +276,400 @@
 
 // export default About;
 
-import React from 'react';
+// import React from 'react';
+// import {
+//   User,
+//   GraduationCap,
+//   MapPin,
+//   Code,
+//   Award,
+//   Github,
+//   Linkedin,
+//   Instagram,
+//   Mail,
+//   Calendar,
+//   Star,
+//   Zap,
+//   Heart,
+//   BookOpen,
+//   Trophy,
+//   Target,
+//   Lightbulb,
+//   Sparkles,
+//   Users
+// } from 'lucide-react';
+
+// // --- Types ---
+// interface Social {
+//   name: string;
+//   icon: React.ElementType;
+//   url: string;
+//   color: string;
+// }
+
+// interface Developer {
+//   name: string;
+//   title: string;
+//   imageUrl: string;
+//   socials: Social[];
+//   stats: { value: string; label: string; color: string }[];
+//   personalInfo: {
+//     branch: string;
+//     college: string;
+//     location: string;
+//     year: string;
+//   };
+// }
+
+// interface Contributor {
+//   id: number;
+//   name: string;
+//   role: string;
+//   imageUrl: string;
+//   githubUrl?: string;
+//   linkedinUrl?: string;
+// }
+
+// // --- Data ---
+// const developers: Developer[] = [
+//   {
+//     name: 'Harshit Agarwal',
+//     title: 'Lead Developer & Founder',
+//     imageUrl: 'harshit1.png', 
+//     socials: [
+//       { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/harshitagarwal2005', color: 'hover:text-blue-600' },
+//       { name: 'GitHub', icon: Github, url: 'https://github.com/HarshitAgarwal2005', color: 'hover:text-gray-900 dark:hover:text-white' },
+//       { name: 'Instagram', icon: Instagram, url: 'https://www.instagram.com/harshitagarwal2005', color: 'hover:text-pink-600' },
+//       { name: 'Email', icon: Mail, url: 'mailto:harshitagarwal25807@gmail.com', color: 'hover:text-green-600' }
+//     ],
+//     stats: [
+//       { value: '3+', label: 'Years Exp', color: 'blue' },
+//       { value: '15+', label: 'Projects', color: 'purple' }
+//     ],
+//     personalInfo: {
+//       branch: 'Computer Science',
+//       college: 'JECRC Foundation',
+//       location: 'Jaipur, India',
+//       year: 'B.Tech Student'
+//     }
+//   },
+//   {
+//     name: 'Hariom Shivnani',
+//     title: 'Lead Developer & Co-Founder',
+//     imageUrl: 'hariom.jpg', 
+//     socials: [
+//       { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/hariom-shivnani', color: 'hover:text-blue-600' },
+//       { name: 'GitHub', icon: Github, url: 'https://github.com/hariom1610', color: 'hover:text-gray-900 dark:hover:text-white' },
+//       { name: 'Instagram', icon: Instagram, url: 'https://www.instagram.com/hariomshivnani', color: 'hover:text-pink-600' },
+//       { name: 'Email', icon: Mail, url: 'mailto:hariom.shivnani23@gmail.com', color: 'hover:text-green-600' }
+//     ],
+//     stats: [
+//       { value: '3+', label: 'Years Exp', color: 'blue' },
+//       { value: '10+', label: 'Projects', color: 'purple' }
+//     ],
+//     personalInfo: {
+//       branch: 'Computer Science',
+//       college: 'JECRC Foundation',
+//       location: 'Jaipur, India',
+//       year: 'B.Tech Student'
+//     }
+//   }
+// ];
+
+// // Placeholder data for contributors - Add real data here
+// const contributors: Contributor[] = [
+//   {
+//     id: 1,
+//     name: "Alex Doe",
+//     role: "Content Writer",
+//     imageUrl: "https://placehold.co/150x150/e2e8f0/64748b?text=AD",
+//     githubUrl: "#",
+//     linkedinUrl: "#"
+//   },
+//   {
+//     id: 2,
+//     name: "Sam Smith",
+//     role: "UI Designer",
+//     imageUrl: "https://placehold.co/150x150/e2e8f0/64748b?text=SS",
+//     githubUrl: "#",
+//     linkedinUrl: "#"
+//   },
+//   {
+//     id: 3,
+//     name: "Jordan Lee",
+//     role: "Note Maintainer",
+//     imageUrl: "https://placehold.co/150x150/e2e8f0/64748b?text=JL",
+//     githubUrl: "#",
+//     linkedinUrl: "#"
+//   },
+//   {
+//     id: 4,
+//     name: "Casey West",
+//     role: "Testing",
+//     imageUrl: "https://placehold.co/150x150/e2e8f0/64748b?text=CW",
+//     githubUrl: "#"
+//   }
+// ];
+
+// // const skills = [
+// //   { name: 'React.js', level: 90, color: 'from-blue-500 to-cyan-500' },
+// //   { name: 'TypeScript', level: 85, color: 'from-blue-600 to-indigo-600' },
+// //   { name: 'Node.js', level: 75, color: 'from-green-500 to-emerald-500' },
+// //   { name: 'Python', level: 96, color: 'from-yellow-500 to-orange-500' },
+// // ];
+// const skills = [
+//     { name: 'React.js', level: 90, color: 'from-blue-500 to-cyan-500' },
+//     { name: 'TypeScript', level: 85, color: 'from-blue-600 to-indigo-600' },
+//     { name: 'Node.js', level: 75, color: 'from-green-500 to-emerald-500' },
+//     { name: 'Python', level: 96, color: 'from-yellow-500 to-orange-500' },
+//     { name: 'Java', level: 82, color: 'from-red-500 to-pink-500' },
+//     { name: 'Database Design', level: 84, color: 'from-purple-500 to-violet-500' },
+//     { name: 'UI/UX Design', level: 84, color: 'from-pink-500 to-rose-500' },
+//     { name: 'Machine Learning', level: 76, color: 'from-indigo-500 to-purple-500' },
+//   ];
+// const achievements = [
+//   { title: 'Prep4Btech Platform', description: 'Serving 1000+ students', icon: BookOpen, color: 'from-blue-500 to-cyan-500' },
+//   { title: 'Open Source', description: 'Active GitHub contributors', icon: Github, color: 'from-gray-700 to-gray-900' },
+//   { title: 'Academic Excellence', description: 'Top performers in batch', icon: GraduationCap, color: 'from-green-500 to-emerald-500' },
+//   { title: 'Community', description: 'Mentoring juniors', icon: Heart, color: 'from-red-500 to-pink-500' }
+// ];
+
+// const About: React.FC = () => {
+//   return (
+//     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300 relative overflow-x-hidden">
+//       {/* --- Background 3D Elements --- */}
+//       <div className="absolute inset-0 overflow-hidden pointer-events-none">
+//         <div className="absolute top-20 left-10 w-72 h-72 bg-purple-500/20 rounded-full blur-3xl animate-pulse"></div>
+//         <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl animate-pulse delay-700"></div>
+//         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-pink-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+//       </div>
+
+//       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative z-10">
+        
+//         {/* --- Header Section --- */}
+//         <div className="text-center mb-20 space-y-4">
+//           <div className="inline-block p-2 px-4 rounded-full bg-violet-100 dark:bg-violet-900/30 text-violet-600 dark:text-violet-300 text-sm font-semibold mb-2 animate-bounce">
+//             🚀 Meet the Team
+//           </div>
+//           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white bg-clip-text text-transparent bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600">
+//             Building the Future of Learning
+//           </h1>
+//           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+//             We are a group of passionate developers and students working to make education accessible, organized, and engaging for everyone.
+//           </p>
+//         </div>
+
+//         {/* --- Core Team Section (3D Cards) --- */}
+//         <div className="mb-24">
+//           <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12 flex items-center justify-center">
+//             <Zap className="w-8 h-8 text-yellow-500 mr-3" />
+//             Core Team
+//           </h2>
+          
+//           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+//             {developers.map((dev) => (
+//               <div key={dev.name} className="group relative">
+//                 {/* Card Background Glow */}
+//                 <div className="absolute -inset-1 bg-gradient-to-r from-violet-600 to-pink-600 rounded-3xl blur opacity-25 group-hover:opacity-75 transition duration-500"></div>
+                
+//                 {/* Card Content */}
+//                 <div className="relative bg-white dark:bg-gray-800 rounded-3xl p-8 shadow-xl transition-transform duration-500 transform group-hover:-translate-y-2 group-hover:scale-[1.01] border border-gray-100 dark:border-gray-700">
+//                   <div className="flex flex-col md:flex-row items-center gap-8">
+                    
+//                     {/* Avatar Section */}
+//                     <div className="relative">
+//                       <div className="w-40 h-40 rounded-full p-1 bg-gradient-to-r from-violet-500 to-pink-500">
+//                         <img 
+//                           src={dev.imageUrl} 
+//                           alt={dev.name} 
+//                           className="w-full h-full object-cover rounded-full border-4 border-white dark:border-gray-800"
+//                         />
+//                       </div>
+//                       <div className="absolute bottom-2 right-2 bg-green-500 w-8 h-8 rounded-full border-4 border-white dark:border-gray-800 flex items-center justify-center">
+//                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+//                         <div className="w-2 h-2 bg-white rounded-full"></div>
+//                       </div>
+//                     </div>
+
+//                     {/* Info Section */}
+//                     <div className="flex-1 text-center md:text-left">
+//                       <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">{dev.name}</h3>
+//                       <p className="text-violet-600 dark:text-violet-400 font-medium mb-4">{dev.title}</p>
+                      
+//                       {/* Socials */}
+//                       <div className="flex justify-center md:justify-start space-x-3 mb-6">
+//                         {dev.socials.map((social) => (
+//                           <a 
+//                             key={social.name} 
+//                             href={social.url} 
+//                             target="_blank" 
+//                             rel="noopener noreferrer"
+//                             className={`p-2 rounded-lg bg-gray-100 dark:bg-gray-700/50 text-gray-600 dark:text-gray-400 transition-all duration-300 hover:bg-white dark:hover:bg-gray-600 hover:shadow-md ${social.color}`}
+//                           >
+//                             <social.icon className="w-5 h-5" />
+//                           </a>
+//                         ))}
+//                       </div>
+
+//                       {/* Stats Grid */}
+//                       <div className="grid grid-cols-2 gap-4">
+//                         {dev.stats.map(stat => (
+//                           <div key={stat.label} className="bg-gray-50 dark:bg-gray-700/30 rounded-xl p-3 text-center md:text-left">
+//                             <div className="text-xl font-bold text-gray-900 dark:text-white">{stat.value}</div>
+//                             <div className="text-xs text-gray-500 dark:text-gray-400">{stat.label}</div>
+//                           </div>
+//                         ))}
+//                       </div>
+//                     </div>
+//                   </div>
+
+//                   {/* Personal Info Grid */}
+//                   <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6 border-t border-gray-100 dark:border-gray-700">
+//                     <div className="flex items-center text-sm text-gray-600 dark:text-gray-300">
+//                       <GraduationCap className="w-4 h-4 mr-2 text-violet-500" />
+//                       {dev.personalInfo.branch}
+//                     </div>
+//                     <div className="flex items-center text-sm text-gray-600 dark:text-gray-300">
+//                       <MapPin className="w-4 h-4 mr-2 text-pink-500" />
+//                       {dev.personalInfo.location}
+//                     </div>
+//                   </div>
+//                 </div>
+//               </div>
+//             ))}
+//           </div>
+//         </div>
+
+//         {/* --- Contributors Section (Compact & Stylish) --- */}
+//         <div className="mb-24">
+//           <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-4 flex items-center justify-center">
+//             <Users className="w-8 h-8 text-blue-500 mr-3" />
+//             Our Contributors
+//           </h2>
+//           <p className="text-center text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto">
+//             The amazing people who have contributed code, resources, or time to make this platform better.
+//           </p>
+
+//           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+//             {contributors.map((contributor) => (
+//               <div 
+//                 key={contributor.id} 
+//                 className="bg-white/50 dark:bg-gray-800/50 backdrop-blur-md rounded-2xl p-6 border border-gray-200 dark:border-gray-700 hover:border-violet-300 dark:hover:border-violet-700 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg flex flex-col items-center text-center group"
+//               >
+//                 <div className="relative mb-4">
+//                   <img 
+//                     src={contributor.imageUrl} 
+//                     alt={contributor.name}
+//                     className="w-20 h-20 rounded-full object-cover border-2 border-gray-200 dark:border-gray-600 group-hover:border-violet-500 transition-colors"
+//                   />
+//                   <div className="absolute bottom-0 right-0 bg-white dark:bg-gray-900 rounded-full p-1 border border-gray-200 dark:border-gray-700">
+//                     <Sparkles className="w-3 h-3 text-yellow-500" />
+//                   </div>
+//                 </div>
+                
+//                 <h3 className="font-bold text-gray-900 dark:text-white mb-1">{contributor.name}</h3>
+//                 <span className="inline-block px-3 py-1 rounded-full bg-violet-100 dark:bg-violet-900/30 text-violet-700 dark:text-violet-300 text-xs font-medium mb-4">
+//                   {contributor.role}
+//                 </span>
+
+//                 <div className="flex space-x-3 mt-auto">
+//                   {contributor.githubUrl && (
+//                     <a href={contributor.githubUrl} className="text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">
+//                       <Github className="w-4 h-4" />
+//                     </a>
+//                   )}
+//                   {contributor.linkedinUrl && (
+//                     <a href={contributor.linkedinUrl} className="text-gray-400 hover:text-blue-600 transition-colors">
+//                       <Linkedin className="w-4 h-4" />
+//                     </a>
+//                   )}
+//                 </div>
+//               </div>
+//             ))}
+            
+//             {/* "You?" Placeholder Card */}
+//             <a href="mailto:prep4btech@gmail.com" className="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-800/50 rounded-2xl p-6 border-2 border-dashed border-gray-300 dark:border-gray-600 hover:border-violet-500 dark:hover:border-violet-500 transition-all duration-300 flex flex-col items-center justify-center text-center group cursor-pointer h-full min-h-[200px]">
+//               <div className="w-16 h-16 rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center mb-4 group-hover:bg-violet-100 dark:group-hover:bg-violet-900/30 transition-colors">
+//                 <Heart className="w-8 h-8 text-gray-400 dark:text-gray-500 group-hover:text-violet-500 transition-colors" />
+//               </div>
+//               <h3 className="font-bold text-gray-600 dark:text-gray-300 group-hover:text-violet-600 dark:group-hover:text-violet-400">Become a Contributor</h3>
+//               <p className="text-xs text-gray-500 dark:text-gray-400 mt-2">Join us in building the future!</p>
+//             </a>
+//           </div>
+//         </div>
+
+//         {/* --- Skills & Achievements (Compact Version) --- */}
+//         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+//           {/* Skills */}
+//           <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl p-8 border border-white/20 dark:border-gray-700/20 shadow-lg">
+//             <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-6 flex items-center">
+//               <Code className="w-6 h-6 text-blue-500 mr-2" />
+//               Tech Stack
+//             </h3>
+//             <div className="space-y-4">
+//               {skills.map((skill) => (
+//                 <div key={skill.name}>
+//                   <div className="flex justify-between mb-1">
+//                     <span className="text-sm font-medium text-gray-700 dark:text-gray-300">{skill.name}</span>
+//                     <span className="text-sm text-gray-500">{skill.level}%</span>
+//                   </div>
+//                   <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+//                     <div className={`bg-gradient-to-r ${skill.color} h-2 rounded-full`} style={{ width: `${skill.level}%` }}></div>
+//                   </div>
+//                 </div>
+//               ))}
+//             </div>
+//           </div>
+
+//           {/* Achievements */}
+//           <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl p-8 border border-white/20 dark:border-gray-700/20 shadow-lg">
+//             <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-6 flex items-center">
+//               <Trophy className="w-6 h-6 text-yellow-500 mr-2" />
+//               Milestones
+//             </h3>
+//             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+//               {achievements.map((item) => (
+//                 <div key={item.title} className="p-4 rounded-xl bg-gray-50 dark:bg-gray-700/30 border border-gray-100 dark:border-gray-700">
+//                   <div className={`w-10 h-10 rounded-lg bg-gradient-to-r ${item.color} flex items-center justify-center text-white mb-3`}>
+//                     <item.icon className="w-5 h-5" />
+//                   </div>
+//                   <h4 className="font-semibold text-gray-900 dark:text-white text-sm">{item.title}</h4>
+//                   <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{item.description}</p>
+//                 </div>
+//               ))}
+//             </div>
+//           </div>
+//         </div>
+
+//         {/* --- Mission Section --- */}
+//         <section className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 p-8 md:p-12 text-center text-white shadow-2xl">
+//           <div className="relative z-10">
+//             <h2 className="text-2xl md:text-3xl font-bold mb-4 flex items-center justify-center">
+//               <Target className="w-8 h-8 mr-3" /> Our Mission
+//             </h2>
+//             <p className="text-lg text-violet-100 max-w-3xl mx-auto leading-relaxed">
+//               "To democratize education by creating accessible, comprehensive, and well-organized academic resources that empower every B.Tech student to excel. We believe in the power of technology to bridge educational gaps."
+//             </p>
+//             <div className="mt-8 flex justify-center gap-4">
+//               <a href="mailto:prep4btech@gmail.com" className="px-6 py-3 bg-white text-violet-600 rounded-xl font-semibold hover:bg-gray-100 transition-colors shadow-lg flex items-center">
+//                 <Lightbulb className="w-5 h-5 mr-2" />
+//                 Collaborate with Us
+//               </a>
+//             </div>
+//           </div>
+//           {/* Decorative Circles */}
+//           <div className="absolute top-0 left-0 w-32 h-32 bg-white/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+//           <div className="absolute bottom-0 right-0 w-48 h-48 bg-white/10 rounded-full translate-x-1/3 translate-y-1/3"></div>
+//         </section>
+
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default About;
+
+import React, { useState } from 'react';
 import {
   User,
   GraduationCap,
@@ -288,7 +681,6 @@ import {
   Instagram,
   Mail,
   Calendar,
-  Star,
   Zap,
   Heart,
   BookOpen,
@@ -296,7 +688,9 @@ import {
   Target,
   Lightbulb,
   Sparkles,
-  Users
+  Users,
+  Code2,
+  Cpu
 } from 'lucide-react';
 
 // --- Types ---
@@ -376,7 +770,7 @@ const developers: Developer[] = [
   }
 ];
 
-// Placeholder data for contributors - Add real data here
+// Placeholder data for contributors
 const contributors: Contributor[] = [
   {
     id: 1,
@@ -411,22 +805,13 @@ const contributors: Contributor[] = [
   }
 ];
 
-// const skills = [
-//   { name: 'React.js', level: 90, color: 'from-blue-500 to-cyan-500' },
-//   { name: 'TypeScript', level: 85, color: 'from-blue-600 to-indigo-600' },
-//   { name: 'Node.js', level: 75, color: 'from-green-500 to-emerald-500' },
-//   { name: 'Python', level: 96, color: 'from-yellow-500 to-orange-500' },
-// ];
 const skills = [
-    { name: 'React.js', level: 90, color: 'from-blue-500 to-cyan-500' },
-    { name: 'TypeScript', level: 85, color: 'from-blue-600 to-indigo-600' },
-    { name: 'Node.js', level: 75, color: 'from-green-500 to-emerald-500' },
-    { name: 'Python', level: 96, color: 'from-yellow-500 to-orange-500' },
-    { name: 'Java', level: 82, color: 'from-red-500 to-pink-500' },
-    { name: 'Database Design', level: 84, color: 'from-purple-500 to-violet-500' },
-    { name: 'UI/UX Design', level: 84, color: 'from-pink-500 to-rose-500' },
-    { name: 'Machine Learning', level: 76, color: 'from-indigo-500 to-purple-500' },
-  ];
+  { name: 'React.js', level: 90, color: 'from-blue-500 to-cyan-500' },
+  { name: 'TypeScript', level: 85, color: 'from-blue-600 to-indigo-600' },
+  { name: 'Node.js', level: 75, color: 'from-green-500 to-emerald-500' },
+  { name: 'Python', level: 96, color: 'from-yellow-500 to-orange-500' },
+];
+
 const achievements = [
   { title: 'Prep4Btech Platform', description: 'Serving 1000+ students', icon: BookOpen, color: 'from-blue-500 to-cyan-500' },
   { title: 'Open Source', description: 'Active GitHub contributors', icon: Github, color: 'from-gray-700 to-gray-900' },
@@ -435,6 +820,8 @@ const achievements = [
 ];
 
 const About: React.FC = () => {
+  const [activeTab, setActiveTab] = useState<'developers' | 'contributors'>('developers');
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300 relative overflow-x-hidden">
       {/* --- Background 3D Elements --- */}
@@ -447,7 +834,7 @@ const About: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative z-10">
         
         {/* --- Header Section --- */}
-        <div className="text-center mb-20 space-y-4">
+        <div className="text-center mb-12 space-y-4">
           <div className="inline-block p-2 px-4 rounded-full bg-violet-100 dark:bg-violet-900/30 text-violet-600 dark:text-violet-300 text-sm font-semibold mb-2 animate-bounce">
             🚀 Meet the Team
           </div>
@@ -459,210 +846,281 @@ const About: React.FC = () => {
           </p>
         </div>
 
-        {/* --- Core Team Section (3D Cards) --- */}
-        <div className="mb-24">
-          <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12 flex items-center justify-center">
-            <Zap className="w-8 h-8 text-yellow-500 mr-3" />
-            Core Team
-          </h2>
+        {/* --- 3D Glass Toggle Switch (The "Dialog Box") --- */}
+        <div className="flex justify-center mb-16">
+          <div className="relative bg-white/30 dark:bg-gray-800/30 backdrop-blur-xl p-1.5 rounded-2xl border border-white/20 dark:border-gray-700/50 shadow-2xl flex space-x-2">
+            <button
+              onClick={() => setActiveTab('developers')}
+              className={`relative px-8 py-3 rounded-xl font-bold text-sm sm:text-base transition-all duration-500 ease-out flex items-center space-x-2 z-10 ${
+                activeTab === 'developers' 
+                  ? 'text-white shadow-lg' 
+                  : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'
+              }`}
+            >
+              <Cpu className={`w-4 h-4 ${activeTab === 'developers' ? 'animate-pulse' : ''}`} />
+              <span>Developers</span>
+              {activeTab === 'developers' && (
+                <div className="absolute inset-0 bg-gradient-to-r from-violet-600 to-purple-600 rounded-xl -z-10 animate-fade-in"></div>
+              )}
+            </button>
+
+            <button
+              onClick={() => setActiveTab('contributors')}
+              className={`relative px-8 py-3 rounded-xl font-bold text-sm sm:text-base transition-all duration-500 ease-out flex items-center space-x-2 z-10 ${
+                activeTab === 'contributors' 
+                  ? 'text-white shadow-lg' 
+                  : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'
+              }`}
+            >
+              <Users className={`w-4 h-4 ${activeTab === 'contributors' ? 'animate-pulse' : ''}`} />
+              <span>Contributors</span>
+              {activeTab === 'contributors' && (
+                <div className="absolute inset-0 bg-gradient-to-r from-pink-500 to-rose-500 rounded-xl -z-10 animate-fade-in"></div>
+              )}
+            </button>
+          </div>
+        </div>
+
+        {/* --- Content Area --- */}
+        <div className="transition-all duration-500 ease-in-out">
           
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {developers.map((dev) => (
-              <div key={dev.name} className="group relative">
-                {/* Card Background Glow */}
-                <div className="absolute -inset-1 bg-gradient-to-r from-violet-600 to-pink-600 rounded-3xl blur opacity-25 group-hover:opacity-75 transition duration-500"></div>
-                
-                {/* Card Content */}
-                <div className="relative bg-white dark:bg-gray-800 rounded-3xl p-8 shadow-xl transition-transform duration-500 transform group-hover:-translate-y-2 group-hover:scale-[1.01] border border-gray-100 dark:border-gray-700">
-                  <div className="flex flex-col md:flex-row items-center gap-8">
+          {/* === DEVELOPERS VIEW === */}
+          {activeTab === 'developers' && (
+            <div className="animate-slide-up space-y-20">
+              
+              {/* Core Team Cards */}
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                {developers.map((dev) => (
+                  <div key={dev.name} className="group relative perspective-1000">
+                    {/* Card Background Glow */}
+                    <div className="absolute -inset-1 bg-gradient-to-r from-violet-600 to-pink-600 rounded-3xl blur opacity-25 group-hover:opacity-75 transition duration-500"></div>
                     
-                    {/* Avatar Section */}
-                    <div className="relative">
-                      <div className="w-40 h-40 rounded-full p-1 bg-gradient-to-r from-violet-500 to-pink-500">
+                    {/* Card Content */}
+                    <div className="relative bg-white dark:bg-gray-800 rounded-3xl p-8 shadow-xl transition-all duration-500 transform group-hover:-translate-y-2 group-hover:scale-[1.01] border border-gray-100 dark:border-gray-700 h-full flex flex-col justify-between">
+                      <div className="flex flex-col md:flex-row items-center gap-8">
+                        
+                        {/* Avatar Section */}
+                        <div className="relative shrink-0">
+                          <div className="w-40 h-40 rounded-full p-1 bg-gradient-to-r from-violet-500 to-pink-500 shadow-lg group-hover:shadow-2xl transition-shadow duration-500">
+                            <img 
+                              src={dev.imageUrl} 
+                              alt={dev.name} 
+                              className="w-full h-full object-cover rounded-full border-4 border-white dark:border-gray-800"
+                            />
+                          </div>
+                          <div className="absolute bottom-2 right-2 bg-green-500 w-8 h-8 rounded-full border-4 border-white dark:border-gray-800 flex items-center justify-center">
+                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                            <div className="w-2 h-2 bg-white rounded-full"></div>
+                          </div>
+                        </div>
+
+                        {/* Info Section */}
+                        <div className="flex-1 text-center md:text-left">
+                          <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-1">{dev.name}</h3>
+                          <p className="text-violet-600 dark:text-violet-400 font-medium mb-4 flex items-center justify-center md:justify-start">
+                            <Code2 className="w-4 h-4 mr-2" />
+                            {dev.title}
+                          </p>
+                          
+                          {/* Socials */}
+                          <div className="flex justify-center md:justify-start space-x-3 mb-6">
+                            {dev.socials.map((social) => (
+                              <a 
+                                key={social.name} 
+                                href={social.url} 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className={`p-2 rounded-lg bg-gray-100 dark:bg-gray-700/50 text-gray-600 dark:text-gray-400 transition-all duration-300 hover:bg-white dark:hover:bg-gray-600 hover:shadow-md hover:-translate-y-1 ${social.color}`}
+                              >
+                                <social.icon className="w-5 h-5" />
+                              </a>
+                            ))}
+                          </div>
+
+                          {/* Stats Grid */}
+                          <div className="grid grid-cols-2 gap-4">
+                            {dev.stats.map(stat => (
+                              <div key={stat.label} className="bg-gray-50 dark:bg-gray-700/30 rounded-xl p-3 text-center border border-gray-100 dark:border-gray-600/30">
+                                <div className="text-xl font-bold text-gray-900 dark:text-white">{stat.value}</div>
+                                <div className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">{stat.label}</div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Personal Info Grid */}
+                      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6 border-t border-gray-100 dark:border-gray-700/50">
+                        <div className="flex items-center text-sm text-gray-600 dark:text-gray-300 bg-gray-50 dark:bg-gray-700/20 p-2 rounded-lg">
+                          <GraduationCap className="w-4 h-4 mr-3 text-violet-500" />
+                          {dev.personalInfo.branch}
+                        </div>
+                        <div className="flex items-center text-sm text-gray-600 dark:text-gray-300 bg-gray-50 dark:bg-gray-700/20 p-2 rounded-lg">
+                          <MapPin className="w-4 h-4 mr-3 text-pink-500" />
+                          {dev.personalInfo.location}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* Skills & Achievements Section */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {/* Skills */}
+                <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl p-8 border border-white/20 dark:border-gray-700/20 shadow-lg hover:shadow-2xl transition-all duration-300">
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-6 flex items-center">
+                    <Code className="w-6 h-6 text-blue-500 mr-2" />
+                    Tech Stack
+                  </h3>
+                  <div className="space-y-5">
+                    {skills.map((skill) => (
+                      <div key={skill.name}>
+                        <div className="flex justify-between mb-1">
+                          <span className="text-sm font-medium text-gray-700 dark:text-gray-300">{skill.name}</span>
+                          <span className="text-sm text-gray-500">{skill.level}%</span>
+                        </div>
+                        <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5 overflow-hidden">
+                          <div className={`bg-gradient-to-r ${skill.color} h-2.5 rounded-full transition-all duration-1000 ease-out w-0 animate-grow`} style={{ width: `${skill.level}%` }}></div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Achievements */}
+                <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl p-8 border border-white/20 dark:border-gray-700/20 shadow-lg hover:shadow-2xl transition-all duration-300">
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-6 flex items-center">
+                    <Trophy className="w-6 h-6 text-yellow-500 mr-2" />
+                    Milestones
+                  </h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    {achievements.map((item) => (
+                      <div key={item.title} className="p-4 rounded-xl bg-gray-50 dark:bg-gray-700/30 border border-gray-100 dark:border-gray-700 hover:scale-105 transition-transform duration-300">
+                        <div className={`w-10 h-10 rounded-lg bg-gradient-to-r ${item.color} flex items-center justify-center text-white mb-3 shadow-md`}>
+                          <item.icon className="w-5 h-5" />
+                        </div>
+                        <h4 className="font-semibold text-gray-900 dark:text-white text-sm">{item.title}</h4>
+                        <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{item.description}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* === CONTRIBUTORS VIEW === */}
+          {activeTab === 'contributors' && (
+            <div className="animate-slide-up">
+              <div className="text-center mb-10">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Community Heroes</h2>
+                <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+                  The amazing people who have contributed code, resources, or time to make this platform better.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-16">
+                {contributors.map((contributor) => (
+                  <div 
+                    key={contributor.id} 
+                    className="bg-white/50 dark:bg-gray-800/50 backdrop-blur-md rounded-2xl p-6 border border-gray-200 dark:border-gray-700 hover:border-violet-300 dark:hover:border-violet-700 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl flex flex-col items-center text-center group"
+                  >
+                    <div className="relative mb-4">
+                      <div className="w-24 h-24 rounded-full p-1 bg-gradient-to-br from-pink-400 to-rose-600 group-hover:from-violet-500 group-hover:to-purple-600 transition-colors duration-500">
                         <img 
-                          src={dev.imageUrl} 
-                          alt={dev.name} 
-                          className="w-full h-full object-cover rounded-full border-4 border-white dark:border-gray-800"
+                          src={contributor.imageUrl} 
+                          alt={contributor.name}
+                          className="w-full h-full rounded-full object-cover border-4 border-white dark:border-gray-900"
                         />
                       </div>
-                      <div className="absolute bottom-2 right-2 bg-green-500 w-8 h-8 rounded-full border-4 border-white dark:border-gray-800 flex items-center justify-center">
-                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                        <div className="w-2 h-2 bg-white rounded-full"></div>
+                      <div className="absolute bottom-0 right-0 bg-white dark:bg-gray-900 rounded-full p-1.5 border border-gray-200 dark:border-gray-700 shadow-sm">
+                        <Sparkles className="w-3.5 h-3.5 text-yellow-500" />
                       </div>
                     </div>
+                    
+                    <h3 className="font-bold text-lg text-gray-900 dark:text-white mb-1">{contributor.name}</h3>
+                    <span className="inline-block px-3 py-1 rounded-full bg-violet-100 dark:bg-violet-900/30 text-violet-700 dark:text-violet-300 text-xs font-semibold mb-4">
+                      {contributor.role}
+                    </span>
 
-                    {/* Info Section */}
-                    <div className="flex-1 text-center md:text-left">
-                      <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">{dev.name}</h3>
-                      <p className="text-violet-600 dark:text-violet-400 font-medium mb-4">{dev.title}</p>
-                      
-                      {/* Socials */}
-                      <div className="flex justify-center md:justify-start space-x-3 mb-6">
-                        {dev.socials.map((social) => (
-                          <a 
-                            key={social.name} 
-                            href={social.url} 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className={`p-2 rounded-lg bg-gray-100 dark:bg-gray-700/50 text-gray-600 dark:text-gray-400 transition-all duration-300 hover:bg-white dark:hover:bg-gray-600 hover:shadow-md ${social.color}`}
-                          >
-                            <social.icon className="w-5 h-5" />
-                          </a>
-                        ))}
-                      </div>
-
-                      {/* Stats Grid */}
-                      <div className="grid grid-cols-2 gap-4">
-                        {dev.stats.map(stat => (
-                          <div key={stat.label} className="bg-gray-50 dark:bg-gray-700/30 rounded-xl p-3 text-center md:text-left">
-                            <div className="text-xl font-bold text-gray-900 dark:text-white">{stat.value}</div>
-                            <div className="text-xs text-gray-500 dark:text-gray-400">{stat.label}</div>
-                          </div>
-                        ))}
-                      </div>
+                    <div className="flex space-x-3 mt-auto w-full justify-center">
+                      {contributor.githubUrl && (
+                        <a href={contributor.githubUrl} className="p-2 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-900 hover:text-white dark:hover:bg-white dark:hover:text-gray-900 transition-all">
+                          <Github className="w-4 h-4" />
+                        </a>
+                      )}
+                      {contributor.linkedinUrl && (
+                        <a href={contributor.linkedinUrl} className="p-2 rounded-full bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white transition-all">
+                          <Linkedin className="w-4 h-4" />
+                        </a>
+                      )}
                     </div>
                   </div>
-
-                  {/* Personal Info Grid */}
-                  <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6 border-t border-gray-100 dark:border-gray-700">
-                    <div className="flex items-center text-sm text-gray-600 dark:text-gray-300">
-                      <GraduationCap className="w-4 h-4 mr-2 text-violet-500" />
-                      {dev.personalInfo.branch}
-                    </div>
-                    <div className="flex items-center text-sm text-gray-600 dark:text-gray-300">
-                      <MapPin className="w-4 h-4 mr-2 text-pink-500" />
-                      {dev.personalInfo.location}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* --- Contributors Section (Compact & Stylish) --- */}
-        <div className="mb-24">
-          <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-4 flex items-center justify-center">
-            <Users className="w-8 h-8 text-blue-500 mr-3" />
-            Our Contributors
-          </h2>
-          <p className="text-center text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto">
-            The amazing people who have contributed code, resources, or time to make this platform better.
-          </p>
-
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {contributors.map((contributor) => (
-              <div 
-                key={contributor.id} 
-                className="bg-white/50 dark:bg-gray-800/50 backdrop-blur-md rounded-2xl p-6 border border-gray-200 dark:border-gray-700 hover:border-violet-300 dark:hover:border-violet-700 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg flex flex-col items-center text-center group"
-              >
-                <div className="relative mb-4">
-                  <img 
-                    src={contributor.imageUrl} 
-                    alt={contributor.name}
-                    className="w-20 h-20 rounded-full object-cover border-2 border-gray-200 dark:border-gray-600 group-hover:border-violet-500 transition-colors"
-                  />
-                  <div className="absolute bottom-0 right-0 bg-white dark:bg-gray-900 rounded-full p-1 border border-gray-200 dark:border-gray-700">
-                    <Sparkles className="w-3 h-3 text-yellow-500" />
-                  </div>
-                </div>
+                ))}
                 
-                <h3 className="font-bold text-gray-900 dark:text-white mb-1">{contributor.name}</h3>
-                <span className="inline-block px-3 py-1 rounded-full bg-violet-100 dark:bg-violet-900/30 text-violet-700 dark:text-violet-300 text-xs font-medium mb-4">
-                  {contributor.role}
-                </span>
-
-                <div className="flex space-x-3 mt-auto">
-                  {contributor.githubUrl && (
-                    <a href={contributor.githubUrl} className="text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors">
-                      <Github className="w-4 h-4" />
-                    </a>
-                  )}
-                  {contributor.linkedinUrl && (
-                    <a href={contributor.linkedinUrl} className="text-gray-400 hover:text-blue-600 transition-colors">
-                      <Linkedin className="w-4 h-4" />
-                    </a>
-                  )}
-                </div>
+                {/* "Become a Contributor" Card */}
+                <a href="mailto:prep4btech@gmail.com" className="bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-800/50 rounded-2xl p-6 border-2 border-dashed border-gray-300 dark:border-gray-600 hover:border-violet-500 dark:hover:border-violet-500 transition-all duration-300 flex flex-col items-center justify-center text-center group cursor-pointer min-h-[200px] hover:shadow-lg">
+                  <div className="w-16 h-16 rounded-full bg-gray-100 dark:bg-gray-700 flex items-center justify-center mb-4 group-hover:bg-violet-100 dark:group-hover:bg-violet-900/30 transition-colors duration-300">
+                    <Heart className="w-8 h-8 text-gray-400 dark:text-gray-500 group-hover:text-violet-500 transition-colors duration-300" />
+                  </div>
+                  <h3 className="font-bold text-gray-600 dark:text-gray-300 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors">You?</h3>
+                  <p className="text-xs text-gray-500 dark:text-gray-400 mt-2 group-hover:text-gray-700 dark:group-hover:text-gray-300">Join us in building the future!</p>
+                </a>
               </div>
-            ))}
-            
-            {/* "You?" Placeholder Card */}
-            <a href="mailto:prep4btech@gmail.com" className="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-800/50 rounded-2xl p-6 border-2 border-dashed border-gray-300 dark:border-gray-600 hover:border-violet-500 dark:hover:border-violet-500 transition-all duration-300 flex flex-col items-center justify-center text-center group cursor-pointer h-full min-h-[200px]">
-              <div className="w-16 h-16 rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center mb-4 group-hover:bg-violet-100 dark:group-hover:bg-violet-900/30 transition-colors">
-                <Heart className="w-8 h-8 text-gray-400 dark:text-gray-500 group-hover:text-violet-500 transition-colors" />
-              </div>
-              <h3 className="font-bold text-gray-600 dark:text-gray-300 group-hover:text-violet-600 dark:group-hover:text-violet-400">Become a Contributor</h3>
-              <p className="text-xs text-gray-500 dark:text-gray-400 mt-2">Join us in building the future!</p>
-            </a>
-          </div>
+            </div>
+          )}
         </div>
 
-        {/* --- Skills & Achievements (Compact Version) --- */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
-          {/* Skills */}
-          <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl p-8 border border-white/20 dark:border-gray-700/20 shadow-lg">
-            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-6 flex items-center">
-              <Code className="w-6 h-6 text-blue-500 mr-2" />
-              Tech Stack
-            </h3>
-            <div className="space-y-4">
-              {skills.map((skill) => (
-                <div key={skill.name}>
-                  <div className="flex justify-between mb-1">
-                    <span className="text-sm font-medium text-gray-700 dark:text-gray-300">{skill.name}</span>
-                    <span className="text-sm text-gray-500">{skill.level}%</span>
-                  </div>
-                  <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
-                    <div className={`bg-gradient-to-r ${skill.color} h-2 rounded-full`} style={{ width: `${skill.level}%` }}></div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Achievements */}
-          <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl p-8 border border-white/20 dark:border-gray-700/20 shadow-lg">
-            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-6 flex items-center">
-              <Trophy className="w-6 h-6 text-yellow-500 mr-2" />
-              Milestones
-            </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {achievements.map((item) => (
-                <div key={item.title} className="p-4 rounded-xl bg-gray-50 dark:bg-gray-700/30 border border-gray-100 dark:border-gray-700">
-                  <div className={`w-10 h-10 rounded-lg bg-gradient-to-r ${item.color} flex items-center justify-center text-white mb-3`}>
-                    <item.icon className="w-5 h-5" />
-                  </div>
-                  <h4 className="font-semibold text-gray-900 dark:text-white text-sm">{item.title}</h4>
-                  <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{item.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        {/* --- Mission Section --- */}
-        <section className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 p-8 md:p-12 text-center text-white shadow-2xl">
+        {/* --- Mission Section (Visible in both views) --- */}
+        <section className="mt-24 relative overflow-hidden rounded-[2rem] bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 p-8 md:p-16 text-center text-white shadow-2xl">
           <div className="relative z-10">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4 flex items-center justify-center">
-              <Target className="w-8 h-8 mr-3" /> Our Mission
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 flex items-center justify-center">
+              <Target className="w-8 h-8 md:w-10 md:h-10 mr-4 text-yellow-300 animate-pulse" /> 
+              Our Mission
             </h2>
-            <p className="text-lg text-violet-100 max-w-3xl mx-auto leading-relaxed">
-              "To democratize education by creating accessible, comprehensive, and well-organized academic resources that empower every B.Tech student to excel. We believe in the power of technology to bridge educational gaps."
+            <p className="text-lg md:text-xl text-violet-100 max-w-4xl mx-auto leading-relaxed font-light">
+              "To democratize education by creating accessible, comprehensive, and well-organized academic resources that empower every B.Tech student to excel. We believe in the power of technology to bridge educational gaps and create opportunities for collaborative learning."
             </p>
-            <div className="mt-8 flex justify-center gap-4">
-              <a href="mailto:prep4btech@gmail.com" className="px-6 py-3 bg-white text-violet-600 rounded-xl font-semibold hover:bg-gray-100 transition-colors shadow-lg flex items-center">
+            <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
+              <a href="mailto:prep4btech@gmail.com" className="px-8 py-4 bg-white text-violet-600 rounded-xl font-bold hover:bg-gray-50 hover:scale-105 transition-all shadow-xl flex items-center justify-center">
                 <Lightbulb className="w-5 h-5 mr-2" />
                 Collaborate with Us
               </a>
+              <a href="/projects" className="px-8 py-4 bg-violet-700/50 backdrop-blur-sm border border-violet-400/30 text-white rounded-xl font-bold hover:bg-violet-700 hover:scale-105 transition-all shadow-xl flex items-center justify-center">
+                View Our Work
+              </a>
             </div>
           </div>
+          
           {/* Decorative Circles */}
-          <div className="absolute top-0 left-0 w-32 h-32 bg-white/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
-          <div className="absolute bottom-0 right-0 w-48 h-48 bg-white/10 rounded-full translate-x-1/3 translate-y-1/3"></div>
+          <div className="absolute top-0 left-0 w-64 h-64 bg-white/10 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl"></div>
+          <div className="absolute bottom-0 right-0 w-96 h-96 bg-white/10 rounded-full translate-x-1/3 translate-y-1/3 blur-3xl"></div>
         </section>
 
       </div>
+      
+      {/* CSS for custom animations if not in global CSS */}
+      <style>{`
+        @keyframes slide-up {
+          from { opacity: 0; transform: translateY(20px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-slide-up {
+          animation: slide-up 0.5s ease-out forwards;
+        }
+        @keyframes fade-in {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+        .animate-fade-in {
+          animation: fade-in 0.3s ease-out forwards;
+        }
+        @keyframes grow {
+          from { width: 0; }
+          to { width: 100%; } // Note: Inline style overrides this to specific width
+        }
+      `}</style>
     </div>
   );
 };
