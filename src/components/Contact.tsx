@@ -159,7 +159,7 @@ const Contact = () => {
       // Step 2: Attempt to call the Edge Function (Secondary action)
       // Its failure will be logged but won't show an error to the user.
       try {
-        const response = await fetch(`${supabaseUrl}/functions/v1/send-doubt-email`, {
+        const response = await fetch(`${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-doubt-email`, {
             method: 'POST',
             headers: {
             'Authorization': `Bearer ${supabaseAnonKey}`,
