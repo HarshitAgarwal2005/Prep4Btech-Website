@@ -27,61 +27,16 @@ const Assignments: React.FC = () => {
     } 
   }, [searchParams]);
 
-  const updateParams = (updates: Record<string, string | null>) => {
-    const newParams = new URLSearchParams(searchParams);
-    Object.entries(updates).forEach(([key, value]) => {
-      if (value === null) newParams.delete(key);
-      else newParams.set(key, value);
-    });
-    setSearchParams(newParams);
-  };
-
-  // 2. NAVIGATION LOGIC
-  const handleYearSemSelect = (year: number, semester: number) => {
-    updateParams({ year: year.toString(), semester: semester.toString() });
-  };
-
-  const handleBranchSelect = (branchCode: string) => {
-    updateParams({ branch: branchCode });
-  };
-
-  const handleSubjectSelect = (subjectId: string) => {
-    updateParams({ subject: subjectId });
-  };
-  
-  const resetSelection = () => {
-    setSelectedYear(null); 
-    setSelectedSemester(null);
-    setSelectedBranch(null);
-    setSelectedSubject(null);
-    setSelectedContentType(null);
-    setSearchQuery('');
-  };
-
 const goBack = () => {
-    // if (selectedSubject) {
-    //   setSelectedSubject(null);
-    //   setSelectedContentType(null);
-    // } else if (selectedBranch) {
-    //   setSelectedBranch(null);
-    // } else if (selectedYear || selectedSemester) {
-    //   setSelectedYear(null);
-    //   setSelectedSemester(null);
-    // }
-  const newParams = new URLSearchParams(searchParams);
-    
     if (selectedSubject) {
-      // If viewing Subject -> Go back to Branch list
-      newParams.delete('subject');
+      setSelectedSubject(null);
+      setSelectedContentType(null);
     } else if (selectedBranch) {
-      // If viewing Branch -> Go back to Year list
-      newParams.delete('branch');
+      setSelectedBranch(null);
     } else if (selectedYear || selectedSemester) {
-      // If viewing Year -> Go back to Home/Start
-      newParams.delete('year');
-      newParams.delete('semester');
+      setSelectedYear(null);
+      setSelectedSemester(null);
     }
-    setSearchParams(newParams);
   };
 
   const getBreadcrumb = () => {
