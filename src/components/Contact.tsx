@@ -4,7 +4,7 @@ import { Mail, MapPin, Send, Linkedin, Github, CheckCircle, AlertCircle, Lock, L
 // --- Supabase Credentials ---
 // IMPORTANT: Replace these placeholder values with your real Supabase URL and Anon Key.
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL; // <-- REPLACE WITH YOUR SUPABASE URL
-const supabaseAnonKey = 'VITE_SUPABASE_ANON_KEY'; // <-- REPLACE WITH YOUR SUPABASE ANON KEY
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY; // <-- REPLACE WITH YOUR SUPABASE ANON KEY
 
 // --- Developer Auth Context ---
 const DeveloperAuthContext = createContext({
