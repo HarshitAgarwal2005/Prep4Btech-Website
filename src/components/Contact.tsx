@@ -125,7 +125,7 @@ const Contact = () => {
         return;
     }
 
-    if (supabaseUrl === 'YOUR_SUPABASE_URL' || supabaseAnonKey === 'YOUR_SUPABASE_ANON_KEY') {
+    if (supabaseUrl === 'VITE_SUPABASE_URL' || supabaseAnonKey === 'VITE_SUPABASE_ANON_KEY') {
         console.error('Supabase credentials are not configured. Please contact the site administrator.');
         return;
     }
