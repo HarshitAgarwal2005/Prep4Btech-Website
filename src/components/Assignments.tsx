@@ -36,6 +36,28 @@ const Assignments: React.FC = () => {
     }
   }, [searchParams]);
 
+  const updateParams = (updates: Record<string, string | null>) => {
+    const newParams = new URLSearchParams(searchParams);
+    Object.entries(updates).forEach(([key, value]) => {
+      if (value === null) newParams.delete(key);
+      else newParams.set(key, value);
+    });
+    setSearchParams(newParams);
+  };
+
+  // 2. NAVIGATION LOGIC
+  const handleYearSemSelect = (year: number, semester: number) => {
+    updateParams({ year: year.toString(), semester: semester.toString() });
+  };
+
+  const handleBranchSelect = (branchCode: string) => {
+    updateParams({ branch: branchCode });
+  };
+
+  const handleSubjectSelect = (subjectId: string) => {
+    updateParams({ subject: subjectId });
+  };
+  
   const resetSelection = () => {
     setSelectedYear(null); 
     setSelectedSemester(null);
