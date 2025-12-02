@@ -11,19 +11,32 @@ serve(async (req) => {
   if (req.method === 'OPTIONS') return new Response('ok', { headers: corsHeaders });
 
   try {
-    const { question, subject } = await req.json();
+    const { question, subject, branch, semester } = await req.json();
 
     // 1. Construct the Prompt
     // You can inject data from your contentData.ts here if you pass it in, 
     // or just use the subject as context.
-    const systemPrompt = `You are an expert engineering tutor for RTU B.Tech students. 
-    The student is asking a doubt related to the subject: "${subject}".
-    Answer clearly and concisely. If the question is too complex or requires specific 
-    diagrams you cannot generate, advise them to "Ask a Mentor".`;
+    const systemPrompt = `You are an expert engineering tutor for RTU B.Tech students.
+      
+      Context:
+      - Branch: ${branch || 'General Engineering'}
+      - Semester: ${semester || 'General'}
+      - Subject: ${subject}
+
+      Task:
+      Answer the student's doubt: "${question}"
+      
+      Guidelines:
+      - Be concise and clear.
+      - Use markdown for formatting (bold key terms, lists for steps).
+      - If the question is about code, provide a short snippet.
+      - If the question is unrelated to studies, politely refuse.`;
 
     // 2. Call AI Provider (Example: Gemini API or OpenAI)
     // You will need to add your API Key to Supabase secrets
     const apiKey = Deno.env.get('GEMINI_API_KEY'); 
+    if (!apiKey) throw new Error("Missing GEMINI_API_KEY");
+    
     const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
