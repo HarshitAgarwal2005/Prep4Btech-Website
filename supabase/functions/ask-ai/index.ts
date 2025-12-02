@@ -36,18 +36,22 @@ serve(async (req) => {
     // You will need to add your API Key to Supabase secrets
     const apiKey = Deno.env.get('GEMINI_API_KEY'); 
     if (!apiKey) throw new Error("Missing GEMINI_API_KEY");
-    
     const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        contents: [{
-          parts: [{ text: `${systemPrompt}\n\nQuestion: ${question}` }]
-        }]
+        contents: [{ parts: [{ text: systemPrompt }] }]
       })
     });
 
     const data = await response.json();
+    
+    // Check for API errors
+    if (!data.candidates || data.candidates.length === 0) {
+      console.error("Gemini Error:", data);
+      throw new Error("AI could not generate a response.");
+    }
+
     const aiAnswer = data.candidates[0].content.parts[0].text;
 
     return new Response(JSON.stringify({ answer: aiAnswer }), {
@@ -55,6 +59,7 @@ serve(async (req) => {
     });
 
   } catch (error) {
+    console.error("Error:", error.message);
     return new Response(JSON.stringify({ error: error.message }), {
       status: 500,
       headers: { ...corsHeaders, 'Content-Type': 'application/json' },
