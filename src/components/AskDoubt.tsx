@@ -88,7 +88,8 @@ const AskDoubt: React.FC = () => {
     } catch (err) {
       console.error(err);
       setMode('EMAIL'); // Auto-switch to email if AI fails
-      setError("AI service is currently busy. Please send your doubt to a mentor.");
+      // setError("AI service is currently busy. Please send your doubt to a mentor.");
+      setError(`Error: ${err instanceof Error ? err.message : String(err)}`);
     } finally {
       setIsLoadingAI(false);
     }
