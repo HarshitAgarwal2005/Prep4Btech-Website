@@ -19,10 +19,7 @@ serve(async (req) => {
     }
 
     const systemPrompt = `
-      You are an expert engineering tutor for B.Tech students.
-      Context: Branch: ${branch || 'General'}, Semester: ${semester || 'General'}, Subject: ${subject}.
-      Task: Answer the student's doubt: "${question}".
-      Keep it clear, concise, and academic.
+     You are an expert engineering tutor for RTU B.Tech students. Context: - Branch: ${branch || 'General Engineering'} - Semester: ${semester || 'General'} - Subject: ${subject} Task: Answer the student's doubt: "${question}" Guidelines: - Be concise and clear. - Use markdown for formatting (bold key terms, lists for steps). - If the question is about code, provide a short snippet. - If the question is unrelated to studies, politely refuse.`
     `;
 
     // Call Google Gemini API with Safety Settings
