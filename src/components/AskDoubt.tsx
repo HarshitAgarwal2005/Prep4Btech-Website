@@ -1,47 +1,62 @@
-import React, { useState } from 'react';
-import { MessageCircle, X, Send, Upload, CheckCircle, AlertCircle, Bot, ArrowLeft, Sparkles } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { MessageCircle, X, Send, Upload, CheckCircle, AlertCircle, Bot, ArrowLeft, Sparkles, BookOpen, Layers, Calendar } from 'lucide-react';
+// Import your real data to populate dropdowns dynamically
 import { branches, contentSubjects } from '../data/contentData';
 
 const AskDoubt: React.FC = () => {
-  // --- 1. NEW STATE VARIABLES ---
+  // --- UI State ---
   const [isOpen, setIsOpen] = useState(false);
-  const [mode, setMode] = useState<'AI' | 'EMAIL'>('AI'); // 'AI' is the default start
-  const [aiAnswer, setAiAnswer] = useState<string | null>(null);
+  const [mode, setMode] = useState<'AI' | 'EMAIL'>('AI');
   const [isLoadingAI, setIsLoadingAI] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [aiAnswer, setAiAnswer] = useState<string | null>(null);
 
-  // Existing state
-  const [doubt, setDoubt] = useState('');
+  // --- Form Data State ---
+  const [question, setQuestion] = useState('');
+  const [branch, setBranch] = useState('');
+  const [semester, setSemester] = useState('');
   const [subject, setSubject] = useState('');
   const [userEmail, setUserEmail] = useState('');
   const [userName, setUserName] = useState('');
   const [image, setImage] = useState<File | null>(null);
-  const [isSubmitted, setIsSubmitted] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [error, setError] = useState<string | null>(null);
 
-  const subjects = [
-    'Programming Fundamentals', 'Data Structures', 'Algorithms', 'Database Systems',
-    'Computer Networks', 'Operating Systems', 'Software Engineering', 'Web Development',
-    'Machine Learning', 'Engineering Mathematics', 'Engineering Physics',
-    'Engineering Chemistry', 'Communication Skills', 'Human Values', 'Other'
-  ];
+  // --- Filtered Subjects Logic ---
+  // Only show subjects that match the selected Branch and Semester
+  const availableSubjects = contentSubjects.filter(sub => {
+    // If branch/sem not selected, show nothing or all (your choice)
+    if (!branch || !semester) return false;
+    
+    // Match Branch Code (e.g., 'CSE', 'ECE')
+    // Note: In contentData, branch codes might be complex like 'CSE/AI/AIDS/IT'. 
+    // We check if the selected branch code is included in the subject's branch string.
+    const branchMatch = sub.branch.includes(branch);
+    
+    // Match Semester
+    const semMatch = sub.semester === parseInt(semester);
+    
+    return branchMatch && semMatch;
+  });
 
   const resetForm = () => {
-    setDoubt('');
+    setQuestion('');
+    setBranch('');
+    setSemester('');
     setSubject('');
     setUserEmail('');
     setUserName('');
     setImage(null);
     setError(null);
     setIsSubmitted(false);
-    setMode('AI'); // Reset to AI mode
+    setMode('AI');
     setAiAnswer(null);
   };
 
-  // --- 2. NEW AI HANDLER ---
+  // --- AI Handler ---
   const handleAskAI = async () => {
-    if (!doubt || !subject) {
-      setError("Please select a subject and ask your question.");
+    if (!branch || !semester || !subject || !question) {
+      setError("Please fill in all fields (Branch, Semester, Subject, Question).");
       return;
     }
     
@@ -49,38 +64,44 @@ const AskDoubt: React.FC = () => {
     setError(null);
 
     try {
-      // Call your Edge Function (ensure you deployed 'ask-ai' first!)
       const response = await fetch(`${import.meta.env.VITE_SUPABASE_URL}/functions/v1/ask-ai`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ question: doubt, subject })
+        body: JSON.stringify({ 
+          question, 
+          subject, 
+          branch, 
+          semester 
+        })
       });
 
       const data = await response.json();
-      if (!response.ok) throw new Error(data.error || 'AI Error');
+      
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to get AI response');
+      }
       
       setAiAnswer(data.answer);
     } catch (err) {
       console.error(err);
-      // Fallback automatically if AI fails
-      setMode('EMAIL');
-      setError("AI is currently unavailable. Switched to manual support.");
+      setMode('EMAIL'); // Auto-switch to email if AI fails
+      setError("AI service is currently busy. Please send your doubt to a mentor.");
     } finally {
       setIsLoadingAI(false);
     }
   };
 
-  // Existing Email Handler
+  // --- Email Handler ---
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     setError(null);
 
-    if (!subject || !doubt || !userEmail) {
-        setError("Please fill in all required fields.");
+    if (!userEmail) {
+        setError("Email is required for mentor response.");
         setIsSubmitting(false);
         return;
     }
@@ -103,10 +124,10 @@ const AskDoubt: React.FC = () => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          subject,
-          doubt,
+          subject: `${subject} (Sem ${semester} - ${branch})`,
+          doubt: question,
           userEmail,
-          userName: userName || undefined,
+          userName,
           image: imageData
         })
       });
@@ -120,7 +141,7 @@ const AskDoubt: React.FC = () => {
       }, 3000);
 
     } catch (err) {
-      setError("Could not submit doubt. Please check connection.");
+      setError("Could not send email. Please try again later.");
     } finally {
       setIsSubmitting(false);
     }
@@ -157,35 +178,28 @@ const AskDoubt: React.FC = () => {
                 <div>
                   <h2 className="text-xl font-bold flex items-center">
                     {mode === 'AI' ? <Bot className="mr-2 h-6 w-6" /> : <MessageCircle className="mr-2 h-6 w-6" />}
-                    {mode === 'AI' ? 'AI Assistant' : 'Ask a Mentor'}
+                    {mode === 'AI' ? 'AI Tutor' : 'Ask a Mentor'}
                   </h2>
                   <p className="text-blue-100 text-sm">
-                    {mode === 'AI' ? 'Get instant answers powered by AI' : 'Get expert help via email'}
+                    {mode === 'AI' ? 'Instant answers for your syllabus' : 'Get expert help via email'}
                   </p>
                 </div>
-                <button
-                  onClick={() => { setIsOpen(false); resetForm(); }}
-                  className="p-2 hover:bg-white/20 rounded-lg transition-colors"
-                >
+                <button onClick={() => { setIsOpen(false); resetForm(); }} className="p-2 hover:bg-white/20 rounded-lg transition-colors">
                   <X className="h-5 w-5" />
                 </button>
               </div>
             </div>
 
-            <div className="p-6 overflow-y-auto">
+            <div className="p-6 overflow-y-auto custom-scrollbar">
               {isSubmitted ? (
-                // Success View
                 <div className="text-center py-8">
                   <div className="bg-green-100 dark:bg-green-900/30 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                     <CheckCircle className="h-8 w-8 text-green-600 dark:text-green-400" />
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Doubt Submitted! ✅</h3>
-                  <p className="text-gray-600 dark:text-gray-300 text-sm">
-                    Your question has been sent. You'll get a response via email soon!
-                  </p>
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">Request Sent! ✅</h3>
+                  <p className="text-gray-600 dark:text-gray-300 text-sm">Check your email soon for a response.</p>
                 </div>
               ) : (
-                // --- 3. THIS IS WHERE YOUR SNIPPET LOGIC GOES ---
                 <>
                   {error && (
                     <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4 flex items-start mb-4">
@@ -195,123 +209,144 @@ const AskDoubt: React.FC = () => {
                   )}
 
                   {mode === 'AI' ? (
-                    // === AI MODE UI ===
+                    // === AI MODE ===
                     <div className="space-y-4">
-                      <div>
-                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Subject *</label>
-                        <select
-                          value={subject}
-                          onChange={(e) => setSubject(e.target.value)}
-                          className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 text-gray-900 dark:text-white"
-                        >
-                          <option value="">Select a subject</option>
-                          {subjects.map(sub => <option key={sub} value={sub}>{sub}</option>)}
-                        </select>
+                      {/* Context Selectors */}
+                      <div className="grid grid-cols-2 gap-3">
+                        <div>
+                          <label className="block text-xs font-medium text-gray-500 dark:text-gray-400 mb-1">Branch</label>
+                          <div className="relative">
+                            <Layers className="absolute left-3 top-2.5 h-4 w-4 text-gray-400" />
+                            <select
+                              value={branch}
+                              onChange={(e) => setBranch(e.target.value)}
+                              className="w-full pl-9 pr-3 py-2 bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg text-sm text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500"
+                            >
+                              <option value="">Select</option>
+                              {branches.map(b => <option key={b.id} value={b.code}>{b.code}</option>)}
+                            </select>
+                          </div>
+                        </div>
+                        <div>
+                          <label className="block text-xs font-medium text-gray-500 dark:text-gray-400 mb-1">Semester</label>
+                          <div className="relative">
+                            <Calendar className="absolute left-3 top-2.5 h-4 w-4 text-gray-400" />
+                            <select
+                              value={semester}
+                              onChange={(e) => setSemester(e.target.value)}
+                              className="w-full pl-9 pr-3 py-2 bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg text-sm text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500"
+                            >
+                              <option value="">Select</option>
+                              {[1,2,3,4,5,6,7,8].map(s => <option key={s} value={s}>{s}</option>)}
+                            </select>
+                          </div>
+                        </div>
                       </div>
 
+                      {/* Subject Selector (Filtered) */}
+                      <div>
+                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Subject *</label>
+                        <div className="relative">
+                          <BookOpen className="absolute left-3 top-2.5 h-4 w-4 text-gray-400" />
+                          <select
+                            value={subject}
+                            onChange={(e) => setSubject(e.target.value)}
+                            disabled={!branch || !semester}
+                            className="w-full pl-9 pr-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg text-gray-900 dark:text-white disabled:opacity-50 disabled:cursor-not-allowed"
+                          >
+                            <option value="">
+                              {(!branch || !semester) ? "Select Branch & Sem first" : "Select a Subject"}
+                            </option>
+                            {availableSubjects.map(sub => (
+                              <option key={sub.id} value={sub.name}>{sub.name}</option>
+                            ))}
+                          </select>
+                        </div>
+                      </div>
+
+                      {/* Question Input */}
                       <div>
                         <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Your Question *</label>
                         <textarea
-                          value={doubt}
-                          onChange={(e) => setDoubt(e.target.value)}
-                          rows={4}
+                          value={question}
+                          onChange={(e) => setQuestion(e.target.value)}
+                          rows={3}
                           className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 text-gray-900 dark:text-white placeholder-gray-400"
-                          placeholder="Describe your doubt..."
+                          placeholder="What specific topic are you stuck on?"
                         />
                       </div>
 
-                      {aiAnswer && (
+                      {/* AI Answer / Action */}
+                      {aiAnswer ? (
                         <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800 p-4 rounded-xl animate-fade-in">
-                          <h4 className="font-bold text-blue-800 dark:text-blue-300 flex items-center mb-2">
-                            <Sparkles className="h-4 w-4 mr-2" /> AI Suggestion:
+                          <h4 className="font-bold text-blue-800 dark:text-blue-300 flex items-center mb-2 text-sm">
+                            <Sparkles className="h-4 w-4 mr-2" /> AI Answer:
                           </h4>
-                          <div className="text-sm text-gray-700 dark:text-gray-200 leading-relaxed whitespace-pre-wrap">
+                          <div className="text-sm text-gray-700 dark:text-gray-200 leading-relaxed whitespace-pre-wrap max-h-60 overflow-y-auto">
                             {aiAnswer}
                           </div>
                           
-                          <div className="mt-4 flex gap-3 pt-3 border-t border-blue-100 dark:border-blue-800/50">
-                            <button 
-                              onClick={() => { setIsOpen(false); resetForm(); }}
-                              className="flex-1 bg-green-600 hover:bg-green-700 text-white px-3 py-2 rounded-lg text-sm transition-colors"
-                            >
-                              Helpful, Thanks!
+                          <div className="mt-4 flex gap-2 pt-3 border-t border-blue-100 dark:border-blue-800/50">
+                            <button onClick={() => { setIsOpen(false); resetForm(); }} className="flex-1 bg-green-600 hover:bg-green-700 text-white px-3 py-2 rounded-lg text-xs transition-colors">
+                              Helpful!
                             </button>
-                            <button 
-                              onClick={() => setMode('EMAIL')}
-                              className="flex-1 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-800 dark:text-white px-3 py-2 rounded-lg text-sm transition-colors"
-                            >
-                              Ask Human Mentor
+                            <button onClick={() => setMode('EMAIL')} className="flex-1 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-800 dark:text-white px-3 py-2 rounded-lg text-xs transition-colors">
+                              Ask Mentor
                             </button>
                           </div>
                         </div>
-                      )}
-
-                      {!aiAnswer && (
+                      ) : (
                         <button
                           onClick={handleAskAI}
                           disabled={isLoadingAI}
                           className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-4 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all flex items-center justify-center font-medium shadow-lg"
                         >
-                          {isLoadingAI ? (
-                            <><div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>Thinking...</>
-                          ) : (
-                            <><Sparkles className="h-4 w-4 mr-2" />Get Instant Answer</>
-                          )}
+                          {isLoadingAI ? <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div> : <><Sparkles className="h-4 w-4 mr-2" /> Ask AI Tutor</>}
                         </button>
                       )}
                     </div>
                   ) : (
-                    // === EMAIL FALLBACK MODE (Your Existing Form) ===
+                    // === EMAIL MODE ===
                     <form onSubmit={handleSubmit} className="space-y-4 animate-fade-in">
-                      <div className="flex items-center mb-2 text-sm text-gray-500 dark:text-gray-400">
-                        <button type="button" onClick={() => setMode('AI')} className="flex items-center hover:text-blue-600 dark:hover:text-blue-400">
-                          <ArrowLeft className="h-4 w-4 mr-1" /> Back to AI
-                        </button>
-                      </div>
+                      <button type="button" onClick={() => setMode('AI')} className="text-sm text-blue-600 dark:text-blue-400 flex items-center hover:underline mb-2">
+                        <ArrowLeft className="h-3 w-3 mr-1" /> Back to AI
+                      </button>
 
-                      {/* We don't need Subject/Doubt again as they are preserved in state */}
-                      
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Name (Optional)</label>
+                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Your Name</label>
                         <input
                           type="text"
                           value={userName}
                           onChange={(e) => setUserName(e.target.value)}
                           className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg text-gray-900 dark:text-white"
-                          placeholder="Enter your name"
+                          placeholder="Optional"
                         />
                       </div>
 
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Email *</label>
+                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Your Email *</label>
                         <input
                           type="email"
                           value={userEmail}
                           onChange={(e) => setUserEmail(e.target.value)}
                           required
                           className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg text-gray-900 dark:text-white"
-                          placeholder="your.email@example.com"
+                          placeholder="For the answer"
                         />
-                        <p className="text-xs text-gray-500 mt-1">We'll send the answer here.</p>
                       </div>
 
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Attachment (Optional)</label>
-                        <div className="border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg p-4 bg-gray-50 dark:bg-gray-700/50">
-                          <input type="file" accept="image/*" onChange={handleImageUpload} className="hidden" id="image-upload" />
-                          <label htmlFor="image-upload" className="cursor-pointer flex flex-col items-center text-gray-600 dark:text-gray-300 hover:text-blue-600">
-                            <Upload className="h-8 w-8 mb-2" />
-                            <span className="text-sm">{image ? `✓ ${image.name}` : 'Click to upload'}</span>
+                        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Screenshot (Optional)</label>
+                        <div className="border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg p-3 bg-gray-50 dark:bg-gray-700/50 text-center">
+                          <input type="file" accept="image/*" onChange={handleImageUpload} className="hidden" id="file-upload" />
+                          <label htmlFor="file-upload" className="cursor-pointer text-sm text-blue-600 dark:text-blue-400 hover:underline">
+                            {image ? `File: ${image.name}` : "Click to upload image"}
                           </label>
                         </div>
                       </div>
 
-                      <button
-                        type="submit"
-                        disabled={isSubmitting}
-                        className="w-full bg-gray-800 dark:bg-gray-700 hover:bg-gray-900 dark:hover:bg-gray-600 text-white py-3 px-4 rounded-lg transition-all flex items-center justify-center font-medium"
-                      >
-                        {isSubmitting ? 'Sending...' : <><Send className="h-4 w-4 mr-2" />Send to Mentor</>}
+                      <button type="submit" disabled={isSubmitting} className="w-full bg-gray-800 dark:bg-gray-700 hover:bg-gray-900 text-white py-3 px-4 rounded-lg flex items-center justify-center font-medium">
+                        {isSubmitting ? 'Sending...' : <><Send className="h-4 w-4 mr-2" /> Send Request</>}
                       </button>
                     </form>
                   )}
