@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { MessageCircle, X, Send, Upload, CheckCircle, AlertCircle, Bot, ArrowLeft, Sparkles } from 'lucide-react';
+import { branches, contentSubjects } from '../data/contentData';
 
 const AskDoubt: React.FC = () => {
   // --- 1. NEW STATE VARIABLES ---
