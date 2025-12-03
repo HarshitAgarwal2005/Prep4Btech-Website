@@ -738,7 +738,7 @@ const developers: Developer[] = [
     ],
     stats: [
       { value: '3+', label: 'Years Exp', color: 'blue' },
-      { value: '15+', label: 'Projects', color: 'purple' }
+      { value: '4++', label: 'Projects', color: 'purple' }
     ],
     personalInfo: {
       branch: 'Computer Science',
@@ -759,7 +759,7 @@ const developers: Developer[] = [
     ],
     stats: [
       { value: '3+', label: 'Years Exp', color: 'blue' },
-      { value: '10+', label: 'Projects', color: 'purple' }
+      { value: '4+', label: 'Projects', color: 'purple' }
     ],
     personalInfo: {
       branch: 'Computer Science',
@@ -783,7 +783,7 @@ const contributors: Contributor[] = [
   {
     id: 2,
     name: "Himanshu Bansal",
-    role: "UI Designer",
+    role: "Content Manager",
     imageUrl: "https://placehold.co/150x150/e2e8f0/64748b?text=SS",
     githubUrl: "#",
     linkedinUrl: "#"
