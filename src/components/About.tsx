@@ -774,11 +774,11 @@ const developers: Developer[] = [
 const contributors: Contributor[] = [
   {
     id: 1,
-    name: "Alex Doe",
-    role: "Content Writer",
+    name: "Abhinav Purohit",
+    role: "Content Manager",
     imageUrl: "https://placehold.co/150x150/e2e8f0/64748b?text=AD",
-    githubUrl: "#",
-    linkedinUrl: "#"
+    githubUrl: "https://github.com/Abhi21puri",
+    linkedinUrl: "https://www.linkedin.com/in/abhinav-purohit-a83a09326/"
   },
   {
     id: 2,
@@ -788,21 +788,21 @@ const contributors: Contributor[] = [
     githubUrl: "#",
     linkedinUrl: "#"
   },
-  {
-    id: 3,
-    name: "Jordan Lee",
-    role: "Note Maintainer",
-    imageUrl: "https://placehold.co/150x150/e2e8f0/64748b?text=JL",
-    githubUrl: "#",
-    linkedinUrl: "#"
-  },
-  {
-    id: 4,
-    name: "Casey West",
-    role: "Testing",
-    imageUrl: "https://placehold.co/150x150/e2e8f0/64748b?text=CW",
-    githubUrl: "#"
-  }
+  // {
+  //   id: 3,
+  //   name: "Jordan Lee",
+  //   role: "Note Maintainer",
+  //   imageUrl: "https://placehold.co/150x150/e2e8f0/64748b?text=JL",
+  //   githubUrl: "#",
+  //   linkedinUrl: "#"
+  // },
+  // {
+  //   id: 4,
+  //   name: "Casey West",
+  //   role: "Testing",
+  //   imageUrl: "https://placehold.co/150x150/e2e8f0/64748b?text=CW",
+  //   githubUrl: "#"
+  // }
 ];
 
 const skills = [
