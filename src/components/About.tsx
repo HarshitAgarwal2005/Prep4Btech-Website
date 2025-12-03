@@ -782,7 +782,7 @@ const contributors: Contributor[] = [
   },
   {
     id: 2,
-    name: "Sam Smith",
+    name: "Himanshu Bansal",
     role: "UI Designer",
     imageUrl: "https://placehold.co/150x150/e2e8f0/64748b?text=SS",
     githubUrl: "#",
