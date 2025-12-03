@@ -1087,7 +1087,7 @@ const About: React.FC = () => {
                 <Lightbulb className="w-5 h-5 mr-2" />
                 Collaborate with Us
               </a>
-              <a href="/projects" className="px-8 py-4 bg-violet-700/50 backdrop-blur-sm border border-violet-400/30 text-white rounded-xl font-bold hover:bg-violet-700 hover:scale-105 transition-all shadow-xl flex items-center justify-center">
+              <a href="/year" className="px-8 py-4 bg-violet-700/50 backdrop-blur-sm border border-violet-400/30 text-white rounded-xl font-bold hover:bg-violet-700 hover:scale-105 transition-all shadow-xl flex items-center justify-center">
                 View Our Work
               </a>
             </div>
