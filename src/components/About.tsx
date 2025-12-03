@@ -738,7 +738,7 @@ const developers: Developer[] = [
     ],
     stats: [
       { value: '3+', label: 'Years Exp', color: 'blue' },
-      { value: '4++', label: 'Projects', color: 'purple' }
+      { value: '4+', label: 'Projects', color: 'purple' }
     ],
     personalInfo: {
       branch: 'Computer Science',
