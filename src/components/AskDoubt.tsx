@@ -63,6 +63,17 @@ const AskDoubt: React.FC = () => {
     setIsLoadingAI(true);
     setError(null);
 
+    const url = import.meta.env.VITE_SUPABASE_URL;
+    const key = import.meta.env.VITE_SUPABASE_ANON_KEY;
+    console.log("Supabase URL:", url);
+    console.log("Supabase Key:", key ? "Key exists (Hidden)" : "MISSING KEY!");
+
+    if (!url || !key) {
+      setError("Configuration Error: Supabase keys are missing. Please check your .env file and restart the server.");
+      setIsLoadingAI(false);
+      return;
+    }
+    
     try {
       const response = await fetch(`${import.meta.env.VITE_SUPABASE_URL}/functions/v1/ask-ai`, {
         method: 'POST',
