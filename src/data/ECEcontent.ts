@@ -25,10 +25,11 @@ export const contentSubjects: ContentSubject[] = [
 export const contentItems: ContentItem[] = [];
 export const branches = [
   {
-    id: 'cse',
-    name: 'Computer Science Engineering',
-    code: 'CSE/AI/AIDS/IT',
-    description: 'Software development and computer systems',
-    icon: '💻',
-    color: 'from-blue-500 to-cyan-500'
+    id: 'ece',
+    name: 'Electronics & Communication Engineering',
+    code: 'ECE',
+    description: 'Electronics and communication systems',
+    icon: '📡',
+    color: 'from-green-500 to-emerald-500'
   },
+];
