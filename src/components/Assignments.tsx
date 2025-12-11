@@ -266,14 +266,23 @@ const goBack = () => {
     </style>
   </head>
   <body>
-    <div class="header">
-      <h1>${content.title}</h1>
-      <p>${content.description}</p>
-      <p><strong>Type:</strong> ${content.type.toUpperCase()} | <strong>Subject:</strong> ${selectedSubject?.name}</p>
-    </div>
-    <div class="content">
-      <iframe src="${embedUrl}" allowfullscreen></iframe>
-    </div>
+    <div class="app-header">
+              <div class="header-info">
+                <div class="meta-badge">
+                  ${content.type.toUpperCase()}
+                </div>
+                <h1>${content.title}</h1>
+                <p class="sub-text">
+                  ${selectedSubject?.name} • Prep4Btech
+                </p>
+              </div>
+              <div class="brand-circle">
+                P4B
+              </div>
+            </div>
+            <div class="content">
+              <iframe src="${embedUrl}" allow="autoplay"></iframe>
+            </div>
   </body>
   </html>
 `);
