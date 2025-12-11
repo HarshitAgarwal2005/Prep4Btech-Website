@@ -178,17 +178,78 @@ const goBack = () => {
         display: flex;
         flex-direction: column;
         height: 100vh;
-        background: #1e293b;
-        color: white;
-        font-family: Arial, sans-serif;
+        background: #f8fafc;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       }
-      .header { 
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
-        color: white; 
-        padding: 20px; 
-        text-align: center; 
-        flex-shrink: 0;
-      }
+      .app-header { 
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+                color: white; 
+                padding: 12px 16px; 
+                flex-shrink: 0;
+                box-shadow: 0 4px 20px rgba(118, 75, 162, 0.25);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                z-index: 50;
+                position: relative;
+              }
+
+              .header-info {
+                flex: 1;
+                min-width: 0; /* Essential for text truncation */
+                margin-right: 12px;
+              }
+
+              .meta-badge {
+                display: inline-flex;
+                align-items: center;
+                background: rgba(255, 255, 255, 0.2);
+                backdrop-filter: blur(4px);
+                -webkit-backdrop-filter: blur(4px);
+                border: 1px solid rgba(255, 255, 255, 0.2);
+                padding: 2px 8px;
+                border-radius: 6px;
+                font-size: 10px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+                margin-bottom: 6px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+              }
+
+              h1 {
+                margin: 0;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 1.3;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+              }
+
+              .sub-text {
+                margin: 2px 0 0 0;
+                font-size: 12px;
+                opacity: 0.85;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+              }
+
+              /* Decorative Logo Circle */
+              .brand-circle {
+                width: 36px;
+                height: 36px;
+                background: rgba(255,255,255,0.15);
+                border-radius: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 14px;
+                border: 1px solid rgba(255,255,255,0.3);
+              }
       .content { 
         flex: 1 1 0%;
         min-height: 0;
