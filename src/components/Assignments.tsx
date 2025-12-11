@@ -251,10 +251,10 @@ const goBack = () => {
                 border: 1px solid rgba(255,255,255,0.3);
               }
       .content { 
-        flex: 1 1 0%;
-        min-height: 0;
-        padding: 0;            /* Remove padding */
-        margin: 0;
+        flex: 1;
+        width: 100%;
+        position: relative;
+        background: #fff;
         display: flex;
       }
       iframe {
