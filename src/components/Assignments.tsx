@@ -261,7 +261,7 @@ const goBack = () => {
         width: 100%;
         height: 100%;
         border: none;
-        background: white;
+        display: block;
       }
     </style>
   </head>
