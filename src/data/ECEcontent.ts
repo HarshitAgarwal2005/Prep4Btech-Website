@@ -19,7 +19,7 @@ export const contentSubjects: ContentSubject[] = [
     semester: 4,
     branch: 'ECE',
     description: 'Technical Communication',
-    icon: ''
+    icon: '📚'
   },
 ];
 export const contentItems: ContentItem[] = [];
