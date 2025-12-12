@@ -2,24 +2,24 @@ import { ContentSubject, ContentItem } from '../types';
 
 export const contentSubjects: ContentSubject[] = [
   {
-    id: 'signals-s3-ece',
-    name: 'Signals and Systems',
-    code: 'EC303',
+    id: 'aem1-s3-ece',
+    name: 'Advance Engg. Mathematics 1',
+    code: '3EC201',
     year: 2,
     semester: 3,
     branch: 'ECE',
-    description: 'Spf',
-    icon: '📡'
+    description: 'Mathematics for Engg.',
+    icon: '📚'
   },
   {
-    id: 'analog-s3-ece',
-    name: 'Analog Electronics',
-    code: 'EC304',
+    id: 'tc-s4-cse',
+    name: 'Technical Communication',
+    code: '3EC102',
     year: 2,
-    semester: 3,
+    semester: 4,
     branch: 'ECE',
-    description: 'Ada',
-    icon: '📻'
+    description: 'Technical Communication',
+    icon: ''
   },
 ];
 export const contentItems: ContentItem[] = [];
