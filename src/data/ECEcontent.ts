@@ -12,6 +12,16 @@ export const contentSubjects: ContentSubject[] = [
     icon: '📚'
   },
   {
+    id: 'mefa-s3-ece',
+    name: 'Managerial Economics And Financial Engineering',
+    code: '3EC1-03',
+    year: 2,
+    semester: 3,
+    branch: 'ECE',
+    description: 'Economic principles and financial management in engineering',
+    icon: '💰'
+  }
+  {
     id: 'tc-s4-ece',
     name: 'Technical Communication',
     code: '3EC102',
