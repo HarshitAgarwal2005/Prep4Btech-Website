@@ -1426,6 +1426,7 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Material properties and stress analysis',
     icon: '🔧'
   },
+...eceSubjects
 ];
 
 export const contentItems: ContentItem[] = [
