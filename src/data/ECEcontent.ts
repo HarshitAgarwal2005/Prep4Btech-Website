@@ -12,7 +12,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '📚'
   },
   {
-    id: 'tc-s4-cse',
+    id: 'tc-s4-ece',
     name: 'Technical Communication',
     code: '3EC102',
     year: 2,
