@@ -20,7 +20,7 @@ export const contentSubjects: ContentSubject[] = [
     branch: 'ECE',
     description: 'Economic principles and financial management in engineering',
     icon: '💰'
-  }
+  },
   {
     id: 'tc-s4-ece',
     name: 'Technical Communication',
