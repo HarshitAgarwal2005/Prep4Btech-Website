@@ -3735,7 +3735,47 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   // mefa cse 2nd yr 3rd sem
   {
     id: 'mefa-theory-1-cse',
+    title: 'MEFA UNIT-1',
+    description: 'MEFA NOTES ',
+    type: 'theory',
+    subjectId: 'mefa-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1tXzXdSKzyf1UEPw2jgJ3tqCMGVR36VMe/view?usp=sharing'
+  },
+   {
+    id: 'mefa-theory-2-cse',
     title: 'MEFA UNIT-2',
+    description: 'MEFA NOTES ',
+    type: 'theory',
+    subjectId: 'mefa-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1xPQIKOK6Uq5_LhNgdUA7w0D8vBtR0qbv/view?usp=drive_link'
+  },
+   {
+    id: 'mefa-theory-3-cse',
+    title: 'MEFA UNIT-3',
+    description: 'MEFA NOTES ',
+    type: 'theory',
+    subjectId: 'mefa-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/14MP8pd1aa79YT-VvDYB7dqpGURgYpftG/view?usp=drive_link'
+  },
+   {
+    id: 'mefa-theory-4-cse',
+    title: 'MEFA UNIT-4',
+    description: 'MEFA NOTES ',
+    type: 'theory',
+    subjectId: 'mefa-s3-cse',
+    fileSize: '1.3 MB',
+    uploadDate: '2024-02-25',
+    viewUrl: 'https://drive.google.com/file/d/1CSw2XolcdSyHxg25T2Q_cB5bvzn1XqMB/view?usp=drive_link'
+  },
+   {
+    id: 'mefa-theory-5-cse',
+    title: 'MEFA UNIT-5',
     description: 'MEFA NOTES ',
     type: 'theory',
     subjectId: 'mefa-s3-cse',
