@@ -1520,7 +1520,7 @@ export const contentItems: ContentItem[] = [
     subjectId: 'math1-s1-cse',
     duration: '45 minutes',
     uploadDate: '2024-01-30',
-    viewUrl: 'https://youtube.com'
+    viewUrl: 'https://www.youtube.com/embed/videoseries?si=C6oyI6yG4zAplBLp&amp;list=PLWl7YWhUvbuoUU3ys-XnoVssLmgmie1Zz'
   },
   {
     id: 'math1-video-4-cse',
