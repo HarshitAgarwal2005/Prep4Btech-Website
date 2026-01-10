@@ -238,7 +238,7 @@ const PYQPapers: React.FC = () => {
     } catch (error) {
       alert(`Error viewing ${paper.title}. Please try again later.`);
     }
-  };
+  }
   
       // Open in a new window with iframe for view-only mode
       const newWindow = window.open('', '_blank', 'width=1200,height=800,scrollbars=yes,resizable=yes');
