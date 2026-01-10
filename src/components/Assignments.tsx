@@ -111,7 +111,7 @@ const goBack = () => {
       }
       
       // Open in a new window with iframe for view-only mode
-    const newWindow = window.open('', '_blank', 'width=1200,height=900,scrollbars=yes,resizable=yes');
+    const newWindow = window.open('', '_blank');
     if (newWindow) {
       // newWindow.document.write(`
       //   <!DOCTYPE html>
