@@ -76,8 +76,19 @@ const PYQPapers: React.FC = () => {
     ? pyqPapers.filter(paper => paper.subjectId === selectedSubject.id)
         .sort((a, b) => b.year - a.year) // Latest to oldest
     : [];
-
-  const handlePaperDownload = async (paper: PYQPaper) => {
+  
+  // const handlePaperDownload = async (paper: PYQPaper) => {
+  //   try {
+  //     // Convert Google Drive share URL to embed URL for iframe viewing
+  //     let embedUrl = paper.downloadUrl || '';
+      
+  //     if (embedUrl.includes('drive.google.com/file/d/')) {
+  //       const fileId = embedUrl.match(/\/d\/([a-zA-Z0-9-_]+)/)?.[1];
+  //       if (fileId) {
+  //         embedUrl = `https://drive.google.com/file/d/${fileId}/preview`;
+  //       }
+  //     } 
+      const handlePaperDownload = async (paper: PYQPaper) => {
     try {
       // Convert Google Drive share URL to embed URL for iframe viewing
       let embedUrl = paper.downloadUrl || '';
@@ -89,6 +100,146 @@ const PYQPapers: React.FC = () => {
         }
       } 
       
+      // Open in a new window with iframe for view-only mode
+      const newWindow = window.open('', '_blank', 'width=1200,height=900,scrollbars=yes,resizable=yes');
+      if (newWindow) {
+        newWindow.document.write(`
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+            <title>${paper.title} - Prep4Btech PYQ</title>
+            <style>
+              * { box-sizing: border-box; }
+              html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+              }
+              body {
+                display: flex;
+                flex-direction: column;
+                height: 100vh;
+                background: #f8fafc;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+              }
+              
+              /* --- Creative Compact Header --- */
+              .app-header { 
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+                color: white; 
+                padding: 12px 16px; 
+                flex-shrink: 0;
+                box-shadow: 0 4px 20px rgba(118, 75, 162, 0.25);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                z-index: 50;
+                position: relative;
+              }
+
+              .header-info {
+                flex: 1;
+                min-width: 0; /* Essential for text truncation */
+                margin-right: 12px;
+              }
+
+              .meta-badge {
+                display: inline-flex;
+                align-items: center;
+                background: rgba(255, 255, 255, 0.2);
+                backdrop-filter: blur(4px);
+                -webkit-backdrop-filter: blur(4px);
+                border: 1px solid rgba(255, 255, 255, 0.2);
+                padding: 2px 8px;
+                border-radius: 6px;
+                font-size: 10px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+                margin-bottom: 6px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+              }
+
+              h1 {
+                margin: 0;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 1.3;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+              }
+
+              .sub-text {
+                margin: 2px 0 0 0;
+                font-size: 12px;
+                opacity: 0.85;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+              }
+
+              /* Decorative Logo Circle */
+              .brand-circle {
+                width: 36px;
+                height: 36px;
+                background: rgba(255,255,255,0.15);
+                border-radius: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 14px;
+                border: 1px solid rgba(255,255,255,0.3);
+              }
+
+              .content { 
+                flex: 1;
+                width: 100%;
+                position: relative;
+                background: #fff;
+              }
+              
+              iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+                display: block;
+              }
+            </style>
+          </head>
+          <body>
+            <div class="app-header">
+              <div class="header-info">
+                <div class="meta-badge">
+                  YEAR ${paper.year}
+                </div>
+                <h1>${paper.title}</h1>
+                <p class="sub-text">
+                  ${selectedSubject?.name} • PYQ Paper
+                </p>
+              </div>
+              <div class="brand-circle">
+                PYQ
+              </div>
+            </div>
+            <div class="content">
+              <iframe src="${embedUrl}" allow="autoplay"></iframe>
+            </div>
+          </body>
+          </html>
+        `);
+        newWindow.document.close();
+      }
+    } catch (error) {
+      alert(`Error viewing ${paper.title}. Please try again later.`);
+    }
+  };
+  
       // Open in a new window with iframe for view-only mode
       const newWindow = window.open('', '_blank', 'width=1200,height=800,scrollbars=yes,resizable=yes');
       if (newWindow) {
