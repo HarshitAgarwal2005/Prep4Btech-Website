@@ -2022,6 +2022,24 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-OBJECT-ORIENTED-PROGRAMMING-3E1204-JAN-2024',
+    year: 2025,
+    subjectId: 'cse-s3-oops',
+    downloadUrl: 'https://drive.google.com/file/d/1w33G8LgLiTgiNabQXM0piyg49Vz27I9I/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-3-SEM-OBJECT-ORIENTED-PROGRAMMING-3E1204-JAN-2022',
+    year: 2025,
+    subjectId: 'cse-s3-oops',
+    downloadUrl: 'https://drive.google.com/file/d/1M62-Hczb_c7CbvlSXNrcwXm77Up7LlLe/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
    {
     id: 'paper-8',
     title: 'BTECH-EE-EC-EIC-CS-IT-3-SEM-GENERAL-STUDIES-HUL201-2024',
