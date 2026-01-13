@@ -2044,7 +2044,7 @@ export const pyqPapers: PYQPaper[] = [
     id: 'paper-8',
     title: 'SOFTWARE-ENGINEERING-3E1205-JAN-2025',
     year: 2025,
-    subjectId: 'cse-s3-oops',
+    subjectId: 'cse-s3-se',
     downloadUrl: 'https://drive.google.com/file/d/13dYjaoX2KhkOE0cjD2RXTI34LxHwJpos/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2053,7 +2053,7 @@ export const pyqPapers: PYQPaper[] = [
     id: 'paper-8',
     title: 'SOFTWARE-ENGINEERING-3E1205-JAN-2024',
     year: 2025,
-    subjectId: 'cse-s3-oops',
+    subjectId: 'cse-s3-se',
     downloadUrl: 'https://drive.google.com/file/d/1hyK9aloSKtAvPEPPlfYzNcpY_80_qA3z/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2062,7 +2062,7 @@ export const pyqPapers: PYQPaper[] = [
     id: 'paper-8',
     title: 'SOFTWARE-ENGINEERING-3E1205-JAN-2023',
     year: 2025,
-    subjectId: 'cse-s3-oops',
+    subjectId: 'cse-s3-se',
     downloadUrl: 'https://drive.google.com/file/d/1AJavXykLHLcijW-5P_3iC85xqe3Fc5LN/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
@@ -2071,7 +2071,7 @@ export const pyqPapers: PYQPaper[] = [
     id: 'paper-8',
     title: 'SOFTWARE-ENGINEERING-3E1205-JAN-2022',
     year: 2025,
-    subjectId: 'cse-s3-oops',
+    subjectId: 'cse-s3-se',
     downloadUrl: 'https://drive.google.com/file/d/1YphcUo9kS1Rx4mNjwl2NUdzqZ-nnq9A4/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
