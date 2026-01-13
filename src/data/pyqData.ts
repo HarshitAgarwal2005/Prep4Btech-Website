@@ -2049,6 +2049,33 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
+  {
+    id: 'paper-8',
+    title: 'SOFTWARE-ENGINEERING-3E1205-JAN-2024',
+    year: 2025,
+    subjectId: 'cse-s3-oops',
+    downloadUrl: 'https://drive.google.com/file/d/1hyK9aloSKtAvPEPPlfYzNcpY_80_qA3z/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'SOFTWARE-ENGINEERING-3E1205-JAN-2023',
+    year: 2025,
+    subjectId: 'cse-s3-oops',
+    downloadUrl: 'https://drive.google.com/file/d/13dYjaoX2KhkOE0cjD2RXTI34LxHwJpos/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
+  {
+    id: 'paper-8',
+    title: 'SOFTWARE-ENGINEERING-3E1205-JAN-2022',
+    year: 2025,
+    subjectId: 'cse-s3-oops',
+    downloadUrl: 'https://drive.google.com/file/d/13dYjaoX2KhkOE0cjD2RXTI34LxHwJpos/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
    {
     id: 'paper-8',
     title: 'BTECH-EE-EC-EIC-CS-IT-3-SEM-GENERAL-STUDIES-HUL201-2024',
