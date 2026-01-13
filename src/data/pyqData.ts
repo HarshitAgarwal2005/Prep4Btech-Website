@@ -2072,7 +2072,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'SOFTWARE-ENGINEERING-3E1205-JAN-2022',
     year: 2025,
     subjectId: 'cse-s3-oops',
-    downloadUrl: 'https://drive.google.com/file/d/13dYjaoX2KhkOE0cjD2RXTI34LxHwJpos/view?usp=sharing',
+    downloadUrl: 'https://drive.google.com/file/d/1YphcUo9kS1Rx4mNjwl2NUdzqZ-nnq9A4/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
