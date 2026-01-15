@@ -90,13 +90,27 @@
 // }
 // export default App;
 
-import React, { useState, useEffect, Suspense, lazy } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import { ThemeProvider } from './components/ThemeProvider';
-import { DeveloperAuthProvider } from './components/Contact';
-import Navbar from './components/Navbar';
-import Sidebar from './components/Sidebar';
-import Footer from './components/Footer';
+import React, { useState, useEffect } from 'react';
+// import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+// import { ThemeProvider } from './components/ThemeProvider';
+// import { DeveloperAuthProvider } from './components/Contact';
+// import Navbar from './components/Navbar';
+// import LoadingSkeleton from './components/ui/LoadingSkeleton';  //new element
+// import Sidebar from './components/Sidebar';
+// import Footer from './components/Footer';
+// import Home from './components/Home';
+// import Year from './components/Year';
+// import RTUSyllabus from './components/RTUSyllabus';
+// // import Subjects from './components/Subjects';
+// import Assignments from './components/Assignments';
+// import Books from './components/Books';
+// import Projects from './components/Projects';
+// import PYQPapers from './components/PYQPapers';
+// import Contact from './components/Contact';
+// import About from './components/About';
+// import AskDoubt from './components/AskDoubt';
+// import PrivacyPolicy from './components/PrivacyPolicy';
+// import TermsOfService from './components/TermsOfService';
 import LoadingSkeleton from './components/ui/LoadingSkeleton'; // Ensure this component exists
 
 // --- LAZY LOADED COMPONENTS (Phase 2 Optimization) ---
