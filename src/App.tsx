@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import { ThemeProvider } from './components/ThemeProvider';
 import { DeveloperAuthProvider } from './components/Contact';
 import Navbar from './components/Navbar';
+import LoadingSkeleton from './components/ui/LoadingSkeleton';  //new element
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 import Home from './components/Home';
