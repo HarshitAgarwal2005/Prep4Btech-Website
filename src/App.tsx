@@ -45,6 +45,10 @@ const UserVisitTracker: React.FC = () => {
 
   return null;
 };
+const Home = lazy(() => import('./components/Home'));
+const Year = lazy(() => import('./components/Year'));
+const Assignments = lazy(() => import('./components/Assignments'));
+const AskDoubt = lazy(() => import('./components/AskDoubt'));
 
 function App() {
   const [searchResults, setSearchResults] = useState<string | null>(null);
