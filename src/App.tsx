@@ -91,28 +91,40 @@
 // export default App;
 
 import React, { useState, useEffect } from 'react';
-// import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-// import { ThemeProvider } from './components/ThemeProvider';
-// import { DeveloperAuthProvider } from './components/Contact';
-// import Navbar from './components/Navbar';
-// import LoadingSkeleton from './components/ui/LoadingSkeleton';  //new element
-// import Sidebar from './components/Sidebar';
-// import Footer from './components/Footer';
-// import Home from './components/Home';
-// import Year from './components/Year';
-// import RTUSyllabus from './components/RTUSyllabus';
-// // import Subjects from './components/Subjects';
-// import Assignments from './components/Assignments';
-// import Books from './components/Books';
-// import Projects from './components/Projects';
-// import PYQPapers from './components/PYQPapers';
-// import Contact from './components/Contact';
-// import About from './components/About';
-// import AskDoubt from './components/AskDoubt';
-// import PrivacyPolicy from './components/PrivacyPolicy';
-// import TermsOfService from './components/TermsOfService';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { ThemeProvider } from './components/ThemeProvider';
+import { DeveloperAuthProvider } from './components/Contact';
+import Navbar from './components/Navbar';
+import LoadingSkeleton from './components/ui/LoadingSkeleton';  //new element
+import Sidebar from './components/Sidebar';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import Year from './components/Year';
+import RTUSyllabus from './components/RTUSyllabus';
+// import Subjects from './components/Subjects';
+import Assignments from './components/Assignments';
+import Books from './components/Books';
+import Projects from './components/Projects';
+import PYQPapers from './components/PYQPapers';
+import Contact from './components/Contact';
+import About from './components/About';
+import AskDoubt from './components/AskDoubt';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import TermsOfService from './components/TermsOfService';
 import LoadingSkeleton from './components/ui/LoadingSkeleton'; // Ensure this component exists
 
+const LoadingSkeleton = () => {
+  return (
+    <div className="container mx-auto px-4 py-8 animate-pulse">
+      <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded w-1/3 mb-8"></div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {[1, 2, 3, 4, 5, 6].map((item) => (
+          <div key={item} className="h-48 bg-gray-200 dark:bg-gray-700 rounded-xl"></div>
+        ))}
+      </div>
+    </div>
+  );
+};
 // --- LAZY LOADED COMPONENTS (Phase 2 Optimization) ---
 // This splits the bundle so users don't download pages they aren't viewing.
 const Home = lazy(() => import('./components/Home'));
