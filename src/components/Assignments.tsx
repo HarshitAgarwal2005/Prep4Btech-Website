@@ -1060,6 +1060,7 @@ const Assignments: React.FC = () => {
                         </div>
                         <h3 className="text-lg font-semibold mb-2">{subject.code}</h3>
                         <p className="text-sm text-gray-700 dark:text-gray-300 mb-2">{subject.name}</p>
+                        <p className="text-xs text-gray-500 line-clamp-2">{subject.description}</p>
                       </div>
                     </div>
                   ))}
