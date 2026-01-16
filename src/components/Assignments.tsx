@@ -947,55 +947,149 @@ const Assignments: React.FC = () => {
             </div>
           )}
 
-          {/* Step 1: Year & Semester Selection */}
-          {!selectedYear && (
-            <div className="bg-slate-100/80 dark:bg-slate-800/80 backdrop-blur-xl rounded-2xl shadow-lg p-6 mb-8 border border-slate-200 dark:border-slate-700">
-              <div className="flex items-center justify-between mb-8">
-                <div className="flex items-center">
-                  <Filter className="h-6 w-6 text-blue-400 mr-3" />
-                  <h2 className="text-2xl font-bold">Select Year</h2>
-                </div>
-              </div>
+          {/* Year Cards */}
+               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                 {/* First Year */}
+                 <div className="bg-gradient-to-br from-blue-600 to-cyan-600 rounded-2xl p-6 text-white">
+                   <div className="flex items-center justify-between mb-4">
+                     <h3 className="text-2xl font-bold">First Year</h3>
+                     <ChevronRight className="h-6 w-6" />
+                   </div>
+                   <p className="text-blue-100 mb-6">Foundation courses and basic engineering concepts</p>
+               
+                  
+                   <div className="grid grid-cols-2 gap-3">
+                     <button
+                       onClick={() => { setSelectedYear(1); setSelectedSemester(1); }}
+                      className="bg-white/20 hover:bg-white/40 dark:bg-slate-800/30 dark:hover:bg-slate-800/50 backdrop-blur-sm rounded-lg p-4 transition-all duration-300 hover:scale-105"
+                     >
+                       <div className="text-lg font-semibold">Semester 1</div>
+                       <div className="text-sm text-blue-200">5 Subjects</div>
+                     </button>
+                     <button
+                       onClick={() => { setSelectedYear(1); setSelectedSemester(2); }}
+                       className="bg-white/20 hover:bg-white/40 dark:bg-slate-800/30 dark:hover:bg-slate-800/50 backdrop-blur-sm rounded-lg p-4 transition-all duration-300 hover:scale-105"
+                     >
+                       <div className="text-lg font-semibold">Semester 2</div>
+                       <div className="text-sm text-blue-200">5 Subjects</div>
+                     </button>
+                   </div>
+                 </div>
 
-              {/* Year Cards Grid */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                {/* Year 1 */}
-                <div className="bg-gradient-to-br from-blue-600 to-cyan-600 rounded-2xl p-6 text-white">
-                  <h3 className="text-2xl font-bold mb-4">First Year</h3>
-                  <p className="text-blue-100 text-sm mb-4">Common for all branches</p>
-                  <div className="grid grid-cols-2 gap-3">
-                    <button onClick={() => { setSelectedYear(1); setSelectedSemester(1); }} className="bg-white/20 hover:bg-white/30 rounded-lg p-4">Semester 1</button>
-                    <button onClick={() => { setSelectedYear(1); setSelectedSemester(2); }} className="bg-white/20 hover:bg-white/30 rounded-lg p-4">Semester 2</button>
-                  </div>
-                </div>
-                {/* Year 2 */}
-                <div className="bg-gradient-to-br from-green-600 to-emerald-600 rounded-2xl p-6 text-white">
-                  <h3 className="text-2xl font-bold mb-4">Second Year</h3>
-                  <div className="grid grid-cols-2 gap-3">
-                    <button onClick={() => { setSelectedYear(2); setSelectedSemester(3); }} className="bg-white/20 hover:bg-white/30 rounded-lg p-4">Semester 3</button>
-                    <button onClick={() => { setSelectedYear(2); setSelectedSemester(4); }} className="bg-white/20 hover:bg-white/30 rounded-lg p-4">Semester 4</button>
-                  </div>
-                </div>
-                {/* Year 3 */}
-                <div className="bg-gradient-to-br from-purple-600 to-pink-600 rounded-2xl p-6 text-white">
-                  <h3 className="text-2xl font-bold mb-4">Third Year</h3>
-                  <div className="grid grid-cols-2 gap-3">
-                    <button onClick={() => { setSelectedYear(3); setSelectedSemester(5); }} className="bg-white/20 hover:bg-white/30 rounded-lg p-4">Semester 5</button>
-                    <button onClick={() => { setSelectedYear(3); setSelectedSemester(6); }} className="bg-white/20 hover:bg-white/30 rounded-lg p-4">Semester 6</button>
-                  </div>
-                </div>
-                 {/* Year 4 */}
+                 {/* Second Year */}
+                   <div className="bg-gradient-to-br from-green-600 to-emerald-600 rounded-2xl p-6 text-white">
+                   <div className="flex items-center justify-between mb-4">
+                     <h3 className="text-2xl font-bold">Second Year</h3>
+                     <ChevronRight className="h-6 w-6" />
+                   </div>
+                  <p className="text-green-100 mb-6">Core computer science subjects and data structures</p>                   <div className="grid grid-cols-2 gap-3">
+                     <button
+                       onClick={() => { setSelectedYear(2); setSelectedSemester(3); }}
+                       className="bg-white/20 hover:bg-white/40 dark:bg-slate-800/30 dark:hover:bg-slate-800/50 backdrop-blur-sm rounded-lg p-4 transition-all duration-300 hover:scale-105"
+                     >
+                       <div className="text-lg font-semibold">Semester 3</div>
+                       <div className="text-sm text-green-200">6 Subjects</div>
+                     </button>
+                     <button
+                       onClick={() => { setSelectedYear(2); setSelectedSemester(4); }}
+                       className="bg-white/20 hover:bg-white/40 dark:bg-slate-800/30 dark:hover:bg-slate-800/50 backdrop-blur-sm rounded-lg p-4 transition-all duration-300 hover:scale-105"
+                     >
+                       <div className="text-lg font-semibold">Semester 4</div>
+                       <div className="text-sm text-green-200">6 Subjects</div>
+                     </button>
+                   </div>
+                 </div>
+
+                 <div className="bg-gradient-to-br from-purple-600 to-pink-600 rounded-2xl p-6 text-white">
+                   <div className="flex items-center justify-between mb-4">
+                     <h3 className="text-2xl font-bold">Third Year</h3>
+                     <ChevronRight className="h-6 w-6" />
+                   </div>
+                   <p className="text-purple-100 mb-6">Advanced topics and specialization subjects</p>
+                   <div className="grid grid-cols-2 gap-3">
+                     <button
+                       onClick={() => { setSelectedYear(3); setSelectedSemester(5); }}
+                       className="bg-white/20 hover:bg-white/40 dark:bg-slate-800/30 dark:hover:bg-slate-800/50 backdrop-blur-sm rounded-lg p-4 transition-all duration-300 hover:scale-105"
+                     >
+                       <div className="text-lg font-semibold">Semester 5</div>
+                       <div className="text-sm text-purple-200">8 Subjects</div>
+                     </button>
+                     <button
+                       onClick={() => { setSelectedYear(3); setSelectedSemester(6); }}
+                       className="bg-white/20 hover:bg-white/40 dark:bg-slate-800/30 dark:hover:bg-slate-800/50 backdrop-blur-sm rounded-lg p-4 transition-all duration-300 hover:scale-105"
+                     >
+                       <div className="text-lg font-semibold">Semester 6</div>
+                       <div className="text-sm text-purple-200">9 Subjects</div>
+                     </button>
+                   </div>
+                 </div>
+                 {/* Fourth Year */}
                  <div className="bg-gradient-to-br from-orange-600 to-red-600 rounded-2xl p-6 text-white">
-                  <h3 className="text-2xl font-bold mb-4">Fourth Year</h3>
-                  <div className="grid grid-cols-2 gap-3">
-                    <button onClick={() => { setSelectedYear(4); setSelectedSemester(7); }} className="bg-white/20 hover:bg-white/30 rounded-lg p-4">Semester 7</button>
-                    <button onClick={() => { setSelectedYear(4); setSelectedSemester(8); }} className="bg-white/20 hover:bg-white/30 rounded-lg p-4">Semester 8</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          )}
+                   <div className="flex items-center justify-between mb-4">
+                     <h3 className="text-2xl font-bold">Fourth Year</h3>
+                     <ChevronRight className="h-6 w-6" />
+                   </div>
+                   <p className="text-orange-100 mb-6">Capstone projects and industry-oriented subjects</p>
+                   <div className="grid grid-cols-2 gap-3">
+                     <button
+                       onClick={() => { setSelectedYear(4); setSelectedSemester(7); }}
+                       className="bg-white/20 hover:bg-white/40 dark:bg-slate-800/30 dark:hover:bg-slate-800/50 backdrop-blur-sm rounded-lg p-4 transition-all duration-300 hover:scale-105"
+                     >
+                       <div className="text-lg font-semibold">Semester 7</div>
+                       <div className="text-sm text-orange-200">2 Subjects</div>
+                     </button>
+                     <button
+                       onClick={() => { setSelectedYear(4); setSelectedSemester(8); }}
+                       className="bg-white/20 hover:bg-white/40 dark:bg-slate-800/30 dark:hover:bg-slate-800/50 backdrop-blur-sm rounded-lg p-4 transition-all duration-300 hover:scale-105"
+                     >
+                       <div className="text-lg font-semibester">Semester 8</div>
+                       <div className="text-sm text-orange-200">2 Subjects</div>
+                     </button>
+                   </div>
+                 </div>
+               </div>
 
+               {/* Content Statistics */}
+ <div className="mt-16 bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 border border-white/20 dark:border-gray-700/20">
+   <h3 className="text-xl font-bold text-center mb-8">Content Statistics</h3>
+   <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+     <div className="text-center">
+     <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+         <FileText className="h-8 w-8 text-white" />
+       </div>
+       <div className="text-2xl font-bold">8</div>
+       {/* Changed text-gray-400 to text-gray-500 for light mode */}
+       <div className="text-gray-500 dark:text-gray-400 text-sm">Total Semesters</div>
+     </div>
+     <div className="text-center">
+       <div className="bg-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+         <BookOpen className="h-8 w-8 text-white" />
+       </div>
+       <div className="text-2xl font-bold">40</div>
+       {/* Changed text-gray-400 to text-gray-500 for light mode */}
+       <div className="text-gray-500 dark:text-gray-400 text-sm">Available Subjects</div>
+     </div>
+  <div className="text-center">
+       <div className="bg-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+         <Users className="h-8 w-8 text-white" />
+       </div>
+       <div className="text-2xl font-bold">19</div> 
+       {/* Changed text-gray-400 to text-gray-500 for light mode */}
+       <div className="text-gray-500 dark:text-gray-400 text-sm">Available Content</div>
+     </div>
+     <div className="text-center">
+       <div className="bg-orange-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+         <Trophy className="h-8 w-8 text-white" />
+       </div>
+       <div className="text-2xl font-bold">1000+</div>
+       {/* Changed text-gray-400 to text-gray-500 for light mode */}
+       <div className="text-gray-500 dark:text-gray-400 text-sm">Content Viewed</div>
+     </div>
+   </div>
+   </div>
+   </div>
+           )}
+          
           {/* Step 2: Branch Selection */}
           {selectedYear && selectedSemester && !selectedBranch && (
             <div className="bg-slate-100/80 dark:bg-slate-800/80 backdrop-blur-xl rounded-3xl shadow-xl p-8 mb-12 border border-slate-200 dark:border-slate-700">
