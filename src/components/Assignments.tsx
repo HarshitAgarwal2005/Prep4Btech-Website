@@ -3,8 +3,11 @@ import { useSearchParams, useNavigate } from 'react-router-dom';
 import { FileText, Calendar, Clock, Search, Users,BookOpen, Trophy, ArrowLeft,ChevronRight,Play,Book,FlaskConical, Video,ClipboardList,GraduationCap,Eye, Filter
 }
 from 'lucide-react';
-import { contentSubjects, contentItems, branches } from '../data/contentData';
+// import { contentSubjects, contentItems, branches } from '../data/contentData';
+import { branches } from '../data/contentData'; // Keep branches if it's just the UI list
+import { useSubjects, useSubjectContent } from '../hooks/useContent'; // Import your hooks
 import { ContentSubject, ContentItem } from '../types';
+import LoadingSkeleton from './ui/LoadingSkeleton';
 
 const Assignments: React.FC = () => {
   const [searchParams] = useSearchParams();
