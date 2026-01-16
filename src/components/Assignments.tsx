@@ -1255,8 +1255,8 @@ const Assignments: React.FC = () => {
           )}
         </div>
       </div>
-    </div>
-  );
+    
+);
 };
 
 export default Assignments;
