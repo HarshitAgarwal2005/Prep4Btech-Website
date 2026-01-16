@@ -962,6 +962,7 @@ const Assignments: React.FC = () => {
                 {/* Year 1 */}
                 <div className="bg-gradient-to-br from-blue-600 to-cyan-600 rounded-2xl p-6 text-white">
                   <h3 className="text-2xl font-bold mb-4">First Year</h3>
+                  <p className="text-blue-100 text-sm mb-4">Common for all branches</p>
                   <div className="grid grid-cols-2 gap-3">
                     <button onClick={() => { setSelectedYear(1); setSelectedSemester(1); }} className="bg-white/20 hover:bg-white/30 rounded-lg p-4">Semester 1</button>
                     <button onClick={() => { setSelectedYear(1); setSelectedSemester(2); }} className="bg-white/20 hover:bg-white/30 rounded-lg p-4">Semester 2</button>
