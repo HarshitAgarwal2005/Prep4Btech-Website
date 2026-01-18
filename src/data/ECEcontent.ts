@@ -6,7 +6,7 @@ export const branches = [
     code: 'ECE',
     description: 'Electronics and communication systems',
     icon: '📡',
-    color: 'from-green-500 to-emerald-500'
+    color: 'from-green-500 to-emerald-500' 
   },
 ];
 
