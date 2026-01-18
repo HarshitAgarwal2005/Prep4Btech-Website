@@ -10,7 +10,7 @@
 //   // }, 
 // ];
 
-// export const eceSubjects: eceSubjects[] = [ 
+// export const ContentSubject: ContentSubject[] = [ 
 //   {
 //     //SEMESTER 3
 //     id: 'aem1-s3-ece',
@@ -45,5 +45,5 @@
 //     //SEMESTER 4
 //   },
 // ];
-// export const eceItems: eceItems[] = [];
+// export const ContentItem: ContentItem[] = [];
  
