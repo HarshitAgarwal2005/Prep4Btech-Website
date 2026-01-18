@@ -28,7 +28,7 @@ export const contentSubjects: ContentSubject[] = [
     name: 'Technical Communication',
     code: '3EC102',
     year: 2,
-    semester: 4,
+    semester: 3,
     branch: 'ECE',
     description: 'Technical Communication',
     icon: '📝'
