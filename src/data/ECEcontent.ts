@@ -36,4 +36,13 @@ export const ContentSubject: ContentSubject[] = [
   },
 ];
 export const ContentItem: ContentItem[] = []; 
- 
+export const branches = [
+  {
+    id: 'ece',
+    name: 'Electronics & Communication Engineering',
+    code: 'ECE',
+    description: 'Electronics and communication systems',
+    icon: '📡',
+    color: 'from-green-500 to-emerald-500'
+  },
+];
