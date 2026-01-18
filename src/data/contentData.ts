@@ -1,11 +1,11 @@
 import { ContentSubject, ContentItem } from '../types';
-import { contentSubjects as eceSubjects, contentItems as eceItems } from './ECEcontent';
+// import { contentSubjects as eceSubjects, contentItems as eceItems } from './ECEcontent';
 
 export const contentSubjects: ContentSubject[] = [
   // First Year - Semester 1 (Common Subjects, differentiated by branch)
   // CSE
   {
-    id: 'math1-s1-cse',
+    id: 'math1-s1-cse', 
     name: 'Engineering Mathematics-I',
     code: '1FY2-01',
     year: 1,
