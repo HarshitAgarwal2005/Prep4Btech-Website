@@ -110,7 +110,7 @@ export const contentSubjects: ContentSubject[] = [
   branch: 'ECE',
   description: 'C programming and data structures',
   icon: '📡'
-}
+},
 
   // SEMESTER 4
   {
