@@ -105,7 +105,7 @@ export const contentSubjects: ContentSubject[] = [
   id: 'cpl-s3-ece',
   name: 'Computer Programming Lab-I',
   code: '3EC3-24',
-  year: 2,
+  year: 2, 
   semester: 3,
   branch: 'ECE',
   description: 'C programming and data structures',
