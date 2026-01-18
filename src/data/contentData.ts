@@ -1,5 +1,5 @@
 import { ContentSubject, ContentItem } from '../types';
-// import { contentSubjects as eceSubjects, contentItems as eceItems } from './ECEcontent';
+import { contentSubjects as eceSubjects, contentItems as eceItems } from './ECEcontent'; 
 
 export const contentSubjects: ContentSubject[] = [
   // First Year - Semester 1 (Common Subjects, differentiated by branch)
