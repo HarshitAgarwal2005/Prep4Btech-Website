@@ -134,7 +134,7 @@ const Home: React.FC = () => {
                   making education accessible, organized, and engaging for everyone. 🚀
 <br/>
                   <br/>
-                   "Also Passionate about helping fellow B.Tech students succeed by providing easy access to 
+                   "Passionate about helping fellow B.Tech students succeed by providing easy access to 
                   well-organized academic resources, chapter-wise notes, assignments, previous year papers, 
                   and innovative project ideas.
                   
