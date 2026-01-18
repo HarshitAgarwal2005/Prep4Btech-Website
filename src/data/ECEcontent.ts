@@ -1,6 +1,6 @@
 import { ContentSubject, ContentItem } from '../types';
 
-export const ContentSubject: ContentSubject[] = [ 
+export const contentSubjects: ContentSubject[] = [
   {
     //SEMESTER 3
     id: 'aem1-s3-ece',
@@ -22,20 +22,19 @@ export const ContentSubject: ContentSubject[] = [
     description: 'Economic principles and financial management in engineering',
     icon: '💰'
   },
-  
-  { 
+  //SEMESTER 4
+  {
     id: 'tc-s4-ece',
     name: 'Technical Communication',
     code: '3EC102',
     year: 2,
-    semester: 3,
+    semester: 4,
     branch: 'ECE',
     description: 'Technical Communication',
     icon: '📝'
-    //SEMESTER 4
   },
 ];
-export const ContentItem: ContentItem[] = []; 
+export const contentItems: ContentItem[] = [];
 export const branches = [
   {
     id: 'ece',
