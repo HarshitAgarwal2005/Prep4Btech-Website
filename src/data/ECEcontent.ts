@@ -10,7 +10,7 @@ export const branches = [
   },
 ];
 
-export const contentSubjects: ContentSubject[] = [
+export const eceSubjects: ContentSubject[] = [
   {
     //SEMESTER 3
     id: 'aem1-s3-ece',
