@@ -1,11 +1,11 @@
 import { ContentSubject, ContentItem } from '../types';
-import { contentSubjects as eceSubjects, contentItems as eceItems } from './ECEcontent';  
+import { contentSubjects as eceSubjects, contentItems as eceItems } from './ECEcontent';
 
 export const contentSubjects: ContentSubject[] = [
   // First Year - Semester 1 (Common Subjects, differentiated by branch)
   // CSE
   {
-    id: 'math1-s1-cse',  
+    id: 'math1-s1-cse',
     name: 'Engineering Mathematics-I',
     code: '1FY2-01',
     year: 1,
@@ -1043,117 +1043,26 @@ export const contentSubjects: ContentSubject[] = [
 
   // ECE Subjects
   // ECE - SEM 3
-//   {
-//   id: 'aem1-s3-ece',
-//   name: 'Advance Engineering Mathematics-I',
-//   code: '3EC2-01',
-//   year: 2,
-//   semester: 3,
-//   branch: 'ECE',
-//   description: 'Advanced mathematical methods for engineering',
-//   icon: '📡'
-// },
-// {
-//   id: 'tc-s3-ece',
-//   name: 'Technical Communication',
-//   code: '3EC1-02 / 4EC1-02',
-//   year: 2,
-//   semester: 3,
-//   branch: 'ECE',
-//   description: 'Professional and technical communication skills',
-//   icon: '📡'
-// },
-// {
-//   id: 'mefa-s3-ece',
-//   name: 'Managerial Economics and Financial Accounting',
-//   code: '3EC1-03 / 4EC1-03',
-//   year: 2,
-//   semester: 3,
-//   branch: 'ECE',
-//   description: 'Economics and accounting fundamentals',
-//   icon: '📡'
-// },
-// {
-//   id: 'dsd-s3-ece',
-//   name: 'Digital System Design',
-//   code: '3EC4-04',
-//   year: 2,
-//   semester: 3,
-//   branch: 'ECE',
-//   description: 'Design of digital logic systems',
-//   icon: '📡'
-// },
-// {
-//   id: 'ss-s3-ece',
-//   name: 'Signals & Systems',
-//   code: '3EC4-05',
-//   year: 2,
-//   semester: 3,
-//   branch: 'ECE',
-//   description: 'Signal analysis and system behavior',
-//   icon: '📡'
-// },
-// {
-//   id: 'nt-s3-ece',
-//   name: 'Network Theory',
-//   code: '3EC4-06',
-//   year: 2,
-//   semester: 3,
-//   branch: 'ECE',
-//   description: 'Electrical network analysis techniques',
-//   icon: '📡'
-// },
-// {
-//   id: 'ed-s3-ece',
-//   name: 'Electronic Devices',
-//   code: '3EC4-07',
-//   year: 2,
-//   semester: 3,
-//   branch: 'ECE',
-//   description: 'Semiconductor devices and characteristics',
-//   icon: '📡'
-// },
-// {
-//   id: 'edl-s3-ece',
-//   name: 'Electronic Devices Lab',
-//   code: '3EC4-21',
-//   year: 2,
-//   semester: 3,
-//   branch: 'ECE',
-//   description: 'Practical experiments on electronic devices',
-//   icon: '📡'
-// },
-// {
-//   id: 'dsdl-s3-ece',
-//   name: 'Digital System Design Lab',
-//   code: '3EC4-22',
-//   year: 2,
-//   semester: 3,
-//   branch: 'ECE',
-//   description: 'Implementation of digital circuits',
-//   icon: '📡'
-// },
-// {
-//   id: 'spl-s3-ece',
-//   name: 'Signal Processing Lab',
-//   code: '3EC4-23',
-//   year: 2,
-//   semester: 3,
-//   branch: 'ECE',
-//   description: 'Signal processing using simulations',
-//   icon: '📡'
-// },
-// {
-//   id: 'cpl-s3-ece',
-//   name: 'Computer Programming Lab-I',
-//   code: '3EC3-24',
-//   year: 2,
-//   semester: 3,
-//   branch: 'ECE', 
-//   description: 'C programming and data structures',
-//   icon: '📡'
-// },
-  // semester 4 ece 
+  {
+    id: 'signals-s3-ece',
+    name: 'Signals and Systems',
+    code: 'EC301',
+    year: 2,
+    semester: 3,
+    branch: 'ECE',
+    description: 'Signal processing fundamentals',
+    icon: '📡'
+  },
+  {
+    id: 'analog-s3-ece',
+    name: 'Analog Electronics',
+    code: 'EC302',
+    year: 2,
+    semester: 3,
+    branch: 'ECE',
+    description: 'Analog circuit design and analysis',
+    icon: '📻'
+  },
 
   // EE Subjects
   // EE - Semester 3
@@ -6235,7 +6144,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     title: 'Open Elective-I UNIT-5',
     description: 'Open Elective',
     type: 'theory',
-    subjectId: 'oe1-s7-cse',
+    subjectId: 'oe1-s47-cse',
     fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
     viewUrl: 'https://docs.google.com/document/d/1hraL_TISSjNoJsIT57ekPoiaYmxLjBfY/edit?usp=drive_link&ouid=109272455612884300462&rtpof=true&sd=true'
@@ -6463,7 +6372,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     description: 'Software Testing and Validation Lab',
     type: 'lab',
     subjectId: 'stv-s8-cse',
-    fileSize: '1.3 MB', 
+    fileSize: '1.3 MB',
     uploadDate: '2024-02-25',
     viewUrl: 'https://drive.google.com/file/d/12bKR3ZiwOqAq-oVj1ygCFamMmYE2Dm5E/view?usp=drive_link'
   },
@@ -6479,12 +6388,12 @@ export const branches = [
     color: 'from-blue-500 to-cyan-500'
   },
   {
-    id: 'ece',  
+    id: 'ece',
     name: 'Electronics & Communication Engineering',
     code: 'ECE',
     description: 'Electronics and communication systems',
     icon: '📡',
-    color: 'from-green-500 to-emerald-500'   
+    color: 'from-green-500 to-emerald-500'
   },
   {
     id: 'ee',
