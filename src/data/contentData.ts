@@ -1043,26 +1043,26 @@ export const contentSubjects: ContentSubject[] = [
 
   // ECE Subjects
   // ECE - SEM 3
-  {
-    id: 'signals-s3-ece',
-    name: 'Signals and Systems',
-    code: 'EC301',
-    year: 2,
-    semester: 3,
-    branch: 'ECE',
-    description: 'Signal processing fundamentals',
-    icon: '📡'
-  },
-  {
-    id: 'analog-s3-ece',
-    name: 'Analog Electronics',
-    code: 'EC302',
-    year: 2,
-    semester: 3,
-    branch: 'ECE',
-    description: 'Analog circuit design and analysis',
-    icon: '📻'
-  },
+  // {
+  //   id: 'signals-s3-ece',
+  //   name: 'Signals and Systems',
+  //   code: 'EC301',
+  //   year: 2,
+  //   semester: 3,
+  //   branch: 'ECE',
+  //   description: 'Signal processing fundamentals',
+  //   icon: '📡'
+  // },
+  // {
+  //   id: 'analog-s3-ece',
+  //   name: 'Analog Electronics', 
+  //   code: 'EC302',
+  //   year: 2,
+  //   semester: 3,
+  //   branch: 'ECE',
+  //   description: 'Analog circuit design and analysis',
+  //   icon: '📻'
+  // },
 
   // EE Subjects
   // EE - Semester 3
