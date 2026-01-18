@@ -6478,14 +6478,14 @@ export const branches = [
     icon: '💻',
     color: 'from-blue-500 to-cyan-500'
   },
-  {
-    id: 'ece',  
-    name: 'Electronics & Communication Engineering',
-    code: 'ECE',
-    description: 'Electronics and communication systems',
-    icon: '📡',
-    color: 'from-green-500 to-emerald-500' 
-  },
+  // {
+  //   id: 'ece',  
+  //   name: 'Electronics & Communication Engineering',
+  //   code: 'ECE',
+  //   description: 'Electronics and communication systems',
+  //   icon: '📡',
+  //   color: 'from-green-500 to-emerald-500'  
+  // },
   {
     id: 'ee',
     name: 'Electrical Engineering',
