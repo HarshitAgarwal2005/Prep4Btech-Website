@@ -19,7 +19,7 @@ import About from './components/About';
 import AskDoubt from './components/AskDoubt';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsOfService from './components/TermsOfService';
-import DataUploader from './components/DataUploader';
+
 
 // Component to handle scroll to top on route change
 const ScrollToTop: React.FC = () => {
@@ -79,7 +79,7 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                 <Route path="/terms-of-service" element={<TermsOfService />} />
-               <Route path="/upload-data" element={<DataUploader />} />
+               
                
               </Routes>
             </main>
