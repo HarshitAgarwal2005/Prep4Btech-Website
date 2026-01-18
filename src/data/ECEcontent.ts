@@ -32,7 +32,7 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Economic principles and financial management in engineering',
     icon: '💰'
   },
-  //SEMESTER 4
+  
   {
     id: 'tc-s4-ece',
     name: 'Technical Communication',
@@ -42,6 +42,7 @@ export const contentSubjects: ContentSubject[] = [
     branch: 'ECE',
     description: 'Technical Communication',
     icon: '📝'
+    //SEMESTER 4
   },
 ];
 export const contentItems: ContentItem[] = [];
