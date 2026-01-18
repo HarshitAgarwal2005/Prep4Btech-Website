@@ -2,8 +2,7 @@ import { ContentSubject, ContentItem } from '../types';
 
 export const contentSubjects: ContentSubject[] = [
   {
-    //SEMESTER 3
-    id: 'aem1-s3-ece',
+    // SEMESTER 3
     name: 'Advance Engg. Mathematics 1',
     code: '3EC201',
     year: 2,
@@ -22,7 +21,7 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Economic principles and financial management in engineering',
     icon: '💰'
   },
-  //SEMESTER 4
+  // SEMESTER 4
   {
     id: 'tc-s4-ece',
     name: 'Technical Communication',
