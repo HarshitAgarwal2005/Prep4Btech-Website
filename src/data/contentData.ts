@@ -6388,7 +6388,7 @@ export const branches = [
     color: 'from-blue-500 to-cyan-500'
   },
   {
-    id: 'ece', 
+    id: 'ece',  
     name: 'Electronics & Communication Engineering',
     code: 'ECE',
     description: 'Electronics and communication systems',
