@@ -1153,6 +1153,7 @@ export const contentSubjects: ContentSubject[] = [
   description: 'C programming and data structures',
   icon: '📡'
 },
+  // semester 4 ece 
 
   // EE Subjects
   // EE - Semester 3
