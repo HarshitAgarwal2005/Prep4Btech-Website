@@ -6395,4 +6395,12 @@ export const branches = [
     icon: '⚙️',
     color: 'from-red-500 to-pink-500'
   },
+  {
+    id: 'civil',
+    name: 'Civil Engineering',
+    code: 'CIVIL',
+    description: 'Infrastructure and construction engineering',
+    icon: '🏗️',
+    color: 'from-purple-500 to-indigo-500'
+  }
 ];
