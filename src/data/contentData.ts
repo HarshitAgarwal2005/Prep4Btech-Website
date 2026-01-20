@@ -1408,6 +1408,7 @@ export const contentSubjects: ContentSubject[] = [
 
 ...eceSubjects,
 ...mechSubjects,
+...civilSubjects,
 ];
 
 export const contentItems: ContentItem[] = [
