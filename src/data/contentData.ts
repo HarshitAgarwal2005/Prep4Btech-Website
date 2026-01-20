@@ -1,5 +1,6 @@
 import { ContentSubject, ContentItem } from '../types';
 import { contentSubjects as eceSubjects, contentItems as eceItems } from './ECEcontent';
+import { contentSubjects as eceSubjects, contentItems as eceItems } from './MECHcontent';
 
 export const contentSubjects: ContentSubject[] = [
   // First Year - Semester 1 (Common Subjects, differentiated by branch)
@@ -1404,29 +1405,8 @@ export const contentSubjects: ContentSubject[] = [
     icon: '📖'
   },
 
-  // MECH Subjects
-  // MECH - 2ND YEAR - SEM 3
-  {
-    id: 'thermo-s3-mech',
-    name: 'Thermodynamics',
-    code: 'ME301',
-    year: 2,
-    semester: 3,
-    branch: 'MECH',
-    description: 'Heat and energy transfer principles',
-    icon: '🌡️'
-  },
-  {
-    id: 'som-s3-mech',
-    name: 'Strength of Materials',
-    code: 'ME302',
-    year: 2,
-    semester: 3,
-    branch: 'MECH',
-    description: 'Material properties and stress analysis',
-    icon: '🔧'
-  },
-...eceSubjects
+...eceSubjects,
+...mechSubjects,
 ];
 
 export const contentItems: ContentItem[] = [
@@ -6377,6 +6357,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
     viewUrl: 'https://drive.google.com/file/d/12bKR3ZiwOqAq-oVj1ygCFamMmYE2Dm5E/view?usp=drive_link'
   },
 ...eceItems,
+...mechItems,
 ];
 export const branches = [
   {
