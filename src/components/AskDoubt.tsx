@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { MessageCircle, X, Send, Upload, CheckCircle, AlertCircle, Bot, ArrowLeft, Sparkles, BookOpen, Layers, Calendar } from 'lucide-react';
 // Import your real data to populate dropdowns dynamically
 import { branches, contentSubjects } from '../data/contentData';
-import {  contentSubjects as eceSubjects } from '../data/ECEcontent';
-import {  contentSubjects } from '../data/MECHcontent';
-import { contentSubjects } from '../data/CIVLcontent';
+
+// import {  contentSubjects as eceSubjects } from '../data/ECEcontent';
+// import {  contentSubjects } from '../data/MECHcontent';
+// import { contentSubjects } from '../data/CIVLcontent';
 
 const AskDoubt: React.FC = () => {
   // --- UI State ---
