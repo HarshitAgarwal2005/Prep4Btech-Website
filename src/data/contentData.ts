@@ -6392,5 +6392,5 @@ export const branches = [
     description: 'Mechanical systems and manufacturing',
     icon: '⚙️',
     color: 'from-red-500 to-pink-500'
-  }
+  },
 ];
