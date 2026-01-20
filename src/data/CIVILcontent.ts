@@ -15,5 +15,5 @@ export const branches = [
     description: 'Infrastructure and construction engineering',
     icon: '🏗️',
     color: 'from-purple-500 to-indigo-500'
-    }
+    },
 ];
