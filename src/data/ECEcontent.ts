@@ -124,7 +124,7 @@ export const contentSubjects: ContentSubject[] = [
     icon: '📝'
   },
 ];
-export const contentItems: ContentItem[] = [];
+export const eceItems: ContentItem[] = [];
 export const branches = [
   {
     id: 'ece',
