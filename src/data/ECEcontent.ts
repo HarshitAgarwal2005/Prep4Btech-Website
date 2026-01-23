@@ -1,6 +1,6 @@
 import { ContentSubject, ContentItem } from '../types';
 
-export const contentSubjects: ContentSubject[] = [
+export const eceSubjects: ContentSubject[] = [
 //   {
 //   id: 'aem1-s3-ece',
 //   name: 'Advance Engineering Mathematics-I',
