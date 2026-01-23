@@ -25,7 +25,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '🔧'
   },
 ];
-export const contentItems: ContentItem[] = [];
+export const mechItems: ContentItem[] = [];
 export const branches = [
   {
     id: 'mech',
