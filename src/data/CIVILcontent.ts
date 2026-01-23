@@ -6,7 +6,7 @@ export const civilSubjects: ContentSubject[] = [
   // CIVL - 2ND YEAR - SEM 3
  
 ];
-export const contentItems: ContentItem[] = [];
+export const civilItems: ContentItem[] = [];
 export const branches = [
     {
     id: 'civil',
