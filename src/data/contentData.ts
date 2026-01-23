@@ -1,7 +1,10 @@
 import { ContentSubject, ContentItem } from '../types';
-import { contentSubjects as eceSubjects, contentItems as eceItems } from './ECEcontent';
-import { contentSubjects as mechSubjects, contentItems as mechItems } from './MECHcontent';
-import { contentSubjects as civilSubjects, contentItems as civilItems } from './CIVILcontent';
+import { eceSubjects,  eceItems } from './ECEcontent';
+import {  mechSubjects, mechItems } from './MECHcontent';
+import { civilSubjects, civilItems } from './CIVILcontent';
+// import { contentSubjects as eceSubjects, contentItems as eceItems } from './ECEcontent';
+// import { contentSubjects as mechSubjects, contentItems as mechItems } from './MECHcontent';
+// import { contentSubjects as civilSubjects, contentItems as civilItems } from './CIVILcontent';
 
 export const contentSubjects: ContentSubject[] = [
   // First Year - Semester 1 (Common Subjects, differentiated by branch)
