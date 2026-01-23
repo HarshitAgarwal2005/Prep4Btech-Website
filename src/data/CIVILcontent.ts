@@ -1,4 +1,4 @@
-+++++++++++++++++++++++++++++++++import { ContentSubject, ContentItem } from '../types';
+import { ContentSubject, ContentItem } from '../types';
 
 export const civilSubjects: ContentSubject[] = [
   
