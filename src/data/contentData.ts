@@ -6363,7 +6363,7 @@ viewUrl:'https://drive.google.com/file/d/1_axNV1orwJlW_P4EgARKypzfsEt2R-H6/view?
   },
 ...eceItems,
 ...mechItems,
-...civlItems,
+...civilItems,
 ];
 export const branches = [
   {
