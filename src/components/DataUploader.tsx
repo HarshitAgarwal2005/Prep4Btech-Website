@@ -1,77 +1,3 @@
-// import React, { useState } from 'react';
-// import { supabase } from '../supabaseClient';
-// import { contentSubjects, contentItems } from '../data/contentData';
-
-// const DataUploader: React.FC = () => {
-//   const [status, setStatus] = useState('Idle');
-
-//   const uploadData = async () => {
-//     setStatus('Uploading Subjects...');
-    
-//     // 1. Upload Subjects
-//     const { error: subjectError } = await supabase
-//       .from('subjects')
-//       .upsert(contentSubjects.map(s => ({
-//         id: s.id,
-//         name: s.name,
-//         code: s.code,
-//         year: s.year,
-//         semester: s.semester,
-//         branch: s.branch,
-//         description: s.description,
-//         icon: s.icon
-//       })));
-
-//     if (subjectError) {
-//       console.error(subjectError);
-//       setStatus('Error uploading subjects!');
-//       return;
-//     }
-
-//     setStatus('Uploading Content...');
-
-//     // 2. Upload Content (Batching to avoid timeouts)
-//     const chunkSize = 50;
-//     for (let i = 0; i < contentItems.length; i += chunkSize) {
-//       const chunk = contentItems.slice(i, i + chunkSize);
-//       const { error: contentError } = await supabase
-//         .from('content_items')
-//         .upsert(chunk.map(c => ({
-//           id: c.id,
-//           title: c.title,
-//           description: c.description,
-//           type: c.type,
-//           subject_id: c.subjectId,
-//           view_url: c.viewUrl,
-//           file_size: c.fileSize,
-//           upload_date: new Date(c.uploadDate).toISOString()
-//         })));
-        
-//       if (contentError) {
-//         console.error(contentError);
-//         setStatus(`Error uploading content at index ${i}`);
-//         return;
-//       }
-//     }
-
-//     setStatus('Success! All data uploaded to Supabase.');
-//   };
-
-//   return (
-//     <div className="p-10 text-center">
-//       <h1 className="text-2xl font-bold mb-4">Database Seeder</h1>
-//       <p className="mb-4">Click to move local data to Supabase</p>
-//       <button 
-//         onClick={uploadData}
-//         className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
-//       >
-//         {status}
-//       </button>
-//     </div>
-//   );
-// };
-
-// export default DataUploader;
 import React, { useState } from 'react';
 import { supabase } from '../supabaseClient';
 import { contentSubjects, contentItems } from '../data/contentData';
@@ -82,32 +8,57 @@ const DataUploader: React.FC = () => {
 
   const addLog = (msg: string) => setLogs(prev => [...prev, msg]);
 
+  const validateData = () => {
+    addLog("🔍 Validating data integrity...");
+    
+    // 1. Get all valid Subject IDs
+    const validSubjectIds = new Set(contentSubjects.map(s => s.id));
+    const orphans = [];
+
+    // 2. Check every content item
+    for (const item of contentItems) {
+      if (!validSubjectIds.has(item.subjectId)) {
+        orphans.push({
+          itemId: item.id,
+          title: item.title,
+          badSubjectId: item.subjectId
+        });
+      }
+    }
+
+    if (orphans.length > 0) {
+      addLog(`❌ FOUND ${orphans.length} ORPHAN ITEMS!`);
+      addLog("The following items have subjectIds that don't exist:");
+      orphans.forEach(o => {
+        addLog(`- Item: "${o.title}" points to missing subject: "${o.badSubjectId}"`);
+      });
+      addLog("⚠️ FIX THESE IN YOUR CODE BEFORE UPLOADING.");
+      return false;
+    }
+
+    addLog("✅ Data integrity check passed! All subjects exist.");
+    return true;
+  };
+
   const uploadData = async () => {
     setIsLoading(true);
-    setLogs(['Starting upload process...']);
+    setLogs(['Starting process...']);
+
+    // Step 1: Validate locally first
+    if (!validateData()) {
+      setIsLoading(false);
+      return; 
+    }
 
     try {
-      // 1. Process Subjects (Deduplicate and Merge Branches)
-      addLog(`Processing ${contentSubjects.length} subjects...`);
+      // Step 2: Upload Subjects
+      addLog(`Uploading ${contentSubjects.length} subjects...`);
       
+      // Deduplicate subjects just in case
       const uniqueSubjectsMap = new Map();
-
-      contentSubjects.forEach(sub => {
-        if (uniqueSubjectsMap.has(sub.id)) {
-          // If subject exists, merge the branch names
-          const existing = uniqueSubjectsMap.get(sub.id);
-          if (!existing.branch.includes(sub.branch)) {
-            existing.branch = `${existing.branch}, ${sub.branch}`;
-          }
-        } else {
-          uniqueSubjectsMap.set(sub.id, { ...sub });
-        }
-      });
-
+      contentSubjects.forEach(sub => uniqueSubjectsMap.set(sub.id, sub));
       const cleanSubjects = Array.from(uniqueSubjectsMap.values());
-      addLog(`Merged into ${cleanSubjects.length} unique subjects.`);
 
-      // 2. Upload Subjects
       const { error: subjectError } = await supabase
         .from('subjects')
         .upsert(cleanSubjects.map(s => ({
@@ -121,18 +72,16 @@ const DataUploader: React.FC = () => {
           icon: s.icon
         })), { onConflict: 'id' });
 
-      if (subjectError) {
-        throw new Error(`Subject Upload Failed: ${subjectError.message} (Code: ${subjectError.code})`);
-      }
+      if (subjectError) throw subjectError;
       addLog('✅ Subjects uploaded successfully!');
 
-      // 3. Upload Content (Batching)
-      addLog(`Processing ${contentItems.length} content items...`);
+      // Step 3: Upload Content
+      addLog(`Uploading ${contentItems.length} content items...`);
       const chunkSize = 50;
       for (let i = 0; i < contentItems.length; i += chunkSize) {
         const chunk = contentItems.slice(i, i + chunkSize);
         
-        // Remove duplicate IDs within the same batch just in case
+        // Remove duplicates in the chunk
         const uniqueChunk = Array.from(new Map(chunk.map(item => [item.id, item])).values());
 
         const { error: contentError } = await supabase
@@ -145,12 +94,10 @@ const DataUploader: React.FC = () => {
             subject_id: c.subjectId,
             view_url: c.viewUrl,
             file_size: c.fileSize,
-            upload_date: new Date(c.uploadDate).toISOString() // Ensure date format
+            upload_date: new Date(c.uploadDate).toISOString()
           })), { onConflict: 'id' });
 
-        if (contentError) {
-           throw new Error(`Content Batch ${i} Failed: ${contentError.message}`);
-        }
+        if (contentError) throw new Error(`Batch ${i} failed: ${contentError.message}`);
         addLog(`✅ Batch ${i} - ${i + chunk.length} uploaded.`);
       }
 
@@ -165,8 +112,8 @@ const DataUploader: React.FC = () => {
   };
 
   return (
-    <div className="p-8 max-w-2xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6">Database Seeder</h1>
+    <div className="p-8 max-w-3xl mx-auto">
+      <h1 className="text-3xl font-bold mb-6">Database Seeder & Validator</h1>
       
       <button 
         onClick={uploadData}
@@ -175,15 +122,15 @@ const DataUploader: React.FC = () => {
           isLoading ? 'bg-gray-400 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-700 text-white'
         }`}
       >
-        {isLoading ? 'Uploading...' : 'Start Upload'}
+        {isLoading ? 'Running Checks & Uploading...' : 'Validate & Upload'}
       </button>
 
-      <div className="bg-gray-100 p-4 rounded-lg h-96 overflow-y-auto font-mono text-sm border border-gray-300">
+      <div className="bg-gray-900 text-green-400 p-4 rounded-lg h-96 overflow-y-auto font-mono text-xs border border-gray-700">
         {logs.length === 0 ? (
           <p className="text-gray-500">Logs will appear here...</p>
         ) : (
           logs.map((log, i) => (
-            <div key={i} className={`mb-2 ${log.includes('ERROR') ? 'text-red-600 font-bold' : 'text-gray-700'}`}>
+            <div key={i} className={`mb-1 ${log.includes('❌') ? 'text-red-400 font-bold bg-red-900/20 p-1' : ''}`}>
               {log}
             </div>
           ))
