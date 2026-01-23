@@ -1,6 +1,6 @@
 import { ContentSubject, ContentItem } from '../types';
 
-export const contentSubjects: ContentSubject[] = [
+export const civilSubjects: ContentSubject[] = [
   
   // CIVIL Subjects
   // CIVL - 2ND YEAR - SEM 3
