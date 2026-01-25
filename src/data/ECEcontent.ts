@@ -1242,6 +1242,608 @@ export const eceItems: ContentItem[] = [
     uploadDate: '2024-08-20',
     viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
   },
+  /* ================== SEMESTER 5 ============ */
+  // ================= 5EC3-01: Computer Architecture =================
+  {
+    id: 'ca-unit1-ece',
+    title: 'Unit 1 & 2: Introduction & Structure',
+    description: 'Functional units, Performance issues, Instruction sets, Addressing modes',
+    type: 'theory',
+    subjectId: 'ca-s5-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ca-unit3-ece',
+    title: 'Unit 3: Processor Organization',
+    description: 'ALU design, Floating Point arithmetic, IEEE 754 formats',
+    type: 'theory',
+    subjectId: 'ca-s5-ece',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ca-unit4-ece',
+    title: 'Unit 4: Control Design',
+    description: 'Hardwired vs Microprogrammed control, Microinstruction sequencing',
+    type: 'theory',
+    subjectId: 'ca-s5-ece',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ca-unit5-ece',
+    title: 'Unit 5: Memory Organization',
+    description: 'RAM/ROM, Cache memory, Virtual memory, Associative memories',
+    type: 'theory',
+    subjectId: 'ca-s5-ece',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ca-unit6-ece',
+    title: 'Unit 6: System Organization',
+    description: 'Input/Output systems, DMA, Pipelining, Parallel processing',
+    type: 'theory',
+    subjectId: 'ca-s5-ece',
+    fileSize: '3.6 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 5EC4-02: Electromagnetics Waves =================
+  {
+    id: 'emw-unit2-ece',
+    title: 'Unit 2: Transmission Lines',
+    description: 'Propagation constant, Smith Chart, Impedance Matching, VSWR',
+    type: 'theory',
+    subjectId: 'emw-s5-ece',
+    fileSize: '4.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'emw-unit3-ece',
+    title: 'Unit 3: Maxwell’s Equations',
+    description: 'Vector calculus basics, Boundary conditions at Media Interface',
+    type: 'theory',
+    subjectId: 'emw-s5-ece',
+    fileSize: '3.0 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'emw-unit4-ece',
+    title: 'Unit 4: Uniform Plane Wave',
+    description: 'Wave propagation, Polarization, Poynting vector, Skin effect',
+    type: 'theory',
+    subjectId: 'emw-s5-ece',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'emw-unit5-ece',
+    title: 'Unit 5: Plane Waves at Interface',
+    description: 'Reflection, Refraction, Total internal reflection, Brewster angle',
+    type: 'theory',
+    subjectId: 'emw-s5-ece',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'emw-unit6-ece',
+    title: 'Unit 6 & 7: Waveguides & Radiation',
+    description: 'Rectangular waveguides, TE/TM modes, Hertz dipole, Antenna parameters',
+    type: 'theory',
+    subjectId: 'emw-s5-ece',
+    fileSize: '5.0 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 5EC4-03: Control System =================
+  {
+    id: 'cs-unit2-ece',
+    title: 'Unit 2: Control Problem & Models',
+    description: 'Transfer function, Block diagrams, Signal flow graphs, Components',
+    type: 'theory',
+    subjectId: 'cs-s5-ece',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'cs-unit3-ece',
+    title: 'Unit 3: Feedback & Stability',
+    description: 'Routh stability, Steady-state accuracy, PID controllers',
+    type: 'theory',
+    subjectId: 'cs-s5-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'cs-unit4-ece',
+    title: 'Unit 4: Time Response Analysis',
+    description: 'Second-order systems, Root locus method, Lead/Lag compensation',
+    type: 'theory',
+    subjectId: 'cs-s5-ece',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'cs-unit5-ece',
+    title: 'Unit 5: Frequency Response',
+    description: 'Bode plot, Nyquist plot, Stability criterion, Frequency domain design',
+    type: 'theory',
+    subjectId: 'cs-s5-ece',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'cs-unit6-ece',
+    title: 'Unit 6: State Variable Analysis',
+    description: 'State models, Controllability, Observability, State equations',
+    type: 'theory',
+    subjectId: 'cs-s5-ece',
+    fileSize: '3.0 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 5EC4-04: Digital Signal Processing =================
+  {
+    id: 'dsp-unit2-ece',
+    title: 'Unit 2: Discrete Time Signals',
+    description: 'Sampling, Z-Transform, LSI systems analysis, Inverse systems',
+    type: 'theory',
+    subjectId: 'dsp-s5-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'dsp-unit3-ece',
+    title: 'Unit 3: DFT and FFT',
+    description: 'Discrete Fourier Transform, Fast Fourier Transform Algorithm',
+    type: 'theory',
+    subjectId: 'dsp-s5-ece',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'dsp-unit4-ece',
+    title: 'Unit 4: Digital Filter Design',
+    description: 'FIR (Window method), IIR (Butterworth, Chebyshev), Filter approximations',
+    type: 'theory',
+    subjectId: 'dsp-s5-ece',
+    fileSize: '4.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'dsp-unit5-ece',
+    title: 'Unit 5: Advanced DSP',
+    description: 'Finite register length effects, Multirate signal processing, Applications',
+    type: 'theory',
+    subjectId: 'dsp-s5-ece',
+    fileSize: '3.0 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 5EC4-05: Microwave Theory & Techniques =================
+  {
+    id: 'mtt-unit3-ece',
+    title: 'Unit 3 & 4: Microwave Transmission',
+    description: 'TEM/TE/TM modes, Coaxial lines, Waveguides, Microstrip lines',
+    type: 'theory',
+    subjectId: 'mtt-s5-ece',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'mtt-unit5-ece',
+    title: 'Unit 5: Microwave Network Analysis',
+    description: 'Scattering Parameters (S-Matrix), Equivalent voltages/currents',
+    type: 'theory',
+    subjectId: 'mtt-s5-ece',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'mtt-unit6-ece',
+    title: 'Unit 6: Microwave Devices',
+    description: 'Passive (Couplers, Dividers), Active (Gunn, IMPATT, Klystron, TWT)',
+    type: 'theory',
+    subjectId: 'mtt-s5-ece',
+    fileSize: '4.8 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'mtt-unit7-ece',
+    title: 'Unit 7: Design Principles',
+    description: 'Impedance matching, Amplifier design, Microwave Antennas',
+    type: 'theory',
+    subjectId: 'mtt-s5-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= SEMESTER 5 ELECTIVES (Selected) =================
+  {
+    id: 'bme-unit2-ece',
+    title: 'Bio-Medical: Transducers & Potentials',
+    description: 'ECG, EMG, EEG electrodes, Transducers for displacement/flow',
+    type: 'theory',
+    subjectId: 'bme-s5-ece',
+    fileSize: '3.0 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'es-unit2-ece',
+    title: 'Embedded Systems: Design Concepts',
+    description: 'Microcontroller cores, Embedded memories, Interfacing',
+    type: 'theory',
+    subjectId: 'es-s5-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ptsp-unit3-ece',
+    title: 'Probability: Random Variables',
+    description: 'Discrete/Continuous RVs, PDF, CDF, Joint distributions',
+    type: 'theory',
+    subjectId: 'ptsp-s5-ece',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'sc-unit3-ece',
+    title: 'Sat Comm: Orbital Mechanics',
+    description: 'Kepler’s laws, Apogee/Perigee, Orbital elements, Sub-systems',
+    type: 'theory',
+    subjectId: 'sc-s5-ece',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= SEMESTER 5 LAB MANUALS =================
+  {
+    id: 'rfsl-manual-ece',
+    title: 'RF Simulation Lab Manual',
+    description: 'Planar transmission lines, Couplers, Dividers, Filters design',
+    type: 'lab',
+    subjectId: 'rfsl-s5-ece',
+    fileSize: '4.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'dspl-manual-ece',
+    title: 'Digital Signal Processing Lab Manual',
+    description: 'Signal generation, Convolution, DFT/FFT, Filter design (MATLAB)',
+    type: 'lab',
+    subjectId: 'dspl-s5-ece',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'mwl-manual-ece',
+    title: 'Microwave Lab Manual',
+    description: 'VSWR measurement, Gunn diode, Directional couplers, Horn antenna',
+    type: 'lab',
+    subjectId: 'mwl-s5-ece',
+    fileSize: '4.8 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  /* ==================================================================================
+   * SEMESTER 6
+   * ================================================================================== */
+
+  // ================= 6EC3-01: Power Electronics =================
+  {
+    id: 'pe-unit2-ece',
+    title: 'Unit 2: Semiconductor Power Devices',
+    description: 'SCR, MOSFET, IGBT, GTO, V-I Characteristics, Protection',
+    type: 'theory',
+    subjectId: 'pe-s6-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'pe-unit3-ece',
+    title: 'Unit 3: Converters',
+    description: 'Single/Three phase converters, Bridge converters, Performance',
+    type: 'theory',
+    subjectId: 'pe-s6-ece',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'pe-unit4-ece',
+    title: 'Unit 4 & 5: Inverters & Power Supplies',
+    description: 'VSI, CSI, PWM control, Choppers, SMPS, UPS',
+    type: 'theory',
+    subjectId: 'pe-s6-ece',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'pe-unit6-ece',
+    title: 'Unit 6: Motor Control',
+    description: 'DC motor speed control, Induction motor control',
+    type: 'theory',
+    subjectId: 'pe-s6-ece',
+    fileSize: '2.8 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 6EC4-02: Computer Network =================
+  {
+    id: 'cn-unit2-ece',
+    title: 'Unit 2: Queuing Theory',
+    description: 'M/M/1 queues, Little’s formula, Mathematical models',
+    type: 'theory',
+    subjectId: 'cn-s6-ece',
+    fileSize: '3.0 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'cn-unit3-ece',
+    title: 'Unit 3: Application Layer',
+    description: 'HTTP, DNS, FTP, Packet switching, Socket programming',
+    type: 'theory',
+    subjectId: 'cn-s6-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'cn-unit4-ece',
+    title: 'Unit 4: Transport Layer',
+    description: 'TCP, UDP, Congestion Control, QoS, RPC',
+    type: 'theory',
+    subjectId: 'cn-s6-ece',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'cn-unit5-ece',
+    title: 'Unit 5 & 6: Network & Link Layer',
+    description: 'Routing, IP, ALOHA, Ethernet, LAN, SDN basics',
+    type: 'theory',
+    subjectId: 'cn-s6-ece',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 6EC4-03: Fiber Optics Communications =================
+  {
+    id: 'foc-unit2-ece',
+    title: 'Unit 2: Optical Fiber Basics',
+    description: 'Vector nature of light, Ray model, Modes, Step index fiber',
+    type: 'theory',
+    subjectId: 'foc-s6-ece',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'foc-unit3-ece',
+    title: 'Unit 3: Signal Degradation',
+    description: 'Attenuation, Dispersion, OTDR measurements',
+    type: 'theory',
+    subjectId: 'foc-s6-ece',
+    fileSize: '2.8 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'foc-unit4-ece',
+    title: 'Unit 4: Sources and Detectors',
+    description: 'LED, Lasers, PIN diodes, APD, Optical receivers, Link design',
+    type: 'theory',
+    subjectId: 'foc-s6-ece',
+    fileSize: '3.6 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'foc-unit5-ece',
+    title: 'Unit 5 & 6: Advanced FOC',
+    description: 'Optical switches, EDFA, WDM, Nonlinear effects',
+    type: 'theory',
+    subjectId: 'foc-s6-ece',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 6EC4-04: Antennas and Propagation =================
+  {
+    id: 'ap-unit2-ece',
+    title: 'Unit 2: Antenna Fundamentals',
+    description: 'Radiation pattern, Gain, Directivity, Friis equation',
+    type: 'theory',
+    subjectId: 'ap-s6-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ap-unit3-ece',
+    title: 'Unit 3: Wire Antennas',
+    description: 'Dipoles, Loops, Monopoles, Mobile communication antennas',
+    type: 'theory',
+    subjectId: 'ap-s6-ece',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ap-unit4-ece',
+    title: 'Unit 4 & 5: Aperture & Broadband',
+    description: 'Horns, Reflector antennas, Yagi-Uda, Log-periodic',
+    type: 'theory',
+    subjectId: 'ap-s6-ece',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ap-unit6-ece',
+    title: 'Unit 6 & 7: Microstrip & Arrays',
+    description: 'Patch antennas, Array synthesis, Smart antennas, Propagation',
+    type: 'theory',
+    subjectId: 'ap-s6-ece',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 6EC4-05: Information Theory and Coding =================
+  {
+    id: 'itc-unit2-ece',
+    title: 'Unit 2: Information Theory Basics',
+    description: 'Entropy, Shannon’s theorem, Source coding',
+    type: 'theory',
+    subjectId: 'itc-s6-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'itc-unit3-ece',
+    title: 'Unit 3: Channel Capacity',
+    description: 'Markov sources, Noisy coding theorem, Channel bounds',
+    type: 'theory',
+    subjectId: 'itc-s6-ece',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'itc-unit4-ece',
+    title: 'Unit 4: Coding Techniques',
+    description: 'Huffman codes, Cyclic codes, Convolutional codes',
+    type: 'theory',
+    subjectId: 'itc-s6-ece',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= SEMESTER 6 ELECTIVES (Selected) =================
+  {
+    id: 'mems-unit3-ece',
+    title: 'MEMS: Mechanics & Fabrication',
+    description: 'Stress/Strain, Scaling effects, Etching, Micromachining',
+    type: 'theory',
+    subjectId: 'mems-s6-ece',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ne-unit3-ece',
+    title: 'Nano Electronics: Devices',
+    description: 'CMOS scaling, FinFETs, CNT, Graphene, Single electron transistors',
+    type: 'theory',
+    subjectId: 'ne-s6-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'nnfl-unit3-ece',
+    title: 'Neural Networks: Models',
+    description: 'Perceptron, Back-propagation, Multi-layer networks',
+    type: 'theory',
+    subjectId: 'nnfl-s6-ece',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'hse-unit2-ece',
+    title: 'High Speed: Signal Integrity',
+    description: 'Transmission lines, Crosstalk, Noise analysis, RF Amplifiers',
+    type: 'theory',
+    subjectId: 'hse-s6-ece',
+    fileSize: '3.6 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= SEMESTER 6 LAB MANUALS =================
+  {
+    id: 'cnl-manual-ece',
+    title: 'Computer Network Lab Manual',
+    description: 'TCP/IP protocols, Network simulation (ALOHA, Routing), LAN study',
+    type: 'lab',
+    subjectId: 'cnl-s6-ece',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'apl-manual-ece',
+    title: 'Antenna Lab Manual',
+    description: 'Radiation patterns, Dipole/Yagi antennas, Optical fiber links',
+    type: 'lab',
+    subjectId: 'apl-s6-ece',
+    fileSize: '4.5 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'edl-manual-ece',
+    title: 'Electronics Design Lab Manual',
+    description: 'Op-Amp circuits, Filters, Oscillators, 555 Timer, Amplifiers',
+    type: 'lab',
+    subjectId: 'edl-s6-ece',
+    fileSize: '5.0 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'pel-manual-ece',
+    title: 'Power Electronics Lab Manual',
+    description: 'SCR characteristics, Rectifiers, Inverters, Motor speed control',
+    type: 'lab',
+    subjectId: 'pel-s6-ece',
+    fileSize: '4.8 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  }
 ];
 export const branches = [
   {
