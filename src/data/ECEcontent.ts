@@ -497,58 +497,6 @@ export const eceItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
   },
 
-  // ================= 3EC1-03: Managerial Economics & Financial Accounting =================
-  // {
-  //   id: 'mefa-unit1-ece',
-  //   title: 'Unit 1: Basic Economic Concepts',
-  //   description: 'Scope of economics, scarcity, choice, national income concepts',
-  //   type: 'theory',
-  //   subjectId: 'mefa-s3-ece',
-  //   fileSize: '2.0 MB',
-  //   uploadDate: '2024-08-05',
-  //   viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  // },
-  // {
-  //   id: 'mefa-unit2-ece',
-  //   title: 'Unit 2: Demand and Supply Analysis',
-  //   description: 'Determinants, elasticity, forecasting, supply function',
-  //   type: 'theory',
-  //   subjectId: 'mefa-s3-ece',
-  //   fileSize: '2.2 MB',
-  //   uploadDate: '2024-08-05',
-  //   viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  // },
-  // {
-  //   id: 'mefa-unit3-ece',
-  //   title: 'Unit 3: Production and Cost Analysis',
-  //   description: 'Production function, returns to scale, cost concepts and curves',
-  //   type: 'theory',
-  //   subjectId: 'mefa-s3-ece',
-  //   fileSize: '2.3 MB',
-  //   uploadDate: '2024-08-05',
-  //   viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  // },
-  // {
-  //   id: 'mefa-unit4-ece',
-  //   title: 'Unit 4: Market Structure',
-  //   description: 'Perfect competition, Monopoly, Monopolistic competition, Oligopoly',
-  //   type: 'theory',
-  //   subjectId: 'mefa-s3-ece',
-  //   fileSize: '1.8 MB',
-  //   uploadDate: '2024-08-05',
-  //   viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  // },
-  // {
-  //   id: 'mefa-unit5-ece',
-  //   title: 'Unit 5: Financial Statement Analysis',
-  //   description: 'Balance sheet, P&L statement, ratio analysis, cash-flow, capital budgeting',
-  //   type: 'theory',
-  //   subjectId: 'mefa-s3-ece',
-  //   fileSize: '3.0 MB',
-  //   uploadDate: '2024-08-05',
-  //   viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  // },
-
   // ================= 3EC4-04: Digital System Design =================
   {
     id: 'dsd-unit1-ece',
@@ -898,48 +846,6 @@ export const eceItems: ContentItem[] = [
     type: 'theory',
     subjectId: 'mefa-s4-ece',
     fileSize: '3.1 MB',
-    uploadDate: '2024-08-05',
-    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  },
-
-  // ================= 4EC1-02: Technical Communication =================
-  {
-    id: 'tc-unit1-ece',
-    title: 'Unit 1: Intro to Technical Communication',
-    description: 'Definition, skills (LSRW), linguistic ability, style',
-    type: 'theory',
-    subjectId: 'tc-s4-ece',
-    fileSize: '2.0 MB',
-    uploadDate: '2024-08-05',
-    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  },
-  {
-    id: 'tc-unit2-ece',
-    title: 'Unit 2: Comprehension & Design',
-    description: 'Reading manuals, Note-making, Document design strategies',
-    type: 'theory',
-    subjectId: 'tc-s4-ece',
-    fileSize: '2.2 MB',
-    uploadDate: '2024-08-05',
-    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  },
-  {
-    id: 'tc-unit3-ece',
-    title: 'Unit 3: Writing & Grammar',
-    description: 'Grammar, Editing, Official Notes, Emails, Resume writing',
-    type: 'theory',
-    subjectId: 'tc-s4-ece',
-    fileSize: '2.4 MB',
-    uploadDate: '2024-08-05',
-    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  },
-  {
-    id: 'tc-unit4-ece',
-    title: 'Unit 4: Advanced Writing',
-    description: 'Technical Reports, Proposals, and Articles',
-    type: 'theory',
-    subjectId: 'tc-s4-ece',
-    fileSize: '2.6 MB',
     uploadDate: '2024-08-05',
     viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
   },
