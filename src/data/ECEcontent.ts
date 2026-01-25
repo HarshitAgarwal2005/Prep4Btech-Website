@@ -130,32 +130,12 @@ export const eceSubjects: ContentSubject[] = [
 {
   id: 'emi-s4-ee',
   name: 'Electronic Measurement and Instrumentation',
-  code: '4EE3-04',
+  code: '4EC3-06',
   year: 2,
   semester: 4,
-  branch: 'EE',
+  branch: 'ECE',
   description: 'Electrical measurements',
   icon: '📏'
-},
-{
-  id: 'em2-s4-ee',
-  name: 'Electrical Machines-II',
-  code: '4EE4-05',
-  year: 2,
-  semester: 4,
-  branch: 'EE',
-  description: 'AC and synchronous machines',
-  icon: '⚙️'
-},
-{
-  id: 'pe-s4-ee',
-  name: 'Power Electronics',
-  code: '4EE4-06',
-  year: 2,
-  semester: 4,
-  branch: 'EE',
-  description: 'Power semiconductor devices',
-  icon: '🔋'
 },
 {
   id: 'emil-s4-ee',
@@ -163,7 +143,7 @@ export const eceSubjects: ContentSubject[] = [
   code: '4EE4-21',
   year: 2,
   semester: 4,
-  branch: 'EE',
+  branch: 'ECE',
   description: 'Measurement experiments',
   icon: '🧪'
 },
