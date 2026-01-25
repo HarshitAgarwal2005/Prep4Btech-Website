@@ -4,65 +4,117 @@ export const eceSubjects: ContentSubject[] = [
   /* ================= SEMESTER 3 | YEAR 2 ================= */
 
 {
-  id: 'eca-s3-ee',
-  name: 'Electrical Circuit Analysis',
-  code: '3EE4-05',
-  year: 2,
-  semester: 3,
-  branch: 'EE',
-  description: 'Circuit analysis techniques',
-  icon: '🔌'
-},
-{
-  id: 'ae-s3-ee',
-  name: 'Analog Electronics',
-  code: '3EE4-06',
-  year: 2,
-  semester: 3,
-  branch: 'EE',
-  description: 'Analog electronic circuits',
-  icon: '📟'
-},
-{
-  id: 'em1-s3-ee',
-  name: 'Electrical Machines-I',
-  code: '3EE4-07',
-  year: 2,
-  semester: 3,
-  branch: 'EE',
-  description: 'DC machines and basics',
-  icon: '⚙️'
-},
-{
-  id: 'ecal-s3-ee',
-  name: 'Electrical Circuit Analysis Lab',
-  code: '3EE4-21',
-  year: 2,
-  semester: 3,
-  branch: 'EE',
-  description: 'Circuit experiments',
-  icon: '🧪'
-},
-{
-  id: 'ael-s3-ee',
-  name: 'Analog Electronics Lab',
-  code: '3EE4-22',
-  year: 2,
-  semester: 3,
-  branch: 'EE',
-  description: 'Analog electronics experiments',
-  icon: '🧪'
-},
-{
-  id: 'em1l-s3-ee',
-  name: 'Electrical Machines-I Lab',
-  code: '3EE4-23',
-  year: 2,
-  semester: 3,
-  branch: 'EE',
-  description: 'DC machine experiments',
-  icon: '🧪'
-},
+    id: 'aem1-s3-ece',
+    name: 'Advance Engineering Mathematics-I',
+    code: '3EC2-01',
+    year: 2,
+    semester: 3,
+    branch: 'ECE',
+    description: 'Numerical methods, Laplace & Fourier Transforms',
+    icon: '➗'
+  },
+  {
+    id: 'tc-s3-ece',
+    name: 'Technical Communication',
+    code: '3EC1-02',
+    year: 2,
+    semester: 3,
+    branch: 'ECE',
+    description: 'Technical writing, Grammar, and Communication skills',
+    icon: '📝'
+  },
+  {
+    id: 'mefa-s3-ece',
+    name: 'Managerial Economics & Financial Accounting',
+    code: '3EC1-03',
+    year: 2,
+    semester: 3,
+    branch: 'ECE',
+    description: 'Economic concepts, Financial statements, Cost analysis',
+    icon: '💰'
+  },
+  {
+    id: 'dsd-s3-ece',
+    name: 'Digital System Design',
+    code: '3EC4-04',
+    year: 2,
+    semester: 3,
+    branch: 'ECE',
+    description: 'Logic gates, Boolean algebra, Sequential circuits',
+    icon: '💻'
+  },
+  {
+    id: 'ss-s3-ece',
+    name: 'Signals & Systems',
+    code: '3EC4-05',
+    year: 2,
+    semester: 3,
+    branch: 'ECE',
+    description: 'Signals classification, Fourier/Laplace/Z-transforms',
+    icon: '〰️'
+  },
+  {
+    id: 'nt-s3-ece',
+    name: 'Network Theory',
+    code: '3EC4-06',
+    year: 2,
+    semester: 3,
+    branch: 'ECE',
+    description: 'Circuit analysis, Network theorems, Two-port networks',
+    icon: '🕸️'
+  },
+  {
+    id: 'ed-s3-ece',
+    name: 'Electronic Devices',
+    code: '3EC4-07',
+    year: 2,
+    semester: 3,
+    branch: 'ECE',
+    description: 'Semiconductor physics, Diodes, BJT, FET, MOSFET',
+    icon: '📟'
+  },
+
+  // ================= PRACTICAL LABS =================
+  {
+    id: 'edl-s3-ece',
+    name: 'Electronic Devices Lab',
+    code: '3EC4-21',
+    year: 2,
+    semester: 3,
+    branch: 'ECE',
+    description: 'V-I characteristics of diodes, BJT, and FETs',
+    icon: '🧪'
+  },
+  {
+    id: 'dsdl-s3-ece',
+    name: 'Digital System Design Lab',
+    code: '3EC4-22',
+    year: 2,
+    semester: 3,
+    branch: 'ECE',
+    description: 'Implementation of combinational and sequential circuits',
+    icon: '🔌'
+  },
+  {
+    id: 'spl-s3-ece',
+    name: 'Signal Processing Lab',
+    code: '3EC4-23',
+    year: 2,
+    semester: 3,
+    branch: 'ECE',
+    description: 'MATLAB simulation of signals and systems',
+    icon: '📊'
+  },
+  {
+    id: 'cpl-s3-ece',
+    name: 'Computer Programming Lab-I',
+    code: '3EC3-24',
+    year: 2,
+    semester: 3,
+    branch: 'ECE',
+    description: 'Data structures and algorithms implementation',
+    icon: '⌨️'
+  }
 
 /* ================= SEMESTER 4 | YEAR 2 ================= */
 
