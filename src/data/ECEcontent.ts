@@ -461,7 +461,7 @@ export const eceSubjects: ContentSubject[] = [
 }
 ];
 export const eceItems: ContentItem[] = [
-  export const eceItems: ContentItem[] = [
+
   // ================= 3EC2-01: Advance Engineering Mathematics-I =================
   {
     id: 'aem1-unit1-ece',
