@@ -114,7 +114,7 @@ export const eceSubjects: ContentSubject[] = [
     branch: 'ECE',
     description: 'Data structures and algorithms implementation',
     icon: '⌨️'
-  }
+  },
 
 /* ================= SEMESTER 4 | YEAR 2 ================= */
 
