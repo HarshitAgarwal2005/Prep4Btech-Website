@@ -24,16 +24,6 @@ export const eceSubjects: ContentSubject[] = [
     icon: '📝'
   },
   {
-    id: 'mefa-s3-ece',
-    name: 'Managerial Economics & Financial Accounting',
-    code: '3EC1-03',
-    year: 2,
-    semester: 3,
-    branch: 'ECE',
-    description: 'Economic concepts, Financial statements, Cost analysis',
-    icon: '💰'
-  },
-  {
     id: 'dsd-s3-ece',
     name: 'Digital System Design',
     code: '3EC4-04',
@@ -118,6 +108,16 @@ export const eceSubjects: ContentSubject[] = [
 
 /* ================= SEMESTER 4 | YEAR 2 ================= */
 
+  {
+    id: 'mefa-s4-ece',
+    name: 'Managerial Economics & Financial Accounting',
+    code: '4EC1-03',
+    year: 2,
+    semester: 4,
+    branch: 'ECE',
+    description: 'Economic concepts, Financial statements, Cost analysis',
+    icon: '💰'
+  },
 {
   id: 'emi-s4-ee',
   name: 'Electronic Measurement and Instrumentation',
