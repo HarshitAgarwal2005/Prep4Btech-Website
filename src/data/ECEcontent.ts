@@ -557,56 +557,56 @@ export const eceItems: ContentItem[] = [
   },
 
   // ================= 3EC1-03: Managerial Economics & Financial Accounting =================
-  {
-    id: 'mefa-unit1-ece',
-    title: 'Unit 1: Basic Economic Concepts',
-    description: 'Scope of economics, scarcity, choice, national income concepts',
-    type: 'theory',
-    subjectId: 'mefa-s3-ece',
-    fileSize: '2.0 MB',
-    uploadDate: '2024-08-05',
-    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  },
-  {
-    id: 'mefa-unit2-ece',
-    title: 'Unit 2: Demand and Supply Analysis',
-    description: 'Determinants, elasticity, forecasting, supply function',
-    type: 'theory',
-    subjectId: 'mefa-s3-ece',
-    fileSize: '2.2 MB',
-    uploadDate: '2024-08-05',
-    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  },
-  {
-    id: 'mefa-unit3-ece',
-    title: 'Unit 3: Production and Cost Analysis',
-    description: 'Production function, returns to scale, cost concepts and curves',
-    type: 'theory',
-    subjectId: 'mefa-s3-ece',
-    fileSize: '2.3 MB',
-    uploadDate: '2024-08-05',
-    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  },
-  {
-    id: 'mefa-unit4-ece',
-    title: 'Unit 4: Market Structure',
-    description: 'Perfect competition, Monopoly, Monopolistic competition, Oligopoly',
-    type: 'theory',
-    subjectId: 'mefa-s3-ece',
-    fileSize: '1.8 MB',
-    uploadDate: '2024-08-05',
-    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  },
-  {
-    id: 'mefa-unit5-ece',
-    title: 'Unit 5: Financial Statement Analysis',
-    description: 'Balance sheet, P&L statement, ratio analysis, cash-flow, capital budgeting',
-    type: 'theory',
-    subjectId: 'mefa-s3-ece',
-    fileSize: '3.0 MB',
-    uploadDate: '2024-08-05',
-    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  },
+  // {
+  //   id: 'mefa-unit1-ece',
+  //   title: 'Unit 1: Basic Economic Concepts',
+  //   description: 'Scope of economics, scarcity, choice, national income concepts',
+  //   type: 'theory',
+  //   subjectId: 'mefa-s3-ece',
+  //   fileSize: '2.0 MB',
+  //   uploadDate: '2024-08-05',
+  //   viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  // },
+  // {
+  //   id: 'mefa-unit2-ece',
+  //   title: 'Unit 2: Demand and Supply Analysis',
+  //   description: 'Determinants, elasticity, forecasting, supply function',
+  //   type: 'theory',
+  //   subjectId: 'mefa-s3-ece',
+  //   fileSize: '2.2 MB',
+  //   uploadDate: '2024-08-05',
+  //   viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  // },
+  // {
+  //   id: 'mefa-unit3-ece',
+  //   title: 'Unit 3: Production and Cost Analysis',
+  //   description: 'Production function, returns to scale, cost concepts and curves',
+  //   type: 'theory',
+  //   subjectId: 'mefa-s3-ece',
+  //   fileSize: '2.3 MB',
+  //   uploadDate: '2024-08-05',
+  //   viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  // },
+  // {
+  //   id: 'mefa-unit4-ece',
+  //   title: 'Unit 4: Market Structure',
+  //   description: 'Perfect competition, Monopoly, Monopolistic competition, Oligopoly',
+  //   type: 'theory',
+  //   subjectId: 'mefa-s3-ece',
+  //   fileSize: '1.8 MB',
+  //   uploadDate: '2024-08-05',
+  //   viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  // },
+  // {
+  //   id: 'mefa-unit5-ece',
+  //   title: 'Unit 5: Financial Statement Analysis',
+  //   description: 'Balance sheet, P&L statement, ratio analysis, cash-flow, capital budgeting',
+  //   type: 'theory',
+  //   subjectId: 'mefa-s3-ece',
+  //   fileSize: '3.0 MB',
+  //   uploadDate: '2024-08-05',
+  //   viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  // },
 
   // ================= 3EC4-04: Digital System Design =================
   {
@@ -854,6 +854,391 @@ export const eceItems: ContentItem[] = [
     type: 'lab',
     subjectId: 'cpl-s3-ece',
     fileSize: '5.0 MB',
+    uploadDate: '2024-08-20',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  // ================= 4EC2-01: Advance Engineering Mathematics-II =================
+  {
+    id: 'aem2-unit1-ece',
+    title: 'Unit 1: Complex Variable Differentiation',
+    description: 'Analytic functions, Cauchy-Riemann equations, Conformal mapping',
+    type: 'theory',
+    subjectId: 'aem2-s4-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-01',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'aem2-unit2-ece',
+    title: 'Unit 2: Complex Variable Integration',
+    description: 'Contour integrals, Cauchy-Goursat, Taylor/Laurent series, Residues',
+    type: 'theory',
+    subjectId: 'aem2-s4-ece',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-01',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'aem2-unit3-ece',
+    title: 'Unit 3: Applications of Residues',
+    description: 'Evaluation of definite and improper integrals using residues',
+    type: 'theory',
+    subjectId: 'aem2-s4-ece',
+    fileSize: '2.5 MB',
+    uploadDate: '2024-08-01',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'aem2-unit4-ece',
+    title: 'Unit 4: Special Functions',
+    description: 'Legendre’s function, Bessel’s functions, Orthogonal properties',
+    type: 'theory',
+    subjectId: 'aem2-s4-ece',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-08-01',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'aem2-unit5-ece',
+    title: 'Unit 5: Linear Algebra',
+    description: 'Vector spaces, Basis, Orthogonality, Gram Schmidt, QR decomposition',
+    type: 'theory',
+    subjectId: 'aem2-s4-ece',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-08-01',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 4EC1-03: Managerial Economics & Financial Accounting =================
+  {
+    id: 'mefa-unit1-ece',
+    title: 'Unit 1: Basic Economic Concepts',
+    description: 'Deductive vs Inductive, Scarcity, National Income concepts',
+    type: 'theory',
+    subjectId: 'mefa-s4-ece',
+    fileSize: '2.1 MB',
+    uploadDate: '2024-08-05',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'mefa-unit2-ece',
+    title: 'Unit 2: Demand and Supply',
+    description: 'Elasticity of demand/supply, Forecasting methods',
+    type: 'theory',
+    subjectId: 'mefa-s4-ece',
+    fileSize: '2.3 MB',
+    uploadDate: '2024-08-05',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'mefa-unit3-ece',
+    title: 'Unit 3: Production and Cost',
+    description: 'Production function, Isoquants, Cost curves, Sunk costs',
+    type: 'theory',
+    subjectId: 'mefa-s4-ece',
+    fileSize: '2.5 MB',
+    uploadDate: '2024-08-05',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'mefa-unit4-ece',
+    title: 'Unit 4: Market Structure',
+    description: 'Perfect competition, Monopoly, Oligopoly',
+    type: 'theory',
+    subjectId: 'mefa-s4-ece',
+    fileSize: '1.9 MB',
+    uploadDate: '2024-08-05',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'mefa-unit5-ece',
+    title: 'Unit 5: Financial Analysis',
+    description: 'Balance sheet, Ratio analysis, Cash-flow, Capital budgeting',
+    type: 'theory',
+    subjectId: 'mefa-s4-ece',
+    fileSize: '3.1 MB',
+    uploadDate: '2024-08-05',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 4EC1-02: Technical Communication =================
+  {
+    id: 'tc-unit1-ece',
+    title: 'Unit 1: Intro to Technical Communication',
+    description: 'Definition, skills (LSRW), linguistic ability, style',
+    type: 'theory',
+    subjectId: 'tc-s4-ece',
+    fileSize: '2.0 MB',
+    uploadDate: '2024-08-05',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'tc-unit2-ece',
+    title: 'Unit 2: Comprehension & Design',
+    description: 'Reading manuals, Note-making, Document design strategies',
+    type: 'theory',
+    subjectId: 'tc-s4-ece',
+    fileSize: '2.2 MB',
+    uploadDate: '2024-08-05',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'tc-unit3-ece',
+    title: 'Unit 3: Writing & Grammar',
+    description: 'Grammar, Editing, Official Notes, Emails, Resume writing',
+    type: 'theory',
+    subjectId: 'tc-s4-ece',
+    fileSize: '2.4 MB',
+    uploadDate: '2024-08-05',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'tc-unit4-ece',
+    title: 'Unit 4: Advanced Writing',
+    description: 'Technical Reports, Proposals, and Articles',
+    type: 'theory',
+    subjectId: 'tc-s4-ece',
+    fileSize: '2.6 MB',
+    uploadDate: '2024-08-05',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 4EC4-04: Analog Circuits =================
+  {
+    id: 'ac-unit1-ece',
+    title: 'Unit 1: Diode & Amplifier Models',
+    description: 'Biasing BJT/FET, Small signal analysis, Low frequency models',
+    type: 'theory',
+    subjectId: 'ac-s4-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-08',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ac-unit2-ece',
+    title: 'Unit 2: High Frequency & Feedback',
+    description: 'High frequency models, Power efficiency, Feedback topologies',
+    type: 'theory',
+    subjectId: 'ac-s4-ece',
+    fileSize: '3.6 MB',
+    uploadDate: '2024-08-08',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ac-unit3-ece',
+    title: 'Unit 3: Oscillators & Differential Amps',
+    description: 'RC/LC Oscillators, Current mirror, Differential amplifier design',
+    type: 'theory',
+    subjectId: 'ac-s4-ece',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-08',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ac-unit4-ece',
+    title: 'Unit 4: OP-AMP Applications',
+    description: 'Integrator, Differentiator, Schmitt trigger, Active filters',
+    type: 'theory',
+    subjectId: 'ac-s4-ece',
+    fileSize: '3.9 MB',
+    uploadDate: '2024-08-08',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ac-unit5-ece',
+    title: 'Unit 5: Converters',
+    description: 'DAC (R-2R), ADC (Flash, SAR), Switched capacitor circuits',
+    type: 'theory',
+    subjectId: 'ac-s4-ece',
+    fileSize: '3.0 MB',
+    uploadDate: '2024-08-08',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 4EC4-05: Microcontrollers =================
+  {
+    id: 'mc-unit1-ece',
+    title: 'Unit 1: Microcomputer Overview',
+    description: 'Memory interfacing, Interrupts, DMA, 8085/8086 instruction sets',
+    type: 'theory',
+    subjectId: 'mc-s4-ece',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-08-10',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'mc-unit2-ece',
+    title: 'Unit 2: Interfacing Peripherals',
+    description: 'Timers, Serial/Parallel I/O, A/D & D/A converters',
+    type: 'theory',
+    subjectId: 'mc-s4-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-10',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'mc-unit3-ece',
+    title: 'Unit 3: Advanced Architectures',
+    description: 'Virtual memory, Cache, Coprocessors (286, 486, Pentium), 8051',
+    type: 'theory',
+    subjectId: 'mc-s4-ece',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-08-10',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'mc-unit4-ece',
+    title: 'Unit 4: RISC & ARM',
+    description: 'Introduction to RISC processors, ARM microcontroller interface',
+    type: 'theory',
+    subjectId: 'mc-s4-ece',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-10',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 4EC3-06: Electronics Measurement & Instrumentation =================
+  {
+    id: 'emi-unit1-ece',
+    title: 'Unit 1: Theory of Errors',
+    description: 'Accuracy, Precision, Systematic/Random errors, Gaussian analysis',
+    type: 'theory',
+    subjectId: 'emi-s4-ece',
+    fileSize: '3.0 MB',
+    uploadDate: '2024-08-12',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'emi-unit2-ece',
+    title: 'Unit 2: Electronic Instruments',
+    description: 'Electronic Voltmeters, Q-meter, Vector Impedance meter',
+    type: 'theory',
+    subjectId: 'emi-s4-ece',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-08-12',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'emi-unit3-ece',
+    title: 'Unit 3: Oscilloscopes',
+    description: 'CRT, CRO circuits, Probes, Multi-beam/Multi-trace',
+    type: 'theory',
+    subjectId: 'emi-s4-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-12',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'emi-unit4-ece',
+    title: 'Unit 4: Signal Generation & Analysis',
+    description: 'Signal generators, Wave Analyzers, Spectrum Analyzers',
+    type: 'theory',
+    subjectId: 'emi-s4-ece',
+    fileSize: '3.3 MB',
+    uploadDate: '2024-08-12',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'emi-unit5-ece',
+    title: 'Unit 5: Transducers',
+    description: 'RTD, Thermocouples, LVDT, Strain Gauges, Piezoelectric',
+    type: 'theory',
+    subjectId: 'emi-s4-ece',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-12',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 4EC4-07: Analog and Digital Communication =================
+  {
+    id: 'adc-unit1-ece',
+    title: 'Unit 1: Analog Modulation',
+    description: 'Amplitude (DSB, SSB, VSB) and Angle (FM, PM) modulation',
+    type: 'theory',
+    subjectId: 'adc-s4-ece',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-15',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'adc-unit2-ece',
+    title: 'Unit 2: Noise Analysis',
+    description: 'Gaussian noise, Noise in AM/FM, Pre-emphasis/De-emphasis',
+    type: 'theory',
+    subjectId: 'adc-s4-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-15',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'adc-unit3-ece',
+    title: 'Unit 3: Pulse Modulation',
+    description: 'PCM, DPCM, Delta Modulation, TDM',
+    type: 'theory',
+    subjectId: 'adc-s4-ece',
+    fileSize: '3.6 MB',
+    uploadDate: '2024-08-15',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'adc-unit4-ece',
+    title: 'Unit 4: Digital Modulation',
+    description: 'Detection theory, ISI, PSK, FSK, QAM, MSK',
+    type: 'theory',
+    subjectId: 'adc-s4-ece',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-08-15',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'adc-unit5-ece',
+    title: 'Unit 5: Advanced Digital Comms',
+    description: 'Viterbi receiver, Equalization, Synchronization',
+    type: 'theory',
+    subjectId: 'adc-s4-ece',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-08-15',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= LAB MANUALS (Placeholders) =================
+  {
+    id: 'ac-manual-ece',
+    title: 'Analog Circuits Lab Manual',
+    description: 'Experiments on Amplifiers, Oscillators, and Filters',
+    type: 'lab',
+    subjectId: 'ac-s4-ece',
+    fileSize: '5.0 MB',
+    uploadDate: '2024-08-20',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'mc-manual-ece',
+    title: 'Microcontrollers Lab Manual',
+    description: 'Programming 8085/8086/8051, Interfacing experiments',
+    type: 'lab',
+    subjectId: 'mc-s4-ece',
+    fileSize: '5.2 MB',
+    uploadDate: '2024-08-20',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'emi-manual-ece',
+    title: 'EMI Lab Manual',
+    description: 'Calibration and measurement using Bridges and Transducers',
+    type: 'lab',
+    subjectId: 'emi-s4-ece',
+    fileSize: '4.8 MB',
+    uploadDate: '2024-08-20',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'adc-manual-ece',
+    title: 'Communication Lab Manual',
+    description: 'Analog and Digital modulation/demodulation experiments',
+    type: 'lab',
+    subjectId: 'adc-s4-ece',
+    fileSize: '5.5 MB',
     uploadDate: '2024-08-20',
     viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
   },
