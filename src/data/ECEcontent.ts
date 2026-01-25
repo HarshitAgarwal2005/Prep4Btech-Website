@@ -140,7 +140,7 @@ export const eceSubjects: ContentSubject[] = [
 {
   id: 'emil-s4-ee',
   name: 'EMI Lab',
-  code: '4EE4-21',
+  code: '4EC4-24',
   year: 2,
   semester: 4,
   branch: 'ECE',
