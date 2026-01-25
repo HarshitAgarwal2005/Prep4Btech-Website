@@ -166,7 +166,7 @@ export const eceSubjects: ContentSubject[] = [
     branch: 'ECE',
     description: 'Modulation techniques (AM/FM/PM), PCM, Digital modulation',
     icon: '📡'
-  }
+  },
 {
   id: 'emil-s4-ee',
   name: 'EMI Lab',
