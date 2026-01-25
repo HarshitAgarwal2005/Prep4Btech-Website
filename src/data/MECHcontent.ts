@@ -1027,6 +1027,467 @@ export const mechItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
   },
 
+  /* ==================================================================================
+   * SEMESTER 5
+   * ================================================================================== */
+
+  // ================= 5ME3-01: Mechatronic Systems =================
+  {
+    id: 'ms-unit2-me',
+    title: 'Unit 2: Overview & Electrical Systems',
+    description: 'Mechatronics blocks, Signal conditioning, Data acquisition, Digital electronics',
+    type: 'theory',
+    subjectId: 'ms-s5-me',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ms-unit3-me',
+    title: 'Unit 3: Modeling & Control',
+    description: 'System modeling (Mechanical/Fluid/Thermal), Transfer functions, PID Controllers',
+    type: 'theory',
+    subjectId: 'ms-s5-me',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ms-unit4-me',
+    title: 'Unit 4: Sensors and Actuators',
+    description: 'Displacement/Force/Pressure sensors, Motors (DC/Servo/Stepper), Hydraulic actuators',
+    type: 'theory',
+    subjectId: 'ms-s5-me',
+    fileSize: '4.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ms-unit5-me',
+    title: 'Unit 5: Microprocessors & Controllers',
+    description: 'Logic design, System interfaces, Microcontroller architecture',
+    type: 'theory',
+    subjectId: 'ms-s5-me',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ms-unit6-me',
+    title: 'Unit 6: PLCs & Case Studies',
+    description: 'PLC programming, Pick and place robot, Engine management, Automation',
+    type: 'theory',
+    subjectId: 'ms-s5-me',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 5ME4-02: Heat Transfer =================
+  {
+    id: 'ht-unit2-me',
+    title: 'Unit 2: Conduction',
+    description: 'Fourier law, Thermal conductivity, 3D conduction equation, Composite walls',
+    type: 'theory',
+    subjectId: 'ht-s5-me',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ht-unit3-me',
+    title: 'Unit 3: Fins & Unsteady Conduction',
+    description: 'Extended surfaces efficiency, Lumped capacity, Heisler charts',
+    type: 'theory',
+    subjectId: 'ht-s5-me',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ht-unit4-me',
+    title: 'Unit 4: Convection',
+    description: 'Boundary layers, Prandtl number, Forced convection relations',
+    type: 'theory',
+    subjectId: 'ht-s5-me',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ht-unit5-me',
+    title: 'Unit 5: Phase Change & Heat Exchangers',
+    description: 'Boiling/Condensation, LMTD, NTU method, Fouling factor',
+    type: 'theory',
+    subjectId: 'ht-s5-me',
+    fileSize: '4.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ht-unit6-me',
+    title: 'Unit 6: Thermal Radiation',
+    description: 'Planck’s law, Shape factor, Radiation shields, Electrical analogy',
+    type: 'theory',
+    subjectId: 'ht-s5-me',
+    fileSize: '3.6 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 5ME4-03: Manufacturing Technology =================
+  {
+    id: 'mt-unit2-me',
+    title: 'Unit 2: Metal Cutting Mechanics',
+    description: 'Tool geometry, Chip formation, Cutting forces, Merchant circle',
+    type: 'theory',
+    subjectId: 'mt-s5-me',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'mt-unit3-me',
+    title: 'Unit 3: Machinability & Tool Life',
+    description: 'Tool wear, Taylor’s equation, Economics of machining, Cutting fluids',
+    type: 'theory',
+    subjectId: 'mt-s5-me',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'mt-unit4-me',
+    title: 'Unit 4: Machine Tools',
+    description: 'Lathe, Drilling, Milling, Gear cutting, Capstan & Turret lathes',
+    type: 'theory',
+    subjectId: 'mt-s5-me',
+    fileSize: '4.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'mt-unit5-me',
+    title: 'Unit 5: Grinding & Finishing',
+    description: 'Abrasives, Grinding wheels, Honing, Lapping, Super-finishing',
+    type: 'theory',
+    subjectId: 'mt-s5-me',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'mt-unit6-me',
+    title: 'Unit 6: High Velocity Forming',
+    description: 'Explosive forming, Electro-hydraulic forming, Magnetic pulse forming',
+    type: 'theory',
+    subjectId: 'mt-s5-me',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 5ME4-04: Design of Machine Elements I =================
+  {
+    id: 'dme1-unit2-me',
+    title: 'Unit 2: Materials & Standardization',
+    description: 'Material selection, IS coding, Limits, Fits, Tolerances',
+    type: 'theory',
+    subjectId: 'dme1-s5-me',
+    fileSize: '3.0 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'dme1-unit3-me',
+    title: 'Unit 3: Design for Strength',
+    description: 'Stress concentration, Fatigue failure, Factor of safety',
+    type: 'theory',
+    subjectId: 'dme1-s5-me',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'dme1-unit4-me',
+    title: 'Unit 4: Joints & Levers',
+    description: 'Cotter joint, Knuckle joint, Levers, Laminated springs',
+    type: 'theory',
+    subjectId: 'dme1-s5-me',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'dme1-unit5-me',
+    title: 'Unit 5: Shafts & Couplings',
+    description: 'Solid/Hollow shafts, Keys, Rigid & Flexible couplings',
+    type: 'theory',
+    subjectId: 'dme1-s5-me',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'dme1-unit6-me',
+    title: 'Unit 6: Fasteners',
+    description: 'Bolts of uniform strength, Power screws, Screw jack',
+    type: 'theory',
+    subjectId: 'dme1-s5-me',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 5ME4-05: Principles of Management =================
+  {
+    id: 'pom-unit2-me',
+    title: 'Unit 2: Basic Concepts',
+    description: 'Management thought schools, Contribution of Taylor, Fayol, Drucker',
+    type: 'theory',
+    subjectId: 'pom-s5-me',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'pom-unit3-me',
+    title: 'Unit 3: Planning & Organizing',
+    description: 'MBO, Decision making, Organization structure, Decentralization',
+    type: 'theory',
+    subjectId: 'pom-s5-me',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'pom-unit4-me',
+    title: 'Unit 4: Staffing & Leading',
+    description: 'HRM, Motivation, Leadership styles, Communication',
+    type: 'theory',
+    subjectId: 'pom-s5-me',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'pom-unit5-me',
+    title: 'Unit 5: Controlling',
+    description: 'Control process, TQM, Operations management',
+    type: 'theory',
+    subjectId: 'pom-s5-me',
+    fileSize: '3.0 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'pom-unit6-me',
+    title: 'Unit 6: Case Studies',
+    description: 'Management practices of business leaders, Organization structures',
+    type: 'theory',
+    subjectId: 'pom-s5-me',
+    fileSize: '3.6 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 5ME5-11: Steam Engineering =================
+  {
+    id: 'se-unit2-me',
+    title: 'Unit 2: Steam Generators',
+    description: 'Boilers (Fire/Water tube), Mountings, Accessories, Draught',
+    type: 'theory',
+    subjectId: 'se-s5-me',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'se-unit3-me',
+    title: 'Unit 3: Nozzles & Diffusers',
+    description: 'Sonic velocity, Choked flow, Critical pressure ratio',
+    type: 'theory',
+    subjectId: 'se-s5-me',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'se-unit4-me',
+    title: 'Unit 4: Steam Turbines (Impulse)',
+    description: 'Compounding, Velocity diagrams, Blade efficiency',
+    type: 'theory',
+    subjectId: 'se-s5-me',
+    fileSize: '4.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'se-unit5-me',
+    title: 'Unit 5: Reaction Turbines & Feed Heating',
+    description: 'Degree of reaction, Parson’s turbine, Regenerative cycles',
+    type: 'theory',
+    subjectId: 'se-s5-me',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'se-unit6-me',
+    title: 'Unit 6: Reheating & Condensers',
+    description: 'Reheat cycle, Binary vapour cycle, Steam condensers',
+    type: 'theory',
+    subjectId: 'se-s5-me',
+    fileSize: '3.6 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 5ME4-12: Automobile Engineering =================
+  {
+    id: 'ae-unit2-me',
+    title: 'Unit 2: Chassis & Transmission',
+    description: 'Frames, Clutches, Gear boxes, Brakes',
+    type: 'theory',
+    subjectId: 'ae-s5-me',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ae-unit3-me',
+    title: 'Unit 3: Drives',
+    description: 'Propeller shaft, Universal joints, Differential, Axles',
+    type: 'theory',
+    subjectId: 'ae-s5-me',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ae-unit4-me',
+    title: 'Unit 4: Steering & Suspension',
+    description: 'Tyres, Steering geometry, Power steering, Suspension systems',
+    type: 'theory',
+    subjectId: 'ae-s5-me',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ae-unit5-me',
+    title: 'Unit 5: Electrical & Ignition',
+    description: 'Battery, Starter motor, Alternator, Ignition systems',
+    type: 'theory',
+    subjectId: 'ae-s5-me',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ae-unit6-me',
+    title: 'Unit 6: AC & Safety',
+    description: 'Automotive Air Conditioning, Air bags, ABS, GPS',
+    type: 'theory',
+    subjectId: 'ae-s5-me',
+    fileSize: '3.6 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 5ME5-13: Non Destructive Evaluation =================
+  {
+    id: 'ndt-unit2-me',
+    title: 'Unit 2: Acoustical Methods',
+    description: 'Ultrasonic testing, Probes, A/B/C scan modes, Flaw sizing',
+    type: 'theory',
+    subjectId: 'ndt-s5-me',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ndt-unit3-me',
+    title: 'Unit 3: Electro-Magnetic Methods',
+    description: 'Magnetic particle inspection, Eddy current testing',
+    type: 'theory',
+    subjectId: 'ndt-s5-me',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ndt-unit4-me',
+    title: 'Unit 4: Radiographic Methods',
+    description: 'X-ray radiography, Exposure, Image quality, Safety',
+    type: 'theory',
+    subjectId: 'ndt-s5-me',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ndt-unit5-me',
+    title: 'Unit 5: Optical Methods',
+    description: 'Holography, Acoustical/Microwave holography',
+    type: 'theory',
+    subjectId: 'ndt-s5-me',
+    fileSize: '3.0 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ndt-unit6-me',
+    title: 'Unit 6: Applications',
+    description: 'NDT in pressure vessels, piping, castings, welding',
+    type: 'theory',
+    subjectId: 'ndt-s5-me',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-08-25',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= LAB MANUALS (Semester 5) =================
+  {
+    id: 'mech-manual-me',
+    title: 'Mechatronics Lab Manual',
+    description: 'Transducers, PLC programming, MATLAB control systems',
+    type: 'lab',
+    subjectId: 'mech-lab-s5-me',
+    fileSize: '4.5 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ht-manual-me',
+    title: 'Heat Transfer Lab Manual',
+    description: 'Thermal conductivity, Pin fin, Emissivity, Heat exchangers',
+    type: 'lab',
+    subjectId: 'ht-lab-s5-me',
+    fileSize: '4.8 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'pe-manual-me',
+    title: 'Production Engineering Lab Manual',
+    description: 'Metrology tools, Chip reduction coefficient, Force measurement',
+    type: 'lab',
+    subjectId: 'pe-lab-s5-me',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'dmp1-manual-me',
+    title: 'Machine Design Practice-I Manual',
+    description: 'Design of Joints, Couplings, Screws, Beams',
+    type: 'lab',
+    subjectId: 'dmp1-lab-s5-me',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-08-28',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
   // ==================================================================================
   // SEMESTER 6 (Based on me 6th sem.pdf)
   // ==================================================================================
@@ -1507,10 +1968,8 @@ export const mechItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
   },
 
-  // ==================================================================================
   // SEMESTER 8 (Based on 12-Mechanical-Scheme-and-Syllabus-VII-VIII...)
-  // ==================================================================================
-
+  
   // --- 8ME5-11: Hybrid and Electric Vehicles ---
   {
     id: 'hev-unit2-me',
