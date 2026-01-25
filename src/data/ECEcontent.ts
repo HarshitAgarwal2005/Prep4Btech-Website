@@ -107,7 +107,16 @@ export const eceSubjects: ContentSubject[] = [
   },
 
 /* ================= SEMESTER 4 | YEAR 2 ================= */
-
+{
+    id: 'aem2-s4-ece',
+    name: 'Advance Engineering Mathematics-II',
+    code: '4EC2-01',
+    year: 2,
+    semester: 4,
+    branch: 'ECE',
+    description: 'Numerical methods, Laplace & Fourier Transforms',
+    icon: '➗'
+  },
   {
     id: 'mefa-s4-ece',
     name: 'Managerial Economics & Financial Accounting',
