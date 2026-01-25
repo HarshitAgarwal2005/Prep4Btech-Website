@@ -1843,7 +1843,344 @@ export const eceItems: ContentItem[] = [
     fileSize: '4.8 MB',
     uploadDate: '2024-08-28',
     viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  }
+  },
+  /* ==================================================================================
+   * SEMESTER 7
+   * ================================================================================== */
+
+  // ================= 7EC5-11: VLSI Design =================
+  {
+    id: 'vlsi-unit2-ece',
+    title: 'Unit 2: Introduction to MOSFET',
+    description: 'Enhancement/Depletion modes, Threshold voltage, Body effect, Model parameters',
+    type: 'theory',
+    subjectId: 'vlsi-s7-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-09-01',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'vlsi-unit3-ece',
+    title: 'Unit 3: CMOS Logic Circuits',
+    description: 'NMOS/CMOS inverters, Noise margin, Power dissipation, Combinational logic',
+    type: 'theory',
+    subjectId: 'vlsi-s7-ece',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-09-01',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'vlsi-unit4-ece',
+    title: 'Unit 4: Dynamic CMOS Circuits',
+    description: 'Clocked CMOS, DOMINO logic, NORA logic, SRAM and DRAM basics',
+    type: 'theory',
+    subjectId: 'vlsi-s7-ece',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-09-01',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'vlsi-unit5-ece',
+    title: 'Unit 5: Physical Design',
+    description: 'ECAD tools, Custom/ASIC design, FPGA, VHDL coding for gates/flip-flops',
+    type: 'theory',
+    subjectId: 'vlsi-s7-ece',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-09-01',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 7EC5-12: Mixed Signal Design =================
+  {
+    id: 'msd-unit2-ece',
+    title: 'Unit 2: Analog & Discrete Signals',
+    description: 'Sampling theory, Continuous/Discrete time filters, Z-transform basics',
+    type: 'theory',
+    subjectId: 'msd-s7-ece',
+    fileSize: '3.0 MB',
+    uploadDate: '2024-09-01',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'msd-unit3-ece',
+    title: 'Unit 3: Switched Capacitor Filters',
+    description: 'Non-idealities, Filter architectures, Applications of switched-capacitor filters',
+    type: 'theory',
+    subjectId: 'msd-s7-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-09-01',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'msd-unit4-ece',
+    title: 'Unit 4: Data Converters',
+    description: 'ADC types (Flash, Pipeline, SAR), DAC architectures, High-resolution ADCs',
+    type: 'theory',
+    subjectId: 'msd-s7-ece',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-09-01',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'msd-unit5-ece',
+    title: 'Unit 5 & 6: Layout & PLL',
+    description: 'Interconnects, Voltage/Current mode signaling, PLL basics, Frequency synthesizers',
+    type: 'theory',
+    subjectId: 'msd-s7-ece',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-09-01',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 7EC5-13: CMOS Design =================
+  {
+    id: 'cmos-unit2-ece',
+    title: 'Unit 2: MOS Transistor Models',
+    description: 'Non-ideal behavior, Transistor as a switch, Inverter characteristics',
+    type: 'theory',
+    subjectId: 'cmos-s7-ece',
+    fileSize: '3.3 MB',
+    uploadDate: '2024-09-01',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'cmos-unit3-ece',
+    title: 'Unit 3: Integrated Circuit Layout',
+    description: 'Design rules, Parasitics, RC Delay model, Logical path efforts, Interconnects',
+    type: 'theory',
+    subjectId: 'cmos-s7-ece',
+    fileSize: '3.6 MB',
+    uploadDate: '2024-09-01',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'cmos-unit4-ece',
+    title: 'Unit 4: Combinational Circuit Design',
+    description: 'Static/Dynamic logic, NAND/NOR layout, Transistor sizing, Power dissipation',
+    type: 'theory',
+    subjectId: 'cmos-s7-ece',
+    fileSize: '4.1 MB',
+    uploadDate: '2024-09-01',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= Open Elective-I (Placeholder) =================
+  {
+    id: 'oe1-unit1-ece',
+    title: 'Open Elective-I Notes',
+    description: 'Quality Management / Optimization Techniques (Subject varies)',
+    type: 'theory',
+    subjectId: 'oe1-s7-ece',
+    fileSize: '2.5 MB',
+    uploadDate: '2024-09-01',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= SEMESTER 7 LAB MANUALS =================
+  {
+    id: 'vlsil-manual-ece',
+    title: 'VLSI Design Lab Manual',
+    description: 'VHDL/Verilog simulation (Gates, MUX, Counters), CMOS layout design',
+    type: 'lab',
+    subjectId: 'vlsil-s7-ece',
+    fileSize: '5.0 MB',
+    uploadDate: '2024-09-05',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'acl-manual-ece',
+    title: 'Advance Communication Lab Manual',
+    description: 'MATLAB Simulation: QPSK, QAM, CDMA, Error control coding',
+    type: 'lab',
+    subjectId: 'acl-s7-ece',
+    fileSize: '4.5 MB',
+    uploadDate: '2024-09-05',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ocl-manual-ece',
+    title: 'Optical Communication Lab Manual',
+    description: 'Fiber optic link setup, Propagation loss, OTDR, WDM simulation',
+    type: 'lab',
+    subjectId: 'ocl-s7-ece',
+    fileSize: '4.8 MB',
+    uploadDate: '2024-09-05',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  /* ==================================================================================
+   * SEMESTER 8
+   * ================================================================================== */
+
+  // ================= 8EC5-11: Artificial Intelligence & Expert Systems =================
+  {
+    id: 'ai-unit2-ece',
+    title: 'Unit 2: Introduction to AI',
+    description: 'Intelligent Agents, State Space Search (BFS/DFS), Constraint Satisfaction',
+    type: 'theory',
+    subjectId: 'ai-s8-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-09-10',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ai-unit3-ece',
+    title: 'Unit 3: Knowledge Representation',
+    description: 'Propositional Logic, First Order Logic (FOPL), Resolution',
+    type: 'theory',
+    subjectId: 'ai-s8-ece',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-09-10',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ai-unit4-ece',
+    title: 'Unit 4 & 5: Knowledge Organization & Systems',
+    description: 'Rule based systems, Semantic Nets, Expert Systems, Fuzzy Reasoning',
+    type: 'theory',
+    subjectId: 'ai-s8-ece',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-09-10',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'ai-unit6-ece',
+    title: 'Unit 6: Knowledge Acquisition',
+    description: 'Learning, Decision Trees, Neural Networks, Probabilistic Learning',
+    type: 'theory',
+    subjectId: 'ai-s8-ece',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-09-10',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 8EC5-12: Digital Image and Video Processing =================
+  {
+    id: 'divp-unit2-ece',
+    title: 'Unit 2: Digital Image Fundamentals',
+    description: 'Visual perception, Sampling, Quantization, Pixel relationships',
+    type: 'theory',
+    subjectId: 'divp-s8-ece',
+    fileSize: '3.0 MB',
+    uploadDate: '2024-09-10',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'divp-unit3-ece',
+    title: 'Unit 3: Image Enhancement',
+    description: 'Histogram equalization, Smoothing/Sharpening filters, DFT',
+    type: 'theory',
+    subjectId: 'divp-s8-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-09-10',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'divp-unit4-ece',
+    title: 'Unit 4 & 5: Color Image & Segmentation',
+    description: 'RGB/HSI models, Edge detection, Thresholding, Region-based segmentation',
+    type: 'theory',
+    subjectId: 'divp-s8-ece',
+    fileSize: '4.2 MB',
+    uploadDate: '2024-09-10',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'divp-unit6-ece',
+    title: 'Unit 6 & 7: Wavelets & Compression',
+    description: 'Wavelet transforms, Lossless/Lossy compression, JPEG standards',
+    type: 'theory',
+    subjectId: 'divp-s8-ece',
+    fileSize: '4.5 MB',
+    uploadDate: '2024-09-10',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'divp-unit8-ece',
+    title: 'Unit 8: Video Coding',
+    description: 'Motion estimation, I/P/B frames, MPEG and H.26X standards',
+    type: 'theory',
+    subjectId: 'divp-s8-ece',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-09-10',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= 8EC5-13: Adaptive Signal Processing =================
+  {
+    id: 'asp-unit2-ece',
+    title: 'Unit 2: Adaptive Filtering Concepts',
+    description: 'Estimation, Stationary random processes, Correlation matrices',
+    type: 'theory',
+    subjectId: 'asp-s8-ece',
+    fileSize: '3.2 MB',
+    uploadDate: '2024-09-10',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'asp-unit3-ece',
+    title: 'Unit 3: LMS Algorithm',
+    description: 'Wiener filter, Steepest descent, LMS convergence, Frequency domain adaptive filters',
+    type: 'theory',
+    subjectId: 'asp-s8-ece',
+    fileSize: '4.0 MB',
+    uploadDate: '2024-09-10',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'asp-unit4-ece',
+    title: 'Unit 4 & 5: Signal Space & Lattice Filters',
+    description: 'Vector spaces, Orthogonality, Gram-Schmidt, Stochastic lattice filters',
+    type: 'theory',
+    subjectId: 'asp-s8-ece',
+    fileSize: '3.8 MB',
+    uploadDate: '2024-09-10',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'asp-unit6-ece',
+    title: 'Unit 6: RLS & Advanced Topics',
+    description: 'Recursive Least Squares (RLS), QR decomposition, Systolic arrays',
+    type: 'theory',
+    subjectId: 'asp-s8-ece',
+    fileSize: '3.5 MB',
+    uploadDate: '2024-09-10',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= Open Elective-II (Placeholder) =================
+  {
+    id: 'oe2-unit1-ece',
+    title: 'Open Elective-II Notes',
+    description: 'Disaster Management / Big Data (Subject varies)',
+    type: 'theory',
+    subjectId: 'oe2-s8-ece',
+    fileSize: '2.5 MB',
+    uploadDate: '2024-09-10',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+
+  // ================= SEMESTER 8 LAB MANUALS =================
+  {
+    id: 'iotl-manual-ece',
+    title: 'Internet of Things (IoT) Lab Manual',
+    description: 'Arduino/Raspberry Pi interfacing, Sensors, Cloud (Thingspeak), TCP/UDP',
+    type: 'lab',
+    subjectId: 'iotl-s8-ece',
+    fileSize: '5.2 MB',
+    uploadDate: '2024-09-15',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
+  {
+    id: 'sdl-manual-ece',
+    title: 'Skill Development Lab Manual',
+    description: 'Python/Java/NS2 training, Project implementation',
+    type: 'lab',
+    subjectId: 'sdl-s8-ece',
+    fileSize: '3.0 MB',
+    uploadDate: '2024-09-15',
+    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
+  },
 ];
 export const branches = [
   {
