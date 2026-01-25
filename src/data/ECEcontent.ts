@@ -114,7 +114,7 @@ export const eceSubjects: ContentSubject[] = [
     year: 2,
     semester: 4,
     branch: 'ECE',
-    description: 'Numerical methods, Laplace & Fourier Transforms',
+    description: 'Complex variables, Special functions, Linear algebra',
     icon: '➗'
   },
   {
@@ -124,19 +124,49 @@ export const eceSubjects: ContentSubject[] = [
     year: 2,
     semester: 4,
     branch: 'ECE',
-    description: 'Economic concepts, Financial statements, Cost analysis',
+    description: 'Economic concepts, Demand/Supply, Financial statements',
     icon: '💰'
   },
-{
-  id: 'emi-s4-ee',
-  name: 'Electronic Measurement and Instrumentation',
-  code: '4EC3-06',
-  year: 2,
-  semester: 4,
-  branch: 'ECE',
-  description: 'Electrical measurements',
-  icon: '📏'
-},
+  {
+    id: 'ac-s4-ece',
+    name: 'Analog Circuits',
+    code: '4EC4-04',
+    year: 2,
+    semester: 4,
+    branch: 'ECE',
+    description: 'Feedback amplifiers, Oscillators, Op-Amp applications',
+    icon: '⚡'
+  },
+  {
+    id: 'mc-s4-ece',
+    name: 'Microcontrollers',
+    code: '4EC4-05',
+    year: 2,
+    semester: 4,
+    branch: 'ECE',
+    description: '8051 Architecture, Programming, Interfacing, RISC',
+    icon: '💾'
+  },
+  {
+    id: 'emi-s4-ece',
+    name: 'Electronics Measurement & Instrumentation',
+    code: '4EC3-06',
+    year: 2,
+    semester: 4,
+    branch: 'ECE',
+    description: 'Errors, Transducers, Bridges, Oscilloscopes, Signal generators',
+    icon: '🎛️'
+  },
+  {
+    id: 'adc-s4-ece',
+    name: 'Analog and Digital Communication',
+    code: '4EC4-07',
+    year: 2,
+    semester: 4,
+    branch: 'ECE',
+    description: 'Modulation techniques (AM/FM/PM), PCM, Digital modulation',
+    icon: '📡'
+  }
 {
   id: 'emil-s4-ee',
   name: 'EMI Lab',
@@ -147,26 +177,7 @@ export const eceSubjects: ContentSubject[] = [
   description: 'Measurement experiments',
   icon: '🧪'
 },
-{
-  id: 'em2l-s4-ee',
-  name: 'Electrical Machines-II Lab',
-  code: '4EE4-22',
-  year: 2,
-  semester: 4,
-  branch: 'EE',
-  description: 'AC machine experiments',
-  icon: '🧪'
-},
-{
-  id: 'pel-s4-ee',
-  name: 'Power Electronics Lab',
-  code: '4EE4-23',
-  year: 2,
-  semester: 4,
-  branch: 'EE',
-  description: 'Power electronics experiments',
-  icon: '🧪'
-},
+
 
 /* ================= SEMESTER 5 | YEAR 3 ================= */
 
