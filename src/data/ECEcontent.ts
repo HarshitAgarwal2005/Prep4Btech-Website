@@ -856,8 +856,7 @@ export const eceItems: ContentItem[] = [
     fileSize: '5.0 MB',
     uploadDate: '2024-08-20',
     viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  }
-];
+  },
 ];
 export const branches = [
   {
