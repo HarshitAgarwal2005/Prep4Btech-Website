@@ -292,7 +292,7 @@ export const eceSubjects: ContentSubject[] = [
     icon: '📊'
   },
   {
-    id: 'ml-s5-ece',
+    id: 'mwl-s5-ece',
     name: 'Microwave Lab',
     code: '5EC4-23',
     year: 3,
