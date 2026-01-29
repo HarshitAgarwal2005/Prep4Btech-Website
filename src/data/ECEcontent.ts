@@ -304,35 +304,125 @@ export const eceSubjects: ContentSubject[] = [
 /* ================= SEMESTER 6 | YEAR 3 ================= */
 
 {
-  id: 'rps-s6-ee',
-  name: 'Restructured Power System',
-  code: '5EE5-11',
-  year: 3,
-  semester: 6,
-  branch: 'EE',
-  description: 'Deregulated power systems',
-  icon: '🏗️'
-},
-{
-  id: 'emw-s6-ee',
-  name: 'Electromagnetic Wave',
-  code: '5EE5-12',
-  year: 3,
-  semester: 6,
-  branch: 'EE',
-  description: 'EM field theory',
-  icon: '🌐'
-},
-{
-  id: 'dcs-s6-ee',
-  name: 'Digital Control System',
-  code: '5EE5-13',
-  year: 3,
-  semester: 6,
-  branch: 'EE',
-  description: 'Digital control techniques',
-  icon: '🖥️'
-},
+    id: 'pe-s6-ece',
+    name: 'Power Electronics',
+    code: '6EC3-01',
+    year: 3,
+    semester: 6,
+    branch: 'ECE',
+    description: 'Study of switching electronic circuits',
+    icon: '⚡'
+  },
+  {
+    id: 'cn-s6-ece',
+    name: 'Computer Network',
+    code: '6EC4-02',
+    year: 3,
+    semester: 6,
+    branch: 'ECE',
+    description: 'Data communication and network protocols',
+    icon: '🌐'
+  },
+  {
+    id: 'foc-s6-ece',
+    name: 'Fiber Optics Communications',
+    code: '6EC4-03',
+    year: 3,
+    semester: 6,
+    branch: 'ECE',
+    description: 'Optical data transmission systems',
+    icon: '🔦'
+  },
+  {
+    id: 'ap-s6-ece',
+    name: 'Antennas and Propagation',
+    code: '6EC4-04',
+    year: 3,
+    semester: 6,
+    branch: 'ECE',
+    description: 'Antenna design and wave propagation',
+    icon: '📡'
+  },
+  {
+    id: 'itc-s6-ece',
+    name: 'Information Theory and Coding',
+    code: '6EC4-05',
+    year: 3,
+    semester: 6,
+    branch: 'ECE',
+    description: 'Data compression and error control',
+    icon: '🔢'
+  },
+  {
+    id: 'mems-s6-ece',
+    name: 'Introduction to MEMS',
+    code: '6EC5-11',
+    year: 3,
+    semester: 6,
+    branch: 'ECE',
+    description: 'Micro-electro-mechanical systems',
+    icon: '⚙️'
+  },
+  {
+    id: 'ne-s6-ece',
+    name: 'Nano Electronics',
+    code: '6EC5-12',
+    year: 3,
+    semester: 6,
+    branch: 'ECE',
+    description: 'Electronic components at nanoscale',
+    icon: '🔬'
+  },
+  {
+    id: 'nnfl-s6-ece',
+    name: 'Neural Network And Fuzzy Logic Control',
+    code: '6EC5-13',
+    year: 3,
+    semester: 6,
+    branch: 'ECE',
+    description: 'Artificial intelligence and logic control',
+    icon: '🧠'
+  },
+  {
+    id: 'hse-s6-ece',
+    name: 'High Speed Electronics',
+    code: '6EC5-14',
+    year: 3,
+    semester: 6,
+    branch: 'ECE',
+    description: 'Circuits for high-frequency applications',
+    icon: '🚄'
+  },
+  {
+    id: 'cnl-s6-ece',
+    name: 'Computer Network Lab',
+    code: '6EC4-21',
+    year: 3,
+    semester: 6,
+    branch: 'ECE',
+    description: 'Networking protocols and simulation',
+    icon: '🖥️'
+  },
+  {
+    id: 'awpl-s6-ece',
+    name: 'Antenna and Wave Propagation Lab',
+    code: '6EC4-22',
+    year: 3,
+    semester: 6,
+    branch: 'ECE',
+    description: 'Experiments on antenna characteristics',
+    icon: '📶'
+  },
+  {
+    id: 'edl-s6-ece',
+    name: 'Electronics Design Lab',
+    code: '6EC4-23',
+    year: 3,
+    semester: 6,
+    branch: 'ECE',
+    description: 'Design and testing of electronic circuits',
+    icon: '🛠️'
+  },
 
 /* ================= SEMESTER 7 | YEAR 4 ================= */
 
