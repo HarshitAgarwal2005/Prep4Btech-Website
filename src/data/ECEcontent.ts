@@ -1848,7 +1848,7 @@ export const eceItems: ContentItem[] = [
     fileSize: '4.8 MB',
     uploadDate: '2024-08-28',
     viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  },,
+  },
   /* ==================================================================================
    * SEMESTER 7
    * ================================================================================== */
