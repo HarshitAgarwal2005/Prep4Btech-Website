@@ -1839,16 +1839,7 @@ export const eceItems: ContentItem[] = [
     uploadDate: '2024-08-28',
     viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
   },
-  {
-    id: 'pel-manual-ece',
-    title: 'Power Electronics Lab Manual',
-    description: 'SCR characteristics, Rectifiers, Inverters, Motor speed control',
-    type: 'lab',
-    subjectId: 'pel-s6-ece',
-    fileSize: '4.8 MB',
-    uploadDate: '2024-08-28',
-    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  },
+  
   /* ==================================================================================
    * SEMESTER 7
    * ================================================================================== */
