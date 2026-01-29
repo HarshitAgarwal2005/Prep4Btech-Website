@@ -539,7 +539,7 @@ export const eceSubjects: ContentSubject[] = [
     icon: '🎓'
   },
   {
-    id: 'iot-s8-ece',
+    id: 'iot;-s8-ece',
     name: 'Internet of Things (IOT) Lab',
     code: '8EC4-21',
     year: 4,
