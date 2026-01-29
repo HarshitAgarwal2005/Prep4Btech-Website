@@ -499,55 +499,65 @@ export const eceSubjects: ContentSubject[] = [
 /* ================= SEMESTER 8 | YEAR 4 ================= */
 
 {
-  id: 'hvdc-s8-ee',
-  name: 'HVDC Transmission System',
-  code: '8EE4-11',
-  year: 4,
-  semester: 8,
-  branch: 'EE',
-  description: 'HVDC transmission',
-  icon: '🚄'
-},
-{
-  id: 'rect-s8-ee',
-  name: 'Line Commutated and Active Rectifiers',
-  code: '8EE4-12',
-  year: 4,
-  semester: 8,
-  branch: 'EE',
-  description: 'Power rectifier systems',
-  icon: '🔋'
-},
-{
-  id: 'aed-s8-ee',
-  name: 'Advanced Electric Drives',
-  code: '8EE4-13',
-  year: 4,
-  semester: 8,
-  branch: 'EE',
-  description: 'Electric drive systems',
-  icon: '🚗'
-},
-{
-  id: 'esl-s8-ee',
-  name: 'Energy Systems Lab',
-  code: '8EE4-21',
-  year: 4,
-  semester: 8,
-  branch: 'EE',
-  description: 'Energy system experiments',
-  icon: '🧪'
-},
-{
-  id: 'oe2-s8-ee',
-  name: 'Open Elective-II',
-  code: '8XX6-60.x',
-  year: 4,
-  semester: 8,
-  branch: 'EE',
-  description: 'Advanced elective subject',
-  icon: '📘'
-}
+    id: 'ai-s8-ece',
+    name: 'Artificial Intelligence And Expert Systems',
+    code: '8EC5-11',
+    year: 4,
+    semester: 8,
+    branch: 'ECE',
+    description: 'AI algorithms and expert system architectures',
+    icon: '🤖'
+  },
+  {
+    id: 'divp-s8-ece',
+    name: 'Digital Image and Video Processing',
+    code: '8EC5-12',
+    year: 4,
+    semester: 8,
+    branch: 'ECE',
+    description: 'Processing and analysis of digital visual data',
+    icon: '🖼️'
+  },
+  {
+    id: 'asp-s8-ece',
+    name: 'Adaptive Signal Processing',
+    code: '8EC5-13',
+    year: 4,
+    semester: 8,
+    branch: 'ECE',
+    description: 'Filters that adjust to changing signal conditions',
+    icon: '📉'
+  },
+  {
+    id: 'oe2-s8-ece',
+    name: 'Open Elective-II',
+    code: '8OE-XX',
+    year: 4,
+    semester: 8,
+    branch: 'ECE',
+    description: 'Advanced elective subject',
+    icon: '🎓'
+  },
+  {
+    id: 'iot-s8-ece',
+    name: 'Internet of Things (IOT) Lab',
+    code: '8EC4-21',
+    year: 4,
+    semester: 8,
+    branch: 'ECE',
+    description: 'Smart devices and sensor network projects',
+    icon: '☁️'
+  },
+  {
+    id: 'sdl-s8-ece',
+    name: 'Skill Development Lab',
+    code: '8EC4-22',
+    year: 4,
+    semester: 8,
+    branch: 'ECE',
+    description: 'Professional skill enhancement and workshops',
+    icon: '🛠️'
+  }
 ];
 export const eceItems: ContentItem[] = [
 
