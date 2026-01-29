@@ -300,7 +300,7 @@ export const eceSubjects: ContentSubject[] = [
     branch: 'ECE',
     description: 'Experiments with microwave components',
     icon: '🔬'
-  }
+  },
 /* ================= SEMESTER 6 | YEAR 3 ================= */
 
 {
