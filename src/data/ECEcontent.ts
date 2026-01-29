@@ -426,66 +426,83 @@ export const eceSubjects: ContentSubject[] = [
 
 /* ================= SEMESTER 7 | YEAR 4 ================= */
 
-{
-  id: 'wse-s7-ee',
-  name: 'Wind and Solar Energy Systems',
-  code: '7EE5-11',
-  year: 4,
-  semester: 7,
-  branch: 'EE',
-  description: 'Renewable energy systems',
-  icon: '🌞'
-},
-{
-  id: 'pqf-s7-ee',
-  name: 'Power Quality and FACTS',
-  code: '7EE5-12',
-  year: 4,
-  semester: 7,
-  branch: 'EE',
-  description: 'Power quality improvement',
-  icon: '⚡'
-},
-{
-  id: 'csd-s7-ee',
-  name: 'Control System Design',
-  code: '7EE5-13',
-  year: 4,
-  semester: 7,
-  branch: 'EE',
-  description: 'Advanced control design',
-  icon: '🎛️'
-},
-{
-  id: 'esl-s7-ee',
-  name: 'Embedded Systems Lab',
-  code: '7EE4-21',
-  year: 4,
-  semester: 7,
-  branch: 'EE',
-  description: 'Embedded system experiments',
-  icon: '🧪'
-},
-{
-  id: 'acsl-s7-ee',
-  name: 'Advanced Control System Lab',
-  code: '7EE4-22',
-  year: 4,
-  semester: 7,
-  branch: 'EE',
-  description: 'Advanced control experiments',
-  icon: '🧪'
-},
-{
-  id: 'oe1-s7-ee',
-  name: 'Open Elective-I',
-  code: '7XX6-60.x',
-  year: 4,
-  semester: 7,
-  branch: 'EE',
-  description: 'Interdisciplinary elective',
-  icon: '📘'
-},
+Here is the code for Semester 7 and Semester 8.
+
+I have set the year to 4 for both and used generic placeholders (e.g., 7OE-XX) for the Open Elective codes since they weren't provided.
+
+Semester 7 Subjects
+JavaScript
+const semester7Subjects = [
+  {
+    id: 'vlsi-s7-ece',
+    name: 'VLSI Design',
+    code: '7EC5-11',
+    year: 4,
+    semester: 7,
+    branch: 'ECE',
+    description: 'Very Large Scale Integration circuit design',
+    icon: '💾'
+  },
+  {
+    id: 'msd-s7-ece',
+    name: 'Mixed Signal Design',
+    code: '7EC5-12',
+    year: 4,
+    semester: 7,
+    branch: 'ECE',
+    description: 'Integration of analog and digital circuits',
+    icon: '〰️'
+  },
+  {
+    id: 'cmos-s7-ece',
+    name: 'CMOS Design',
+    code: '7EC5-13',
+    year: 4,
+    semester: 7,
+    branch: 'ECE',
+    description: 'Complementary Metal-Oxide-Semiconductor logic',
+    icon: '🔋'
+  },
+  {
+    id: 'oe1-s7-ece',
+    name: 'Open Elective-I',
+    code: '7OE-XX',
+    year: 4,
+    semester: 7,
+    branch: 'ECE',
+    description: 'Elective subject from other departments',
+    icon: '📚'
+  },
+  {
+    id: 'vlsil-s7-ece',
+    name: 'VLSI Design Lab',
+    code: '7EC4-21',
+    year: 4,
+    semester: 7,
+    branch: 'ECE',
+    description: 'Practical simulation and layout of VLSI',
+    icon: '🖥️'
+  },
+  {
+    id: 'acl-s7-ece',
+    name: 'Advance Communication Lab',
+    code: '7EC4-22',
+    year: 4,
+    semester: 7,
+    branch: 'ECE',
+    description: 'MATLAB simulation for communication systems',
+    icon: '📊'
+  },
+  {
+    id: 'ocl-s7-ece',
+    name: 'Optical Communication Lab',
+    code: '7EC4-23',
+    year: 4,
+    semester: 7,
+    branch: 'ECE',
+    description: 'Experiments with fiber optics and light',
+    icon: '🔦'
+  },
 
 /* ================= SEMESTER 8 | YEAR 4 ================= */
 
