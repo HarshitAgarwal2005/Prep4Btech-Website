@@ -425,14 +425,6 @@ export const eceSubjects: ContentSubject[] = [
   },
 
 /* ================= SEMESTER 7 | YEAR 4 ================= */
-
-Here is the code for Semester 7 and Semester 8.
-
-I have set the year to 4 for both and used generic placeholders (e.g., 7OE-XX) for the Open Elective codes since they weren't provided.
-
-Semester 7 Subjects
-JavaScript
-const semester7Subjects = [
   {
     id: 'vlsi-s7-ece',
     name: 'VLSI Design',
