@@ -182,76 +182,125 @@ export const eceSubjects: ContentSubject[] = [
 /* ================= SEMESTER 5 | YEAR 3 ================= */
 
 {
-  id: 'em-s5-ee',
-  name: 'Electrical Materials',
-  code: '5EE3-01',
-  year: 3,
-  semester: 5,
-  branch: 'EE',
-  description: 'Electrical and magnetic materials',
-  icon: '🧲'
-},
-{
-  id: 'ps1-s5-ee',
-  name: 'Power System-I',
-  code: '5EE4-02',
-  year: 3,
-  semester: 5,
-  branch: 'EE',
-  description: 'Power system fundamentals',
-  icon: '⚡'
-},
-{
-  id: 'cs-s5-ee',
-  name: 'Control System',
-  code: '5EE4-03',
-  year: 3,
-  semester: 5,
-  branch: 'EE',
-  description: 'Control system theory',
-  icon: '🎛️'
-},
-{
-  id: 'mp-s5-ee',
-  name: 'Microprocessor',
-  code: '5EE4-04',
-  year: 3,
-  semester: 5,
-  branch: 'EE',
-  description: 'Microprocessor fundamentals',
-  icon: '🧠'
-},
-{
-  id: 'ps1l-s5-ee',
-  name: 'Power System-I Lab',
-  code: '5EE4-21',
-  year: 3,
-  semester: 5,
-  branch: 'EE',
-  description: 'Power system experiments',
-  icon: '🧪'
-},
-{
-  id: 'csl-s5-ee',
-  name: 'Control System Lab',
-  code: '5EE4-22',
-  year: 3,
-  semester: 5,
-  branch: 'EE',
-  description: 'Control experiments',
-  icon: '🧪'
-},
-{
-  id: 'mpl-s5-ee',
-  name: 'Microprocessor Lab',
-  code: '5EE4-23',
-  year: 3,
-  semester: 5,
-  branch: 'EE',
-  description: 'Microprocessor programming',
-  icon: '🧪'
-},
-
+    id: 'ca-s5-ec',
+    name: 'Computer Architecture',
+    code: '5EC3-01',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Organization and design of computer systems',
+    icon: '💻'
+  },
+  {
+    id: 'ew-s5-ec',
+    name: 'Electromagnetics Waves',
+    code: '5EC4-02',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Propagation of electric and magnetic fields',
+    icon: '〰️'
+  },
+  {
+    id: 'cs-s5-ec',
+    name: 'Control System',
+    code: '5EC4-03',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Analysis and design of control loops',
+    icon: '🎛️'
+  },
+  {
+    id: 'dsp-s5-ec',
+    name: 'Digital Signal Processing',
+    code: '5EC4-04',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Processing of digital signals and filters',
+    icon: '📶'
+  },
+  {
+    id: 'mtt-s5-ec',
+    name: 'Microwave Theory & Techniques',
+    code: '5EC4-05',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'High-frequency signal transmission and devices',
+    icon: '📡'
+  },
+  {
+    id: 'bme-s5-ec',
+    name: 'Bio-Medical Electronics',
+    code: '5EC5-11',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Application of electronics in medicine',
+    icon: '🩺'
+  },
+  {
+    id: 'es-s5-ec',
+    name: 'Embedded Systems',
+    code: '5EC5-12',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Microcontrollers and real-time systems',
+    icon: '💾'
+  },
+  {
+    id: 'ptsp-s5-ec',
+    name: 'Probability Theory & Stochastic Process',
+    code: '5EC5-13',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Random variables and statistical analysis',
+    icon: '🎲'
+  },
+  {
+    id: 'sc-s5-ec',
+    name: 'Satellite Communication',
+    code: '5EC5-14',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Communication via orbital satellites',
+    icon: '🛰️'
+  },
+  {
+    id: 'rfsl-s5-ec',
+    name: 'RF Simulation Lab',
+    code: '5EC4-21',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Simulation of radio frequency circuits',
+    icon: '🖥️'
+  },
+  {
+    id: 'dspl-s5-ec',
+    name: 'Digital Signal Processing Lab',
+    code: '5EC4-22',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Practical implementation of DSP algorithms',
+    icon: '📊'
+  },
+  {
+    id: 'ml-s5-ec',
+    name: 'Microwave Lab',
+    code: '5EC4-23',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Experiments with microwave components',
+    icon: '🔬'
+  }
 /* ================= SEMESTER 6 | YEAR 3 ================= */
 
 {
