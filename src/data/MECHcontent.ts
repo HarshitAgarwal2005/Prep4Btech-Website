@@ -65,7 +65,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: ' '
 },
 {
-  id: 'et-s3-me',
+  id: 'mos-s3-me',
   name: 'Mechanics of Solids',
   code: '3ME4-05',
   year: 2,
