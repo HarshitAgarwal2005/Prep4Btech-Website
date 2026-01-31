@@ -2096,7 +2096,7 @@ export const mechItems: ContentItem[] = [
     fileSize: '4.2 MB',
     uploadDate: '2024-03-25',
     viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  },
+  }
 ];
 export const branches = [
   {
