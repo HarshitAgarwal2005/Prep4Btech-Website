@@ -209,86 +209,125 @@ export const eceSubjects: ContentSubject[] = [
 
 /* ===================== SEMESTER 5 (Year 3) ===================== */
 
-{
-  id: 'ca-s5-ece',
-  name: 'Computer Architecture',
-  code: '5EC3-01',
-  year: 3,
-  semester: 5,
-  branch: 'ECE',
-  description: 'Computer organization concepts',
-  icon: '📡'
-},
-{
-  id: 'emw-s5-ece',
-  name: 'Electromagnetic Waves',
-  code: '5EC4-02',
-  year: 3,
-  semester: 5,
-  branch: 'ECE',
-  description: 'Electromagnetic wave theory',
-  icon: '📡'
-},
-{
-  id: 'cs-s5-ece',
-  name: 'Control System',
-  code: '5EC4-03',
-  year: 3,
-  semester: 5,
-  branch: 'ECE',
-  description: 'Feedback and control systems',
-  icon: '📡'
-},
-{
-  id: 'dsp-s5-ece',
-  name: 'Digital Signal Processing',
-  code: '5EC4-04',
-  year: 3,
-  semester: 5,
-  branch: 'ECE',
-  description: 'Digital signal processing techniques',
-  icon: '📡'
-},
-{
-  id: 'mw-s5-ece',
-  name: 'Microwave Theory & Techniques',
-  code: '5EC4-05',
-  year: 3,
-  semester: 5,
-  branch: 'ECE',
-  description: 'Microwave engineering',
-  icon: '📡'
-},
-{
-  id: 'rfsl-s5-ece',
-  name: 'RF Simulation Lab',
-  code: '5EC4-21',
-  year: 3,
-  semester: 5,
-  branch: 'ECE',
-  description: 'RF circuit simulations',
-  icon: '📡'
-},
-{
-  id: 'dspl-s5-ece',
-  name: 'Digital Signal Processing Lab',
-  code: '5EC4-22',
-  year: 3,
-  semester: 5,
-  branch: 'ECE',
-  description: 'DSP experiments',
-  icon: '📡'
-},
-{
-  id: 'mwl-s5-ece',
-  name: 'Microwave Lab',
-  code: '5EC4-23',
-  year: 3,
-  semester: 5,
-  branch: 'ECE',
-  description: 'Microwave measurements',
-  icon: '📡'
-},
+  { id: 'ca-s5-ec',
+    name: 'Computer Architecture',
+    code: '5EC3-01',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Organization and design of computer systems',
+    icon: '💻'
+  },
+  {
+    id: 'ew-s5-ec',
+    name: 'Electromagnetics Waves',
+    code: '5EC4-02',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Propagation of electric and magnetic fields',
+    icon: '〰️'
+  },
+  {
+    id: 'cs-s5-ec',
+    name: 'Control System',
+    code: '5EC4-03',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Analysis and design of control loops',
+    icon: '🎛️'
+  },
+  {
+    id: 'dsp-s5-ec',
+    name: 'Digital Signal Processing',
+    code: '5EC4-04',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Processing of digital signals and filters',
+    icon: '📶'
+  },
+  {
+    id: 'mtt-s5-ec',
+    name: 'Microwave Theory & Techniques',
+    code: '5EC4-05',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'High-frequency signal transmission and devices',
+    icon: '📡'
+  },
+  {
+    id: 'bme-s5-ec',
+    name: 'Bio-Medical Electronics',
+    code: '5EC5-11',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Application of electronics in medicine',
+    icon: '🩺'
+  },
+  {
+    id: 'es-s5-ec',
+    name: 'Embedded Systems',
+    code: '5EC5-12',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Microcontrollers and real-time systems',
+    icon: '💾'
+  },
+  {
+    id: 'ptsp-s5-ec',
+    name: 'Probability Theory & Stochastic Process',
+    code: '5EC5-13',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Random variables and statistical analysis',
+    icon: '🎲'
+  },
+  {
+    id: 'sc-s5-ec',
+    name: 'Satellite Communication',
+    code: '5EC5-14',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Communication via orbital satellites',
+    icon: '🛰️'
+  },
+  {
+    id: 'rfsl-s5-ec',
+    name: 'RF Simulation Lab',
+    code: '5EC4-21',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Simulation of radio frequency circuits',
+    icon: '🖥️'
+  },
+  {
+    id: 'dspl-s5-ec',
+    name: 'Digital Signal Processing Lab',
+    code: '5EC4-22',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Practical implementation of DSP algorithms',
+    icon: '📊'
+  },
+  {
+    id: 'ml-s5-ec',
+    name: 'Microwave Lab',
+    code: '5EC4-23',
+    year: 3,
+    semester: 5,
+    branch: 'ECE',
+    description: 'Experiments with microwave components',
+    icon: '🔬'
+  },
 
 /* ===================== SEMESTER 6 (Year 3) ===================== */
 
