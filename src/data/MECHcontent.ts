@@ -5,7 +5,7 @@ export const mechSubjects: ContentSubject[] = [
   /* ================= SEMESTER 3 | YEAR 2 ================= */
 
 {
-  id: 'aem1-s3-mech',
+  id: 'aem1-s3-me',
   name: 'Advance Engineering Mathematics-I',
   code: '3ME2-01',
   year: 2,
@@ -15,7 +15,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '📐'
 },
 {
-  id: 'tc-s3-mech',
+  id: 'tc-s3-me',
   name: 'Technical Communication',
   code: '3ME1-02 / 4ME1-02',
   year: 2,
@@ -25,7 +25,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '🗣️'
 },
 {
-  id: 'mefa-s3-mech',
+  id: 'mefa-s3-me',
   name: 'Managerial Economics and Financial Accounting',
   code: '3ME1-03 / 4ME1-03',
   year: 2,
@@ -35,7 +35,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '💰'
 },
 {
-  id: 'em-s3-mech',
+  id: 'em-s3-me',
   name: 'Engineering Mechanics',
   code: '3ME3-04',
   year: 2,
@@ -45,7 +45,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '⚙️'
 },
 {
-  id: 'et-s3-mech',
+  id: 'et-s3-me',
   name: 'Engineering Thermodynamics',
   code: '3ME4-05',
   year: 2,
@@ -55,7 +55,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '🔥'
 },
 {
-  id: 'mse-s3-mech',
+  id: 'mse-s3-me',
   name: 'Material Science and Engineering',
   code: '3ME4-06',
   year: 2,
@@ -65,7 +65,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: ' '
 },
 {
-  id: 'et-s3-mech',
+  id: 'et-s3-me',
   name: 'Mechanics of Solids',
   code: '3ME4-05',
   year: 2,
