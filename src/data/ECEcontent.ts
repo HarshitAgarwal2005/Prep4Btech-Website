@@ -432,7 +432,7 @@ export const eceSubjects: ContentSubject[] = [
     icon: '🖥️'
   },
   {
-    id: 'awpl-s6-ece',
+    id: 'apl-s6-ece',
     name: 'Antenna and Wave Propagation Lab',
     code: '6EC4-22',
     year: 3,
