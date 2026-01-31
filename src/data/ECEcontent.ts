@@ -219,7 +219,7 @@ export const eceSubjects: ContentSubject[] = [
     icon: '💻'
   },
   {
-    id: 'ew-s5-ece',
+    id: 'emw-s5-ece',
     name: 'Electromagnetics Waves',
     code: '5EC4-02',
     year: 3,
