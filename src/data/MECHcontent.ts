@@ -78,7 +78,7 @@ export const mechSubjects: ContentSubject[] = [
 /* ================= SEMESTER 4 | YEAR 2 ================= */
 
 {
-  id: 'da-s4-mech',
+  id: 'da-s4-me',
   name: 'Data Analytics',
   code: '4ME2-01',
   year: 2,
@@ -88,7 +88,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '📊'
 },
 {
-  id: 'de-s4-mech',
+  id: 'de-s4-me',
   name: 'Digital Electronics',
   code: '4ME3-04',
   year: 2,
@@ -98,7 +98,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '💡'
 },
 {
-  id: 'fmfm-s4-mech',
+  id: 'fmfm-s4-me',
   name: 'Fluid Mechanics and Fluid Machines',
   code: '4ME4-05',
   year: 2,
@@ -108,7 +108,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '🌊'
 },
 {
-  id: 'mp-s4-mech',
+  id: 'mp-s4-me',
   name: 'Manufacturing Processes',
   code: '4ME4-06',
   year: 2,
