@@ -1045,13 +1045,7 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Software Testing and Validation',
     icon: '📚'
   },
-
-
-
-  //-----------------
-
-  //------------*--*-
- 
+ //-----------------SEMESTER 3 -- EE
   {
     id: 'ae-s3-ee',
     name: 'Advance Mathematics',
@@ -1267,11 +1261,6 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Design and analysis of digital control systems',
     icon: '🎛️'
   },
-
-
-  //---------------
-
-
   //----------------
   // EE - 3rd year semester 6
   {
