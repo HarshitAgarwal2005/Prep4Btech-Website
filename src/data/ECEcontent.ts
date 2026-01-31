@@ -528,45 +528,65 @@ export const eceSubjects: ContentSubject[] = [
 /* ===================== SEMESTER 8 (Year 4) ===================== */
 
 {
-  id: 'ai-s8-ece',
-  name: 'Artificial Intelligence and Expert Systems',
-  code: '8EC5-11',
-  year: 4,
-  semester: 8,
-  branch: 'ECE',
-  description: 'AI and expert systems',
-  icon: '📡'
-},
-{
-  id: 'dip-s8-ece',
-  name: 'Digital Image and Video Processing',
-  code: '8EC5-12',
-  year: 4,
-  semester: 8,
-  branch: 'ECE',
-  description: 'Image and video processing',
-  icon: '📡'
-},
-{
-  id: 'asp-s8-ece',
-  name: 'Adaptive Signal Processing',
-  code: '8EC5-13',
-  year: 4,
-  semester: 8,
-  branch: 'ECE',
-  description: 'Adaptive signal techniques',
-  icon: '📡'
-},
-{
-  id: 'iotl-s8-ece',
-  name: 'Internet of Things Lab',
-  code: '8EC4-21',
-  year: 4,
-  semester: 8,
-  branch: 'ECE',
-  description: 'IoT practical implementation',
-  icon: '📡'
-}
+    id: 'ai-s8-ece',
+    name: 'Artificial Intelligence And Expert Systems',
+    code: '8EC5-11',
+    year: 4,
+    semester: 8,
+    branch: 'ECE',
+    description: 'AI algorithms and expert system architectures',
+    icon: '🤖'
+  },
+  {
+    id: 'divp-s8-ece',
+    name: 'Digital Image and Video Processing',
+    code: '8EC5-12',
+    year: 4,
+    semester: 8,
+    branch: 'ECE',
+    description: 'Processing and analysis of digital visual data',
+    icon: '🖼️'
+  },
+  {
+    id: 'asp-s8-ece',
+    name: 'Adaptive Signal Processing',
+    code: '8EC5-13',
+    year: 4,
+    semester: 8,
+    branch: 'ECE',
+    description: 'Filters that adjust to changing signal conditions',
+    icon: '📉'
+  },
+  {
+    id: 'oe2-s8-ece',
+    name: 'Open Elective-II',
+    code: '8OE-XX',
+    year: 4,
+    semester: 8,
+    branch: 'ECE',
+    description: 'Advanced elective subject',
+    icon: '🎓'
+  },
+  {
+    id: 'iotl-s8-ece',
+    name: 'Internet of Things (IOT) Lab',
+    code: '8EC4-21',
+    year: 4,
+    semester: 8,
+    branch: 'ECE',
+    description: 'Smart devices and sensor network projects',
+    icon: '☁️'
+  },
+  {
+    id: 'sdl-s8-ece',
+    name: 'Skill Development Lab',
+    code: '8EC4-22',
+    year: 4,
+    semester: 8,
+    branch: 'ECE',
+    description: 'Professional skill enhancement and workshops',
+    icon: '🛠️'
+  }
 ];
 export const eceItems: ContentItem[] = [
 
