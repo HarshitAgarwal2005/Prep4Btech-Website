@@ -3,8 +3,6 @@ import { ContentSubject, ContentItem } from '../types';
 export const eceSubjects: ContentSubject[] = [
   /* ================= SEMESTER 3 | YEAR 2 ================= */
 
-/* ===================== SEMESTER 3 (Year 2) ===================== */
-
 {
   id: 'aem1-s3-ece',
   name: 'Advance Engineering Mathematics-I',
@@ -23,16 +21,6 @@ export const eceSubjects: ContentSubject[] = [
   semester: 3,
   branch: 'ECE',
   description: 'Technical and professional communication',
-  icon: '📡'
-},
-{
-  id: 'mefa-s3-ece',
-  name: 'Managerial Economics and Financial Accounting',
-  code: '3EC1-03 / 4EC1-03',
-  year: 2,
-  semester: 3,
-  branch: 'ECE',
-  description: 'Economics and financial principles',
   icon: '📡'
 },
 {
