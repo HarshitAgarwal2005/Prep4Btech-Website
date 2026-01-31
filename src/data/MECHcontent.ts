@@ -174,7 +174,7 @@ export const mechSubjects: ContentSubject[] = [
 /* ================= SEMESTER 6 | YEAR 3 ================= */
 
 {
-  id: 'se-s6-mech',
+  id: 'se-s6-me',
   name: 'Steam Engineering',
   code: '5ME5-11',
   year: 3,
@@ -184,7 +184,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '♨️'
 },
 {
-  id: 'ae-s6-mech',
+  id: 'ae-s6-me',
   name: 'Automobile Engineering',
   code: '5ME4-12',
   year: 3,
@@ -194,7 +194,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '🚗'
 },
 {
-  id: 'ndt-s6-mech',
+  id: 'ndt-s6-me',
   name: 'Non Destructive Evaluation and Testing',
   code: '5ME5-13',
   year: 3,
@@ -204,7 +204,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '🔍'
 },
 {
-  id: 'mechal-s5-mech',
+  id: 'mechal-s5-me',
   name: 'Mechatronics Lab',
   code: '5ME3-21',
   year: 3,
