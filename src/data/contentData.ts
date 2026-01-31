@@ -1644,6 +1644,12 @@ export const contentSubjects: ContentSubject[] = [
     description: 'Design and analysis of digital control systems',
     icon: '🎛️'
   },
+
+
+  //---------------
+
+
+  //----------------
   // EE - 3rd year semester 6
   {
     id: 'ca-s6-ee',
