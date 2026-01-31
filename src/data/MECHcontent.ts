@@ -217,7 +217,7 @@ export const mechSubjects: ContentSubject[] = [
 /* ================= SEMESTER 7 | YEAR 4 ================= */
 
 {
-  id: 'ice-s7-mech',
+  id: 'ice-s7-me',
   name: 'I.C. Engines',
   code: '7ME5-11',
   year: 4,
@@ -227,7 +227,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '🛢️'
 },
 {
-  id: 'or-s7-mech',
+  id: 'or-s7-me',
   name: 'Operations Research',
   code: '7ME5-12',
   year: 4,
@@ -237,7 +237,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '📈'
 },
 {
-  id: 'tm-s7-mech',
+  id: 'tm-s7-me',
   name: 'Turbomachines',
   code: '7ME5-13',
   year: 4,
@@ -247,7 +247,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '🌀'
 },
 {
-  id: 'oe1-s7-mech',
+  id: 'oe1-s7-me',
   name: 'Open Elective-I',
   code: '7AG6-60.x',
   year: 4,
@@ -257,7 +257,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '📘'
 },
 {
-  id: 'feal-s7-mech',
+  id: 'feal-s7-me',
   name: 'FEA Lab',
   code: '7ME4-21',
   year: 4,
@@ -270,7 +270,7 @@ export const mechSubjects: ContentSubject[] = [
 /* ================= SEMESTER 8 | YEAR 4 ================= */
 
 {
-  id: 'hev-s8-mech',
+  id: 'hev-s8-me',
   name: 'Hybrid and Electric Vehicles',
   code: '8ME5-11',
   year: 4,
@@ -280,7 +280,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '🚘'
 },
 {
-  id: 'som-s8-mech',
+  id: 'som-s8-me',
   name: 'Supply and Operations Management',
   code: '8ME5-12',
   year: 4,
@@ -290,7 +290,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '📦'
 },
 {
-  id: 'am-s8-mech',
+  id: 'am-s8-me',
   name: 'Additive Manufacturing',
   code: '8ME5-13',
   year: 4,
@@ -300,7 +300,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '🖨️'
 },
 {
-  id: 'oe2-s8-mech',
+  id: 'oe2-s8-me',
   name: 'Open Elective-II',
   code: '8AG6-60.x',
   year: 4,
@@ -310,7 +310,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '📘'
 },
 {
-  id: 'ml-s8-mech',
+  id: 'ml-s8-me',
   name: 'Metrology Lab',
   code: '8ME4-22',
   year: 4,
