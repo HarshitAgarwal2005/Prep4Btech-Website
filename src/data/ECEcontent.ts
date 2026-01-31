@@ -454,46 +454,76 @@ export const eceSubjects: ContentSubject[] = [
 
 /* ===================== SEMESTER 7 (Year 4) ===================== */
 
-{
-  id: 'vlsi-s7-ece',
-  name: 'VLSI Design',
-  code: '7EC5-11',
-  year: 4,
-  semester: 7,
-  branch: 'ECE',
-  description: 'VLSI circuit design',
-  icon: '📡'
-},
-{
-  id: 'msd-s7-ece',
-  name: 'Mixed Signal Design',
-  code: '7EC5-12',
-  year: 4,
-  semester: 7,
-  branch: 'ECE',
-  description: 'Analog-digital mixed systems',
-  icon: '📡'
-},
-{
-  id: 'cmos-s7-ece',
-  name: 'CMOS Design',
-  code: '7EC5-13',
-  year: 4,
-  semester: 7,
-  branch: 'ECE',
-  description: 'CMOS circuit design',
-  icon: '📡'
-},
-{
-  id: 'vlisil-s7-ece',
-  name: 'VLSI Design Lab',
-  code: '7EC4-21',
-  year: 4,
-  semester: 7,
-  branch: 'ECE',
-  description: 'VLSI practical work',
-  icon: '📡'
-},
+ {
+    id: 'vlsi-s7-ece',
+    name: 'VLSI Design',
+    code: '7EC5-11',
+    year: 4,
+    semester: 7,
+    branch: 'ECE',
+    description: 'Very Large Scale Integration circuit design',
+    icon: '💾'
+  },
+  {
+    id: 'msd-s7-ece',
+    name: 'Mixed Signal Design',
+    code: '7EC5-12',
+    year: 4,
+    semester: 7,
+    branch: 'ECE',
+    description: 'Integration of analog and digital circuits',
+    icon: '〰️'
+  },
+  {
+    id: 'cmos-s7-ece',
+    name: 'CMOS Design',
+    code: '7EC5-13',
+    year: 4,
+    semester: 7,
+    branch: 'ECE',
+    description: 'Complementary Metal-Oxide-Semiconductor logic',
+    icon: '🔋'
+  },
+  {
+    id: 'oe1-s7-ece',
+    name: 'Open Elective-I',
+    code: '7OE-XX',
+    year: 4,
+    semester: 7,
+    branch: 'ECE',
+    description: 'Elective subject from other departments',
+    icon: '📚'
+  },
+  {
+    id: 'vlsil-s7-ece',
+    name: 'VLSI Design Lab',
+    code: '7EC4-21',
+    year: 4,
+    semester: 7,
+    branch: 'ECE',
+    description: 'Practical simulation and layout of VLSI',
+    icon: '🖥️'
+  },
+  {
+    id: 'acl-s7-ece',
+    name: 'Advance Communication Lab',
+    code: '7EC4-22',
+    year: 4,
+    semester: 7,
+    branch: 'ECE',
+    description: 'MATLAB simulation for communication systems',
+    icon: '📊'
+  },
+  {
+    id: 'ocl-s7-ece',
+    name: 'Optical Communication Lab',
+    code: '7EC4-23',
+    year: 4,
+    semester: 7,
+    branch: 'ECE',
+    description: 'Experiments with fiber optics and light',
+    icon: '🔦'
+  },
 
 /* ===================== SEMESTER 8 (Year 4) ===================== */
 
