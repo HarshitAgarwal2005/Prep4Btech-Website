@@ -121,7 +121,7 @@ export const mechSubjects: ContentSubject[] = [
 /* ================= SEMESTER 5 | YEAR 3 ================= */
 
 {
-  id: 'mecha-s5-mech',
+  id: 'mecha-s5-me',
   name: 'Mechatronic Systems',
   code: '5ME3-01',
   year: 3,
@@ -131,7 +131,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '🤖'
 },
 {
-  id: 'ht-s5-mech',
+  id: 'ht-s5-me',
   name: 'Heat Transfer',
   code: '5ME4-02',
   year: 3,
@@ -141,7 +141,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '🌡️'
 },
 {
-  id: 'mt-s5-mech',
+  id: 'mt-s5-me',
   name: 'Manufacturing Technology',
   code: '5ME4-03',
   year: 3,
@@ -151,7 +151,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '🛠️'
 },
 {
-  id: 'dme1-s5-mech',
+  id: 'dme1-s5-me',
   name: 'Design of Machine Elements-I',
   code: '5ME4-04',
   year: 3,
@@ -161,7 +161,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '📏'
 },
 {
-  id: 'pom-s5-mech',
+  id: 'pom-s5-me',
   name: 'Principles of Management',
   code: '5ME4-05',
   year: 3,
