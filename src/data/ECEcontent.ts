@@ -107,45 +107,105 @@ export const eceSubjects: ContentSubject[] = [
 /* ===================== SEMESTER 4 (Year 2) ===================== */
 
 {
-  id: 'aem2-s4-ece',
-  name: 'Advance Engineering Mathematics-II',
-  code: '4EC2-01',
-  year: 2,
-  semester: 4,
-  branch: 'ECE',
-  description: 'Advanced mathematical techniques',
-  icon: '📡'
-},
-{
-  id: 'ac-s4-ece',
-  name: 'Analog Circuits',
-  code: '4EC4-04',
-  year: 2,
-  semester: 4,
-  branch: 'ECE',
-  description: 'Analog circuit analysis',
-  icon: '📡'
-},
-{
-  id: 'mc-s4-ece',
-  name: 'Microcontrollers',
-  code: '4EC4-05',
-  year: 2,
-  semester: 4,
-  branch: 'ECE',
-  description: 'Microcontroller architecture',
-  icon: '📡'
-},
-{
-  id: 'adc-s4-ece',
-  name: 'Analog and Digital Communication',
-  code: '4EC4-07',
-  year: 2,
-  semester: 4,
-  branch: 'ECE',
-  description: 'Communication systems',
-  icon: '📡'
-},
+    id: 'aem2-s4-ece',
+    name: 'Advance Engineering Mathematics-II',
+    code: '4EC2-01',
+    year: 2,
+    semester: 4,
+    branch: 'ECE',
+    description: 'Complex analysis and numerical methods',
+    icon: '📐'
+  },
+  {
+    id: 'mefa-s4-ece',
+    name: 'Managerial Economics And Financial Accounting',
+    code: '4EC1-03',
+    year: 2,
+    semester: 4,
+    branch: 'ECE',
+    description: 'Economic concepts and accounting principles',
+    icon: '💰'
+  },
+  {
+    id: 'ac-s4-ece',
+    name: 'Analog Circuits',
+    code: '4EC4-04',
+    year: 2,
+    semester: 4,
+    branch: 'ECE',
+    description: 'Amplifiers, oscillators, and op-amps',
+    icon: '🔌'
+  },
+  {
+    id: 'mc-s4-ece',
+    name: 'Microcontrollers',
+    code: '4EC4-05',
+    year: 2,
+    semester: 4,
+    branch: 'ECE',
+    description: 'Architecture and programming of microcontrollers',
+    icon: '💾'
+  },
+  {
+    id: 'emi-s4-ece',
+    name: 'Electronics Measurement & Instrumentation',
+    code: '4EC3-06',
+    year: 2,
+    semester: 4,
+    branch: 'ECE',
+    description: 'Sensors, transducers, and measuring devices',
+    icon: '⏲️'
+  },
+  {
+    id: 'adc-s4-ece',
+    name: 'Analog and Digital Communication',
+    code: '4EC4-07',
+    year: 2,
+    semester: 4,
+    branch: 'ECE',
+    description: 'Signal modulation and transmission systems',
+    icon: '📡'
+  },
+  {
+    id: 'adcl-s4-ece',
+    name: 'Analog and Digital Communication Lab',
+    code: '4EC4-21',
+    year: 2,
+    semester: 4,
+    branch: 'ECE',
+    description: 'Experiments in modulation techniques',
+    icon: '📶'
+  },
+  {
+    id: 'acl-s4-ece',
+    name: 'Analog Circuits Lab',
+    code: '4EC4-22',
+    year: 2,
+    semester: 4,
+    branch: 'ECE',
+    description: 'Design and testing of analog circuitry',
+    icon: '🛠️'
+  },
+  {
+    id: 'mcl-s4-ece',
+    name: 'Microcontrollers Lab',
+    code: '4EC4-23',
+    year: 2,
+    semester: 4,
+    branch: 'ECE',
+    description: 'Programming and interfacing experiments',
+    icon: '💻'
+  },
+  {
+    id: 'emil-s4-ece',
+    name: 'Electronics Measurement & Instrumentation Lab',
+    code: '4EC4-24',
+    year: 2,
+    semester: 4,
+    branch: 'ECE',
+    description: 'Calibration and measurement practicals',
+    icon: '🔬'
+  },
 
 /* ===================== SEMESTER 5 (Year 3) ===================== */
 
