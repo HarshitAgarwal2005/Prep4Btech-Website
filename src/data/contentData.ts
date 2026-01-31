@@ -1046,7 +1046,383 @@ export const contentSubjects: ContentSubject[] = [
     icon: '📚'
   },
 
+/* ===================== SEMESTER 3 (Year 2) ===================== */
 
+{
+  id: 'aem1-s3-ece',
+  name: 'Advance Engineering Mathematics-I',
+  code: '3EC2-01',
+  year: 2,
+  semester: 3,
+  branch: 'ECE',
+  description: 'Advanced engineering mathematics',
+  icon: '📡'
+},
+{
+  id: 'tc-s3-ece',
+  name: 'Technical Communication',
+  code: '3EC1-02 / 4EC1-02',
+  year: 2,
+  semester: 3,
+  branch: 'ECE',
+  description: 'Technical and professional communication',
+  icon: '📡'
+},
+{
+  id: 'mefa-s3-ece',
+  name: 'Managerial Economics and Financial Accounting',
+  code: '3EC1-03 / 4EC1-03',
+  year: 2,
+  semester: 3,
+  branch: 'ECE',
+  description: 'Economics and financial principles',
+  icon: '📡'
+},
+{
+  id: 'dsd-s3-ece',
+  name: 'Digital System Design',
+  code: '3EC4-04',
+  year: 2,
+  semester: 3,
+  branch: 'ECE',
+  description: 'Digital logic and system design',
+  icon: '📡'
+},
+{
+  id: 'ss-s3-ece',
+  name: 'Signals & Systems',
+  code: '3EC4-05',
+  year: 2,
+  semester: 3,
+  branch: 'ECE',
+  description: 'Signal and system analysis',
+  icon: '📡'
+},
+{
+  id: 'nt-s3-ece',
+  name: 'Network Theory',
+  code: '3EC4-06',
+  year: 2,
+  semester: 3,
+  branch: 'ECE',
+  description: 'Electrical network analysis',
+  icon: '📡'
+},
+{
+  id: 'ed-s3-ece',
+  name: 'Electronic Devices',
+  code: '3EC4-07',
+  year: 2,
+  semester: 3,
+  branch: 'ECE',
+  description: 'Semiconductor devices',
+  icon: '📡'
+},
+{
+  id: 'edl-s3-ece',
+  name: 'Electronic Devices Lab',
+  code: '3EC4-21',
+  year: 2,
+  semester: 3,
+  branch: 'ECE',
+  description: 'Electronic device experiments',
+  icon: '📡'
+},
+{
+  id: 'dsdl-s3-ece',
+  name: 'Digital System Design Lab',
+  code: '3EC4-22',
+  year: 2,
+  semester: 3,
+  branch: 'ECE',
+  description: 'Digital circuit implementation',
+  icon: '📡'
+},
+{
+  id: 'spl-s3-ece',
+  name: 'Signal Processing Lab',
+  code: '3EC4-23',
+  year: 2,
+  semester: 3,
+  branch: 'ECE',
+  description: 'Signal processing simulations',
+  icon: '📡'
+},
+{
+  id: 'cpl-s3-ece',
+  name: 'Computer Programming Lab-I',
+  code: '3EC3-24',
+  year: 2,
+  semester: 3,
+  branch: 'ECE',
+  description: 'Programming fundamentals',
+  icon: '📡'
+},
+
+/* ===================== SEMESTER 4 (Year 2) ===================== */
+
+{
+  id: 'aem2-s4-ece',
+  name: 'Advance Engineering Mathematics-II',
+  code: '4EC2-01',
+  year: 2,
+  semester: 4,
+  branch: 'ECE',
+  description: 'Advanced mathematical techniques',
+  icon: '📡'
+},
+{
+  id: 'ac-s4-ece',
+  name: 'Analog Circuits',
+  code: '4EC4-04',
+  year: 2,
+  semester: 4,
+  branch: 'ECE',
+  description: 'Analog circuit analysis',
+  icon: '📡'
+},
+{
+  id: 'mc-s4-ece',
+  name: 'Microcontrollers',
+  code: '4EC4-05',
+  year: 2,
+  semester: 4,
+  branch: 'ECE',
+  description: 'Microcontroller architecture',
+  icon: '📡'
+},
+{
+  id: 'adc-s4-ece',
+  name: 'Analog and Digital Communication',
+  code: '4EC4-07',
+  year: 2,
+  semester: 4,
+  branch: 'ECE',
+  description: 'Communication systems',
+  icon: '📡'
+},
+
+/* ===================== SEMESTER 5 (Year 3) ===================== */
+
+{
+  id: 'ca-s5-ece',
+  name: 'Computer Architecture',
+  code: '5EC3-01',
+  year: 3,
+  semester: 5,
+  branch: 'ECE',
+  description: 'Computer organization concepts',
+  icon: '📡'
+},
+{
+  id: 'emw-s5-ece',
+  name: 'Electromagnetic Waves',
+  code: '5EC4-02',
+  year: 3,
+  semester: 5,
+  branch: 'ECE',
+  description: 'Electromagnetic wave theory',
+  icon: '📡'
+},
+{
+  id: 'cs-s5-ece',
+  name: 'Control System',
+  code: '5EC4-03',
+  year: 3,
+  semester: 5,
+  branch: 'ECE',
+  description: 'Feedback and control systems',
+  icon: '📡'
+},
+{
+  id: 'dsp-s5-ece',
+  name: 'Digital Signal Processing',
+  code: '5EC4-04',
+  year: 3,
+  semester: 5,
+  branch: 'ECE',
+  description: 'Digital signal processing techniques',
+  icon: '📡'
+},
+{
+  id: 'mw-s5-ece',
+  name: 'Microwave Theory & Techniques',
+  code: '5EC4-05',
+  year: 3,
+  semester: 5,
+  branch: 'ECE',
+  description: 'Microwave engineering',
+  icon: '📡'
+},
+{
+  id: 'rfsl-s5-ece',
+  name: 'RF Simulation Lab',
+  code: '5EC4-21',
+  year: 3,
+  semester: 5,
+  branch: 'ECE',
+  description: 'RF circuit simulations',
+  icon: '📡'
+},
+{
+  id: 'dspl-s5-ece',
+  name: 'Digital Signal Processing Lab',
+  code: '5EC4-22',
+  year: 3,
+  semester: 5,
+  branch: 'ECE',
+  description: 'DSP experiments',
+  icon: '📡'
+},
+{
+  id: 'mwl-s5-ece',
+  name: 'Microwave Lab',
+  code: '5EC4-23',
+  year: 3,
+  semester: 5,
+  branch: 'ECE',
+  description: 'Microwave measurements',
+  icon: '📡'
+},
+
+/* ===================== SEMESTER 6 (Year 3) ===================== */
+
+{
+  id: 'pe-s6-ece',
+  name: 'Power Electronics',
+  code: '6EC3-01',
+  year: 3,
+  semester: 6,
+  branch: 'ECE',
+  description: 'Power electronic devices',
+  icon: '📡'
+},
+{
+  id: 'cn-s6-ece',
+  name: 'Computer Network',
+  code: '6EC4-02',
+  year: 3,
+  semester: 6,
+  branch: 'ECE',
+  description: 'Computer networking principles',
+  icon: '📡'
+},
+{
+  id: 'foc-s6-ece',
+  name: 'Fiber Optic Communication',
+  code: '6EC4-03',
+  year: 3,
+  semester: 6,
+  branch: 'ECE',
+  description: 'Optical communication systems',
+  icon: '📡'
+},
+{
+  id: 'ap-s6-ece',
+  name: 'Antennas and Propagation',
+  code: '6EC4-04',
+  year: 3,
+  semester: 6,
+  branch: 'ECE',
+  description: 'Antenna theory',
+  icon: '📡'
+},
+{
+  id: 'itc-s6-ece',
+  name: 'Information Theory and Coding',
+  code: '6EC4-05',
+  year: 3,
+  semester: 6,
+  branch: 'ECE',
+  description: 'Information and coding theory',
+  icon: '📡'
+},
+
+/* ===================== SEMESTER 7 (Year 4) ===================== */
+
+{
+  id: 'vlsi-s7-ece',
+  name: 'VLSI Design',
+  code: '7EC5-11',
+  year: 4,
+  semester: 7,
+  branch: 'ECE',
+  description: 'VLSI circuit design',
+  icon: '📡'
+},
+{
+  id: 'msd-s7-ece',
+  name: 'Mixed Signal Design',
+  code: '7EC5-12',
+  year: 4,
+  semester: 7,
+  branch: 'ECE',
+  description: 'Analog-digital mixed systems',
+  icon: '📡'
+},
+{
+  id: 'cmos-s7-ece',
+  name: 'CMOS Design',
+  code: '7EC5-13',
+  year: 4,
+  semester: 7,
+  branch: 'ECE',
+  description: 'CMOS circuit design',
+  icon: '📡'
+},
+{
+  id: 'vlisil-s7-ece',
+  name: 'VLSI Design Lab',
+  code: '7EC4-21',
+  year: 4,
+  semester: 7,
+  branch: 'ECE',
+  description: 'VLSI practical work',
+  icon: '📡'
+},
+
+/* ===================== SEMESTER 8 (Year 4) ===================== */
+
+{
+  id: 'ai-s8-ece',
+  name: 'Artificial Intelligence and Expert Systems',
+  code: '8EC5-11',
+  year: 4,
+  semester: 8,
+  branch: 'ECE',
+  description: 'AI and expert systems',
+  icon: '📡'
+},
+{
+  id: 'dip-s8-ece',
+  name: 'Digital Image and Video Processing',
+  code: '8EC5-12',
+  year: 4,
+  semester: 8,
+  branch: 'ECE',
+  description: 'Image and video processing',
+  icon: '📡'
+},
+{
+  id: 'asp-s8-ece',
+  name: 'Adaptive Signal Processing',
+  code: '8EC5-13',
+  year: 4,
+  semester: 8,
+  branch: 'ECE',
+  description: 'Adaptive signal techniques',
+  icon: '📡'
+},
+{
+  id: 'iotl-s8-ece',
+  name: 'Internet of Things Lab',
+  code: '8EC4-21',
+  year: 4,
+  semester: 8,
+  branch: 'ECE',
+  description: 'IoT practical implementation',
+  icon: '📡'
+},
 
 
   //-----------------
