@@ -78,7 +78,7 @@ export const mechSubjects: ContentSubject[] = [
 /* ================= SEMESTER 4 | YEAR 2 ================= */
 
 {
-    id: 'da-s4-mech',
+    id: 'da-s4-me',
     name: 'Data Analytics',
     code: '4ME2-01',
     year: 2,
@@ -88,7 +88,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '📊'
   },
   {
-    id: 'mefa-s4-mech',
+    id: 'mefa-s4-me',
     name: 'Managerial Economics And Financial Accounting',
     code: '4ME1-03',
     year: 2,
@@ -98,7 +98,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '💰'
   },
   {
-    id: 'de-s4-mech',
+    id: 'de-s4-me',
     name: 'Digital Electronics',
     code: '4ME3-04',
     year: 2,
@@ -108,7 +108,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '🔌'
   },
   {
-    id: 'fmfm-s4-mech',
+    id: 'fmfm-s4-me',
     name: 'Fluid Mechanics and Fluid Machines',
     code: '4ME4-05',
     year: 2,
@@ -118,7 +118,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '💧'
   },
   {
-    id: 'mp-s4-mech',
+    id: 'mp-s4-me',
     name: 'Manufacturing Processes',
     code: '4ME4-06',
     year: 2,
@@ -128,7 +128,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '🏭'
   },
   {
-    id: 'tom-s4-mech',
+    id: 'tom-s4-me',
     name: 'Theory of Machines',
     code: '4ME4-07',
     year: 2,
@@ -138,7 +138,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '⚙️'
   },
   {
-    id: 'del-s4-mech',
+    id: 'del-s4-me',
     name: 'Digital Electronics Lab',
     code: '4ME3-21',
     year: 2,
@@ -148,7 +148,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '🖥️'
   },
   {
-    id: 'fml-s4-mech',
+    id: 'fml-s4-me',
     name: 'Fluid Mechanics Lab',
     code: '4ME4-22',
     year: 2,
@@ -158,7 +158,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '🌊'
   },
   {
-    id: 'ppl-s4-mech',
+    id: 'ppl-s4-me',
     name: 'Production Practice Lab',
     code: '4ME4-23',
     year: 2,
@@ -168,7 +168,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '🛠️'
   },
   {
-    id: 'toml-s4-mech',
+    id: 'toml-s4-me',
     name: 'Theory of Machines Lab',
     code: '4ME4-24',
     year: 2,
