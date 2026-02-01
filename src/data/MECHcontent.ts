@@ -220,55 +220,125 @@ export const mechSubjects: ContentSubject[] = [
 /* ================= SEMESTER 5 | YEAR 3 ================= */
 
 {
-  id: 'mecha-s5-me',
-  name: 'Mechatronic Systems',
-  code: '5ME3-01',
-  year: 3,
-  semester: 5,
-  branch: 'MECH',
-  description: 'Integrated mechanical systems',
-  icon: '🤖'
-},
-{
-  id: 'ht-s5-me',
-  name: 'Heat Transfer',
-  code: '5ME4-02',
-  year: 3,
-  semester: 5,
-  branch: 'MECH',
-  description: 'Heat transfer mechanisms',
-  icon: '🌡️'
-},
-{
-  id: 'mt-s5-me',
-  name: 'Manufacturing Technology',
-  code: '5ME4-03',
-  year: 3,
-  semester: 5,
-  branch: 'MECH',
-  description: 'Advanced manufacturing methods',
-  icon: '🛠️'
-},
-{
-  id: 'dme1-s5-me',
-  name: 'Design of Machine Elements-I',
-  code: '5ME4-04',
-  year: 3,
-  semester: 5,
-  branch: 'MECH',
-  description: 'Machine element design',
-  icon: '📏'
-},
-{
-  id: 'pom-s5-me',
-  name: 'Principles of Management',
-  code: '5ME4-05',
-  year: 3,
-  semester: 5,
-  branch: 'MECH',
-  description: 'Management fundamentals',
-  icon: '📋'
-},
+    id: 'ms-s5-me',
+    name: 'Mechatronic Systems',
+    code: '5ME3-01',
+    year: 3,
+    semester: 5,
+    branch: 'MECH',
+    description: 'Integration of mechanics and electronics',
+    icon: '🤖'
+  },
+  {
+    id: 'ht-s5-me',
+    name: 'Heat Transfer',
+    code: '5ME4-02',
+    year: 3,
+    semester: 5,
+    branch: 'MECH',
+    description: 'Thermal energy exchange mechanisms',
+    icon: '🔥'
+  },
+  {
+    id: 'mt-s5-me',
+    name: 'Manufacturing Technology',
+    code: '5ME4-03',
+    year: 3,
+    semester: 5,
+    branch: 'MECH',
+    description: 'Advanced production processes',
+    icon: '🏭'
+  },
+  {
+    id: 'dome1-s5-me',
+    name: 'Design of Machine Elements – I',
+    code: '5ME4-04',
+    year: 3,
+    semester: 5,
+    branch: 'MECH',
+    description: 'Mechanical component design basics',
+    icon: '⚙️'
+  },
+  {
+    id: 'pom-s5-me',
+    name: 'Principles of Management',
+    code: '5ME4-05',
+    year: 3,
+    semester: 5,
+    branch: 'MECH',
+    description: 'Management theories and organizational behavior',
+    icon: '👔'
+  },
+  {
+    id: 'se-s5-me',
+    name: 'Steam Engineering',
+    code: '5ME5-11',
+    year: 3,
+    semester: 5,
+    branch: 'MECH',
+    description: 'Boilers and steam power cycles',
+    icon: '💨'
+  },
+  {
+    id: 'ae-s5-me',
+    name: 'Automobile Engineering',
+    code: '5ME5-12',
+    year: 3,
+    semester: 5,
+    branch: 'MECH',
+    description: 'Vehicle systems and dynamics',
+    icon: '🚗'
+  },
+  {
+    id: 'ndet-s5-me',
+    name: 'Non Destructive Evaluation and Testing',
+    code: '5ME5-13',
+    year: 3,
+    semester: 5,
+    branch: 'MECH',
+    description: 'Testing without material damage',
+    icon: '🔍'
+  },
+  {
+    id: 'ml-s5-me',
+    name: 'Mechatronics Lab',
+    code: '5ME3-21',
+    year: 3,
+    semester: 5,
+    branch: 'MECH',
+    description: 'Experiments in automation and control',
+    icon: '🕹️'
+  },
+  {
+    id: 'htl-s5-me',
+    name: 'Heat Transfer Lab',
+    code: '5ME4-22',
+    year: 3,
+    semester: 5,
+    branch: 'MECH',
+    description: 'Thermal conductivity and convection experiments',
+    icon: '🌡️'
+  },
+  {
+    id: 'pel-s5-me',
+    name: 'Production Engineering Lab',
+    code: '5ME4-23',
+    year: 3,
+    semester: 5,
+    branch: 'MECH',
+    description: 'Manufacturing and machining practice',
+    icon: '🛠️'
+  },
+  {
+    id: 'mdp1-s5-me',
+    name: 'Machine Design Practice - I',
+    code: '5ME4-24',
+    year: 3,
+    semester: 5,
+    branch: 'MECH',
+    description: 'Design and drawing of machine parts',
+    icon: '✏️'
+  },
 
 /* ================= SEMESTER 6 | YEAR 3 ================= */
 
