@@ -73,7 +73,46 @@ export const mechSubjects: ContentSubject[] = [
   branch: 'MECH',
   description: 'Mech. of Solid Principles',
   icon: ''
-},
+},{
+    id: 'md-lab-s3-mech',
+    name: 'Machine Drawing Practice',
+    code: '3ME4-21',
+    year: 2,
+    semester: 3,
+    branch: 'MECH',
+    description: 'Drafting and assembly of machine components',
+    icon: '✏️'
+  },
+  {
+    id: 'mt-lab-s3-mech',
+    name: 'Materials Testing Lab',
+    code: '3ME4-22',
+    year: 2,
+    semester: 3,
+    branch: 'MECH',
+    description: 'Testing strength and hardness of materials',
+    icon: '🧪'
+  },
+  {
+    id: 'bme-lab-s3-mech',
+    name: 'Basic Mechanical Engineering Lab',
+    code: '3ME4-23',
+    year: 2,
+    semester: 3,
+    branch: 'MECH',
+    description: 'Fundamental experiments in mechanics and engines',
+    icon: '🔧'
+  },
+  {
+    id: 'mat-lab-s3-mech',
+    name: 'Programming using MATLAB',
+    code: '3ME4-24',
+    year: 2,
+    semester: 3,
+    branch: 'MECH',
+    description: 'Computational problems and simulation using MATLAB',
+    icon: '💻'
+  },
 
 /* ================= SEMESTER 4 | YEAR 2 ================= */
 
@@ -138,7 +177,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '⚙️'
   },
   {
-    id: 'del-s4-me',
+    id: 'de-lab-s4-me',
     name: 'Digital Electronics Lab',
     code: '4ME3-21',
     year: 2,
@@ -148,7 +187,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '🖥️'
   },
   {
-    id: 'fml-s4-me',
+    id: 'fm-lab-s4-me',
     name: 'Fluid Mechanics Lab',
     code: '4ME4-22',
     year: 2,
@@ -158,7 +197,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '🌊'
   },
   {
-    id: 'ppl-s4-me',
+    id: 'pp-lab-s4-me',
     name: 'Production Practice Lab',
     code: '4ME4-23',
     year: 2,
@@ -168,7 +207,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '🛠️'
   },
   {
-    id: 'toml-s4-me',
+    id: 'tom-lab-s4-me',
     name: 'Theory of Machines Lab',
     code: '4ME4-24',
     year: 2,
