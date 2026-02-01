@@ -343,45 +343,125 @@ export const mechSubjects: ContentSubject[] = [
 /* ================= SEMESTER 6 | YEAR 3 ================= */
 
 {
-  id: 'se-s6-me',
-  name: 'Steam Engineering',
-  code: '5ME5-11',
-  year: 3,
-  semester: 6,
-  branch: 'MECH',
-  description: 'Steam power systems',
-  icon: '♨️'
-},
-{
-  id: 'ae-s6-me',
-  name: 'Automobile Engineering',
-  code: '5ME4-12',
-  year: 3,
-  semester: 6,
-  branch: 'MECH',
-  description: 'Automotive systems',
-  icon: '🚗'
-},
-{
-  id: 'ndt-s6-me',
-  name: 'Non Destructive Evaluation and Testing',
-  code: '5ME5-13',
-  year: 3,
-  semester: 6,
-  branch: 'MECH',
-  description: 'Material testing methods',
-  icon: '🔍'
-},
-{
-  id: 'mech-lab-s5-me',
-  name: 'Mechatronics Lab',
-  code: '5ME3-21',
-  year: 3,
-  semester: 5,
-  branch: 'MECH',
-  description: 'Mechatronics experiments',
-  icon: '🧪'
-},
+    id: 'mm-s6-me',
+    name: 'Measurement and Metrology',
+    code: '6ME3-01',
+    year: 3,
+    semester: 6,
+    branch: 'MECH',
+    description: 'Precision measurement and standards',
+    icon: '📏'
+  },
+  {
+    id: 'cims-s6-me',
+    name: 'Computer Integrated Manufacturing Systems (CIMS)',
+    code: '6ME4-02',
+    year: 3,
+    semester: 6,
+    branch: 'MECH',
+    description: 'Automation and IT in manufacturing',
+    icon: '🏭'
+  },
+  {
+    id: 'mv-s6-me',
+    name: 'Mechanical Vibrations',
+    code: '6ME4-03',
+    year: 3,
+    semester: 6,
+    branch: 'MECH',
+    description: 'Analysis of oscillatory motions in machinery',
+    icon: '〰️'
+  },
+  {
+    id: 'dome2-s6-me',
+    name: 'Design of Machine Elements- II',
+    code: '6ME4-04',
+    year: 3,
+    semester: 6,
+    branch: 'MECH',
+    description: 'Advanced design of gears, bearings, and clutches',
+    icon: '⚙️'
+  },
+  {
+    id: 'qm-s6-me',
+    name: 'Quality Management',
+    code: '6ME4-05',
+    year: 3,
+    semester: 6,
+    branch: 'MECH',
+    description: 'Quality assurance and control methodologies',
+    icon: '✅'
+  },
+  {
+    id: 'rac-s6-me',
+    name: 'Refrigeration and Air Conditioning',
+    code: '6ME5-11',
+    year: 3,
+    semester: 6,
+    branch: 'MECH',
+    description: 'HVAC systems and cooling cycles',
+    icon: '❄️'
+  },
+  {
+    id: 'ncmm-s6-me',
+    name: 'Non Conventional Machining Methods',
+    code: '6ME5-12',
+    year: 3,
+    semester: 6,
+    branch: 'MECH',
+    description: 'Modern machining processes like EDM and laser',
+    icon: '⚡'
+  },
+  {
+    id: 'mems-s6-me',
+    name: 'MEMS and Microsystems',
+    code: '6ME5-13',
+    year: 3,
+    semester: 6,
+    branch: 'MECH',
+    description: 'Micro-electro-mechanical systems technology',
+    icon: '🔬'
+  },
+  {
+    id: 'cims-lab-s6-me',
+    name: 'CIMS Lab',
+    code: '6ME4-21',
+    year: 3,
+    semester: 6,
+    branch: 'MECH',
+    description: 'Experiments in CNC and automated manufacturing',
+    icon: '🖥️'
+  },
+  {
+    id: 'vib-lab-s6-me',
+    name: 'Vibration Lab',
+    code: '6ME4-22',
+    year: 3,
+    semester: 6,
+    branch: 'MECH',
+    description: 'Practical analysis of mechanical vibrations',
+    icon: '📳'
+  },
+  {
+    id: 'mdp2-s6-me',
+    name: 'Machine Design Practice – II',
+    code: '6ME4-23',
+    year: 3,
+    semester: 6,
+    branch: 'MECH',
+    description: 'Design projects focused on transmission systems',
+    icon: '✏️'
+  },
+  {
+    id: 'te1-lab-s6-me',
+    name: 'Thermal Engineering Lab-1',
+    code: '6ME4-24',
+    year: 3,
+    semester: 6,
+    branch: 'MECH',
+    description: 'Testing of IC engines and thermal systems',
+    icon: '🌡️'
+  },
 
 /* ================= SEMESTER 7 | YEAR 4 ================= */
 
