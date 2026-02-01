@@ -409,7 +409,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '📘'
 },
 {
-  id: 'ml-s8-me',
+  id: 'metro-lab-s8-me',
   name: 'Metrology Lab',
   code: '8ME4-22',
   year: 4,
