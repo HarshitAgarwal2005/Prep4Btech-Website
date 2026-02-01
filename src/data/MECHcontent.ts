@@ -250,7 +250,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '🏭'
   },
   {
-    id: 'dome1-s5-me',
+    id: 'dme1-s5-me',
     name: 'Design of Machine Elements – I',
     code: '5ME4-04',
     year: 3,
@@ -290,7 +290,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '🚗'
   },
   {
-    id: 'ndet-s5-me',
+    id: 'ndt-s5-me',
     name: 'Non Destructive Evaluation and Testing',
     code: '5ME5-13',
     year: 3,
@@ -310,7 +310,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '🕹️'
   },
   {
-    id: 'htl-s5-me',
+    id: 'ht-lab-s5-me',
     name: 'Heat Transfer Lab',
     code: '5ME4-22',
     year: 3,
@@ -320,7 +320,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '🌡️'
   },
   {
-    id: 'pel-s5-me',
+    id: 'pe-lab-s5-me',
     name: 'Production Engineering Lab',
     code: '5ME4-23',
     year: 3,
