@@ -443,7 +443,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '📳'
   },
   {
-    id: 'mdp2-s6-me',
+    id: 'mdp2-lab-s6-me',
     name: 'Machine Design Practice – II',
     code: '6ME4-23',
     year: 3,
