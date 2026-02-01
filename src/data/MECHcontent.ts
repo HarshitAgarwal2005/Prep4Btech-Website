@@ -330,7 +330,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '🛠️'
   },
   {
-    id: 'mdp1-s5-me',
+    id: 'mdp1-lab-s5-me',
     name: 'Machine Design Practice - I',
     code: '5ME4-24',
     year: 3,
