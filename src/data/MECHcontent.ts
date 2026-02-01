@@ -78,45 +78,105 @@ export const mechSubjects: ContentSubject[] = [
 /* ================= SEMESTER 4 | YEAR 2 ================= */
 
 {
-  id: 'da-s4-me',
-  name: 'Data Analytics',
-  code: '4ME2-01',
-  year: 2,
-  semester: 4,
-  branch: 'MECH',
-  description: 'Statistical data analysis',
-  icon: '📊'
-},
-{
-  id: 'de-s4-me',
-  name: 'Digital Electronics',
-  code: '4ME3-04',
-  year: 2,
-  semester: 4,
-  branch: 'MECH',
-  description: 'Digital and electronic fundamentals',
-  icon: '💡'
-},
-{
-  id: 'fmfm-s4-me',
-  name: 'Fluid Mechanics and Fluid Machines',
-  code: '4ME4-05',
-  year: 2,
-  semester: 4,
-  branch: 'MECH',
-  description: 'Fluid flow and machines',
-  icon: '🌊'
-},
-{
-  id: 'mp-s4-me',
-  name: 'Manufacturing Processes',
-  code: '4ME4-06',
-  year: 2,
-  semester: 4,
-  branch: 'MECH',
-  description: 'Manufacturing techniques',
-  icon: '🏭'
-},
+    id: 'da-s4-mech',
+    name: 'Data Analytics',
+    code: '4ME2-01',
+    year: 2,
+    semester: 4,
+    branch: 'MECH',
+    description: 'Data interpretation and statistical analysis',
+    icon: '📊'
+  },
+  {
+    id: 'mefa-s4-mech',
+    name: 'Managerial Economics And Financial Accounting',
+    code: '4ME1-03',
+    year: 2,
+    semester: 4,
+    branch: 'MECH',
+    description: 'Financial principles and economic decision making',
+    icon: '💰'
+  },
+  {
+    id: 'de-s4-mech',
+    name: 'Digital Electronics',
+    code: '4ME3-04',
+    year: 2,
+    semester: 4,
+    branch: 'MECH',
+    description: 'Logic gates and digital circuit design',
+    icon: '🔌'
+  },
+  {
+    id: 'fmfm-s4-mech',
+    name: 'Fluid Mechanics and Fluid Machines',
+    code: '4ME4-05',
+    year: 2,
+    semester: 4,
+    branch: 'MECH',
+    description: 'Study of fluid behavior and hydraulic turbines',
+    icon: '💧'
+  },
+  {
+    id: 'mp-s4-mech',
+    name: 'Manufacturing Processes',
+    code: '4ME4-06',
+    year: 2,
+    semester: 4,
+    branch: 'MECH',
+    description: 'Casting, forming, and machining techniques',
+    icon: '🏭'
+  },
+  {
+    id: 'tom-s4-mech',
+    name: 'Theory of Machines',
+    code: '4ME4-07',
+    year: 2,
+    semester: 4,
+    branch: 'MECH',
+    description: 'Kinematics and dynamics of mechanisms',
+    icon: '⚙️'
+  },
+  {
+    id: 'del-s4-mech',
+    name: 'Digital Electronics Lab',
+    code: '4ME3-21',
+    year: 2,
+    semester: 4,
+    branch: 'MECH',
+    description: 'Practical experiments with logic gates',
+    icon: '🖥️'
+  },
+  {
+    id: 'fml-s4-mech',
+    name: 'Fluid Mechanics Lab',
+    code: '4ME4-22',
+    year: 2,
+    semester: 4,
+    branch: 'MECH',
+    description: 'Flow measurement and hydraulic experiments',
+    icon: '🌊'
+  },
+  {
+    id: 'ppl-s4-mech',
+    name: 'Production Practice Lab',
+    code: '4ME4-23',
+    year: 2,
+    semester: 4,
+    branch: 'MECH',
+    description: 'Hands-on workshop and manufacturing practice',
+    icon: '🛠️'
+  },
+  {
+    id: 'toml-s4-mech',
+    name: 'Theory of Machines Lab',
+    code: '4ME4-24',
+    year: 2,
+    semester: 4,
+    branch: 'MECH',
+    description: 'Analysis of gears, cams, and mechanisms',
+    icon: '🎡'
+  },
 
 /* ================= SEMESTER 5 | YEAR 3 ================= */
 
