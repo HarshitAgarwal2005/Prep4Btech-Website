@@ -74,7 +74,7 @@ export const mechSubjects: ContentSubject[] = [
   description: 'Mech. of Solid Principles',
   icon: ''
 },{
-    id: 'md-lab-s3-mech',
+    id: 'md-lab-s3-me',
     name: 'Machine Drawing Practice',
     code: '3ME4-21',
     year: 2,
@@ -84,7 +84,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '✏️'
   },
   {
-    id: 'mt-lab-s3-mech',
+    id: 'mt-lab-s3-me',
     name: 'Materials Testing Lab',
     code: '3ME4-22',
     year: 2,
@@ -94,7 +94,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '🧪'
   },
   {
-    id: 'bme-lab-s3-mech',
+    id: 'bme-lab-s3-me',
     name: 'Basic Mechanical Engineering Lab',
     code: '3ME4-23',
     year: 2,
@@ -104,7 +104,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '🔧'
   },
   {
-    id: 'mat-lab-s3-mech',
+    id: 'mat-lab-s3-me',
     name: 'Programming using MATLAB',
     code: '3ME4-24',
     year: 2,
