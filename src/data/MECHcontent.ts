@@ -373,7 +373,7 @@ export const mechSubjects: ContentSubject[] = [
     icon: '〰️'
   },
   {
-    id: 'dome2-s6-me',
+    id: 'dme2-s6-me',
     name: 'Design of Machine Elements- II',
     code: '6ME4-04',
     year: 3,
