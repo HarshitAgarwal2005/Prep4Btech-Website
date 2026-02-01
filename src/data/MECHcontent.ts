@@ -2196,26 +2196,7 @@ export const mechItems: ContentItem[] = [
     uploadDate: '2024-03-20',
     viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
   },
-  {
-    id: 'te2-lab-manual-me',
-    title: 'Thermal Engineering Lab-II Manual',
-    description: 'Diesel engine testing, Morse test, Refrigeration COP',
-    type: 'lab',
-    subjectId: 'te2-lab-s7-me',
-    fileSize: '4.2 MB',
-    uploadDate: '2024-03-20',
-    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  },
-  {
-    id: 'qc-lab-manual-me',
-    title: 'Quality Control Lab Manual',
-    description: 'Control charts (X-bar, R, p), Process capability, Sampling',
-    type: 'lab',
-    subjectId: 'qc-lab-s7-me',
-    fileSize: '4.0 MB',
-    uploadDate: '2024-03-20',
-    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  },
+  
 
   // SEMESTER 8 (Based on 12-Mechanical-Scheme-and-Syllabus-VII-VIII...)
   
@@ -2326,16 +2307,7 @@ export const mechItems: ContentItem[] = [
   },
 
   // --- Semester 8 Labs ---
-  {
-    id: 'ie-lab-manual-me',
-    title: 'Industrial Engineering Lab Manual',
-    description: 'Time study, Flow charts, MRP, Forecasting, Project management',
-    type: 'lab',
-    subjectId: 'ie-lab-s8-me',
-    fileSize: '4.5 MB',
-    uploadDate: '2024-03-25',
-    viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
-  },
+
   {
     id: 'metro-lab-manual-me',
     title: 'Metrology Lab Manual',
