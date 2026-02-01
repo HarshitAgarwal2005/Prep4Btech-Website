@@ -303,7 +303,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '🔍'
 },
 {
-  id: 'mechal-s5-me',
+  id: 'mech-lab-s5-me',
   name: 'Mechatronics Lab',
   code: '5ME3-21',
   year: 3,
