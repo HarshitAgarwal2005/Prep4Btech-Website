@@ -506,7 +506,7 @@ export const mechSubjects: ContentSubject[] = [
   icon: '📘'
 },
 {
-  id: 'feal-s7-me',
+  id: 'fea-lab-s7-me',
   name: 'FEA Lab',
   code: '7ME4-21',
   year: 4,
