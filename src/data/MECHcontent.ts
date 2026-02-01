@@ -1648,11 +1648,11 @@ export const mechItems: ContentItem[] = [
     viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
   },
   {
-    id: 'dmp1-manual-me',
+    id: 'mdp1-manual-me',
     title: 'Machine Design Practice-I Manual',
     description: 'Design of Joints, Couplings, Screws, Beams',
     type: 'lab',
-    subjectId: 'dmp1-lab-s5-me',
+    subjectId: 'mdp1-lab-s5-me',
     fileSize: '3.8 MB',
     uploadDate: '2024-08-28',
     viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
