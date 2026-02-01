@@ -2059,7 +2059,7 @@ export const mechItems: ContentItem[] = [
     title: 'Machine Design Practice-II Manual',
     description: 'Design of Fatigue, Springs, Gears, Bearings problems',
     type: 'lab',
-    subjectId: 'dmp2-lab-s6-me',
+    subjectId: 'mdp2-lab-s6-me',
     fileSize: '3.8 MB',
     uploadDate: '2024-03-15',
     viewUrl: 'https://drive.google.com/file/d/placeholder-url/view?usp=sharing'
