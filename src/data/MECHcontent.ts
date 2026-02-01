@@ -74,7 +74,7 @@ export const mechSubjects: ContentSubject[] = [
   description: 'Mech. of Solid Principles',
   icon: ''
 },{
-    id: 'md-lab-s3-mech',
+    id: 'md-s3-mech',
     name: 'Machine Drawing Practice',
     code: '3ME4-21',
     year: 2,
