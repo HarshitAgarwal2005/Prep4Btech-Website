@@ -13,7 +13,11 @@ export const useSubjects = (year: number | null, semester: number | null, branch
       if (year) query = query.eq('year', year);
       if (semester) query = query.eq('semester', semester);
       // Use ILIKE for flexible branch matching (e.g., matching "CSE" in "CSE/AI")
-      if (branch) query = query.ilike('branch', `%${branch}%`);
+      // If year === 1, it skips this check entirely, 
+      // fetching the 1st year subjects for EVERY branch!
+      if (branch && year !== 1) { 
+        query = query.ilike('branch', `%${branch}%`);
+      }
       
       const { data, error } = await query;
       if (error) throw error;
