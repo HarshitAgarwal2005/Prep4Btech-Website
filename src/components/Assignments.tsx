@@ -1398,10 +1398,7 @@ const Assignments: React.FC = () => {
         display: flex;
       }
       iframe {
-        width: 100%;
-        height: 100%;
-        border: none;
-        display: block;
+        width: 100%; height: 100%; border: none; display: block;
       }
     </style>
   </head>
