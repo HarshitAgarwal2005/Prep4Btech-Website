@@ -1300,7 +1300,7 @@ const Assignments: React.FC = () => {
         //   </body>
         //   </html>
         // `);
-           newWindow.document.write('
+           newWindow.document.write(`
   <!DOCTYPE html>
   <html>
   <head>
@@ -1422,9 +1422,7 @@ const Assignments: React.FC = () => {
             </div>
   </body>
   </html>
-');
-
-// //     newWindow.document.close();
+`);
         newWindow.document.close();
       }
     } catch (error) {
