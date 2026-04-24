@@ -1164,11 +1164,10 @@ const Assignments: React.FC = () => {
     isLoading: isSubjectsLoading 
   } = useSubjects(selectedYear, selectedSemester, selectedBranch);
 
-  // 2. Fetch Content: Always fetches all, client-side filters for display
-  const {
-    data: filteredContent = [],
-    allData: allSubjectContent = [],
-    isLoading: isContentLoading
+  // 2. Fetch Content: Automatically re-fetches when a Subject or Type is selected
+  const { 
+    data: filteredContent = [], 
+    isLoading: isContentLoading 
   } = useSubjectContent(selectedSubject?.id, selectedContentType);
 
   // --- HELPER LOGIC ---
@@ -1226,28 +1225,15 @@ const Assignments: React.FC = () => {
     return items.join(' > ');
   };
 
-  // Content Types Configuration - ordered as required
+  // Content Types Configuration
   const contentTypes = [
-    { id: 'theory', name: 'Theory', icon: BookOpen, color: 'bg-blue-500', activeColor: 'bg-blue-600' },
-    { id: 'lab', name: 'Lab', icon: FlaskConical, color: 'bg-green-500', activeColor: 'bg-green-600' },
-    { id: 'books', name: 'Books', icon: Book, color: 'bg-amber-500', activeColor: 'bg-amber-600' },
-    { id: 'videos', name: 'Videos', icon: Video, color: 'bg-red-500', activeColor: 'bg-red-600' },
-    { id: 'assignments', name: 'Assignments', icon: ClipboardList, color: 'bg-orange-500', activeColor: 'bg-orange-600' },
-    { id: 'mtt', name: 'MTT Papers', icon: GraduationCap, color: 'bg-teal-500', activeColor: 'bg-teal-600' }
+    { id: 'theory', name: 'Theory', icon: BookOpen, color: 'bg-blue-500' },
+    { id: 'lab', name: 'Lab', icon: FlaskConical, color: 'bg-green-500' },
+    { id: 'books', name: 'Books', icon: Book, color: 'bg-purple-500' },
+    { id: 'videos', name: 'Videos', icon: Video, color: 'bg-red-500' },
+    { id: 'assignments', name: 'Assignments', icon: ClipboardList, color: 'bg-orange-500' },
+    { id: 'mtt', name: 'MTT Papers', icon: GraduationCap, color: 'bg-pink-500' }
   ];
-
-  const typeOrder = ['theory', 'lab', 'books', 'videos', 'assignments', 'mtt'];
-
-  const getCountForType = (type: string) =>
-    allSubjectContent.filter(item => item.type === type).length;
-
-  const totalCount = allSubjectContent.length;
-
-  const sortedContent = [...filteredContent].sort((a, b) => {
-    const ai = typeOrder.indexOf(a.type);
-    const bi = typeOrder.indexOf(b.type);
-    return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
-  });
 
   const getContentTypeIcon = (type: string) => {
     const contentType = contentTypes.find(ct => ct.id === type);
@@ -1271,158 +1257,35 @@ const Assignments: React.FC = () => {
       
       const newWindow = window.open('', '_blank');
       if (newWindow) {
-        // newWindow.document.write(`
-        //   <!DOCTYPE html>
-        //   <html>
-        //   <head>
-        //   <meta charset="UTF-8">
-        //   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        //     <title>${content.title} - Prep4Btech Content</title>
-        //     <style>
-        //       html, body { height: 100%; margin: 0; padding: 0; overflow: hidden; }
-        //       body { display: flex; flex-direction: column; height: 100vh; background: #f8fafc; font-family: system-ui, sans-serif; }
-        //       .app-header { 
-        //         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
-        //         color: white; padding: 12px 16px; 
-        //         display: flex; align-items: center; justify-content: space-between; 
-        //       }
-        //       .content { flex: 1; width: 100%; }
-        //       iframe { width: 100%; height: 100%; border: none; }
-        //     </style>
-        //   </head>
-        //   <body>
-        //     <div class="app-header">
-        //       <h1>${content.title}</h1>
-        //     </div>
-        //     <div class="content">
-        //       <iframe src="${embedUrl}" allow="autoplay"></iframe>
-        //     </div>
-        //   </body>
-        //   </html>
-        // `);
-           newWindow.document.write(`
-  <!DOCTYPE html>
-  <html>
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>${content.title} - Prep4Btech Content</title>
-    <style>
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-      }
-      body {
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        background: #f8fafc;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      }
-      .app-header { 
+        newWindow.document.write(`
+          <!DOCTYPE html>
+          <html>
+          <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+            <title>${content.title} - Prep4Btech Content</title>
+            <style>
+              html, body { height: 100%; margin: 0; padding: 0; overflow: hidden; }
+              body { display: flex; flex-direction: column; height: 100vh; background: #f8fafc; font-family: system-ui, sans-serif; }
+              .app-header { 
                 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
-                color: white; 
-                padding: 12px 16px; 
-                flex-shrink: 0;
-                box-shadow: 0 4px 20px rgba(118, 75, 162, 0.25);
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                z-index: 50;
-                position: relative;
+                color: white; padding: 12px 16px; 
+                display: flex; align-items: center; justify-content: space-between; 
               }
-
-              .header-info {
-                flex: 1;
-                min-width: 0; /* Essential for text truncation */
-                margin-right: 12px;
-              }
-
-              .meta-badge {
-                display: inline-flex;
-                align-items: center;
-                background: rgba(255, 255, 255, 0.2);
-                backdrop-filter: blur(4px);
-                -webkit-backdrop-filter: blur(4px);
-                border: 1px solid rgba(255, 255, 255, 0.2);
-                padding: 2px 8px;
-                border-radius: 6px;
-                font-size: 10px;
-                font-weight: 700;
-                text-transform: uppercase;
-                letter-spacing: 0.5px;
-                margin-bottom: 6px;
-                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-              }
-
-              h1 {
-                margin: 0;
-                font-size: 16px;
-                font-weight: 600;
-                line-height: 1.3;
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                text-shadow: 0 1px 2px rgba(0,0,0,0.1);
-              }
-
-              .sub-text {
-                margin: 2px 0 0 0;
-                font-size: 12px;
-                opacity: 0.85;
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis;
-              }
-
-              /* Decorative Logo Circle */
-              .brand-circle {
-                width: 36px;
-                height: 36px;
-                background: rgba(255,255,255,0.15);
-                border-radius: 12px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-weight: 700;
-                font-size: 14px;
-                border: 1px solid rgba(255,255,255,0.3);
-              }
-      .content { 
-        flex: 1;
-        width: 100%;
-        position: relative;
-        background: #fff;
-        display: flex;
-      }
-      iframe {
-        width: 100%; height: 100%; border: none; display: block;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="app-header">
-              <div class="header-info">
-                <div class="meta-badge">
-                  ${content.type.toUpperCase()}
-                </div>
-                <h1>${content.title}</h1>
-                <p class="sub-text">
-                  ${selectedSubject?.name} • Prep4Btech
-                </p>
-              </div>
-              <div class="brand-circle">
-                P4B
-              </div>
+              .content { flex: 1; width: 100%; }
+              iframe { width: 100%; height: 100%; border: none; }
+            </style>
+          </head>
+          <body>
+            <div class="app-header">
+              <h1>${content.title}</h1>
             </div>
             <div class="content">
               <iframe src="${embedUrl}" allow="autoplay"></iframe>
             </div>
-  </body>
-  </html>
-`);
+          </body>
+          </html>
+        `);
         newWindow.document.close();
       }
     } catch (error) {
@@ -1684,138 +1547,72 @@ const Assignments: React.FC = () => {
                 </div>
               </div>
 
-              {/* Filter Buttons with counts */}
-              <div className="mb-8 flex flex-wrap gap-2">
+              {/* Filter Buttons */}
+              <div className="mb-8 flex flex-wrap gap-3">
                   <button
                     onClick={() => setSelectedContentType(null)}
-                    className={`px-4 py-2 rounded-lg font-medium transition-all flex items-center gap-2 text-sm ${
-                      selectedContentType === null
-                        ? 'bg-blue-600 text-white shadow-md'
-                        : 'bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-300 dark:hover:bg-slate-600'
+                    className={`px-4 py-2 rounded-lg font-medium transition-all ${
+                      selectedContentType === null ? 'bg-blue-600 text-white' : 'bg-slate-200 dark:bg-slate-700'
                     }`}
                   >
                     All Content
-                    {!isContentLoading && (
-                      <span className={`text-xs font-bold px-1.5 py-0.5 rounded-full ${
-                        selectedContentType === null
-                          ? 'bg-white/25 text-white'
-                          : 'bg-slate-300 dark:bg-slate-600 text-slate-700 dark:text-slate-200'
-                      }`}>
-                        {totalCount}
-                      </span>
-                    )}
                   </button>
-                  {contentTypes.map((type) => {
-                    const Icon = type.icon;
-                    const count = getCountForType(type.id);
-                    const isActive = selectedContentType === type.id;
-                    return (
-                      <button
-                        key={type.id}
-                        onClick={() => setSelectedContentType(type.id)}
-                        className={`px-4 py-2 rounded-lg font-medium transition-all flex items-center gap-2 text-sm ${
-                          isActive
-                            ? `${type.activeColor} text-white shadow-md`
-                            : 'bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-300 dark:hover:bg-slate-600'
-                        }`}
-                      >
-                        <Icon className="h-3.5 w-3.5" />
-                        {type.name}
-                        {!isContentLoading && (
-                          <span className={`text-xs font-bold px-1.5 py-0.5 rounded-full ${
-                            isActive
-                              ? 'bg-white/25 text-white'
-                              : 'bg-slate-300 dark:bg-slate-600 text-slate-700 dark:text-slate-200'
-                          }`}>
-                            {count}
-                          </span>
-                        )}
-                      </button>
-                    );
-                  })}
+                  {contentTypes.map((type) => (
+                    <button
+                      key={type.id}
+                      onClick={() => setSelectedContentType(type.id)}
+                      className={`px-4 py-2 rounded-lg font-medium transition-all ${
+                        selectedContentType === type.id ? `${type.color} text-white` : 'bg-slate-200 dark:bg-slate-700'
+                      }`}
+                    >
+                      {type.name}
+                    </button>
+                  ))}
               </div>
 
               {/* --- CONTENT LIST WITH LOADING STATE --- */}
               {isContentLoading ? (
                  <div className="p-8"><LoadingSkeleton /></div>
-              ) : sortedContent.length > 0 ? (
-                <div className="space-y-3">
-                  {sortedContent.map((content, idx) => {
+              ) : filteredContent.length > 0 ? (
+                <div className="space-y-4">
+                  {filteredContent.map((content) => {
                     const Icon = getContentTypeIcon(content.type);
                     const colorClass = getContentTypeColor(content.type);
-                    const prevType = idx > 0 ? sortedContent[idx - 1].type : null;
-                    const showGroupHeader = prevType !== content.type;
-                    const typeConfig = contentTypes.find(ct => ct.id === content.type);
-
+                    
                     return (
-                      <React.Fragment key={content.id}>
-                        {showGroupHeader && selectedContentType === null && (
-                          <div className="flex items-center gap-3 pt-2 pb-1">
-                            <div className={`${colorClass} p-1.5 rounded-md`}>
-                              <Icon className="h-4 w-4 text-white" />
+                      <div key={content.id} className="bg-slate-100 dark:bg-slate-700/50 rounded-xl p-6 border border-slate-200 dark:border-slate-600">
+                        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                          <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+                            <div className={`${colorClass} p-3 rounded-xl`}>
+                              <Icon className="h-6 w-6 text-white" />
                             </div>
-                            <span className="text-sm font-semibold text-slate-600 dark:text-slate-300 uppercase tracking-wider">
-                              {typeConfig?.name || content.type}
-                            </span>
-                            <span className="text-xs bg-slate-200 dark:bg-slate-700 text-slate-500 dark:text-slate-400 px-2 py-0.5 rounded-full font-medium">
-                              {getCountForType(content.type)}
-                            </span>
-                            <div className="flex-1 h-px bg-slate-200 dark:bg-slate-700"></div>
-                          </div>
-                        )}
-                        <div className="bg-white dark:bg-slate-700/50 rounded-xl p-5 border border-slate-200 dark:border-slate-600 hover:border-slate-300 dark:hover:border-slate-500 hover:shadow-md transition-all duration-200">
-                          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-                            <div className="flex items-start gap-4">
-                              <div className={`${colorClass} p-2.5 rounded-xl flex-shrink-0`}>
-                                <Icon className="h-5 w-5 text-white" />
-                              </div>
-                              <div className="min-w-0">
-                                <h3 className="text-base font-semibold text-slate-800 dark:text-white mb-0.5 leading-tight">{content.title}</h3>
-                                <p className="text-sm text-slate-500 dark:text-slate-400 mb-2 line-clamp-1">{content.description}</p>
-                                <div className="flex flex-wrap items-center gap-3 text-xs text-slate-400 dark:text-slate-500">
-                                  <span className="flex items-center gap-1">
-                                    <Calendar className="h-3 w-3" />
-                                    {new Date(content.uploadDate).toLocaleDateString()}
-                                  </span>
-                                  {content.fileSize && (
-                                    <span>{content.fileSize}</span>
-                                  )}
-                                  {selectedContentType === null && (
-                                    <span className={`px-2 py-0.5 rounded-full text-xs font-semibold ${
-                                      content.type === 'theory' ? 'bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300' :
-                                      content.type === 'lab' ? 'bg-green-100 dark:bg-green-900/40 text-green-700 dark:text-green-300' :
-                                      content.type === 'books' ? 'bg-amber-100 dark:bg-amber-900/40 text-amber-700 dark:text-amber-300' :
-                                      content.type === 'videos' ? 'bg-red-100 dark:bg-red-900/40 text-red-700 dark:text-red-300' :
-                                      content.type === 'assignments' ? 'bg-orange-100 dark:bg-orange-900/40 text-orange-700 dark:text-orange-300' :
-                                      'bg-teal-100 dark:bg-teal-900/40 text-teal-700 dark:text-teal-300'
-                                    }`}>
-                                      {content.type.toUpperCase()}
-                                    </span>
-                                  )}
-                                </div>
+                            <div>
+                              <h3 className="text-lg font-semibold mb-1">{content.title}</h3>
+                              <p className="text-sm text-gray-500 mb-2">{content.description}</p>
+                              <div className="flex items-center space-x-4 text-xs text-gray-500">
+                                <span>{new Date(content.uploadDate).toLocaleDateString()}</span>
+                                {content.fileSize && <span>{content.fileSize}</span>}
                               </div>
                             </div>
-                            <button
-                              onClick={() => handleContentView(content)}
-                              className="flex-shrink-0 bg-blue-600 hover:bg-blue-700 text-white py-2.5 px-5 rounded-lg transition-all duration-200 flex items-center gap-2 text-sm font-medium hover:shadow-md"
-                            >
-                              <Eye className="h-4 w-4" />
-                              View
-                            </button>
                           </div>
+                          <button
+                            onClick={() => handleContentView(content)}
+                            className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg transition-all flex items-center space-x-2"
+                          >
+                            <Eye className="h-4 w-4" />
+                            <span>View</span>
+                          </button>
                         </div>
-                      </React.Fragment>
+                      </div>
                     );
                   })}
                 </div>
               ) : (
                 <div className="text-center py-12">
-                  <FileText className="h-16 w-16 text-slate-300 dark:text-slate-600 mx-auto mb-4" />
+                  <FileText className="h-16 w-16 text-gray-600 mx-auto mb-4" />
                   <h3 className="text-xl font-semibold mb-2">No Content Available</h3>
-                  <p className="text-slate-400">
-                    {selectedContentType
-                      ? `No ${selectedContentType} content available for ${selectedSubject.name} yet.`
-                      : `No content available for ${selectedSubject.name} yet. Check back later!`}
+                  <p className="text-gray-400">
+                    Check back later for updates.
                   </p>
                 </div>
               )}

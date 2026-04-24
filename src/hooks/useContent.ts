@@ -28,40 +28,38 @@ export const useSubjects = (year: number | null, semester: number | null, branch
   });
 };
 
-// Hook 2: Fetch ALL content for the selected subject (client-side filtering for counts)
+// Hook 2: Fetch Content ONLY for the selected subject
 export const useSubjectContent = (subjectId: string | undefined, contentType: string | null) => {
-  const query = useQuery({
-    queryKey: ['content', subjectId],
+  return useQuery({
+    queryKey: ['content', subjectId, contentType],
     queryFn: async () => {
       if (!subjectId) return [];
-
-      const { data, error } = await supabase
-        .from('content_items')
+      
+      let query = supabase
+        .from('content_items') // Assuming you named your table 'content_items'
         .select('*')
-        .eq('subject_id', subjectId);
+        .eq('subject_id', subjectId); // Make sure column name matches your DB
 
+      if (contentType) {
+        query = query.eq('type', contentType);
+      }
+
+      const { data, error } = await query;
       if (error) throw error;
-
+      
+      // Map DB snake_case to CamelCase if necessary, or just use as is
       return data.map((item: any) => ({
         id: item.id,
         title: item.title,
         description: item.description,
         type: item.type,
-        subjectId: item.subject_id,
+        subjectId: item.subject_id, // Map DB column to TS type
         viewUrl: item.view_url,
         fileSize: item.file_size,
         uploadDate: item.upload_date,
-        duration: item.duration
+        duration: item.duration // If you have this
       })) as ContentItem[];
     },
-    enabled: !!subjectId,
+    enabled: !!subjectId, // Only run this query when a subject is actually selected
   });
-
-  return {
-    ...query,
-    data: contentType
-      ? (query.data ?? []).filter(item => item.type === contentType)
-      : (query.data ?? []),
-    allData: query.data ?? [],
-  };
 };
