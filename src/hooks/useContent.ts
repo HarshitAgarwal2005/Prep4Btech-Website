@@ -38,7 +38,8 @@ export const useSubjectContent = (subjectId: string | undefined, contentType: st
       let query = supabase
         .from('content_items') // Assuming you named your table 'content_items'
         .select('*')
-        .eq('subject_id', subjectId); // Make sure column name matches your DB
+        .eq('subject_id', subjectId)
+        .order('title', { ascending: true }); // Make sure column name matches your DB
 
       if (contentType) {
         query = query.eq('type', contentType);
