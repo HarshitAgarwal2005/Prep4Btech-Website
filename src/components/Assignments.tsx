@@ -1412,7 +1412,6 @@ const Assignments: React.FC = () => {
   </body>
   </html>
 `);
-
         newWindow.document.close();
       }
     } catch (error) {
