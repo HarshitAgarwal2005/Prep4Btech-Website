@@ -2247,7 +2247,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-AID-CS-IT-CAI-4-SEM-DISCRETE-MATHEMATICS-STRUCTURE-4E1301-JUL-2023',
     year: 2023,
     subjectId: 'cse-s4-dms',
-    downloadUrl: 'https://drive.google.com/file/d/1zb7QBdVtT02Y8c5ZiSZeq2gN03bpiwPU/view?usp=drive_link',
+    downloadUrl: 'https://drive.google.com/file/d/1O9Y2O4_Su7h1njXFUdEeFlZt772ixbX4/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
