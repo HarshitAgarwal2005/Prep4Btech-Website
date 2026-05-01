@@ -2423,7 +2423,7 @@ export const pyqPapers: PYQPaper[] = [
     fileSize: '4.2 MB'
   }, 
   {
-    id: 'paper-8',
+    id: 'paper-1',
     title: 'BTECH-CS-IT-ALL-4-SEM-MICROPROCESSOR-AND-INTERFACES-4E1304-2022',
     year: 2022,
     subjectId: 'cse-s4-mi',
