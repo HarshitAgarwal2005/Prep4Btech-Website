@@ -2328,7 +2328,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-CS-IT-ALL-4-SEM-MICROPROCESSOR-AND-INTERFACES-4E1304-2023',
     year: 2023,
     subjectId: 'cse-s4-mi',
-    downloadUrl: 'https://drive.google.com/file/d/1BdSgNf-1mf8jHqkg17hEKvUF5dlPcK22/view?usp=drive_link',
+    downloadUrl: 'https://drive.google.com/file/d/1sM-Nq_f8OkBUaeOxqoZZ1ep9He1zLChY/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
@@ -2422,6 +2422,15 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   }, 
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-ALL-4-SEM-MICROPROCESSOR-AND-INTERFACES-4E1304-2022',
+    year: 2022,
+    subjectId: 'cse-s4-mi',
+    downloadUrl: 'https://drive.google.com/file/d/13arXkyRbgv60y6YiPiszOqm-5fIEnvFE/view?usp=sharing',
+    uploadDate: '2025-01-15',
+    fileSize: '4.2 MB'
+  },
 
   
 
