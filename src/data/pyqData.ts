@@ -2096,6 +2096,15 @@ export const pyqPapers: PYQPaper[] = [
   },
 
   // 4th semester papers 
+  {
+    id: 'paper-8',
+    title: 'BTECH-CAI-CS-IT-AID-4-SEM-DATABASE-MANAGEMENT-SYSTEM-4E1305-2025',
+    year: 2025,
+    subjectId: 'cse-s4-dbms',
+    downloadUrl: 'https://drive.google.com/file/d/1rqIRNbvHzvwuP4We6IZ75KXXBP5lUpI-/view?usp=sharing',
+    uploadDate: '2026-04-05',
+    fileSize: '1 MB'
+  },
  {
     id: 'paper-8',
     title: 'BTECH-3-SEM-MANAGERIAL-ECONOMICS-AND-FINANCIAL-ACCOUNTING-4E1302-2025',
@@ -2256,7 +2265,7 @@ export const pyqPapers: PYQPaper[] = [
     title: 'BTECH-CAI-CS-IT-AID-4-SEM-DATABASE-MANAGEMENT-SYSTEM-4E1305-JUL-2023',
     year: 2023,
     subjectId: 'cse-s4-dbms',
-    downloadUrl: 'https://drive.google.com/file/d/1OEhhm7pORfEcCW0_YwNKq2YLFFWKT3Zy/view?usp=drive_link',
+    downloadUrl: 'https://drive.google.com/file/d/1kgt1BcqJWotAW0URFsqdcUywDiL8m_7J/view?usp=sharing',
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
