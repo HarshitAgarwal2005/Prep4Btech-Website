@@ -2150,7 +2150,15 @@ export const pyqPapers: PYQPaper[] = [
     uploadDate: '2025-01-15',
     fileSize: '4.2 MB'
   },
-  
+  {
+    id: 'paper-8',
+    title: 'BTECH-CS-IT-AID-CAI-4-SEM-DATA-COMMUNICATION-AND-COMPUTER-NETWORKS-4E1307-2025',
+    year: 2025,
+    subjectId: 'cse-s4-dccn',
+    downloadUrl: 'https://drive.google.com/file/d/1Dv62UY2Cj9H9BLGCNXhXdhu5BJ64WGbQ/view?usp=sharing',
+    uploadDate: '2026-05-09',
+    fileSize: '4.2 MB'
+  },
  // ishke baad dekhna h konse papers upload hua h 
   {
     id: 'paper-8',
